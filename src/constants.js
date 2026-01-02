@@ -1,4 +1,6 @@
 export const POPULAR_DESTINATIONS = [
+  { name: 'Stations of the Cross', icon: '✝️', query: 'Via Dolorosa, Jerusalem' },
+  { name: 'Battle of Gettysburg', icon: '⚔️', query: 'Gettysburg Battlefield, Pennsylvania, USA' },
   { name: 'Colosseum', icon: '🏛️', query: 'Colosseum, Rome, Italy' },
   { name: 'Taj Mahal', icon: '🕌', query: 'Taj Mahal, Agra, India' },
   { name: 'Eiffel Tower', icon: '🗼', query: 'Eiffel Tower, Paris, France' },
