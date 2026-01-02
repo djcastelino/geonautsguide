@@ -64,13 +64,13 @@ export default function ViewerScreen({ data, onReset }) {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Column: Street View */}
-        <div className="lg:col-span-2">
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+        <div className="lg:col-span-2 flex flex-col">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex-1 flex flex-col">
             <div 
               ref={streetViewRef} 
-              className="w-full h-[500px] lg:h-[700px] bg-gray-900 relative"
+              className="w-full h-[500px] lg:h-full lg:flex-1 bg-gray-900 relative"
             >
               {!streetViewAvailable && (
                 <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-gray-800 to-gray-900 text-white">
