@@ -1,0 +1,7 @@
+{
+  "name": "PathFinder",
+  "description": "Explore historic locations through AI-powered narration and interactive Google Street View.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

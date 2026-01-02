@@ -1,0 +1,206 @@
+[
+  {
+    "id": "stations-of-cross",
+    "title": "Stations of the Cross",
+    "category": "Sacred Routes",
+    "description": "Walk the path Jesus took to his crucifixion in Jerusalem",
+    "difficulty": "Moderate",
+    "duration": "45-60 min",
+    "locationCount": 14,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Via_Dolorosa.jpg/330px-Via_Dolorosa.jpg",
+    "locations": [
+      {
+        "id": "station-1",
+        "number": 1,
+        "title": "Jesus is Condemned to Death",
+        "lat": 31.7805,
+        "lng": 35.2359,
+        "wikipediaPage": "Antonia_Fortress",
+        "description": "The site of the Antonia Fortress where Jesus was condemned by Pontius Pilate"
+      },
+      {
+        "id": "station-2",
+        "number": 2,
+        "title": "Jesus Carries His Cross",
+        "lat": 31.7803,
+        "lng": 35.2355,
+        "wikipediaPage": "Via_Dolorosa",
+        "description": "Where Jesus took up the cross to begin his journey"
+      },
+      {
+        "id": "station-3",
+        "number": 3,
+        "title": "Jesus Falls the First Time",
+        "lat": 31.7800,
+        "lng": 35.2350,
+        "wikipediaPage": "Via_Dolorosa",
+        "description": "The first location where Jesus fell under the weight of the cross"
+      },
+      {
+        "id": "station-4",
+        "number": 4,
+        "title": "Jesus Meets His Mother",
+        "lat": 31.7798,
+        "lng": 35.2345,
+        "wikipediaPage": "Via_Dolorosa",
+        "description": "Where Mary encountered her son on the way to Calvary"
+      },
+      {
+        "id": "station-5",
+        "number": 5,
+        "title": "Simon of Cyrene Helps Jesus",
+        "lat": 31.7795,
+        "lng": 35.2340,
+        "wikipediaPage": "Simon_of_Cyrene",
+        "description": "Where Simon was compelled to help carry the cross"
+      },
+      {
+        "id": "station-6",
+        "number": 6,
+        "title": "Veronica Wipes Jesus' Face",
+        "lat": 31.7793,
+        "lng": 35.2335,
+        "wikipediaPage": "Veil_of_Veronica",
+        "description": "Traditional site where Veronica wiped Jesus' face"
+      },
+      {
+        "id": "station-7",
+        "number": 7,
+        "title": "Jesus Falls the Second Time",
+        "lat": 31.7790,
+        "lng": 35.2330,
+        "wikipediaPage": "Via_Dolorosa",
+        "description": "The second fall on the way to Golgotha"
+      },
+      {
+        "id": "station-8",
+        "number": 8,
+        "title": "Jesus Meets the Women of Jerusalem",
+        "lat": 31.7788,
+        "lng": 35.2325,
+        "wikipediaPage": "Via_Dolorosa",
+        "description": "Where Jesus spoke to the women mourning for him"
+      },
+      {
+        "id": "station-9",
+        "number": 9,
+        "title": "Jesus Falls the Third Time",
+        "lat": 31.7786,
+        "lng": 35.2320,
+        "wikipediaPage": "Via_Dolorosa",
+        "description": "The third and final fall before reaching Calvary"
+      },
+      {
+        "id": "station-10",
+        "number": 10,
+        "title": "Jesus is Stripped of His Garments",
+        "lat": 31.7784,
+        "lng": 35.2295,
+        "wikipediaPage": "Church_of_the_Holy_Sepulchre",
+        "description": "Inside the Church of the Holy Sepulchre - preparation for crucifixion"
+      },
+      {
+        "id": "station-11",
+        "number": 11,
+        "title": "Jesus is Nailed to the Cross",
+        "lat": 31.7784,
+        "lng": 35.2293,
+        "wikipediaPage": "Church_of_the_Holy_Sepulchre",
+        "description": "The site of crucifixion at Golgotha"
+      },
+      {
+        "id": "station-12",
+        "number": 12,
+        "title": "Jesus Dies on the Cross",
+        "lat": 31.7784,
+        "lng": 35.2291,
+        "wikipediaPage": "Calvary",
+        "description": "The place of the skull where Jesus gave up his spirit"
+      },
+      {
+        "id": "station-13",
+        "number": 13,
+        "title": "Jesus is Taken Down from the Cross",
+        "lat": 31.7783,
+        "lng": 35.2290,
+        "wikipediaPage": "Church_of_the_Holy_Sepulchre",
+        "description": "The Stone of Anointing where Jesus' body was prepared"
+      },
+      {
+        "id": "station-14",
+        "number": 14,
+        "title": "Jesus is Laid in the Tomb",
+        "lat": 31.7782,
+        "lng": 35.2289,
+        "wikipediaPage": "Church_of_the_Holy_Sepulchre",
+        "description": "The Holy Sepulchre - the tomb where Jesus was buried"
+      }
+    ]
+  },
+  {
+    "id": "battle-of-gettysburg",
+    "title": "Battle of Gettysburg",
+    "category": "Historic Battles",
+    "description": "Explore the turning point of the American Civil War",
+    "difficulty": "Easy",
+    "duration": "30-45 min",
+    "locationCount": 6,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg/330px-Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg",
+    "locations": [
+      {
+        "id": "cemetery-ridge",
+        "number": 1,
+        "title": "Cemetery Ridge",
+        "lat": 39.8114,
+        "lng": -77.2336,
+        "wikipediaPage": "Cemetery_Ridge",
+        "description": "The Union defensive position during the battle"
+      },
+      {
+        "id": "little-round-top",
+        "number": 2,
+        "title": "Little Round Top",
+        "lat": 39.8021,
+        "lng": -77.2363,
+        "wikipediaPage": "Little_Round_Top",
+        "description": "Critical Union position defended by Joshua Chamberlain"
+      },
+      {
+        "id": "devils-den",
+        "number": 3,
+        "title": "Devil's Den",
+        "lat": 39.8017,
+        "lng": -77.2392,
+        "wikipediaPage": "Devil%27s_Den",
+        "description": "Rocky battlefield where fierce fighting occurred"
+      },
+      {
+        "id": "picketts-charge",
+        "number": 4,
+        "title": "Pickett's Charge",
+        "lat": 39.8096,
+        "lng": -77.2344,
+        "wikipediaPage": "Pickett%27s_Charge",
+        "description": "The site of the famous Confederate assault on July 3, 1863"
+      },
+      {
+        "id": "culps-hill",
+        "number": 5,
+        "title": "Culp's Hill",
+        "lat": 39.8173,
+        "lng": -77.2233,
+        "wikipediaPage": "Culp%27s_Hill",
+        "description": "Eastern anchor of the Union line"
+      },
+      {
+        "id": "cemetery-hill",
+        "number": 6,
+        "title": "Cemetery Hill",
+        "lat": 39.8225,
+        "lng": -77.2289,
+        "wikipediaPage": "Cemetery_Hill",
+        "description": "Key Union defensive position on the first day"
+      }
+    ]
+  }
+]

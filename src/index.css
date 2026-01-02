@@ -1,0 +1,6 @@
+/* Tailwind loaded via CDN in index.html - no need for @tailwind directives */
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}

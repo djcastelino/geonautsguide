@@ -1,0 +1,122 @@
+{
+  "name": "PathFinder AI Narrator",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "pathfinder-narration",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "url": "=https://en.wikipedia.org/api/rest_v1/page/summary/{{ $json.body.wikipediaPage }}",
+        "options": {}
+      },
+      "id": "get-wikipedia",
+      "name": "Get Wikipedia Info",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [470, 300]
+    },
+    {
+      "parameters": {
+        "model": "llama-3.3-70b-versatile",
+        "messages": {
+          "values": [
+            {
+              "content": "=You are an engaging historical tour guide. The user is virtually visiting: {{ $json.body.locationTitle }}\n\nLocation description: {{ $json.body.locationDescription }}\n\nHistorical context from Wikipedia: {{ $('Get Wikipedia Info').item.json.extract }}\n\nCreate a 2-3 sentence engaging narration as if you're a tour guide standing at this location. Make it immersive and storytelling. Include:\n- Vivid imagery (\"Imagine standing here...\")\n- Historical significance\n- Emotional connection\n\nBe conversational and inspiring, not academic."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.8
+        }
+      },
+      "id": "groq-ai",
+      "name": "Groq AI Narrator",
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [690, 300],
+      "credentials": {
+        "groqApi": {
+          "id": "your-groq-credential-id",
+          "name": "Groq API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const webhookData = $('Webhook').item.json.body;\nconst wikipediaData = $('Get Wikipedia Info').item.json;\nconst aiNarration = $('Groq AI Narrator').item.json.response;\n\nreturn {\n  pathId: webhookData.pathId,\n  locationId: webhookData.locationId,\n  locationTitle: webhookData.locationTitle,\n  narration: aiNarration,\n  historicalContext: {\n    title: wikipediaData.title,\n    extract: wikipediaData.extract,\n    thumbnail: wikipediaData.thumbnail?.source || null,\n    url: wikipediaData.content_urls?.desktop?.page || null\n  },\n  timestamp: new Date().toISOString()\n};"
+      },
+      "id": "format-response",
+      "name": "Format Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [910, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}"
+      },
+      "id": "respond",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [1130, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Get Wikipedia Info",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Wikipedia Info": {
+      "main": [
+        [
+          {
+            "node": "Groq AI Narrator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq AI Narrator": {
+      "main": [
+        [
+          {
+            "node": "Format Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Response": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
