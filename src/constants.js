@@ -5,6 +5,6 @@ export const POPULAR_DESTINATIONS = [
   { name: 'Giza Pyramids', icon: '🔺', query: 'Pyramids of Giza, Egypt' },
   { name: 'Machu Picchu', icon: '⛰️', query: 'Machu Picchu, Peru' },
   { name: 'Statue of Liberty', icon: '🗽', query: 'Statue of Liberty, New York, USA' },
-  { name: 'Petra', icon: '🏜️', query: 'Petra, Jordan' },
+  { name: 'Big Ben', icon: '🕰️', query: 'Big Ben, London, United Kingdom' },
   { name: 'Great Wall', icon: '🧱', query: 'Great Wall of China, China' }
 ];
