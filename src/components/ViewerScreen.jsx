@@ -82,10 +82,21 @@ export default function ViewerScreen({ data, onReset }) {
       return;
     }
 
-    // Generate Google TTS on-demand
+    // Generate Google TTS on-demand with voice variety
     try {
       console.log('Generating Google TTS audio on-demand...');
       setIsPlaying(true); // Show loading state
+      
+      // Randomly select voice for variety
+      const voices = [
+        { name: 'en-US-Wavenet-D', gender: 'MALE' },
+        { name: 'en-US-Wavenet-J', gender: 'MALE' },
+        { name: 'en-US-Wavenet-F', gender: 'FEMALE' },
+        { name: 'en-US-Wavenet-H', gender: 'FEMALE' },
+        { name: 'en-GB-Wavenet-B', gender: 'MALE' } // British male
+      ];
+      const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
+      console.log('Selected voice:', selectedVoice.name, selectedVoice.gender);
       
       const response = await fetch(
         `https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyDLcDOKopyll9ByGplOcQ6sEUx3CYbLphU`,
@@ -95,9 +106,9 @@ export default function ViewerScreen({ data, onReset }) {
           body: JSON.stringify({
             input: { text: data.narration },
             voice: {
-              languageCode: 'en-US',
-              name: 'en-US-Wavenet-D',
-              ssmlGender: 'MALE'
+              languageCode: selectedVoice.name.startsWith('en-GB') ? 'en-GB' : 'en-US',
+              name: selectedVoice.name,
+              ssmlGender: selectedVoice.gender
             },
             audioConfig: {
               audioEncoding: 'MP3',
