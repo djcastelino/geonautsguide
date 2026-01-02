@@ -1,9 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
-import { BookOpen, MapPin, ExternalLink, Bot, RotateCcw, AlertCircle } from 'lucide-react';
+import { BookOpen, MapPin, ExternalLink, Bot, RotateCcw, AlertCircle, Volume2, VolumeX, Pause } from 'lucide-react';
 
 export default function ViewerScreen({ data, onReset }) {
   const streetViewRef = useRef(null);
   const [streetViewAvailable, setStreetViewAvailable] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
+  const utteranceRef = useRef(null);
 
   useEffect(() => {
     const loadStreetView = () => {
@@ -61,6 +64,55 @@ export default function ViewerScreen({ data, onReset }) {
       return () => clearInterval(checkInterval);
     }
   }, [data]);
+
+  // TTS Audio Functions
+  const handlePlayAudio = () => {
+    if (isPaused) {
+      window.speechSynthesis.resume();
+      setIsPaused(false);
+      setIsPlaying(true);
+    } else {
+      // Stop any existing speech
+      window.speechSynthesis.cancel();
+      
+      const utterance = new SpeechSynthesisUtterance(data.narration);
+      utterance.rate = 0.85; // Slightly slower for tour guide feel
+      utterance.pitch = 1.0;
+      utterance.volume = 1.0;
+      
+      utterance.onstart = () => setIsPlaying(true);
+      utterance.onend = () => {
+        setIsPlaying(false);
+        setIsPaused(false);
+      };
+      utterance.onerror = () => {
+        setIsPlaying(false);
+        setIsPaused(false);
+      };
+      
+      utteranceRef.current = utterance;
+      window.speechSynthesis.speak(utterance);
+    }
+  };
+
+  const handlePauseAudio = () => {
+    window.speechSynthesis.pause();
+    setIsPaused(true);
+    setIsPlaying(false);
+  };
+
+  const handleStopAudio = () => {
+    window.speechSynthesis.cancel();
+    setIsPlaying(false);
+    setIsPaused(false);
+  };
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      window.speechSynthesis.cancel();
+    };
+  }, []);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
@@ -122,9 +174,53 @@ export default function ViewerScreen({ data, onReset }) {
               <Bot className="w-32 h-32" />
             </div>
             <div className="relative z-10 space-y-4">
-              <div className="flex items-center gap-2 bg-white/20 w-fit px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-                <Bot className="w-3 h-3" />
-                AI Tour Guide
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 bg-white/20 w-fit px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                  <Bot className="w-3 h-3" />
+                  AI Tour Guide
+                </div>
+                <div className="flex items-center gap-2">
+                  {!isPlaying && !isPaused && (
+                    <button
+                      onClick={handlePlayAudio}
+                      className="flex items-center gap-1.5 bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-lg text-sm font-semibold transition-all"
+                      title="Play Audio Tour"
+                    >
+                      <Volume2 className="w-4 h-4" />
+                      Play
+                    </button>
+                  )}
+                  {isPlaying && (
+                    <button
+                      onClick={handlePauseAudio}
+                      className="flex items-center gap-1.5 bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-lg text-sm font-semibold transition-all"
+                      title="Pause Audio"
+                    >
+                      <Pause className="w-4 h-4" />
+                      Pause
+                    </button>
+                  )}
+                  {isPaused && (
+                    <button
+                      onClick={handlePlayAudio}
+                      className="flex items-center gap-1.5 bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-lg text-sm font-semibold transition-all"
+                      title="Resume Audio"
+                    >
+                      <Volume2 className="w-4 h-4" />
+                      Resume
+                    </button>
+                  )}
+                  {(isPlaying || isPaused) && (
+                    <button
+                      onClick={handleStopAudio}
+                      className="flex items-center gap-1.5 bg-red-500/80 hover:bg-red-600 px-3 py-1.5 rounded-lg text-sm font-semibold transition-all"
+                      title="Stop Audio"
+                    >
+                      <VolumeX className="w-4 h-4" />
+                      Stop
+                    </button>
+                  )}
+                </div>
               </div>
               <p className="text-lg font-medium leading-relaxed italic">
                 "{data.narration}"
