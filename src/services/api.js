@@ -103,6 +103,7 @@ export const generateNarration = async (locationName, wikiContext, wikipediaPage
       requestBody.stationName = stationContext.stationName;
       requestBody.stationDescription = stationContext.stationDescription;
       requestBody.tourName = stationContext.tourName;
+      requestBody.currentLandmark = stationContext.currentLandmark;
       requestBody.isTourStop = true;
     }
     

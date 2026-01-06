@@ -103,7 +103,8 @@ function App() {
       const stationContext = {
         stationName: stop.name,
         stationDescription: stop.description,
-        tourName: tour.name
+        tourName: tour.name,
+        currentLandmark: stop.landmark
       };
       const locationData = await loadLocationData(stop.query, stationContext);
       
