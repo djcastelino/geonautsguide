@@ -74,13 +74,9 @@ function App() {
       const tour = GUIDED_TOURS.find(t => t.id === tourId);
       if (tour) {
         setActiveTour(tour);
-        setCurrentStop(0);
+        setCurrentStop(-1); // No station selected initially
         setCurrentView('tour');
-        // Load first stop
-        const locationData = await loadLocationData(tour.stops[0].query);
-        if (locationData) {
-          setLocationData(locationData);
-        }
+        setLocationData(null); // Clear any previous location
         setIsLoading(false);
         return;
       }
