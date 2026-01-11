@@ -26,11 +26,38 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack }) {
 
     setIsGeneratingAudio(true);
     try {
+      // === AZURE TTS (Active) ===
       const voices = [
-        { name: 'en-US-Neural2-D', gender: 'MALE' },  // Natural, clear male voice
-        { name: 'en-US-Neural2-J', gender: 'MALE' },  // Warm, friendly male voice
-        { name: 'en-US-Neural2-A', gender: 'MALE' },  // Deep, authoritative male voice
-        { name: 'en-US-Neural2-I', gender: 'MALE' }   // Smooth, professional male voice
+        'en-US-AndrewMultilingualNeural',  // Natural, clear male voice
+        'en-US-EmmaMultilingualNeural'      // Warm, natural female voice
+      ];
+      const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
+      
+      const azureKey = import.meta.env.VITE_AZURE_SPEECH_KEY;
+      const azureRegion = import.meta.env.VITE_AZURE_SPEECH_REGION;
+      
+      const response = await fetch(
+        `https://${azureRegion}.tts.speech.microsoft.com/cognitiveservices/v1`,
+        {
+          method: 'POST',
+          headers: {
+            'Ocp-Apim-Subscription-Key': azureKey,
+            'Content-Type': 'application/ssml+xml',
+            'X-Microsoft-OutputFormat': 'audio-24khz-48kbitrate-mono-mp3'
+          },
+          body: `<speak version='1.0' xml:lang='en-US'><voice xml:lang='en-US' name='${selectedVoice}'>${narration}</voice></speak>`
+        }
+      );
+
+      const audioBlob = await response.blob();
+      
+      // === GOOGLE TTS (Backup - Commented Out) ===
+      /*
+      const voices = [
+        { name: 'en-US-Neural2-D', gender: 'MALE' },
+        { name: 'en-US-Neural2-J', gender: 'MALE' },
+        { name: 'en-US-Neural2-A', gender: 'MALE' },
+        { name: 'en-US-Neural2-I', gender: 'MALE' }
       ];
       const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
       
@@ -42,7 +69,7 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack }) {
           body: JSON.stringify({
             input: { text: narration },
             voice: {
-              languageCode: selectedVoice.name.startsWith('en-GB') ? 'en-GB' : 'en-US',
+              languageCode: 'en-US',
               name: selectedVoice.name,
               ssmlGender: selectedVoice.gender
             },
@@ -54,17 +81,25 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack }) {
           })
         }
       );
-
       const ttsData = await response.json();
+      */
       
-      if (ttsData.audioContent) {
-        const audioData = atob(ttsData.audioContent);
-        const arrayBuffer = new Uint8Array(audioData.length);
-        for (let i = 0; i < audioData.length; i++) {
-          arrayBuffer[i] = audioData.charCodeAt(i);
+      // Azure returns audio blob directly
+      if (audioBlob) {
+        const audioUrl = URL.createObjectURL(audioBlob);
+        
+        // === For Google TTS (when uncommented above) ===
+        /*
+        if (ttsData.audioContent) {
+          const audioData = atob(ttsData.audioContent);
+          const arrayBuffer = new Uint8Array(audioData.length);
+          for (let i = 0; i < audioData.length; i++) {
+            arrayBuffer[i] = audioData.charCodeAt(i);
+          }
+          const blob = new Blob([arrayBuffer], { type: 'audio/mp3' });
+          const audioUrl = URL.createObjectURL(blob);
         }
-        const blob = new Blob([arrayBuffer], { type: 'audio/mp3' });
-        const audioUrl = URL.createObjectURL(blob);
+        */
         
         const audio = new Audio(audioUrl);
         audio.onloadedmetadata = () => setDuration(audio.duration);
