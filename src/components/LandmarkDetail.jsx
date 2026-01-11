@@ -317,7 +317,7 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack }) {
                 🗺️ View on Map
               </a>
               <a
-                href={`https://en.wikipedia.org/wiki/${encodeURIComponent(landmark.name.replace(/ /g, '_'))}`}
+                href={`https://en.wikipedia.org/wiki/${landmark.name.replace(/ /g, '_')}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-center"
