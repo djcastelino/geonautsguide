@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { getDailyLandmark, getQuizQuestions, updateStreak, getStreakData, isTodayChallengeCompleted } from '../utils/dailyChallenge';
 
-const DailyChallenge = ({ landmarks, onStartChallenge, onClose }) => {
+const DailyChallenge = ({ landmarks, onStartChallenge, onClose, startWithQuiz = false }) => {
   const [dailyLandmark, setDailyLandmark] = useState(null);
-  const [step, setStep] = useState('intro'); // 'intro', 'quiz', 'complete'
+  const [step, setStep] = useState(startWithQuiz ? 'quiz' : 'intro'); // 'intro', 'quiz', 'complete'
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
