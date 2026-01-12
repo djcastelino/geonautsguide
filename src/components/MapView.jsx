@@ -49,12 +49,14 @@ const MapView = ({ landmarks, onLandmarkSelect, selectedCategory }) => {
   return (
     <div className="h-[600px] lg:h-[700px] w-full rounded-2xl overflow-hidden shadow-xl border-2 border-gray-200">
       <MapContainer
+        key="landmark-map" // Key forces proper rendering
         center={[20, 0]}
         zoom={2}
         className="h-full w-full"
         minZoom={2}
         maxZoom={18}
         worldCopyJump={true}
+        style={{ height: '100%', width: '100%' }}
       >
         <MapResizer />
         <TileLayer

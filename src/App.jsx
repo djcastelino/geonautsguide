@@ -43,11 +43,19 @@ function App() {
         landmarkContext
       );
       
+      console.log('Generated narration:', narration);
+      
+      if (!narration || !narration.narration) {
+        throw new Error('No narration text received from API');
+      }
+      
       setNarrationData(narration);
       setCurrentView('detail');
     } catch (err) {
       console.error('Failed to load narration:', err);
-      setError('Failed to load narration. Please try again.');
+      setError(`Failed to load narration: ${err.message}. Please try again.`);
+      setCurrentView('grid'); // Stay on grid view if error
+      setIsDailyChallenge(false);
     } finally {
       setIsLoading(false);
     }
@@ -111,7 +119,10 @@ function App() {
             <div className="mt-8">
               <ChallengeBanner
                 landmarks={landmarksData.landmarks}
-                onClick={() => setShowChallenge(true)}
+                onClick={() => {
+                  setViewMode('grid'); // Switch to grid view to prevent map interference
+                  setShowChallenge(true);
+                }}
               />
             </div>
 
