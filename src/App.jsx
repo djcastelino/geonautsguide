@@ -82,6 +82,7 @@ function App() {
   const handleChallengeStart = async (landmark) => {
     // Mark this as a daily challenge and start the audio tour
     setIsDailyChallenge(true);
+    setSelectedLandmark(landmark); // Set the landmark so detail view can render
     await loadLandmarkNarration(landmark);
   };
 
