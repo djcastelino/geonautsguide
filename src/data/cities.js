@@ -2338,29 +2338,7 @@ export const CITIES = [
     funFact: "Marrakech was founded in 1070 and has walls that stretch 19 kilometers around the old city! The city is called the 'Red City' because almost all buildings in the old town are required by law to be painted in red ochre. It has over 900 traditional riads (courtyard houses).",
     funFactSource: "Morocco Tourism",
     funFactSourceUrl: "https://www.visitmorocco.com/"
-  }
-];
-
-// Helper function to get city by ID
-export function getCityById(id) {
-  return CITIES.find(city => city.id === id);
-}
-
-// Helper function to get all city names
-export function getAllCityNames() {
-  return CITIES.map(city => city.name);
-}
-
-// Helper function to get daily city
-export function getDailyCity(date = new Date()) {
-  const epochDate = new Date('2024-12-01');
-  const daysSinceEpoch = Math.floor(
-    (date.getTime() - epochDate.getTime()) / (1000 * 60 * 60 * 24)
-  );
-  
-  const index = daysSinceEpoch % CITIES.length;
-  return CITIES[index];
-},
+  },
 
   {
     id: 106,
@@ -5551,4 +5529,25 @@ export function getDailyCity(date = new Date()) {
     funFactSource: "Tourism Victoria",
     funFactSourceUrl: "https://www.tourismvictoria.com/"
   }
+];
 
+// Helper function to get city by ID
+export function getCityById(id) {
+  return CITIES.find(city => city.id === id);
+}
+
+// Helper function to get all city names
+export function getAllCityNames() {
+  return CITIES.map(city => city.name);
+}
+
+// Helper function to get daily city
+export function getDailyCity(date = new Date()) {
+  const epochDate = new Date('2024-12-01');
+  const daysSinceEpoch = Math.floor(
+    (date.getTime() - epochDate.getTime()) / (1000 * 60 * 60 * 24)
+  );
+  
+  const index = daysSinceEpoch % CITIES.length;
+  return CITIES[index];
+}
