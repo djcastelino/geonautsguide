@@ -6,6 +6,7 @@ import MapView from './components/MapView';
 import DailyChallenge from './components/DailyChallenge';
 import ChallengeBanner from './components/ChallengeBanner';
 import TripPlanner from './components/TripPlanner';
+import CityGuess from './components/CityGuess';
 import { fetchWikipediaSummary, generateNarration } from './services/api';
 import landmarksData from './data/landmarks.json';
 
@@ -161,6 +162,16 @@ function App() {
                 >
                   ✈️ Planner
                 </button>
+                <button
+                  onClick={() => toggleViewMode('cityguess')}
+                  className={`flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold transition-all text-sm sm:text-base ${
+                    viewMode === 'cityguess'
+                      ? 'bg-blue-600 text-white shadow-lg scale-105'
+                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-blue-300 hover:bg-blue-50'
+                  }`}
+                >
+                  🌍 City Guess
+                </button>
               </div>
             </div>
 
@@ -179,8 +190,10 @@ function App() {
                   selectedCategory="All"
                 />
               </div>
-            ) : (
+            ) : viewMode === 'planner' ? (
               <TripPlanner landmarks={landmarksData.landmarks} />
+            ) : (
+              <CityGuess />
             )}
           </div>
         ) : currentView === 'detail' && selectedLandmark && narrationData ? (
