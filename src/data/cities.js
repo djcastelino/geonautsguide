@@ -7728,6 +7728,336 @@ export const CITIES = [
     funFact: "Turin is Italy's chocolate capital - invented gianduiotto and Nutella! The Shroud of Turin is kept in the cathedral. Turin has the world's best Egyptian Museum outside Egypt. The city was Italy's first capital in 1861. Fiat was founded here in 1899. Turin hosted 2006 Winter Olympics!",
     funFactSource: "Turin Tourism",
     funFactSourceUrl: "https://www.turismotorino.org/"
+  },
+
+  {
+    id: 351,
+    name: "Valencia",
+    continent: "Europe",
+    country: "Spain",
+    difficulty: "medium",
+    clues: [
+      "Spanish coastal city famous for paella",
+      "Mediterranean port with futuristic City of Arts",
+      "Known for modern architecture, beaches, and oranges",
+      "The Mediterranean Sea borders this innovative Spanish city",
+      "Spanish city birthplace of paella and Las Fallas festival",
+      "Spain's third-largest city with futuristic complex"
+    ],
+    waterFeature: "Mediterranean Sea, Turia River (dry riverbed)",
+    population: "790,000 (1.8M metro)",
+    famousFor: "Paella, City of Arts and Sciences, Las Fallas, beaches, oranges",
+    funFact: "Valencia is the birthplace of paella - the world's most famous Spanish dish! The City of Arts and Sciences was designed by Santiago Calatrava. Las Fallas festival burns giant sculptures worth millions. The Turia riverbed was turned into Europe's largest urban park after a flood. Valencia produces most of Spain's oranges!",
+    funFactSource: "Visit Valencia",
+    funFactSourceUrl: "https://www.visitvalencia.com/"
+  },
+
+  {
+    id: 352,
+    name: "Hanoi",
+    continent: "Asia",
+    country: "Vietnam",
+    difficulty: "medium",
+    clues: [
+      "Vietnamese capital with thousand-year history",
+      "Southeast Asian city with French colonial influence",
+      "Known for Old Quarter, street food, and lakes",
+      "Hoan Kiem Lake sits at the heart of this capital",
+      "Vietnamese capital with Temple of Literature and motorbikes",
+      "Vietnam's capital city older than Ho Chi Minh City"
+    ],
+    waterFeature: "Red River, Hoan Kiem Lake, West Lake",
+    population: "8.2 million (8.5M metro)",
+    famousFor: "Old Quarter, Hoan Kiem Lake, street food, French architecture, motorbikes",
+    funFact: "Hanoi is over 1,000 years old - one of Asia's oldest capitals! The Old Quarter has 36 streets named after ancient guilds. Hoan Kiem Lake has a legendary giant turtle. Hanoi has incredible street food with pho invented here. The city has 5+ million motorbikes!",
+    funFactSource: "Vietnam Tourism",
+    funFactSourceUrl: "https://vietnam.travel/"
+  },
+
+  {
+    id: 353,
+    name: "Salzburg",
+    continent: "Europe",
+    country: "Austria",
+    difficulty: "medium",
+    clues: [
+      "Austrian city birthplace of Mozart",
+      "Alpine city famous for Sound of Music",
+      "Known for baroque architecture, fortress, and music festivals",
+      "The Salzach River flows through this musical city",
+      "Austrian city with Hohensalzburg Fortress and Mozart's house",
+      "Austria's fourth-largest city in the Alps"
+    ],
+    waterFeature: "Salzach River",
+    population: "155,000 (550K metro)",
+    famousFor: "Mozart, Sound of Music, fortress, baroque Old Town, music festivals",
+    funFact: "Salzburg means 'Salt Castle' - the city's wealth came from salt mining! Mozart was born here in 1756. The Sound of Music was filmed here in 1964. Hohensalzburg Fortress is one of Europe's largest medieval castles. The Salzburg Festival is one of the world's most prestigious music events!",
+    funFactSource: "Salzburg Tourism",
+    funFactSourceUrl: "https://www.salzburg.info/"
+  },
+
+  {
+    id: 354,
+    name: "Bangalore",
+    continent: "Asia",
+    country: "India",
+    difficulty: "medium",
+    clues: [
+      "Indian tech hub known as 'Silicon Valley of India'",
+      "South Indian city famous for IT and startups",
+      "Known for pleasant weather, gardens, and innovation",
+      "This Indian city is the tech capital with moderate climate",
+      "Indian city with Infosys, tech parks, and green spaces",
+      "India's IT capital with best weather"
+    ],
+    waterFeature: "Arkavathi River, Vrishabhavathi River",
+    population: "12.3 million (13M metro)",
+    famousFor: "Tech industry, startups, gardens, pleasant climate, pubs, Infosys",
+    funFact: "Bangalore is India's Silicon Valley with over 60% of IT exports! The city has the best weather in India with year-round moderate temperatures. Bangalore has more pubs than any Indian city. The city is called 'Garden City' with 800+ parks. Infosys and Wipro are headquartered here!",
+    funFactSource: "Karnataka Tourism",
+    funFactSourceUrl: "https://www.karnatakatourism.org/"
+  },
+
+  {
+    id: 355,
+    name: "Cartagena",
+    continent: "South America",
+    country: "Colombia",
+    difficulty: "hard",
+    clues: [
+      "Colombian Caribbean port with walled colonial city",
+      "South American coastal city with colorful balconies",
+      "Known for colonial architecture, beaches, and salsa",
+      "The Caribbean Sea surrounds this fortified city",
+      "Colombian city with 400-year-old walls and forts",
+      "Colombia's coastal gem with UNESCO Old Town"
+    ],
+    waterFeature: "Caribbean Sea",
+    population: "1 million (1.2M metro)",
+    famousFor: "Walled Old Town, colonial architecture, beaches, salsa, Gabriel García Márquez",
+    funFact: "Cartagena has the most complete colonial fortifications in South America! The city walls took 208 years to build. Gabriel García Márquez lived here and set novels in Cartagena. Pirates constantly attacked - hence the massive fortifications. The city is nicknamed 'The Heroic' for independence battles!",
+    funFactSource: "Colombia Travel",
+    funFactSourceUrl: "https://www.colombia.travel/"
+  },
+
+  {
+    id: 356,
+    name: "Split",
+    continent: "Europe",
+    country: "Croatia",
+    difficulty: "hard",
+    clues: [
+      "Croatian Adriatic city built around Roman palace",
+      "Mediterranean port with 1,700-year-old palace core",
+      "Known for Diocletian's Palace and island-hopping",
+      "The Adriatic Sea borders this ancient Roman city",
+      "Croatian city where palace became the old town",
+      "Croatia's second city with Roman emperor's palace"
+    ],
+    waterFeature: "Adriatic Sea",
+    population: "178,000 (350K metro)",
+    famousFor: "Diocletian's Palace, Roman ruins, beaches, Game of Thrones, islands",
+    funFact: "Split's Old Town is literally built inside a 1,700-year-old Roman palace! Emperor Diocletian retired here in 305 AD. The palace covers 30,000 square meters. Game of Thrones filmed dragon scenes here. People still live and work inside the ancient palace walls!",
+    funFactSource: "Split Tourism",
+    funFactSourceUrl: "https://visitsplit.com/"
+  },
+
+  {
+    id: 357,
+    name: "Petra",
+    continent: "Asia",
+    country: "Jordan",
+    difficulty: "medium",
+    clues: [
+      "Jordanian ancient city carved into red rock cliffs",
+      "Middle Eastern archaeological site called 'Rose City'",
+      "Known as one of New 7 Wonders of the World",
+      "This rose-red city is half as old as time",
+      "Ancient Nabataean city with Treasury carved in stone",
+      "Jordan's famous rock-cut city from 300 BC"
+    ],
+    waterFeature: "Wadi Musa (seasonal stream)",
+    population: "Archaeological site (nearby town 30,000)",
+    famousFor: "Treasury, rock-cut architecture, New 7 Wonders, Indiana Jones",
+    funFact: "Petra was 'lost' to the Western world for 500 years until 1812! The Treasury was carved from a single rock face around 100 AD. Petra means 'rock' in Greek. The city had 20,000+ inhabitants at its peak. Indiana Jones and the Last Crusade filmed here!",
+    funFactSource: "Jordan Tourism",
+    funFactSourceUrl: "https://www.visitjordan.com/"
+  },
+
+  {
+    id: 358,
+    name: "Quito",
+    continent: "South America",
+    country: "Ecuador",
+    difficulty: "hard",
+    clues: [
+      "Ecuadorian capital closest to the equator",
+      "South American high-altitude capital in Andes",
+      "Known for colonial center and being on the equator line",
+      "This Andean capital sits at 9,350 feet elevation",
+      "Ecuadorian capital with best-preserved colonial center",
+      "Ecuador's capital near the middle of the Earth"
+    ],
+    waterFeature: "Guayllabamba River, Machángara River",
+    population: "2.8 million (2.8M metro)",
+    famousFor: "Equator line, colonial Old Town, altitude, volcanoes, Middle of the World",
+    funFact: "Quito is the world's closest capital to the equator and second-highest capital! The Old Town is the best-preserved colonial center in South America. The Equator monument 'Mitad del Mundo' is actually 240m off the real line. Quito is surrounded by active volcanoes. The city was founded on Inca ruins!",
+    funFactSource: "Ecuador Tourism",
+    funFactSourceUrl: "https://www.ecuador.travel/"
+  },
+
+  {
+    id: 359,
+    name: "Queenstown",
+    continent: "Oceania",
+    country: "New Zealand",
+    difficulty: "medium",
+    clues: [
+      "New Zealand adventure capital on alpine lake",
+      "South Island town famous for extreme sports",
+      "Known for bungee jumping, skiing, and Lord of the Rings",
+      "Lake Wakatipu reflects this mountain-ringed town",
+      "New Zealand town birthplace of commercial bungee",
+      "NZ's adventure capital with stunning scenery"
+    ],
+    waterFeature: "Lake Wakatipu",
+    population: "16,000 (50K metro)",
+    famousFor: "Bungee jumping, skiing, adventure sports, Lord of the Rings, scenery",
+    funFact: "Queenstown is the birthplace of commercial bungee jumping from Kawarau Bridge! The town has more adventure activities per capita than anywhere on Earth. Lord of the Rings filmed extensively nearby. Lake Wakatipu is Z-shaped and New Zealand's third-largest. The town has 220+ bars and restaurants for 16,000 people!",
+    funFactSource: "Queenstown NZ",
+    funFactSourceUrl: "https://www.queenstownnz.co.nz/"
+  },
+
+  {
+    id: 360,
+    name: "Luxembourg City",
+    continent: "Europe",
+    country: "Luxembourg",
+    difficulty: "hard",
+    clues: [
+      "European microstate capital with medieval fortress",
+      "Small nation capital known for banking and EU",
+      "Known for casemates, gorge, and wealth",
+      "The Alzette and Pétrusse rivers flow through gorges here",
+      "Capital of Europe's wealthiest country per capita",
+      "Tiny country's capital with UNESCO fortifications"
+    ],
+    waterFeature: "Alzette River, Pétrusse River",
+    population: "125,000 (630K metro)",
+    famousFor: "Casemates, fortress, banking, EU institutions, wealth, gorge views",
+    funFact: "Luxembourg is the world's richest country per capita! The city has 17km of underground tunnels called casemates. Luxembourg is the only Grand Duchy left in the world. The city hosts major EU institutions. Despite 125K residents, 200K+ commute in daily for work!",
+    funFactSource: "Visit Luxembourg",
+    funFactSourceUrl: "https://www.visitluxembourg.com/"
+  },
+
+  {
+    id: 361,
+    name: "Santorini",
+    continent: "Europe",
+    country: "Greece",
+    difficulty: "easy",
+    clues: [
+      "Greek island famous for white and blue architecture",
+      "Aegean island with cliffside towns and sunsets",
+      "Known for whitewashed buildings, volcanic beaches, and wine",
+      "The Aegean Sea surrounds this crescent-shaped volcanic island",
+      "Greek island with iconic blue-domed churches and caldera",
+      "Greece's most photographed island with sunset views"
+    ],
+    waterFeature: "Aegean Sea",
+    population: "15,000 (swells to 50K+ in summer)",
+    famousFor: "Caldera, sunsets, white architecture, blue domes, wine, volcanic beaches",
+    funFact: "Santorini is the remains of a volcanic caldera from a massive eruption 3,600 years ago! The eruption may have destroyed the Minoan civilization and inspired Atlantis legend. The island produces unique volcanic wine. Oia has the world's most photographed sunset. Santorini's beaches are black, red, and white from volcanic sand!",
+    funFactSource: "Visit Greece",
+    funFactSourceUrl: "https://www.visitgreece.gr/"
+  },
+
+  {
+    id: 362,
+    name: "Chiang Mai",
+    continent: "Asia",
+    country: "Thailand",
+    difficulty: "medium",
+    clues: [
+      "Northern Thai city surrounded by mountains and temples",
+      "Southeast Asian city famous for digital nomads and elephants",
+      "Known for night bazaar, lantern festivals, and Wat Phra That",
+      "The Ping River flows through this temple-filled city",
+      "Thai city with 300+ temples and Yi Peng festival",
+      "Thailand's northern cultural capital in mountains"
+    ],
+    waterFeature: "Ping River",
+    population: "1.2 million (1.2M metro)",
+    famousFor: "Temples, Yi Peng lantern festival, night bazaar, elephants, digital nomads",
+    funFact: "Chiang Mai has over 300 Buddhist temples! The Yi Peng lantern festival releases thousands of floating lanterns simultaneously. The city is a digital nomad hub with incredibly low cost of living. Chiang Mai was capital of the Lanna Kingdom for 500 years. The night bazaar is one of Asia's best markets!",
+    funFactSource: "Thailand Tourism",
+    funFactSourceUrl: "https://www.tourismthailand.org/"
+  },
+
+  {
+    id: 363,
+    name: "San Sebastián",
+    continent: "Europe",
+    country: "Spain",
+    difficulty: "hard",
+    clues: [
+      "Spanish Basque coastal city famous for pintxos",
+      "Bay of Biscay resort with shell-shaped beach",
+      "Known for having most Michelin stars per capita",
+      "La Concha Bay curves around this gastronomic capital",
+      "Spanish city with world-class food and film festival",
+      "Basque Country's culinary capital on Atlantic"
+    ],
+    waterFeature: "Bay of Biscay, Cantabrian Sea",
+    population: "186,000 (420K metro)",
+    famousFor: "Pintxos, Michelin stars, La Concha beach, film festival, Basque cuisine",
+    funFact: "San Sebastián has the most Michelin stars per capita in the world! The city has 16 Michelin stars for 186K people. Pintxos (Basque tapas) culture is legendary here. La Concha is one of Europe's best urban beaches. The city hosts a major international film festival. San Sebastián was Spanish royalty's summer capital!",
+    funFactSource: "San Sebastián Tourism",
+    funFactSourceUrl: "https://www.sansebastianturismo.com/"
+  },
+
+  {
+    id: 364,
+    name: "Hoi An",
+    continent: "Asia",
+    country: "Vietnam",
+    difficulty: "hard",
+    clues: [
+      "Vietnamese ancient town with lanterns and tailors",
+      "Southeast Asian port preserved from 15th century",
+      "Known for Japanese Bridge, lanterns, and custom clothing",
+      "The Thu Bon River flows through this UNESCO town",
+      "Vietnamese town where everything is lit by lanterns at night",
+      "Vietnam's best-preserved trading port with yellow buildings"
+    ],
+    waterFeature: "Thu Bon River, South China Sea (nearby)",
+    population: "152,000",
+    famousFor: "Lanterns, Japanese Bridge, tailor shops, Old Town, Full Moon Festival",
+    funFact: "Hoi An Ancient Town is a UNESCO site that banned cars and motorbikes! The town is lit entirely by silk lanterns at night - magical. Over 400 tailor shops can make custom suits in 24 hours. The Japanese Covered Bridge dates to the 1590s. Hoi An was a major port connecting Asia and Europe for 500 years!",
+    funFactSource: "Vietnam Tourism",
+    funFactSourceUrl: "https://vietnam.travel/"
+  },
+
+  {
+    id: 365,
+    name: "Amalfi Coast",
+    continent: "Europe",
+    country: "Italy",
+    difficulty: "medium",
+    clues: [
+      "Italian dramatic coastline with cliffside villages",
+      "Mediterranean coast famous for colorful towns and lemons",
+      "Known for Positano, winding roads, and stunning views",
+      "The Tyrrhenian Sea crashes against these dramatic cliffs",
+      "Italian coastal region with vertical towns and limoncello",
+      "Italy's most beautiful coastline south of Naples"
+    ],
+    waterFeature: "Tyrrhenian Sea, Mediterranean Sea",
+    population: "Regional area (Amalfi town 5,000)",
+    famousFor: "Positano, Amalfi, Ravello, cliffside roads, lemons, limoncello, views",
+    funFact: "The Amalfi Coast has 13 towns clinging to nearly vertical cliffs! The coastal road SS163 is one of the world's most scenic drives. The region produces sfusato lemons - twice normal size for limoncello. Positano is built so vertically that most 'streets' are stairs. The coast has been a UNESCO site since 1997!",
+    funFactSource: "Italy Tourism",
+    funFactSourceUrl: "https://www.italia.it/"
   }
 ];
 
