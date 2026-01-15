@@ -264,9 +264,9 @@ const CityGuess = () => {
       <div className="text-center mb-10">
         <div className="text-5xl mb-4">🌍</div>
         <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-          Today's Puzzle
+          Daily City Guess
         </h1>
-        <p className="text-xl text-gray-600">Guess the city from the clues!</p>
+        <p className="text-xl text-gray-600">One puzzle per day - Guess the city from the clues!</p>
       </div>
 
       {/* Clues Card */}

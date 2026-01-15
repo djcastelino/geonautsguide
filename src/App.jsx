@@ -3,8 +3,6 @@ import Header from './components/Header';
 import LandmarkGrid from './components/LandmarkGrid';
 import LandmarkDetail from './components/LandmarkDetail';
 import MapView from './components/MapView';
-import DailyChallenge from './components/DailyChallenge';
-import ChallengeBanner from './components/ChallengeBanner';
 import TripPlanner from './components/TripPlanner';
 import CityGuess from './components/CityGuess';
 import { fetchWikipediaSummary, generateNarration } from './services/api';
@@ -17,9 +15,6 @@ function App() {
   const [error, setError] = useState(null);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
   const [narrationData, setNarrationData] = useState(null);
-  const [showChallenge, setShowChallenge] = useState(false);
-  const [isDailyChallenge, setIsDailyChallenge] = useState(false);
-  const [showQuiz, setShowQuiz] = useState(false);
 
   const loadLandmarkNarration = async (landmark) => {
     setIsLoading(true);
@@ -73,29 +68,12 @@ function App() {
     setSelectedLandmark(null);
     setNarrationData(null);
     setError(null);
-    setIsDailyChallenge(false);
-    setShowQuiz(false);
   };
 
   const toggleViewMode = (mode) => {
     setViewMode(mode);
   };
 
-  const handleChallengeStart = async (landmark) => {
-    // Mark this as a daily challenge and start the audio tour
-    setIsDailyChallenge(true);
-    setSelectedLandmark(landmark); // Set the landmark so detail view can render
-    await loadLandmarkNarration(landmark);
-  };
-
-  const handleChallengeClose = () => {
-    setShowChallenge(false);
-  };
-
-  const handleStartQuiz = () => {
-    // Show quiz after audio completes
-    setShowQuiz(true);
-  };
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-green-50">
@@ -118,17 +96,6 @@ function App() {
 
         {currentView === 'grid' ? (
           <div>
-            {/* Daily Challenge Banner */}
-            <div className="mt-8">
-              <ChallengeBanner
-                landmarks={landmarksData.landmarks}
-                onClick={() => {
-                  setViewMode('grid'); // Switch to grid view to prevent map interference
-                  setShowChallenge(true);
-                }}
-              />
-            </div>
-
             {/* View Toggle */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6">
               <div className="flex justify-center gap-2">
@@ -170,7 +137,7 @@ function App() {
                       : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50'
                   }`}
                 >
-                  🌍 City Guess
+                  🌍 Daily City Guess
                 </button>
               </div>
             </div>
@@ -202,8 +169,6 @@ function App() {
             narration={narrationData.narration}
             audioContent={narrationData.audioContent}
             onBack={handleBackToGrid}
-            isDailyChallenge={isDailyChallenge}
-            onStartQuiz={handleStartQuiz}
           />
         ) : null}
       </main>
@@ -211,29 +176,6 @@ function App() {
       <footer className="py-8 text-center text-gray-400 text-xs">
         &copy; {new Date().getFullYear()} Geonauts Guide. Your daily geography adventure.
       </footer>
-
-      {/* Daily Challenge Modal */}
-      {showChallenge && !showQuiz && (
-        <DailyChallenge
-          landmarks={landmarksData.landmarks}
-          onStartChallenge={handleChallengeStart}
-          onClose={handleChallengeClose}
-        />
-      )}
-      
-      {/* Quiz Modal */}
-      {showQuiz && (
-        <DailyChallenge
-          landmarks={landmarksData.landmarks}
-          onStartChallenge={handleChallengeStart}
-          onClose={() => {
-            setShowQuiz(false);
-            setIsDailyChallenge(false);
-            handleBackToGrid();
-          }}
-          startWithQuiz={true}
-        />
-      )}
     </div>
   );
 }
