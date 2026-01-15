@@ -17,7 +17,8 @@ const TripPlanner = ({ landmarks }) => {
     { id: 'shopping', name: 'Shopping', emoji: '🛍️' },
     { id: 'nightlife', name: 'Nightlife', emoji: '🎉' },
     { id: 'nature', name: 'Nature', emoji: '🌿' },
-    { id: 'art', name: 'Art & Museums', emoji: '🎨' }
+    { id: 'art', name: 'Art & Museums', emoji: '🎨' },
+    { id: 'religious', name: 'Religious Sites', emoji: '⛪' }
   ];
 
   const handleInterestToggle = (interestId) => {
