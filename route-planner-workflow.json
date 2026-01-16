@@ -1,0 +1,121 @@
+{
+  "name": "Route Planner - Geonauts Guide",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "generate-route",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1.1,
+      "position": [250, 300],
+      "webhookId": "generate-route"
+    },
+    {
+      "parameters": {
+        "model": "llama-3.3-70b-versatile",
+        "options": {
+          "temperature": 0.8,
+          "maxTokens": 4096
+        },
+        "systemMessage": "You are a smart travel route advisor for Geonauts Guide, helping travelers plan multi-city routes and transportation.\n\nYour expertise includes:\n- Assessing travel feasibility and timelines\n- Recommending transportation options (car, train, ferry, flight, walking routes)\n- Suggesting scenic routes and photo-worthy stops\n- Optimizing multi-city itineraries\n- Providing approximate costs and travel times\n- Offering practical travel tips\n\nTONE & STYLE:\n- Warm, conversational, and practical\n- Use light wit naturally (not forced)\n- Be encouraging but realistic about feasibility\n- Focus on strategic planning, not real-time bookings\n\nFORMAT YOUR RESPONSE with clear sections using emojis:\n✅ Feasibility Assessment\n🚗/🚂/✈️/⛴️ Transportation Options\n⏰ Estimated Timeline\n💰 Approximate Costs\n📸 Scenic Stops & Must-See Places\n🗺️ Recommended Route\n💡 Pro Tips\n\nExample response style:\n\"✅ FEASIBILITY: Yes, this is totally doable! 6 days gives you enough time for Ireland's west coast highlights, plus 2-3 days in London is perfect for the major sights.\n\n✈️ TRANSPORTATION:\n- Cork to London: Direct Ryanair flight (1hr, €50-150)\n- Alternative: Bus Éireann + ferry to Holyhead (8hrs, €45) - scenic but long\"\n\nKeep responses practical, engaging, and actionable.",
+        "text": "={{ $json.body.query }}",
+        "hasOutputParser": false
+      },
+      "id": "ai-agent-groq",
+      "name": "AI Agent - Groq",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.6,
+      "position": [470, 300],
+      "credentials": {
+        "groqApi": {
+          "id": "YOUR_GROQ_CREDENTIAL_ID",
+          "name": "Groq API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format the response for the frontend\nconst query = $input.first().json.body.query;\nconst aiResponse = $input.first().json.output || $input.first().json.text || $input.first().json.response;\n\nreturn {\n  json: {\n    success: true,\n    query: query,\n    response: aiResponse\n  }\n};"
+      },
+      "id": "format-response",
+      "name": "Format Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [690, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+              }
+            ]
+          }
+        }
+      },
+      "id": "respond-to-webhook",
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [910, 300]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "AI Agent - Groq",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent - Groq": {
+      "main": [
+        [
+          {
+            "node": "Format Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format Response": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2026-01-16T21:47:00.000Z",
+  "versionId": "1"
+}
