@@ -590,6 +590,28 @@ const CityGuess = () => {
               <p className="text-gray-600 mb-2">Come back tomorrow for a new challenge!</p>
             </div>
           </div>
+
+          {/* Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 mt-6">
+            <button 
+              onClick={handleShare}
+              className="flex-1 bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg"
+            >
+              🎊 Share Result & Invite Friends
+            </button>
+            <button 
+              onClick={() => setShowStats(true)}
+              className="flex-1 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-6 rounded-xl transition-all shadow-lg border-2 border-purple-600"
+            >
+              📊 View Stats
+            </button>
+            <button 
+              onClick={() => setShowArchive(true)}
+              className="flex-1 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-6 rounded-xl transition-all shadow-lg border-2 border-purple-600"
+            >
+              📚 Archive
+            </button>
+          </div>
         </div>
       )}
 
