@@ -80,32 +80,34 @@ export const fetchWikipediaSummary = async (query) => {
 export const generateNarration = async (locationName, wikiContext, wikipediaPage, landmarkContext = null) => {
   try {
     // Enhanced storytelling prompt for 2-3 minute narration
-    const enhancedPrompt = `You are an expert tour guide with deep knowledge of world history, architecture, and geography. You have a gift for storytelling with a warm, engaging personality and a touch of light wit. Create an engaging, vivid audio narration (2-3 minutes when spoken) about ${locationName}.
+    const enhancedPrompt = `You are a knowledgeable tour guide with expertise in world history, architecture, and geography. Create a factual, engaging audio narration (2-3 minutes when spoken) about ${locationName}.
 
 Your narration should:
-- Open with a captivating hook that draws listeners in
-- Paint a vivid picture of the landmark's physical presence and atmosphere
-- Share the fascinating historical backstory and key events
-- Explain its geographical and cultural significance
-- Include 2-3 fun facts, trivia, or "Did You Know?" moments that surprise and delight
-  * Examples: unusual construction methods, surprising measurements, hidden symbolism, famous visitors, movie appearances, quirky traditions, world records, engineering marvels
-- Use descriptive, sensory language that helps listeners visualize the scene
-- Maintain an enthusiastic, storytelling tone throughout
-- MUST include at least 1-2 witty observations that connect historical facts to modern life in a relatable way
-  * Example: "It took 22 years to complete - which suddenly makes your kitchen renovation timeline look downright speedy!"
-  * Make grand timelines or efforts feel relatable to everyday experiences
-  * Add gentle irony about scale, human nature, or historical quirks
-  * Keep humor warm, conversational, and universal (never sarcastic or forced)
-  * The wit should enhance the storytelling, not distract from the facts
-- End with a memorable takeaway or reflection
+- Start with concrete facts: construction dates, dimensions, location, or key historical events
+- Present information in chronological or logical order
+- Focus on verifiable historical facts, architectural details, and cultural significance
+- Include 2-3 surprising facts with specific numbers, dates, or statistics
+  * Examples: exact measurements, construction time, number of workers, costs, visitor numbers, engineering innovations
+  * "The Taj Mahal required 20,000 workers and 22 years to complete"
+  * "The Great Wall stretches 21,196 kilometers across northern China"
+- Add 1-2 witty observations that connect facts to modern life
+  * Example: "22 years to build - which suddenly makes your kitchen renovation timeline look speedy!"
+  * Keep wit factual and relatable, not flowery or dramatic
+- End with a concrete fact or modern-day relevance
+
+AVOID:
+- Flowery phrases like "whispers of civilization", "step into this ancient world", "surrounded by history"
+- Overly poetic or atmospheric descriptions
+- Vague statements without specific facts
+- Dramatic scene-setting
 
 CRITICAL RULES:
-- Never use phrases like "this station", "this stop", or "this location". Always refer to the landmark by its actual name: "${locationName}".
-- DO NOT include any stage directions, sound effects, or music cues like "(music fades)", "(wind blowing)", etc.
-- Write ONLY the spoken narration text - no parenthetical directions or scene descriptions
-- This is pure audio narration, not a script with production notes
+- Always refer to the landmark by name: "${locationName}" - never "this station", "this stop", or "this location"
+- NO stage directions, sound effects, or music cues like "(music fades)", "(wind blowing)"
+- Write ONLY spoken narration text - no parenthetical directions
+- Lead with facts, not atmosphere
 
-Write in a natural, conversational style as if you're standing right there with the visitor, sharing your passion and knowledge. Make history come alive with fascinating trivia!`;
+Write in a clear, conversational style that prioritizes accuracy and interesting information over dramatic storytelling.`;
     
     // Build comprehensive request body
     const requestBody = {
