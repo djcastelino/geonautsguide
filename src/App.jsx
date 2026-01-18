@@ -30,7 +30,9 @@ function App() {
         significance: landmark.significance,
         year: landmark.year,
         category: landmark.category,
-        country: landmark.country
+        country: landmark.country,
+        city: landmark.city,
+        height: landmark.height
       };
       
       const narration = await generateNarration(
