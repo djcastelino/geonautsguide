@@ -358,23 +358,27 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
               )}
             </div>
 
-            <div className="flex gap-4">
-              <a
-                href={`https://www.google.com/maps/search/?api=1&query=${landmark.coordinates.lat},${landmark.coordinates.lng}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-center"
-              >
-                🗺️ View on Map
-              </a>
-              <a
-                href={`https://en.wikipedia.org/wiki/${landmark.name.replace(/ /g, '_')}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-center"
-              >
-                📖 Learn More
-              </a>
+            <div className="mb-6">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">📚 Sources & Further Reading</h3>
+              <p className="text-sm text-gray-600 mb-4">Verify facts and explore more about {landmark.name}</p>
+              <div className="flex gap-4">
+                <a
+                  href={`https://en.wikipedia.org/wiki/${landmark.name.replace(/ /g, '_')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-center"
+                >
+                  📖 Wikipedia
+                </a>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${landmark.coordinates.lat},${landmark.coordinates.lng}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-center"
+                >
+                  🗺️ View on Map
+                </a>
+              </div>
             </div>
           </div>
         </div>
