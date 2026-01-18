@@ -30,10 +30,10 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
       // === AZURE TTS (Active) ===
       const voices = [
         'en-US-AndrewMultilingualNeural',  // Natural, clear male voice
-        'en-US-EmmaMultilingualNeural'      // Warm, natural female voice
+        'en-US-BrianMultilingualNeural'     // Warm, engaging male voice
       ];
       const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
-      const voiceName = selectedVoice.includes('Andrew') ? 'Andrew' : 'Emma';
+      const voiceName = selectedVoice.includes('Andrew') ? 'Andrew' : 'Brian';
       
       console.log(`🎙️ Using Azure TTS with ${voiceName} (Neural)`);
       

@@ -169,7 +169,7 @@ const CityGuess = () => {
     try {
       const voices = [
         'en-US-AndrewMultilingualNeural',
-        'en-US-EmmaMultilingualNeural'
+        'en-US-BrianMultilingualNeural'
       ];
       const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
       
