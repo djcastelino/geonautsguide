@@ -8073,9 +8073,12 @@ export function getAllCityNames() {
 
 // Helper function to get daily city
 export function getDailyCity(date = new Date()) {
-  const epochDate = new Date('2024-12-01');
+  // Use local midnight for consistent daily challenges
+  const localDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  const epochDate = new Date(2024, 11, 1); // Dec 1, 2024 at local midnight
+  
   const daysSinceEpoch = Math.floor(
-    (date.getTime() - epochDate.getTime()) / (1000 * 60 * 60 * 24)
+    (localDate - epochDate) / (1000 * 60 * 60 * 24)
   );
   
   const index = daysSinceEpoch % CITIES.length;
