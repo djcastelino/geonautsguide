@@ -1,12 +1,14 @@
 {
-  "name": "PathFinder - Walk Through History",
-  "short_name": "PathFinder",
-  "description": "Explore sacred routes and historic locations through immersive virtual experiences",
+  "name": "Geonauts Guide - AI Travel Companion",
+  "short_name": "Geonauts Guide",
+  "description": "Explore 126 world landmarks with AI audio tours, daily city challenges, and trip planning. Your AI-powered travel companion for discovery and adventure.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "orientation": "portrait",
+  "theme_color": "#6366f1",
+  "orientation": "any",
+  "categories": ["travel", "education", "games"],
   "icons": [
     {
       "src": "/icon-192.png",
@@ -20,5 +22,6 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ]
+  ],
+  "screenshots": []
 }

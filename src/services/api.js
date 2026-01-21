@@ -111,7 +111,7 @@ Write in a clear, conversational style that prioritizes accuracy and interesting
     
     // Build comprehensive request body
     const requestBody = {
-      pathId: 'monument-app',
+      pathId: 'geonauts-guide',
       locationId: locationName.toLowerCase().replace(/\s+/g, '-'),
       locationTitle: locationName,
       enhancedPrompt: enhancedPrompt,
