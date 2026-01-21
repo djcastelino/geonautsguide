@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feature Graphic Generator</title>
+</head>
+<body>
+    <h2>Generate Feature Graphic (1024x500)</h2>
+    <button onclick="generate()">Generate</button>
+    <div id="output"></div>
+    
+    <script>
+    function generate() {
+        const canvas = document.createElement('canvas');
+        canvas.width = 1024;
+        canvas.height = 500;
+        const ctx = canvas.getContext('2d');
+        
+        // Purple/blue gradient
+        const gradient = ctx.createLinearGradient(0, 0, 1024, 500);
+        gradient.addColorStop(0, '#6366f1');
+        gradient.addColorStop(1, '#8b5cf6');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 1024, 500);
+        
+        // App name
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 72px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('Geonauts Guide', 512, 180);
+        
+        // Tagline
+        ctx.font = '36px Arial';
+        ctx.fillText('Explore World Landmarks with AI', 512, 250);
+        
+        // Features
+        ctx.font = '28px Arial';
+        ctx.fillText('🗺️ 126 Landmarks  |  🎯 Daily Quiz  |  🧭 Trip Planner', 512, 350);
+        
+        // Display
+        const output = document.getElementById('output');
+        output.innerHTML = '<h3>Feature Graphic (1024x500):</h3>';
+        const img = document.createElement('img');
+        img.src = canvas.toDataURL('image/png');
+        img.style.width = '800px';
+        img.style.border = '2px solid #333';
+        output.appendChild(img);
+        
+        // Download
+        const link = document.createElement('a');
+        link.download = 'feature-graphic.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+    }
+    </script>
+</body>
+</html>

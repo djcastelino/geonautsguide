@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geonauts Guide - Colosseum Icon</title>
+</head>
+<body>
+    <h2>Colosseum Icon Generator</h2>
+    <button onclick="generateIcon()">Generate Icon</button>
+    <div id="output"></div>
+    
+    <script>
+    function generateIcon() {
+        const canvas = document.createElement('canvas');
+        canvas.width = 512;
+        canvas.height = 512;
+        const ctx = canvas.getContext('2d');
+        
+        // Purple/blue gradient background
+        const gradient = ctx.createLinearGradient(0, 0, 512, 512);
+        gradient.addColorStop(0, '#6366f1');
+        gradient.addColorStop(1, '#8b5cf6');
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, 512, 512);
+        
+        // White Colosseum emoji
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 280px Arial';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('🏛️', 256, 256);
+        
+        // Display image
+        const output = document.getElementById('output');
+        output.innerHTML = '<h3>Right-click and "Save Image As..."</h3>';
+        
+        const img = document.createElement('img');
+        img.src = canvas.toDataURL('image/png');
+        img.style.border = '1px solid black';
+        img.style.margin = '10px';
+        output.appendChild(img);
+        output.appendChild(document.createElement('br'));
+        output.appendChild(document.createTextNode('Save as: app-icon-512.png'));
+        
+        // Auto-download
+        const link = document.createElement('a');
+        link.download = 'app-icon-512.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+    }
+    </script>
+</body>
+</html>

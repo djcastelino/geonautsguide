@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geonauts Guide - Custom Icon Maker</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        button { padding: 10px 20px; font-size: 16px; margin: 10px; cursor: pointer; }
+        #preview { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h2>Geonauts Guide - Custom Icon Maker</h2>
+    <p>Upload your Colosseum image and create a 512x512 app icon with gradient background</p>
+    
+    <input type="file" id="imageUpload" accept="image/*">
+    <br><br>
+    <button onclick="generateIcon()">Generate Icon</button>
+    <button onclick="downloadIcon()">Download Icon</button>
+    
+    <div id="preview"></div>
+    <canvas id="canvas" style="border: 1px solid #ccc; display: none;"></canvas>
+    
+    <script>
+    let finalCanvas = null;
+    
+    function generateIcon() {
+        const fileInput = document.getElementById('imageUpload');
+        if (!fileInput.files || !fileInput.files[0]) {
+            alert('Please select an image first');
+            return;
+        }
+        
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+        
+        reader.onload = function(e) {
+            const img = new Image();
+            img.onload = function() {
+                // Create canvas
+                const canvas = document.getElementById('canvas');
+                canvas.width = 512;
+                canvas.height = 512;
+                const ctx = canvas.getContext('2d');
+                
+                // Purple/blue gradient background
+                const gradient = ctx.createLinearGradient(0, 0, 512, 512);
+                gradient.addColorStop(0, '#6366f1');
+                gradient.addColorStop(1, '#8b5cf6');
+                ctx.fillStyle = gradient;
+                ctx.fillRect(0, 0, 512, 512);
+                
+                // Calculate sizing to fit image nicely
+                const maxSize = 400; // Leave some padding
+                const scale = Math.min(maxSize / img.width, maxSize / img.height);
+                const newWidth = img.width * scale;
+                const newHeight = img.height * scale;
+                const x = (512 - newWidth) / 2;
+                const y = (512 - newHeight) / 2;
+                
+                // Draw image centered
+                ctx.drawImage(img, x, y, newWidth, newHeight);
+                
+                // Show preview
+                const preview = document.getElementById('preview');
+                preview.innerHTML = '<h3>Preview (512x512):</h3>';
+                const previewImg = document.createElement('img');
+                previewImg.src = canvas.toDataURL('image/png');
+                previewImg.style.width = '300px';
+                previewImg.style.border = '2px solid #333';
+                preview.appendChild(previewImg);
+                
+                finalCanvas = canvas;
+            };
+            img.src = e.target.result;
+        };
+        
+        reader.readAsDataURL(file);
+    }
+    
+    function downloadIcon() {
+        if (!finalCanvas) {
+            alert('Please generate the icon first');
+            return;
+        }
+        
+        const link = document.createElement('a');
+        link.download = 'geonauts-guide-icon-512.png';
+        link.href = finalCanvas.toDataURL('image/png');
+        link.click();
+        
+        alert('Icon downloaded! Upload this to Google Play Store.');
+    }
+    </script>
+</body>
+</html>
