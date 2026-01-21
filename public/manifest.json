@@ -1,4 +1,5 @@
 {
+  "id": "com.geonautsguide.app",
   "name": "Geonauts Guide - AI Travel Companion",
   "short_name": "Geonauts Guide",
   "description": "Explore 126 world landmarks with AI audio tours, daily city challenges, and trip planning. Your AI-powered travel companion for discovery and adventure.",
@@ -14,14 +15,25 @@
       "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ],
-  "screenshots": []
+  ]
 }
