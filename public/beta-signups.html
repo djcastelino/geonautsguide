@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beta Signups - Admin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen py-8">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+      <h1 class="text-2xl font-bold text-gray-900 mb-6">Beta Test Signups</h1>
+      
+      <div id="signups-container">
+        <p class="text-gray-500">Loading...</p>
+      </div>
+
+      <div class="mt-6 pt-6 border-t">
+        <button
+          onclick="copyAllEmails()"
+          class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 mr-2"
+        >
+          Copy All Emails
+        </button>
+        <button
+          onclick="exportCSV()"
+          class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 mr-2"
+        >
+          Export CSV
+        </button>
+        <button
+          onclick="clearSignups()"
+          class="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700"
+        >
+          Clear All
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function loadSignups() {
+      const signups = JSON.parse(localStorage.getItem('betaSignups') || '[]');
+      const container = document.getElementById('signups-container');
+      
+      if (signups.length === 0) {
+        container.innerHTML = '<p class="text-gray-500">No signups yet</p>';
+        return;
+      }
+
+      const html = `
+        <div class="mb-4">
+          <p class="text-sm text-gray-600 mb-2">Total signups: <strong>${signups.length}</strong></p>
+        </div>
+        <div class="space-y-2">
+          ${signups.map((signup, index) => `
+            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+              <div>
+                <p class="font-medium text-gray-900">${index + 1}. ${signup.email}</p>
+                <p class="text-xs text-gray-500">${new Date(signup.timestamp).toLocaleString()}</p>
+              </div>
+              <button
+                onclick="removeSignup(${index})"
+                class="text-red-600 hover:text-red-800 text-sm"
+              >
+                Remove
+              </button>
+            </div>
+          `).join('')}
+        </div>
+      `;
+      
+      container.innerHTML = html;
+    }
+
+    function copyAllEmails() {
+      const signups = JSON.parse(localStorage.getItem('betaSignups') || '[]');
+      const emails = signups.map(s => s.email).join('\n');
+      
+      navigator.clipboard.writeText(emails).then(() => {
+        alert(`Copied ${signups.length} email addresses to clipboard!`);
+      });
+    }
+
+    function exportCSV() {
+      const signups = JSON.parse(localStorage.getItem('betaSignups') || '[]');
+      const csv = 'Email,Timestamp\n' + signups.map(s => 
+        `${s.email},${new Date(s.timestamp).toISOString()}`
+      ).join('\n');
+      
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'beta-signups.csv';
+      a.click();
+    }
+
+    function removeSignup(index) {
+      const signups = JSON.parse(localStorage.getItem('betaSignups') || '[]');
+      signups.splice(index, 1);
+      localStorage.setItem('betaSignups', JSON.stringify(signups));
+      loadSignups();
+    }
+
+    function clearSignups() {
+      if (confirm('Are you sure you want to clear all signups?')) {
+        localStorage.removeItem('betaSignups');
+        loadSignups();
+      }
+    }
+
+    // Load signups on page load
+    loadSignups();
+
+    // Auto-refresh every 10 seconds
+    setInterval(loadSignups, 10000);
+  </script>
+</body>
+</html>

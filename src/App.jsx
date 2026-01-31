@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
+import BetaBanner from './components/BetaBanner';
 import LandmarkGrid from './components/LandmarkGrid';
 import LandmarkDetail from './components/LandmarkDetail';
 import MapView from './components/MapView';
@@ -85,7 +86,8 @@ function App() {
           onBack={handleBackToGrid} 
         />
       )}
-      
+      <BetaBanner />
+
       <main className="flex-1">
         {error && (
           <div className="max-w-7xl mx-auto px-4 mt-6">
