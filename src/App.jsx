@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import BetaBanner from './components/BetaBanner';
+import Footer from './components/Footer';
 import LandmarkGrid from './components/LandmarkGrid';
 import LandmarkDetail from './components/LandmarkDetail';
 import MapView from './components/MapView';
@@ -177,9 +178,7 @@ function App() {
         ) : null}
       </main>
 
-      <footer className="py-8 text-center text-gray-400 text-xs">
-        &copy; {new Date().getFullYear()} Geonauts Guide. Your daily geography adventure.
-      </footer>
+      <Footer />
     </div>
   );
 }
