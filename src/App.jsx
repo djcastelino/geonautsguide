@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header';
-import BetaBanner from './components/BetaBanner';
 import Footer from './components/Footer';
 import LandmarkGrid from './components/LandmarkGrid';
 import LandmarkDetail from './components/LandmarkDetail';
@@ -87,7 +86,6 @@ function App() {
           onBack={handleBackToGrid} 
         />
       )}
-      <BetaBanner />
 
       <main className="flex-1">
         {error && (
