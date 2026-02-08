@@ -2,7 +2,7 @@
   "id": "com.geonautsguide.app",
   "name": "Geonauts Guide - AI Travel Companion",
   "short_name": "Geonauts Guide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Explore 126 world landmarks with AI audio tours, daily city challenges, and trip planning. Your AI-powered travel companion for discovery and adventure.",
   "lang": "en-US",
   "start_url": "/",
