@@ -79,7 +79,7 @@ function App() {
 
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-green-50">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-green-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors">
       {currentView === 'grid' && (
         <Header 
           showBack={false} 
@@ -90,7 +90,7 @@ function App() {
       <main className="flex-1">
         {error && (
           <div className="max-w-7xl mx-auto px-4 mt-6">
-            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl flex items-center gap-3">
+            <div className="bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-800 text-red-700 dark:text-red-400 px-4 py-3 rounded-xl flex items-center gap-3">
               <span className="text-xl">⚠️</span>
               <p className="font-medium">{error}</p>
             </div>
