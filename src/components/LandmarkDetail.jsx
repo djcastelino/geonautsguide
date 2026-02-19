@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import ShareButtons from './ShareButtons';
 
 function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChallenge = false, onStartQuiz }) {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -218,17 +219,17 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <button
           onClick={onBack}
-          className="mb-6 flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+          className="mb-6 flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
         >
           <span className="text-xl">←</span>
           <span className="font-medium">Back to landmarks</span>
         </button>
 
-        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
+        <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden transition-colors">
           <div className="relative h-96 bg-gray-300">
             <img
               src={landmark.imageUrl}
@@ -271,11 +272,14 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
             </div>
 
             <div className="mb-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">About</h2>
-              <p className="text-gray-700 text-lg leading-relaxed mb-4">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">About</h2>
+                <ShareButtons landmark={landmark} />
+              </div>
+              <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
                 {landmark.description}
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 {landmark.significance}
               </p>
             </div>
