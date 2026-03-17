@@ -1,8 +1,15 @@
 {
-  "rewrites": [
+  "redirects": [
     {
-      "source": "/.well-known/assetlinks.json",
-      "destination": "/.well-known/assetlinks.json"
+      "source": "/:path((?!\\.well-known).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "geonautsguide.com"
+        }
+      ],
+      "destination": "https://www.geonautsguide.com/:path*",
+      "permanent": true
     }
   ],
   "headers": [
@@ -16,6 +23,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
       ]
     }
