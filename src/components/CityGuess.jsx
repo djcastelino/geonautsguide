@@ -18,6 +18,7 @@ const CityGuess = () => {
   const [filteredCities, setFilteredCities] = useState([]);
   const audioRef = useRef(null);
   const inputRef = useRef(null);
+  const cluesRef = useRef(null);
 
   useEffect(() => {
     const city = getDailyCity();
@@ -331,7 +332,7 @@ const CityGuess = () => {
       </div>
 
       {/* Clues Card */}
-      <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
+      <div ref={cluesRef} className="bg-white rounded-2xl shadow-xl p-8 mb-6">
         <h2 className="text-2xl font-bold mb-6 text-center">Clues:</h2>
         <div className="space-y-4">
           {dailyCity.clues.slice(0, revealedClues).map((clue, index) => (
@@ -397,9 +398,11 @@ const CityGuess = () => {
                 type="text"
                 value={currentGuess}
                 onChange={handleInputChange}
-                onFocus={(e) => {
+                onFocus={() => {
                   setTimeout(() => {
-                    e.target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    if (cluesRef.current) {
+                      cluesRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
                   }, 300);
                 }}
                 placeholder="Enter city name..."
