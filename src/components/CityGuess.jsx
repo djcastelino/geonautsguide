@@ -407,7 +407,6 @@ const CityGuess = () => {
                 }}
                 placeholder="Enter city name..."
                 className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none text-lg"
-                autoFocus
                 autoComplete="off"
               />
               
