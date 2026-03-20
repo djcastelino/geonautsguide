@@ -1,17 +1,4 @@
 {
-  "redirects": [
-    {
-      "source": "/:path((?!\\.well-known).*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "geonautsguide.com"
-        }
-      ],
-      "destination": "https://www.geonautsguide.com/:path*",
-      "permanent": true
-    }
-  ],
   "headers": [
     {
       "source": "/.well-known/assetlinks.json",
