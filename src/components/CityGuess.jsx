@@ -305,11 +305,17 @@ const CityGuess = () => {
     }
   };
 
-  const handleSelectCity = (cityName) => {
+  const handleSelectCity = (cityName, e) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     setCurrentGuess(cityName);
     setShowAutocomplete(false);
     setFilteredCities([]);
-    inputRef.current?.focus();
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 0);
   };
 
   useEffect(() => {
@@ -360,7 +366,7 @@ const CityGuess = () => {
                     <button
                       key={city.id}
                       type="button"
-                      onClick={() => handleSelectCity(city.name)}
+                      onClick={(e) => handleSelectCity(city.name, e)}
                       className="w-full text-left px-6 py-3 hover:bg-purple-50 transition-colors border-b border-gray-100 last:border-b-0 flex items-center gap-3"
                     >
                       <span className="text-xl">🌍</span>
