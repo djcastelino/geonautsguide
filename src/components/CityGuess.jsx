@@ -244,6 +244,13 @@ const CityGuess = () => {
 
   const handleGuess = (e) => {
     e.preventDefault();
+    
+    // If autocomplete is showing and there are matches, select the first one
+    if (showAutocomplete && filteredCities.length > 0) {
+      handleSelectCity(filteredCities[0].name);
+      return;
+    }
+    
     if (!currentGuess.trim()) return;
 
     const normalizedGuess = currentGuess.trim().toLowerCase();
