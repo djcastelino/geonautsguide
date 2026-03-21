@@ -19,6 +19,7 @@ const CityGuess = () => {
   const audioRef = useRef(null);
   const inputRef = useRef(null);
   const cluesRef = useRef(null);
+  const dropdownRef = useRef(null);
 
   useEffect(() => {
     const city = getDailyCity();
@@ -320,7 +321,8 @@ const CityGuess = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (inputRef.current && !inputRef.current.contains(event.target)) {
+      if (inputRef.current && !inputRef.current.contains(event.target) && 
+          dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setShowAutocomplete(false);
       }
     };
@@ -361,7 +363,7 @@ const CityGuess = () => {
               
               {/* Autocomplete Dropdown */}
               {showAutocomplete && filteredCities.length > 0 && (
-                <div className="absolute z-10 w-full mt-2 bg-white border-2 border-purple-200 rounded-xl shadow-2xl max-h-60 overflow-y-auto">
+                <div ref={dropdownRef} className="absolute z-10 w-full mt-2 bg-white border-2 border-purple-200 rounded-xl shadow-2xl max-h-60 overflow-y-auto">
                   {filteredCities.map((city) => (
                     <button
                       key={city.id}
