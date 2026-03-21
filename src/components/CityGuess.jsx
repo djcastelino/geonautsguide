@@ -365,18 +365,20 @@ const CityGuess = () => {
               {showAutocomplete && filteredCities.length > 0 && (
                 <div ref={dropdownRef} className="absolute z-10 w-full mt-2 bg-white border-2 border-purple-200 rounded-xl shadow-2xl max-h-60 overflow-y-auto">
                   {filteredCities.map((city) => (
-                    <button
+                    <div
                       key={city.id}
-                      type="button"
-                      onClick={(e) => handleSelectCity(city.name, e)}
-                      className="w-full text-left px-6 py-3 hover:bg-purple-50 transition-colors border-b border-gray-100 last:border-b-0 flex items-center gap-3"
+                      onMouseDown={(e) => {
+                        e.preventDefault();
+                        handleSelectCity(city.name, e);
+                      }}
+                      className="w-full text-left px-6 py-3 hover:bg-purple-50 transition-colors border-b border-gray-100 last:border-b-0 flex items-center gap-3 cursor-pointer"
                     >
                       <span className="text-xl">🌍</span>
                       <div>
                         <div className="font-semibold text-gray-900">{city.name}</div>
                         <div className="text-sm text-gray-500">{city.country}, {city.continent}</div>
                       </div>
-                    </button>
+                    </div>
                   ))}
                 </div>
               )}
