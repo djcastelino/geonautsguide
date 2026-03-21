@@ -631,17 +631,13 @@ const CityGuess = () => {
 
       {/* Archive Badge - Show if viewing old puzzle */}
       {archiveDate && (
-        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-50">
-          <div className="bg-orange-500 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3">
-            <span>📚 Archive Mode</span>
-            <button
-              onClick={backToToday}
-              className="bg-white text-orange-500 px-4 py-1 rounded-full font-semibold hover:bg-orange-50 transition-all"
-            >
-              Back to Today
-            </button>
-          </div>
-        </div>
+        <button
+          onClick={backToToday}
+          className="fixed top-20 right-4 z-50 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2 text-sm font-semibold transition-all"
+        >
+          <span>📚</span>
+          <span>Back to Today</span>
+        </button>
       )}
 
       {/* Stats Modal */}
