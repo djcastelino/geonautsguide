@@ -16,7 +16,22 @@
       "height": "73m",
       "imageUrl": "/images/landmarks/taj_mahal.png",
       "unsplashQuery": "taj mahal agra",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Over 1,000 elephants were used to transport building materials during construction",
+        "The Taj Mahal appears to change color - pink at sunrise, white during the day, and golden at sunset",
+        "It took 22 years and 20,000 skilled workers to complete this masterpiece",
+        "The four minarets lean slightly outward to protect the main tomb in case of an earthquake",
+        "Shah Jahan allegedly planned to build a black marble Taj Mahal for himself across the river, but was imprisoned by his son before he could start"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Sunrise (6-7 AM) for fewer crowds, magical light, and cooler temperatures",
+        "entranceFee": "₹1,100 ($13 USD) for foreign tourists. Closed on Fridays. E-tickets available online.",
+        "nearbyAttractions": ["Agra Fort (2.5 km)", "Mehtab Bagh garden - best sunset view (across river)", "Fatehpur Sikri (40 km)", "Itmad-ud-Daulah's Tomb (5 km)"],
+        "localCuisine": ["Petha (sweet made from ash gourd)", "Mughlai cuisine", "Agra Ke Dalmoth (spicy snack)", "Bedai with spicy potato curry"],
+        "travelTip": "Buy tickets online to skip 2+ hour queues. No food, smoking, or photography inside the mausoleum. Wear slip-on shoes (you'll remove them often). Avoid full moon nights - extra crowded.",
+        "avgWeather": "Very hot summers (35-45°C). Pleasant winters (10-25°C). Best months: October to March. Monsoon July-September can be humid."
+      }
     },
     {
       "id": "great-pyramid",
@@ -34,7 +49,22 @@
       "height": "138.8m",
       "imageUrl": "/images/landmarks/great_pyramids_of_giza.png",
       "unsplashQuery": "pyramid giza egypt",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The Great Pyramid was the tallest human-made structure for 3,800 years until Lincoln Cathedral in 1311",
+        "It originally stood 146.7m tall but erosion reduced it to 138.8m - still taller than the Statue of Liberty",
+        "Over 2.3 million stone blocks were used, each weighing 2.5 to 15 tons",
+        "The pyramid's sides are aligned almost perfectly with the four cardinal directions (north, south, east, west)",
+        "Despite popular belief, it was NOT built by slaves - archaeologists found evidence of paid workers who received food, shelter, and medical care"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (8-9 AM) before heat and crowds. October to April for cooler weather.",
+        "entranceFee": "EGP 540 ($17 USD) for pyramid complex. Extra EGP 440 ($14) to enter inside the Great Pyramid. Student discounts available.",
+        "nearbyAttractions": ["Sphinx (200m away)", "Pyramid of Khafre", "Pyramid of Menkaure", "Solar Boat Museum", "Sound & Light Show (evenings)"],
+        "localCuisine": ["Koshari (national dish)", "Ful medames (fava beans)", "Mahshi (stuffed vegetables)", "Fresh mango juice"],
+        "travelTip": "Hire a licensed guide to avoid scams. Camel rides are negotiable (~$10-20). Bring water, sunscreen, and hat - it gets very hot. Photography inside pyramid forbidden.",
+        "avgWeather": "Hot and dry year-round. Summer (May-Sep): 35-40°C. Winter (Nov-Feb): 15-25°C. Almost no rain."
+      }
     },
     {
       "id": "colosseum",
@@ -52,7 +82,22 @@
       "height": "48m",
       "imageUrl": "/images/landmarks/colosseum.png",
       "unsplashQuery": "colosseum rome",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The Colosseum could hold 50,000-80,000 spectators and had 80 entrance arches for crowd management",
+        "It had a retractable awning (velarium) operated by sailors to provide shade for spectators",
+        "The floor could be flooded for mock naval battles called 'naumachiae' - complete with ships and sea creatures",
+        "Wild animals were kept in underground chambers and lifted to the arena via a complex system of lifts and pulleys",
+        "The name 'Colosseum' likely comes from the colossal statue of Nero that once stood nearby, not the building's size"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (8:30 AM opening) or late afternoon. Book skip-the-line tickets online weeks in advance.",
+        "entranceFee": "€18 ($19 USD) includes Roman Forum and Palatine Hill. Valid 24 hours. EU citizens under 25 get discounts. Free first Sunday of month (very crowded).",
+        "nearbyAttractions": ["Roman Forum (adjacent)", "Palatine Hill (adjacent)", "Arch of Constantine (50m)", "Trevi Fountain (1.2 km)", "Pantheon (1.5 km)"],
+        "localCuisine": ["Cacio e pepe (pasta)", "Carbonara", "Saltimbocca alla romana", "Supplì (fried rice balls)", "Gelato from nearby shops"],
+        "travelTip": "Underground & arena floor tours require separate tickets but are worth it. Bring water (refill at fountains). Wear comfortable shoes - lots of walking on ancient stones. Metro Line B to 'Colosseo' station.",
+        "avgWeather": "Hot summers (25-35°C, very crowded). Pleasant spring/fall (15-25°C, best time). Mild winters (5-15°C, fewer tourists)."
+      }
     },
     {
       "id": "eiffel-tower",
@@ -70,7 +115,22 @@
       "height": "330m",
       "imageUrl": "/images/landmarks/eiffel_tower.png",
       "unsplashQuery": "eiffel tower paris",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The Eiffel Tower was only meant to stand for 20 years as a temporary structure for the 1889 World's Fair",
+        "Gustave Eiffel had a secret apartment at the top where he entertained famous guests like Thomas Edison",
+        "The tower 'grows' about 15cm taller in summer due to thermal expansion of the iron",
+        "It was the tallest structure in the world for 41 years until the Chrysler Building in 1930",
+        "The tower is repainted every 7 years - it takes 60 tons of paint and 18 months to complete"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (9 AM) or evening for sunset/lights. Book tickets online 60 days in advance. Avoid weekends and July-August peak season.",
+        "entranceFee": "€29.40 ($32) for elevator to summit. €23.20 ($25) to 2nd floor. Stairs to 2nd floor: €11.80 ($13) - good workout!",
+        "nearbyAttractions": ["Trocadéro Gardens (best photo spot, 600m)", "Seine River cruise (nearby)", "Champ de Mars park (below tower)", "Arc de Triomphe (2.5 km)", "Louvre Museum (3 km)"],
+        "localCuisine": ["Crêpes from street vendors", "Croissants and café au lait", "Macarons from Ladurée", "French onion soup", "Champagne at the tower's champagne bar (top floor)"],
+        "travelTip": "Skip-the-line tickets sell out fast - book online! Lights sparkle for 5 minutes every hour after sunset (magical!). Pickpockets are common - watch belongings. Metro Line 6 to Bir-Hakeim or Line 9 to Trocadéro.",
+        "avgWeather": "Mild year-round. Spring (15-20°C, beautiful). Summer (20-30°C, crowded). Fall (10-20°C, pleasant). Winter (0-10°C, romantic with lights)."
+      }
     },
     {
       "id": "great-wall",
@@ -88,7 +148,22 @@
       "height": "5-8m",
       "imageUrl": "/images/landmarks/great_wall_of_china.png",
       "unsplashQuery": "great wall china",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The Great Wall is actually made up of many walls built over 2,000+ years, not one continuous structure",
+        "At 21,196 km long, if you walked 8 hours a day, it would take about 18 months to walk the entire length",
+        "Contrary to popular myth, the Great Wall is NOT visible from space with the naked eye",
+        "Sticky rice mortar was used in the construction - the same material used to make rice cakes!",
+        "Over 1 million workers died during construction, and many were buried within the wall itself"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Spring (April-May) or Fall (September-October) for mild weather and fewer crowds. Avoid summer heat and winter cold.",
+        "entranceFee": "¥40-60 ($6-9 USD) depending on section. Mutianyu and Badaling most popular. Jiankou for adventurous hikers (wild, unrestored).",
+        "nearbyAttractions": ["Ming Tombs (40 km from Badaling)", "Forbidden City (70 km)", "Summer Palace (60 km)", "Temple of Heaven (Beijing)"],
+        "localCuisine": ["Peking duck", "Jianbing (breakfast crepe)", "Baozi (steamed buns)", "Hot pot", "Chinese tea"],
+        "travelTip": "Visit Mutianyu for cable car and fewer crowds (better than touristy Badaling). Wear comfortable hiking shoes - steps are steep and uneven. Bring water. Book tours from Beijing (1.5-2 hour drive). Watch for aggressive vendors.",
+        "avgWeather": "Hot, humid summers (25-35°C). Cold winters (-5 to 5°C, snowy). Spring/fall ideal (10-25°C). Check air quality before visiting."
+      }
     },
     {
       "id": "machu-picchu",
@@ -106,7 +181,22 @@
       "height": "2,430m elevation",
       "imageUrl": "/images/landmarks/macchu_picchu.png",
       "unsplashQuery": "machu picchu peru",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Machu Picchu was never discovered by Spanish conquistadors - it remained hidden until 1911",
+        "The stones fit so perfectly together (without mortar) that you can't fit a knife blade between them",
+        "It's built on two fault lines but has survived earthquakes for 600+ years due to advanced engineering",
+        "The site contains over 150 buildings, 100 staircases, and sophisticated water fountains that still work",
+        "Llamas are the 'gardeners' - they keep the grass trimmed by grazing throughout the ruins"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Dry season (May-September). June-August busiest. April-May or September-October for fewer crowds. Avoid rainy season (November-March).",
+        "entranceFee": "S/152 ($40 USD). Book online weeks/months in advance - limited to 2,500 visitors per day! Additional ticket needed for Huayna Picchu or Machu Picchu Mountain hikes.",
+        "nearbyAttractions": ["Huayna Picchu peak (requires separate ticket)", "Machu Picchu Mountain", "Aguas Calientes town (base)", "Sacred Valley", "Cusco city (3.5 hours)"],
+        "localCuisine": ["Cuy (guinea pig - traditional)", "Lomo saltado (stir-fry)", "Ceviche", "Pisco Sour (cocktail)", "Quinoa soup"],
+        "travelTip": "Acclimatize in Cusco 2-3 days before visiting (altitude sickness risk). Train from Cusco or hike Inca Trail (4 days, permit required). Arrive at 6 AM opening for magical sunrise with fewer people. No food/large bags inside. Hire a guide - they reveal hidden details.",
+        "avgWeather": "Mild year-round (10-20°C). Dry season sunny mornings, cloudy afternoons. Rainy season: expect afternoon showers. Bring layers - temperature swings common."
+      }
     },
     {
       "id": "statue-liberty",
@@ -124,7 +214,22 @@
       "height": "93m",
       "imageUrl": "/images/landmarks/statue_of_liberty.png",
       "unsplashQuery": "statue liberty new york",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The Statue of Liberty was a gift from France to celebrate American independence and friendship between the two nations",
+        "Lady Liberty's full name is 'Liberty Enlightening the World' and she holds a torch and a tablet dated July 4, 1776",
+        "Her copper skin is only 2.4mm thick (about the thickness of two pennies) and has turned green due to oxidation",
+        "The statue was shipped to America in 350 pieces packed in 214 crates and took 4 months to reassemble",
+        "There are 7 spikes on her crown representing the 7 continents and 7 seas of the world"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning ferries (8:30-9 AM) or weekdays. Summer (June-August) extremely crowded. Spring/fall ideal.",
+        "entranceFee": "Free ferry access ($25 round trip). Crown tickets ($24.30) sell out months ahead - book ASAP! Pedestal access included with ferry.",
+        "nearbyAttractions": ["Ellis Island Immigration Museum (same ferry)", "9/11 Memorial (2 km)", "Battery Park (ferry departure)", "Brooklyn Bridge (3 km)", "One World Observatory (2.5 km)"],
+        "localCuisine": ["New York pizza slice", "Hot dogs from street carts", "Bagels with lox", "Cheesecake", "Halal cart food"],
+        "travelTip": "Book crown tickets 3-6 months early (limited spots). Ferry leaves from Battery Park (Manhattan) or Liberty State Park (NJ). Bring ID - security like airport. Crown climb = 377 steps, no elevator. No bags allowed in crown. Get there early to beat crowds.",
+        "avgWeather": "Hot humid summers (25-35°C). Cold winters (-5 to 5°C, windy on island). Pleasant spring/fall (10-20°C). Island is windier than mainland - bring jacket."
+      }
     },
     {
       "id": "angkor-wat",
@@ -142,7 +247,22 @@
       "height": "65m",
       "imageUrl": "/images/landmarks/angkor_wat.png",
       "unsplashQuery": "angkor wat cambodia",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Angkor Wat is the largest religious monument in the world, covering 162.6 hectares (400 acres)",
+        "It was built as a Hindu temple for god Vishnu, but gradually transformed into a Buddhist temple by the end of the 12th century",
+        "The temple aligns with the sun during spring equinox - the sun rises directly over the central tower",
+        "Over 300,000 workers and 6,000 elephants were used to construct the temple complex",
+        "The moat surrounding Angkor Wat is 200m wide - wider than a football field!"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Dry season (November-March). Sunrise visits magical but crowded. Visit 9 AM-3 PM for fewer people. Avoid April-May (hottest months).",
+        "entranceFee": "$37 USD (1-day pass). $62 (3-day pass). $72 (7-day pass). Buy at official ticket center. Passes include all Angkor temples.",
+        "nearbyAttractions": ["Angkor Thom (1.5 km)", "Bayon Temple (faces)", "Ta Prohm (tree temple from Tomb Raider)", "Banteay Srei (20 km)", "Siem Reap town (6 km)"],
+        "localCuisine": ["Amok (coconut fish curry)", "Lok lak (stir-fried beef)", "Nom banh chok (Khmer noodles)", "Fresh fruit shakes", "Fried tarantulas (if brave!)"],
+        "travelTip": "Hire tuk-tuk driver for full day ($15-20) - temples spread out. Dress modestly (cover shoulders/knees). Bring water, sunscreen, hat - gets extremely hot. Watch sunrise from pond behind temple for reflection shot. Download offline map - limited internet.",
+        "avgWeather": "Hot year-round (25-35°C). Dry season (Nov-Mar) best. Rainy season (May-Oct) afternoon showers, lush greenery. Extremely humid - hydrate constantly."
+      }
     },
     {
       "id": "petra",
@@ -160,7 +280,22 @@
       "height": "Varies",
       "imageUrl": "/images/landmarks/petra.png",
       "unsplashQuery": "petra jordan treasury",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Petra means 'rock' in Greek - the entire city is carved directly into rose-red sandstone cliffs",
+        "The Treasury (Al-Khazneh) was actually a royal tomb, not a treasury - the name comes from a legend about hidden treasure",
+        "Petra was 'lost' to the Western world for over 500 years until Swiss explorer Johann Burckhardt rediscovered it in 1812",
+        "The Siq (entrance canyon) is 1.2 km long and at some points only 3 meters wide with walls 80 meters high",
+        "Indiana Jones and the Last Crusade was filmed here - the Treasury is the temple entrance in the movie"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Spring (March-May) or Fall (September-November). Avoid summer heat (40°C+). Early morning or late afternoon for best light on Treasury.",
+        "entranceFee": "JOD 50 ($70 USD) for 1-day. JOD 55 ($77) for 2-day. JOD 60 ($85) for 3-day. Free for children under 12. Jordan Pass (includes visa) is better deal.",
+        "nearbyAttractions": ["Monastery (8 km hike, 800+ steps)", "High Place of Sacrifice (spectacular views)", "Wadi Rum desert (1.5 hours)", "Dead Sea (3 hours)", "Aqaba beach (2 hours)"],
+        "localCuisine": ["Mansaf (lamb with yogurt)", "Falafel", "Hummus", "Maqluba (upside-down rice)", "Knafeh (sweet cheese dessert)", "Mint tea"],
+        "travelTip": "Wear comfortable hiking shoes - lots of walking on uneven terrain. Bring plenty of water (expensive inside). Donkey/camel rides available but negotiate price first. Hike to Monastery for fewer crowds. Stay until closing (6 PM) - most tour groups leave by 3 PM. Petra by Night show (Mon/Wed/Thu) magical but touristy.",
+        "avgWeather": "Hot, dry summers (30-40°C). Mild winters (5-15°C, can be cold at night). Spring/fall perfect (20-30°C). Minimal rainfall. Desert climate - huge temperature swings day to night."
+      }
     },
     {
       "id": "christ-redeemer",
@@ -178,7 +313,22 @@
       "height": "38m",
       "imageUrl": "/images/landmarks/christ_the_redeemer.png",
       "unsplashQuery": "christ redeemer rio",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Christ the Redeemer is struck by lightning about 6 times per year - the statue has lightning rods in the fingertips",
+        "The statue's arm span (28 meters) is almost as wide as it is tall (30 meters excluding pedestal)",
+        "It's made of reinforced concrete and covered with 6 million tiny soapstone tiles",
+        "The statue weighs 635 metric tons - equivalent to about 90 elephants!",
+        "A Chapel is located at the base of the statue where weddings and baptisms are held"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (8-9 AM) for clearer skies and fewer crowds. Weekdays better than weekends. Dry season (May-October) less cloudy.",
+        "entranceFee": "R$83 ($17 USD) includes van transport to top. Train option: R$97 ($20). Buy tickets online to skip lines.",
+        "nearbyAttractions": ["Sugarloaf Mountain (7 km)", "Copacabana Beach (6 km)", "Tijuca Forest (surrounding)", "Ipanema Beach (8 km)", "Lapa Arches (10 km)"],
+        "localCuisine": ["Feijoada (black bean stew)", "Pão de queijo (cheese bread)", "Brigadeiro (chocolate truffle)", "Açaí bowl", "Caipirinha (cocktail)", "Churrasco (Brazilian BBQ)"],
+        "travelTip": "Weather changes quickly - morning usually clearer. Check webcam before going (statue often in clouds). Van ride steep and winding (may cause motion sickness). Book tickets online - long lines at site. Wear comfortable shoes (lots of steps). Security tight - no large bags. Best photos from Parque Lage looking up.",
+        "avgWeather": "Warm year-round (20-30°C). Rainy season (Dec-Mar) afternoon showers. Dry season (May-Oct) less humid. Mountain top 5-10°C cooler than city, often cloudy/foggy."
+      }
     },
     {
       "id": "stonehenge",
@@ -196,7 +346,22 @@
       "height": "4.1m",
       "imageUrl": "/images/landmarks/stonehenge.png",
       "unsplashQuery": "stonehenge england",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Each of the massive stones weighs around 25 tons - equivalent to 4 elephants - and some were transported from Wales, 240 km away!",
+        "Scientists still debate how it was built, but recent theories suggest the stones were moved using greased wooden sledges and rollers",
+        "The site aligns with the sunrise on the summer solstice and sunset on the winter solstice - suggesting it was an astronomical calendar",
+        "Stonehenge is older than the Egyptian pyramids - construction began around 3000 BC, nearly 5,000 years ago",
+        "There are over 350 burial mounds surrounding Stonehenge, making it a massive ancient cemetery and ritual site"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning or late afternoon for fewer crowds. Book summer/winter solstice tickets months in advance (special access). Spring/fall pleasant weather.",
+        "entranceFee": "£22.50 ($28 USD) adults. £13.50 kids. Book online (required) - no walk-ins. Includes audio guide. English Heritage members free.",
+        "nearbyAttractions": ["Avebury Stone Circle (30 km, larger but less famous)", "Salisbury Cathedral (15 km)", "Bath (60 km)", "Old Sarum (15 km)"],
+        "localCuisine": ["Fish and chips", "Sunday roast", "Cornish pasty", "Cream tea (scones)", "Full English breakfast"],
+        "travelTip": "You can't walk among the stones (roped off 10m away) except on special solstice days or private access tours ($60+). Visitor center 2.5 km from stones - shuttle bus included. Very exposed site - bring jacket even in summer (windy!). Best photos from A303 road viewpoint (free, no ticket needed). Train to Salisbury, then bus/taxi.",
+        "avgWeather": "Mild, rainy year-round. Summer (15-25°C, best). Winter (0-10°C, muddy). Spring/fall (10-20°C). Always windy - dress in layers."
+      }
     },
     {
       "id": "acropolis",
@@ -214,7 +379,22 @@
       "height": "156m ASL",
       "imageUrl": "/images/landmarks/acropolis_of_athens.png",
       "unsplashQuery": "acropolis parthenon athens",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The Parthenon was built without any straight lines - all columns lean slightly inward and floors curve upward to create optical illusions of perfection",
+        "It survived nearly intact for 2,100 years until 1687 when Venetians bombarded it (Ottomans were using it as ammunition storage)",
+        "The word 'Acropolis' means 'high city' - it sits 150m above Athens on a limestone hill",
+        "The Parthenon originally had a 12-meter-tall gold and ivory statue of Athena inside, worth millions today",
+        "The marble appears white now, but it was originally painted in vibrant colors - red, blue, and gold"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (8 AM opening) or late afternoon. Avoid midday heat (no shade). October-April fewer crowds. Skip August (extreme heat, very crowded).",
+        "entranceFee": "€20 ($22 USD) or €30 combo ticket (7 sites including Ancient Agora). Free Nov-Mar first Sunday. EU students free. Buy online to skip lines.",
+        "nearbyAttractions": ["Acropolis Museum (300m, stunning)", "Ancient Agora (500m)", "Plaka neighborhood (old town)", "Temple of Olympian Zeus (1 km)", "Lycabettus Hill (2 km, sunset views)"],
+        "localCuisine": ["Moussaka", "Souvlaki", "Greek salad with feta", "Tzatziki", "Baklava", "Ouzo (anise liqueur)"],
+        "travelTip": "Wear sturdy shoes - marble is slippery! Bring water, hat, sunscreen (brutal sun, no shade). Go EARLY to beat heat and cruise ship crowds. Slippery marble floors dangerous when wet. Metro to Acropoli station. Acropolis Museum a MUST - has original sculptures. Skip overpriced cafes at top - eat in Plaka below.",
+        "avgWeather": "Hot, dry summers (30-40°C). Mild winters (5-15°C). Pleasant spring/fall (20-30°C). Almost no rain summer. Acropolis exposed - no escape from sun."
+      }
     },
     {
       "id": "sydney-opera",
@@ -232,7 +412,22 @@
       "height": "65m",
       "imageUrl": "/images/landmarks/opera_house.png",
       "unsplashQuery": "sydney opera house",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The iconic 'shells' are covered with 1,056,006 Swedish-made tiles that are self-cleaning!",
+        "It took 14 years to build (1959-1973) and went 1,357% over budget - from $7 million estimate to $102 million final cost",
+        "The architect, Jørn Utzon, resigned in 1966 and never returned to see his finished masterpiece",
+        "Over 1,500 performances are held each year - that's more than 4 shows per day!",
+        "The Concert Hall's ceiling is painted in 'utzon white' and has acoustic panels that can be raised or lowered for different performances"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning for photos (fewer people). Sunset for golden light. Book opera/concert tickets months ahead. Tours available daily.",
+        "entranceFee": "Tours: AUD $43 ($28 USD) for 1-hour guided tour. Free to walk around outside and eat at restaurants. Show tickets AUD $50-350 depending on performance.",
+        "nearbyAttractions": ["Sydney Harbour Bridge (500m, climb tours available)", "Royal Botanic Garden (300m)", "Circular Quay (ferries)", "The Rocks neighborhood (1 km)", "Darling Harbour (2 km)"],
+        "localCuisine": ["Fish and chips by the harbor", "Meat pies", "Lamingtons (cake)", "Tim Tams (cookies)", "Flat white coffee", "Barramundi (fish)"],
+        "travelTip": "Best photos from Mrs Macquarie's Chair viewpoint (1.5 km walk). Bennelong restaurant inside Opera House is expensive but special experience. Free outdoor concerts sometimes. Take harbor ferry for waterfront views ($8). Dress code for performances - check ahead. Book backstage tours for behind-the-scenes access. Train/ferry to Circular Quay.",
+        "avgWeather": "Warm year-round. Summer (Dec-Feb): 20-30°C, humid. Winter (Jun-Aug): 10-20°C, mild. Spring/fall perfect (15-25°C). Rarely extreme. Harbor breezy - bring light jacket."
+      }
     },
     {
       "id": "burj-khalifa",
@@ -250,7 +445,22 @@
       "height": "828m",
       "imageUrl": "/images/landmarks/burj_khalifa.png",
       "unsplashQuery": "burj khalifa dubai",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "At 828 meters (2,717 feet), Burj Khalifa is the tallest structure ever built by humans - more than twice the height of the Empire State Building",
+        "It has 163 floors above ground and 2 below. The elevator ride to the top takes only 60 seconds at 10 meters per second!",
+        "The building's Y-shaped design is inspired by a desert flower and helps reduce wind forces",
+        "Over 26,000 glass panels cover the exterior - if laid out flat, they'd cover 17 soccer fields",
+        "The spire can be seen from 95 km away. During Ramadan, those at the top break their fast 2 minutes later than those on the ground due to seeing the sunset later!"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Sunset time for day-to-night views (book 'At The Top Sky' level 148). Early morning clearest visibility. Weekdays less crowded. Avoid summer daytime (extreme heat outside).",
+        "entranceFee": "AED 154 ($42) for Level 124+125. AED 378 ($103) for Level 148 (higher, less crowded). AED 769 ($209) for VIP prime time sunset. Book online weeks ahead - walk-in prices much higher.",
+        "nearbyAttractions": ["Dubai Mall (connected, world's largest)", "Dubai Fountain show (free, spectacular, every 30 min)", "Dubai Aquarium (in mall)", "At The Top observation deck", "Souk Al Bahar (traditional market)"],
+        "localCuisine": ["Shawarma", "Hummus and falafel", "Kunafa (dessert)", "Arabic coffee with dates", "Manakish (flatbread)", "At.mosphere restaurant (122nd floor, expensive)"],
+        "travelTip": "Book tickets online at least 2 weeks early (50% cheaper than walk-in). Sunset tickets most expensive but worth it. Dubai Fountain show at 6 PM and 6:30 PM free from ground level. Dress modestly (shoulders/knees covered). Metro to Burj Khalifa/Dubai Mall station. Visit during Dubai Shopping Festival (Jan-Feb) for deals. Skip At.mosphere restaurant unless celebrating - very expensive.",
+        "avgWeather": "Extremely hot summers (40-50°C May-Sep, unbearable outdoors). Pleasant winters (15-25°C Nov-Mar, perfect). Inside always air-conditioned. Observation deck enclosed - weather doesn't matter for visit."
+      }
     },
     {
       "id": "sagrada-familia",
@@ -268,7 +478,22 @@
       "height": "172.5m",
       "imageUrl": "/images/landmarks/sagrada_familia.png",
       "unsplashQuery": "sagrada familia barcelona",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "After 140+ years of construction, it's STILL not finished - expected completion is 2026 (the centenary of Gaudí's death)",
+        "When completed, it will have 18 towers - 12 for the apostles, 4 for the evangelists, 1 for Mary, and 1 for Jesus (tallest at 172.5m)",
+        "Gaudí spent 40 years on this project and is buried in the crypt. He said 'My client is not in a hurry' (referring to God)",
+        "The facades tell different stories: Nativity (birth of Jesus), Passion (death), and Glory (path to God) - each in completely different styles",
+        "No two columns are alike - Gaudí designed them to look like a forest, branching out to support the ceiling like trees"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (9 AM opening) for morning light through stained glass. Book weeks/months ahead - sells out daily. Weekdays less crowded than weekends.",
+        "entranceFee": "€26 ($28) basic entry. €36 ($39) with audio guide. €40 ($43) with tower access. Book online - walk-ins sold out. Students/seniors discounts available.",
+        "nearbyAttractions": ["Park Güell (2.5 km, another Gaudí masterpiece)", "Casa Batlló (2 km)", "La Pedrera (2 km)", "Gothic Quarter (3 km)", "La Rambla (3 km)"],
+        "localCuisine": ["Paella", "Tapas (patatas bravas, jamón)", "Pan con tomate", "Churros with chocolate", "Cava (sparkling wine)", "Crema catalana (dessert)"],
+        "travelTip": "Book online at least 2-3 weeks early (often sold out). Time your visit for morning (9-11 AM) when sun lights up stained glass beautifully. Nativity facade gets morning sun, Passion facade afternoon. Tower tickets worth it for views. Dress code: cover shoulders/knees (they enforce it!). Metro L2/L5 to Sagrada Família. Download audio guide app. Allow 2-3 hours minimum.",
+        "avgWeather": "Hot summers (25-35°C). Mild winters (5-15°C). Pleasant spring/fall (15-25°C). Inside climate controlled. Bring water - Barcelona is hot May-September."
+      }
     },
     {
       "id": "hagia-sophia",
@@ -286,7 +511,22 @@
       "height": "55.6m",
       "imageUrl": "/images/landmarks/hagia_sophia.png",
       "unsplashQuery": "hagia sophia istanbul",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Hagia Sophia has been a Greek Orthodox cathedral, Roman Catholic cathedral, Ottoman mosque, secular museum, and is now a mosque again (as of 2020)",
+        "The dome was the largest in the world for nearly 1,000 years and appears to 'float' due to 40 windows around its base creating a ring of light",
+        "Massive marble columns were transported from ancient temples across the Roman Empire - some from Egypt, Lebanon, and Ephesus",
+        "The building has survived dozens of earthquakes over 1,500 years thanks to innovative engineering with lead-filled joints allowing flexibility",
+        "Viking runes carved by Varangian guards in the 9th century can still be seen on the marble railings on the upper floor"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (9 AM opening) or late afternoon. Avoid midday crowds. Friday afternoons very crowded (prayer day). Spring/fall ideal weather.",
+        "entranceFee": "FREE (it's a functioning mosque now). Donations welcome. Used to charge when it was a museum. Respectful behavior required.",
+        "nearbyAttractions": ["Blue Mosque (300m, free)", "Topkapi Palace (500m)", "Basilica Cistern (300m, underground)", "Grand Bazaar (1 km)", "Bosphorus cruise (nearby)"],
+        "localCuisine": ["Döner kebab", "Baklava", "Turkish delight (lokum)", "Simit (sesame bread)", "Turkish tea", "Manti (dumplings)", "İskender kebab"],
+        "travelTip": "Dress modestly (shoulders/knees covered). Women must wear headscarf inside - free loaners at entrance. Remove shoes (bring socks!). Free but expect donation pressure. Visit upper gallery for mosaics (stairs, no elevator). Go early to avoid tour groups. Combine with Blue Mosque nearby. Photography allowed but respectful. Tram T1 to Sultanahmet. Prayer times may restrict access briefly.",
+        "avgWeather": "Hot, humid summers (25-35°C). Cool winters (0-10°C). Pleasant spring/fall (15-25°C). Inside not climate controlled - can be hot in summer."
+      }
     },
     {
       "id": "mount-rushmore",
@@ -2212,7 +2452,22 @@
       "significance": "2010 eruption grounded European flights. Name means 'island-mountain-glacier'.",
       "height": "1,666m",
       "imageUrl": "/images/landmarks/eyjafjallajokull.png",
-      "unsplashQuery": "eyjafjallajokull volcano iceland"
+      "unsplashQuery": "eyjafjallajokull volcano iceland",
+      "didYouKnow": [
+        "The 2010 eruption grounded over 100,000 flights across Europe for 6 days - the largest air travel disruption since WWII",
+        "The name means 'island-mountain-glacier' - it's a glacier-covered volcano with ice up to 200 meters thick",
+        "Eruptions cause glacial floods called 'jökulhlaups' that can be catastrophic - water, ice, and volcanic debris rush down valleys",
+        "The ash plume reached 9 km high and the eruption could be seen from space",
+        "Icelanders joke that if you can pronounce 'Eyjafjallajökull' correctly, you're basically fluent in Icelandic!"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Summer (June-August) for accessible roads and hiking. Winter (Dec-Feb) for Northern Lights but roads may be closed. Spring/fall shoulder seasons beautiful.",
+        "entranceFee": "Free to view from distance. Visitor centers: ISK 1,000-2,000 ($7-14 USD). Guided glacier tours: ISK 15,000+ ($110+ USD). Super Jeep tours to volcano base available.",
+        "nearbyAttractions": ["Seljalandsfoss waterfall (15 km, walk behind it!)", "Skógafoss waterfall (30 km)", "Black sand beach Reynisfjara (60 km)", "Golden Circle route (100 km)"],
+        "localCuisine": ["Lamb soup", "Plokkfiskur (fish stew)", "Skyr (yogurt)", "Hot dogs with special sauce", "Rye bread", "Arctic char"],
+        "travelTip": "Don't attempt to hike alone - volcanic terrain is dangerous. Book guided tours from Reykjavik (2 hours drive). Weather changes rapidly - bring layers, waterproof gear. Rental 4x4 recommended for F-roads. Midnight sun in summer (no darkness). Check road conditions at road.is. Visit Þórsmörk valley nearby (stunning). Respect nature - stick to marked paths.",
+        "avgWeather": "Cool year-round. Summer (10-15°C, mild, long days). Winter (-5 to 5°C, dark, snowy). Very windy. Rain/snow possible any time. Dress in layers - always bring waterproof jacket."
+      }
     },
     {
       "id": "marble-caves",
@@ -2230,7 +2485,22 @@
       "significance": "6,000+ years of erosion. Blue water reflects on white marble. Stunning colors.",
       "height": "Sea level",
       "imageUrl": "/images/landmarks/marble_caves.png",
-      "unsplashQuery": "marble caves chile patagonia"
+      "unsplashQuery": "marble caves chile patagonia",
+      "didYouKnow": [
+        "The caves aren't actually marble - they're calcium carbonate (limestone) that has been polished smooth by 6,000+ years of wave action",
+        "The stunning blue color comes from the reflection of General Carrera Lake's glacial waters on the white 'marble' walls",
+        "The caves are still being formed - the water level and cave shapes change constantly with the seasons",
+        "The lake is the second-largest in South America (after Lake Titicaca) and is shared with Argentina (where it's called Lake Buenos Aires)",
+        "Water clarity is so high that you can see 30+ meters deep - the lake is fed by glacial melt from nearby mountains"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Summer (December-February) for calmest waters and best boat access. Spring/fall shoulder seasons less crowded. Winter (June-August) very cold, rough waters, limited tours.",
+        "entranceFee": "Free natural site. Boat tours: CLP 15,000-25,000 ($17-28 USD) for 1.5-hour tour from Puerto Río Tranquilo. Kayak tours: CLP 35,000+ ($40+ USD).",
+        "nearbyAttractions": ["Exploradores Glacier (50 km)", "Cerro Castillo National Park (100 km, hiking)", "Laguna San Rafael National Park (glacier tours)", "Carretera Austral scenic drive"],
+        "localCuisine": ["Patagonian lamb", "Calafate berries", "King crab (centolla)", "Empanadas", "Pisco sour", "Mate tea"],
+        "travelTip": "Puerto Río Tranquilo is the base town (very small, basic services). Book boat tours day before - weather-dependent. Kayaking gets you closer to caves but requires experience (cold water!). Best light for photos 11 AM-2 PM when sun is overhead. Water is VERY cold (5-10°C) - bring warm clothes. Road to town is gravel and remote - rent 4x4. Nearest ATM 100+ km away - bring cash. Limited cell service. Book accommodation ahead (few options).",
+        "avgWeather": "Cold year-round. Summer (10-20°C, best for visiting). Winter (0-10°C, very cold winds). Extremely windy - Patagonia known for fierce winds. Rain common. Lake freezes partially in winter. Always unpredictable - be flexible with plans."
+      }
     },
     {
       "id": "trolltunga",
@@ -2248,7 +2518,22 @@
       "significance": "'Troll's tongue'. Formed during ice age. Iconic photo spot.",
       "height": "700m above lake",
       "imageUrl": "/images/landmarks/trolltunga.png",
-      "unsplashQuery": "trolltunga norway cliff"
+      "unsplashQuery": "trolltunga norway cliff",
+      "didYouKnow": [
+        "Trolltunga means 'Troll's Tongue' in Norwegian - the rock juts out horizontally 700 meters above Lake Ringedalsvatnet",
+        "The rock formation was created during the ice age when glaciers carved away the surrounding mountain",
+        "It takes 10-12 hours round trip to hike (22-28 km total) - this is NOT a casual walk! It's a serious mountain hike",
+        "Until 2010, only about 500 people per year visited. Now over 100,000 visit annually thanks to Instagram fame",
+        "Despite the crowds and scary photos, there have been zero deaths from falling off Trolltunga itself"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Mid-June to mid-September only (snow blocks trail rest of year). July-August warmest but most crowded. June/September fewer people but colder, possible snow.",
+        "entranceFee": "Free to hike. Parking: NOK 600 ($55 USD) per day. Guided tours: NOK 1,500+ ($140 USD). Camping: NOK 300 ($28).",
+        "nearbyAttractions": ["Preikestolen/Pulpit Rock (240 km, another famous cliff)", "Bergen city (120 km)", "Hardangerfjord", "Folgefonna glacier", "Vøringsfossen waterfall (70 km)"],
+        "localCuisine": ["Brunost (brown cheese)", "Raspeballer (potato dumplings)", "Smoked salmon", "Kvikk Lunsj chocolate", "Waffles with jam"],
+        "travelTip": "START EARLY (6-7 AM) - takes 10-12 hours total. Bring 3+ liters water, packed lunch, snacks. Wear proper hiking boots (not sneakers!). Layers essential - weather changes fast. Poles helpful for steep sections. Trail well-marked but very challenging. Stay overnight in Odda (base town) before/after. No services on trail - be self-sufficient. Download offline map. Queue for photos can be 30+ minutes (peak season). Weather can close trail - check forecast. Not suitable for kids under 12 or people with fear of heights. Guides recommended for beginners.",
+        "avgWeather": "Cool even in summer (10-20°C valley, 5-15°C on mountain). Rain/fog common - waterproof gear essential. Snow possible June/September. Very exposed to wind on the rock. Check weather forecast - trail dangerous in bad weather."
+      }
     },
     {
       "id": "dolomites",
@@ -2266,7 +2551,22 @@
       "significance": "UNESCO World Heritage. Pale peaks glow pink at sunset ('enrosadira').",
       "height": "3,343m",
       "imageUrl": "/images/landmarks/dolomites.png",
-      "unsplashQuery": "dolomites italy mountains"
+      "unsplashQuery": "dolomites italy mountains",
+      "didYouKnow": [
+        "The Dolomites are made of dolomite rock - a type of limestone rich in magnesium, discovered by French geologist Déodat de Dolomieu",
+        "The mountains glow pink/orange at sunrise and sunset - a phenomenon called 'enrosadira' (turning pink in Ladin language)",
+        "They were once coral reefs under a tropical sea 250 million years ago - you can still find fossilized shells and corals",
+        "18 peaks rise above 3,000 meters, with Marmolada (3,343m) being the highest - nicknamed 'Queen of the Dolomites'",
+        "During WWI, Italy and Austria-Hungary fought here in extreme altitude - trenches and tunnels still visible today"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Summer (June-September) for hiking, wildflowers. Winter (December-March) for skiing. June/September fewer crowds. July-August warmest but busiest. Shoulder seasons (May, October) beautiful but some trails closed.",
+        "entranceFee": "Free national park. Parking: €5-10 ($5-11 USD). Cable cars: €20-40 ($22-44 USD). Ski passes: €50-70/day ($55-77 USD). Refugio (mountain hut) stays: €60-120 ($66-132 USD) including meals.",
+        "nearbyAttractions": ["Tre Cime di Lavaredo (iconic three peaks)", "Lake Braies (stunning turquoise lake)", "Val Gardena (ski resort)", "Cortina d'Ampezzo (luxury town)", "Lago di Carezza (rainbow lake)", "Seceda peak (incredible views)"],
+        "localCuisine": ["Canederli (bread dumplings)", "Speck (smoked ham)", "Kaiserschmarrn (shredded pancake)", "Strudel", "Polenta", "Grappa", "Local wines (Lagrein, Gewürztraminer)"],
+        "travelTip": "Rent a car - public transport limited. Base in Cortina d'Ampezzo, Ortisei, or Bolzano. Book refugios months ahead (summer). Download offline maps - cell service spotty. Via ferratas (iron paths) accessible to fit beginners with guide. Sunrise at Seceda or Tre Cime unforgettable but requires 4-5 AM start. Bring layers - mountain weather changes fast. Multi-day hikes like Alta Via 1 need planning. Great Dolomites Road (SS48) stunning drive. Photography best during golden hour. Respect trail closures - rockfall danger. German/Italian/Ladin spoken - Italian useful.",
+        "avgWeather": "Alpine climate. Summer (15-25°C valley, 5-15°C peaks). Winter (-10 to 5°C, heavy snow). Spring/fall (5-15°C). Afternoon thunderstorms common summer. Always colder at altitude - bring jacket. Weather changes rapidly - check forecast."
+      }
     }
   ]
 }

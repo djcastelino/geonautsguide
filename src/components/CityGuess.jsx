@@ -18,8 +18,6 @@ const CityGuess = () => {
   const [filteredCities, setFilteredCities] = useState([]);
   const audioRef = useRef(null);
   const inputRef = useRef(null);
-  const cluesRef = useRef(null);
-  const dropdownRef = useRef(null);
 
   useEffect(() => {
     const city = getDailyCity();
@@ -245,13 +243,6 @@ const CityGuess = () => {
 
   const handleGuess = (e) => {
     e.preventDefault();
-    
-    // If autocomplete is showing and there are matches, select the first one
-    if (showAutocomplete && filteredCities.length > 0) {
-      handleSelectCity(filteredCities[0].name);
-      return;
-    }
-    
     if (!currentGuess.trim()) return;
 
     const normalizedGuess = currentGuess.trim().toLowerCase();
@@ -306,23 +297,16 @@ const CityGuess = () => {
     }
   };
 
-  const handleSelectCity = (cityName, e) => {
-    if (e) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
+  const handleSelectCity = (cityName) => {
     setCurrentGuess(cityName);
     setShowAutocomplete(false);
     setFilteredCities([]);
-    setTimeout(() => {
-      inputRef.current?.focus();
-    }, 0);
+    inputRef.current?.focus();
   };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (inputRef.current && !inputRef.current.contains(event.target) && 
-          dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      if (inputRef.current && !inputRef.current.contains(event.target)) {
         setShowAutocomplete(false);
       }
     };
@@ -338,7 +322,7 @@ const CityGuess = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       {/* Header */}
-      <div className="text-center mb-6">
+      <div className="text-center mb-10">
         <div className="text-5xl mb-4">🌍</div>
         <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
           Daily City Guess
@@ -346,59 +330,8 @@ const CityGuess = () => {
         <p className="text-xl text-gray-600">One puzzle per day - Guess the city from the clues!</p>
       </div>
 
-      {/* Input Form - Moved to top for mobile */}
-      {gameState === 'playing' && (
-        <form onSubmit={handleGuess} className="bg-white rounded-2xl shadow-xl p-6 mb-6 sticky top-16 z-10">
-          <div className="flex gap-3 relative">
-            <div className="flex-1 relative">
-              <input
-                ref={inputRef}
-                type="text"
-                value={currentGuess}
-                onChange={handleInputChange}
-                placeholder="Enter city name..."
-                className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none text-lg"
-                autoComplete="off"
-              />
-              
-              {/* Autocomplete Dropdown */}
-              {showAutocomplete && filteredCities.length > 0 && (
-                <div ref={dropdownRef} className="absolute z-10 w-full mt-2 bg-white border-2 border-purple-200 rounded-xl shadow-2xl max-h-60 overflow-y-auto">
-                  {filteredCities.map((city) => (
-                    <div
-                      key={city.id}
-                      onMouseDown={(e) => {
-                        e.preventDefault();
-                        handleSelectCity(city.name, e);
-                      }}
-                      className="w-full text-left px-6 py-3 hover:bg-purple-50 transition-colors border-b border-gray-100 last:border-b-0 flex items-center gap-3 cursor-pointer"
-                    >
-                      <span className="text-xl">🌍</span>
-                      <div>
-                        <div className="font-semibold text-gray-900">{city.name}</div>
-                        <div className="text-sm text-gray-500">{city.country}, {city.continent}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-            
-            <button
-              type="submit"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg"
-            >
-              Guess
-            </button>
-          </div>
-          <p className="text-center mt-3 text-gray-600 font-semibold text-sm">
-            Remaining: {attemptsRemaining}/6
-          </p>
-        </form>
-      )}
-
       {/* Clues Card */}
-      <div ref={cluesRef} className="bg-white rounded-2xl shadow-xl p-8 mb-6">
+      <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
         <h2 className="text-2xl font-bold mb-6 text-center">Clues:</h2>
         <div className="space-y-4">
           {dailyCity.clues.slice(0, revealedClues).map((clue, index) => (
@@ -449,7 +382,57 @@ const CityGuess = () => {
           </div>
         )}
         
+        <p className="text-center mt-4 text-gray-600 font-semibold">
+          Remaining: {attemptsRemaining}/6
+        </p>
       </div>
+
+      {/* Input Form */}
+      {gameState === 'playing' && (
+        <form onSubmit={handleGuess} className="bg-white rounded-2xl shadow-xl p-6">
+          <div className="flex gap-3 relative">
+            <div className="flex-1 relative">
+              <input
+                ref={inputRef}
+                type="text"
+                value={currentGuess}
+                onChange={handleInputChange}
+                placeholder="Enter city name..."
+                className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none text-lg"
+                autoFocus
+                autoComplete="off"
+              />
+              
+              {/* Autocomplete Dropdown */}
+              {showAutocomplete && filteredCities.length > 0 && (
+                <div className="absolute z-10 w-full mt-2 bg-white border-2 border-purple-200 rounded-xl shadow-2xl max-h-80 overflow-y-auto">
+                  {filteredCities.map((city) => (
+                    <button
+                      key={city.id}
+                      type="button"
+                      onClick={() => handleSelectCity(city.name)}
+                      className="w-full text-left px-6 py-3 hover:bg-purple-50 transition-colors border-b border-gray-100 last:border-b-0 flex items-center gap-3"
+                    >
+                      <span className="text-xl">🌍</span>
+                      <div>
+                        <div className="font-semibold text-gray-900">{city.name}</div>
+                        <div className="text-sm text-gray-500">{city.country}, {city.continent}</div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+            
+            <button
+              type="submit"
+              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg"
+            >
+              Guess
+            </button>
+          </div>
+        </form>
+      )}
 
       {/* Win State */}
       {gameState === 'won' && (
@@ -648,13 +631,17 @@ const CityGuess = () => {
 
       {/* Archive Badge - Show if viewing old puzzle */}
       {archiveDate && (
-        <button
-          onClick={backToToday}
-          className="fixed top-20 right-4 z-50 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full shadow-lg flex items-center gap-2 text-sm font-semibold transition-all"
-        >
-          <span>📚</span>
-          <span>Back to Today</span>
-        </button>
+        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-50">
+          <div className="bg-orange-500 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3">
+            <span>📚 Archive Mode</span>
+            <button
+              onClick={backToToday}
+              className="bg-white text-orange-500 px-4 py-1 rounded-full font-semibold hover:bg-orange-50 transition-all"
+            >
+              Back to Today
+            </button>
+          </div>
+        </div>
       )}
 
       {/* Stats Modal */}

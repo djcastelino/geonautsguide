@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import ShareButtons from './ShareButtons';
 
 function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChallenge = false, onStartQuiz }) {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -219,17 +218,17 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
       <div className="max-w-5xl mx-auto px-4 py-8">
         <button
           onClick={onBack}
-          className="mb-6 flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+          className="mb-6 flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
         >
           <span className="text-xl">←</span>
           <span className="font-medium">Back to landmarks</span>
         </button>
 
-        <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden transition-colors">
+        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <div className="relative h-96 bg-gray-300">
             <img
               src={landmark.imageUrl}
@@ -272,14 +271,11 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
             </div>
 
             <div className="mb-8">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">About</h2>
-                <ShareButtons landmark={landmark} />
-              </div>
-              <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">About</h2>
+              <p className="text-gray-700 text-lg leading-relaxed mb-4">
                 {landmark.description}
               </p>
-              <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed">
                 {landmark.significance}
               </p>
             </div>
@@ -361,6 +357,82 @@ function LandmarkDetail({ landmark, narration, audioContent, onBack, isDailyChal
                 </button>
               )}
             </div>
+
+            {/* Did You Know - Featured Landmark Only */}
+            {isDailyChallenge && landmark.didYouKnow && (
+              <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl p-6 mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-2xl">💡</span>
+                  <h2 className="text-xl font-bold text-gray-900">Did You Know?</h2>
+                  <span className="ml-auto bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full">Today's Featured Only</span>
+                </div>
+                <ul className="space-y-3">
+                  {landmark.didYouKnow.map((fact, index) => (
+                    <li key={index} className="flex gap-3">
+                      <span className="text-orange-500 font-bold text-lg flex-shrink-0">{index + 1}.</span>
+                      <p className="text-gray-700 leading-relaxed">{fact}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Explorer's Notes - Featured Landmark Only */}
+            {isDailyChallenge && landmark.explorerNotes && (
+              <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-2xl">🧳</span>
+                  <h2 className="text-xl font-bold text-gray-900">Explorer's Notes</h2>
+                  <span className="ml-auto bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">Today's Featured Only</span>
+                </div>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="bg-white rounded-xl p-4">
+                    <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                      <span>⏰</span> Best Time to Visit
+                    </h3>
+                    <p className="text-gray-700 text-sm">{landmark.explorerNotes.bestTimeToVisit}</p>
+                  </div>
+                  <div className="bg-white rounded-xl p-4">
+                    <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                      <span>💰</span> Entrance Fee
+                    </h3>
+                    <p className="text-gray-700 text-sm">{landmark.explorerNotes.entranceFee}</p>
+                  </div>
+                  <div className="bg-white rounded-xl p-4">
+                    <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                      <span>🗺️</span> Nearby Attractions
+                    </h3>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      {landmark.explorerNotes.nearbyAttractions.slice(0, 3).map((attraction, idx) => (
+                        <li key={idx}>• {attraction}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded-xl p-4">
+                    <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                      <span>🍽️</span> Local Cuisine
+                    </h3>
+                    <ul className="text-gray-700 text-sm space-y-1">
+                      {landmark.explorerNotes.localCuisine.slice(0, 3).map((food, idx) => (
+                        <li key={idx}>• {food}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="bg-white rounded-xl p-4 md:col-span-2">
+                    <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                      <span>💡</span> Travel Tip
+                    </h3>
+                    <p className="text-gray-700 text-sm">{landmark.explorerNotes.travelTip}</p>
+                  </div>
+                  <div className="bg-white rounded-xl p-4 md:col-span-2">
+                    <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
+                      <span>🌤️</span> Weather
+                    </h3>
+                    <p className="text-gray-700 text-sm">{landmark.explorerNotes.avgWeather}</p>
+                  </div>
+                </div>
+              </div>
+            )}
 
             <div className="mb-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">📚 Sources & Further Reading</h3>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geonauts Guide Icon Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        canvas {
+            border: 2px solid #333;
+            margin: 20px;
+            background: white;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+            background: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+        button:hover {
+            background: #4f46e5;
+        }
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Geonauts Guide Icon Generator</h1>
+        <p>Footprints with Fading G Design</p>
+        
+        <h3>512x512 Icon</h3>
+        <canvas id="icon512" width="512" height="512"></canvas>
+        <br>
+        <button onclick="downloadIcon('icon512', 'icon-512.png')">Download 512x512</button>
+        
+        <h3>192x192 Icon</h3>
+        <canvas id="icon192" width="192" height="192"></canvas>
+        <br>
+        <button onclick="downloadIcon('icon192', 'icon-192.png')">Download 192x192</button>
+    </div>
+
+    <script>
+        function drawIcon(canvasId, size) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // Create gradient background (purple to blue)
+            const gradient = ctx.createLinearGradient(0, 0, size, size);
+            gradient.addColorStop(0, '#6366f1');   // Indigo
+            gradient.addColorStop(1, '#3b82f6');   // Blue
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, size, size);
+            
+            // Draw fading G in background
+            ctx.save();
+            ctx.font = `bold ${size * 0.7}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.15)'; // Very subtle white
+            ctx.fillText('G', size / 2, size / 2);
+            ctx.restore();
+            
+            // Draw footprints trail (2 pairs of larger footprints)
+            const footprintSize = size * 0.18; // Much larger
+            const spacing = size * 0.28;
+            
+            // Starting position (bottom left going to top right)
+            const startX = size * 0.3;
+            const startY = size * 0.7;
+            
+            // Draw 2 footprint pairs going diagonally up
+            for (let i = 0; i < 2; i++) {
+                const x = startX + (spacing * i);
+                const y = startY - (spacing * i);
+                
+                // Left footprint
+                drawFootprint(ctx, x - footprintSize * 0.4, y, footprintSize, -20);
+                // Right footprint
+                drawFootprint(ctx, x + footprintSize * 0.4, y - footprintSize * 0.6, footprintSize, 20);
+            }
+        }
+        
+        function drawFootprint(ctx, x, y, size, rotation) {
+            ctx.save();
+            ctx.translate(x, y);
+            ctx.rotate((rotation * Math.PI) / 180);
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.9)'; // White footprints
+            
+            // Foot sole (oval)
+            ctx.beginPath();
+            ctx.ellipse(0, 0, size * 0.35, size * 0.55, 0, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Toes (5 small circles)
+            const toeSize = size * 0.12;
+            const toeY = -size * 0.65;
+            const toePositions = [-0.35, -0.18, 0, 0.18, 0.35];
+            
+            toePositions.forEach((offsetX, index) => {
+                const toeX = offsetX * size;
+                const toeYOffset = Math.abs(index - 2) * size * 0.08; // Middle toe slightly forward
+                ctx.beginPath();
+                ctx.arc(toeX, toeY - toeYOffset, toeSize, 0, Math.PI * 2);
+                ctx.fill();
+            });
+            
+            ctx.restore();
+        }
+        
+        function downloadIcon(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+        
+        // Draw both icons on load
+        window.onload = function() {
+            drawIcon('icon512', 512);
+            drawIcon('icon192', 192);
+        };
+    </script>
+</body>
+</html>
