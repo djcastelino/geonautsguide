@@ -104,7 +104,7 @@
       "description": "15th-century Inca citadel in the Andes",
       "significance": "Most familiar icon of Inca civilization. UNESCO World Heritage.",
       "height": "2,430m elevation",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/1200px-Machu_Picchu%2C_Peru.jpg",
+      "imageUrl": "/images/landmarks/macchu_picchu.png",
       "unsplashQuery": "machu picchu peru",
       "type": "Man-made"
     },
@@ -122,7 +122,7 @@
       "description": "Colossal neoclassical sculpture on Liberty Island",
       "significance": "Gift from France. Symbol of freedom and democracy.",
       "height": "93m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Statue_of_Liberty_7.jpg/1200px-Statue_of_Liberty_7.jpg",
+      "imageUrl": "/images/landmarks/statue_of_liberty.png",
       "unsplashQuery": "statue liberty new york",
       "type": "Man-made"
     },
@@ -140,7 +140,7 @@
       "description": "Largest religious monument in the world",
       "significance": "Masterpiece of Khmer architecture. Symbol of Cambodia.",
       "height": "65m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/1200px-Angkor_Wat.jpg",
+      "imageUrl": "/images/landmarks/angkor_wat.png",
       "unsplashQuery": "angkor wat cambodia",
       "type": "Man-made"
     },
@@ -158,7 +158,7 @@
       "description": "Archaeological city famous for rock-cut architecture",
       "significance": "Ancient Nabataean capital. One of New 7 Wonders.",
       "height": "Varies",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Monastery%2C_Petra%2C_Jordan6.jpg/1200px-The_Monastery%2C_Petra%2C_Jordan6.jpg",
+      "imageUrl": "/images/landmarks/petra.png",
       "unsplashQuery": "petra jordan treasury",
       "type": "Man-made"
     },
@@ -176,7 +176,7 @@
       "description": "Art Deco statue of Jesus on Corcovado mountain",
       "significance": "Iconic symbol of Christianity and Brazil. One of New 7 Wonders.",
       "height": "38m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Rio_de_Janeiro_-_Cristo_Redentor_01.jpg/1200px-Rio_de_Janeiro_-_Cristo_Redentor_01.jpg",
+      "imageUrl": "/images/landmarks/christ_the_redeemer.png",
       "unsplashQuery": "christ redeemer rio",
       "type": "Man-made"
     },
@@ -194,7 +194,7 @@
       "description": "Prehistoric monument of standing stones",
       "significance": "One of most famous prehistoric sites. Possible astronomical observatory.",
       "height": "4.1m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stonehenge2007_07_30.jpg/1200px-Stonehenge2007_07_30.jpg",
+      "imageUrl": "/images/landmarks/stonehenge.png",
       "unsplashQuery": "stonehenge england",
       "type": "Man-made"
     },
@@ -212,7 +212,7 @@
       "description": "Ancient citadel containing the Parthenon",
       "significance": "Symbol of Ancient Greece and Western civilization.",
       "height": "156m ASL",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/1200px-The_Parthenon_in_Athens.jpg",
+      "imageUrl": "/images/landmarks/acropolis_of_athens.png",
       "unsplashQuery": "acropolis parthenon athens",
       "type": "Man-made"
     },
@@ -230,7 +230,7 @@
       "description": "Multi-venue performing arts center with sail-like design",
       "significance": "Masterpiece of 20th-century architecture. Icon of Australia.",
       "height": "65m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1200px-Sydney_Opera_House_-_Dec_2008.jpg",
+      "imageUrl": "/images/landmarks/opera_house.png",
       "unsplashQuery": "sydney opera house",
       "type": "Man-made"
     },
@@ -248,7 +248,7 @@
       "description": "Tallest building in the world",
       "significance": "Engineering marvel. Symbol of modern Dubai.",
       "height": "828m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Burj_Khalifa.jpg/1200px-Burj_Khalifa.jpg",
+      "imageUrl": "/images/landmarks/burj_khalifa.png",
       "unsplashQuery": "burj khalifa dubai",
       "type": "Man-made"
     },
@@ -266,7 +266,7 @@
       "description": "Unfinished Catholic basilica by Antoni Gaud\u00ed",
       "significance": "Gaud\u00ed's masterpiece. UNESCO World Heritage.",
       "height": "172.5m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/050529_Barcelona_026.jpg/1200px-050529_Barcelona_026.jpg",
+      "imageUrl": "/images/landmarks/sagrada_familia.png",
       "unsplashQuery": "sagrada familia barcelona",
       "type": "Man-made"
     },
@@ -284,7 +284,7 @@
       "description": "Former cathedral, later mosque, now mosque again",
       "significance": "Architectural marvel of Byzantine engineering.",
       "height": "55.6m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Hagia_Sophia_Mars_2013.jpg/1200px-Hagia_Sophia_Mars_2013.jpg",
+      "imageUrl": "/images/landmarks/hagia_sophia.png",
       "unsplashQuery": "hagia sophia istanbul",
       "type": "Man-made"
     },
