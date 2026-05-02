@@ -76,6 +76,19 @@ function App() {
     setViewMode(mode);
   };
 
+  // Get today's featured landmark
+  const getDailyLandmark = () => {
+    const today = new Date();
+    const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+    return landmarksData.landmarks[dayOfYear % landmarksData.landmarks.length];
+  };
+
+  const isFeaturedLandmark = (landmark) => {
+    if (!landmark) return false;
+    const featured = getDailyLandmark();
+    return featured.id === landmark.id;
+  };
+
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-green-50">
@@ -171,6 +184,7 @@ function App() {
             narration={narrationData.narration}
             audioContent={narrationData.audioContent}
             onBack={handleBackToGrid}
+            isDailyChallenge={isFeaturedLandmark(selectedLandmark)}
           />
         ) : null}
       </main>
