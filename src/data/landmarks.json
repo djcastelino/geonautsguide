@@ -542,9 +542,24 @@
       "description": "Sculpture of four US presidents carved into granite",
       "significance": "National memorial representing 150 years of American history.",
       "height": "18m faces",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Dean_Franklin_-_06.04.03_Mount_Rushmore_Monument_%28by-sa%29-3_new.jpg/1200px-Dean_Franklin_-_06.04.03_Mount_Rushmore_Monument_%28by-sa%29-3_new.jpg",
+      "imageUrl": "/images/landmarks/mount_rushmore.png",
       "unsplashQuery": "mount rushmore",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The faces are 60 feet (18m) tall - each eye is 11 feet wide and noses are 20 feet long!",
+        "Originally, the presidents were to be carved from head to waist, but funding ran out",
+        "No one died during the 14-year construction despite the dangerous work with dynamite and jackhammers",
+        "90% of the mountain was carved using dynamite - workers had to be within inches of the final surface",
+        "A hidden 'Hall of Records' chamber was carved behind Lincoln's head containing important US documents"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Summer (May-September) for full access and evening lighting ceremony. Fall for fewer crowds and beautiful colors. Winter can be very cold but less crowded.",
+        "entranceFee": "Free entrance! Parking: $10 (good for 1 year). America the Beautiful Pass accepted.",
+        "nearbyAttractions": ["Crazy Horse Memorial (17 miles, still being carved)", "Custer State Park (wildlife, scenic drives)", "Badlands National Park (75 miles)", "Deadwood (historic gold rush town, 40 miles)"],
+        "localCuisine": ["Buffalo burgers", "Pheasant", "Chislic (cubed meat)", "Kuchen (German pastry)", "Fry bread"],
+        "travelTip": "Arrive early (before 10 AM) to avoid crowds and get parking. Stay for evening lighting ceremony (9 PM summer) - very moving. Presidential Trail (0.6 mi loop) gets you closest to faces. Bring layers - weather changes quickly. Download the app for self-guided tour. Visit nearby Crazy Horse for comparison. Black Hills area needs 2-3 days to explore properly.",
+        "avgWeather": "Summer (15-30°C, warm days, cool nights). Spring/fall (5-20°C, unpredictable). Winter (-15 to 5°C, snow, ice). High altitude - cooler than expected. Afternoon thunderstorms common summer. Always bring jacket."
+      }
     },
     {
       "id": "notre-dame",
@@ -560,9 +575,24 @@
       "description": "Medieval Catholic cathedral on \u00cele de la Cit\u00e9",
       "significance": "Masterpiece of Gothic architecture. Under restoration after 2019 fire.",
       "height": "69m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1200px-Notre-Dame_de_Paris_2013-07-24.jpg",
+      "imageUrl": "/images/landmarks/notre-dame-paris.png",
       "unsplashQuery": "notre dame paris",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The 2019 fire destroyed the iconic spire and roof, but the stone vaulted ceiling saved the interior from total destruction",
+        "The cathedral's bells are named - the largest, Emmanuel, weighs 13 tons and has rung for major French events since 1681",
+        "It took 182 years to build (1163-1345) - multiple generations of craftsmen worked on it",
+        "The cathedral can hold 6,000 people and features 113 stained glass windows depicting biblical stories",
+        "Victor Hugo's 1831 novel 'The Hunchback of Notre-Dame' saved the cathedral from demolition and sparked restoration efforts"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Currently under restoration (reopening December 2024). When open: Early morning (8-9 AM) or late afternoon. Avoid weekends. Spring (April-May) and fall (September-October) best weather.",
+        "entranceFee": "Cathedral: Free. Tower climb: €10 ($11 USD). Treasury: €5. Book tower tickets online weeks in advance.",
+        "nearbyAttractions": ["Sainte-Chapelle (stunning stained glass, 5 min walk)", "Latin Quarter", "Shakespeare & Company bookshop", "Louvre Museum (15 min walk)"],
+        "localCuisine": ["Crêpes from street vendors", "Croissants", "Macarons", "Boeuf Bourguignon", "French onion soup"],
+        "travelTip": "Check restoration status before visiting. Best viewed from Square Jean XXIII garden behind cathedral. Climb towers for gargoyle views and bells (387 steps, no elevator). Free organ concerts Sunday evenings. Metro: Cité station. Arrive early - lines get very long. Modest dress required (shoulders/knees covered). Archaeological crypt under square shows Roman Paris ruins.",
+        "avgWeather": "Spring (10-18°C, pleasant, some rain). Summer (20-25°C, warm, peak tourists). Fall (10-18°C, beautiful, less crowded). Winter (3-8°C, cold, festive). Rain possible year-round - bring umbrella."
+      }
     },
     {
       "id": "chichen-itza",
@@ -578,9 +608,24 @@
       "description": "Pre-Columbian Maya archaeological site",
       "significance": "One of New 7 Wonders. Features astronomical precision.",
       "height": "30m pyramid",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/1200px-Chichen_Itza_3.jpg",
+      "imageUrl": "/images/landmarks/chitchen_itza.png",
       "unsplashQuery": "chichen itza pyramid",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "At spring/fall equinox, sunlight creates a shadow of a serpent descending the pyramid stairs - ancient astronomical precision!",
+        "Clapping at the pyramid base produces an echo that sounds like the sacred Quetzal bird's chirp",
+        "The pyramid has 365 steps total (91 per side × 4 + 1 platform) - one for each day of the year",
+        "A cenote (sinkhole) nearby was used for human sacrifices - archaeologists found 200+ skeletons and treasures",
+        "Climbing the pyramid has been banned since 2006 after a tourist fell to her death"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "November-April (dry season). Arrive at 8 AM opening to avoid heat and crowds. Avoid spring equinox (March 20-21) unless you want massive crowds. Summer very hot and humid.",
+        "entranceFee": "MXN 614 ($35 USD) - includes Chichen Itza + state tax. Cash preferred. Guide services: MXN 800-1,200 ($45-70 USD) for group.",
+        "nearbyAttractions": ["Cenote Ik Kil (swimming, 3 km)", "Valladolid colonial town (45 km)", "Ek Balam ruins (1 hour)", "Cenote Suytun (photo-worthy, 50 km)"],
+        "localCuisine": ["Cochinita pibil (slow-roasted pork)", "Panuchos (stuffed tortillas)", "Sopa de lima (lime soup)", "Marquesitas (crispy crepes)", "Fresh coconut water"],
+        "travelTip": "Extremely hot - bring 2L+ water, hat, sunscreen. Wear light, breathable clothes. Vendors very persistent - polite 'no gracias' works. Stay 3-4 hours minimum. Light show at night (extra fee) is spectacular. Hire official guide at entrance for context. Bring small bills for bathrooms (MXN 5-10). Best base: Valladolid (charming town) vs Cancun (far). Sound and light show worth it.",
+        "avgWeather": "Hot year-round (25-35°C). Dry season (Nov-Apr) best. Rainy season (May-Oct) - afternoon storms, humid. Peak heat March-May (35-40°C). Always humid. Start early to avoid midday heat."
+      }
     },
     {
       "id": "neuschwanstein",
@@ -596,9 +641,24 @@
       "description": "19th-century Romanesque Revival palace",
       "significance": "Inspired Disney's Sleeping Beauty Castle.",
       "height": "65m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Schloss_Neuschwanstein_2013.jpg/1200px-Schloss_Neuschwanstein_2013.jpg",
+      "imageUrl": "/images/landmarks/neuschwanstein_castle.png",
       "unsplashQuery": "neuschwanstein castle",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "King Ludwig II only lived in the castle for 172 days before his mysterious death in 1886",
+        "Walt Disney used Neuschwanstein as inspiration for Sleeping Beauty's castle - it's the ultimate 'Disney castle'",
+        "It was built as a retreat, not a fortress - Ludwig wanted to escape reality and live in a romantic fantasy",
+        "The castle has central heating, running water, and automatic flushing toilets - cutting-edge 1880s technology!",
+        "Ludwig bankrupted Bavaria building this and other fantasy castles - he was declared insane and deposed"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "May-June or September-October (mild weather, fewer crowds). Winter magical but cold. Summer very crowded (book months ahead). Avoid August.",
+        "entranceFee": "€15 ($16 USD) adults. Must book online in advance (sells out weeks ahead). Combination ticket with Hohenschwangau castle: €27.",
+        "nearbyAttractions": ["Hohenschwangau Castle (childhood home, nearby)", "Marienbrücke (Mary's Bridge, best castle view)", "Alpsee lake (swimming, hiking)", "Füssen town (charming Bavarian)"],
+        "localCuisine": ["Schnitzel", "Spätzle (egg noodles)", "Kaiserschmarrn (emperor's pancake)", "Schweinshaxe (pork knuckle)", "Bavarian pretzels", "Weissbier (wheat beer)"],
+        "travelTip": "BOOK ONLINE WEEKS IN ADVANCE - sells out fast! From parking, 30-40 min uphill walk (or bus €3, horse carriage €8). Tour is only 30 min - timed entry, no photos inside. Walk 10 min further to Marienbrücke for iconic photo view. Wear good shoes - steep walk. Best photo time: morning light. Visit both castles if time allows. Stay overnight in Füssen to avoid day-trip crowds. Entry by guided tour only - 35 min. Pick up tickets 90 min before your tour time.",
+        "avgWeather": "Summer (15-25°C, warm). Winter (-5 to 5°C, snow, magical). Spring/fall (5-15°C, unpredictable). Mountain weather changes fast - bring layers and rain jacket. Can be cold even in summer."
+      }
     },
     {
       "id": "alhambra",
@@ -614,9 +674,24 @@
       "description": "Palace and fortress complex with Moorish architecture",
       "significance": "Finest example of Islamic art in Europe.",
       "height": "Varies",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1200px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+      "imageUrl": "/images/landmarks/alhambra.png",
       "unsplashQuery": "alhambra granada",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The name 'Alhambra' means 'The Red One' in Arabic, named after the reddish color of the fortress walls",
+        "It contains over 10,000 intricate Arabic inscriptions in its walls - poetry, Quranic verses, and dedications",
+        "The Nasrid Palaces use no figurative art (Islamic law) - only geometric patterns, calligraphy, and nature motifs",
+        "Water features throughout use gravity alone - no pumps! An ingenious 8km aqueduct system from the mountains",
+        "Washington Irving lived here in 1829 and wrote 'Tales of the Alhambra', sparking worldwide fascination"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "March-May or September-November (mild, flowers blooming). Early morning (first entry 8:30 AM) best for photos and fewer crowds. Avoid July-August heat.",
+        "entranceFee": "€19.09 ($21 USD) general admission. MUST book online weeks/months in advance (6,600 daily visitor limit). Night visits available (€12).",
+        "nearbyAttractions": ["Generalife Gardens (included in ticket)", "Albaicín neighborhood (white-washed houses)", "Mirador de San Nicolás (sunset views of Alhambra)", "Granada Cathedral"],
+        "localCuisine": ["Tapas (free with drinks!)", "Jamón ibérico", "Gazpacho", "Pionono (local pastry)", "Moroccan tea and pastries in Albaicín"],
+        "travelTip": "BOOK TICKETS 2-3 MONTHS IN ADVANCE! Nasrid Palaces entry is timed - don't miss your slot (no refunds). Arrive 30 min early. Wear comfortable shoes - lots of walking. Allow 3-4 hours minimum. Download audio guide or book guided tour. Best photos: morning light on Nasrid Palaces. Free tapas culture in Granada - eat like a local! Stay in Albaicín for authentic experience. Sunset from San Nicolás viewpoint is magical. Bring water - limited fountains.",
+        "avgWeather": "Spring (12-22°C, perfect). Summer (20-35°C, very hot, dry). Fall (12-24°C, pleasant). Winter (3-15°C, cold nights). High altitude - cooler than expected. Sun intense - sunscreen essential."
+      }
     },
     {
       "id": "forbidden-city",
@@ -632,9 +707,24 @@
       "description": "Chinese imperial palace complex, 980 buildings",
       "significance": "Largest ancient palatial structure. Home to 24 emperors.",
       "height": "Varies",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Forbidden_City_Beijing_China2.jpg/1200px-Forbidden_City_Beijing_China2.jpg",
+      "imageUrl": "/images/landmarks/forbidden_city.png",
       "unsplashQuery": "forbidden city beijing",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "No one except the emperor could enter or leave without permission - hence 'Forbidden' City. Common people were executed for trespassing!",
+        "It has 9,999 rooms (only heaven has 10,000, so emperors took one less to show respect)",
+        "The entire complex was built without using a single nail - traditional Chinese wooden architecture",
+        "24 emperors lived here during Ming and Qing dynasties (1420-1912) - nearly 500 years of imperial rule",
+        "The palace was designed to align with cosmic harmony - even the number of door studs has meaning (9 rows of 9 = 81, imperial number)"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-May or September-October (mild weather). Avoid Chinese holidays (Golden Week Oct 1-7, Chinese New Year). Early morning (8:30 AM opening) essential - gets very crowded. Winter less crowded but cold.",
+        "entranceFee": "¥60 ($8.50 USD) peak season (Apr-Oct), ¥40 off-season. Additional fees for Clock Museum, Treasure Gallery. Book online to skip queues.",
+        "nearbyAttractions": ["Tiananmen Square (adjacent)", "Jingshan Park (north, best photo view of Forbidden City)", "Temple of Heaven (30 min)", "Summer Palace (1 hour)"],
+        "localCuisine": ["Peking Duck", "Jianbing (breakfast crepe)", "Hot pot", "Dumplings", "Zhajiangmian (noodles)"],
+        "travelTip": "HUGE complex - allow 3-4 hours minimum. Enter from south (Meridian Gate), exit north. Audio guide essential for context (¥40). Wear comfortable shoes - lots of walking. Jingshan Park north of palace offers best aerial photos. Very crowded - arrive at opening. Download offline map. Most buildings closed inside - viewing from courtyards. Bring passport - required for tickets. Beijing smog can obscure photos - check air quality.",
+        "avgWeather": "Spring (10-20°C, pleasant). Summer (25-35°C, hot, humid, rainy). Fall (10-20°C, best season). Winter (-10 to 5°C, cold, dry, clear skies). Pollution varies - check AQI."
+      }
     },
     {
       "id": "versailles",
@@ -650,9 +740,24 @@
       "description": "Royal ch\u00e2teau, former principal royal residence",
       "significance": "Symbol of absolute monarchy. Hall of Mirrors is iconic.",
       "height": "Varies",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Palace_of_Versailles_June_2010.jpg/1200px-Palace_of_Versailles_June_2010.jpg",
+      "imageUrl": "/images/landmarks/palace_of_versailles.png",
       "unsplashQuery": "palace versailles",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Louis XIV moved the entire French court here (20,000 people!) to keep nobles under his watch and away from Paris rebellions",
+        "The Hall of Mirrors has 357 mirrors - extremely expensive in the 1600s, showing ultimate wealth and power",
+        "It costs €15 million ($16.5M) annually just to maintain the gardens with 200,000 trees and 210,000 flowers",
+        "Marie Antoinette had a fake rustic village built where she could 'play peasant' and escape court life",
+        "The Treaty of Versailles ending WWI was signed in the Hall of Mirrors in 1919"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Tuesday-Thursday (Mon closed). Early morning (9 AM opening) or after 3 PM. April-May, September-October best weather. Avoid summer weekends. Musical Fountain Shows weekends Apr-Oct (extra fee).",
+        "entranceFee": "€20 ($22 USD) palace + gardens. Free first Sunday of month Nov-Mar. Audio guide €6. Book timed entry online (skip 2+ hour queues!).",
+        "nearbyAttractions": ["Trianon Palaces & Marie Antoinette's Estate (included in ticket)", "Grand Trianon", "Petit Trianon", "The Hameau (Marie's village)"],
+        "localCuisine": ["French pastries at Angelina tearoom", "Bistro cuisine", "Macarons", "Champagne (nearby region)"],
+        "travelTip": "BOOK ONLINE! Lines 2+ hours without. Full visit needs full day. RER train from Paris (€7, 40 min) - buy round-trip ticket. Start with palace, then gardens, then Trianon estates. Rent golf cart for gardens (€38/hr) or bike. Musical fountain shows magical (€10 extra). Bring picnic for gardens. Tuesday/Wednesday least crowded. Download app. Skip overpriced palace cafe. Marie Antoinette's estate often skipped but wonderful. Allow 6+ hours total.",
+        "avgWeather": "Spring (10-18°C, perfect for gardens). Summer (20-28°C, hot, peak crowds). Fall (10-18°C, beautiful colors). Winter (2-8°C, indoor palace visits only). Gardens best spring/summer."
+      }
     },
     {
       "id": "golden-gate",
@@ -668,9 +773,24 @@
       "description": "Suspension bridge spanning Golden Gate strait",
       "significance": "Engineering masterpiece. International orange color is iconic.",
       "height": "227m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
+      "imageUrl": "/images/landmarks/golden_gate_bridge.png",
       "unsplashQuery": "golden gate bridge",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The 'International Orange' color was originally just primer, but it looked so good they made it permanent!",
+        "The bridge is painted continuously - by the time painters finish one end, they start over. It never ends!",
+        "11 workers died during construction (1933-37) - remarkable safety record for that era. A safety net saved 19 lives.",
+        "It sways up to 27 feet (8m) in strong winds and the roadway can rise/fall 16 feet with temperature changes",
+        "Fog horns have been sounding since 1937 - they blast every 20 seconds when fog rolls in"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "September-November (warmest, least fog). Summer very foggy! Morning usually clearer than afternoon. Weekdays less crowded than weekends.",
+        "entranceFee": "Free to walk/bike! Parking: $9-15. Southbound cars pay toll ($9-$10). Best views FREE from Battery Spencer, Fort Point, Crissy Field.",
+        "nearbyAttractions": ["Alcatraz Island (book weeks ahead!)", "Fisherman's Wharf", "Sausalito (across bridge, charming town)", "Presidio (free park, history)", "Baker Beach (best photo spot)"],
+        "localCuisine": ["Clam chowder in sourdough bowl (Fisherman's Wharf)", "Dungeness crab", "Mission burritos", "Ghirardelli chocolate"],
+        "travelTip": "Walk the bridge (1.7 mi each way, 30-45 min). East sidewalk open to pedestrians (west for bikes). DRESS WARM - always windy and cold on bridge even if SF is warm. Best photos: Battery Spencer (north side, uphill), Fort Point (underneath), Crissy Field (east). Fog is iconic but obscures views - check webcams first. Rent bike, ride to Sausalito, ferry back ($12). Sunrise/sunset beautiful. Free parking at Fort Point lot (walk up). Uber to Battery Spencer for photos, walk down to bridge.",
+        "avgWeather": "Cool year-round (12-18°C). Summer foggy and cold on bridge (bring jacket!). Fall warmest. Always windy on bridge. Fog typically afternoon. Layers essential - SF microclimates."
+      }
     },
     {
       "id": "tower-pisa",
@@ -686,9 +806,24 @@
       "description": "Freestanding bell tower famous for tilt",
       "significance": "Leans at 3.97 degrees due to soft ground.",
       "height": "56.67m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/The_Leaning_Tower_of_Pisa_SB.jpeg/1200px-The_Leaning_Tower_of_Pisa_SB.jpeg",
+      "imageUrl": "/images/landmarks/leaning_tower_of_pisa.png",
       "unsplashQuery": "leaning tower pisa",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "It started leaning during construction (5 years in) because of soft clay soil - they tried to fix it by building upper floors taller on one side!",
+        "The lean increased 1mm per year for centuries. It was stabilized in 1990s and actually straightened by 45cm",
+        "Galileo allegedly dropped cannonballs from the tower to prove gravity affects all objects equally - probably a myth but great story!",
+        "It took 199 years to build (1173-1372) because of wars and financial problems - the delays actually saved it from collapse",
+        "There are 294 steps to the top - they're worn and uneven from centuries of visitors, making the climb tricky"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-May or September-October (mild weather, fewer crowds). Arrive early (9 AM) or late afternoon. Summer very crowded. Skip July-August.",
+        "entranceFee": "€20 ($22 USD) to climb tower. Book online weeks in advance (limited capacity). Cathedral free (€5 ticket for entry time). Combo tickets available.",
+        "nearbyAttractions": ["Pisa Cathedral (same square, stunning)", "Baptistery (amazing acoustics)", "Campo Santo (medieval cemetery)", "Knights' Square", "Pisa riverfront"],
+        "localCuisine": ["Cecina (chickpea flatbread)", "Pappa al pomodoro (tomato soup)", "Baccalà (salt cod)", "Castagnaccio (chestnut cake)", "Gelato"],
+        "travelTip": "BOOK TOWER CLIMB ONLINE! Walk-up often sold out. Timed entry - arrive 15 min early. No bags allowed (free lockers). Climb is narrow, steep, disorienting due to lean. Not for claustrophobic or young kids. Classic 'holding up tower' photos at designated spot. Piazza dei Miracoli (Square of Miracles) has all monuments - buy combo ticket. Day trip from Florence (1 hour train, €9). 3-4 hours sufficient for Pisa. Avoid overpriced restaurants near tower - walk 5 min away. Free lawn in square perfect for photos. Evening lighting beautiful, fewer crowds.",
+        "avgWeather": "Spring (12-20°C, pleasant). Summer (25-35°C, very hot). Fall (15-23°C, nice). Winter (5-12°C, cool, fewer tourists). Can be rainy. Summer extremely hot - bring water, sunscreen."
+      }
     },
     {
       "id": "big-ben",
@@ -704,9 +839,24 @@
       "description": "Clock tower at Palace of Westminster",
       "significance": "Iconic symbol of London and UK.",
       "height": "96m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Clock_Tower_-_Palace_of_Westminster%2C_London_-_May_2007.jpg/1200px-Clock_Tower_-_Palace_of_Westminster%2C_London_-_May_2007.jpg",
+      "imageUrl": "/images/landmarks/big_ben.png",
       "unsplashQuery": "big ben london",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "'Big Ben' is actually the name of the 13.5-ton bell inside, not the tower! The tower is called Elizabeth Tower.",
+        "The clock is so accurate it's adjusted using old British pennies placed on the pendulum - adding one speeds it by 0.4 seconds per day",
+        "It has chimed every hour since 1859, except during WWI, WWII, and maintenance (2017-2022 restoration)",
+        "The clock faces are 7 meters (23 ft) in diameter - each minute hand is 4.3m long and weighs 100kg!",
+        "There's a light above the clock that illuminates when Parliament is in session - symbol of democracy at work"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Recently reopened after 5-year restoration. Tower tours limited to UK residents. Best viewed from Westminster Bridge, South Bank, or Parliament Square. Spring/summer for longer days.",
+        "entranceFee": "Tower tours (UK residents only): £25. Viewing from outside: FREE. Palace of Westminster tours available (book ahead): £28.",
+        "nearbyAttractions": ["Westminster Abbey (5 min walk, £25)", "London Eye (10 min)", "Churchill War Rooms (5 min)", "Trafalgar Square (10 min)", "Buckingham Palace (15 min walk)"],
+        "localCuisine": ["Fish and chips", "Afternoon tea", "Sunday roast", "Pie and mash", "Indian curry (London specialty)"],
+        "travelTip": "Westminster Bridge or South Bank offer best photos - Blue/golden hour stunning. Parliament Square for close-up shots. Free to view from outside anytime. Watch Changing of the Guard at Buckingham Palace (11 AM, certain days). Tube: Westminster station (exits right at Big Ben). Combine with Westminster Abbey, Churchill War Rooms. River cruise passes by. Evening floodlighting beautiful. Currently fully restored and gleaming gold/blue. Queue for Westminster Abbey - arrive early or book online.",
+        "avgWeather": "Spring (8-15°C, showers). Summer (15-22°C, pleasant, long days). Fall (10-15°C, crisp). Winter (2-8°C, cold, dark early). Rain possible anytime - bring umbrella. London weather unpredictable."
+      }
     },
     {
       "id": "kremlin",
@@ -722,9 +872,24 @@
       "description": "Fortified complex, official residence of President",
       "significance": "Symbol of Russian power. UNESCO World Heritage.",
       "height": "Varies",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Gran_Palacio_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_28-29_HDR.jpg/1200px-Gran_Palacio_del_Kremlin%2C_Mosc%C3%BA%2C_Rusia%2C_2016-10-03%2C_DD_28-29_HDR.jpg",
+      "imageUrl": "/images/landmarks/kremlin.png",
       "unsplashQuery": "kremlin moscow",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "'Kremlin' means 'fortress' in Russian - there are kremlins in many cities, but Moscow's is THE Kremlin",
+        "The red brick walls are 2.25km long, up to 6m thick, and have 20 towers - each tower is unique",
+        "It houses the world's largest bell (Tsar Bell, 200 tons) and cannon (Tsar Cannon) - both never used!",
+        "Napoleon tried to blow it up in 1812 when retreating - rain put out the fuses, saving it",
+        "The Kremlin stars atop towers are 3-3.75m wide and made of ruby glass"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "May-September (warm). Thursday museums less crowded. Arrive early. Winter magical but very cold.",
+        "entranceFee": "RUB 1,000 ($11 USD) grounds + cathedrals. Armoury Museum: RUB 1,000 extra. Book online.",
+        "nearbyAttractions": ["Red Square (adjacent)", "St. Basil's Cathedral (5 min)", "GUM department store", "Lenin's Mausoleum"],
+        "localCuisine": ["Borscht", "Beef Stroganoff", "Blini", "Pelmeni", "Kvass"],
+        "travelTip": "Bring passport - required. Enter via Kutafya Tower. Security strict. Armoury timed entry - book ahead. Allow 3-4 hours. Metro: Biblioteka Lenina.",
+        "avgWeather": "Summer (18-25°C). Winter (-10 to -5°C, snow). Layers essential."
+      }
     },
     {
       "id": "arc-triomphe",
@@ -740,9 +905,24 @@
       "description": "Triumphal arch honoring those who fought for France",
       "significance": "Center of Place Charles de Gaulle. Tomb of Unknown Soldier beneath.",
       "height": "50m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/1200px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+      "imageUrl": "/images/landmarks/arc_de_trimph.png",
       "unsplashQuery": "arc de triomphe paris",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Napoleon commissioned it but never saw it finished - he was exiled before 1836 completion",
+        "Tomb of Unknown Soldier beneath has eternal flame - rekindled every evening at 6:30 PM since 1923",
+        "12 avenues radiate out from it - called Place de l'Étoile (Star Square)",
+        "Names of 660 French generals and 128 battles inscribed inside",
+        "De Gaulle's victory parade marched through in 1944 when Paris was liberated"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning or evening for sunset. Spring/fall pleasant. Avoid July 14 (Bastille Day).",
+        "entranceFee": "€13 ($14 USD). Free first Sunday Nov-Mar. Climb 284 steps (no elevator).",
+        "nearbyAttractions": ["Champs-Élysées", "Eiffel Tower (20 min walk)", "Louvre (30 min)", "Grand Palais"],
+        "localCuisine": ["Macarons from Ladurée", "Crêpes", "Bistro fare", "Champagne"],
+        "travelTip": "Use underground tunnel - DON'T cross traffic circle! Climb for 360° views. Evening ceremony 6:30 PM. Metro: Charles de Gaulle-Étoile.",
+        "avgWeather": "Spring (10-18°C). Summer (20-25°C). Fall (10-18°C). Winter (3-8°C). Top windy - bring jacket."
+      }
     },
     {
       "id": "pantheon-rome",
@@ -758,9 +938,24 @@
       "description": "Former Roman temple with unreinforced concrete dome",
       "significance": "Best-preserved ancient Roman building.",
       "height": "43.4m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome_Pantheon_front.jpg/1200px-Rome_Pantheon_front.jpg",
+      "imageUrl": "/images/landmarks/pantheon.png",
       "unsplashQuery": "pantheon rome",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "World's largest unreinforced concrete dome - still holds the record after 1,900 years!",
+        "The oculus (hole) at top is 9m wide - when it rains, it rains INSIDE (with drains)",
+        "Dome thickness decreases from base to top - ingenious Roman engineering",
+        "Raphael and Italian kings are buried here",
+        "Perfectly proportioned - dome height equals diameter (43.3m), creating perfect sphere"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (9 AM) before tour groups. Evening for light through oculus. Weekdays less crowded.",
+        "entranceFee": "€5 ($5.50 USD). Book online. Audio guide €6.",
+        "nearbyAttractions": ["Trevi Fountain (5 min)", "Piazza Navona (5 min)", "Spanish Steps (10 min)", "Tazza d'Oro coffee"],
+        "localCuisine": ["Cacio e pepe", "Carbonara", "Supplì", "Gelato", "Espresso at Sant'Eustachio"],
+        "travelTip": "Visit when raining to see rain through oculus! Best light: noon. Quick visit 30-45 min. Dress code enforced. Tazza d'Oro coffee 1 min away.",
+        "avgWeather": "Spring (12-20°C). Summer (25-35°C, very hot). Fall (15-23°C). Winter (5-15°C). Interior always cool."
+      }
     },
     {
       "id": "blue-mosque",
@@ -776,9 +971,24 @@
       "description": "Historic mosque with blue interior tiles",
       "significance": "Last great mosque of classical Ottoman architecture.",
       "height": "64m dome",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg/1200px-Blue_Mosque_Courtyard_Dusk_Wikimedia_Commons.jpg",
+      "imageUrl": "/images/landmarks/blue_mosque.png",
       "unsplashQuery": "blue mosque istanbul",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Actually called Sultan Ahmed Mosque - 'Blue' from 20,000+ blue Iznik tiles inside",
+        "Has 6 minarets (very rare) - caused controversy as it matched Mecca, so 7th added to Mecca",
+        "Built in just 7 years (1609-1616) by Sultan Ahmed I when he was only 19",
+        "Architect was student of great Sinan who built Süleymaniye Mosque",
+        "One of only 3 mosques in Istanbul allowing non-Muslim visitors - FREE!"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Early morning (8:30 AM) or late afternoon between prayers. Avoid Friday noon. Spring/fall pleasant.",
+        "entranceFee": "FREE! Headscarf required for women (free loaners). Remove shoes.",
+        "nearbyAttractions": ["Hagia Sophia (2 min across square)", "Topkapi Palace (10 min)", "Grand Bazaar (15 min)", "Basilica Cistern (5 min)"],
+        "localCuisine": ["Turkish breakfast", "Kebabs", "Baklava", "Turkish delight", "Turkish tea", "Simit"],
+        "travelTip": "Modest dress required. Visit between 5 daily prayers. Combine with Hagia Sophia. Best light morning. Tram: Sultanahmet stop.",
+        "avgWeather": "Spring (12-20°C). Summer (25-35°C, very hot). Fall (15-25°C). Winter (5-12°C, cool, rain)."
+      }
     },
     {
       "id": "st-basils",
@@ -794,9 +1004,24 @@
       "description": "Orthodox church with colorful onion domes",
       "significance": "Symbol of Russia. Built by Ivan the Terrible.",
       "height": "65m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Russia-Moscow-Saint_Basil%27s_Cathedral-5.jpg/1200px-Russia-Moscow-Saint_Basil%27s_Cathedral-5.jpg",
+      "imageUrl": "/images/landmarks/basil_cathedral.png",
       "unsplashQuery": "st basils cathedral moscow",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Legend says Ivan the Terrible blinded the architect so he could never build anything more beautiful - probably not true!",
+        "It's actually 9 separate chapels (8 around a central one) - each onion dome is unique in pattern and color",
+        "Built to celebrate Ivan's victory over the Tatars in 1552 - each chapel honors a saint from battle days",
+        "Napoleon wanted to take it back to France in 1812 - when he couldn't, he tried to blow it up (failed)",
+        "The colorful onion domes were added later - originally it was white and gold"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "May-September. Early morning or evening. Winter beautiful with snow. Avoid peak summer crowds.",
+        "entranceFee": "RUB 1,000 ($11 USD). Combined with Kremlin saves money. Photo outside free.",
+        "nearbyAttractions": ["Red Square (same location)", "Kremlin (adjacent)", "GUM Mall", "Lenin's Mausoleum"],
+        "localCuisine": ["Borscht", "Pelmeni", "Blini", "Beef Stroganoff", "Kvass"],
+        "travelTip": "Best photos from Red Square. Interior smaller than expected - narrow stairs, low ceilings. Quick visit 30-45 min. Combine with Kremlin visit same day. Night lighting spectacular. Metro: Ploshchad Revolyutsii. Winter magical but freezing.",
+        "avgWeather": "Summer (18-25°C). Winter (-10 to -5°C, snow). Very cold in winter - dress warm!"
+      }
     },
     {
       "id": "terracotta-army",
@@ -812,9 +1037,24 @@
       "description": "8,000+ terracotta warriors guarding Emperor's tomb",
       "significance": "Discovered in 1974. UNESCO World Heritage.",
       "height": "1.8m warriors",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Teracotta_army_pit_1_20090717-06.JPG/1200px-Teracotta_army_pit_1_20090717-06.JPG",
+      "imageUrl": "/images/landmarks/terracotta.png",
       "unsplashQuery": "terracotta army xian",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Discovered by accident in 1974 by farmers digging a well - they initially thought they found demons!",
+        "Each warrior has unique facial features - no two are exactly alike. They're life-sized (1.8m tall, 200kg)",
+        "Originally painted in bright colors - the paint flaked off within hours of excavation when exposed to air",
+        "Estimated 8,000 warriors, 130 chariots, 670 horses - and most are still buried! Only a fraction excavated",
+        "Built for Emperor Qin Shi Huang (same guy who built Great Wall) - his tomb itself remains unopened"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "March-May or September-November. Avoid Golden Week (Oct 1-7). Weekdays less crowded. Go early (8 AM).",
+        "entranceFee": "CNY 150 ($21 USD) peak, CNY 120 off-season. Includes all 3 pits + museum. Guide CNY 200.",
+        "nearbyAttractions": ["Xi'an City Wall (old town, rent bike)", "Muslim Quarter (food street)", "Big Wild Goose Pagoda", "Emperor Qin's Tomb (not excavated)"],
+        "localCuisine": ["Roujiamo (Chinese burger)", "Biang biang noodles", "Yang rou paomo (lamb soup)", "Dumplings", "Persimmon cakes"],
+        "travelTip": "45 km from Xi'an city - bus 306 from train station (1 hour, CNY 7). Hire guide at entrance for context - worth it! Visit Pit 1 first (most impressive), then 3, then 2. Photography allowed but no flash. Allow 2-3 hours. Avoid midday crowds. Stay in Xi'an old town (inside city wall). Muslim Quarter great for food. High-speed train from Beijing (4.5 hrs). Some original discoverer farmers sell books at gift shop.",
+        "avgWeather": "Spring (10-20°C, pleasant). Summer (25-35°C, very hot). Fall (15-25°C, nice). Winter (0-10°C, cold). Indoor site so weather less critical."
+      }
     },
     {
       "id": "tower-london",
@@ -830,9 +1070,24 @@
       "description": "Historic castle housing Crown Jewels",
       "significance": "UNESCO World Heritage. Guarded by Yeomen Warders.",
       "height": "27m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tower_of_London_viewed_from_the_River_Thames.jpg/1200px-Tower_of_London_viewed_from_the_River_Thames.jpg",
+      "imageUrl": "/images/landmarks/tower_of_london.png",
       "unsplashQuery": "tower of london",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "It's guarded by Beefeaters (Yeoman Warders) - they live there with their families and give tours",
+        "Houses the Crown Jewels including the 530-carat Cullinan I diamond - largest clear cut diamond in the world",
+        "6 ravens must live there at all times - legend says if they leave, the kingdom will fall (wings clipped!)",
+        "Was a prison for high-profile inmates - Anne Boleyn, Lady Jane Grey, Guy Fawkes all executed here",
+        "Built by William the Conqueror in 1066 - it's been royal palace, prison, armory, treasury, and zoo!"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "September-October or March-April. Weekdays better. Arrive at 9 AM opening for Crown Jewels before crowds. Summer packed.",
+        "entranceFee": "£33 ($40 USD) adults. Book online for discount. London Pass included. Early Tower Tour £12 extra (worth it!).",
+        "nearbyAttractions": ["Tower Bridge (5 min walk)", "Borough Market (15 min)", "Sky Garden (free, book ahead)", "St. Paul's Cathedral (15 min)"],
+        "localCuisine": ["Fish and chips", "Pie and mash", "Sunday roast", "Afternoon tea", "Borough Market food"],
+        "travelTip": "Book online - saves money and skip queues. Go straight to Crown Jewels first (before crowds). Free Beefeater tours every 30 min - very entertaining (45 min). Allow 3-4 hours minimum. White Tower (keep) has Royal Armory - amazing armor collection. Ravens usually near Wakefield Tower. Tower Bridge separate attraction. Early Tower Tour (before opening) lets you see Crown Jewels ceremony - special! Tube: Tower Hill. Combine with Tower Bridge walk.",
+        "avgWeather": "Spring (8-15°C). Summer (18-22°C, long days). Fall (10-15°C). Winter (3-8°C, cold). Indoor exhibits. Rain anytime - bring umbrella."
+      }
     },
     {
       "id": "moai",
@@ -848,9 +1103,24 @@
       "description": "Monolithic human figures carved by Rapa Nui people",
       "significance": "Nearly 1,000 statues. Mystery surrounds their purpose.",
       "height": "4m average",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mo%C3%A1is.jpg/1200px-Mo%C3%A1is.jpg",
+      "imageUrl": "/images/landmarks/moai.png",
       "unsplashQuery": "moai easter island",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Nearly 1,000 moai exist on the island - 95% carved from same volcanic crater (Rano Raraku)",
+        "They represent deified ancestors and were 'walked' to their positions using ropes - not rolled!",
+        "Many have topknots (pukao) weighing 10+ tons - separate red stone from different quarry",
+        "Most face inland to watch over villages, not out to sea - only 7 face the ocean (Ahu Akivi)",
+        "The civilization collapsed around 1600s from deforestation and tribal warfare - many moai toppled during conflicts"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "October-April (summer, warmest). December-February peak season. Avoid Tapati Festival (late Jan/early Feb) unless you want crowds.",
+        "entranceFee": "$80 USD park pass (valid 10 days). Cash only at airport. Covers all sites. Strict rules - stay on paths!",
+        "nearbyAttractions": ["Rano Raraku (quarry with 400 moai)", "Ahu Tongariki (15 moai, sunrise spot)", "Rano Kau crater", "Orongo ceremonial village"],
+        "localCuisine": ["Fresh tuna (ceviche)", "Empanadas", "Po'e (banana dessert)", "Chilean wine", "Pacific seafood"],
+        "travelTip": "Remote! Fly from Santiago Chile (5 hours, expensive - book early). Stay in Hanga Roa (only town). Rent car or scooter - public transport limited. Visit Ahu Tongariki at sunrise (spectacular). Rano Raraku quarry shows construction process - mind-blowing. Most sites have no facilities - bring water, sun protection. Respect moai - don't touch or climb! 3-4 days sufficient. Very expensive island - bring snacks from mainland. Stargazing incredible (dark sky reserve).",
+        "avgWeather": "Warm year-round (18-28°C). Summer (Dec-Mar) warmest. Winter (Jun-Aug) cooler, rainier. Subtropical - humid. Always windy. Sun intense - sunscreen essential."
+      }
     },
     {
       "id": "borobudur",
@@ -866,9 +1136,32 @@
       "description": "Largest Buddhist temple in the world",
       "significance": "UNESCO World Heritage. 2,672 relief panels, 504 Buddha statues.",
       "height": "35m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Borobudur-Nothwest-view.jpg/1200px-Borobudur-Nothwest-view.jpg",
-      "unsplashQuery": "borobudur temple java",
-      "type": "Man-made"
+      "imageUrl": "/images/landmarks/borobudur.png",
+      "unsplashQuery": "borobudur indonesia",
+      "type": "Man-made",
+      "didYouKnow": [
+        "World's largest Buddhist temple - built with 2 million stone blocks without any cement or mortar!",
+        "Abandoned for centuries after a volcanic eruption and was hidden under jungle until 1814 rediscovery",
+        "It's actually a giant 3D mandala - pilgrims walk 5km through 9 levels to reach enlightenment at top",
+        "Contains 504 Buddha statues and 2,672 relief panels telling Buddha's life story",
+        "Built around 800 AD (same time as Angkor Wat) - constructed in just 75 years!"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-October (dry season). Sunrise visit magical but expensive. Go 6 AM for light and fewer crowds. Avoid weekends and Indonesian holidays.",
+        "entranceFee": "IDR 400,000 ($25 USD) foreigners. Sunrise tour IDR 650,000 ($40 USD, 4:30 AM). Book sunrise ahead.",
+        "nearbyAttractions": ["Prambanan Hindu temple (1 hour)", "Yogyakarta city (1 hour, culture hub)", "Mount Merapi volcano", "Jomblang Cave"],
+        "localCuisine": ["Nasi goreng", "Satay", "Gudeg (jackfruit stew)", "Bakso (meatball soup)", "Kopi luwak (civet coffee)"],
+        "travelTip": "Base in Yogyakarta (1 hour away). Sunrise tour worth extra cost - magical light, fewer crowds, access to top. Dress modestly (long pants, covered shoulders). Wear good shoes - lots of stairs. Very hot/humid - bring water. Hire guide for context. Allow 2-3 hours. Combine with Prambanan same day. Touch Buddha's hand in stupas for good luck (local belief). Volcanic ash sometimes affects visibility - check conditions. Best photos from upper terraces at golden hour.",
+        "avgWeather": "Hot and humid year-round (25-32°C). Dry season (Apr-Oct) best. Rainy season (Nov-Mar) afternoon storms. Always humid. Sunrise cool - bring light jacket."
+      },
+      "exclusiveContent": {
+        "video": "/videos/borobudur.mp4",
+        "images": [
+          "/images/borobudur/1.jpg",
+          "/images/borobudur/2.jpg",
+          "/images/borobudur/3.jpg"
+        ]
+      }
     },
     {
       "id": "pompeii",
@@ -884,9 +1177,24 @@
       "description": "Roman city preserved by Mount Vesuvius eruption",
       "significance": "Frozen in time. Provides snapshot of Roman life.",
       "height": "Sea level",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Composition_ruins_Pompeii.jpg/1200px-Composition_ruins_Pompeii.jpg",
+      "imageUrl": "/images/landmarks/pompeii.png",
       "unsplashQuery": "pompeii ruins",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Buried under 4-6m of volcanic ash in 79 AD - the city was forgotten for 1,500 years until rediscovery in 1748",
+        "Bodies were preserved as hollow cavities in ash - plaster casts show people's final moments in vivid detail",
+        "Vesuvius eruption was so hot (300°C) that people's brains boiled and exploded - gruesome but scientifically fascinating",
+        "Ancient graffiti, bakeries, brothels, fast food shops all preserved - like a Roman time capsule",
+        "Only 2/3 of Pompeii excavated - much still buried, slowly being uncovered"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "March-May or September-November. Early morning (9 AM opening) or late afternoon. Summer unbearably hot. Avoid weekends.",
+        "entranceFee": "€18 ($20 USD). Combined ticket with Herculaneum €22. Free first Sunday of month. Book timed entry online.",
+        "nearbyAttractions": ["Herculaneum (better preserved, smaller)", "Mount Vesuvius (hike to crater)", "Naples (base city)", "Amalfi Coast (1 hour)"],
+        "localCuisine": ["Neapolitan pizza", "Pasta alla Genovese", "Sfogliatella (pastry)", "Limoncello", "Espresso"],
+        "travelTip": "HUGE site - allow 3-4 hours minimum. Wear good shoes - uneven cobblestones. Bring water, hat, sunscreen - NO shade. Audio guide essential for context. Enter via Porta Marina. Must-sees: Forum, amphitheater, House of Faun, brothel (lupanar), plaster casts. Combine with Herculaneum (better preserved houses). Train from Naples (30 min, €3). Stay in Naples or Sorrento. Visit Vesuvius same day if energetic. Photography allowed. Very hot in summer - start early.",
+        "avgWeather": "Spring (12-20°C). Summer (25-35°C, brutal heat, no shade). Fall (15-23°C). Winter (8-15°C). Summer scorching - visit early morning only."
+      }
     },
     {
       "id": "edinburgh-castle",
@@ -902,9 +1210,24 @@
       "description": "Historic fortress atop Castle Rock",
       "significance": "Home to Scottish Crown Jewels. Symbol of Scotland.",
       "height": "135m ASL",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Edinburgh_Castle_from_Prince%27s_Street.jpg/1200px-Edinburgh_Castle_from_Prince%27s_Street.jpg",
+      "imageUrl": "/images/landmarks/edinburgh_castle.png",
       "unsplashQuery": "edinburgh castle",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Built on extinct volcano - Castle Rock is 350 million years old!",
+        "The One O'Clock Gun fires daily at 1 PM (except Sundays) since 1861 - originally to help ships set their clocks",
+        "Houses Scotland's Crown Jewels and the Stone of Destiny (used in coronations of British monarchs)",
+        "Has been besieged 23 times - most attacked place in Britain",
+        "Mons Meg cannon (1449) could fire 150kg cannonballs 3km - one of world's largest medieval cannons"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "May-June or September. Arrive at 9:30 AM opening. Avoid Edinburgh Festival (August) - extremely crowded. Winter less crowded, shorter days.",
+        "entranceFee": "£19.50 ($24 USD). Book online for discount. Audio guide included. Free for under 5s.",
+        "nearbyAttractions": ["Royal Mile (walk down to Holyrood Palace)", "Arthur's Seat (extinct volcano, hike)", "National Museum of Scotland (free)", "Princes Street Gardens"],
+        "localCuisine": ["Haggis", "Fish and chips", "Scotch whisky", "Scottish tablet (fudge)", "Cullen skink (soup)"],
+        "travelTip": "Book online - walk-up often sold out. Allow 2-3 hours. Walk up Royal Mile or take bus. Crown Jewels first (before crowds). One O'Clock Gun at 1 PM daily. St Margaret's Chapel (oldest building). Great views of Edinburgh. Military Tattoo in August (book year ahead). Combined ticket with Holyrood Palace available. Steep walk up - wear good shoes. Very windy at top - bring jacket.",
+        "avgWeather": "Spring (8-13°C). Summer (15-19°C). Fall (9-14°C). Winter (3-7°C, dark by 4 PM). Always windy on castle rock. Rain possible anytime."
+      }
     },
     {
       "id": "potala-palace",
@@ -920,9 +1243,24 @@
       "description": "Former winter residence of Dalai Lamas",
       "significance": "UNESCO World Heritage. Symbol of Tibetan Buddhism.",
       "height": "117m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Potala_Palace%2C_August_2009.jpg/1200px-Potala_Palace%2C_August_2009.jpg",
+      "imageUrl": "/images/landmarks/potala_palace.png",
       "unsplashQuery": "potala palace lhasa",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Built at 3,700m altitude - contains over 1,000 rooms, 10,000 shrines, 200,000 statues",
+        "Former winter residence of Dalai Lamas - current Dalai Lama fled to India in 1959",
+        "The White Palace is for secular use, Red Palace for religious - 13 stories tall",
+        "Construction took 50 years and 7,000 workers - no nails used, all wooden joints",
+        "Contains tombs of 8 Dalai Lamas in golden stupas - some covered in jewels and gold"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-October. Book weeks ahead (400 daily visitor limit). Avoid Chinese holidays. Morning visits only. Altitude acclimatization crucial.",
+        "entranceFee": "CNY 200 ($28 USD) peak, CNY 100 off-season. Must book with tour agency (foreigners). Passport required. 1-hour timed visit.",
+        "nearbyAttractions": ["Jokhang Temple (holiest in Tibet)", "Barkhor Street (kora circuit)", "Norbulingka (summer palace)", "Sera Monastery (monk debates)"],
+        "localCuisine": ["Yak butter tea", "Momos (dumplings)", "Thenthuk (noodle soup)", "Tsampa (barley)", "Yak meat"],
+        "travelTip": "MUST book through tour agency - independent travel restricted in Tibet. Lhasa altitude 3,650m - spend 2-3 days acclimatizing first. Palace visit only 1 hour (timed). No photos inside. Steep stairs - take it slow. Morning light best for photos. Respect religious site - dress modestly. Visit Jokhang Temple (more important religiously). China visa + Tibet Permit required. Best season spring/fall. Winter very cold. Controversial political situation - research before visiting.",
+        "avgWeather": "Spring (5-15°C). Summer (10-20°C). Fall (5-15°C). Winter (-10 to 5°C, very cold). High altitude - strong sun. Dry climate. Altitude sickness common."
+      }
     },
     {
       "id": "mont-saint-michel",
@@ -938,9 +1276,24 @@
       "description": "Tidal island with medieval abbey",
       "significance": "Becomes island at high tide. Pilgrimage site since 8th century.",
       "height": "92m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mont_St_Michel_in_the_afternoon.jpg/1200px-Mont_St_Michel_in_the_afternoon.jpg",
+      "imageUrl": "/images/landmarks/mont_saint_michel.png",
       "unsplashQuery": "mont saint michel",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "The island is completely surrounded by water only during highest tides - tides can rise 15m!",
+        "It inspired the castle in Disney's Tangled and influenced Minas Tirith in Lord of the Rings",
+        "The abbey at top was built starting in 708 AD - it's been pilgrimage site for 1,300 years",
+        "Only 30 people live on the island year-round - but 3 million tourists visit annually",
+        "The causeway was added in 1879 - before that, pilgrims crossed tidal sands (deadly quicksand!)"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-June or September-October. High tide times for island effect. Avoid summer weekends (packed). Early morning or evening magical.",
+        "entranceFee": "Village: Free. Abbey: €11 ($12 USD). Parking: €15 (2.5km away, shuttle €3). Free Nov-Mar first Sunday.",
+        "nearbyAttractions": ["Saint-Malo (walled city, 1 hour)", "D-Day beaches (1.5 hours)", "Cancale (oysters)", "Dinan (medieval town)"],
+        "localCuisine": ["Omelette de la Mère Poulard (famous fluffy omelet)", "Crêpes", "Galettes", "Oysters", "Cider"],
+        "travelTip": "Check tide times - high tide makes it magical island. Parking 2.5km away (shuttle or walk 30 min). Arrive early (before 10 AM) or after 5 PM to avoid crowds. Abbey at top - steep climb. Famous omelet restaurant overpriced (€30!) but iconic experience. Stay overnight on island to see after day-trippers leave. Night lighting beautiful. Wear comfortable shoes - cobblestone streets, stairs. Day trip from Paris possible (3.5 hour train + bus). Best photos: across bay at high tide, from causeway. Tour France base: Rennes or Saint-Malo.",
+        "avgWeather": "Spring (8-15°C, pleasant). Summer (15-22°C, crowded). Fall (10-16°C, nice). Winter (5-10°C, cold, windy). Always windy. Rain common."
+      }
     },
     {
       "id": "milan-cathedral",
@@ -956,9 +1309,24 @@
       "description": "One of largest cathedrals in world",
       "significance": "Took 600 years to complete. 135 spires, 3,400 statues.",
       "height": "108m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Milan_Duomo_with_tourists_in_Piazza.jpg/1200px-Milan_Duomo_with_tourists_in_Piazza.jpg",
+      "imageUrl": "/images/landmarks/milan_cathedral.png",
       "unsplashQuery": "milan cathedral duomo",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Took 600 years to complete (1386-1965) - Napoleon had facade finished for his 1805 coronation",
+        "Has 135 spires, 3,400 statues, and 700 figures - largest number of statues on any building in world",
+        "The roof has 3,600 statues and 135 spires you can walk among - like a Gothic forest in sky",
+        "Golden Madonna statue (La Madonnina) at top is Milan's symbol - there's a law that no building can be taller",
+        "Built entirely of pink-hued Candoglia marble - quarried 100km away, transported via special canals"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-May or September-October. Early morning (8 AM) or late afternoon. Avoid fashion week. Rooftop at sunset spectacular.",
+        "entranceFee": "€10 ($11 USD) cathedral + museum. Rooftop: €14 (stairs) or €22 (elevator). Combined tickets available. Book online.",
+        "nearbyAttractions": ["Galleria Vittorio Emanuele II (luxury shopping arcade)", "La Scala opera house", "Sforza Castle", "The Last Supper (book months ahead!)"],
+        "localCuisine": ["Risotto alla Milanese", "Cotoletta (breaded veal)", "Panettone", "Aperitivo (happy hour buffet)", "Ossobuco"],
+        "travelTip": "ROOFTOP IS MUST - walk among spires and statues (magical!). Book rooftop tickets online. Dress code: shoulders/knees covered. Cathedral free but museum/rooftop cost. Stairs cheaper than elevator (worth the climb). Best photos from rooftop. Visit Galleria next door (beautiful shopping arcade). The Last Supper nearby - BOOK 3 months ahead. Morning light best for facade photos. Pigeons everywhere - be careful. Fast fashion capital - great shopping. Milan efficient metro. 2-3 days sufficient for Milan. Base for Lake Como day trip.",
+        "avgWeather": "Spring (12-20°C). Summer (25-32°C, hot, humid). Fall (12-20°C). Winter (0-8°C, foggy). Summer very hot - rooftop scorching."
+      }
     },
     {
       "id": "atomium",
@@ -974,9 +1342,24 @@
       "description": "Building shaped like iron crystal magnified",
       "significance": "Built for 1958 World's Fair. Symbol of Brussels.",
       "height": "102m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Laeken_Atomium_06.jpg/1200px-Laeken_Atomium_06.jpg",
+      "imageUrl": "/images/landmarks/atomium.png",
       "unsplashQuery": "atomium brussels",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Represents an iron crystal magnified 165 billion times - built for 1958 World Expo",
+        "Was supposed to be temporary but became permanent symbol of Brussels",
+        "The 9 spheres are 18m diameter - connected by tubes with escalators and stairs",
+        "Top sphere has restaurant with 360\u00b0 views - you can sleep there (1 night stays available!)",
+        "Recently renovated - the spheres used to be aluminum but now clad in stainless steel"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "April-September. Weekdays less crowded. Evening for night lighting. Clear days for views from top.",
+        "entranceFee": "\u20ac16 ($18 USD) adults. Combined tickets with Mini-Europe available.",
+        "nearbyAttractions": ["Mini-Europe (miniature Europe park)", "Grand Place (city center, 20 min)", "Manneken Pis", "Belgian Comic Strip Center"],
+        "localCuisine": ["Belgian waffles", "Moules-frites (mussels and fries)", "Belgian chocolate", "Beer (500+ varieties)"],
+        "travelTip": "Metro: Heysel station. Allow 1-2 hours. Top sphere has restaurant. Can book overnight stay in sphere (unique!). Views from top on clear days. Quirky and fun - very Instagrammable. Combine with Mini-Europe next door. Brussels compact - easy to visit multiple sites. Chocolate shops everywhere. Beer culture strong.",
+        "avgWeather": "Spring (8-15\u00b0C). Summer (15-22\u00b0C). Fall (10-15\u00b0C). Winter (2-7\u00b0C). Rain common - bring umbrella."
+      }
     },
     {
       "id": "cn-tower",
@@ -992,9 +1375,24 @@
       "description": "Communications and observation tower",
       "significance": "Tallest free-standing structure in Western Hemisphere.",
       "height": "553m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Toronto_-_ON_-_CN_Tower_bei_Nacht2.jpg/1200px-Toronto_-_ON_-_CN_Tower_bei_Nacht2.jpg",
+      "imageUrl": "/images/landmarks/cn_tower.png",
       "unsplashQuery": "cn tower toronto",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Was world's tallest free-standing structure for 32 years (1975-2007) at 553m",
+        "Glass floor at 342m lets you look straight down - not for the faint of heart!",
+        "EdgeWalk lets you walk around outside rim at 356m while tethered - highest hands-free circle walk",
+        "Struck by lightning 75+ times per year - built to withstand it",
+        "360 Restaurant revolves once every 72 minutes - dining with rotating views"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "May-October. Sunset for best views. Clear days essential. Weekdays less crowded. Avoid Canadian holidays.",
+        "entranceFee": "CAD $40 ($30 USD) general admission. SkyPod (highest level) CAD $15 extra. EdgeWalk CAD $225. Book online.",
+        "nearbyAttractions": ["Rogers Centre (baseball)", "Ripley's Aquarium", "Harbourfront", "Distillery District", "Toronto Islands"],
+        "localCuisine": ["Poutine", "Peameal bacon sandwich", "Butter tarts", "Montreal smoked meat", "Nanaimo bars"],
+        "travelTip": "Book online - saves time and money. Go on clear day (check weather). Sunset timing perfect for day-to-night views. Glass floor freaks people out - fun to watch! EdgeWalk requires reservation weeks ahead. 360 Restaurant reservation gets you priority elevator access. Allow 1-2 hours. Very touristy but worth it once. Toronto Pass includes admission. Combine with aquarium below. Best photos from Toronto Islands ferry. Winter very cold but beautiful city views.",
+        "avgWeather": "Spring (5-15\u00b0C). Summer (20-27\u00b0C, perfect). Fall (10-18\u00b0C, beautiful colors). Winter (-10 to 0\u00b0C, very cold). Indoor observation deck."
+      }
     },
     {
       "id": "chrysler-building",
@@ -1010,9 +1408,24 @@
       "description": "Art Deco skyscraper with triangular crown",
       "significance": "Finest example of Art Deco architecture.",
       "height": "319m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/The_Chrysler_Building..jpg/1200px-The_Chrysler_Building..jpg",
+      "imageUrl": "/images/landmarks/chrysler_bldg.png",
       "unsplashQuery": "chrysler building new york",
-      "type": "Man-made"
+      "type": "Man-made",
+      "didYouKnow": [
+        "Was world's tallest building for 11 months (1930-1931) before Empire State Building topped it",
+        "Art Deco crown has triangular windows in sunburst pattern - illuminated at night, stunning!",
+        "Built by car manufacturer Walter Chrysler - gargoyles shaped like Chrysler car hood ornaments",
+        "Spire was assembled inside and hoisted up in 90 minutes - surprise move to beat rival 40 Wall Street",
+        "Still world's tallest brick building - made with 3,826,000 bricks"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "Year-round for exterior photos. Best views at night when crown is lit. Blue hour magical.",
+        "entranceFee": "FREE to view exterior! Interior/observation deck NOT open to public (private offices). Lobby sometimes accessible during business hours.",
+        "nearbyAttractions": ["Grand Central Terminal (2 blocks)", "Empire State Building (10 min walk)", "Times Square (15 min)", "Bryant Park"],
+        "localCuisine": ["New York pizza", "Bagels", "Hot dogs", "Deli sandwiches", "Cheesecake"],
+        "travelTip": "Can't go inside (offices only) but exterior viewing is spectacular. Best photos from Grand Central Terminal area or Tudor City Bridge. Night lighting beautiful - crown changes colors for holidays. Lobby Art Deco details worth peek during business hours (not guaranteed access). Combine with Grand Central tour (free). Walk to Empire State Building for comparison. Midtown location - easy subway access. Best photos: early morning or dusk. Top of the Rock (Rockefeller) offers views of Chrysler Building from observation deck.",
+        "avgWeather": "Spring (10-18\u00b0C). Summer (25-30\u00b0C, hot, humid). Fall (10-20\u00b0C, beautiful). Winter (-5 to 5\u00b0C, cold). Exterior viewing any weather."
+      }
     },
     {
       "id": "grand-canyon",
@@ -1028,9 +1441,24 @@
       "description": "Steep canyon carved by Colorado River",
       "significance": "UNESCO World Heritage. 277 miles long.",
       "height": "1,800m depth",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Canyon_River_Tree_%28165872763%29.jpeg/1200px-Canyon_River_Tree_%28165872763%29.jpeg",
+      "imageUrl": "/images/landmarks/grand_canyon.png",
       "unsplashQuery": "grand canyon arizona",
-      "type": "Natural"
+      "type": "Natural",
+      "didYouKnow": [
+        "277 miles long, up to 18 miles wide, over 1 mile deep - but the Colorado River is only 300 feet wide at bottom!",
+        "Rocks at bottom are 2 billion years old - nearly half the age of Earth itself",
+        "Temperatures can vary 25\u00b0F (14\u00b0C) from rim to canyon floor - different ecosystems at different elevations",
+        "Only 5 million years old (young geologically) - carved by Colorado River over time",
+        "Less than 1% of visitors hike to bottom - most just view from rim"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "March-May or September-November. Summer very hot at bottom, crowded at rim. Winter rim beautiful but cold, North Rim closed. South Rim open year-round.",
+        "entranceFee": "$35 per vehicle (7 days). America the Beautiful Pass accepted ($80/year, covers all national parks). Free shuttles within park.",
+        "nearbyAttractions": ["Horseshoe Bend (2 hours)", "Antelope Canyon (2.5 hours)", "Las Vegas (4.5 hours)", "Sedona (2 hours)", "Route 66 towns"],
+        "localCuisine": ["Navajo tacos", "Fry bread", "Southwestern BBQ", "Mexican food", "Prickly pear margaritas"],
+        "travelTip": "South Rim vs North Rim - South Rim easier access, more facilities, open year-round. North Rim more remote, cooler, closed Nov-May. Sunrise/sunset at Mather Point or Yavapai Point magical. Rim Trail easy walk with stunning views. Bright Angel Trail if hiking down (don't hike to bottom and back same day - dangerous!). Mule rides available (book months ahead). Desert View Drive scenic. Stay in park lodges (book year ahead) or Tusayan (gateway town). Phantom Ranch at bottom (lottery for reservations). Helicopter tours expensive but spectacular. Very dry - bring water. Summer 100\u00b0F+ at bottom. Altitude 7,000ft at rim - take it easy.",
+        "avgWeather": "Rim: Spring (5-18\u00b0C). Summer (15-30\u00b0C). Fall (5-20\u00b0C). Winter (-10 to 5\u00b0C, snow). Bottom: 10-15\u00b0C warmer. Summer extreme heat at bottom (40\u00b0C+). Very dry."
+      }
     },
     {
       "id": "victoria-falls",
@@ -1046,9 +1474,24 @@
       "description": "One of largest waterfalls in world",
       "significance": "The Smoke That Thunders. UNESCO World Heritage.",
       "height": "108m",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg/1200px-Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg",
+      "imageUrl": "/images/landmarks/victoria_falls.png",
       "unsplashQuery": "victoria falls",
-      "type": "Natural"
+      "type": "Natural",
+      "didYouKnow": [
+        "Largest waterfall in world by total area - 1,708m wide and 108m high (bigger than Niagara!)",
+        "Local name 'Mosi-oa-Tunya' means 'The Smoke That Thunders' - spray visible 30km away",
+        "During peak flow (March-May), 500 million liters per minute cascade over the edge",
+        "Devil's Pool at top (Zambia side) - natural infinity pool where you can swim at edge during low water (Sept-Dec)",
+        "The falls are on border of Zambia and Zimbabwe - you can visit from both sides (need visas)"
+      ],
+      "explorerNotes": {
+        "bestTimeToVisit": "February-May (peak flow, massive spray). August-November (low water, better views, Devil's Pool accessible). Full moon nights for 'Lunar Rainbow'.",
+        "entranceFee": "Zimbabwe: $30 USD. Zambia: $20 USD. Day trip visa $50 for both sides (recommended). Devil's Pool $155 USD (includes activities).",
+        "nearbyAttractions": ["Devil's Pool (Zambia side, low water season)", "Bridge bungee jump (111m)", "White water rafting (Zambezi River)", "Helicopter flight (\u0027Flight of Angels\u0027)", "Chobe National Park (elephants, 2 hours)"],
+        "localCuisine": ["Sadza (corn porridge)", "Kapenta (dried fish)", "Braai (BBQ)", "Biltong (dried meat)", "Mopane worms (local delicacy)"],
+        "travelTip": "Zimbabwe side has better views (2/3 of falls). Zambia side gets you closer (Devil's Pool). Visit both if possible (day trip visa). Peak flow (Feb-May) = massive spray, need raincoat, camera protection. You WILL get soaked! Low water (Aug-Nov) = better photos, see rock face, Devil's Pool accessible. Helicopter 'Flight of Angels' ($150, 15 min) - spectacular aerial views, worth it! Bungee jump from bridge if brave. White water rafting world-class. Stay in Victoria Falls town (Zimbabwe) or Livingstone (Zambia). Bring waterproof bag for electronics. Full moon walks available. Chobe day trip for elephants. Zimbabwe/Zambia visas required - check requirements. Yellow fever vaccination certificate needed.",
+        "avgWeather": "Hot year-round (20-30\u00b0C). Dry season (May-Oct). Wet season (Nov-Apr, hot and humid). Always bring rain gear near falls - constant spray."
+      }
     },
     {
       "id": "mount-fuji",
