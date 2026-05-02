@@ -13,8 +13,6 @@ function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
     return landmarks[dayOfYear % landmarks.length];
   };
 
-  // Get 3 most recent landmarks (last 3 in array)
-  const recentLandmarks = landmarks.slice(-3).reverse();
   const featuredLandmark = getDailyLandmark();
 
   const categories = ['All', 'Ancient Wonder', 'Modern Icon', 'Sacred Architecture', 'Natural Wonder', 
@@ -232,59 +230,6 @@ function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
               </button>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* Recently Added Landmarks */}
-      <div className="mb-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">Recently Added</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {recentLandmarks.map(landmark => (
-            <div
-              key={landmark.id}
-              onClick={() => onLandmarkSelect(landmark)}
-              className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
-            >
-              <div className="relative h-48 overflow-hidden bg-gray-300">
-                <img
-                  src={landmark.imageUrl}
-                  alt={landmark.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                
-                <div className="absolute top-3 left-3">
-                  <span className={`px-2 py-1 backdrop-blur-sm text-xs font-bold rounded-full ${
-                    landmark.type === 'Natural' 
-                      ? 'bg-green-500/90 text-white' 
-                      : 'bg-blue-500/90 text-white'
-                  }`}>
-                    {landmark.type === 'Natural' ? '🏔️' : '🏛️'}
-                  </span>
-                </div>
-                
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <h3 className="text-white text-xl font-bold mb-1 drop-shadow-lg">
-                    {landmark.name}
-                  </h3>
-                  <p className="text-white/90 text-sm flex items-center gap-1">
-                    <span>📍</span>
-                    {landmark.city}, {landmark.country}
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-4">
-                <p className="text-gray-600 text-sm mb-3 line-clamp-2">
-                  {landmark.description}
-                </p>
-                <button className="w-full px-4 py-2 bg-purple-600 text-white text-sm font-medium rounded-lg hover:bg-purple-700 transition-colors">
-                  Discover →
-                </button>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
 
