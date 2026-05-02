@@ -15,10 +15,10 @@ function NotificationBanner() {
     
     // Show banner only if user hasn't decided yet
     if (!hasDecided && permission === 'default') {
-      // Show banner after 3 seconds delay (less intrusive)
+      // Show banner after 1.5 seconds delay (less intrusive)
       setTimeout(() => {
         setShowBanner(true);
-      }, 3000);
+      }, 1500);
     }
   }, []);
 
