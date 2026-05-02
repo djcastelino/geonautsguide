@@ -61,36 +61,36 @@ function NotificationBanner() {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 p-4 sm:p-6 animate-slide-up">
-      <div className="max-w-4xl mx-auto bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl shadow-2xl p-6 text-white">
-        <div className="flex items-start gap-4">
-          <div className="flex-shrink-0 text-4xl">
+    <div className="fixed bottom-0 left-0 right-0 z-50 p-3 sm:p-4 animate-slide-up">
+      <div className="max-w-2xl mx-auto bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl shadow-xl p-4 text-white">
+        <div className="flex items-start gap-3">
+          <div className="flex-shrink-0 text-2xl">
             🔔
           </div>
           
           <div className="flex-1">
-            <h3 className="text-xl font-bold mb-2">
-              Get Daily Landmark Discoveries!
+            <h3 className="text-base font-bold mb-1">
+              Daily Landmark Discoveries
             </h3>
-            <p className="text-white/90 mb-4">
-              Receive a notification every morning at 9 AM with today's featured landmark and fascinating facts. Never miss a discovery!
+            <p className="text-white/90 text-sm mb-3">
+              Get notified at 9 AM with today's featured landmark & fascinating facts!
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex gap-2">
               <button
                 onClick={handleEnableNotifications}
                 disabled={isLoading}
-                className="flex-1 bg-white text-purple-600 font-bold py-3 px-6 rounded-xl hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                className="flex-1 bg-white text-purple-600 font-semibold py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 text-sm"
               >
                 {isLoading ? (
                   <>
-                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-purple-600"></div>
+                    <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-purple-600"></div>
                     Enabling...
                   </>
                 ) : (
                   <>
                     <span>✨</span>
-                    Enable Notifications
+                    Enable
                   </>
                 )}
               </button>
@@ -98,16 +98,16 @@ function NotificationBanner() {
               <button
                 onClick={handleDismiss}
                 disabled={isLoading}
-                className="bg-white/20 hover:bg-white/30 text-white font-semibold py-3 px-6 rounded-xl transition-colors disabled:opacity-50"
+                className="bg-white/20 hover:bg-white/30 text-white font-medium py-2 px-4 rounded-lg transition-colors disabled:opacity-50 text-sm"
               >
-                Maybe Later
+                Later
               </button>
             </div>
           </div>
           
           <button
             onClick={handleDismiss}
-            className="flex-shrink-0 text-white/80 hover:text-white text-2xl leading-none"
+            className="flex-shrink-0 text-white/80 hover:text-white text-xl leading-none -mt-1"
             aria-label="Close"
           >
             ×
