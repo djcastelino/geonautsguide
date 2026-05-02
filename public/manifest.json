@@ -9,6 +9,7 @@
   "theme_color": "#6366f1",
   "orientation": "any",
   "categories": ["travel", "education", "games"],
+  "gcm_sender_id": "103953800507",
   "icons": [
     {
       "src": "/icon-192.png",

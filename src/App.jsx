@@ -5,6 +5,7 @@ import LandmarkDetail from './components/LandmarkDetail';
 import MapView from './components/MapView';
 import TripPlanner from './components/TripPlanner';
 import CityGuess from './components/CityGuess';
+import NotificationBanner from './components/NotificationBanner';
 import { fetchWikipediaSummary, generateNarration } from './services/api';
 import landmarksData from './data/landmarks.json';
 
@@ -192,6 +193,9 @@ function App() {
       <footer className="py-8 text-center text-gray-400 text-xs">
         &copy; {new Date().getFullYear()} Geonauts Guide. Your daily geography adventure.
       </footer>
+
+      {/* Notification Permission Banner */}
+      <NotificationBanner />
     </div>
   );
 }
