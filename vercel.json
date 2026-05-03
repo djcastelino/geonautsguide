@@ -26,5 +26,22 @@
         }
       ]
     }
+  ],
+  "routes": [
+    {
+      "src": "/.well-known/assetlinks.json",
+      "dest": "/.well-known/assetlinks.json",
+      "headers": {
+        "Content-Type": "application/json",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
