@@ -12,27 +12,8 @@
       "permanent": true
     }
   ],
-  "rewrites": [
-    {
-      "source": "/.well-known/assetlinks.json",
-      "destination": "/assetlinks.json"
-    }
-  ],
   "headers": [
     {
-      "source": "/assetlinks.json",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
       "source": "/.well-known/assetlinks.json",
       "headers": [
         {
@@ -45,5 +26,7 @@
         }
       ]
     }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
