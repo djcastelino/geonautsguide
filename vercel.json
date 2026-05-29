@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/.well-known/assetlinks.json",
+      "destination": "/api/assetlinks"
+    }
+  ],
   "headers": [
     {
       "source": "/.well-known/assetlinks.json",

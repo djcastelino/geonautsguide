@@ -1,0 +1,16 @@
+export default function handler(req, res) {
+  res.setHeader('Content-Type', 'application/json');
+  res.setHeader('Cache-Control', 'public, max-age=0, must-revalidate');
+  res.json([
+    {
+      relation: ['delegate_permission/common.handle_all_urls'],
+      target: {
+        namespace: 'android_app',
+        package_name: 'com.geonautsguide.com.twa',
+        sha256_cert_fingerprints: [
+          '47:8A:E3:B1:86:C6:45:D9:D5:7F:92:C0:5D:AD:33:D5:A0:99:9A:B4:9C:6D:C1:BB:78:C7:98:E7:66:FB:6D:BB',
+        ],
+      },
+    },
+  ]);
+}
