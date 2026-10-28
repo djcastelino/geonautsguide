@@ -182,8 +182,7 @@ function LandmarkDetail({
         <div className="journal-story">
           <p className="journal-kicker">BEYOND THE POSTCARD</p>
           <h2>
-            A little context.
-            <br />
+            A little context. <br />
             <em>A new perspective.</em>
           </h2>
           <p className="journal-story-lead">{landmark.description}</p>
@@ -272,13 +271,11 @@ function LandmarkDetail({
             <Headphones size={14} /> YOUR PERSONAL AUDIO GUIDE
           </p>
           <h2>
-            Let the place
-            <br />
+            Let the place <br />
             <em>tell its story.</em>
           </h2>
           <p>
-            Put on your headphones.
-            <br />
+            Put on your headphones. <br />
             There’s more here than meets the eye.
           </p>
           <div className="journal-wave" aria-hidden="true">

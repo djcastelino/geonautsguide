@@ -1915,7 +1915,7 @@
     display: none;
   }
   .journal-player h2 br {
-    display: none;
+    display: block;
   }
   .journal-story {
     width: 100%;
