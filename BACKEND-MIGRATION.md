@@ -32,3 +32,7 @@ For a separately hosted frontend, set `VITE_API_BASE_URL` to the backend URL at 
 Tests simulate external providers. Real credential validity, quotas, live generation quality, and audio playback still require a deployment check. Full-repository lint contains pre-existing errors outside this migration.
 
 For rollback, restore the previous Vercel deployment or revert the migration commit. Keep n8n workflows available until the new web and Android versions pass live verification.
+
+Planning rate limits: route output is bounded to 2,048 tokens and itinerary output to 6,000 tokens, with concise activity fields. A provider 429 preserves its Retry-After value. The planner retries once when the cooldown is at most 30 seconds, shows that wait on screen, and keeps the form if generation still fails. Longer account quotas still require waiting or changing the Groq account limits; retries cannot remove them.
+
+Background music is served from `/audio/guide-background.mp3`, uses 12% playback volume, and remains opt-in. It follows narration playback and displays music-specific load/playback errors without interrupting the spoken guide.

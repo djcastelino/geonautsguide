@@ -124,3 +124,16 @@ test('HTTP API handles methods, malformed input, configuration errors and Androi
     assert.equal(links[0].target.package_name, 'com.geonautsguide.twa');
   } finally { await new Promise(resolve => server.close(resolve)); }
 });
+
+test('planning requests use bounded output budgets and propagate provider cooldowns', async () => {
+  process.env.GROQ_API_KEY = 'test-key';
+  globalThis.fetch = async (url, options) => {
+    const body = JSON.parse(options.body);
+    assert.ok(body.max_completion_tokens <= 6000);
+    return new Response(JSON.stringify({ error: { code: 'rate_limit_exceeded' } }), {
+      status: 429, headers: { 'Retry-After': '4' },
+    });
+  };
+  await assert.rejects(route({ query: 'Rome to Florence' }), error => error.status === 429 && error.retryAfter === 4);
+  await assert.rejects(trip({ ...input, endDate: '2026-11-14' }), error => error.status === 429 && error.retryAfter === 4);
+});

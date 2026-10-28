@@ -48,3 +48,26 @@ test('stop and disposal silence both audio tracks', () => {
   assert.equal(audio.pauses, 2);
   assert.equal(music.pauses, 2);
 });
+
+test('music enabled before narration starts waits, then plays at an audible background level', () => {
+  const audio = media(), music = media();
+  const player = createNarrationPlayback(audio, music);
+  player.setMusicEnabled(true);
+  assert.equal(music.plays, 0);
+  audio.onplaying();
+  assert.equal(music.plays, 1);
+  assert.equal(music.volume, 0.12);
+});
+test('music failure is reported without interrupting narration', async () => {
+  const audio = media(), music = media();
+  let message;
+  music.play = async () => { throw new Error('blocked'); };
+  const player = createNarrationPlayback(audio, music, { onMusicError: error => { message = error; } });
+  player.setMusicEnabled(true);
+  audio.onplaying();
+  await Promise.resolve();
+  assert.match(message, /Background music could not play/);
+  assert.equal(audio.pauses, 0);
+  music.onerror();
+  assert.match(message, /could not load/);
+});
