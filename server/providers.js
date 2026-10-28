@@ -12,7 +12,7 @@ export function required(data, field, max = 12000) {
 
 export async function generateText(system, prompt, { json = false, maxTokens = 1600 } = {}) {
   const key = process.env.GROQ_API_KEY;
-  const model = process.env.GROQ_MODEL || 'openai/gpt-oss-120b';
+  const model = process.env.GROQ_MODEL || 'qwen/qwen3.8-27b';
   const reasoningModel = model.startsWith('openai/gpt-oss-');
   if (!key) throw new ServiceError('AI is not configured. Set GROQ_API_KEY on the server.', 503);
   let response;
@@ -26,6 +26,7 @@ export async function generateText(system, prompt, { json = false, maxTokens = 1
           { role: 'user', content: prompt }],
         temperature: 0.7, max_completion_tokens: maxTokens + (reasoningModel ? 1024 : 0),
         ...(reasoningModel ? { reasoning_effort: 'low', include_reasoning: false } : {}),
+        ...(model === 'qwen/qwen3.8-27b' ? { reasoning_effort: 'none', reasoning_format: 'hidden' } : {}),
         ...(json ? { response_format: { type: 'json_object' } } : {}),
       }),
       signal: AbortSignal.timeout(60000),

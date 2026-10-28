@@ -28,6 +28,9 @@ test('AI uses server credentials and structured JSON mode', async () => {
   globalThis.fetch = async (url, options) => {
     assert.equal(url, 'https://api.groq.com/openai/v1/chat/completions');
     assert.equal(options.headers.Authorization, 'Bearer test-key');
+    assert.equal(JSON.parse(options.body).model, 'qwen/qwen3.8-27b');
+    assert.equal(JSON.parse(options.body).reasoning_effort, 'none');
+    assert.equal(JSON.parse(options.body).reasoning_format, 'hidden');
     assert.equal(JSON.parse(options.body).response_format.type, 'json_object');
     return completion('{"ok":true}');
   };
