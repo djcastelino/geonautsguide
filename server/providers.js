@@ -29,6 +29,12 @@ export async function generateText(system, prompt, { json = false, maxTokens = 1
     });
   } catch { throw new ServiceError('The AI service could not be reached. Please try again.', 504); }
   if (!response.ok) {
+    const problem = await response.json().catch(() => ({}));
+    const code = typeof problem.error?.code === 'string' ? problem.error.code : 'unknown';
+    console.error('Groq request rejected:', response.status, code);
+    if (['model_decommissioned', 'model_not_found', 'model_permission_denied'].includes(code)) {
+      throw new ServiceError('The configured AI model is unavailable. Update GROQ_MODEL on the server.', 503);
+    }
     if (response.status === 429) throw new ServiceError('The AI service is busy. Please try again shortly.', 429);
     if ([401, 403].includes(response.status)) throw new ServiceError('The server AI credential needs attention.', 503);
     throw new ServiceError('The AI service could not generate a response. Please try again.');
