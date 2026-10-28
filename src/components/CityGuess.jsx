@@ -1,3 +1,4 @@
+import { cityFactSpeechText } from "../utils/speechText";
 import { completeCityStats } from "../utils/cityStats";
 import {
   Archive,
@@ -207,7 +208,7 @@ const CityGuess = () => {
     try {
       if (!audioRef.current) {
         const blob = await createSpeechBlob(
-          dailyCity.funFact,
+          cityFactSpeechText(dailyCity.funFact),
           "en-US-AndrewMultilingualNeural",
         );
         if (!activeRef.current) return;
