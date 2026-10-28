@@ -1,209 +1,134 @@
-import { useState } from 'react';
-import ExpeditionHome from './components/ExpeditionHome';
-import Header from './components/Header';
-import LandmarkGrid from './components/LandmarkGrid';
-import LandmarkDetail from './components/LandmarkDetail';
-import MapView from './components/MapView';
-import TripPlanner from './components/TripPlanner';
-import CityGuess from './components/CityGuess';
-import NotificationBanner from './components/NotificationBanner';
-import { fetchWikipediaSummary, generateNarration } from './services/api';
-import landmarksData from './data/landmarks.json';
+import { useRef, useState } from "react";
+import { Compass } from "lucide-react";
+import ExpeditionHome from "./components/ExpeditionHome";
+import { JournalHeader, JournalFooter } from "./components/JournalShell";
+import LandmarkGrid from "./components/LandmarkGrid";
+import LandmarkDetail from "./components/LandmarkDetail";
+import TripPlanner from "./components/TripPlanner";
+import CityGuess from "./components/CityGuess";
+import NotificationBanner from "./components/NotificationBanner";
+import { fetchWikipediaSummary, generateNarration } from "./services/api";
+import landmarksData from "./data/landmarks.json";
+import "./components/Journal.css";
 
 function App() {
-  const [currentView, setCurrentView] = useState('grid');
-  const [viewMode, setViewMode] = useState('home'); // 'grid' or 'map'
+  const [view, setView] = useState("home");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
   const [narrationData, setNarrationData] = useState(null);
-
-  const loadLandmarkNarration = async (landmark) => {
-    setIsLoading(true);
-    setError(null);
-    
-    try {
-      const wiki = await fetchWikipediaSummary(landmark.name);
-      const wikiContext = wiki?.extract || landmark.description;
-      
-      const landmarkContext = {
-        landmarkName: landmark.name,
-        description: landmark.description,
-        significance: landmark.significance,
-        year: landmark.year,
-        category: landmark.category,
-        country: landmark.country,
-        city: landmark.city,
-        height: landmark.height
-      };
-      
-      const narration = await generateNarration(
-        landmark.name,
-        wikiContext,
-        landmark.name.replace(/ /g, '_'),
-        landmarkContext
-      );
-      
-      console.log('Generated narration:', narration);
-      
-      if (!narration || !narration.narration) {
-        throw new Error('No narration text received from API');
-      }
-      
-      setNarrationData(narration);
-      setCurrentView('detail');
-    } catch (err) {
-      console.error('Failed to load narration:', err);
-      setError(`Failed to load narration: ${err.message}. Please try again.`);
-      setCurrentView('grid'); // Stay on grid view if error
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const handleLandmarkSelect = async (landmark) => {
-    setSelectedLandmark(landmark);
-    await loadLandmarkNarration(landmark);
-  };
-
-  const handleBackToGrid = () => {
-    setCurrentView('grid');
+  const generation = useRef(0);
+  const dayOfYear = Math.floor(
+    (new Date() - new Date(new Date().getFullYear(), 0, 0)) / 86400000,
+  );
+  const featured =
+    landmarksData.landmarks[dayOfYear % landmarksData.landmarks.length];
+  const onNavigate = (next) => {
+    generation.current++;
+    setView(next);
     setSelectedLandmark(null);
     setNarrationData(null);
     setError(null);
+    setIsLoading(false);
+    window.scrollTo({ top: 0, behavior: "instant" });
   };
-
-  const toggleViewMode = (mode) => {
-    setViewMode(mode);
+  const onLandmarkSelect = async (landmark) => {
+    const request = ++generation.current;
+    setIsLoading(true);
+    setError(null);
+    try {
+      const wiki = await fetchWikipediaSummary(landmark.name);
+      const landmarkContext = Object.fromEntries(
+        [
+          "name",
+          "description",
+          "significance",
+          "year",
+          "category",
+          "country",
+          "city",
+          "height",
+        ].map((key) => [key === "name" ? "landmarkName" : key, landmark[key]]),
+      );
+      const narration = await generateNarration(
+        landmark.name,
+        wiki?.extract || landmark.description,
+        landmark.name.replace(/ /g, "_"),
+        landmarkContext,
+      );
+      if (request !== generation.current) return;
+      if (!narration?.narration)
+        throw new Error("No narration was returned. Please try again.");
+      setSelectedLandmark(landmark);
+      setNarrationData(narration);
+      setView("detail");
+      window.scrollTo({ top: 0, behavior: "instant" });
+    } catch (err) {
+      if (request === generation.current)
+        setError(err.message || "This guide could not load. Please try again.");
+    } finally {
+      if (request === generation.current) setIsLoading(false);
+    }
   };
-
-  // Get today's featured landmark
-  const getDailyLandmark = () => {
-    const today = new Date();
-    const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
-    return landmarksData.landmarks[dayOfYear % landmarksData.landmarks.length];
-  };
-
-  const isFeaturedLandmark = (landmark) => {
-    if (!landmark) return false;
-    const featured = getDailyLandmark();
-    return featured.id === landmark.id;
-  };
-
-
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-green-50">
-      {currentView === 'grid' && viewMode !== 'home' && (
-        <Header 
-          onHome={() => setViewMode('home')}
-          showBack={false} 
-          onBack={handleBackToGrid} 
+    <div className="journal-app">
+      {view !== "home" && (
+        <JournalHeader
+          current={view === "detail" ? "grid" : view}
+          onNavigate={onNavigate}
         />
       )}
-      
-      <main className="flex-1">
-        {error && (
-          <div className="max-w-7xl mx-auto px-4 mt-6">
-            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl flex items-center gap-3">
-              <span className="text-xl">⚠️</span>
-              <p className="font-medium">{error}</p>
-            </div>
-          </div>
+      {error && (
+        <div className="journal-error journal-global-error" role="alert">
+          <span>{error}</span>
+          <button onClick={() => setError(null)} aria-label="Dismiss error">
+            ×
+          </button>
+        </div>
+      )}
+      <main>
+        {view === "home" && (
+          <ExpeditionHome
+            landmarks={landmarksData.landmarks}
+            featured={featured}
+            onExplore={() => onNavigate("grid")}
+            onPlan={() => onNavigate("planner")}
+            onChallenge={() => onNavigate("cityguess")}
+            onLandmarkSelect={onLandmarkSelect}
+            isLoading={isLoading}
+          />
         )}
-
-        {currentView === 'grid' && viewMode === 'home' ? (
-          <ExpeditionHome landmarks={landmarksData.landmarks} featured={getDailyLandmark()}
-            onExplore={() => toggleViewMode('grid')} onMap={() => toggleViewMode('map')}
-            onPlan={() => toggleViewMode('planner')} onChallenge={() => toggleViewMode('cityguess')}
-            onLandmarkSelect={handleLandmarkSelect} isLoading={isLoading} />
-        ) : currentView === 'grid' ? (
-          <div>
-            {/* View Toggle */}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 mt-8">
-              <div className="flex justify-center gap-2">
-                <button
-                  onClick={() => toggleViewMode('grid')}
-                  className={`flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold transition-all text-sm sm:text-base ${
-                    viewMode === 'grid'
-                      ? 'bg-purple-600 text-white shadow-lg scale-105'
-                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50'
-                  }`}
-                >
-                  🏛️ Explore
-                </button>
-                <button
-                  onClick={() => toggleViewMode('map')}
-                  className={`flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold transition-all text-sm sm:text-base ${
-                    viewMode === 'map'
-                      ? 'bg-purple-600 text-white shadow-lg scale-105'
-                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50'
-                  }`}
-                >
-                  🗺️ Map
-                </button>
-                <button
-                  onClick={() => toggleViewMode('planner')}
-                  className={`flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold transition-all text-sm sm:text-base ${
-                    viewMode === 'planner'
-                      ? 'bg-purple-600 text-white shadow-lg scale-105'
-                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50'
-                  }`}
-                >
-                  ✈️ Planner
-                </button>
-                <button
-                  onClick={() => toggleViewMode('cityguess')}
-                  className={`flex-1 sm:flex-none px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-semibold transition-all text-sm sm:text-base ${
-                    viewMode === 'cityguess'
-                      ? 'bg-purple-600 text-white shadow-lg scale-105'
-                      : 'bg-white text-gray-700 border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50'
-                  }`}
-                >
-                  🌍 Daily City Guess
-                </button>
-              </div>
-            </div>
-
-            {/* Content */}
-            {viewMode === 'grid' ? (
-              <LandmarkGrid initialBrowse onHome={() => setViewMode('home')}
-                landmarks={landmarksData.landmarks}
-                onLandmarkSelect={handleLandmarkSelect}
-                isLoading={isLoading}
-              />
-            ) : viewMode === 'map' ? (
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <MapView
-                  landmarks={landmarksData.landmarks}
-                  onLandmarkSelect={handleLandmarkSelect}
-                  selectedCategory="All"
-                />
-              </div>
-            ) : viewMode === 'planner' ? (
-              <TripPlanner landmarks={landmarksData.landmarks} />
-            ) : (
-              <CityGuess />
-            )}
-          </div>
-        ) : currentView === 'detail' && selectedLandmark && narrationData ? (
+        {view === "grid" && (
+          <LandmarkGrid
+            landmarks={landmarksData.landmarks}
+            onLandmarkSelect={onLandmarkSelect}
+            isLoading={isLoading}
+          />
+        )}
+        {view === "planner" && <TripPlanner />}
+        {view === "cityguess" && <CityGuess />}
+        {view === "detail" && selectedLandmark && narrationData && (
           <LandmarkDetail
             landmark={selectedLandmark}
             narration={narrationData.narration}
-            audioContent={narrationData.audioContent}
-            onBack={handleBackToGrid}
-            isDailyChallenge={isFeaturedLandmark(selectedLandmark)}
+            onBack={() => onNavigate("grid")}
+            isDailyChallenge={selectedLandmark.id === featured.id}
           />
-        ) : null}
+        )}
       </main>
-
-      {!(currentView === 'grid' && viewMode === 'home') && <footer className="py-8 text-center text-gray-400 text-xs">
-        &copy; {new Date().getFullYear()} Geonauts Guide. Your daily geography adventure.
-      </footer>}
-
-      {/* Notification Permission Banner */}
-      {!(currentView === 'grid' && viewMode === 'home') && <NotificationBanner />}
+      {view !== "home" && (
+        <>
+          <JournalFooter />
+          <NotificationBanner />
+        </>
+      )}
+      {isLoading && view !== "home" && (
+        <div className="journal-loading-toast" role="status">
+          <Compass size={20} className="journal-spin" /> Finding the story
+          behind this place…
+        </div>
+      )}
     </div>
   );
 }
-
 export default App;

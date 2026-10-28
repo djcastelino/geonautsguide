@@ -7,7 +7,7 @@ const startingPlaces = ['machu-picchu', 'petra', 'taj-mahal', 'dolomites', 'colo
 const homeImage = place => startingPlaces.includes(place.id) ? { ...place, imageUrl: `/images/home/${place.id}.webp` } : place;
 const collections = ['All discoveries', 'Ancient worlds', 'Wild places', 'Human wonders'];
 
-export default function ExpeditionHome({ landmarks, featured, onExplore, onMap, onPlan, onChallenge, onLandmarkSelect, isLoading }) {
+export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan, onChallenge, onLandmarkSelect, isLoading }) {
   const [collection, setCollection] = useState('All discoveries');
   const [query, setQuery] = useState('');
   const countries = new Set(landmarks.map(place => place.country)).size;
@@ -32,8 +32,8 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onMap, 
           <a className="expedition-brand" href="#" aria-label="Geonauts Guide home"><Compass size={34} strokeWidth={1.25} /><span>GEONAUTS<span className="brand-guide">GUIDE</span></span></a>
           <nav aria-label="Main navigation">
             <button onClick={browse}>Discover</button>
-            <button onClick={onMap}>World map</button>
-            <button onClick={onChallenge}>Daily discovery</button>
+            <button onClick={onPlan}>Travel planner</button>
+            <button onClick={onChallenge}>Daily City Guess</button>
           </nav>
           <button className="expedition-nav-plan" onClick={onPlan}>Plan a journey <ArrowUpRight size={16} /></button>
         </header>
