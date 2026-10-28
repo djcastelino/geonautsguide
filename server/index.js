@@ -1,7 +1,7 @@
 import express from 'express';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { handleApi } from './handlers.js';
+import { handleApi, landmarkImage } from './handlers.js';
 import assetlinks from '../api/assetlinks.js';
 
 export const app = express();
@@ -20,6 +20,7 @@ app.use('/api', (req, res, next) => {
 app.use(express.json({ limit: '64kb' }));
 app.get('/healthz', (req, res) => res.json({ status: 'ok' }));
 app.get(['/.well-known/assetlinks.json', '/api/assetlinks'], assetlinks);
+app.get('/api/landmark-image', landmarkImage);
 app.all('/api/:action', (req, res) => handleApi(req.params.action, req, res));
 app.use('/api', (req, res) => res.status(404).json({ error: 'Unknown API endpoint.' }));
 const dist = fileURLToPath(new URL('../dist/', import.meta.url));

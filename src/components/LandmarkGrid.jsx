@@ -1,3 +1,4 @@
+import LandmarkImage from './LandmarkImage';
 import { useState } from 'react';
 
 function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
@@ -105,15 +106,9 @@ function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
               className="group cursor-pointer bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="relative h-56 overflow-hidden bg-gray-300">
-                <img
-                  src={landmark.imageUrl}
-                  alt={landmark.name}
+                <LandmarkImage landmark={landmark}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
-                  onError={(e) => {
-                    console.error(`Image failed for ${landmark.name}:`, landmark.imageUrl);
-                    e.target.style.backgroundColor = '#e5e7eb';
-                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 
@@ -190,9 +185,7 @@ function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
           className="group cursor-pointer bg-gradient-to-br from-purple-600 to-purple-800 rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:-translate-y-2"
         >
           <div className="relative h-96 overflow-hidden">
-            <img
-              src={featuredLandmark.imageUrl}
-              alt={featuredLandmark.name}
+            <LandmarkImage landmark={featuredLandmark}
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               loading="eager"
             />
