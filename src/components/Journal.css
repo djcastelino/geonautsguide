@@ -2240,3 +2240,8 @@
 .journal-reminder .journal-reminder-later {
   border-radius: 2px;
 }
+
+@media (max-width: 380px) {
+  .journal-header nav { gap: 8px; }
+  .journal-header nav button { font-size: 10px; }
+}

@@ -15,6 +15,7 @@ export function JournalHeader({ current, onNavigate }) {
       </button>
       <nav aria-label="Main navigation">
         {[
+          ["home", "Home"],
           ["grid", "Discover"],
           ["planner", "Travel planner"],
           ["cityguess", "Daily City Guess"],

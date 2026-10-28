@@ -31,6 +31,7 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan,
         <header className="expedition-nav">
           <a className="expedition-brand" href="#" aria-label="Geonauts Guide home"><Compass size={34} strokeWidth={1.25} /><span>GEONAUTS<span className="brand-guide">GUIDE</span></span></a>
           <nav aria-label="Main navigation">
+            <button aria-current="page" onClick={() => window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' })}>Home</button>
             <button onClick={browse}>Discover</button>
             <button onClick={onPlan}>Travel planner</button>
             <button onClick={onChallenge}>Daily City Guess</button>

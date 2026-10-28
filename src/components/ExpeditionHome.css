@@ -991,7 +991,8 @@
     left:0;
     right:0;
     bottom:13px;
-    gap:25px;
+    gap:8px;
+    justify-content:space-between;
   }
   .expedition-nav nav button {
     font-size:10px;
