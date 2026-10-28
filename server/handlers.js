@@ -65,7 +65,8 @@ export function formatTrip(result, input) {
     !Array.isArray(result.itinerary) || result.itinerary.length !== input.days) {
     throw new ServiceError('The AI returned an incomplete itinerary. Please try again.');
   }
-  const audioTours = new Set(input.destinationLandmarks.map(item => item.name.toLowerCase()));
+  const normalize = value => value.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const audioTours = input.destinationLandmarks.map(item => normalize(item.name));
   const itinerary = result.itinerary.map((day, index) => {
     if (!validString(day?.title) || !Array.isArray(day.activities) || !day.activities.length ||
       !day.activities.every(activity => ['time', 'name', 'location', 'duration', 'tip'].every(key => validString(activity?.[key])))) {
@@ -75,7 +76,7 @@ export function formatTrip(result, input) {
       date: new Date(Date.parse(input.startDate + 'T00:00:00Z') + index * 86400000).toISOString().slice(0, 10),
       weather: result.weather.temperature,
       activities: day.activities.map(activity => ({ ...activity,
-        hasAudioTour: audioTours.has(activity.name.toLowerCase()),
+        hasAudioTour: audioTours.some(name => ` ${normalize(activity.name)} `.includes(` ${name} `)),
         mapLink: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(activity.location + ' ' + input.destination)}`,
       })),
     };

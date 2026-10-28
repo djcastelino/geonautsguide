@@ -203,7 +203,7 @@ const TripPlanner = () => {
                   <div className="flex items-center justify-between flex-wrap gap-4">
                     <div>
                       <h3 className="text-2xl font-bold mb-1">Day {day.day}: {day.title}</h3>
-                      <p className="opacity-90">{new Date(day.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}</p>
+                      <p className="opacity-90">{new Date(day.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</p>
                     </div>
                     <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full">
                       <span>☀️</span>

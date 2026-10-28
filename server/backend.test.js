@@ -57,6 +57,11 @@ test('itinerary dates, maps and audio badges are derived from validated data', (
   assert.equal(result.itinerary[0].date, input.startDate);
   assert.equal(result.itinerary[0].activities[0].hasAudioTour, true);
   assert.match(result.itinerary[0].activities[0].mapLink, /^https:\/\/www.google.com\/maps\/search/);
+  const descriptive = structuredClone(itinerary);
+  descriptive.itinerary[0].activities[0].name = 'Taj Mahal Sunrise Visit';
+  assert.equal(formatTrip(descriptive, tripInput(input)).itinerary[0].activities[0].hasAudioTour, true);
+  descriptive.itinerary[0].activities[0].name = 'Taj Mahalsomething';
+  assert.equal(formatTrip(descriptive, tripInput(input)).itinerary[0].activities[0].hasAudioTour, false);
   const invented = structuredClone(itinerary);
   invented.itinerary[0].activities[0].name = 'Invented attraction';
   assert.equal(formatTrip(invented, tripInput(input)).itinerary[0].activities[0].hasAudioTour, false);
