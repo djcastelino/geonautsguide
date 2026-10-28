@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import LandmarkGrid from './components/LandmarkGrid';
 import LandmarkDetail from './components/LandmarkDetail';
@@ -55,7 +55,6 @@ function App() {
       console.error('Failed to load narration:', err);
       setError(`Failed to load narration: ${err.message}. Please try again.`);
       setCurrentView('grid'); // Stay on grid view if error
-      setIsDailyChallenge(false);
     } finally {
       setIsLoading(false);
     }

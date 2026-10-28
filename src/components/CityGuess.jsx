@@ -1,3 +1,4 @@
+import { createSpeechBlob } from '../services/backend';
 import { useState, useEffect, useRef } from 'react';
 import { getDailyCity, CITIES } from '../data/cities';
 
@@ -173,23 +174,7 @@ const CityGuess = () => {
       ];
       const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
       
-      const azureKey = import.meta.env.VITE_AZURE_SPEECH_KEY;
-      const azureRegion = import.meta.env.VITE_AZURE_SPEECH_REGION;
-      
-      const response = await fetch(
-        `https://${azureRegion}.tts.speech.microsoft.com/cognitiveservices/v1`,
-        {
-          method: 'POST',
-          headers: {
-            'Ocp-Apim-Subscription-Key': azureKey,
-            'Content-Type': 'application/ssml+xml',
-            'X-Microsoft-OutputFormat': 'audio-24khz-48kbitrate-mono-mp3'
-          },
-          body: `<speak version='1.0' xml:lang='en-US'><voice xml:lang='en-US' name='${selectedVoice}'>${dailyCity.funFact}</voice></speak>`
-        }
-      );
-
-      const audioBlob = await response.blob();
+      const audioBlob = await createSpeechBlob(dailyCity.funFact, selectedVoice);
       const audioUrl = URL.createObjectURL(audioBlob);
       
       const audio = new Audio(audioUrl);

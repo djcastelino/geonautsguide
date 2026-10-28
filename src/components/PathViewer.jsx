@@ -1,3 +1,4 @@
+import { apiUrl } from '../services/backend';
 import { useState, useEffect } from 'react'
 import { ArrowLeft } from 'lucide-react'
 import StreetView from './StreetView'
@@ -21,7 +22,7 @@ export default function PathViewer({ path, currentLocationIndex, onBack, onNext,
     setHistoricalContext(null)
     
     try {
-      const response = await fetch('https://workflowly.online/webhook/pathfinder-narration', {
+      const response = await fetch(apiUrl('/api/narration'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -32,6 +33,10 @@ export default function PathViewer({ path, currentLocationIndex, onBack, onNext,
           wikipediaPage: currentLocation.wikipediaPage
         })
       })
+      if (!response.ok) {
+        const problem = await response.json().catch(() => ({}))
+        throw new Error(problem.error || 'Narration request failed')
+      }
       const data = await response.json()
       setAiNarration(data.narration)
       setHistoricalContext(data.historicalContext)

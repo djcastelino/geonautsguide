@@ -1,3 +1,4 @@
+import { createSpeechBlob } from '../services/backend';
 import { useEffect, useRef, useState } from 'react';
 import { BookOpen, MapPin, ExternalLink, Bot, RotateCcw, AlertCircle, Volume2, VolumeX, Pause } from 'lucide-react';
 
@@ -60,7 +61,7 @@ export default function ViewerScreen({ data, onReset }) {
             if (status === 'OK' && panoData) {
               setStreetViewAvailable(true);
               
-              const streetView = new window.google.maps.StreetViewPanorama(streetViewRef.current, {
+              new window.google.maps.StreetViewPanorama(streetViewRef.current, {
                 position: panoData.location.latLng,
                 pov: { heading: 100, pitch: 10 },
                 zoom: 1,
@@ -107,7 +108,7 @@ export default function ViewerScreen({ data, onReset }) {
     }
 
     // If we already have cached audio, play it
-    if (data.audioContent && utteranceRef.current) {
+    if (utteranceRef.current) {
       utteranceRef.current.currentTime = 0;
       utteranceRef.current.play();
       return;
@@ -131,42 +132,9 @@ export default function ViewerScreen({ data, onReset }) {
       const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
       console.log('Selected voice:', selectedVoice.name, selectedVoice.gender);
       
-      const response = await fetch(
-        `https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyDLcDOKopyll9ByGplOcQ6sEUx3CYbLphU`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            input: { text: data.narration },
-            voice: {
-              languageCode: selectedVoice.name.startsWith('en-GB') ? 'en-GB' : 'en-US',
-              name: selectedVoice.name,
-              ssmlGender: selectedVoice.gender
-            },
-            audioConfig: {
-              audioEncoding: 'MP3',
-              speakingRate: 0.85,
-              pitch: 0
-            }
-          })
-        }
-      );
-
-      const ttsData = await response.json();
-      
-      if (ttsData.audioContent) {
-        // Cache it for future plays
-        data.audioContent = ttsData.audioContent;
-        
-        // Decode and play
-        const audioData = atob(ttsData.audioContent);
-        const arrayBuffer = new Uint8Array(audioData.length);
-        for (let i = 0; i < audioData.length; i++) {
-          arrayBuffer[i] = audioData.charCodeAt(i);
-        }
-        const blob = new Blob([arrayBuffer], { type: 'audio/mp3' });
-        const audioUrl = URL.createObjectURL(blob);
-        
+      const blob = await createSpeechBlob(data.narration, selectedVoice.name, 0.85, 'google');
+      const audioUrl = URL.createObjectURL(blob);
+      {
         // Create narration audio element
         const audio = new Audio(audioUrl);
         
@@ -216,7 +184,7 @@ export default function ViewerScreen({ data, onReset }) {
   };
 
   const handlePauseAudio = () => {
-    if (data.audioContent && utteranceRef.current) {
+    if (utteranceRef.current) {
       utteranceRef.current.pause();
     } else {
       window.speechSynthesis.pause();
@@ -230,7 +198,7 @@ export default function ViewerScreen({ data, onReset }) {
   };
 
   const handleStopAudio = () => {
-    if (data.audioContent && utteranceRef.current) {
+    if (utteranceRef.current) {
       utteranceRef.current.pause();
       utteranceRef.current.currentTime = 0;
     } else {
@@ -248,7 +216,7 @@ export default function ViewerScreen({ data, onReset }) {
   // Cleanup on unmount
   useEffect(() => {
     return () => {
-      if (data.audioContent && utteranceRef.current) {
+      if (utteranceRef.current) {
         utteranceRef.current.pause();
       } else {
         window.speechSynthesis.cancel();
@@ -263,7 +231,7 @@ export default function ViewerScreen({ data, onReset }) {
         audioContextRef.current.close();
       }
     };
-  }, [data.audioContent]);
+  }, []);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 space-y-6">
