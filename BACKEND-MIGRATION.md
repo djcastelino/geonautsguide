@@ -6,7 +6,7 @@ Narration, trip itineraries, and route advice now call application-owned `/api/`
 
 The `landmarksguide` project serves geonautsguide.com. The `api/` handlers run as Vercel Node functions, while Vite continues to build the frontend. No domain or hosting move is required. `vercel.json` keeps Android asset links and allows 90 seconds for provider calls.
 
-Set `GROQ_API_KEY` privately for Production and for Preview deployments. Optional `GROQ_MODEL` defaults to `llama-3.3-70b-versatile`.
+Set `GROQ_API_KEY` privately for Production and for Preview deployments. Optional `GROQ_MODEL` defaults to `openai/gpt-oss-120b`.
 
 Landmark and daily-city audio use server-side Azure speech. Prefer `AZURE_SPEECH_KEY` and `AZURE_SPEECH_REGION`; the existing `VITE_AZURE_SPEECH_KEY` and `VITE_AZURE_SPEECH_REGION` are accepted on the server during transition. Frontend audio no longer reads those Azure variables. Older ViewerScreen Google voices use the optional server variable `GOOGLE_TTS_API_KEY`; configure it if that screen is used. The Groq key must never have a `VITE_` prefix.
 
