@@ -1,6 +1,7 @@
+import { apiUrl } from '../services/backend';
 import { useState } from 'react';
 
-const TripPlanner = ({ landmarks }) => {
+const TripPlanner = () => {
   const [activeTab, setActiveTab] = useState('itinerary'); // 'itinerary' or 'route'
   const [tripView, setTripView] = useState('form');
   const [destination, setDestination] = useState('');
@@ -8,7 +9,7 @@ const TripPlanner = ({ landmarks }) => {
   const [endDate, setEndDate] = useState('');
   const [selectedInterests, setSelectedInterests] = useState([]);
   const [tripData, setTripData] = useState(null);
-  const [isGenerating, setIsGenerating] = useState(false);
+  const [, setIsGenerating] = useState(false);
   
   // Route Planner state
   const [routeQuery, setRouteQuery] = useState('');
@@ -52,7 +53,7 @@ const TripPlanner = ({ landmarks }) => {
     setTripView('generating');
 
     try {
-      const response = await fetch('https://workflowly.online/webhook/generate-trip', {
+      const response = await fetch(apiUrl('/api/generate-trip'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -61,13 +62,13 @@ const TripPlanner = ({ landmarks }) => {
           destination,
           startDate,
           endDate,
-          interests: selectedInterests,
-          landmarks
+          interests: selectedInterests
         })
       });
 
       if (!response.ok) {
-        throw new Error('Failed to generate trip');
+        const problem = await response.json().catch(() => ({}));
+        throw new Error(problem.error || 'Failed to generate trip');
       }
 
       const data = await response.json();
@@ -76,7 +77,7 @@ const TripPlanner = ({ landmarks }) => {
       setTripView('itinerary');
     } catch (error) {
       console.error('Error generating trip:', error);
-      alert('Failed to generate trip. Please try again.');
+      alert(error.message);
       setIsGenerating(false);
       setTripView('form');
     }
@@ -96,7 +97,7 @@ const TripPlanner = ({ landmarks }) => {
     setIsGeneratingRoute(true);
 
     try {
-      const response = await fetch('https://workflowly.online/webhook/generate-route', {
+      const response = await fetch(apiUrl('/api/generate-route'), {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -107,14 +108,15 @@ const TripPlanner = ({ landmarks }) => {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to generate route plan');
+        const problem = await response.json().catch(() => ({}));
+        throw new Error(problem.error || 'Failed to generate route plan');
       }
 
       const data = await response.json();
       setRouteResponse(data);
     } catch (error) {
       console.error('Error generating route:', error);
-      alert('Failed to generate route plan. Please try again.');
+      alert(error.message);
     } finally {
       setIsGeneratingRoute(false);
     }

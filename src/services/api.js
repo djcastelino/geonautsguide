@@ -1,3 +1,4 @@
+import { apiUrl } from './backend';
 // PathFinder API Services
 
 export const fetchWikipediaSummary = async (query) => {
@@ -78,80 +79,18 @@ export const fetchWikipediaSummary = async (query) => {
 };
 
 export const generateNarration = async (locationName, wikiContext, wikipediaPage, landmarkContext = null) => {
-  try {
-    // Enhanced storytelling prompt for 2-3 minute narration
-    const enhancedPrompt = `You are a knowledgeable tour guide with expertise in world history, architecture, and geography. Create a factual, engaging audio narration (2-3 minutes when spoken) about ${locationName}.
-
-Your narration should:
-- Start with concrete facts: construction dates, dimensions, location, or key historical events
-- Present information in chronological or logical order
-- Focus on verifiable historical facts, architectural details, and cultural significance
-- Include 2-3 surprising facts with specific numbers, dates, or statistics
-  * Examples: exact measurements, construction time, number of workers, costs, visitor numbers, engineering innovations
-  * "The Taj Mahal required 20,000 workers and 22 years to complete"
-  * "The Great Wall stretches 21,196 kilometers across northern China"
-- Add 1-2 witty observations that connect facts to modern life
-  * Example: "22 years to build - which suddenly makes your kitchen renovation timeline look speedy!"
-  * Keep wit factual and relatable, not flowery or dramatic
-- End with a concrete fact or modern-day relevance
-
-AVOID:
-- Flowery phrases like "whispers of civilization", "step into this ancient world", "surrounded by history"
-- Overly poetic or atmospheric descriptions
-- Vague statements without specific facts
-- Dramatic scene-setting
-
-CRITICAL RULES:
-- Always refer to the landmark by name: "${locationName}" - never "this station", "this stop", or "this location"
-- NO stage directions, sound effects, or music cues like "(music fades)", "(wind blowing)"
-- Write ONLY spoken narration text - no parenthetical directions
-- Lead with facts, not atmosphere
-
-Write in a clear, conversational style that prioritizes accuracy and interesting information over dramatic storytelling.`;
-    
-    // Build comprehensive request body
-    const requestBody = {
-      pathId: 'monument-app',
-      locationId: locationName.toLowerCase().replace(/\s+/g, '-'),
-      locationTitle: locationName,
-      enhancedPrompt: enhancedPrompt,
-      wikipediaPage: wikipediaPage || locationName.replace(/\s+/g, '_'),
-      timestamp: Date.now()
-    };
-    
-    // Add rich landmark context from curated JSON
-    if (landmarkContext) {
-      requestBody.landmarkName = locationName;
-      requestBody.description = landmarkContext.description;
-      requestBody.significance = landmarkContext.significance;
-      requestBody.year = landmarkContext.year;
-      requestBody.category = landmarkContext.category;
-      requestBody.country = landmarkContext.country;
-      requestBody.city = landmarkContext.city;
-      requestBody.height = landmarkContext.height;
-      requestBody.isLandmark = true;
-    }
-    
-    // Call your n8n webhook
-    const response = await fetch('https://workflowly.online/webhook/pathfinder-narration', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(requestBody)
-    });
-    
-    const data = await response.json();
-    console.log('n8n response has audioContent:', !!data.audioContent);
-    return {
-      narration: data.narration || "Welcome to this historic site. Take a moment to soak in the incredible atmosphere and rich history surrounding you.",
-      audioContent: data.audioContent || null
-    };
-  } catch (error) {
-    console.error("Narration generation error:", error);
-    return {
-      narration: "Welcome to this historic site. Imagine the countless stories these ancient paths could tell as you explore one of the world's most significant landmarks.",
-      audioContent: null
-    };
-  }
+  const response = await fetch(apiUrl('/api/narration'), {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      pathId: 'monument-app', locationId: locationName.toLowerCase().replace(/\s+/g, '-'),
+      locationTitle: locationName, wikipediaPage: wikipediaPage || locationName,
+      wikiContext, ...landmarkContext,
+    }),
+  });
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error || `Narration request failed (${response.status}).`);
+  if (!data.narration) throw new Error('The server returned an empty narration.');
+  return data;
 };
 
 export const geocodeLocation = async (query) => {
