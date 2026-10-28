@@ -1,7 +1,10 @@
+import { requestPlan } from '../services/planning';
 import { apiUrl } from '../services/backend';
 import { useState } from 'react';
 
 const TripPlanner = () => {
+  const [plannerError, setPlannerError] = useState('');
+  const [waitingMessage, setWaitingMessage] = useState('');
   const [activeTab, setActiveTab] = useState('itinerary'); // 'itinerary' or 'route'
   const [tripView, setTripView] = useState('form');
   const [destination, setDestination] = useState('');
@@ -49,35 +52,19 @@ const TripPlanner = () => {
       return;
     }
 
+    setPlannerError('');
+    setWaitingMessage('');
     setIsGenerating(true);
     setTripView('generating');
 
     try {
-      const response = await fetch(apiUrl('/api/generate-trip'), {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          destination,
-          startDate,
-          endDate,
-          interests: selectedInterests
-        })
-      });
-
-      if (!response.ok) {
-        const problem = await response.json().catch(() => ({}));
-        throw new Error(problem.error || 'Failed to generate trip');
-      }
-
-      const data = await response.json();
+      const data = await requestPlan(apiUrl('/api/generate-trip'), { destination, startDate, endDate, interests: selectedInterests }, { onWaiting: setWaitingMessage });
       setTripData(data);
       setIsGenerating(false);
       setTripView('itinerary');
     } catch (error) {
       console.error('Error generating trip:', error);
-      alert(error.message);
+      setPlannerError(error.message);
       setIsGenerating(false);
       setTripView('form');
     }
@@ -94,29 +81,16 @@ const TripPlanner = () => {
       return;
     }
 
+    setPlannerError('');
+    setWaitingMessage('');
     setIsGeneratingRoute(true);
 
     try {
-      const response = await fetch(apiUrl('/api/generate-route'), {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          query: routeQuery
-        })
-      });
-
-      if (!response.ok) {
-        const problem = await response.json().catch(() => ({}));
-        throw new Error(problem.error || 'Failed to generate route plan');
-      }
-
-      const data = await response.json();
+      const data = await requestPlan(apiUrl('/api/generate-route'), { query: routeQuery }, { onWaiting: setWaitingMessage });
       setRouteResponse(data);
     } catch (error) {
       console.error('Error generating route:', error);
-      alert(error.message);
+      setPlannerError(error.message);
     } finally {
       setIsGeneratingRoute(false);
     }
@@ -134,7 +108,7 @@ const TripPlanner = () => {
           <div className="text-6xl mb-6 animate-bounce">✨</div>
           <h2 className="text-3xl font-bold mb-4">Creating Your Perfect Trip...</h2>
           <p className="text-gray-600 mb-6">
-            Our AI is analyzing {destination} and crafting a personalized itinerary just for you
+            {waitingMessage || `Our AI is analyzing ${destination} and crafting a personalized itinerary just for you`}
           </p>
           <div className="flex justify-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
@@ -395,6 +369,8 @@ const TripPlanner = () => {
       </div>
       )}
 
+      {plannerError && <p role="alert" className="mb-4 rounded-xl bg-red-50 p-4 text-red-700">{plannerError}</p>}
+
       {/* Route Planner Tab */}
       {activeTab === 'route' && (
         <div className="bg-white rounded-2xl shadow-xl p-6 sm:p-10">
@@ -436,7 +412,7 @@ const TripPlanner = () => {
                 {isGeneratingRoute ? (
                   <>
                     <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white"></div>
-                    <span>Analyzing your route...</span>
+                    <span>{waitingMessage || 'Analyzing your route...'}</span>
                   </>
                 ) : (
                   <>

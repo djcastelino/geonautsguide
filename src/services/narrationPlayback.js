@@ -5,9 +5,10 @@ export function createNarrationPlayback(audio, music, callbacks = {}) {
   const silenceMusic = () => music?.pause();
   const startMusic = () => {
     if (!musicEnabled || !playing || !music) return;
-    music.volume = 0.04;
-    music.play().catch(() => {});
+    music.volume = 0.12;
+    music.play().catch(() => callbacks.onMusicError?.('Background music could not play. Try switching it off and on again.'));
   };
+  if (music) music.onerror = () => callbacks.onMusicError?.('Background music could not load. Please try again.');
   audio.volume = 1;
   audio.muted = false;
   audio.onplaying = () => {
@@ -54,6 +55,7 @@ export function createNarrationPlayback(audio, music, callbacks = {}) {
     },
     dispose() {
       playing = false; audio.pause(); silenceMusic();
+      if (music) music.onerror = null;
       audio.onplaying = audio.onwaiting = audio.onstalled = audio.onpause = null;
       audio.onloadedmetadata = audio.ontimeupdate = audio.onended = audio.onerror = null;
     },

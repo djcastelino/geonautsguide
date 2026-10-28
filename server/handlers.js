@@ -28,7 +28,7 @@ export async function narration(data) {
 
 export async function route(data) {
   const query = required(data, 'query', 4000);
-  const response = await generateText(prompts.route, query, { maxTokens: 4096 });
+  const response = await generateText(prompts.route + '\nKeep the complete answer under 500 words. Prioritize a practical route and do not invent specific businesses.', query, { maxTokens: 2048 });
   return { success: true, query, response };
 }
 
@@ -88,8 +88,8 @@ export function formatTrip(result, input) {
 export async function trip(data) {
   const input = tripInput(data);
   const result = await generateText('You are an expert travel planner. Return only valid JSON matching the requested schema.',
-    prompts.trip + '\nCreate exactly ' + input.days + ' itinerary days, with Morning, Afternoon and Evening activities each day. Weather must describe typical seasonal patterns, not a live forecast.\nSUPPLIED DATA:\n' + JSON.stringify(input),
-    { json: true, maxTokens: Math.min(18000, 1200 + input.days * 1000) });
+    prompts.trip + '\nKeep descriptions concise: activity tips at most 8 words, activity names and locations at most 6 words each. Create exactly ' + input.days + ' itinerary days, with Morning, Afternoon and Evening activities each day. Weather must describe typical seasonal patterns, not a live forecast.\nSUPPLIED DATA:\n' + JSON.stringify(input),
+    { json: true, maxTokens: Math.min(6000, 1200 + input.days * 400) });
   return formatTrip(result, input);
 }
 
@@ -115,7 +115,11 @@ export async function handleApi(action, req, res) {
   } catch (error) {
     const known = error instanceof ServiceError;
     console.error('Backend request failed:', known ? error.message : 'Unexpected server error');
-    return res.status(known ? error.status : 500).json({ error: known ? error.message : 'Unable to complete this request. Please try again.' });
+    if (known && error.retryAfter) res.setHeader('Retry-After', String(error.retryAfter));
+    return res.status(known ? error.status : 500).json({
+      error: known ? error.message : 'Unable to complete this request. Please try again.',
+      ...(known && error.retryAfter ? { retryAfter: error.retryAfter } : {}),
+    });
   }
 }
 

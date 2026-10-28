@@ -19,6 +19,8 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
   const busyRef = useRef(false);
   const [audioError, setAudioError] = useState('');
   const [musicEnabled, setMusicEnabled] = useState(false);
+  const musicEnabledRef = useRef(false);
+  const [musicError, setMusicError] = useState('');
 
   const handlePlayAudio = async () => {
     if (busyRef.current) return;
@@ -35,6 +37,7 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
         playbackRef.current = createNarrationPlayback(audio, backgroundMusicRef.current, {
           onPlaying: () => { setIsPlaying(true); setIsPaused(false); setAudioEnded(false); },
           onDuration: setDuration,
+          onMusicError: setMusicError,
           onTime: setCurrentTime,
           onEnded: () => { setIsPlaying(false); setIsPaused(false); setCurrentTime(0); setAudioEnded(true); },
           onError: (error) => {
@@ -51,7 +54,7 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
           },
         });
       }
-      playbackRef.current.setMusicEnabled(musicEnabled);
+      playbackRef.current.setMusicEnabled(musicEnabledRef.current);
       if (!isPaused) audioRef.current.currentTime = 0;
       await playbackRef.current.play();
     } catch (error) {
@@ -85,10 +88,10 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
 
   useEffect(() => {
     activeRef.current = true;
-    const music = new Audio('https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3');
+    const music = new Audio('/audio/guide-background.mp3');
     music.loop = true;
-    music.volume = 0.04;
-    music.preload = 'none';
+    music.volume = 0.12;
+    music.preload = 'metadata';
     backgroundMusicRef.current = music;
     return () => {
       activeRef.current = false;
@@ -174,8 +177,11 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
               </div>
 
               {audioError && <p role="alert" className="mb-4 rounded-lg bg-red-50 p-3 text-red-700">{audioError}</p>}
+              {musicError && <p role="status" className="mb-3 text-sm text-amber-800">{musicError}</p>}
               <label className="flex items-center gap-2 mb-4 text-sm text-gray-700">
                 <input type="checkbox" checked={musicEnabled} onChange={event => {
+                  setMusicError('');
+                  musicEnabledRef.current = event.target.checked;
                   setMusicEnabled(event.target.checked);
                   playbackRef.current?.setMusicEnabled(event.target.checked);
                 }} />

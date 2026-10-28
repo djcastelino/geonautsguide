@@ -39,7 +39,20 @@ export async function generateText(system, prompt, { json = false, maxTokens = 1
     if (['model_decommissioned', 'model_not_found', 'model_permission_denied'].includes(code)) {
       throw new ServiceError('The configured AI model is unavailable. Update GROQ_MODEL on the server.', 503);
     }
-    if (response.status === 429) throw new ServiceError('The AI service is busy. Please try again shortly.', 429);
+    if (response.status === 429) {
+      const seconds = Number(response.headers.get('retry-after'));
+      // Classify provider details without exposing its raw message or account identifiers.
+      const detail = typeof problem.error?.message === 'string' ? problem.error.message : '';
+      const daily = /tokens per day|requests per day|\bTPD\b|\bRPD\b/i.test(detail);
+      const suggested = detail.match(/try again in\s+(?:(\d+(?:\.\d+)?)h)?(?:(\d+(?:\.\d+)?)m)?(?:(\d+(?:\.\d+)?)s)?/i);
+      const bodyWait = suggested ? Number(suggested[1] || 0) * 3600 + Number(suggested[2] || 0) * 60 + Number(suggested[3] || 0) : 0;
+      const retryAfter = Number.isFinite(seconds) && seconds > 0 ? Math.ceil(seconds) : bodyWait > 0 ? Math.ceil(bodyWait) : daily ? 3600 : 30;
+      const error = new ServiceError(daily
+        ? 'The travel AI has reached its daily account allowance. Please return after it resets.'
+        : 'The travel AI has reached its usage limit. Please try again after a short wait.', 429);
+      error.retryAfter = retryAfter;
+      throw error;
+    }
     if ([401, 403].includes(response.status)) throw new ServiceError('The server AI credential needs attention.', 503);
     throw new ServiceError('The AI service could not generate a response. Please try again.');
   }
