@@ -1,11 +1,11 @@
 import LandmarkImage from './LandmarkImage';
 import { useState } from 'react';
 
-function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
+function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading, initialBrowse = false, onHome }) {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedType, setSelectedType] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
-  const [showAllLandmarks, setShowAllLandmarks] = useState(false);
+  const [showAllLandmarks, setShowAllLandmarks] = useState(initialBrowse);
 
   // Get daily featured landmark (rotates daily)
   const getDailyLandmark = () => {
@@ -34,7 +34,7 @@ function LandmarkGrid({ landmarks, onLandmarkSelect, isLoading }) {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="mb-8">
           <button
-            onClick={() => setShowAllLandmarks(false)}
+            onClick={() => onHome ? onHome() : setShowAllLandmarks(false)}
             className="flex items-center gap-2 text-purple-600 hover:text-purple-700 font-semibold mb-4 transition-colors"
           >
             <span>←</span> Back to Home

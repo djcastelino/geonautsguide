@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ArrowLeft, Landmark, Download } from 'lucide-react';
 
-export default function Header({ showBack, onBack }) {
+export default function Header({ showBack, onBack, onHome }) {
   const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [showInstallButton, setShowInstallButton] = useState(false);
 
@@ -44,6 +44,7 @@ export default function Header({ showBack, onBack }) {
         </div>
         
         <div className="flex items-center gap-3">
+          {onHome && <button onClick={onHome} className="text-sm text-gray-600 hover:text-gray-900">← Home</button>}
           {showInstallButton && (
             <button
               onClick={handleInstallClick}

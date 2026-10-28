@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ExpeditionHome from './components/ExpeditionHome';
 import Header from './components/Header';
 import LandmarkGrid from './components/LandmarkGrid';
 import LandmarkDetail from './components/LandmarkDetail';
@@ -11,7 +12,7 @@ import landmarksData from './data/landmarks.json';
 
 function App() {
   const [currentView, setCurrentView] = useState('grid');
-  const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'map'
+  const [viewMode, setViewMode] = useState('home'); // 'grid' or 'map'
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
@@ -92,8 +93,9 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-green-50">
-      {currentView === 'grid' && (
+      {currentView === 'grid' && viewMode !== 'home' && (
         <Header 
+          onHome={() => setViewMode('home')}
           showBack={false} 
           onBack={handleBackToGrid} 
         />
@@ -109,7 +111,12 @@ function App() {
           </div>
         )}
 
-        {currentView === 'grid' ? (
+        {currentView === 'grid' && viewMode === 'home' ? (
+          <ExpeditionHome landmarks={landmarksData.landmarks} featured={getDailyLandmark()}
+            onExplore={() => toggleViewMode('grid')} onMap={() => toggleViewMode('map')}
+            onPlan={() => toggleViewMode('planner')} onChallenge={() => toggleViewMode('cityguess')}
+            onLandmarkSelect={handleLandmarkSelect} isLoading={isLoading} />
+        ) : currentView === 'grid' ? (
           <div>
             {/* View Toggle */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 mt-8">
@@ -159,7 +166,7 @@ function App() {
 
             {/* Content */}
             {viewMode === 'grid' ? (
-              <LandmarkGrid 
+              <LandmarkGrid initialBrowse onHome={() => setViewMode('home')}
                 landmarks={landmarksData.landmarks}
                 onLandmarkSelect={handleLandmarkSelect}
                 isLoading={isLoading}
@@ -189,12 +196,12 @@ function App() {
         ) : null}
       </main>
 
-      <footer className="py-8 text-center text-gray-400 text-xs">
+      {!(currentView === 'grid' && viewMode === 'home') && <footer className="py-8 text-center text-gray-400 text-xs">
         &copy; {new Date().getFullYear()} Geonauts Guide. Your daily geography adventure.
-      </footer>
+      </footer>}
 
       {/* Notification Permission Banner */}
-      <NotificationBanner />
+      {!(currentView === 'grid' && viewMode === 'home') && <NotificationBanner />}
     </div>
   );
 }
