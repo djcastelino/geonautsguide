@@ -1,14 +1,52 @@
-import { createSpeechBlob } from '../services/backend';
-import { useState, useEffect, useRef } from 'react';
-import { getDailyCity, CITIES } from '../data/cities';
+import { cityFactSpeechText } from "../utils/speechText";
+import { completeCityStats } from "../utils/cityStats";
+import {
+  Archive,
+  ArrowUpRight,
+  BarChart3,
+  Check,
+  Globe2,
+  Headphones,
+  LockKeyhole,
+  Pause,
+  Share2,
+  X,
+} from "lucide-react";
+import { createSpeechBlob } from "../services/backend";
+import { useState, useEffect, useRef } from "react";
+import { getDailyCity, CITIES } from "../data/cities";
+
+const readLocal = (key) => {
+  try {
+    return JSON.parse(localStorage.getItem(key) || "{}") || {};
+  } catch {
+    return {};
+  }
+};
+const todayGame = (city) => {
+  const game = readLocal("cityGuess");
+  return game.date === new Date().toDateString() && game.cityId === city.id
+    ? game
+    : {};
+};
 
 const CityGuess = () => {
-  const [dailyCity, setDailyCity] = useState(null);
-  const [revealedClues, setRevealedClues] = useState(1);
-  const [guesses, setGuesses] = useState([]);
-  const [currentGuess, setCurrentGuess] = useState('');
-  const [gameState, setGameState] = useState('playing'); // 'playing', 'won', 'lost'
-  const [attemptsRemaining, setAttemptsRemaining] = useState(6);
+  const [initial] = useState(() => {
+    const city = getDailyCity();
+    return { city, game: todayGame(city) };
+  });
+  const [dailyCity, setDailyCity] = useState(initial.city);
+  const [revealedClues, setRevealedClues] = useState(
+    initial.game.revealedClues ?? 1,
+  );
+  const [guesses, setGuesses] = useState(initial.game.guesses || []);
+  const [currentGuess, setCurrentGuess] = useState("");
+  const [gameState, setGameState] = useState(
+    initial.game.gameState || "playing",
+  ); // 'playing', 'won', 'lost'
+  const [attemptsRemaining, setAttemptsRemaining] = useState(
+    initial.game.attemptsRemaining ?? 6,
+  );
   const [showStats, setShowStats] = useState(false);
   const [showArchive, setShowArchive] = useState(false);
   const [archiveDate, setArchiveDate] = useState(null);
@@ -20,29 +58,63 @@ const CityGuess = () => {
   const audioRef = useRef(null);
   const inputRef = useRef(null);
 
+  const [activeSuggestion, setActiveSuggestion] = useState(-1);
+  const [audioError, setAudioError] = useState("");
+  const guessBoxRef = useRef(null);
+  const dialogRef = useRef(null);
+  const audioUrlRef = useRef(null);
+  const activeRef = useRef(true);
   useEffect(() => {
-    const city = getDailyCity();
-    setDailyCity(city);
-    
-    // Check localStorage for today's game
-    const today = new Date().toDateString();
-    const savedGame = localStorage.getItem('cityGuess');
-    
-    if (savedGame) {
-      const game = JSON.parse(savedGame);
-      if (game.date === today && game.cityId === city.id) {
-        setGuesses(game.guesses || []);
-        setRevealedClues(game.revealedClues || 1);
-        setGameState(game.gameState || 'playing');
-        setAttemptsRemaining(game.attemptsRemaining || 6);
-      }
-    }
+    activeRef.current = true;
+    return () => {
+      activeRef.current = false;
+      audioRef.current?.pause();
+      if (audioUrlRef.current) URL.revokeObjectURL(audioUrlRef.current);
+    };
   }, []);
+  useEffect(() => {
+    if (!showStats && !showArchive) return;
+    const previous = document.activeElement;
+    dialogRef.current?.querySelector("button")?.focus();
+    const keys = (event) => {
+      if (event.key === "Escape") {
+        setShowStats(false);
+        setShowArchive(false);
+      }
+      if (event.key === "Tab") {
+        const buttons = [
+          ...(dialogRef.current?.querySelectorAll("button, a[href], input") ||
+            []),
+        ];
+        if (!buttons.length) return;
+        if (event.shiftKey && document.activeElement === buttons[0]) {
+          event.preventDefault();
+          buttons.at(-1).focus();
+        } else if (
+          !event.shiftKey &&
+          document.activeElement === buttons.at(-1)
+        ) {
+          event.preventDefault();
+          buttons[0].focus();
+        }
+      }
+    };
+    document.addEventListener("keydown", keys);
+    return () => {
+      document.removeEventListener("keydown", keys);
+      previous?.focus();
+    };
+  }, [showStats, showArchive]);
 
-  const saveGame = (updatedGuesses, updatedRevealed, updatedState, updatedAttempts) => {
+  const saveGame = (
+    updatedGuesses,
+    updatedRevealed,
+    updatedState,
+    updatedAttempts,
+  ) => {
     // Don't save archive games
     if (isArchiveMode) return;
-    
+
     const today = new Date().toDateString();
     const gameData = {
       date: today,
@@ -50,87 +122,58 @@ const CityGuess = () => {
       guesses: updatedGuesses,
       revealedClues: updatedRevealed,
       gameState: updatedState,
-      attemptsRemaining: updatedAttempts
+      attemptsRemaining: updatedAttempts,
     };
-    localStorage.setItem('cityGuess', JSON.stringify(gameData));
-    
+    localStorage.setItem("cityGuess", JSON.stringify(gameData));
+
     // Update stats when game ends (not for archive games)
-    if (updatedState === 'won' || updatedState === 'lost') {
-      updateStats(updatedState === 'won', updatedGuesses.length);
+    if (updatedState === "won" || updatedState === "lost") {
+      updateStats(updatedState === "won", updatedGuesses.length);
     }
   };
 
   const updateStats = (won, guessCount) => {
-    const stats = JSON.parse(localStorage.getItem('cityGuessStats') || '{}');
-    const today = new Date().toDateString();
-    
-    // Initialize stats if empty
-    if (!stats.gamesPlayed) {
-      stats.gamesPlayed = 0;
-      stats.gamesWon = 0;
-      stats.currentStreak = 0;
-      stats.bestStreak = 0;
-      stats.lastPlayedDate = null;
-      stats.guessDistribution = [0, 0, 0, 0, 0, 0];
-    }
-    
-    stats.gamesPlayed++;
-    
-    if (won) {
-      stats.gamesWon++;
-      stats.guessDistribution[guessCount - 1]++;
-      
-      // Update streak
-      const yesterday = new Date();
-      yesterday.setDate(yesterday.getDate() - 1);
-      const yesterdayStr = yesterday.toDateString();
-      
-      if (stats.lastPlayedDate === yesterdayStr || !stats.lastPlayedDate) {
-        stats.currentStreak++;
-      } else {
-        stats.currentStreak = 1;
-      }
-      
-      if (stats.currentStreak > stats.bestStreak) {
-        stats.bestStreak = stats.currentStreak;
-      }
-    } else {
-      stats.currentStreak = 0;
-    }
-    
-    stats.lastPlayedDate = today;
-    localStorage.setItem('cityGuessStats', JSON.stringify(stats));
+    const stats = completeCityStats(
+      readLocal("cityGuessStats"),
+      won,
+      guessCount,
+    );
+    localStorage.setItem("cityGuessStats", JSON.stringify(stats));
   };
 
   const getStats = () => {
-    const stats = JSON.parse(localStorage.getItem('cityGuessStats') || '{}');
+    const stats = readLocal("cityGuessStats");
     return {
       gamesPlayed: stats.gamesPlayed || 0,
       gamesWon: stats.gamesWon || 0,
-      winRate: stats.gamesPlayed ? Math.round((stats.gamesWon / stats.gamesPlayed) * 100) : 0,
+      winRate: stats.gamesPlayed
+        ? Math.round((stats.gamesWon / stats.gamesPlayed) * 100)
+        : 0,
       currentStreak: stats.currentStreak || 0,
       bestStreak: stats.bestStreak || 0,
-      guessDistribution: stats.guessDistribution || [0, 0, 0, 0, 0, 0]
+      guessDistribution: stats.guessDistribution || [0, 0, 0, 0, 0, 0],
     };
   };
 
   const handleShare = () => {
-    const emoji = gameState === 'won' ? '✅' : '❌';
+    const emoji = gameState === "won" ? "✅" : "❌";
     const guessCount = guesses.length;
     const shareText = `🌍 Geonauts City Guess\n\n${emoji} ${dailyCity.name}\nGuessed in ${guessCount}/6 attempts\n\nPlay daily at geonautsguide.com`;
-    
+
     if (navigator.share) {
-      navigator.share({
-        title: 'Geonauts City Guess',
-        text: shareText
-      }).catch(() => {
-        // Fallback to clipboard
-        navigator.clipboard.writeText(shareText);
-        alert('Results copied to clipboard!');
-      });
+      navigator
+        .share({
+          title: "Geonauts City Guess",
+          text: shareText,
+        })
+        .catch(() => {
+          // Fallback to clipboard
+          navigator.clipboard.writeText(shareText);
+          alert("Results copied to clipboard!");
+        });
     } else {
       navigator.clipboard.writeText(shareText);
-      alert('Results copied to clipboard!');
+      alert("Results copied to clipboard!");
     }
   };
 
@@ -141,10 +184,10 @@ const CityGuess = () => {
     setIsArchiveMode(true);
     setGuesses([]);
     setRevealedClues(1);
-    setGameState('playing');
+    setGameState("playing");
     setAttemptsRemaining(6);
     setShowArchive(false);
-    
+
     // Clear cached audio so it generates fresh for archived city
     if (audioRef.current) {
       audioRef.current.pause();
@@ -154,47 +197,38 @@ const CityGuess = () => {
   };
 
   const handlePlayFunFact = async () => {
-    if (audioRef.current && !isPlayingAudio) {
-      audioRef.current.play();
-      setIsPlayingAudio(true);
-      return;
-    }
-
+    if (isGeneratingAudio) return;
+    setAudioError("");
     if (audioRef.current && isPlayingAudio) {
       audioRef.current.pause();
       setIsPlayingAudio(false);
       return;
     }
-
     setIsGeneratingAudio(true);
     try {
-      const voices = [
-        'en-US-AndrewMultilingualNeural',
-        'en-US-BrianMultilingualNeural'
-      ];
-      const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
-      
-      const audioBlob = await createSpeechBlob(dailyCity.funFact, selectedVoice);
-      const audioUrl = URL.createObjectURL(audioBlob);
-      
-      const audio = new Audio(audioUrl);
-      audioRef.current = audio;
-      
-      audio.onended = () => {
-        setIsPlayingAudio(false);
-      };
-      
-      audio.onpause = () => {
-        setIsPlayingAudio(false);
-      };
-      
-      audio.play();
-      setIsPlayingAudio(true);
-      setIsGeneratingAudio(false);
-    } catch (error) {
-      console.error('Error generating audio:', error);
-      setIsGeneratingAudio(false);
-      alert('Failed to generate audio. Please try again.');
+      if (!audioRef.current) {
+        const blob = await createSpeechBlob(
+          cityFactSpeechText(dailyCity.funFact),
+          "en-US-AndrewMultilingualNeural",
+        );
+        if (!activeRef.current) return;
+        audioUrlRef.current = URL.createObjectURL(blob);
+        const audio = new Audio(audioUrlRef.current);
+        audio.onended = audio.onpause = () => setIsPlayingAudio(false);
+        audio.onplaying = () => setIsPlayingAudio(true);
+        audio.onerror = () => {
+          setIsPlayingAudio(false);
+          setAudioError("This audio could not play. Please try again.");
+          audioRef.current = null;
+        };
+        audioRef.current = audio;
+      }
+      await audioRef.current.play();
+    } catch {
+      if (activeRef.current)
+        setAudioError("Audio could not start. Tap Listen again to retry.");
+    } finally {
+      if (activeRef.current) setIsGeneratingAudio(false);
     }
   };
 
@@ -203,32 +237,24 @@ const CityGuess = () => {
     setIsArchiveMode(false);
     const city = getDailyCity();
     setDailyCity(city);
-    
+
     // Clear cached audio
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current = null;
     }
     setIsPlayingAudio(false);
-    
-    // Reload today's saved game
-    const today = new Date().toDateString();
-    const savedGame = localStorage.getItem('cityGuess');
-    
-    if (savedGame) {
-      const game = JSON.parse(savedGame);
-      if (game.date === today && game.cityId === city.id) {
-        setGuesses(game.guesses || []);
-        setRevealedClues(game.revealedClues || 1);
-        setGameState(game.gameState || 'playing');
-        setAttemptsRemaining(game.attemptsRemaining || 6);
-      }
-    }
+
+    const game = todayGame(city);
+    setGuesses(game.guesses || []);
+    setRevealedClues(game.revealedClues ?? 1);
+    setGameState(game.gameState || "playing");
+    setAttemptsRemaining(game.attemptsRemaining ?? 6);
   };
 
   const handleGuess = (e) => {
     e.preventDefault();
-    if (!currentGuess.trim()) return;
+    if (!currentGuess.trim() || gameState !== "playing") return;
 
     const normalizedGuess = currentGuess.trim().toLowerCase();
     const normalizedAnswer = dailyCity.name.toLowerCase();
@@ -239,41 +265,32 @@ const CityGuess = () => {
 
     setGuesses(newGuesses);
     setAttemptsRemaining(newAttempts);
-    setCurrentGuess('');
+    setCurrentGuess("");
     setShowAutocomplete(false);
 
     if (isCorrect) {
-      setGameState('won');
-      saveGame(newGuesses, revealedClues, 'won', newAttempts);
-      
-      // Update stats only if not archive mode
-      if (!isArchiveMode) {
-        updateStats(true, newGuesses.length);
-      }
+      setGameState("won");
+      saveGame(newGuesses, revealedClues, "won", newAttempts);
     } else if (newAttempts === 0) {
-      setGameState('lost');
-      saveGame(newGuesses, 6, 'lost', 0);
-      
-      // Update stats only if not archive mode
-      if (!isArchiveMode) {
-        updateStats(false, 6);
-      }
+      setGameState("lost");
+      saveGame(newGuesses, 6, "lost", 0);
     } else {
       // Reveal next clue after wrong guess
       const newRevealed = Math.min(revealedClues + 1, 6);
       setRevealedClues(newRevealed);
-      saveGame(newGuesses, newRevealed, 'playing', newAttempts);
+      saveGame(newGuesses, newRevealed, "playing", newAttempts);
     }
   };
 
   const handleInputChange = (e) => {
     const value = e.target.value;
     setCurrentGuess(value);
-    
+    setActiveSuggestion(-1);
+
     if (value.trim().length > 0) {
-      const matches = CITIES
-        .filter(city => city.name.toLowerCase().startsWith(value.trim().toLowerCase()))
-        .slice(0, 8);
+      const matches = CITIES.filter((city) =>
+        city.name.toLowerCase().startsWith(value.trim().toLowerCase()),
+      ).slice(0, 8);
       setFilteredCities(matches);
       setShowAutocomplete(matches.length > 0);
     } else {
@@ -284,6 +301,7 @@ const CityGuess = () => {
 
   const handleSelectCity = (cityName) => {
     setCurrentGuess(cityName);
+    setActiveSuggestion(-1);
     setShowAutocomplete(false);
     setFilteredCities([]);
     inputRef.current?.focus();
@@ -291,464 +309,429 @@ const CityGuess = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (inputRef.current && !inputRef.current.contains(event.target)) {
+      if (guessBoxRef.current && !guessBoxRef.current.contains(event.target)) {
         setShowAutocomplete(false);
       }
     };
-    
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  if (!dailyCity) {
-    return <div className="max-w-4xl mx-auto px-4 py-20 text-center">Loading...</div>;
-  }
-
+  const date = archiveDate || new Date();
+  const stats = getStats();
+  const over = gameState !== "playing";
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {/* Header */}
-      <div className="text-center mb-10">
-        <div className="text-5xl mb-4">🌍</div>
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
-          Daily City Guess
-        </h1>
-        <p className="text-xl text-gray-600">One puzzle per day - Guess the city from the clues!</p>
-      </div>
-
-      {/* Clues Card */}
-      <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
-        <h2 className="text-2xl font-bold mb-6 text-center">Clues:</h2>
-        <div className="space-y-4">
-          {dailyCity.clues.slice(0, revealedClues).map((clue, index) => (
-            <div key={index} className="flex items-start gap-3">
-              <span className="text-2xl font-bold text-purple-600">{index + 1}.</span>
-              <p className="text-gray-800 text-lg flex-1">{clue}</p>
-            </div>
-          ))}
-          
-          {dailyCity.clues.slice(revealedClues).map((_, index) => (
-            <div key={revealedClues + index} className="flex items-start gap-3">
-              <span className="text-2xl font-bold text-gray-300">{revealedClues + index + 1}.</span>
-              <p className="text-gray-400 italic text-lg flex-1">
-                🔒 Make another guess to reveal
-              </p>
-            </div>
-          ))}
+    <div className="journal-page journal-city">
+      <div className="journal-page-heading">
+        <div>
+          <p className="journal-kicker">
+            A SMALL DAILY ADVENTURE /{" "}
+            {isArchiveMode ? "FROM THE ARCHIVE" : "TODAY’S EDITION"}
+          </p>
+          <h1>
+            Somewhere
+            <br />
+            <em>in the world.</em>
+          </h1>
+          <p>
+            Six clues. Six chances. One city.
+            <br />
+            Let your curiosity connect the dots.
+          </p>
+        </div>
+        <div className="journal-city-date">
+          <Globe2 size={55} strokeWidth={0.8} />
+          <span>{date.toLocaleDateString("en-US", { weekday: "long" })}</span>
+          <strong>
+            {date.toLocaleDateString("en-US", {
+              month: "long",
+              day: "numeric",
+            })}
+          </strong>
+          <span>A FRESH PERSPECTIVE, EVERY DAY</span>
         </div>
       </div>
-
-      {/* Guesses Card */}
-      <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
-        <h2 className="text-2xl font-bold mb-6 text-center">Your Guesses:</h2>
-        
-        {guesses.length === 0 ? (
-          <p className="text-center text-gray-500">No guesses yet...</p>
-        ) : (
-          <div className="space-y-3">
-            {guesses.map((guess, index) => (
-              <div
+      <div className="journal-city-toolbar">
+        <span className="journal-kicker">
+          {isArchiveMode ? "EXPLORING YESTERDAY" : "THE DAILY CITY GUESS"} /{" "}
+          {over ? "CHAPTER COMPLETE" : `${attemptsRemaining} CHANCES REMAIN`}
+        </span>
+        <div>
+          {isArchiveMode && (
+            <button onClick={backToToday}>
+              Back to today <ArrowUpRight size={14} />
+            </button>
+          )}
+          <button onClick={() => setShowStats(true)}>
+            <BarChart3 size={15} /> Your stats
+          </button>
+          <button onClick={() => setShowArchive(true)}>
+            <Archive size={15} /> Archive
+          </button>
+        </div>
+      </div>
+      <div className="journal-city-layout">
+        <section className="journal-clue-card" aria-labelledby="clues-heading">
+          <p className="journal-kicker">READ BETWEEN THE LINES</p>
+          <h2 id="clues-heading">
+            Every clue
+            <br />
+            <em>is a little closer.</em>
+          </h2>
+          <ol className="journal-clues">
+            {dailyCity.clues.map((clue, index) => (
+              <li
                 key={index}
-                className={`p-4 rounded-xl flex items-center gap-3 ${
-                  guess.isCorrect
-                    ? 'bg-purple-100 border-2 border-purple-500'
-                    : 'bg-gray-50'
-                }`}
+                className={
+                  index < revealedClues || over ? "is-revealed" : "is-locked"
+                }
               >
-                <span className="text-2xl">
-                  {guess.isCorrect ? '✅' : '❌'}
-                </span>
-                <span className={`text-lg font-medium ${
-                  guess.isCorrect ? 'text-purple-700' : 'text-gray-700'
-                }`}>
-                  {guess.text}
-                </span>
+                <span>{String(index + 1).padStart(2, "0")}</span>
+                <p>
+                  {index < revealedClues || over ? (
+                    clue
+                  ) : (
+                    <>
+                      <LockKeyhole size={13} /> Another guess opens another
+                      door.
+                    </>
+                  )}
+                </p>
+              </li>
+            ))}
+          </ol>
+        </section>
+        <aside className="journal-guess-panel">
+          <p className="journal-kicker">TRUST YOUR INSTINCT</p>
+          <h2>
+            {over ? (
+              gameState === "won" ? (
+                <>
+                  You found
+                  <br />
+                  <em>your way.</em>
+                </>
+              ) : (
+                <>
+                  A new place
+                  <br />
+                  <em>to remember.</em>
+                </>
+              )
+            ) : (
+              <>
+                Where could
+                <br />
+                <em>this be?</em>
+              </>
+            )}
+          </h2>
+          <div
+            className="journal-attempt-dots"
+            aria-label={`${guesses.length} of 6 guesses used`}
+          >
+            {Array.from({ length: 6 }, (_, index) => (
+              <span
+                key={index}
+                className={index < guesses.length ? "is-used" : ""}
+              />
+            ))}
+          </div>
+          {gameState === "playing" ? (
+            <form onSubmit={handleGuess}>
+              <label htmlFor="city-guess-input">Your city</label>
+              <div className="journal-guess-input" ref={guessBoxRef}>
+                <input
+                  id="city-guess-input"
+                  ref={inputRef}
+                  role="combobox"
+                  aria-autocomplete="list"
+                  aria-expanded={showAutocomplete}
+                  aria-controls="city-suggestions"
+                  aria-activedescendant={
+                    activeSuggestion >= 0
+                      ? `city-option-${filteredCities[activeSuggestion]?.id}`
+                      : undefined
+                  }
+                  value={currentGuess}
+                  onChange={handleInputChange}
+                  onKeyDown={(event) => {
+                    if (event.key === "Escape") {
+                      setShowAutocomplete(false);
+                      setActiveSuggestion(-1);
+                    }
+                    if (
+                      showAutocomplete &&
+                      filteredCities.length &&
+                      ["ArrowDown", "ArrowUp"].includes(event.key)
+                    ) {
+                      event.preventDefault();
+                      setActiveSuggestion(
+                        (value) =>
+                          (value +
+                            (event.key === "ArrowDown" ? 1 : -1) +
+                            filteredCities.length) %
+                          filteredCities.length,
+                      );
+                    }
+                    if (
+                      event.key === "Enter" &&
+                      showAutocomplete &&
+                      activeSuggestion >= 0
+                    ) {
+                      event.preventDefault();
+                      handleSelectCity(filteredCities[activeSuggestion].name);
+                    }
+                  }}
+                  placeholder="Start typing a city…"
+                  autoComplete="off"
+                />
+                {showAutocomplete && filteredCities.length > 0 && (
+                  <div
+                    className="journal-city-suggestions"
+                    role="listbox"
+                    id="city-suggestions"
+                  >
+                    {filteredCities.map((city, index) => (
+                      <button
+                        type="button"
+                        role="option"
+                        aria-selected={activeSuggestion === index}
+                        id={`city-option-${city.id}`}
+                        key={city.id}
+                        onClick={() => handleSelectCity(city.name)}
+                      >
+                        <span>
+                          {city.name}
+                          <small>
+                            {city.country}, {city.continent}
+                          </small>
+                        </span>
+                        <ArrowUpRight size={15} />
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <button
+                type="submit"
+                className="journal-button journal-button-lime"
+                disabled={!currentGuess.trim()}
+              >
+                Make a guess <ArrowUpRight size={17} />
+              </button>
+              <p className="journal-guess-hint">
+                A wrong turn reveals the next clue.
+              </p>
+            </form>
+          ) : (
+            <div className="journal-guess-outcome">
+              <p>
+                {gameState === "won"
+                  ? `Found in ${guesses.length} ${guesses.length === 1 ? "guess" : "guesses"}. A little curiosity goes a long way.`
+                  : "Every discovery starts somewhere. There’s another city waiting tomorrow."}
+              </p>
+              <span className="journal-kicker">THE CITY WAS</span>
+              <h3>{dailyCity.name}</h3>
+              <span>{dailyCity.country}</span>
+              <button
+                className="journal-button journal-button-lime"
+                onClick={handleShare}
+              >
+                <Share2 size={16} /> Share your discovery
+              </button>
+            </div>
+          )}
+          <div className="journal-guess-history" aria-live="polite">
+            <p className="journal-kicker">YOUR EXPLORATIONS</p>
+            {!guesses.length ? (
+              <p>No guesses yet. The world is wide open.</p>
+            ) : (
+              guesses.map((guess, index) => (
+                <div key={index}>
+                  <span>0{index + 1}</span>
+                  <strong>{guess.text}</strong>
+                  <small>
+                    {guess.isCorrect ? (
+                      <>
+                        <Check size={13} /> FOUND IT
+                      </>
+                    ) : (
+                      "NOT QUITE"
+                    )}
+                  </small>
+                </div>
+              ))
+            )}
+          </div>
+        </aside>
+      </div>
+      {over && (
+        <section className="journal-city-reveal">
+          <p className="journal-kicker">TAKE A LITTLE KNOWLEDGE WITH YOU</p>
+          <h2>
+            {dailyCity.name},<br />
+            <em>beyond the answer.</em>
+          </h2>
+          <div className="journal-city-fact">
+            <div>
+              <p className="journal-kicker">DID YOU KNOW?</p>
+              <p>{dailyCity.funFact}</p>
+              <a
+                href={dailyCity.funFactSourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Source: {dailyCity.funFactSource} <ArrowUpRight size={14} />
+              </a>
+            </div>
+            <button
+              onClick={handlePlayFunFact}
+              className="journal-button"
+              disabled={isGeneratingAudio}
+            >
+              {isPlayingAudio ? <Pause size={16} /> : <Headphones size={16} />}
+              {isGeneratingAudio
+                ? "Preparing audio…"
+                : isPlayingAudio
+                  ? "Pause fact"
+                  : "Listen to the story"}
+            </button>
+          </div>
+          {audioError && (
+            <p className="journal-error" role="alert">
+              {audioError}
+            </p>
+          )}
+          <div className="journal-city-fact-grid">
+            {[
+              ["CONTINENT", dailyCity.continent],
+              ["POPULATION", dailyCity.population],
+              ["BY THE WATER", dailyCity.waterFeature],
+              ["KNOWN FOR", dailyCity.famousFor],
+            ].map(([label, value]) => (
+              <div key={label}>
+                <span className="journal-kicker">{label}</span>
+                <p>{value}</p>
               </div>
             ))}
           </div>
-        )}
-        
-        <p className="text-center mt-4 text-gray-600 font-semibold">
-          Remaining: {attemptsRemaining}/6
-        </p>
-      </div>
-
-      {/* Input Form */}
-      {gameState === 'playing' && (
-        <form onSubmit={handleGuess} className="bg-white rounded-2xl shadow-xl p-6">
-          <div className="flex gap-3 relative">
-            <div className="flex-1 relative">
-              <input
-                ref={inputRef}
-                type="text"
-                value={currentGuess}
-                onChange={handleInputChange}
-                placeholder="Enter city name..."
-                className="w-full px-6 py-4 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none text-lg"
-                autoFocus
-                autoComplete="off"
-              />
-              
-              {/* Autocomplete Dropdown */}
-              {showAutocomplete && filteredCities.length > 0 && (
-                <div className="absolute z-10 w-full mt-2 bg-white border-2 border-purple-200 rounded-xl shadow-2xl max-h-80 overflow-y-auto">
-                  {filteredCities.map((city) => (
-                    <button
-                      key={city.id}
-                      type="button"
-                      onClick={() => handleSelectCity(city.name)}
-                      className="w-full text-left px-6 py-3 hover:bg-purple-50 transition-colors border-b border-gray-100 last:border-b-0 flex items-center gap-3"
-                    >
-                      <span className="text-xl">🌍</span>
-                      <div>
-                        <div className="font-semibold text-gray-900">{city.name}</div>
-                        <div className="text-sm text-gray-500">{city.country}, {city.continent}</div>
-                      </div>
-                    </button>
+        </section>
+      )}
+      {(showStats || showArchive) && (
+        <div
+          className="journal-modal-backdrop"
+          onClick={(event) => {
+            if (event.target === event.currentTarget) {
+              setShowStats(false);
+              setShowArchive(false);
+            }
+          }}
+        >
+          <section
+            ref={dialogRef}
+            className="journal-modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label={
+              showStats ? "Your City Guess statistics" : "City Guess archive"
+            }
+          >
+            <button
+              className="journal-modal-close"
+              onClick={() => {
+                setShowStats(false);
+                setShowArchive(false);
+              }}
+              aria-label="Close dialog"
+            >
+              <X size={20} />
+            </button>
+            <p className="journal-kicker">THE CURIOUS KEEP COMING BACK</p>
+            <h2>
+              {showStats ? (
+                <>
+                  Your explorer’s
+                  <br />
+                  <em>record.</em>
+                </>
+              ) : (
+                <>
+                  A little
+                  <br />
+                  <em>time travel.</em>
+                </>
+              )}
+            </h2>
+            {showStats ? (
+              <>
+                <div className="journal-stats-grid">
+                  {[
+                    [stats.gamesPlayed, "PLAYED"],
+                    [`${stats.winRate}%`, "WIN RATE"],
+                    [stats.currentStreak, "CURRENT STREAK"],
+                    [stats.bestStreak, "BEST STREAK"],
+                  ].map(([value, label]) => (
+                    <div key={label}>
+                      <strong>{value}</strong>
+                      <span>{label}</span>
+                    </div>
                   ))}
                 </div>
-              )}
-            </div>
-            
-            <button
-              type="submit"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold px-8 py-4 rounded-xl transition-all shadow-lg"
-            >
-              Guess
-            </button>
-          </div>
-        </form>
-      )}
-
-      {/* Win State */}
-      {gameState === 'won' && (
-        <div className="bg-gradient-to-r from-green-400 to-green-600 rounded-2xl p-8 text-white shadow-xl">
-          <div className="text-center">
-            <div className="text-6xl mb-4">🎉</div>
-            <h2 className="text-3xl font-bold mb-2">Correct!</h2>
-            <p className="text-xl mb-4">
-              You got it in {guesses.length} {guesses.length === 1 ? 'guess' : 'guesses'}!
-            </p>
-          </div>
-
-          {/* Answer Card */}
-          <div className="bg-white rounded-xl p-6 mt-6 text-gray-900">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-4xl">🌍</span>
-              <h3 className="text-2xl font-bold text-purple-600">{dailyCity.name}</h3>
-            </div>
-
-            <div className="bg-purple-50 border-l-4 border-purple-500 p-4 rounded-lg mb-4">
-              <div className="flex items-start justify-between mb-2">
-                <div className="flex items-start gap-2">
-                  <span className="text-purple-600">💡</span>
-                  <p className="font-semibold text-purple-900">Did You Know?</p>
+                <p className="journal-kicker">GUESSES TO FIND YOUR WAY</p>
+                <div className="journal-guess-distribution">
+                  {stats.guessDistribution.map((count, index) => (
+                    <div key={index}>
+                      <span>{index + 1}</span>
+                      <div>
+                        <i
+                          style={{
+                            width: `${count ? Math.max((count / Math.max(...stats.guessDistribution, 1)) * 100, 10) : 0}%`,
+                          }}
+                        />
+                      </div>
+                      <strong>{count}</strong>
+                    </div>
+                  ))}
                 </div>
+                <p className="journal-fine-print">
+                  Your record is saved in this browser. Archive games don’t
+                  affect it.
+                </p>
+              </>
+            ) : (
+              <>
+                <p>
+                  Yesterday’s city is still out there. Explore it without
+                  changing today’s score or your streak.
+                </p>
                 <button
-                  onClick={handlePlayFunFact}
-                  disabled={isGeneratingAudio}
-                  className="bg-purple-600 hover:bg-purple-700 disabled:bg-gray-400 text-white px-3 py-1.5 rounded-lg transition-all flex items-center gap-2 text-sm"
+                  className="journal-archive-choice"
+                  onClick={() => {
+                    const yesterday = new Date();
+                    yesterday.setDate(yesterday.getDate() - 1);
+                    playArchiveGame(yesterday);
+                  }}
                 >
-                  {isGeneratingAudio ? (
-                    <>
-                      <div className="animate-spin rounded-full h-3 w-3 border-2 border-white border-t-transparent"></div>
-                      <span>Loading...</span>
-                    </>
-                  ) : isPlayingAudio ? (
-                    <>
-                      <span>⏸️</span>
-                      <span>Pause</span>
-                    </>
-                  ) : (
-                    <>
-                      <span>🎙️</span>
-                      <span>Listen</span>
-                    </>
-                  )}
+                  <Archive size={25} strokeWidth={1} />
+                  <span>
+                    YESTERDAY’S EDITION
+                    <strong>
+                      {new Date(Date.now() - 86400000).toLocaleDateString(
+                        "en-US",
+                        { weekday: "long", month: "short", day: "numeric" },
+                      )}
+                    </strong>
+                  </span>
+                  <ArrowUpRight size={20} />
                 </button>
-              </div>
-              <p className="text-gray-700 mb-2">{dailyCity.funFact}</p>
-              <a 
-                href={dailyCity.funFactSourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-purple-600 italic hover:underline"
-              >
-                Source: {dailyCity.funFactSource}
-              </a>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4 text-sm">
-              <div>
-                <p className="font-semibold text-gray-600">Country:</p>
-                <p className="text-gray-900">{dailyCity.country}</p>
-              </div>
-              <div>
-                <p className="font-semibold text-gray-600">Continent:</p>
-                <p className="text-gray-900">{dailyCity.continent}</p>
-              </div>
-              <div>
-                <p className="font-semibold text-gray-600">Water Feature:</p>
-                <p className="text-gray-900">{dailyCity.waterFeature}</p>
-              </div>
-              <div>
-                <p className="font-semibold text-gray-600">Population:</p>
-                <p className="text-gray-900">{dailyCity.population}</p>
-              </div>
-              <div className="col-span-2">
-                <p className="font-semibold text-gray-600">Famous For:</p>
-                <p className="text-gray-900">{dailyCity.famousFor}</p>
-              </div>
-              <div className="col-span-2">
-                <p className="font-semibold text-gray-600">Difficulty:</p>
-                <p className="text-gray-900 capitalize">{dailyCity.difficulty}</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-6">
-            <button 
-              onClick={handleShare}
-              className="flex-1 bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg"
-            >
-              🎊 Share Result & Invite Friends
-            </button>
-            <button 
-              onClick={() => setShowStats(true)}
-              className="flex-1 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-6 rounded-xl transition-all shadow-lg border-2 border-purple-600"
-            >
-              📊 View Stats
-            </button>
-            <button 
-              onClick={() => setShowArchive(true)}
-              className="flex-1 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-6 rounded-xl transition-all shadow-lg border-2 border-purple-600"
-            >
-              📚 Archive
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* Loss State */}
-      {gameState === 'lost' && (
-        <div className="bg-gradient-to-r from-red-400 to-red-600 rounded-2xl p-8 text-white shadow-xl">
-          <div className="text-center">
-            <div className="text-6xl mb-4">😔</div>
-            <h2 className="text-3xl font-bold mb-2">Out of Guesses!</h2>
-            <p className="text-xl mb-4">The answer was: <strong>{dailyCity.name}</strong></p>
-          </div>
-
-          {/* Answer Card */}
-          <div className="bg-white rounded-xl p-6 mt-6 text-gray-900">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="text-4xl">🌍</span>
-              <h3 className="text-2xl font-bold text-purple-600">{dailyCity.name}</h3>
-            </div>
-
-            <div className="bg-purple-50 border-l-4 border-purple-500 p-4 rounded-lg mb-4">
-              <div className="flex items-start justify-between mb-2">
-                <div className="flex items-start gap-2">
-                  <span className="text-purple-600">💡</span>
-                  <p className="font-semibold text-purple-900">Did You Know?</p>
-                </div>
-                <button
-                  onClick={handlePlayFunFact}
-                  disabled={isGeneratingAudio}
-                  className="bg-purple-600 hover:bg-purple-700 disabled:bg-gray-400 text-white px-3 py-1.5 rounded-lg transition-all flex items-center gap-2 text-sm"
-                >
-                  {isGeneratingAudio ? (
-                    <>
-                      <div className="animate-spin rounded-full h-3 w-3 border-2 border-white border-t-transparent"></div>
-                      <span>Loading...</span>
-                    </>
-                  ) : isPlayingAudio ? (
-                    <>
-                      <span>⏸️</span>
-                      <span>Pause</span>
-                    </>
-                  ) : (
-                    <>
-                      <span>🎙️</span>
-                      <span>Listen</span>
-                    </>
-                  )}
-                </button>
-              </div>
-              <p className="text-gray-700 mb-2">{dailyCity.funFact}</p>
-              <a 
-                href={dailyCity.funFactSourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-purple-600 italic hover:underline"
-              >
-                Source: {dailyCity.funFactSource}
-              </a>
-            </div>
-
-            <div className="text-center mt-6">
-              <p className="text-gray-600 mb-2">Come back tomorrow for a new challenge!</p>
-            </div>
-          </div>
-
-          {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mt-6">
-            <button 
-              onClick={handleShare}
-              className="flex-1 bg-purple-600 hover:bg-purple-700 text-white font-bold py-4 px-6 rounded-xl transition-all shadow-lg"
-            >
-              🎊 Share Result & Invite Friends
-            </button>
-            <button 
-              onClick={() => setShowStats(true)}
-              className="flex-1 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-6 rounded-xl transition-all shadow-lg border-2 border-purple-600"
-            >
-              📊 View Stats
-            </button>
-            <button 
-              onClick={() => setShowArchive(true)}
-              className="flex-1 bg-white hover:bg-gray-100 text-purple-600 font-bold py-4 px-6 rounded-xl transition-all shadow-lg border-2 border-purple-600"
-            >
-              📚 Archive
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* Archive Badge - Show if viewing old puzzle */}
-      {archiveDate && (
-        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-50">
-          <div className="bg-orange-500 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-3">
-            <span>📚 Archive Mode</span>
-            <button
-              onClick={backToToday}
-              className="bg-white text-orange-500 px-4 py-1 rounded-full font-semibold hover:bg-orange-50 transition-all"
-            >
-              Back to Today
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* Stats Modal */}
-      {showStats && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl p-8 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-3xl font-bold text-purple-600">📊 Your Stats</h2>
-              <button
-                onClick={() => setShowStats(false)}
-                className="text-gray-500 hover:text-gray-700 text-3xl"
-              >
-                ×
-              </button>
-            </div>
-
-            {(() => {
-              const stats = getStats();
-              const maxGuesses = Math.max(...stats.guessDistribution, 1);
-
-              return (
-                <>
-                  <div className="grid grid-cols-4 gap-4 mb-8">
-                    <div className="bg-purple-50 p-4 rounded-xl text-center">
-                      <div className="text-3xl font-bold text-purple-600">{stats.gamesPlayed}</div>
-                      <div className="text-sm text-gray-600">Played</div>
-                    </div>
-                    <div className="bg-purple-50 p-4 rounded-xl text-center">
-                      <div className="text-3xl font-bold text-purple-600">{stats.winRate}%</div>
-                      <div className="text-sm text-gray-600">Win Rate</div>
-                    </div>
-                    <div className="bg-purple-50 p-4 rounded-xl text-center">
-                      <div className="text-3xl font-bold text-purple-600">{stats.currentStreak}</div>
-                      <div className="text-sm text-gray-600">Current Streak</div>
-                    </div>
-                    <div className="bg-purple-50 p-4 rounded-xl text-center">
-                      <div className="text-3xl font-bold text-purple-600">{stats.bestStreak}</div>
-                      <div className="text-sm text-gray-600">Best Streak</div>
-                    </div>
-                  </div>
-
-                  <div className="mb-6">
-                    <h3 className="text-xl font-bold mb-4">Guess Distribution</h3>
-                    <div className="space-y-2">
-                      {stats.guessDistribution.map((count, index) => (
-                        <div key={index} className="flex items-center gap-2">
-                          <span className="w-4 text-sm font-semibold">{index + 1}</span>
-                          <div className="flex-1 bg-gray-200 rounded overflow-hidden">
-                            <div
-                              className="bg-purple-600 text-white text-right pr-2 py-1 text-sm font-semibold transition-all"
-                              style={{ width: `${count === 0 ? 0 : Math.max((count / maxGuesses) * 100, 10)}%` }}
-                            >
-                              {count > 0 ? count : ''}
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  <button
-                    onClick={() => setShowStats(false)}
-                    className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 rounded-xl transition-all"
-                  >
-                    Close
-                  </button>
-                </>
-              );
-            })()}
-          </div>
-        </div>
-      )}
-
-      {/* Archive Modal */}
-      {showArchive && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-2xl p-8 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-            <div className="flex justify-between items-center mb-6">
-              <h2 className="text-3xl font-bold text-purple-600">📚 Archive</h2>
-              <button
-                onClick={() => setShowArchive(false)}
-                className="text-gray-500 hover:text-gray-700 text-3xl"
-              >
-                ×
-              </button>
-            </div>
-
-            <p className="text-gray-600 mb-6">Test your knowledge on yesterday's puzzle (won't affect your stats)</p>
-
-            <div className="flex justify-center mb-6">
-              {(() => {
-                const today = new Date();
-                const yesterday = new Date(today);
-                yesterday.setDate(yesterday.getDate() - 1);
-                const city = getDailyCity(yesterday);
-                
-                return (
-                  <button
-                    onClick={() => playArchiveGame(yesterday)}
-                    className="bg-purple-50 hover:bg-purple-100 border-2 border-purple-200 p-6 rounded-xl transition-all text-center min-w-[200px]"
-                  >
-                    <div className="text-sm text-gray-600 mb-2">
-                      {yesterday.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' })}
-                    </div>
-                    <div className="text-2xl font-bold text-purple-900 mb-1">🌍 Yesterday's City</div>
-                    <div className="text-sm text-gray-500 capitalize">{city.difficulty} difficulty</div>
-                  </button>
-                );
-              })()}
-            </div>
-
-            <button
-              onClick={() => setShowArchive(false)}
-              className="w-full bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-3 rounded-xl transition-all"
-            >
-              Close
-            </button>
-          </div>
+              </>
+            )}
+          </section>
         </div>
       )}
     </div>
   );
 };
-
 export default CityGuess;
