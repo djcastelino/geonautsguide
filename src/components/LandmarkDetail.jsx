@@ -1,3 +1,5 @@
+import LandmarkImage from './LandmarkImage';
+import { createNarrationPlayback } from '../services/narrationPlayback';
 import { createSpeechBlob } from '../services/backend';
 import { useState, useRef, useEffect } from 'react';
 
@@ -10,106 +12,69 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
   const audioRef = useRef(null);
   const backgroundMusicRef = useRef(null);
   const [isGeneratingAudio, setIsGeneratingAudio] = useState(false);
-  const [musicReady, setMusicReady] = useState(false);
+
+  const playbackRef = useRef(null);
+  const audioUrlRef = useRef(null);
+  const activeRef = useRef(true);
+  const busyRef = useRef(false);
+  const [audioError, setAudioError] = useState('');
+  const [musicEnabled, setMusicEnabled] = useState(false);
 
   const handlePlayAudio = async () => {
-    if (isPaused && audioRef.current) {
-      audioRef.current.play();
-      setIsPaused(false);
-      setIsPlaying(true);
-      return;
-    }
-
-    if (audioRef.current && !isPaused) {
-      audioRef.current.currentTime = 0;
-      audioRef.current.play();
-      return;
-    }
-
+    if (busyRef.current) return;
+    busyRef.current = true;
+    setAudioError('');
     setIsGeneratingAudio(true);
     try {
-      // === AZURE TTS (Active) ===
-      const voices = [
-        'en-US-AndrewMultilingualNeural',  // Natural, clear male voice
-        'en-US-BrianMultilingualNeural'     // Warm, engaging male voice
-      ];
-      const selectedVoice = voices[Math.floor(Math.random() * voices.length)];
-      const voiceName = selectedVoice.includes('Andrew') ? 'Andrew' : 'Brian';
-      
-      console.log(`🎙️ Using Azure TTS with ${voiceName} (Neural)`);
-      
-      const audioBlob = await createSpeechBlob(narration, selectedVoice);
-      
-      // Azure returns audio blob directly
-      if (audioBlob) {
-        const audioUrl = URL.createObjectURL(audioBlob);
-        
-        const audio = new Audio(audioUrl);
-        audio.onloadedmetadata = () => setDuration(audio.duration);
-        audio.ontimeupdate = () => setCurrentTime(audio.currentTime);
-        audio.onplay = () => {
-          setIsPlaying(true);
-          // Start background music
-          if (backgroundMusicRef.current && musicReady) {
-            backgroundMusicRef.current.currentTime = 0;
-            backgroundMusicRef.current.play()
-              .then(() => console.log('🎵 Background music playing at 10%'))
-              .catch(err => console.warn('⚠️ Background music blocked:', err.message));
-          }
-        };
-        audio.onended = () => {
-          setIsPlaying(false);
-          setIsPaused(false);
-          setCurrentTime(0);
-          setAudioEnded(true);
-          // Stop background music
-          if (backgroundMusicRef.current) {
-            backgroundMusicRef.current.pause();
-            backgroundMusicRef.current.currentTime = 0;
-          }
-        };
-        audio.onerror = () => {
-          setIsPlaying(false);
-          setIsPaused(false);
-          console.error('Audio playback error');
-        };
-        
+      if (!playbackRef.current) {
+        const blob = await createSpeechBlob(narration, 'en-US-AndrewMultilingualNeural');
+        if (!activeRef.current) return;
+        audioUrlRef.current = URL.createObjectURL(blob);
+        const audio = new Audio(audioUrlRef.current);
         audioRef.current = audio;
-        audio.play();
+        playbackRef.current = createNarrationPlayback(audio, backgroundMusicRef.current, {
+          onPlaying: () => { setIsPlaying(true); setIsPaused(false); setAudioEnded(false); },
+          onDuration: setDuration,
+          onTime: setCurrentTime,
+          onEnded: () => { setIsPlaying(false); setIsPaused(false); setCurrentTime(0); setAudioEnded(true); },
+          onError: (error) => {
+            setIsPlaying(false); setIsPaused(false);
+            if (audio.error) {
+              playbackRef.current?.dispose();
+              playbackRef.current = null;
+              if (audioUrlRef.current) URL.revokeObjectURL(audioUrlRef.current);
+              audioUrlRef.current = null;
+            }
+            setAudioError(error.name === 'NotAllowedError'
+              ? 'Your browser blocked narration playback. Tap Play Audio Guide again.'
+              : error.message || 'Narration could not play. Please try again.');
+          },
+        });
       }
+      playbackRef.current.setMusicEnabled(musicEnabled);
+      if (!isPaused) audioRef.current.currentTime = 0;
+      await playbackRef.current.play();
     } catch (error) {
-      console.error('TTS generation error:', error);
+      if (!activeRef.current) return;
+      setAudioError(error.name === 'NotAllowedError'
+        ? 'Your browser blocked narration playback. Tap Play Audio Guide again.'
+        : error.message || 'Narration could not play. Please try again.');
       setIsPlaying(false);
+      // Keep successfully generated audio so a second tap can satisfy browser playback rules.
     } finally {
-      setIsGeneratingAudio(false);
+      busyRef.current = false;
+      if (activeRef.current) setIsGeneratingAudio(false);
     }
   };
 
   const handlePauseAudio = () => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      setIsPlaying(false);
-      setIsPaused(true);
-    }
-    // Pause background music
-    if (backgroundMusicRef.current) {
-      backgroundMusicRef.current.pause();
-    }
+    playbackRef.current?.pause();
+    setIsPlaying(false); setIsPaused(true);
   };
 
   const handleStopAudio = () => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      audioRef.current.currentTime = 0;
-      setIsPlaying(false);
-      setIsPaused(false);
-      setCurrentTime(0);
-    }
-    // Stop background music
-    if (backgroundMusicRef.current) {
-      backgroundMusicRef.current.pause();
-      backgroundMusicRef.current.currentTime = 0;
-    }
+    playbackRef.current?.stop();
+    setIsPlaying(false); setIsPaused(false); setCurrentTime(0);
   };
 
   const formatTime = (seconds) => {
@@ -118,41 +83,19 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
 
-  // Preload background music
   useEffect(() => {
+    activeRef.current = true;
     const music = new Audio('https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3');
     music.loop = true;
-    music.volume = 0.1; // 10% volume
-    music.preload = 'auto';
-    
-    music.addEventListener('canplaythrough', () => {
-      console.log('✅ Background music ready');
-      setMusicReady(true);
-    });
-    
-    music.addEventListener('error', (e) => {
-      console.error('❌ Background music error:', e);
-    });
-    
+    music.volume = 0.04;
+    music.preload = 'none';
     backgroundMusicRef.current = music;
-    
     return () => {
-      if (music) {
-        music.pause();
-        music.src = '';
-      }
-    };
-  }, []);
-
-  useEffect(() => {
-    return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
-      if (backgroundMusicRef.current) {
-        backgroundMusicRef.current.pause();
-      }
+      activeRef.current = false;
+      playbackRef.current?.dispose();
+      music.pause();
+      music.src = '';
+      if (audioUrlRef.current) URL.revokeObjectURL(audioUrlRef.current);
     };
   }, []);
 
@@ -169,9 +112,8 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
 
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <div className="relative h-96 bg-gray-300">
-            <img
-              src={landmark.imageUrl}
-              alt={landmark.name}
+            <LandmarkImage
+              landmark={landmark}
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
@@ -231,6 +173,14 @@ function LandmarkDetail({ landmark, narration, onBack, isDailyChallenge = false,
                 </p>
               </div>
 
+              {audioError && <p role="alert" className="mb-4 rounded-lg bg-red-50 p-3 text-red-700">{audioError}</p>}
+              <label className="flex items-center gap-2 mb-4 text-sm text-gray-700">
+                <input type="checkbox" checked={musicEnabled} onChange={event => {
+                  setMusicEnabled(event.target.checked);
+                  playbackRef.current?.setMusicEnabled(event.target.checked);
+                }} />
+                Background music
+              </label>
               <div className="flex items-center gap-4">
                 {!isPlaying && !isPaused ? (
                   <button

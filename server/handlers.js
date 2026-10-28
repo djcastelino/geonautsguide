@@ -118,3 +118,13 @@ export async function handleApi(action, req, res) {
     return res.status(known ? error.status : 500).json({ error: known ? error.message : 'Unable to complete this request. Please try again.' });
   }
 }
+
+export async function landmarkImage(req, res) {
+  if (req.method !== 'GET') return res.status(405).json({ error: 'Use GET.' });
+  const landmark = landmarks.find(item => item.id === req.query.id);
+  if (!landmark) return res.status(404).json({ error: 'Unknown landmark.' });
+  const context = await wikipedia(landmark.wikipediaPage || landmark.name);
+  if (!context?.thumbnail) return res.status(404).json({ error: 'Photograph unavailable.' });
+  res.setHeader('Cache-Control', 'public, max-age=86400');
+  return res.json({ imageUrl: context.thumbnail, sourceUrl: context.url });
+}
