@@ -42,7 +42,7 @@ export function JournalFooter() {
       <span>
         <Compass size={20} strokeWidth={1.2} /> GEONAUTS GUIDE
       </span>
-      <p>A little more wonder, wherever you go.</p>
+      <p>A little more wonder, wherever you go. <a href="/privacy-policy.html" style={{textDecoration: "underline"}}>Privacy policy</a></p>
       <small>© {new Date().getFullYear()} GEONAUTS GUIDE</small>
     </footer>
   );
