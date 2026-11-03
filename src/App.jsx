@@ -13,7 +13,7 @@ import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
 function App() {
-  const [view, setView] = useState(new URLSearchParams(window.location.search).get("view") === "home" ? "home" : "connections");
+  const [view, setView] = useState(new URLSearchParams(window.location.search).get("view") === "connections" ? "connections" : "home");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
