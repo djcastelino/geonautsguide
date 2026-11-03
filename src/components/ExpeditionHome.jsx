@@ -7,7 +7,7 @@ const startingPlaces = ['machu-picchu', 'petra', 'taj-mahal', 'dolomites', 'colo
 const homeImage = place => startingPlaces.includes(place.id) ? { ...place, imageUrl: `/images/home/${place.id}.webp` } : place;
 const collections = ['All discoveries', 'Ancient worlds', 'Wild places', 'Human wonders'];
 
-export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan, onChallenge, onLandmarkSelect, isLoading }) {
+export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan, onChallenge, onLandmarkSelect, isLoading, onConnections }) {
   const [collection, setCollection] = useState('All discoveries');
   const [query, setQuery] = useState('');
   const countries = new Set(landmarks.map(place => place.country)).size;
@@ -33,6 +33,7 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan,
           <nav aria-label="Main navigation">
             <button aria-current="page" onClick={() => window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' })}>Home</button>
             <button onClick={browse}>Discover</button>
+            <button onClick={onConnections}>Connections</button>
             <button onClick={onPlan}>Travel planner</button>
             <button onClick={onChallenge}>Daily City Guess</button>
           </nav>

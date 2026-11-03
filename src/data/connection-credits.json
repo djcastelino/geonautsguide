@@ -1,0 +1,44 @@
+{
+  "sahara": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/136485307@N06\">Project Apollo Archive</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Sahara_real_color.jpg"
+  },
+  "amazon": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/38476503@N08\">CIAT</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Amazon17_(5641020319).jpg"
+  },
+  "hawaii": {
+    "Artist": "Hawaii Land Cover Analysis project, NOAA Coastal Services Center",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Island_of_Hawai%27i_-_Landsat_mosaic.jpg"
+  },
+  "midway": {
+    "Artist": "U.S. Fish and Wildlife Service",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Midway_Atoll_aerial_photo_2008.JPG"
+  },
+  "japan": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Nryate&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Nryate (page does not exist)\">Nryate</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:SendaiCity_Skylines_from_Mukaiyama2018.jpg"
+  },
+  "california": {
+    "Artist": "Mike",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Crescent_City,_CA.jpg"
+  }
+}

@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { Compass } from "lucide-react";
+import PlanetConnections from "./components/PlanetConnections";
 import ExpeditionHome from "./components/ExpeditionHome";
 import { JournalHeader, JournalFooter } from "./components/JournalShell";
 import LandmarkGrid from "./components/LandmarkGrid";
@@ -12,7 +13,7 @@ import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
 function App() {
-  const [view, setView] = useState("home");
+  const [view, setView] = useState(new URLSearchParams(window.location.search).get("view") === "home" ? "home" : "connections");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
@@ -70,6 +71,7 @@ function App() {
       if (request === generation.current) setIsLoading(false);
     }
   };
+  if (view === "connections") return <PlanetConnections onHome={() => onNavigate("home")} />;
   return (
     <div className="journal-app">
       {view !== "home" && (
@@ -92,6 +94,7 @@ function App() {
             landmarks={landmarksData.landmarks}
             featured={featured}
             onExplore={() => onNavigate("grid")}
+            onConnections={() => onNavigate("connections")}
             onPlan={() => onNavigate("planner")}
             onChallenge={() => onNavigate("cityguess")}
             onLandmarkSelect={onLandmarkSelect}
