@@ -1,3 +1,5 @@
+> Current product direction and feature plans: [GeonautsGuide roadmap](ROADMAP.md).
+
 # PathFinder - Walk Through History
 
 An immersive historical exploration app that lets users virtually walk sacred routes and historic locations using Google Street View, with AI-powered narration.
