@@ -192,5 +192,237 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Harenna_Forest_(16112269010).jpg",
     "description": "Ethiopian montane forests"
+  },
+  "siberia": {
+    "Artist": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Chakat_Rimm\" title=\"User:Chakat Rimm\">Chakat Rimm</a> assumed (based on copyright claims).",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Provideniya_from_sea.jpg",
+    "description": "Provideniya"
+  },
+  "norfolk": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Andrew_Norman\" class=\"extiw\" title=\"wikipedia:User:Andrew Norman\">Andrew Norman</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Blakeney_point_lifeboat_station.jpg",
+    "description": "Blakeney Point"
+  },
+  "netherlands": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Lucash\" class=\"extiw\" title=\"en:User:Lucash\">Lucas Hirschegger</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:KinderdijkMolens02.jpg",
+    "description": "Kinderdijk"
+  },
+  "florence": {
+    "Artist": "Gary Campbell-Hall",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "description": "Florence Cathedral"
+  },
+  "spain": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Jebulon\" title=\"User:Jebulon\">Jebulon</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "description": "Alhambra"
+  },
+  "thailand": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jane3030&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jane3030 (page does not exist)\">BerryJ</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:1022_KhaoSokNationalPark_2.jpg",
+    "description": "Khao Sok National Park"
+  },
+  "chennai": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Swarna1311&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Swarna1311 (page does not exist)\">Swarna1311</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg",
+    "description": "Shore Temple"
+  },
+  "malacca": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Atlasmotor&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Atlasmotor (page does not exist)\">Atlasmotor</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Melaka_View.jpg",
+    "description": "Malacca City"
+  },
+  "laki": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Chmee2\" title=\"User:Chmee2\">Chmee2</a>/<a href=\"//commons.wikimedia.org/w/index.php?title=User:Valtameri&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Valtameri (page does not exist)\">Valtameri</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Laki_fissure_(3).jpg",
+    "description": "Laki"
+  },
+  "britain": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Immanuel_Giel\" title=\"User:Immanuel Giel\">Immanuel Giel</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Cliffs_of_Dover_02.JPG",
+    "description": "White Cliffs of Dover"
+  },
+  "naples": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/37003135@N00\">Bruno Rijsman</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Amalfi_Coast_(Italy,_October_2020)_-_75_(50558355441).jpg",
+    "description": "Amalfi Coast"
+  },
+  "alaska": {
+    "Artist": "",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Mendenhall_Glacier_(Winter).jpg",
+    "description": "Mendenhall Glacier"
+  },
+  "london": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Fuzzypiggy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Fuzzypiggy (page does not exist)\">Fuzzypiggy</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_at_Dawn.jpg",
+    "description": "Tower Bridge"
+  },
+  "xian": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Citycat&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Citycat (page does not exist)\">Alex Kwok</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Giant_Wild_Goose_Pagoda.jpg",
+    "description": "Giant Wild Goose Pagoda"
+  },
+  "samarkand": {
+    "Artist": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Registan_-_Gusjer.jpg\" title=\"File:Registan - Gusjer.jpg\">Registan_-_Gusjer.jpg</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/20244534@N00\">Gustavo Jeronimo</a> from Aranjuez, Spain</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:MrPanyGoff\" title=\"User:MrPanyGoff\"><span style=\"font-family:BernhardMod BT;\">MrPanyGoff</span></a></li></ul>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg",
+    "description": "Registan"
+  },
+  "mexico": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ricraider&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ricraider (page does not exist)\">Ricraider</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Palenque_Collage.jpg",
+    "description": "Palenque"
+  },
+  "madagascar": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/60423415@N00\">Pat Hooper</a> from Chicago, IL, USA",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Adansonia_grandidieri_Pat_Hooper.jpg",
+    "description": "Avenue of the Baobabs"
+  },
+  "australia": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:JJ_Harrison\" title=\"User:JJ Harrison\">JJ Harrison</a> (<a rel=\"nofollow\" class=\"external free\" href=\"https://www.jjharrison.com.au/\">https://www.jjharrison.com.au/</a>)",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Three_Sisters_Sunset.jpg",
+    "description": "Blue Mountains (New South Wales)"
+  },
+  "indopacific": {
+    "Artist": "Jonathan Chase",
+    "LicenseShortName": "CC BY 2.5",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png",
+    "description": "Raja Ampat Islands"
+  },
+  "caribbean": {
+    "Artist": "Ben Whitney",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:StJohnTrunkBay.jpg",
+    "description": "Trunk Bay"
+  },
+  "maui": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/23597588@N00\">Navin75</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Haleakala_crater_(1).jpg",
+    "description": "Haleakalā"
+  },
+  "china": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Severin.stalder\" title=\"User:Severin.stalder\">severin.stalder</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:LongshengRiceTerrace.jpg",
+    "description": "Longsheng Rice Terraces"
+  },
+  "baghdad": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mustafa_Waad_Saeed&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mustafa Waad Saeed (page does not exist)\">Mustafa Waad Saeed</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D9%85%D8%AF%D8%B1%D8%B3%D8%A9_%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%86%D8%B5%D8%B1%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF.jpg",
+    "description": "Al-Mustansiriya Madrasa"
+  },
+  "red-sea": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahmoud_E._Abd_El_Aziz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahmoud E. Abd El Aziz (page does not exist)\">Mahmoud E. Abd El Aziz</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%D8%A8%D9%88%D8%A7%D8%A8%D8%A7%D8%AA_%D9%85%D8%AD%D9%85%D9%8A%D9%87_%D8%B1%D8%A7%D8%B3_%D9%85%D8%AD%D9%85%D8%AF.png",
+    "description": "Ras Muhammad National Park"
+  },
+  "mediterranean": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161014215129/http://www.panoramio.com/user/4508107?with_photo_id=35758988\">Dmitry Panov</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Paphos_Marine,_Cyprus_-_panoramio.jpg",
+    "description": "Paphos"
+  },
+  "new-guinea": {
+    "Artist": "MSchlauch",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Port_Moresby_Town2_Mschlauch.jpg",
+    "description": "Port Moresby"
+  },
+  "apuan": {
+    "Artist": "L'autore sono io <a href=\"https://it.wikipedia.org/wiki/Utente:Carrarino\" class=\"extiw\" title=\"it:Utente:Carrarino\">Utente:Carrarino</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Carrara.PNG",
+    "description": "Carrara marble"
+  },
+  "peru": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xviala22&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xviala22 (page does not exist)\">Xviala22</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Limaacantilado.jpg",
+    "description": "Costa Verde (Peru)"
+  },
+  "cape-york": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Luxure\" class=\"mw-redirect\" title=\"User:Luxure\">Luxure</a>",
+    "LicenseShortName": "CC BY 3.0 au",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cape_Tribulation_from_the_South_Beach_1.jpg",
+    "description": "Cape Tribulation"
   }
 }

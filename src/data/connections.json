@@ -655,5 +655,838 @@
     },
     "mapNote": "Modern locations illustrate a past connection; this is not a reconstruction of Gondwana or a precise plate-motion path.",
     "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "sahul",
+    "category": "EARTH / CHANGING COASTS",
+    "title": "An ocean once hid a land connection.",
+    "teaser": "Australia and New Guinea share a coastline story that sea level rewrote.",
+    "from": {
+      "name": "Cape York",
+      "detail": "Northern Australia",
+      "image": "cape-york",
+      "lat": -11.2,
+      "lng": 142.5
+    },
+    "to": {
+      "name": "New Guinea",
+      "detail": "Southwestern Pacific",
+      "image": "new-guinea",
+      "lat": -8,
+      "lng": 145
+    },
+    "question": "What once connected Australia and New Guinea during low sea levels?",
+    "options": [
+      "A railway across the ocean",
+      "Exposed land that is now underwater",
+      "A permanent bridge of sea ice"
+    ],
+    "correct": 1,
+    "reveal": "A strait was not always a sea.",
+    "steps": [
+      {
+        "label": "FREEZE",
+        "text": "During colder phases of the Pleistocene, more water was stored in ice and global sea levels were lower."
+      },
+      {
+        "label": "CONNECT",
+        "text": "Exposed land connected Australia with New Guinea. The geography available to plants, animals, and people differed from today’s island map."
+      },
+      {
+        "label": "FLOOD",
+        "text": "When sea levels rose, low-lying connections were flooded. Present coastlines record only the latest part of that history."
+      }
+    ],
+    "takeaway": "The edge of a continent can move without the continent moving.",
+    "source": {
+      "name": "Australian Museum · The Pleistocene",
+      "url": "https://australian.museum/learn/australia-over-time/evolving-landscape/the-pleistocene-epoch/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "beringia",
+    "category": "EARTH / ICE AGE",
+    "title": "Two continents once shared a passage.",
+    "teaser": "Alaska and Siberia were connected by more than a narrow crossing.",
+    "from": {
+      "name": "Alaska",
+      "detail": "North America",
+      "image": "alaska",
+      "lat": 65.7,
+      "lng": -166
+    },
+    "to": {
+      "name": "Chukotka",
+      "detail": "Northeastern Siberia",
+      "image": "siberia",
+      "lat": 64.4,
+      "lng": -173.2
+    },
+    "question": "What exposed a land connection between Asia and North America during ice ages?",
+    "options": [
+      "Lower global sea levels",
+      "A modern shipping project",
+      "A volcanic island growing overnight"
+    ],
+    "correct": 0,
+    "reveal": "A lost landscape lies beneath the strait.",
+    "steps": [
+      {
+        "label": "EXPOSE",
+        "text": "Ice-age sea levels fell, exposing a broad region between present-day Siberia and Alaska known as Beringia."
+      },
+      {
+        "label": "CROSS",
+        "text": "The connection offered opportunities for species such as mammoths and bison to move between continents. Different animals had different histories."
+      },
+      {
+        "label": "SUBMERGE",
+        "text": "Rising seas later flooded the connection. The Bering Strait now separates shores that once belonged to a continuous landscape."
+      }
+    ],
+    "takeaway": "A narrow strait can conceal a much wider past.",
+    "source": {
+      "name": "National Park Service · Beringian megafauna",
+      "url": "https://home.nps.gov/articles/beringiamegafauna.htm"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "doggerland",
+    "category": "EARTH / LOST LANDSCAPES",
+    "title": "Britain’s island story has a missing chapter.",
+    "teaser": "The North Sea covers a landscape that once connected neighbours.",
+    "from": {
+      "name": "Norfolk coast",
+      "detail": "Great Britain",
+      "image": "norfolk",
+      "lat": 52.9,
+      "lng": 1
+    },
+    "to": {
+      "name": "The Netherlands",
+      "detail": "Mainland Europe",
+      "image": "netherlands",
+      "lat": 52,
+      "lng": 4.7
+    },
+    "question": "What was Doggerland?",
+    "options": [
+      "A mountain range in the Pacific",
+      "A medieval floating city",
+      "A former landscape now beneath the North Sea"
+    ],
+    "correct": 2,
+    "reveal": "The sea covers an earlier map.",
+    "steps": [
+      {
+        "label": "CONNECT",
+        "text": "Britain’s connections with mainland Europe changed repeatedly as climate and sea level changed."
+      },
+      {
+        "label": "INHABIT",
+        "text": "Doggerland was a landscape through which people and animals could move. The Natural History Museum describes Neanderthals reaching Britain by this route."
+      },
+      {
+        "label": "REIMAGINE",
+        "text": "Much of that former landscape now lies beneath the North Sea. Understanding Britain’s past means looking beyond its present coastline."
+      }
+    ],
+    "takeaway": "An island’s history can begin before it was an island.",
+    "source": {
+      "name": "Natural History Museum · First Britons",
+      "url": "https://www.nhm.ac.uk/discover/first-britons.html"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "marble",
+    "category": "MATERIALS / ARCHITECTURE",
+    "title": "A mountain becomes a city’s floor.",
+    "teaser": "Stone from the Apuan region connects geology with Florentine craftsmanship.",
+    "from": {
+      "name": "Apuan Alps",
+      "detail": "Tuscany, Italy",
+      "image": "apuan",
+      "lat": 44.1,
+      "lng": 10.1
+    },
+    "to": {
+      "name": "Florence",
+      "detail": "Tuscany, Italy",
+      "image": "florence",
+      "lat": 43.77,
+      "lng": 11.26
+    },
+    "question": "What connects Apuan mountain rock with Florence Cathedral’s floor?",
+    "options": [
+      "Imported rainforest timber",
+      "White marble used among its inlaid stones",
+      "Lava pumped directly into the building"
+    ],
+    "correct": 1,
+    "reveal": "A building can hold several landscapes.",
+    "steps": [
+      {
+        "label": "SOURCE",
+        "text": "The cathedral’s marble floor combines stone from multiple places. Its official material list includes Apuan white marble."
+      },
+      {
+        "label": "CRAFT",
+        "text": "Florentine masters designed geometric patterns using contrasting materials. The floor was developed between the sixteenth and seventeenth centuries."
+      },
+      {
+        "label": "NOTICE",
+        "text": "Looking at a historic interior can reveal a network of quarries, transport, workshops, and artistic choices—not just one building."
+      }
+    ],
+    "takeaway": "Architecture gives distant stone a new address.",
+    "source": {
+      "name": "Opera di Santa Maria del Fiore · Marble floor",
+      "url": "https://duomo.firenze.it/en/discover/cathedral/9425/maestranze-toscane-pavimento-marmoreo-della-cattedrale"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "textiles",
+    "category": "CRAFT / GLOBAL EXCHANGE",
+    "title": "A pattern crossed an ocean.",
+    "teaser": "Indian cloth and British wardrobes share a complicated trade history.",
+    "from": {
+      "name": "Coromandel Coast",
+      "detail": "Southeastern India",
+      "image": "chennai",
+      "lat": 12.6,
+      "lng": 80.2
+    },
+    "to": {
+      "name": "London",
+      "detail": "Britain",
+      "image": "london",
+      "lat": 51.5,
+      "lng": -0.1
+    },
+    "question": "What connected Indian weaving and dyeing centres with European consumers?",
+    "options": [
+      "A single shared river",
+      "Identical climates",
+      "A large trade in cotton textiles"
+    ],
+    "correct": 2,
+    "reveal": "Cloth carried craft, taste, and power.",
+    "steps": [
+      {
+        "label": "MAKE",
+        "text": "Indian producers created cotton textiles for different markets, including finely worked cloth designed for overseas buyers."
+      },
+      {
+        "label": "TRADE",
+        "text": "European companies imported large quantities of Indian textiles. The V&A documents Coromandel garments made for export to Europe."
+      },
+      {
+        "label": "CONSIDER",
+        "text": "This exchange also involved exploitation and changing industrial power. Attractive patterns can carry histories of both skill and inequality."
+      }
+    ],
+    "takeaway": "An everyday fabric can hold a global history.",
+    "source": {
+      "name": "Victoria and Albert Museum · Indian textiles",
+      "url": "https://www.vam.ac.uk/articles/indian-textiles"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "silk-roads",
+    "category": "HISTORY / NETWORKS",
+    "title": "An inland city became a crossroads.",
+    "teaser": "China and Samarkand belonged to a network much larger than one road.",
+    "from": {
+      "name": "Xi’an",
+      "detail": "China",
+      "image": "xian",
+      "lat": 34.3,
+      "lng": 108.9
+    },
+    "to": {
+      "name": "Samarkand",
+      "detail": "Uzbekistan",
+      "image": "samarkand",
+      "lat": 39.65,
+      "lng": 66.96
+    },
+    "question": "Why did inland Samarkand become an important centre of exchange?",
+    "options": [
+      "Its position at intersecting trade routes",
+      "Its harbour on the Pacific",
+      "Its direct canal to China"
+    ],
+    "correct": 0,
+    "reveal": "Many roads made a meeting place.",
+    "steps": [
+      {
+        "label": "LINK",
+        "text": "Trade routes connected China with Central Asia and regions farther west. They formed a network rather than a single uninterrupted road."
+      },
+      {
+        "label": "MEET",
+        "text": "Samarkand stood at a crossroads of routes from several regions. UNESCO describes its prosperity and role in silk trade."
+      },
+      {
+        "label": "EXCHANGE",
+        "text": "Goods travelled alongside artistic ideas, beliefs, and knowledge. A city’s importance can come from the connections it makes possible."
+      }
+    ],
+    "takeaway": "A crossroads can shape a city as strongly as a coastline.",
+    "source": {
+      "name": "UNESCO · Samarkand, Crossroads of Cultures",
+      "url": "https://whc.unesco.org/uploads/nominations/603rev.pdf"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "vanilla",
+    "category": "PLANTS / HUMAN INGENUITY",
+    "title": "An orchid travelled with a technique.",
+    "teaser": "Mexico and Madagascar share a familiar flavour with an unfamiliar botanical story.",
+    "from": {
+      "name": "Mexico",
+      "detail": "Vanilla’s native region",
+      "image": "mexico",
+      "lat": 17.5,
+      "lng": -92
+    },
+    "to": {
+      "name": "Madagascar",
+      "detail": "Indian Ocean",
+      "image": "madagascar",
+      "lat": -18.8,
+      "lng": 47.5
+    },
+    "question": "What helped vanilla cultivation spread beyond its native range?",
+    "options": [
+      "Planting the pods upside down",
+      "Hand pollination of its orchid flowers",
+      "Growing it only in seawater"
+    ],
+    "correct": 1,
+    "reveal": "A flavour depends on a flower.",
+    "steps": [
+      {
+        "label": "ORIGIN",
+        "text": "Vanilla planifolia grows naturally in tropical parts of the Americas, including Mexico. The familiar pod is the fruit of an orchid."
+      },
+      {
+        "label": "CULTIVATE",
+        "text": "The plant was introduced elsewhere, including Madagascar. Outside its native range, cultivated flowers are generally hand pollinated."
+      },
+      {
+        "label": "TRANSFORM",
+        "text": "The harvested fruit must be cured to develop its characteristic aroma. A familiar flavour connects plant biology with patient human work."
+      }
+    ],
+    "takeaway": "A small flower can link forests, farms, and kitchens.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Vanilla",
+      "url": "https://www.kew.org/plants/vanilla"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "cacao",
+    "category": "FOOD / CULTURAL JOURNEYS",
+    "title": "Chocolate crossed the Atlantic as a drink.",
+    "teaser": "An American crop became a European luxury long before familiar chocolate bars.",
+    "from": {
+      "name": "Mesoamerica",
+      "detail": "Maya and Aztec cultural regions",
+      "image": "mexico",
+      "lat": 17.5,
+      "lng": -92
+    },
+    "to": {
+      "name": "Spain",
+      "detail": "Europe",
+      "image": "spain",
+      "lat": 37.2,
+      "lng": -3.6
+    },
+    "question": "In what form did chocolate first become established among wealthy Europeans?",
+    "options": [
+      "Frozen fruit",
+      "A modern wrapped bar",
+      "A drink made from cacao"
+    ],
+    "correct": 2,
+    "reveal": "The bar came after a much older story.",
+    "steps": [
+      {
+        "label": "VALUE",
+        "text": "Indigenous peoples in Central and South America valued cacao long before Spanish arrival. Cacao beans also served as currency in some areas."
+      },
+      {
+        "label": "CROSS",
+        "text": "The Spanish brought chocolate to Europe, where the drink was initially associated with royalty and wealthy consumers."
+      },
+      {
+        "label": "CHANGE",
+        "text": "Its uses and audiences changed over time. The familiar modern product is one chapter in a much longer American and Atlantic history."
+      }
+    ],
+    "takeaway": "A sweet taste can carry a history of cultural exchange.",
+    "source": {
+      "name": "Smithsonian · Cacao Beans",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_867620"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "rubber",
+    "category": "PLANTS / MATERIALS",
+    "title": "A rainforest tree reshaped distant plantations.",
+    "teaser": "Amazonian origins and Southeast Asian cultivation meet in natural rubber.",
+    "from": {
+      "name": "Amazon Basin",
+      "detail": "South America",
+      "image": "amazon",
+      "lat": -3,
+      "lng": -60
+    },
+    "to": {
+      "name": "Southern Thailand",
+      "detail": "Southeast Asia",
+      "image": "thailand",
+      "lat": 8.9,
+      "lng": 98.5
+    },
+    "question": "Which Amazonian tree became a major plantation crop in Southeast Asia?",
+    "options": [
+      "The rubber tree, Hevea brasiliensis",
+      "The olive tree",
+      "The date palm"
+    ],
+    "correct": 0,
+    "reveal": "A material’s origin is not its only home.",
+    "steps": [
+      {
+        "label": "ORIGIN",
+        "text": "Hevea brasiliensis is native to parts of tropical South America. Its latex is the main plant source of natural rubber."
+      },
+      {
+        "label": "GROW",
+        "text": "The tree was introduced to other tropical regions. Kew describes extensive cultivation in Southeast Asia, including Thailand, Malaysia, and Indonesia."
+      },
+      {
+        "label": "USE",
+        "text": "The journey connects the biodiversity of one continent with farming and material production on another. Rubber products carry a botanical story."
+      }
+    ],
+    "takeaway": "The materials around us often have distant living roots.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Hevea brasiliensis",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "monsoon-trade",
+    "category": "WIND / HUMAN JOURNEYS",
+    "title": "A seasonal wind helped schedule a voyage.",
+    "teaser": "India and the Malay Peninsula were connected by winds that changed direction.",
+    "from": {
+      "name": "Coromandel Coast",
+      "detail": "India",
+      "image": "chennai",
+      "lat": 12.6,
+      "lng": 80.2
+    },
+    "to": {
+      "name": "Malacca",
+      "detail": "Malay Peninsula",
+      "image": "malacca",
+      "lat": 2.2,
+      "lng": 102.25
+    },
+    "question": "What helped sailing merchants plan outward and return voyages across the Indian Ocean?",
+    "options": [
+      "A permanent wind blowing one way",
+      "Seasonally reversing monsoon winds",
+      "A continuous towing cable"
+    ],
+    "correct": 1,
+    "reveal": "The atmosphere helped set the timetable.",
+    "steps": [
+      {
+        "label": "OBSERVE",
+        "text": "Sailors learned how seasonal wind patterns changed across the Indian Ocean. Sailing conditions depended on the time of year."
+      },
+      {
+        "label": "PLAN",
+        "text": "UNESCO describes ships travelling from India with one monsoon and returning with the opposing seasonal wind."
+      },
+      {
+        "label": "TRADE",
+        "text": "Ports near the Straits of Malacca became important meeting points in these wider networks. Geography and knowledge of weather shaped commercial connections."
+      }
+    ],
+    "takeaway": "A trading route can depend on knowing when to leave.",
+    "source": {
+      "name": "UNESCO · Sailing East to West",
+      "url": "https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/sailing%20east%20to%20west.pdf"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "enso",
+    "category": "CLIMATE / TELECONNECTIONS",
+    "title": "One Pacific shift. Different kinds of weather.",
+    "teaser": "Peru and Australia can experience opposite sides of the same climate pattern.",
+    "from": {
+      "name": "Peruvian coast",
+      "detail": "Eastern Pacific",
+      "image": "peru",
+      "lat": -12,
+      "lng": -77
+    },
+    "to": {
+      "name": "Eastern Australia",
+      "detail": "Western Pacific region",
+      "image": "australia",
+      "lat": -33,
+      "lng": 151
+    },
+    "question": "How can El Niño influence rainfall on opposite sides of the Pacific?",
+    "options": [
+      "It guarantees identical weather everywhere",
+      "It changes the length of the year",
+      "It shifts ocean warmth and atmospheric circulation"
+    ],
+    "correct": 2,
+    "reveal": "A connected ocean does not give every coast the same result.",
+    "steps": [
+      {
+        "label": "SHIFT",
+        "text": "El Niño involves changes in tropical Pacific ocean temperatures, winds, and rainfall patterns."
+      },
+      {
+        "label": "RESPOND",
+        "text": "NOAA describes wetter conditions in parts of Peru and drought tendencies in parts of Australia during many El Niño events."
+      },
+      {
+        "label": "DISTINGUISH",
+        "text": "These are changing probabilities, not guarantees for every place or event. Local conditions and other climate influences also matter."
+      }
+    ],
+    "takeaway": "Distant weather patterns can share a cause without sharing an outcome.",
+    "source": {
+      "name": "NOAA Climate.gov · Can We Blame El Niño?",
+      "url": "https://content-drupal.climate.gov/news-features/understanding-climate/can-we-blame-el-ni%C3%B1o"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "lionfish",
+    "category": "WILDLIFE / CHANGING ECOSYSTEMS",
+    "title": "A familiar fish arrived in an unfamiliar ocean.",
+    "teaser": "Indo-Pacific origins and Caribbean reefs meet in an invasion story.",
+    "from": {
+      "name": "Indo-Pacific reefs",
+      "detail": "Native lionfish range",
+      "image": "indopacific",
+      "lat": -1,
+      "lng": 130
+    },
+    "to": {
+      "name": "Caribbean reefs",
+      "detail": "Western Atlantic",
+      "image": "caribbean",
+      "lat": 18.3,
+      "lng": -64.75
+    },
+    "question": "Why are lionfish in the Caribbean considered invasive?",
+    "options": [
+      "They occur outside their native range and can affect local ecosystems",
+      "All reef fish are invasive",
+      "They migrate there annually from Antarctica"
+    ],
+    "correct": 0,
+    "reveal": "Crossing an ocean can change an ecological relationship.",
+    "steps": [
+      {
+        "label": "BELONG",
+        "text": "Lionfish are native to the Indo-Pacific, where they form part of long-established marine ecosystems."
+      },
+      {
+        "label": "ESTABLISH",
+        "text": "They are now established in western Atlantic and Caribbean waters, well outside that native range."
+      },
+      {
+        "label": "AFFECT",
+        "text": "Lionfish eat small fish and crustaceans and have few predators in these introduced waters. Their spread raises concerns for native ecosystems."
+      }
+    ],
+    "takeaway": "A species’ ecological role depends partly on where it lives.",
+    "source": {
+      "name": "NOAA · What is a turkeyfish?",
+      "url": "https://oceanservice.noaa.gov/facts/turkeyfish.html"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative native-to-introduced range comparison, not a natural migration track or documented individual introduction."
+  },
+  {
+    "id": "humpbacks",
+    "category": "WILDLIFE / SEASONAL JOURNEYS",
+    "title": "A whale connects cold feeding seas with warm winter waters.",
+    "teaser": "Alaska and Hawaiʻi are chapters in one migratory life.",
+    "from": {
+      "name": "Alaska",
+      "detail": "North Pacific",
+      "image": "alaska",
+      "lat": 58.5,
+      "lng": -136
+    },
+    "to": {
+      "name": "Maui",
+      "detail": "Hawaiʻi",
+      "image": "maui",
+      "lat": 20.8,
+      "lng": -156.3
+    },
+    "question": "Why do many North Pacific humpback whales travel to Hawaiian waters in winter?",
+    "options": [
+      "To feed on Arctic sea ice",
+      "To mate, give birth, and raise young",
+      "To cross a freshwater lake"
+    ],
+    "correct": 1,
+    "reveal": "The right habitat changes with the season.",
+    "steps": [
+      {
+        "label": "FEED",
+        "text": "Northern waters, including Alaska and Canada, are important seasonal habitats for many North Pacific humpback whales."
+      },
+      {
+        "label": "MIGRATE",
+        "text": "In winter, many travel thousands of miles to warmer, shallow waters around Hawaiʻi."
+      },
+      {
+        "label": "BREED",
+        "text": "NOAA describes mating, birth, and the raising of young in these winter waters. Protecting one part of the journey supports only part of their lives."
+      }
+    ],
+    "takeaway": "A whale’s home can be an ocean-scale network.",
+    "source": {
+      "name": "NOAA Fisheries · Winter habits in Hawaiʻi",
+      "url": "https://www.fisheries.noaa.gov/feature-story/winter-sea-reveals-seasonal-habits-whales-dolphins-and-seabirds-hawaii"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "paper",
+    "category": "KNOWLEDGE / HUMAN JOURNEYS",
+    "title": "A technique travelled farther than a sheet of paper.",
+    "teaser": "China and Baghdad are linked by the movement of papermaking knowledge.",
+    "from": {
+      "name": "China",
+      "detail": "East Asia",
+      "image": "china",
+      "lat": 26,
+      "lng": 110
+    },
+    "to": {
+      "name": "Baghdad",
+      "detail": "Iraq",
+      "image": "baghdad",
+      "lat": 33.3,
+      "lng": 44.4
+    },
+    "question": "What spread westward from China through Central Asia to centres such as Baghdad?",
+    "options": [
+      "The invention of ocean tides",
+      "A single intact ancient library",
+      "Papermaking techniques"
+    ],
+    "correct": 2,
+    "reveal": "Skills can travel through a network of people.",
+    "steps": [
+      {
+        "label": "DEVELOP",
+        "text": "Papermaking developed in China, creating a material that could carry writing and images."
+      },
+      {
+        "label": "TRANSMIT",
+        "text": "Knowledge of the craft spread westward. UNESCO describes its transmission through Samarkand and onward to Baghdad."
+      },
+      {
+        "label": "CONNECT",
+        "text": "This history links workshops, travellers, and centres of learning. The movement of a useful technique can influence places far beyond its origin."
+      }
+    ],
+    "takeaway": "Sometimes the most important cargo is knowledge.",
+    "source": {
+      "name": "UNESCO · The Paths of New Beliefs",
+      "url": "https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/the%20paths%20of%20new%20beliefs.pdf"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "suez-ecology",
+    "category": "OCEAN / HUMAN CHANGE",
+    "title": "A canal connected more than shipping lanes.",
+    "teaser": "The Red Sea and Mediterranean gained a new ecological connection.",
+    "from": {
+      "name": "Red Sea",
+      "detail": "Northeastern Africa",
+      "image": "red-sea",
+      "lat": 27.7,
+      "lng": 34.3
+    },
+    "to": {
+      "name": "Eastern Mediterranean",
+      "detail": "Near Cyprus",
+      "image": "mediterranean",
+      "lat": 34.8,
+      "lng": 32.4
+    },
+    "question": "How has the Suez Canal influenced Mediterranean ecosystems?",
+    "options": [
+      "It provides a pathway for some non-native species",
+      "It removed all differences between the seas",
+      "It stops every organism from crossing"
+    ],
+    "correct": 0,
+    "reveal": "An engineered connection can become a biological one.",
+    "steps": [
+      {
+        "label": "OPEN",
+        "text": "The Suez Canal connects the Red Sea with the Mediterranean, creating a passage through a former land barrier."
+      },
+      {
+        "label": "MOVE",
+        "text": "Marine organisms can use this connection. UNEP identifies the canal as a major pathway for non-native species entering the Mediterranean."
+      },
+      {
+        "label": "CHANGE",
+        "text": "Species introductions can alter existing ecological relationships. Shipping, aquaculture, and other pathways also contribute to marine introductions."
+      }
+    ],
+    "takeaway": "Changing a map can change an ecosystem.",
+    "source": {
+      "name": "UNEP · Mediterranean non-indigenous species assessment",
+      "url": "https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/21265/17wg444_9_eng.pdf"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between seas; not a tracked species route. Photos show regional coastlines."
+  },
+  {
+    "id": "laki",
+    "category": "AIR / ENVIRONMENTAL HISTORY",
+    "title": "An Icelandic eruption reached European skies.",
+    "teaser": "A fissure eruption and a distant haze shared the same source.",
+    "from": {
+      "name": "Laki",
+      "detail": "Iceland",
+      "image": "laki",
+      "lat": 64,
+      "lng": -18.2
+    },
+    "to": {
+      "name": "Britain",
+      "detail": "Northern Europe",
+      "image": "britain",
+      "lat": 51.1,
+      "lng": 1.3
+    },
+    "question": "What carried Laki’s effects far beyond Iceland in 1783–84?",
+    "options": [
+      "A river of lava across the sea",
+      "Large sulfur emissions and atmospheric transport",
+      "A permanent ash bridge"
+    ],
+    "correct": 1,
+    "reveal": "Air can connect places without a visible road.",
+    "steps": [
+      {
+        "label": "ERUPT",
+        "text": "The Laki fissure eruption lasted for months in 1783–84 and had devastating consequences within Iceland."
+      },
+      {
+        "label": "TRANSPORT",
+        "text": "It released large quantities of sulfur dioxide. Atmospheric transport spread its effects beyond the eruption area."
+      },
+      {
+        "label": "OBSERVE",
+        "text": "The Met Office describes a sulfurous haze lasting for months across large parts of Europe. Volcanic hazards can extend far beyond nearby lava fields."
+      }
+    ],
+    "takeaway": "A distant sky can hold evidence of another landscape’s upheaval.",
+    "source": {
+      "name": "Met Office · Volcanic activity in Iceland",
+      "url": "https://www.metoffice.gov.uk/services/transport/aviation/regulated/international-aviation/vaac/iceland"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative atmospheric connection, not a plume reconstruction. Modern photos do not show the 1783 haze."
+  },
+  {
+    "id": "tomato",
+    "category": "FOOD / PLANT JOURNEYS",
+    "title": "An Italian favourite has American roots.",
+    "teaser": "The tomato’s modern culinary home is only part of its story.",
+    "from": {
+      "name": "Peru",
+      "detail": "South America",
+      "image": "peru",
+      "lat": -12,
+      "lng": -77
+    },
+    "to": {
+      "name": "Southern Italy",
+      "detail": "Europe",
+      "image": "naples",
+      "lat": 40.6,
+      "lng": 14.6
+    },
+    "question": "Where do the tomato’s botanical roots lie?",
+    "options": [
+      "In the European Alps",
+      "In the Arctic",
+      "In South America"
+    ],
+    "correct": 2,
+    "reveal": "A recipe can hide an ocean crossing.",
+    "steps": [
+      {
+        "label": "ORIGIN",
+        "text": "Tomatoes trace their roots to South America. Kew identifies Peru in the plant’s native-range account."
+      },
+      {
+        "label": "TRAVEL",
+        "text": "Spanish colonists introduced tomatoes to Europe in the sixteenth century. Acceptance and use changed over time."
+      },
+      {
+        "label": "ADOPT",
+        "text": "Tomatoes later became central to many European recipes, including Italian sauces. A familiar cuisine can incorporate plants with very distant origins."
+      }
+    ],
+    "takeaway": "Culinary identity can grow from exchange.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Tomato",
+      "url": "https://www.kew.org/plants/tomato"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
   }
 ]
