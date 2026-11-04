@@ -1,6 +1,6 @@
 # GeonautsGuide roadmap
 
-Last updated: November 3, 2026
+Last updated: November 4, 2026
 
 ## Direction
 
@@ -22,7 +22,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 
 | Part | Feature | Experience | Status |
 | --- | --- | --- | --- |
-| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | Three stories live. Expand next. |
+| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | Three stories live; ten additional stories prepared in preview. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | Proposed next feature, naturally connected to Daily City Guess. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
@@ -37,6 +37,12 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 3. **Tōhoku, Japan ↔ Crescent City, California:** the 2011 tsunami connected distant Pacific coastlines.
 
 Access: Connections in the homepage navigation, or `https://geonautsguide.com/?view=connections`.
+
+### Ten-story expansion preview
+
+Prepared November 4, 2026: monarch migration, Arctic terns, salmon nutrient transport, Tambora and Europe, coffee origins, Andean potatoes, Nile headwaters, Atlantic heat transport, European eels, and continental-drift fossils.
+
+The preview collection contains 13 complete stories, with a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
 
 ### Expansion proposal
 

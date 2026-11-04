@@ -40,5 +40,157 @@
     "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Crescent_City,_CA.jpg"
+  },
+  "ontario": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Quozl\" class=\"extiw\" title=\"en:User:Quozl\">Quozl</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Quozl\" class=\"extiw\" title=\"en:User talk:Quozl\">talk</a>)",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Boardwalk_in_Pelee.JPG",
+    "description": "Point Pelee National Park"
+  },
+  "monarch-forest": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/99341324@N00\">hspauldi</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Abies_religiosa_Chincua_5.jpg",
+    "description": "Monarch Butterfly Biosphere Reserve"
+  },
+  "salmon-river": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Fredlyfish4\" class=\"mw-redirect\" title=\"User:Fredlyfish4\">Fredlyfish4</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Salmon_River.JPG",
+    "description": "Salmon River (Idaho)"
+  },
+  "columbia": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Senapa\" title=\"User:Senapa\">Steven Pavlov</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Columbia_River_from_Rowena_Crest_Viewpoint_looking_east.jpg",
+    "description": "Columbia River"
+  },
+  "tambora": {
+    "Artist": "This image was taken by the NASA Expedition 20 crew.",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Mount_Tambora_Volcano,_Sumbawa_Island,_Indonesia.jpg",
+    "description": "Mount Tambora"
+  },
+  "haraz": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/64607715@N05\">Rod Waddington</a> from Kergunyah, Australia",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Yemen_(11462772954).jpg",
+    "description": "Haraz Mountains"
+  },
+  "tana": {
+    "Artist": "NASA",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_tana.jpg",
+    "description": "Lake Tana"
+  },
+  "nile-delta": {
+    "Artist": "NASA",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Nile_delta_landsat_false_color.jpg",
+    "description": "Nile Delta"
+  },
+  "western-europe": {
+    "Artist": "Werner Wilmes",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:St_Michael%27s_Mount_View.jpg",
+    "description": "Cornwall"
+  },
+  "thames": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Diliff\" title=\"User:Diliff\">Diliff</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Thames_Sunset_panorama_-_Feb_2008.jpg",
+    "description": "River Thames"
+  },
+  "greenland": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161021011053/http://www.panoramio.com/user/2433337?with_photo_id=46890268\">patano</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:The_colors_from_Ilulissat_-_Greenland._-_panoramio.jpg",
+    "description": "Ilulissat"
+  },
+  "geneva": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Giles_Laurent\" title=\"User:Giles Laurent\">Giles Laurent</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg",
+    "description": "Chillon Castle"
+  },
+  "titicaca": {
+    "Artist": "",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Isladelsol.jpg",
+    "description": "Isla del Sol"
+  },
+  "ireland": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Uspn\" title=\"User:Uspn\">Bjørn Christian Tørrissen</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cliffs-Of-Moher-OBriens-From-South.JPG",
+    "description": "Cliffs of Moher"
+  },
+  "florida-straits": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shanbin&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shanbin (page does not exist)\">Shanbin Zhao</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:U.S._Route_1,_Florida_Keys.jpg",
+    "description": "Florida Keys"
+  },
+  "sargasso": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ekem\" title=\"User:Ekem\">Ekem</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Horseshoebay.Bermuda.JPG",
+    "description": "Horseshoe Bay, Bermuda"
+  },
+  "india": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mdmadhu\" title=\"User:Mdmadhu\">Mdmadhu</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:AnaimudiPeak_DSC_4834.jpg",
+    "description": "Western Ghats"
+  },
+  "antarctica": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59222181@N03\">Liam Quinn</a> from Canada",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Paradise_Harbour,_Antarctica_(6087257019).jpg",
+    "description": "Paradise Harbour"
+  },
+  "coffee-origin": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/68240136@N02\">Laika ac</a> from UK",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Harenna_Forest_(16112269010).jpg",
+    "description": "Ethiopian montane forests"
   }
 }

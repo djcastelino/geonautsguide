@@ -1,12 +1,659 @@
 [
   {
-    "id":"dust", "category":"AIR / ECOLOGY", "title":"A desert feeds a rainforest.", "teaser":"An ocean apart. A connection hiding in the wind.", "from":{"name":"Sahara","detail":"North Africa","image":"sahara","lat":18,"lng":18},"to":{"name":"Amazon","detail":"South America","image":"amazon","lat":-3,"lng":-60},
-    "question":"What travels from the Sahara to help the Amazon grow?","options":["Seeds carried by migrating birds","Nutrients carried in airborne dust","Fresh water in ocean currents"],"correct":1,"reveal":"The smallest travellers leave the biggest impression.","steps":[{"label":"LIFT","text":"Winds lift fine mineral dust from the Sahara. The Bodélé Depression in Chad, an ancient lake bed, is one important source."},{"label":"CROSS","text":"Some of that dust travels across the Atlantic in the atmosphere. Its journey links a dry landscape to a very wet one."},{"label":"REPLENISH","text":"Dust settling over the Amazon carries phosphorus, a nutrient plants need. It helps replace nutrients lost through rain and runoff."}],"takeaway":"A rainforest is connected to landscapes far beyond its own borders.","mapNote":"Illustrative connection across the Atlantic; not a forecast or an exact dust trajectory.","source":{"name":"NASA · CALIPSO dust research","url":"https://www.nasa.gov/missions/calipso/nasa-satellite-reveals-how-much-saharan-dust-feeds-amazons-plants/"}
+    "id": "dust",
+    "category": "AIR / ECOLOGY",
+    "title": "A desert feeds a rainforest.",
+    "teaser": "An ocean apart. A connection hiding in the wind.",
+    "from": {
+      "name": "Sahara",
+      "detail": "North Africa",
+      "image": "sahara",
+      "lat": 18,
+      "lng": 18
+    },
+    "to": {
+      "name": "Amazon",
+      "detail": "South America",
+      "image": "amazon",
+      "lat": -3,
+      "lng": -60
+    },
+    "question": "What travels from the Sahara to help the Amazon grow?",
+    "options": [
+      "Seeds carried by migrating birds",
+      "Nutrients carried in airborne dust",
+      "Fresh water in ocean currents"
+    ],
+    "correct": 1,
+    "reveal": "The smallest travellers leave the biggest impression.",
+    "steps": [
+      {
+        "label": "LIFT",
+        "text": "Winds lift fine mineral dust from the Sahara. The Bodélé Depression in Chad, an ancient lake bed, is one important source."
+      },
+      {
+        "label": "CROSS",
+        "text": "Some of that dust travels across the Atlantic in the atmosphere. Its journey links a dry landscape to a very wet one."
+      },
+      {
+        "label": "REPLENISH",
+        "text": "Dust settling over the Amazon carries phosphorus, a nutrient plants need. It helps replace nutrients lost through rain and runoff."
+      }
+    ],
+    "takeaway": "A rainforest is connected to landscapes far beyond its own borders.",
+    "mapNote": "Illustrative connection across the Atlantic; not a forecast or an exact dust trajectory.",
+    "source": {
+      "name": "NASA · CALIPSO dust research",
+      "url": "https://www.nasa.gov/missions/calipso/nasa-satellite-reveals-how-much-saharan-dust-feeds-amazons-plants/"
+    },
+    "reviewedOn": "2026-11-03"
   },
   {
-    "id":"islands","category":"EARTH / DEEP TIME","title":"Two islands. One volcanic family.","teaser":"A green giant and a coral ring share a deeper story.","from":{"name":"Hawaiʻi","detail":"Hawaiian Islands","image":"hawaii","lat":19.6,"lng":-155.5},"to":{"name":"Midway Atoll","detail":"North Pacific","image":"midway","lat":28.2,"lng":-177.4},"question":"What connects volcanic Hawaiʻi and low-lying Midway Atoll?","options":["They belong to the same hotspot trail","A river once flowed between them","Both were formed by coral alone"],"correct":0,"reveal":"The Pacific carries a trail of former volcanoes.","steps":[{"label":"BUILD","text":"Magma rising beneath the Pacific Plate builds volcanoes. The island of Hawaiʻi is near the young, active end of the Hawaiian hotspot trail."},{"label":"MOVE","text":"As the plate moves, older volcanoes are carried away from the hotspot. Farther along the island chain, Midway records an older stage of this story."},{"label":"TRANSFORM","text":"With time, volcanic islands erode and subside. Coral reefs can grow around them, leaving atolls around the remains of old volcanic foundations."}],"takeaway":"An island is a moment in a much longer geological journey.","mapNote":"Illustrative link within the Hawaiian chain; not a reconstruction of past plate positions.","source":{"name":"National Park Service · Oceanic hotspots","url":"https://www.nps.gov/subjects/geology/plate-tectonics-oceanic-hotspots.htm"}
+    "id": "islands",
+    "category": "EARTH / DEEP TIME",
+    "title": "Two islands. One volcanic family.",
+    "teaser": "A green giant and a coral ring share a deeper story.",
+    "from": {
+      "name": "Hawaiʻi",
+      "detail": "Hawaiian Islands",
+      "image": "hawaii",
+      "lat": 19.6,
+      "lng": -155.5
+    },
+    "to": {
+      "name": "Midway Atoll",
+      "detail": "North Pacific",
+      "image": "midway",
+      "lat": 28.2,
+      "lng": -177.4
+    },
+    "question": "What connects volcanic Hawaiʻi and low-lying Midway Atoll?",
+    "options": [
+      "They belong to the same hotspot trail",
+      "A river once flowed between them",
+      "Both were formed by coral alone"
+    ],
+    "correct": 0,
+    "reveal": "The Pacific carries a trail of former volcanoes.",
+    "steps": [
+      {
+        "label": "BUILD",
+        "text": "Magma rising beneath the Pacific Plate builds volcanoes. The island of Hawaiʻi is near the young, active end of the Hawaiian hotspot trail."
+      },
+      {
+        "label": "MOVE",
+        "text": "As the plate moves, older volcanoes are carried away from the hotspot. Farther along the island chain, Midway records an older stage of this story."
+      },
+      {
+        "label": "TRANSFORM",
+        "text": "With time, volcanic islands erode and subside. Coral reefs can grow around them, leaving atolls around the remains of old volcanic foundations."
+      }
+    ],
+    "takeaway": "An island is a moment in a much longer geological journey.",
+    "mapNote": "Illustrative link within the Hawaiian chain; not a reconstruction of past plate positions.",
+    "source": {
+      "name": "National Park Service · Oceanic hotspots",
+      "url": "https://www.nps.gov/subjects/geology/plate-tectonics-oceanic-hotspots.htm"
+    },
+    "reviewedOn": "2026-11-03"
   },
   {
-    "id":"ocean","category":"OCEAN / SHARED PLANET","title":"One ocean. Two distant shores.","teaser":"What happens off Japan can reach a Californian harbour.","from":{"name":"Tōhoku","detail":"Northeastern Japan","image":"japan","lat":38.3,"lng":142.4},"to":{"name":"Crescent City","detail":"California, USA","image":"california","lat":41.75,"lng":-124.2},"question":"How did the 2011 earthquake off Japan affect California?","options":["It shifted California’s coastline east","It sent tsunami waves across the Pacific","It changed the direction of the tides"],"correct":1,"reveal":"The ocean connects places that look worlds apart.","steps":[{"label":"DISPLACE","text":"The March 2011 Tōhoku earthquake abruptly displaced the seafloor and generated a devastating tsunami near Japan."},{"label":"PROPAGATE","text":"Tsunami waves spread across the Pacific basin. They transfer energy over enormous distances rather than carrying the same parcel of water across the ocean."},{"label":"ARRIVE","text":"The tsunami damaged harbours as far away as Crescent City and Santa Cruz in California. A distant earthquake became a local coastal event."}],"takeaway":"An ocean separates coastlines on a map—and connects them in reality.","mapNote":"Illustrative trans-Pacific connection, not wave heights, travel times, or a warning map. Photos show the places, not the 2011 event.","source":{"name":"USGS · The 2011 Japan earthquake and tsunami","url":"https://www.usgs.gov/centers/pcmsc/news/japan-lashed-powerful-earthquake-devastating-tsunami"}
+    "id": "ocean",
+    "category": "OCEAN / SHARED PLANET",
+    "title": "One ocean. Two distant shores.",
+    "teaser": "What happens off Japan can reach a Californian harbour.",
+    "from": {
+      "name": "Tōhoku",
+      "detail": "Northeastern Japan",
+      "image": "japan",
+      "lat": 38.3,
+      "lng": 142.4
+    },
+    "to": {
+      "name": "Crescent City",
+      "detail": "California, USA",
+      "image": "california",
+      "lat": 41.75,
+      "lng": -124.2
+    },
+    "question": "How did the 2011 earthquake off Japan affect California?",
+    "options": [
+      "It shifted California’s coastline east",
+      "It sent tsunami waves across the Pacific",
+      "It changed the direction of the tides"
+    ],
+    "correct": 1,
+    "reveal": "The ocean connects places that look worlds apart.",
+    "steps": [
+      {
+        "label": "DISPLACE",
+        "text": "The March 2011 Tōhoku earthquake abruptly displaced the seafloor and generated a devastating tsunami near Japan."
+      },
+      {
+        "label": "PROPAGATE",
+        "text": "Tsunami waves spread across the Pacific basin. They transfer energy over enormous distances rather than carrying the same parcel of water across the ocean."
+      },
+      {
+        "label": "ARRIVE",
+        "text": "The tsunami damaged harbours as far away as Crescent City and Santa Cruz in California. A distant earthquake became a local coastal event."
+      }
+    ],
+    "takeaway": "An ocean separates coastlines on a map—and connects them in reality.",
+    "mapNote": "Illustrative trans-Pacific connection, not wave heights, travel times, or a warning map. Photos show the places, not the 2011 event.",
+    "source": {
+      "name": "USGS · The 2011 Japan earthquake and tsunami",
+      "url": "https://www.usgs.gov/centers/pcmsc/news/japan-lashed-powerful-earthquake-devastating-tsunami"
+    },
+    "reviewedOn": "2026-11-03"
+  },
+  {
+    "id": "monarch",
+    "category": "WILDLIFE / MIGRATION",
+    "title": "A butterfly joins three countries.",
+    "teaser": "A Canadian summer and a Mexican winter share tiny orange travellers.",
+    "from": {
+      "name": "Ontario",
+      "detail": "Canada",
+      "image": "ontario",
+      "lat": 42,
+      "lng": -82.5
+    },
+    "to": {
+      "name": "Oyamel forests",
+      "detail": "Central Mexico",
+      "image": "monarch-forest",
+      "lat": 19.6,
+      "lng": -100.3
+    },
+    "question": "What links southern Canada to the mountain forests of central Mexico?",
+    "options": [
+      "Monarch butterflies migrating south",
+      "The same forest stretching uninterrupted",
+      "An underground river"
+    ],
+    "correct": 0,
+    "reveal": "A continent crossed on wings.",
+    "steps": [
+      {
+        "label": "DEPART",
+        "text": "In late summer and autumn, eastern migratory monarchs leave breeding areas in Canada and the United States and head toward central Mexico."
+      },
+      {
+        "label": "SHELTER",
+        "text": "They overwinter in mountain forests, where oyamel fir trees provide shelter. These small wintering areas are connected to a much larger summer range."
+      },
+      {
+        "label": "RETURN",
+        "text": "The northward journey involves successive generations. The butterflies reaching Canada are not simply the same individuals completing a round trip."
+      }
+    ],
+    "takeaway": "A small winter forest can matter to an entire continent.",
+    "source": {
+      "name": "Ontario · Monarch migration",
+      "url": "https://www.ontario.ca/page/monarch"
+    },
+    "mapNote": "Illustrative endpoints of eastern monarch migration, not an individual butterfly’s tracked route.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "tern",
+    "category": "WILDLIFE / POLAR WORLDS",
+    "title": "A bird follows two summers.",
+    "teaser": "Greenland and the Southern Ocean meet in one remarkable life.",
+    "from": {
+      "name": "Greenland",
+      "detail": "Arctic breeding grounds",
+      "image": "greenland",
+      "lat": 70,
+      "lng": -40
+    },
+    "to": {
+      "name": "Southern Ocean",
+      "detail": "Near Antarctica",
+      "image": "antarctica",
+      "lat": -65,
+      "lng": 0
+    },
+    "question": "Why do Arctic terns travel between northern breeding grounds and Antarctic waters?",
+    "options": [
+      "They migrate between seasonal feeding regions",
+      "They walk across a permanent ice bridge",
+      "Their nests float south on icebergs"
+    ],
+    "correct": 0,
+    "reveal": "Two ends of Earth. One seasonal journey.",
+    "steps": [
+      {
+        "label": "NEST",
+        "text": "Arctic terns breed in northern regions, including Greenland and Iceland, during the northern summer."
+      },
+      {
+        "label": "TRAVEL",
+        "text": "Tracking research has followed birds from these breeding populations to the Southern Ocean, revealing vast migrations with oceanic stopovers."
+      },
+      {
+        "label": "FEED",
+        "text": "They spend the southern summer in Antarctic waters before heading north again. Their lives connect productive seas in opposite hemispheres."
+      }
+    ],
+    "takeaway": "For a migratory bird, the world is a sequence of seasons.",
+    "source": {
+      "name": "British Antarctic Survey · Arctic tern tracking",
+      "url": "https://www.bas.ac.uk/data/our-data/publication/tracking-of-arctic-terns-sterna-paradisaea-reveals-longest-animal-migration/"
+    },
+    "mapNote": "Illustrative polar endpoints. Real tern migrations curve through feeding areas and vary between populations.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "salmon",
+    "category": "WILDLIFE / ECOLOGY",
+    "title": "The ocean reaches inland.",
+    "teaser": "An Idaho stream has a connection to the Pacific you can’t see on its banks.",
+    "from": {
+      "name": "Pacific coast",
+      "detail": "Columbia River mouth",
+      "image": "columbia",
+      "lat": 46.25,
+      "lng": -124.05
+    },
+    "to": {
+      "name": "Salmon River",
+      "detail": "Idaho, USA",
+      "image": "salmon-river",
+      "lat": 45.4,
+      "lng": -115
+    },
+    "question": "How can nutrients from the sea reach streams in inland Idaho?",
+    "options": [
+      "Saltwater flows uphill every summer",
+      "Returning salmon carry them in their bodies",
+      "Ocean spray crosses the mountains"
+    ],
+    "correct": 1,
+    "reveal": "A fish can carry a piece of the ocean home.",
+    "steps": [
+      {
+        "label": "GROW",
+        "text": "Salmon that migrate to sea feed and grow in the ocean, accumulating marine-derived nutrients in their bodies."
+      },
+      {
+        "label": "RETURN",
+        "text": "Adults travel back through river systems to freshwater spawning areas, including streams in Idaho’s Salmon River basin."
+      },
+      {
+        "label": "RECYCLE",
+        "text": "Their bodies release nitrogen, phosphorus, and organic matter into receiving ecosystems. Researchers have studied how declining salmon returns affect this inland nutrient supply."
+      }
+    ],
+    "takeaway": "A river’s food web can depend on life far beyond its watershed.",
+    "source": {
+      "name": "American Fisheries Society · Marine-derived nutrients in Idaho",
+      "url": "https://fisheries.org/doi/9781888569445-ch4/"
+    },
+    "mapNote": "Illustrative ocean-to-basin connection; the arc does not trace the Columbia, Snake, or Salmon rivers.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "tambora",
+    "category": "CLIMATE / HISTORY",
+    "title": "A volcano changed a distant summer.",
+    "teaser": "An Indonesian eruption left its mark on Europe a year later.",
+    "from": {
+      "name": "Mount Tambora",
+      "detail": "Sumbawa, Indonesia",
+      "image": "tambora",
+      "lat": -8.25,
+      "lng": 118
+    },
+    "to": {
+      "name": "Lake Geneva",
+      "detail": "Switzerland / France",
+      "image": "geneva",
+      "lat": 46.45,
+      "lng": 6.55
+    },
+    "question": "How did Tambora’s 1815 eruption affect places far beyond Indonesia?",
+    "options": [
+      "Its lava flowed across continents",
+      "It permanently stopped Earth’s seasons",
+      "Volcanic aerosols contributed to widespread cooling"
+    ],
+    "correct": 2,
+    "reveal": "The atmosphere carried the consequences.",
+    "steps": [
+      {
+        "label": "ERUPT",
+        "text": "Tambora erupted in Indonesia in 1815, sending volcanic gases high into the atmosphere."
+      },
+      {
+        "label": "SCATTER",
+        "text": "Sulfur-containing gases formed stratospheric sulfate aerosols that reduced incoming sunlight and contributed to cooling far from the volcano."
+      },
+      {
+        "label": "EXPERIENCE",
+        "text": "Parts of Europe and North America experienced severe cold and disrupted weather in 1816, remembered as the Year Without a Summer. Effects differed from place to place."
+      }
+    ],
+    "takeaway": "An eruption’s reach can extend far beyond the land it covers.",
+    "source": {
+      "name": "UCAR · Mount Tambora and the Year Without a Summer",
+      "url": "https://scied.ucar.edu/learning-zone/how-climate-works/mount-tambora-and-year-without-summer"
+    },
+    "mapNote": "Illustrative climate connection, not an ash trajectory. Modern photographs do not show the 1815 eruption or 1816 weather.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "coffee",
+    "category": "PLANTS / HUMAN JOURNEYS",
+    "title": "A morning ritual crossed the Red Sea.",
+    "teaser": "A forest plant and terraced hills helped shape a familiar cup.",
+    "from": {
+      "name": "Ethiopian highlands",
+      "detail": "Ethiopia · Harenna Forest",
+      "image": "coffee-origin",
+      "lat": 6.4,
+      "lng": 39.7
+    },
+    "to": {
+      "name": "Haraz Mountains",
+      "detail": "Yemen",
+      "image": "haraz",
+      "lat": 15.1,
+      "lng": 43.7
+    },
+    "question": "Which plant connects Ethiopia’s natural heritage with Yemen’s cultivation history?",
+    "options": [
+      "Cacao",
+      "Arabica coffee",
+      "Tea"
+    ],
+    "correct": 1,
+    "reveal": "The name on the bag holds a longer story.",
+    "steps": [
+      {
+        "label": "ORIGIN",
+        "text": "Arabica coffee grows wild in northeastern Africa, including Ethiopia. Its botanical origins lie across the Red Sea from Arabia."
+      },
+      {
+        "label": "CULTIVATE",
+        "text": "Yemen played an important early role in coffee cultivation and use. A crop’s cultivated history can begin somewhere different from its native range."
+      },
+      {
+        "label": "CONNECT",
+        "text": "These African origins and Arabian cultivation traditions form part of coffee’s wider human story. The species name Arabica alone does not tell the whole journey."
+      }
+    ],
+    "takeaway": "An everyday drink can connect botany, landscapes, and human movement.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Coffea arabica",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A747038-1/general-information"
+    },
+    "mapNote": "Illustrative regional connection, not a documented shipment route or exact first cultivation site. Photos show the wider landscapes.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "potato",
+    "category": "FOOD / HISTORY",
+    "title": "An Irish staple has Andean roots.",
+    "teaser": "A familiar food connects green fields with South American highlands.",
+    "from": {
+      "name": "Lake Titicaca region",
+      "detail": "Peru / Bolivia",
+      "image": "titicaca",
+      "lat": -15.8,
+      "lng": -69.4
+    },
+    "to": {
+      "name": "Ireland",
+      "detail": "Northwestern Europe",
+      "image": "ireland",
+      "lat": 53.3,
+      "lng": -8
+    },
+    "question": "Where does the potato’s domestication story begin?",
+    "options": [
+      "In the Andes of South America",
+      "On the coast of Ireland",
+      "In the Sahara"
+    ],
+    "correct": 0,
+    "reveal": "A food’s familiar home may not be its first.",
+    "steps": [
+      {
+        "label": "DOMESTICATE",
+        "text": "The cultivated potato has deep roots in the Andes. Kew identifies the Lake Titicaca region of Peru and Bolivia as a probable early domestication area."
+      },
+      {
+        "label": "TRAVEL",
+        "text": "People carried the crop beyond South America. Its spread eventually made it a familiar food in Europe, including Ireland."
+      },
+      {
+        "label": "RECOGNIZE",
+        "text": "Andean potato diversity and European potato dishes belong to the same wider story of cultivation and exchange. A local food tradition can have a distant botanical beginning."
+      }
+    ],
+    "takeaway": "The history on a dinner plate can cross an ocean.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Solanum tuberosum",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821337-1/general-information"
+    },
+    "mapNote": "Illustrative origin-to-adoption connection; not a direct voyage from Lake Titicaca to Ireland.",
+    "sources": [
+      {
+        "name": "Royal Botanic Gardens, Kew · Solanum tuberosum",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821337-1/general-information"
+      },
+      {
+        "name": "American Phytopathological Society · Potato arrival in Europe",
+        "url": "https://www.apsnet.org/edcenter/apsnetfeatures/Pages/PotatoLateBlightPlantDiseasesArrival.aspx"
+      }
+    ],
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "nile",
+    "category": "WATER / GEOGRAPHY",
+    "title": "Distant rains help a desert river flow.",
+    "teaser": "The green thread through Egypt begins far beyond the desert.",
+    "from": {
+      "name": "Lake Tana",
+      "detail": "Ethiopian highlands",
+      "image": "tana",
+      "lat": 12,
+      "lng": 37.3
+    },
+    "to": {
+      "name": "Nile Delta",
+      "detail": "Egypt",
+      "image": "nile-delta",
+      "lat": 30.8,
+      "lng": 31
+    },
+    "question": "What connects rainy Ethiopian highlands with water used downstream in Egypt?",
+    "options": [
+      "A shared underground ocean",
+      "The Blue Nile joining the wider Nile system",
+      "Rain falling equally across both regions"
+    ],
+    "correct": 1,
+    "reveal": "A river carries the weather of another landscape.",
+    "steps": [
+      {
+        "label": "GATHER",
+        "text": "The Ethiopian highlands receive substantial rainfall despite surrounding dry regions. Lake Tana and its tributaries form part of this highland water system."
+      },
+      {
+        "label": "JOIN",
+        "text": "The Blue Nile flows from Lake Tana and ultimately joins the White Nile in Sudan. Monsoon rainfall helps supply the Blue Nile."
+      },
+      {
+        "label": "SUPPORT",
+        "text": "The combined Nile continues downstream toward Egypt. Communities in dry Sudan and Egypt rely on Nile water for irrigation and other uses, connecting them with distant rainfall."
+      }
+    ],
+    "takeaway": "A river links people to weather far upstream.",
+    "source": {
+      "name": "NASA Earth Observatory · Two Niles Meet",
+      "url": "https://science.nasa.gov/earth/earth-observatory/two-niles-meet-81186/"
+    },
+    "mapNote": "Illustrative basin connection. The arc is not the river channel; dams, tributaries, and water management also affect downstream flows.",
+    "sources": [
+      {
+        "name": "NASA Earth Observatory · Two Niles Meet",
+        "url": "https://science.nasa.gov/earth/earth-observatory/two-niles-meet-81186/"
+      },
+      {
+        "name": "NASA · Lake Tana and the Ethiopian Highlands",
+        "url": "https://science.nasa.gov/earth/earth-observatory/lake-tana-and-the-ethiopian-highlands-148549/"
+      }
+    ],
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "gulf-stream",
+    "category": "OCEAN / CLIMATE",
+    "title": "Warmth travels across the Atlantic.",
+    "teaser": "Florida’s offshore waters belong to a much wider ocean story.",
+    "from": {
+      "name": "Florida Straits",
+      "detail": "Western Atlantic",
+      "image": "florida-straits",
+      "lat": 24.5,
+      "lng": -80.8
+    },
+    "to": {
+      "name": "Western Europe",
+      "detail": "Eastern North Atlantic",
+      "image": "western-europe",
+      "lat": 50,
+      "lng": -5
+    },
+    "question": "What carries ocean heat northward and across the North Atlantic?",
+    "options": [
+      "A warm current system including the Gulf Stream",
+      "A solid belt of tropical coral",
+      "Tides flowing only from west to east"
+    ],
+    "correct": 0,
+    "reveal": "An ocean current moves more than water.",
+    "steps": [
+      {
+        "label": "FLOW",
+        "text": "Warm water moves through the Florida Straits and northward along the eastern United States in the Gulf Stream."
+      },
+      {
+        "label": "TURN",
+        "text": "The current turns away from the coast and flows northeastward into the Atlantic, linking with a broader ocean circulation system."
+      },
+      {
+        "label": "INFLUENCE",
+        "text": "Ocean heat transport helps influence western European climate. It works alongside atmospheric circulation and other factors, rather than determining the climate on its own."
+      }
+    ],
+    "takeaway": "A coastline’s climate is part of a larger moving system.",
+    "source": {
+      "name": "NOAA · Ocean boundary currents",
+      "url": "https://oceanservice.noaa.gov/education/tutorial_currents/04currents3.html"
+    },
+    "mapNote": "Illustrative heat-transport connection. It is not an exact current path, travel time, or claim that one current alone controls Europe’s climate.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "eels",
+    "category": "WILDLIFE / OCEAN MYSTERIES",
+    "title": "A London river reaches into the Atlantic.",
+    "teaser": "An eel in the Thames belongs to a journey much larger than London.",
+    "from": {
+      "name": "River Thames",
+      "detail": "England",
+      "image": "thames",
+      "lat": 51.5,
+      "lng": 0
+    },
+    "to": {
+      "name": "Sargasso Sea",
+      "detail": "North Atlantic",
+      "image": "sargasso",
+      "lat": 28,
+      "lng": -60
+    },
+    "question": "What links European eels in the Thames with the Sargasso Sea?",
+    "options": [
+      "They migrate between European waters and Atlantic breeding grounds",
+      "They hatch beneath London bridges",
+      "The Thames flows directly into that sea"
+    ],
+    "correct": 0,
+    "reveal": "A hidden life crosses the open ocean.",
+    "steps": [
+      {
+        "label": "ARRIVE",
+        "text": "Young European eels reach European coasts after a larval journey through the Atlantic. Some enter estuaries and rivers such as the Thames."
+      },
+      {
+        "label": "GROW",
+        "text": "They feed and grow in European waters. Barriers in rivers can interrupt access to the habitats they use during this stage of life."
+      },
+      {
+        "label": "RETURN",
+        "text": "Mature eels migrate back toward their Sargasso Sea breeding region. Satellite tagging has provided direct evidence of adults reaching that region, while details of spawning remain difficult to observe."
+      }
+    ],
+    "takeaway": "An urban river can be one chapter of an oceanic life.",
+    "source": {
+      "name": "Zoological Society of London · European eel conservation",
+      "url": "https://www.zsl.org/what-we-do/projects/european-eel-conservation"
+    },
+    "mapNote": "Illustrative life-cycle link, not the track of a Thames eel. The coastal photograph shows Bermuda in the wider Sargasso Sea region.",
+    "reviewedOn": "2026-11-04"
+  },
+  {
+    "id": "gondwana",
+    "category": "EARTH / ANCIENT CONTINENTS",
+    "title": "Fossils remember a connected world.",
+    "teaser": "India and Antarctica were not always separated by an ocean.",
+    "from": {
+      "name": "India",
+      "detail": "South Asia",
+      "image": "india",
+      "lat": 22,
+      "lng": 79
+    },
+    "to": {
+      "name": "Antarctica",
+      "detail": "Southern continent",
+      "image": "antarctica",
+      "lat": -72,
+      "lng": 25
+    },
+    "question": "Why are related ancient land-plant fossils found on continents now far apart?",
+    "options": [
+      "The plants floated over modern oceans intact",
+      "The continents were once joined and later separated",
+      "Antarctica has always been next to India"
+    ],
+    "correct": 1,
+    "reveal": "The clues stayed behind as the continents moved.",
+    "steps": [
+      {
+        "label": "PRESERVE",
+        "text": "Fossils of plants such as Glossopteris occur across several southern landmasses, including India and Antarctica."
+      },
+      {
+        "label": "COMPARE",
+        "text": "Matching fossil distributions helped scientists investigate continental drift. They made more sense when the continents were considered as parts of an earlier connected landmass."
+      },
+      {
+        "label": "SEPARATE",
+        "text": "Plate tectonics explains how continents change position over geological time. Today’s oceans and coastlines are one stage in that continuing history."
+      }
+    ],
+    "takeaway": "A modern map is a snapshot, not Earth’s permanent arrangement.",
+    "source": {
+      "name": "USGS · Continental drift evidence",
+      "url": "https://www.usgs.gov/educational-resources/wegeners-puzzling-continental-drift-evidence"
+    },
+    "mapNote": "Modern locations illustrate a past connection; this is not a reconstruction of Gondwana or a precise plate-motion path.",
+    "reviewedOn": "2026-11-04"
   }
 ]
