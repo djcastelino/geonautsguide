@@ -22,7 +22,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 
 | Part | Feature | Experience | Status |
 | --- | --- | --- | --- |
-| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 75 stories in the production collection after the November 5 expansion. |
+| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 100 stories in the production collection after the November 5 expansion. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | Proposed next feature, naturally connected to Daily City Guess. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
@@ -31,7 +31,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 ## Collection targets
 
 - Work toward **100 entries in each of the five parts**, for a long-term collection of **500 experiences**. For Earth or Another World?, count distinct challenges rather than conventional stories.
-- The first batch of 25 grows Planet Connections from 50 to 75 on November 5. A further batch of 25 remains planned to reach 100.
+- Two batches of 25 grow Planet Connections from 50 to 100 on November 5, completing the first section’s initial collection target.
 - Introduce each new format with a smaller preview collection before expanding toward 100.
 
 ## Fresh ideas backlog
@@ -72,12 +72,12 @@ Access: Connections in the homepage navigation, or `https://geonautsguide.com/?v
 
 Prepared November 4, 2026: monarch migration, Arctic terns, salmon nutrient transport, Tambora and Europe, coffee origins, Andean potatoes, Nile headwaters, Atlantic heat transport, European eels, and continental-drift fossils.
 
-The collection grew from 3 to 13 stories, then to 30, 50, and 75. It includes a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
+The collection grew from 3 to 13 stories, then to 30, 50, 75, and 100. It includes a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
 
 ### Expansion proposal
 
 - **30 stories** is the first collection milestone, reached in the November 4 release.
-- Then work toward **100**, with potential for hundreds over time.
+- The **100-story** target is reached in the November 5 release. Future growth remains possible, but discovery and usability take priority over volume.
 - Add in small researched batches; no need to build the entire catalogue at once.
 - Proposed future discovery pattern: feature one story per day and provide a browsable archive. Daily rotation and archive are **not implemented yet**.
 - Possible subjects: nature, geology, food journeys, migrations, history, trade, and architecture.
@@ -103,7 +103,7 @@ The collection grew from 3 to 13 stories, then to 30, 50, and 75. It includes a 
 
 1. Preserve the restored homepage and confirm the new feature is easy to find.
 2. Add the central About / Sources & Credits section.
-3. Grow Planet Connections from 75 to 100 with the next researched batch of 25.
+3. Maintain the 100-story Planet Connections collection and improve discovery based on usage.
 4. Preview Why Here? alongside Daily City Guess.
 5. Evaluate Parts 3–5 individually based on enjoyment, usage, and effort.
 
@@ -127,3 +127,5 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 4, 2026:** Added a further 20 connections, reaching 50 stories with research links and credited images.
 
 - **November 5, 2026:** Added 25 connections, reaching 75 stories. Preserved the five-part, 500-experience target, fresh ideas backlog, and geography learning plans.
+
+- **November 5, 2026:** Added the final batch of 25, reaching 100 Planet Connections. Original homepage and prior 75 stories preserved.

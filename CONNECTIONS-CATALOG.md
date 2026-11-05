@@ -1,6 +1,6 @@
 # Planet Connections content catalogue
 
-Collection: 75 stories. Latest batch reviewed November 5, 2026.
+Collection: 100 stories. Latest batch reviewed November 5, 2026.
 
 Research links support the written summaries; narration reads the same summaries. Image creator, source, and license information is recorded in `src/data/connection-credits.json` and displayed with each story. Maps show illustrative connections.
 
@@ -81,3 +81,28 @@ Research links support the written summaries; narration reads the same summaries
 | 73 | Strait of Gibraltar ↔ Mediterranean Sea | OCEAN / HIDDEN CURRENTS | [International Ocean Discovery Program · Mediterranean–Atlantic gateway exchange](https://www.iodp.tamu.edu/scienceops/sitesumm/401/401_ss1611.html) |
 | 74 | Eastern Australia ↔ Southern Alps | AIR / TRACES ACROSS THE SEA | [Victoria University of Wellington · The summer the Southern Alps turned red](https://www.wgtn.ac.nz/news/2024/12/the-summer-the-southern-alps-turned-red) |
 | 75 | Tonga region ↔ Northeastern Australia | OCEAN / LIVING HITCHHIKERS | [Queensland University of Technology · Pumice arrives](https://www.qut.edu.au/news?id=168028) |
+| 76 | Dutch Wadden Sea ↔ German Wadden Sea | COAST / SHARED HABITAT | [UNESCO · Wadden Sea](https://whc.unesco.org/en/list/1314/) |
+| 77 | Waterton Lakes ↔ Glacier National Park | CONSERVATION / BORDERLESS MOUNTAINS | [UNESCO · Waterton Glacier International Peace Park](https://whc.unesco.org/en/list/354/) |
+| 78 | Iguazú region ↔ Iguaçu National Park | WATER / TWO PERSPECTIVES | [UNESCO · Iguazu National Park](https://whc.unesco.org/en/list/303/) |
+| 79 | Upper Zambezi ↔ Mosi-oa-Tunya / Victoria Falls | WATER / RIVER TO GORGE | [UNESCO · Mosi-oa-Tunya / Victoria Falls](https://whc.unesco.org/en/list/509/) |
+| 80 | Nepalese Himalaya ↔ Tibetan Himalaya | MOUNTAINS / SHARED SUMMIT | [Library of Congress · The highest point from sea level](https://blogs.loc.gov/maps/2018/03/extremities-of-the-earth-the-highest-point-from-sea-level/) |
+| 81 | Arabian Sea coast ↔ Western Ghats | CLIMATE / OCEAN TO MOUNTAIN | [India Meteorological Department · Monsoon questions](https://imdpune.gov.in/faq_monsoon.php) |
+| 82 | Namib coast ↔ Benguela region | OCEAN / HIDDEN PRODUCTIVITY | [UNESCO · Benguela Current Marine Ecosystem Sites](https://whc.unesco.org/en/tentativelists/6094/) |
+| 83 | East African Rift ↔ Red Sea | EARTH / PLATES PULLING APART | [USGS · East African Rift seismicity](https://www.usgs.gov/publications/seismicity-earth-1900-2013-east-african-rift) |
+| 84 | Iceland ↔ Southern Greenland | HISTORY / NORTH ATLANTIC | [UNESCO · Kujataa Greenland](https://whc.unesco.org/en/list/1536/) |
+| 85 | Bryggen, Bergen ↔ Lübeck | HISTORY / MERCHANT NETWORKS | [UNESCO · Bryggen](https://whc.unesco.org/en/list/59/); [UNESCO · Hanseatic City of Lübeck](https://whc.unesco.org/en/list/272/) |
+| 86 | Kilwa Kisiwani ↔ India | HISTORY / SWAHILI CONNECTIONS | [UNESCO · Kilwa Kisiwani and Songo Mnara](https://whc.unesco.org/en/list/144/) |
+| 87 | Great Zimbabwe ↔ Kilwa Kisiwani | ARCHAEOLOGY / INLAND CONNECTIONS | [UNESCO · Great Zimbabwe National Monument](https://whc.unesco.org/en/list/364/) |
+| 88 | Manila ↔ Acapulco | HISTORY / PACIFIC COMMERCE | [Metropolitan Museum of Art · Manila Galleon Trade](https://www.metmuseum.org/essays/the-manila-galleon-trade-1565-1815) |
+| 89 | Potosí ↔ Seville region | EARTH / GLOBAL ECONOMIES | [UNESCO · City of Potosí](https://whc.unesco.org/en/list/420/) |
+| 90 | Jaipur ↔ Samarkand | SCIENCE / SHARED SKY | [UNESCO · Jantar Mantar, Jaipur](https://whc.unesco.org/en/list/1338/); [UNESCO · Samarkand, Crossroad of Cultures](https://whc.unesco.org/en/list/603/) |
+| 91 | Batur region ↔ Tegallalang terraces | LANDSCAPE / COOPERATION | [UNESCO · Cultural Landscape of Bali Province](https://whc.unesco.org/en/list/1194/) |
+| 92 | Peruvian Andes ↔ Ingapirca region | HISTORY / MOUNTAIN NETWORKS | [UNESCO · Qhapaq Ñan, Andean Road System](https://whc.unesco.org/en/list/1459/) |
+| 93 | Petra ↔ Eastern Mediterranean | HISTORY / DESERT NETWORKS | [UNESCO · Petra](https://whc.unesco.org/en/list/326/) |
+| 94 | Dhofar ↔ Indian Ocean ports | PLANTS / AROMATIC ROUTES | [UNESCO · Land of Frankincense](https://whc.unesco.org/en/list/1010/) |
+| 95 | Kent coast ↔ Pas-de-Calais coast | EARTH / SHARED SEABED | [White Cliffs Countryside Partnership · Cross-Channel Geopark](https://www.whitecliffscountryside.org.uk/about-us/cross-channel-geopark) |
+| 96 | Alentejo ↔ Southwestern Spain | PLANTS / MEDITERRANEAN LINKS | [Kew Science · Cork oak](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A296785-1/general-information) |
+| 97 | Bolivia ↔ Senegal | FOOD / CHANGING HOMES | [Royal Botanic Gardens, Kew · Peanut](https://www.kew.org/plants/peanut) |
+| 98 | Central Asia ↔ European countryside | PLANTS / A WIDE FAMILY HOME | [European Commission Joint Research Centre · Juglans regia](https://forest.jrc.ec.europa.eu/media/atlas/Juglans_regia.pdf) |
+| 99 | Upper Mekong region ↔ Mekong Delta | WATER / HIGHLAND TO DELTA | [Mekong River Commission · Geography](https://www.mrcmekong.org/geography/) |
+| 100 | Middle Lena ↔ Lena Delta | WATER / INTO THE ARCTIC | [NASA Earth Observatory · Lena River Sedimentation](https://science.nasa.gov/earth/earth-observatory/lena-river-sedimentation-150076/) |

@@ -920,5 +920,301 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Ha%CA%BBamonga.jpg",
     "description": "Haʻamonga ʻa Maui"
+  },
+  "wadden": {
+    "Artist": "<a href=\"https://nl.wikipedia.org/wiki/User:Patlo@mail.com\" class=\"extiw\" title=\"nl:User:Patlo@mail.com\">Patlo@mail.com</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Vuurtorenschiermonnikoog.jpg",
+    "description": "Schiermonnikoog"
+  },
+  "waterton": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gorgo\" title=\"User:Gorgo\">Gorgo</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Watertonlake.jpg",
+    "description": "Waterton Lakes National Park"
+  },
+  "iguacu": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Enaldo_Valadares&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Enaldo Valadares (page does not exist)\">Enaldo Valadares</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Iguazu_Cataratas2.jpg",
+    "description": "Iguaçu National Park"
+  },
+  "zambezi": {
+    "Artist": "Brian McMorrow",
+    "LicenseShortName": "CC BY-SA 2.5",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Zambezi_River_at_junction_of_Namibia,_Zambia,_Zimbabwe_%26_Botswana.jpg",
+    "description": "Zambezi"
+  },
+  "victoria-falls": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg",
+    "description": "Victoria Falls"
+  },
+  "everest-nepal": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Argenberg\" title=\"User:Argenberg\">Vyacheslav Argenberg</a>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Valley,_Tengboche,_Mountains_of_Nepal.jpg",
+    "description": "Sagarmatha National Park"
+  },
+  "everest-tibet": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Oldmanisold&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Oldmanisold (page does not exist)\">Oldmanisold</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Rongbuk_Monastery_L1080321.jpg",
+    "description": "Rongbuk Monastery"
+  },
+  "western-ghats": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kondephy\" title=\"User:Kondephy\">Kondephy</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Munnar_Overview.jpg",
+    "description": "Munnar"
+  },
+  "arabian-sea": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Georgeumartin&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Georgeumartin (page does not exist)\">Georgeumartin</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Kovalam_beach_trivandrum_kerala.jpg",
+    "description": "Kovalam"
+  },
+  "bergen": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Bryggen,_Bergen,_Noruega,_2019-09-08,_DD_115-117_PAN.jpg",
+    "description": "Bryggen"
+  },
+  "lubeck": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161015000553/http://www.panoramio.com/user/476861?with_photo_id=30935544\">Oleg Dejan</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:L%C3%BCbeck_-_panoramio.jpg",
+    "description": "Lübeck"
+  },
+  "kilwa": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Khalidsalewa\" class=\"mw-redirect\" title=\"User:Khalidsalewa\">Khalidsalewa</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Great_Mosque_Kilwa_Interior.jpg",
+    "description": "Kilwa Kisiwani"
+  },
+  "great-zimbabwe": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/84985982@N00\">Andrew Moore</a> from Johannesburg, South Africa",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_III_(33736918448).jpg",
+    "description": "Great Zimbabwe"
+  },
+  "manila": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Baluartillo_de_San_Jos%C3%A9,_Manila,_Filipinas,_2023-08-26,_DD_41.jpg",
+    "description": "Intramuros"
+  },
+  "acapulco": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mitrush\" class=\"mw-redirect\" title=\"User:Mitrush\">Mitrush</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyscrapers_in_Acapulco_Diamante.jpg",
+    "description": "Acapulco"
+  },
+  "potosi": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Parallelepiped09&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Parallelepiped09 (page does not exist)\">Parallelepiped09</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Villa_Imperial_de_Potos%C3%AD.jpg",
+    "description": "Potosí"
+  },
+  "jaipur": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Knowledge_Seeker\" class=\"extiw\" title=\"en:User:Knowledge Seeker\">Knowledge Seeker</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Jantar_Mantar_at_Jaipur.jpg",
+    "description": "Jantar Mantar, Jaipur"
+  },
+  "bali-lake": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/89943077@N00\">Dmitry Baranovskiy</a> from Sydney, Australia",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Batur_%26_Mount_Abang_2013-11-10_(10849153196).jpg",
+    "description": "Lake Batur"
+  },
+  "petra": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Azurfrog\" title=\"User:Azurfrog\">Azurfrog</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Deir_Petra.JPG",
+    "description": "Petra"
+  },
+  "oman": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Diascanprojekt_Dunst\" title=\"User:Diascanprojekt Dunst\">Bernhard Dunst</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Dunst_Oman_scan0322_-_Burj_al_Nahda.jpg",
+    "description": "Salalah"
+  },
+  "mekong": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:B%C3%B9i_Th%E1%BB%A5y_%C4%90%C3%A0o_Nguy%C3%AAn\" title=\"User:Bùi Thụy Đào Nguyên\">Bùi Thụy Đào Nguyên</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:C%E1%BA%A7u_Cao_L%C3%A3nh.jpg",
+    "description": "Mekong Delta"
+  },
+  "lena": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:VasilyevaED&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:VasilyevaED (page does not exist)\">VasilyevaED</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D0%BD%D0%BE%D1%87%D0%B8_%D0%BD%D0%B0_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%9B%D0%A1.jpg",
+    "description": "Lena Pillars"
+  },
+  "ecuador-inca": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Notafish\" title=\"User:Notafish\">Delphine Ménard</a>",
+    "LicenseShortName": "CC BY-SA 2.0 fr",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ecuador_ingapirca_inca_ruins.jpg",
+    "description": "Ingapirca"
+  },
+  "chalk": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Immanuel_Giel\" title=\"User:Immanuel Giel\">Immanuel Giel</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:White_Cliffs_of_Dover_02.JPG",
+    "description": "White Cliffs of Dover"
+  },
+  "senegal": {
+    "Artist": "Jim Williams",
+    "LicenseShortName": "CC BY-SA 3.0 igo",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Island_of_Saint-Louis-113799.jpg",
+    "description": "Saint-Louis, Senegal"
+  },
+  "french-chalk": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:JackyM59\" title=\"User:JackyM59\">JackyM59</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cap_Blanc-Nez_(vu_de_la_plage).jpg",
+    "description": "Cap Blanc Nez"
+  },
+  "peanut-origin": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/8146925@N08\">Ángel M. Felicísimo</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Bolivia,_Ambor%C3%B3_National_Park,_2009.jpg",
+    "description": "Amboró National Park"
+  },
+  "lena-delta": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Faguean&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Faguean (page does not exist)\">Фаге Алексей Николаевич</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%A2%D1%83%D0%BC%D0%B0%D1%82%D1%81%D0%BA%D0%BE%D0%B9.tif",
+    "description": "Lena Delta Wildlife Reserve"
+  },
+  "mekong-upper": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:%E7%91%9E%E4%B8%BD%E6%B1%9F%E7%9A%84%E6%B2%B3%E6%B0%B4\" title=\"User:瑞丽江的河水\">瑞丽江的河水</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%A2%85%E9%87%8C%E9%9B%AA%E5%B1%B1_-_%E6%A0%B8%E5%BF%83%E5%B1%B1%E5%B3%B0%E5%85%A8%E6%99%AF_-_2025-05-10_IMG_3463.jpg",
+    "description": "Meili Snow Mountains"
+  },
+  "benguela": {
+    "Artist": "Brian McMorrow",
+    "LicenseShortName": "CC BY-SA 2.5",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Walvis_Bay_aerial.jpg",
+    "description": "Walvis Bay"
+  },
+  "seville": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Imehling\" title=\"User:Imehling\">Ingo Mehling</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sevilla_Cathedral_-_Southeast.jpg",
+    "description": "Seville"
+  },
+  "glacier": {
+    "Artist": "David Restivo, <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43288043@N04\">National Park Service</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_McDonald_winter.jpg",
+    "description": "Lake McDonald"
+  },
+  "iguazu": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mariordo\" title=\"User:Mariordo\">Mariordo (Mario Roberto Durán Ortiz)</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg",
+    "description": "Iguazu Falls"
+  },
+  "kujataa": {
+    "Artist": "Hamish Laird",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Brattachurch.jpg",
+    "description": "Qassiarsuk"
+  },
+  "wadden-germany": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Phantom3Pix\" title=\"User:Phantom3Pix\">Marco Leiter</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Leuchtturm_in_Westerheversand_crop.jpg",
+    "description": "Westerheversand Lighthouse"
+  },
+  "cork": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Parnacor15&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Parnacor15 (page does not exist)\">Parnacor15</a>",
+    "LicenseShortName": "CC BY-SA 3.0 es",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/es/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Dehesa_de_encinas_en_invierno.jpg",
+    "description": "Montado"
+  },
+  "bali-terraces": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Snowmanstudios\" class=\"mw-redirect\" title=\"User:Snowmanstudios\">Thomas Fuhrmann</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Rice_terraces_on_Bali_-_Tegalalang_Rice_Terrace_-_Indonesia_04.jpg",
+    "description": "File:Rice terraces on Bali - Tegalalang Rice Terrace - Indonesia 04.jpg"
   }
 }
