@@ -3703,5 +3703,1250 @@
     },
     "reviewedOn": "2026-11-05",
     "mapNote": "Schematic connection from a Tongan eruption region to northeastern Australia, not an exact raft track or landing site."
+  },
+  {
+    "id": "wadden-shores",
+    "category": "COAST / SHARED HABITAT",
+    "title": "Two coastlines belong to one tidal world.",
+    "teaser": "Dutch and German shores share a landscape shaped by the same sea.",
+    "from": {
+      "name": "Dutch Wadden Sea",
+      "detail": "The Netherlands",
+      "image": "wadden",
+      "lat": 53.5,
+      "lng": 6.2
+    },
+    "to": {
+      "name": "German Wadden Sea",
+      "detail": "Germany",
+      "image": "wadden-germany",
+      "lat": 54.3,
+      "lng": 8.6
+    },
+    "question": "What connects these coasts beyond their national border?",
+    "options": [
+      "One continuous tidal-flat ecosystem",
+      "A single freshwater lake",
+      "An unbroken line of mountain glaciers"
+    ],
+    "correct": 0,
+    "reveal": "The tide does not stop at a border.",
+    "steps": [
+      {
+        "label": "EXPOSE",
+        "text": "Tides uncover broad flats, channels, and sandbanks along the Wadden Sea."
+      },
+      {
+        "label": "CONNECT",
+        "text": "This dynamic coastal system extends through the Netherlands, Germany, and Denmark."
+      },
+      {
+        "label": "PROTECT",
+        "text": "Its habitats support abundant wildlife, including migrating birds. Shared protection reflects an ecosystem larger than any one national shoreline."
+      }
+    ],
+    "takeaway": "Ecological boundaries and political boundaries rarely match exactly.",
+    "source": {
+      "name": "UNESCO · Wadden Sea",
+      "url": "https://whc.unesco.org/en/list/1314/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative connection between the named regions, not an exact route. Photographs show the places or their wider landscapes."
+  },
+  {
+    "id": "peace-park",
+    "category": "CONSERVATION / BORDERLESS MOUNTAINS",
+    "title": "A border runs through a shared mountain landscape.",
+    "teaser": "Waterton and Glacier turned neighbouring parks into a symbol of cooperation.",
+    "from": {
+      "name": "Waterton Lakes",
+      "detail": "Alberta, Canada",
+      "image": "waterton",
+      "lat": 49.05,
+      "lng": -113.9
+    },
+    "to": {
+      "name": "Glacier National Park",
+      "detail": "Montana, United States",
+      "image": "glacier",
+      "lat": 48.7,
+      "lng": -113.8
+    },
+    "question": "What connects Waterton Lakes and Glacier National Parks?",
+    "options": [
+      "A single lake draining into the Caribbean",
+      "A shared International Peace Park",
+      "A protected region created solely for mineral extraction"
+    ],
+    "correct": 1,
+    "reveal": "Two countries can care for one connected landscape.",
+    "steps": [
+      {
+        "label": "NEIGHBOUR",
+        "text": "The parks meet at the Canada–United States border in the Rocky Mountains."
+      },
+      {
+        "label": "JOIN",
+        "text": "In 1932 they were brought together as an International Peace Park."
+      },
+      {
+        "label": "COOPERATE",
+        "text": "Their mountain, prairie, forest, and alpine environments form a connected ecological region. Cooperation helps address a landscape that wildlife experiences without passport controls."
+      }
+    ],
+    "takeaway": "Conservation can connect countries as well as habitats.",
+    "source": {
+      "name": "UNESCO · Waterton Glacier International Peace Park",
+      "url": "https://whc.unesco.org/en/list/354/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative connection between the named regions, not an exact route. Photographs show the places or their wider landscapes."
+  },
+  {
+    "id": "iguazu-neighbours",
+    "category": "WATER / TWO PERSPECTIVES",
+    "title": "One waterfall has two national viewpoints.",
+    "teaser": "Argentina’s Iguazú and Brazil’s Iguaçu protect neighbouring parts of one spectacle.",
+    "from": {
+      "name": "Iguazú region",
+      "detail": "Argentina",
+      "image": "iguazu",
+      "lat": -25.69,
+      "lng": -54.45
+    },
+    "to": {
+      "name": "Iguaçu National Park",
+      "detail": "Brazil",
+      "image": "iguacu",
+      "lat": -25.6,
+      "lng": -54.4
+    },
+    "question": "Why do both countries have parks associated with these falls?",
+    "options": [
+      "Two unrelated rivers happen to have the same name",
+      "The falls were constructed as two separate city gardens",
+      "The falls and surrounding forests span their border"
+    ],
+    "correct": 2,
+    "reveal": "Different viewpoints can reveal the same connected landscape.",
+    "steps": [
+      {
+        "label": "FLOW",
+        "text": "The Iguazú River crosses a landscape where water drops over a broad basaltic escarpment."
+      },
+      {
+        "label": "SHARE",
+        "text": "The waterfall system lies at the Argentina–Brazil border, with protected areas on both sides."
+      },
+      {
+        "label": "SEE",
+        "text": "Each park offers its own view, but the river and surrounding Atlantic Forest form a shared natural setting."
+      }
+    ],
+    "takeaway": "A border can divide the map without dividing the natural wonder.",
+    "source": {
+      "name": "UNESCO · Iguazu National Park",
+      "url": "https://whc.unesco.org/en/list/303/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Neighbouring protected areas around a shared waterfall, not a long-distance river route. The map is schematic at this scale."
+  },
+  {
+    "id": "zambezi-falls",
+    "category": "WATER / RIVER TO GORGE",
+    "title": "A river’s calm surface ends in a dramatic drop.",
+    "teaser": "The Zambezi connects Zambia with the falls shared with Zimbabwe.",
+    "from": {
+      "name": "Upper Zambezi",
+      "detail": "Zambia, river region",
+      "image": "zambezi",
+      "lat": -17.3,
+      "lng": 25.4
+    },
+    "to": {
+      "name": "Mosi-oa-Tunya / Victoria Falls",
+      "detail": "Zambia–Zimbabwe border",
+      "image": "victoria-falls",
+      "lat": -17.925,
+      "lng": 25.86
+    },
+    "question": "Which river creates Mosi-oa-Tunya / Victoria Falls?",
+    "options": [
+      "The Zambezi",
+      "The Rhine",
+      "The Amazon"
+    ],
+    "correct": 0,
+    "reveal": "The spectacle belongs to a whole river system.",
+    "steps": [
+      {
+        "label": "APPROACH",
+        "text": "The Zambezi brings water from a wide upstream catchment toward the border region."
+      },
+      {
+        "label": "DROP",
+        "text": "At the falls, the river plunges into a narrow gorge, producing powerful spray."
+      },
+      {
+        "label": "CONTINUE",
+        "text": "The shared heritage area includes protected land in both Zambia and Zimbabwe. The water continues downstream rather than ending at the famous viewpoint."
+      }
+    ],
+    "takeaway": "A waterfall is one moment in a river’s much longer journey.",
+    "source": {
+      "name": "UNESCO · Mosi-oa-Tunya / Victoria Falls",
+      "url": "https://whc.unesco.org/en/list/509/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative connection between the named regions, not an exact route. Photographs show the places or their wider landscapes."
+  },
+  {
+    "id": "everest-border",
+    "category": "MOUNTAINS / SHARED SUMMIT",
+    "title": "Two approaches lead toward one summit.",
+    "teaser": "Nepal and Tibet look toward different faces of Everest.",
+    "from": {
+      "name": "Nepalese Himalaya",
+      "detail": "Southern approach region",
+      "image": "everest-nepal",
+      "lat": 27.98,
+      "lng": 86.85
+    },
+    "to": {
+      "name": "Tibetan Himalaya",
+      "detail": "Northern approach region, China",
+      "image": "everest-tibet",
+      "lat": 28.19,
+      "lng": 86.83
+    },
+    "question": "What connects the mountain landscapes on these two sides?",
+    "options": [
+      "They overlook unrelated summits with the same height",
+      "Everest’s summit lies on the Nepal–China border",
+      "They are two names for the same national park"
+    ],
+    "correct": 1,
+    "reveal": "One mountain can belong to more than one geographical story.",
+    "steps": [
+      {
+        "label": "LOCATE",
+        "text": "Everest rises along the Himalayan boundary between Nepal and China."
+      },
+      {
+        "label": "APPROACH",
+        "text": "Southern and northern valleys provide different views and approaches to the same massif."
+      },
+      {
+        "label": "READ",
+        "text": "Maps show the international boundary crossing the summit. A mountain’s physical geography can unite landscapes that maps place in separate administrative worlds."
+      }
+    ],
+    "takeaway": "A summit can be shared even when the approaches differ.",
+    "source": {
+      "name": "Library of Congress · The highest point from sea level",
+      "url": "https://blogs.loc.gov/maps/2018/03/extremities-of-the-earth-the-highest-point-from-sea-level/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Regional viewpoints on opposite sides of the massif, not a climbing route or travel advice."
+  },
+  {
+    "id": "ghats-monsoon",
+    "category": "CLIMATE / OCEAN TO MOUNTAIN",
+    "title": "A mountain range changes the rain arriving from a sea.",
+    "teaser": "The Arabian Sea and Western Ghats help shape western India’s monsoon landscape.",
+    "from": {
+      "name": "Arabian Sea coast",
+      "detail": "Kerala, India",
+      "image": "arabian-sea",
+      "lat": 8.4,
+      "lng": 76.97
+    },
+    "to": {
+      "name": "Western Ghats",
+      "detail": "Southern India",
+      "image": "western-ghats",
+      "lat": 10.1,
+      "lng": 77.1
+    },
+    "question": "Why can the Western Ghats receive heavy summer monsoon rain?",
+    "options": [
+      "Rainfall comes only from winter snowmelt",
+      "Moist summer winds always bypass the mountains",
+      "Moist monsoon air encounters rising terrain"
+    ],
+    "correct": 2,
+    "reveal": "Terrain helps turn moving moisture into rain.",
+    "steps": [
+      {
+        "label": "ARRIVE",
+        "text": "Summer monsoon flows bring moist air toward India’s western coast."
+      },
+      {
+        "label": "INTERACT",
+        "text": "The Western Ghats alter how this air moves and where rainfall develops."
+      },
+      {
+        "label": "CONTRAST",
+        "text": "Rainfall can differ sharply across the range. Ocean conditions, winds, and terrain work together rather than any single factor controlling every storm."
+      }
+    ],
+    "takeaway": "To understand a mountain’s rainfall, look beyond the mountain.",
+    "source": {
+      "name": "India Meteorological Department · Monsoon questions",
+      "url": "https://imdpune.gov.in/faq_monsoon.php"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative coastal and mountain regions; not a storm trajectory or rainfall forecast."
+  },
+  {
+    "id": "benguela-foodweb",
+    "category": "OCEAN / HIDDEN PRODUCTIVITY",
+    "title": "A dry coast meets a productive ocean.",
+    "teaser": "The Namib shore is linked with the nutrient-rich Benguela system.",
+    "from": {
+      "name": "Namib coast",
+      "detail": "Southwestern Africa",
+      "image": "namib",
+      "lat": -24,
+      "lng": 14.5
+    },
+    "to": {
+      "name": "Benguela region",
+      "detail": "Southeastern Atlantic",
+      "image": "benguela",
+      "lat": -30,
+      "lng": 16
+    },
+    "question": "What helps support rich marine food webs beside this arid coast?",
+    "options": [
+      "Upwelling that brings nutrients toward sunlit waters",
+      "Warm water permanently prevents nutrients reaching the surface",
+      "Its productivity depends entirely on large rainforest rivers"
+    ],
+    "correct": 0,
+    "reveal": "Dry land does not mean an unproductive neighbouring sea.",
+    "steps": [
+      {
+        "label": "UPWELL",
+        "text": "Winds and circulation bring cold, nutrient-rich deeper water toward the surface."
+      },
+      {
+        "label": "GROW",
+        "text": "Microscopic photosynthetic organisms use available light and nutrients, supporting marine food webs."
+      },
+      {
+        "label": "LINK",
+        "text": "The Benguela system shows why the climate of a coast and the biological productivity offshore can tell very different stories."
+      }
+    ],
+    "takeaway": "Life at sea depends on processes invisible from the beach.",
+    "source": {
+      "name": "UNESCO · Benguela Current Marine Ecosystem Sites",
+      "url": "https://whc.unesco.org/en/tentativelists/6094/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative coastal ecosystem regions, not a current track. Photographs show the Namib and Walvis Bay coast, not an underwater food web."
+  },
+  {
+    "id": "african-rifting",
+    "category": "EARTH / PLATES PULLING APART",
+    "title": "A valley and a sea share a tectonic theme.",
+    "teaser": "East Africa and the Red Sea help reveal how Earth’s crust stretches.",
+    "from": {
+      "name": "East African Rift",
+      "detail": "Kenya, continental rift region",
+      "image": "kenya",
+      "lat": -1,
+      "lng": 36
+    },
+    "to": {
+      "name": "Red Sea",
+      "detail": "Africa–Arabia boundary region",
+      "image": "red-sea",
+      "lat": 18,
+      "lng": 39
+    },
+    "question": "What broad process links these regions?",
+    "options": [
+      "A single river eroded both from end to end",
+      "Tectonic plates are moving apart",
+      "Both are parts of one enormous meteorite crater"
+    ],
+    "correct": 1,
+    "reveal": "Continents can change through stretching as well as collision.",
+    "steps": [
+      {
+        "label": "STRETCH",
+        "text": "Rifting stretches Earth’s crust, producing faults and changing the landscape."
+      },
+      {
+        "label": "COMPARE",
+        "text": "The East African Rift and Red Sea are parts of a wider tectonic setting involving Africa and Arabia."
+      },
+      {
+        "label": "DISTINGUISH",
+        "text": "They represent different settings and stages of extension. A continental valley should not be mistaken for an ocean that will appear on a predictable human timetable."
+      }
+    ],
+    "takeaway": "A landscape can record Earth pulling apart beneath it.",
+    "source": {
+      "name": "USGS · East African Rift seismicity",
+      "url": "https://www.usgs.gov/publications/seismicity-earth-1900-2013-east-african-rift"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Comparison of tectonic regions, not a single fault line or a prediction of when a continent will separate."
+  },
+  {
+    "id": "norse-greenland",
+    "category": "HISTORY / NORTH ATLANTIC",
+    "title": "Farming crossed a cold ocean.",
+    "teaser": "Iceland and southern Greenland share a chapter of Norse settlement.",
+    "from": {
+      "name": "Iceland",
+      "detail": "North Atlantic departure region",
+      "image": "laki",
+      "lat": 64,
+      "lng": -20
+    },
+    "to": {
+      "name": "Southern Greenland",
+      "detail": "Kujataa farming landscape region",
+      "image": "kujataa",
+      "lat": 61,
+      "lng": -45.5
+    },
+    "question": "What historical connection is preserved in Greenland’s Kujataa landscape?",
+    "options": [
+      "An unbroken medieval land border",
+      "A shared Roman grain-growing colony",
+      "Norse farmer-hunters arriving from Iceland"
+    ],
+    "correct": 2,
+    "reveal": "A northern landscape preserves more than one farming tradition.",
+    "steps": [
+      {
+        "label": "CROSS",
+        "text": "Norse settlers began arriving in southern Greenland from Iceland in the tenth century."
+      },
+      {
+        "label": "ADAPT",
+        "text": "They developed farming and hunting livelihoods within challenging northern conditions."
+      },
+      {
+        "label": "LAYER",
+        "text": "Kujataa also records later Inuit farming communities. These are distinct histories within a landscape shaped by people and climate."
+      }
+    ],
+    "takeaway": "An island’s history can be connected to distant shores without being defined by just one arrival.",
+    "source": {
+      "name": "UNESCO · Kujataa Greenland",
+      "url": "https://whc.unesco.org/en/list/1536/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Historical regional connection, not a reconstructed sailing track. Photographs illustrate the wider island landscapes."
+  },
+  {
+    "id": "hanseatic-wharves",
+    "category": "HISTORY / MERCHANT NETWORKS",
+    "title": "Two northern ports shared a commercial language.",
+    "teaser": "Bergen and Lübeck belonged to the Hanseatic world.",
+    "from": {
+      "name": "Bryggen, Bergen",
+      "detail": "Norway",
+      "image": "bergen",
+      "lat": 60.4,
+      "lng": 5.32
+    },
+    "to": {
+      "name": "Lübeck",
+      "detail": "Germany",
+      "image": "lubeck",
+      "lat": 53.87,
+      "lng": 10.69
+    },
+    "question": "What historical network connects these two port cities?",
+    "options": [
+      "The Hanseatic trading network",
+      "The Inca road system",
+      "A shared Pacific fishing treaty"
+    ],
+    "correct": 0,
+    "reveal": "A harbour can preserve the architecture of exchange.",
+    "steps": [
+      {
+        "label": "TRADE",
+        "text": "Merchants connected ports around northern Europe through networks of trade and commercial privileges."
+      },
+      {
+        "label": "STORE",
+        "text": "Bryggen’s wharf buildings preserve evidence of Bergen’s role in this Hanseatic world."
+      },
+      {
+        "label": "CONNECT",
+        "text": "Lübeck was another major Hanseatic centre. The relationship was part of a network of cities rather than a single national empire."
+      }
+    ],
+    "takeaway": "City histories can be shaped by partnerships across the sea.",
+    "source": {
+      "name": "UNESCO · Bryggen",
+      "url": "https://whc.unesco.org/en/list/59/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic link within a wider Hanseatic network, not one documented ship’s course.",
+    "sources": [
+      {
+        "name": "UNESCO · Bryggen",
+        "url": "https://whc.unesco.org/en/list/59/"
+      },
+      {
+        "name": "UNESCO · Hanseatic City of Lübeck",
+        "url": "https://whc.unesco.org/en/list/272/"
+      }
+    ]
+  },
+  {
+    "id": "kilwa-ocean",
+    "category": "HISTORY / SWAHILI CONNECTIONS",
+    "title": "An African island port looked across an ocean.",
+    "teaser": "Kilwa’s prosperity connected East Africa with India and other distant markets.",
+    "from": {
+      "name": "Kilwa Kisiwani",
+      "detail": "Swahili coast, Tanzania",
+      "image": "kilwa",
+      "lat": -8.96,
+      "lng": 39.52
+    },
+    "to": {
+      "name": "India",
+      "detail": "Indian Ocean trading region",
+      "image": "chennai",
+      "lat": 13.1,
+      "lng": 80.3
+    },
+    "question": "Why did Kilwa become a prosperous trading city?",
+    "options": [
+      "Its merchants served only local island markets",
+      "It participated in far-reaching Indian Ocean trade",
+      "Its wealth came entirely from inland coal mining"
+    ],
+    "correct": 1,
+    "reveal": "East African history belongs within the history of ocean exchange.",
+    "steps": [
+      {
+        "label": "GATHER",
+        "text": "Ports on the Swahili coast connected inland African goods with maritime merchants."
+      },
+      {
+        "label": "EXCHANGE",
+        "text": "Kilwa participated in trade with Arabia, India, and China, exchanging goods across the Indian Ocean."
+      },
+      {
+        "label": "REMEMBER",
+        "text": "Its surviving buildings preserve the history of an African urban society whose wealth and cultural contacts reached well beyond its island."
+      }
+    ],
+    "takeaway": "An ocean can connect cities rather than isolate them.",
+    "source": {
+      "name": "UNESCO · Kilwa Kisiwani and Songo Mnara",
+      "url": "https://whc.unesco.org/en/list/144/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "India represents a broad trading region. The Chennai photo is illustrative, not evidence of an exclusive Kilwa–Chennai route."
+  },
+  {
+    "id": "zimbabwe-coast",
+    "category": "ARCHAEOLOGY / INLAND CONNECTIONS",
+    "title": "An inland stone city held objects from overseas.",
+    "teaser": "Great Zimbabwe’s archaeology connects it with the Swahili coast.",
+    "from": {
+      "name": "Great Zimbabwe",
+      "detail": "Southern Africa",
+      "image": "great-zimbabwe",
+      "lat": -20.27,
+      "lng": 30.93
+    },
+    "to": {
+      "name": "Kilwa Kisiwani",
+      "detail": "Indian Ocean coast",
+      "image": "kilwa",
+      "lat": -8.96,
+      "lng": 39.52
+    },
+    "question": "What helps show that Great Zimbabwe was connected with distant trade?",
+    "options": [
+      "Identical bedrock beneath every building",
+      "Proof that all objects were manufactured within the city",
+      "Imported objects and coins found by archaeologists"
+    ],
+    "correct": 2,
+    "reveal": "A city does not need a harbour to join an ocean economy.",
+    "steps": [
+      {
+        "label": "BUILD",
+        "text": "Great Zimbabwe developed as a major centre with striking stone architecture."
+      },
+      {
+        "label": "DISCOVER",
+        "text": "Excavations have revealed imported materials, including porcelain and coins associated with Kilwa."
+      },
+      {
+        "label": "INFER",
+        "text": "Such objects demonstrate participation in wider exchange networks. They need not mean that every object travelled directly between its maker and the city."
+      }
+    ],
+    "takeaway": "Small finds can reveal the large reach of an inland society.",
+    "source": {
+      "name": "UNESCO · Great Zimbabwe National Monument",
+      "url": "https://whc.unesco.org/en/list/364/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative exchange-network connection, not a proven direct caravan itinerary."
+  },
+  {
+    "id": "manila-galleons",
+    "category": "HISTORY / PACIFIC COMMERCE",
+    "title": "Two ports stitched together an ocean economy.",
+    "teaser": "Manila and Acapulco connected Asian goods with American silver.",
+    "from": {
+      "name": "Manila",
+      "detail": "Philippines",
+      "image": "manila",
+      "lat": 14.59,
+      "lng": 120.98
+    },
+    "to": {
+      "name": "Acapulco",
+      "detail": "Mexico",
+      "image": "acapulco",
+      "lat": 16.85,
+      "lng": -99.91
+    },
+    "question": "What was a central exchange in the Manila galleon trade?",
+    "options": [
+      "Asian goods and silver from the Americas",
+      "European wheat sent directly to Chinese mountain mines",
+      "An exchange limited to locally caught fish"
+    ],
+    "correct": 0,
+    "reveal": "The Pacific was part of an early global trading system.",
+    "steps": [
+      {
+        "label": "COLLECT",
+        "text": "Manila brought together goods from Asian markets, including silks and porcelain."
+      },
+      {
+        "label": "CROSS",
+        "text": "Galleons carried cargo across the Pacific to Acapulco, while silver moved in the other direction."
+      },
+      {
+        "label": "CONSIDER",
+        "text": "The system joined continents through commerce within Spanish colonial power. Its objects can reveal exchange as well as inequality."
+      }
+    ],
+    "takeaway": "A decorative object can contain a trans-Pacific journey.",
+    "source": {
+      "name": "Metropolitan Museum of Art · Manila Galleon Trade",
+      "url": "https://www.metmuseum.org/essays/the-manila-galleon-trade-1565-1815"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic endpoints only; historical outward and return passages followed different courses."
+  },
+  {
+    "id": "potosi-silver",
+    "category": "EARTH / GLOBAL ECONOMIES",
+    "title": "A mountain’s metal changed distant markets.",
+    "teaser": "Potosí’s silver linked Andean mining with Seville and the wider world.",
+    "from": {
+      "name": "Potosí",
+      "detail": "Bolivia, Andean mining city",
+      "image": "potosi",
+      "lat": -19.58,
+      "lng": -65.75
+    },
+    "to": {
+      "name": "Seville region",
+      "detail": "Spain, colonial trade gateway",
+      "image": "seville",
+      "lat": 37.39,
+      "lng": -5.99
+    },
+    "question": "What commodity connected colonial Potosí with Spain’s global economy?",
+    "options": [
+      "Tea grown on glaciers",
+      "Silver extracted from its mountain",
+      "North Sea salt cod"
+    ],
+    "correct": 1,
+    "reveal": "A distant coin could begin with an Andean mining community.",
+    "steps": [
+      {
+        "label": "MINE",
+        "text": "Silver extraction around Cerro Rico drove the growth of Potosí."
+      },
+      {
+        "label": "CIRCULATE",
+        "text": "Precious metals entered Spanish trade and monetary networks, with effects far beyond the Andes."
+      },
+      {
+        "label": "REMEMBER",
+        "text": "The resulting wealth depended on intensive and often coerced labour. Mine workings, mills, and workers’ districts are part of the same history."
+      }
+    ],
+    "takeaway": "Global wealth has local landscapes and human costs.",
+    "source": {
+      "name": "UNESCO · City of Potosí",
+      "url": "https://whc.unesco.org/en/list/420/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic economic connection through a multi-stage colonial network, not a direct sailing route from an inland city."
+  },
+  {
+    "id": "monumental-astronomy",
+    "category": "SCIENCE / SHARED SKY",
+    "title": "Two cities turned measurement into architecture.",
+    "teaser": "Jaipur and Samarkand represent a wider tradition of monumental astronomy.",
+    "from": {
+      "name": "Jaipur",
+      "detail": "India, Jantar Mantar observatory",
+      "image": "jaipur",
+      "lat": 26.925,
+      "lng": 75.824
+    },
+    "to": {
+      "name": "Samarkand",
+      "detail": "Uzbekistan, historical astronomy region",
+      "image": "samarkand",
+      "lat": 39.67,
+      "lng": 66.99
+    },
+    "question": "What broad tradition links these centres?",
+    "options": [
+      "Using monumental instruments to measure positions in the sky",
+      "Forecasting weather solely from river depths",
+      "Using buildings primarily as sea-navigation beacons"
+    ],
+    "correct": 0,
+    "reveal": "Different cultures worked on shared questions about the sky.",
+    "steps": [
+      {
+        "label": "OBSERVE",
+        "text": "Before electronic instruments, observers used carefully aligned structures to measure celestial positions."
+      },
+      {
+        "label": "COMPARE",
+        "text": "Jaipur’s Jantar Mantar belongs to a positional-astronomy tradition shared across several civilizations."
+      },
+      {
+        "label": "EXCHANGE",
+        "text": "Samarkand was another important centre in that wider history. The comparison highlights connected scientific traditions, not a claim that one site was simply copied from the other."
+      }
+    ],
+    "takeaway": "Knowledge can connect places through methods as well as merchandise.",
+    "source": {
+      "name": "UNESCO · Jantar Mantar, Jaipur",
+      "url": "https://whc.unesco.org/en/list/1338/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Comparison of astronomical traditions, not a documented journey or a direct instrument transfer.",
+    "sources": [
+      {
+        "name": "UNESCO · Jantar Mantar, Jaipur",
+        "url": "https://whc.unesco.org/en/list/1338/"
+      },
+      {
+        "name": "UNESCO · Samarkand, Crossroad of Cultures",
+        "url": "https://whc.unesco.org/en/list/603/"
+      }
+    ]
+  },
+  {
+    "id": "bali-water",
+    "category": "LANDSCAPE / COOPERATION",
+    "title": "A rice terrace is part of a social network.",
+    "teaser": "Bali’s water landscapes connect farming, temples, and collective decisions.",
+    "from": {
+      "name": "Batur region",
+      "detail": "Bali, water-temple landscape",
+      "image": "bali-lake",
+      "lat": -8.25,
+      "lng": 115.39
+    },
+    "to": {
+      "name": "Tegallalang terraces",
+      "detail": "Bali, subak landscape",
+      "image": "bali-terraces",
+      "lat": -8.43,
+      "lng": 115.28
+    },
+    "question": "What helps coordinate irrigation in Bali’s subak landscapes?",
+    "options": [
+      "A solitary farmer controlling every river on the island",
+      "Fixed river channels requiring no human organisation",
+      "Cooperative water-management institutions"
+    ],
+    "correct": 2,
+    "reveal": "A beautiful field can be a record of collective organisation.",
+    "steps": [
+      {
+        "label": "CHANNEL",
+        "text": "Bali’s rice terraces depend on organised water distribution through irrigation systems."
+      },
+      {
+        "label": "COOPERATE",
+        "text": "Subak associations and water temples connect farmers with shared rules and responsibilities."
+      },
+      {
+        "label": "INTERPRET",
+        "text": "Lake Batur has an important cultural place in this landscape. The connection is a social and cultural system, not a claim that every terrace is supplied directly by the lake."
+      }
+    ],
+    "takeaway": "Geography includes the agreements people make to share resources.",
+    "source": {
+      "name": "UNESCO · Cultural Landscape of Bali Province",
+      "url": "https://whc.unesco.org/en/list/1194/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "A cultural and irrigation-system connection, not a pipe or river directly linking Lake Batur to the pictured terrace region."
+  },
+  {
+    "id": "andean-roads",
+    "category": "HISTORY / MOUNTAIN NETWORKS",
+    "title": "A mountain barrier became a corridor.",
+    "teaser": "Peru and Ecuador are linked by the heritage of the Qhapaq Ñan.",
+    "from": {
+      "name": "Peruvian Andes",
+      "detail": "Andean road-system region",
+      "image": "andes",
+      "lat": -9,
+      "lng": -77
+    },
+    "to": {
+      "name": "Ingapirca region",
+      "detail": "Ecuador",
+      "image": "ecuador-inca",
+      "lat": -2.54,
+      "lng": -78.87
+    },
+    "question": "What was the Qhapaq Ñan?",
+    "options": [
+      "A vast Andean road network",
+      "A single canal across the Pacific",
+      "A modern railway linking only two capitals"
+    ],
+    "correct": 0,
+    "reveal": "Routes helped connect very different Andean environments.",
+    "steps": [
+      {
+        "label": "BUILD",
+        "text": "Andean peoples developed routes across difficult mountain and coastal terrain; the Inca expanded and organised a major network."
+      },
+      {
+        "label": "LINK",
+        "text": "Roads connected communities, administrative centres, and environments across a long north–south region."
+      },
+      {
+        "label": "PRESERVE",
+        "text": "Surviving sections are shared heritage across six modern countries. Peru and Ecuador represent two parts of that larger system."
+      }
+    ],
+    "takeaway": "A mountain range can connect societies when people build ways through it.",
+    "source": {
+      "name": "UNESCO · Qhapaq Ñan, Andean Road System",
+      "url": "https://whc.unesco.org/en/list/1459/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Representative regions within a much larger road system, not a traced surviving road segment."
+  },
+  {
+    "id": "petra-crossroads",
+    "category": "HISTORY / DESERT NETWORKS",
+    "title": "A desert city prospered by connecting other places.",
+    "teaser": "Petra linked inland caravan routes with the Mediterranean world.",
+    "from": {
+      "name": "Petra",
+      "detail": "Jordan",
+      "image": "petra",
+      "lat": 30.33,
+      "lng": 35.44
+    },
+    "to": {
+      "name": "Eastern Mediterranean",
+      "detail": "Regional destination markets",
+      "image": "mediterranean",
+      "lat": 32.3,
+      "lng": 34.8
+    },
+    "question": "What helped make Petra an important city?",
+    "options": [
+      "A harbour on the Atlantic",
+      "Its role as a caravan crossroads with sophisticated water management",
+      "Heavy rainfall throughout every season"
+    ],
+    "correct": 1,
+    "reveal": "A dry setting can become a hub when routes and water meet.",
+    "steps": [
+      {
+        "label": "MEET",
+        "text": "Caravan routes connected Arabia, Egypt, and the Mediterranean world through this region."
+      },
+      {
+        "label": "SUSTAIN",
+        "text": "Petra’s inhabitants engineered systems to collect, store, and distribute scarce water."
+      },
+      {
+        "label": "PROSPER",
+        "text": "Its location and infrastructure supported a city with far-reaching contacts and architectural influences."
+      }
+    ],
+    "takeaway": "A city’s importance can come from what passes through it.",
+    "source": {
+      "name": "UNESCO · Petra",
+      "url": "https://whc.unesco.org/en/list/326/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic link within a caravan network, not an exact road or a named shipment destination."
+  },
+  {
+    "id": "frankincense",
+    "category": "PLANTS / AROMATIC ROUTES",
+    "title": "A tree resin drew distant trading partners.",
+    "teaser": "Oman’s frankincense landscapes connect with the Indian Ocean.",
+    "from": {
+      "name": "Dhofar",
+      "detail": "Southern Oman",
+      "image": "oman",
+      "lat": 17.1,
+      "lng": 54.1
+    },
+    "to": {
+      "name": "Indian Ocean ports",
+      "detail": "India, illustrative trading region",
+      "image": "chennai",
+      "lat": 13.1,
+      "lng": 80.3
+    },
+    "question": "What valuable product came from frankincense trees?",
+    "options": [
+      "A resin used for its fragrance",
+      "A dye extracted from palm leaves",
+      "A building stone taken from riverbeds"
+    ],
+    "correct": 0,
+    "reveal": "A scent can carry a geography of trees, ports, and caravans.",
+    "steps": [
+      {
+        "label": "HARVEST",
+        "text": "Frankincense is an aromatic resin obtained from particular trees."
+      },
+      {
+        "label": "MOVE",
+        "text": "Dhofar’s groves, caravan sites, and ports preserve evidence of a long-distance trade."
+      },
+      {
+        "label": "CONNECT",
+        "text": "The network reached across the ancient world, including the Indian Ocean. Regional prosperity depended on connecting a local resource with distant demand."
+      }
+    ],
+    "takeaway": "A familiar fragrance can have an international history.",
+    "source": {
+      "name": "UNESCO · Land of Frankincense",
+      "url": "https://whc.unesco.org/en/list/1010/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative Indian Ocean trading connection, not evidence of an exclusive route to the pictured Indian city."
+  },
+  {
+    "id": "channel-chalk",
+    "category": "EARTH / SHARED SEABED",
+    "title": "Two white coastlines tell a related story.",
+    "teaser": "Kent and northern France share chalk landscapes across the Channel.",
+    "from": {
+      "name": "Kent coast",
+      "detail": "Southern England",
+      "image": "chalk",
+      "lat": 51.13,
+      "lng": 1.34
+    },
+    "to": {
+      "name": "Pas-de-Calais coast",
+      "detail": "Northern France",
+      "image": "french-chalk",
+      "lat": 50.93,
+      "lng": 1.71
+    },
+    "question": "What connects these coastal landscapes geologically?",
+    "options": [
+      "White dunes deposited by desert winds",
+      "Chalk formations recording an ancient marine environment",
+      "Recent lava hardened into pale coastal rock"
+    ],
+    "correct": 1,
+    "reveal": "The sea between them does not erase their geological relationship.",
+    "steps": [
+      {
+        "label": "DEPOSIT",
+        "text": "Chalk formed from accumulations of microscopic marine material in ancient seas."
+      },
+      {
+        "label": "EXPOSE",
+        "text": "Later uplift and erosion brought these rocks into view as cliffs and escarpments."
+      },
+      {
+        "label": "REUNITE",
+        "text": "Cross-Channel geological interpretation connects the chalk landscapes of Kent and Pas-de-Calais, showing how modern coastlines divide related rock histories."
+      }
+    ],
+    "takeaway": "Two shores can be chapters of the same deep-time story.",
+    "source": {
+      "name": "White Cliffs Countryside Partnership · Cross-Channel Geopark",
+      "url": "https://www.whitecliffscountryside.org.uk/about-us/cross-channel-geopark"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Geological comparison across the Channel, not an assertion that every exposed chalk layer is identical in age."
+  },
+  {
+    "id": "cork-landscapes",
+    "category": "PLANTS / MEDITERRANEAN LINKS",
+    "title": "A bottle stopper begins in a living landscape.",
+    "teaser": "Portugal and Spain share the geography of cork oak.",
+    "from": {
+      "name": "Alentejo",
+      "detail": "Portugal",
+      "image": "cork",
+      "lat": 38.2,
+      "lng": -7.9
+    },
+    "to": {
+      "name": "Southwestern Spain",
+      "detail": "Western Mediterranean region",
+      "image": "spain",
+      "lat": 37.5,
+      "lng": -6.3
+    },
+    "question": "What natural material is harvested to make cork?",
+    "options": [
+      "The tree’s entire root system",
+      "A mineral from salt mines",
+      "The outer bark of cork oak trees"
+    ],
+    "correct": 2,
+    "reveal": "An everyday material connects us with a particular kind of woodland.",
+    "steps": [
+      {
+        "label": "GROW",
+        "text": "Cork oak is native to parts of the western Mediterranean, including Portugal and Spain."
+      },
+      {
+        "label": "HARVEST",
+        "text": "Its thick bark provides cork, a material used in stoppers and many other products."
+      },
+      {
+        "label": "CONSIDER",
+        "text": "These landscapes combine ecology and human management. The product’s history begins with trees and the conditions that support them."
+      }
+    ],
+    "takeaway": "Everyday materials have habitats as well as factories.",
+    "source": {
+      "name": "Kew Science · Cork oak",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A296785-1/general-information"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "A shared species-and-landscape connection, not a specific shipment. Photographs show wider regional landscapes rather than certified cork plantations."
+  },
+  {
+    "id": "groundnut-journey",
+    "category": "FOOD / CHANGING HOMES",
+    "title": "A familiar West African crop has South American roots.",
+    "teaser": "Peanuts connect Bolivia with later cultivation in Senegal.",
+    "from": {
+      "name": "Bolivia",
+      "detail": "South American origin region",
+      "image": "peanut-origin",
+      "lat": -18,
+      "lng": -64
+    },
+    "to": {
+      "name": "Senegal",
+      "detail": "West African cultivation region",
+      "image": "senegal",
+      "lat": 16,
+      "lng": -16.5
+    },
+    "question": "Where were the ancestors of the cultivated peanut domesticated?",
+    "options": [
+      "South America",
+      "Eastern Asia",
+      "Mediterranean Europe"
+    ],
+    "correct": 0,
+    "reveal": "A crop’s present home is not necessarily its place of origin.",
+    "steps": [
+      {
+        "label": "DOMESTICATE",
+        "text": "The modern peanut developed from wild South American relatives through domestication."
+      },
+      {
+        "label": "SPREAD",
+        "text": "People moved the crop beyond its original range, and it became cultivated in many warm regions."
+      },
+      {
+        "label": "COMPARE",
+        "text": "Kew lists Bolivia as native and Senegal among its introduced range. This connects food geography with a history of human plant movement."
+      }
+    ],
+    "takeaway": "Foods can become locally important after travelling a very long way.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Peanut",
+      "url": "https://www.kew.org/plants/peanut"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Origin and later cultivation regions, not a reconstructed direct Bolivia–Senegal voyage. Photographs are regional, not peanut fields."
+  },
+  {
+    "id": "walnut-range",
+    "category": "PLANTS / A WIDE FAMILY HOME",
+    "title": "One tree connects distant mountain and farm landscapes.",
+    "teaser": "Common walnut links Central Asia with European cultivation.",
+    "from": {
+      "name": "Central Asia",
+      "detail": "Historical walnut region",
+      "image": "samarkand",
+      "lat": 40,
+      "lng": 68
+    },
+    "to": {
+      "name": "European countryside",
+      "detail": "Britain, cultivation region",
+      "image": "wales",
+      "lat": 51.96,
+      "lng": -4.75
+    },
+    "question": "What connects these landscapes through the common walnut?",
+    "options": [
+      "Both are the only places where all walnuts originated",
+      "A tree with a long history of cultivation and a wide Eurasian range",
+      "A single underground root joining the continents"
+    ],
+    "correct": 1,
+    "reveal": "A species can have a complicated geographical biography.",
+    "steps": [
+      {
+        "label": "RANGE",
+        "text": "Common walnut has a broad Eurasian history, with important populations in parts of Central Asia and neighbouring regions."
+      },
+      {
+        "label": "CULTIVATE",
+        "text": "Long cultivation and movement by people have complicated efforts to distinguish every original population from later introductions."
+      },
+      {
+        "label": "RECOGNISE",
+        "text": "European walnut trees belong to this wider story. The connection illustrates a shared species and cultivation history rather than one proven migration itinerary."
+      }
+    ],
+    "takeaway": "Plant histories are often networks, not simple origin arrows.",
+    "source": {
+      "name": "European Commission Joint Research Centre · Juglans regia",
+      "url": "https://forest.jrc.ec.europa.eu/media/atlas/Juglans_regia.pdf"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Comparison of a historical range region and a cultivation region. Photos show wider places, not identified walnut orchards."
+  },
+  {
+    "id": "mekong-basin",
+    "category": "WATER / HIGHLAND TO DELTA",
+    "title": "A highland river helps shape a lowland world.",
+    "teaser": "The upper Mekong and Viet Nam’s delta belong to one international basin.",
+    "from": {
+      "name": "Upper Mekong region",
+      "detail": "Yunnan, China",
+      "image": "mekong-upper",
+      "lat": 28,
+      "lng": 99
+    },
+    "to": {
+      "name": "Mekong Delta",
+      "detail": "Viet Nam",
+      "image": "mekong",
+      "lat": 10,
+      "lng": 105.8
+    },
+    "question": "What connects the upper Mekong with its distant delta?",
+    "options": [
+      "They are separate rivers sharing a name",
+      "Only artificial canals link the two regions",
+      "A river system carrying water and sediment downstream"
+    ],
+    "correct": 2,
+    "reveal": "A delta depends on what happens far upstream.",
+    "steps": [
+      {
+        "label": "BEGIN",
+        "text": "The Mekong begins on the Tibetan Plateau and flows through highland regions including Yunnan."
+      },
+      {
+        "label": "CROSS",
+        "text": "Its basin connects six countries, gathering tributaries and supporting many communities along the way."
+      },
+      {
+        "label": "SPREAD",
+        "text": "Near the sea, channels form a broad delta. Upstream changes can therefore matter to habitats and livelihoods far downstream."
+      }
+    ],
+    "takeaway": "A river basin is a shared geography from mountains to coast.",
+    "source": {
+      "name": "Mekong River Commission · Geography",
+      "url": "https://www.mrcmekong.org/geography/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic upper-basin and delta endpoints, not the actual river course. The upper-region photograph is not presented as the river’s exact source."
+  },
+  {
+    "id": "lena-arctic",
+    "category": "WATER / INTO THE ARCTIC",
+    "title": "A Siberian river builds a fan at the edge of the sea.",
+    "teaser": "The Lena connects inland landscapes with the Laptev Sea.",
+    "from": {
+      "name": "Middle Lena",
+      "detail": "Siberia, Russia",
+      "image": "lena",
+      "lat": 61.1,
+      "lng": 127.3
+    },
+    "to": {
+      "name": "Lena Delta",
+      "detail": "Laptev Sea, Arctic Ocean",
+      "image": "lena-delta",
+      "lat": 72.5,
+      "lng": 126.5
+    },
+    "question": "What helps build and reshape the Lena’s Arctic delta?",
+    "options": [
+      "Sediment carried downstream by the river",
+      "Tropical reef sand delivered mainly by ocean tides",
+      "Rock placed along the entire coast by modern engineers"
+    ],
+    "correct": 0,
+    "reveal": "The Arctic coast receives material from far inland.",
+    "steps": [
+      {
+        "label": "TRANSPORT",
+        "text": "The Lena flows north through Siberia, carrying water and sediment from its drainage basin."
+      },
+      {
+        "label": "DIVIDE",
+        "text": "Near the Laptev Sea, the river separates into many channels across a broad delta."
+      },
+      {
+        "label": "RESHAPE",
+        "text": "Sediment deposition and seasonal river processes help create and change this landscape. Satellite imagery reveals the intricate meeting of river, tundra, and sea."
+      }
+    ],
+    "takeaway": "A coastline can be built from the history of an inland watershed.",
+    "source": {
+      "name": "NASA Earth Observatory · Lena River Sedimentation",
+      "url": "https://science.nasa.gov/earth/earth-observatory/lena-river-sedimentation-150076/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative river-to-delta connection, not the river’s precise channel. The delta photograph is a satellite view."
   }
 ]

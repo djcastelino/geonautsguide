@@ -4,7 +4,7 @@ import {readFileSync,existsSync} from 'node:fs';
 const stories=JSON.parse(readFileSync(new URL('../src/data/connections.json',import.meta.url)));
 const credits=JSON.parse(readFileSync(new URL('../src/data/connection-credits.json',import.meta.url)));
 test('connection collection has complete playable stories and credited local images',()=>{
- assert.equal(stories.length,75);
+ assert.equal(stories.length,100);
  assert.equal(new Set(stories.map(s=>s.id)).size,stories.length);
  for(const story of stories){
   assert.equal(story.options.length,3,story.id);
