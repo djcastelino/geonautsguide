@@ -2468,5 +2468,1240 @@
     },
     "reviewedOn": "2026-11-04",
     "mapNote": "Illustrative seasonal endpoints, not the tracked route of one bird. Populations and journeys vary."
+  },
+  {
+    "id": "red-knots",
+    "category": "WILDLIFE / MIGRATION FUEL",
+    "title": "An Arctic journey depends on a coastal meal.",
+    "teaser": "Delaware Bay is a refuelling stop on a much longer flight.",
+    "from": {
+      "name": "Delaware Bay",
+      "detail": "Atlantic coast, United States",
+      "image": "delaware",
+      "lat": 38.9,
+      "lng": -75.2
+    },
+    "to": {
+      "name": "Canadian Arctic",
+      "detail": "Northern breeding region",
+      "image": "baffin",
+      "lat": 70,
+      "lng": -75
+    },
+    "question": "What helps red knots refuel in Delaware Bay before flying north?",
+    "options": [
+      "Horseshoe crab eggs",
+      "Pine seeds from mountain forests",
+      "Deep-sea corals"
+    ],
+    "correct": 0,
+    "reveal": "A beach meal supports a continental journey.",
+    "steps": [
+      {
+        "label": "ARRIVE",
+        "text": "Migrating red knots stop at Delaware Bay on their northward journey toward Arctic breeding areas."
+      },
+      {
+        "label": "REFUEL",
+        "text": "Horseshoe crabs spawn along the bay. Their eggs provide a concentrated food resource that helps the birds build energy reserves."
+      },
+      {
+        "label": "CONTINUE",
+        "text": "The birds’ breeding journey therefore depends on conditions far from the Arctic. Protecting stopover habitat matters alongside protecting nesting grounds."
+      }
+    ],
+    "takeaway": "Migration connects distant habitats through very local food supplies.",
+    "source": {
+      "name": "Delaware River Basin Commission · Horseshoe crabs",
+      "url": "https://nj.gov/drbc/basin/living/horseshoe-crabs.html"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic northward migration connection. The Arctic endpoint represents a broad breeding region, not one tracked bird’s destination."
+  },
+  {
+    "id": "godwits",
+    "category": "WILDLIFE / PACIFIC FLIGHT",
+    "title": "A small bird crosses an enormous ocean.",
+    "teaser": "Alaska and New Zealand share an extraordinary seasonal visitor.",
+    "from": {
+      "name": "Alaska",
+      "detail": "Northern breeding region",
+      "image": "alaska",
+      "lat": 61,
+      "lng": -164
+    },
+    "to": {
+      "name": "New Zealand",
+      "detail": "Southern seasonal habitat",
+      "image": "new-zealand",
+      "lat": -41.5,
+      "lng": 173
+    },
+    "question": "How do many Alaska-breeding bar-tailed godwits reach New Zealand?",
+    "options": [
+      "By resting on sea ice every night",
+      "In a long nonstop flight across the Pacific",
+      "By travelling only along continental coastlines"
+    ],
+    "correct": 1,
+    "reveal": "The ocean can be a flight path, not a barrier.",
+    "steps": [
+      {
+        "label": "PREPARE",
+        "text": "Bar-tailed godwits build up reserves before leaving Alaska after the breeding season."
+      },
+      {
+        "label": "CROSS",
+        "text": "New Zealand’s Department of Conservation describes their direct southward flight from Alaska without a feeding stop."
+      },
+      {
+        "label": "CONNECT",
+        "text": "The journey links northern breeding habitats with New Zealand’s estuaries. The return journey follows a different pattern, including Asian stopovers."
+      }
+    ],
+    "takeaway": "A familiar shorebird can belong to a whole Pacific network.",
+    "source": {
+      "name": "New Zealand Department of Conservation · Bar-tailed godwit",
+      "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/eastern-bar-tailed-godwit/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic southbound connection across the Pacific; not a measured track or a depiction of the return route."
+  },
+  {
+    "id": "leatherbacks",
+    "category": "WILDLIFE / OCEAN JOURNEYS",
+    "title": "A California visitor began life across the Pacific.",
+    "teaser": "Leatherback turtles connect western Pacific beaches with distant feeding grounds.",
+    "from": {
+      "name": "Western New Guinea",
+      "detail": "Indonesia, nesting region",
+      "image": "new-guinea",
+      "lat": -0.5,
+      "lng": 132.5
+    },
+    "to": {
+      "name": "California coast",
+      "detail": "Eastern Pacific feeding region",
+      "image": "california",
+      "lat": 38,
+      "lng": -123
+    },
+    "question": "What connects some leatherbacks off California with Indonesia?",
+    "options": [
+      "They are different names for the same sea",
+      "They nest only in California rivers",
+      "Some migrate from Indonesian nesting beaches"
+    ],
+    "correct": 2,
+    "reveal": "A turtle’s life can span opposite sides of an ocean.",
+    "steps": [
+      {
+        "label": "NEST",
+        "text": "Western Pacific leatherbacks nest on beaches including those in Indonesia."
+      },
+      {
+        "label": "TRAVEL",
+        "text": "Tracking research links some of these turtles with feeding areas along the west coast of the United States."
+      },
+      {
+        "label": "PROTECT",
+        "text": "A turtle using California waters can depend on a nesting beach thousands of kilometres away. Its journey makes conservation an international task."
+      }
+    ],
+    "takeaway": "Ocean wildlife does not keep to the borders on our maps.",
+    "source": {
+      "name": "NOAA Fisheries · Leatherback turtle research",
+      "url": "https://www.fisheries.noaa.gov/west-coast/science-data/leatherback-turtle-research"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative nesting and feeding regions for some western Pacific leatherbacks, not a universal migration route."
+  },
+  {
+    "id": "ancient-mountains",
+    "category": "EARTH / REUNITED LANDSCAPES",
+    "title": "Separated mountains share an older world.",
+    "teaser": "The Appalachians and Scottish Highlands preserve pieces of an ancient collision story.",
+    "from": {
+      "name": "Appalachians",
+      "detail": "Eastern North America",
+      "image": "appalachians",
+      "lat": 35.6,
+      "lng": -83.5
+    },
+    "to": {
+      "name": "Scottish Highlands",
+      "detail": "Northern Britain",
+      "image": "scotland",
+      "lat": 56.7,
+      "lng": -5.1
+    },
+    "question": "Why do geologists compare mountain belts on opposite sides of the Atlantic?",
+    "options": [
+      "They preserve evidence of ancient continental collisions",
+      "Modern bridges once joined their summits",
+      "Both were made by the same recent eruption"
+    ],
+    "correct": 0,
+    "reveal": "The Atlantic opened after the rocks acquired much of their history.",
+    "steps": [
+      {
+        "label": "COLLIDE",
+        "text": "Ancient continents collided as supercontinents assembled, creating extensive mountain belts."
+      },
+      {
+        "label": "SEPARATE",
+        "text": "Later continental breakup opened the Atlantic, dividing landscapes that record related tectonic episodes."
+      },
+      {
+        "label": "COMPARE",
+        "text": "The National Park Service places the Appalachians within a wider collision zone that includes Caledonide rocks in the British Isles and beyond. The individual ranges have complex, different histories."
+      }
+    ],
+    "takeaway": "Today’s ocean can separate pieces of a much older geological puzzle.",
+    "source": {
+      "name": "National Park Service · Supercontinent Pangea",
+      "url": "https://www.nps.gov/subjects/fossils/supercontinent-pangea.htm"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Comparison of ancient geological histories; the connecting line is not the former outline of a mountain range."
+  },
+  {
+    "id": "struve",
+    "category": "SCIENCE / MEASURING EARTH",
+    "title": "A chain of triangles measured a planet.",
+    "teaser": "Survey markers connect northern Norway with the lower Danube.",
+    "from": {
+      "name": "Hammerfest",
+      "detail": "Norway, northern endpoint",
+      "image": "hammerfest",
+      "lat": 70.67,
+      "lng": 23.68
+    },
+    "to": {
+      "name": "Lower Danube region",
+      "detail": "Ukraine, southern endpoint region",
+      "image": "danube-delta",
+      "lat": 45.33,
+      "lng": 28.93
+    },
+    "question": "What linked the points of the Struve Geodetic Arc?",
+    "options": [
+      "A medieval canal",
+      "A coordinated chain of survey triangles",
+      "An underground railway"
+    ],
+    "correct": 1,
+    "reveal": "Small ground markers helped answer a planet-sized question.",
+    "steps": [
+      {
+        "label": "SIGHT",
+        "text": "Surveyors measured angles between visible stations in a long chain stretching from northern Norway toward the Black Sea."
+      },
+      {
+        "label": "CALCULATE",
+        "text": "Those observations helped determine the size and shape of Earth with greater accuracy."
+      },
+      {
+        "label": "COOPERATE",
+        "text": "The surviving World Heritage stations span several modern countries. They commemorate a scientific project whose geography crossed national boundaries."
+      }
+    ],
+    "takeaway": "Understanding Earth required people to connect measurements across it.",
+    "source": {
+      "name": "UNESCO · Struve Geodetic Arc",
+      "url": "https://whc.unesco.org/en/list/1187/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic endpoints of a multi-station survey chain, not its complete triangulation network. Photographs are regional."
+  },
+  {
+    "id": "darwin-specimens",
+    "category": "SCIENCE / COLLECTION JOURNEYS",
+    "title": "An island bird became evidence in a city.",
+    "teaser": "Galápagos specimens travelled into the collections of London.",
+    "from": {
+      "name": "Galápagos Islands",
+      "detail": "Eastern Pacific",
+      "image": "galapagos",
+      "lat": -0.7,
+      "lng": -90.5
+    },
+    "to": {
+      "name": "London",
+      "detail": "Britain, museum collections",
+      "image": "london",
+      "lat": 51.5,
+      "lng": -0.18
+    },
+    "question": "What connected Darwin’s Galápagos fieldwork with London naturalists?",
+    "options": [
+      "A shared freshwater lake",
+      "A tunnel beneath the Atlantic",
+      "Collected specimens that specialists examined"
+    ],
+    "correct": 2,
+    "reveal": "A scientific journey continued after the ship returned.",
+    "steps": [
+      {
+        "label": "COLLECT",
+        "text": "During the Beagle voyage, Darwin collected birds from the Galápagos, including mockingbirds."
+      },
+      {
+        "label": "EXAMINE",
+        "text": "In Britain, specialists such as John Gould examined his bird collection, helping clarify the relationships among specimens."
+      },
+      {
+        "label": "PRESERVE",
+        "text": "The Natural History Museum retains important Beagle specimens. Carefully recorded collections can remain useful long after the original expedition."
+      }
+    ],
+    "takeaway": "Discovery can connect field observation, specialist knowledge, and museum care.",
+    "source": {
+      "name": "Natural History Museum · Voyage of HMS Beagle",
+      "url": "https://www.nhm.ac.uk/our-science/services/collections/zoology/birds/skins/hms-beagle.html"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative endpoints, not an exact route. Photographs show the named places or their wider regions."
+  },
+  {
+    "id": "breadfruit",
+    "category": "FOOD / COMPLEX JOURNEYS",
+    "title": "A Caribbean tree has a Pacific chapter.",
+    "teaser": "Breadfruit links Pacific cultivation with Caribbean colonial history.",
+    "from": {
+      "name": "Society Islands",
+      "detail": "French Polynesia, Tahiti collection region",
+      "image": "tahiti",
+      "lat": -17.6,
+      "lng": -149.6
+    },
+    "to": {
+      "name": "Caribbean islands",
+      "detail": "Atlantic tropical region",
+      "image": "caribbean",
+      "lat": 16,
+      "lng": -62
+    },
+    "question": "How did breadfruit become established in the Caribbean?",
+    "options": [
+      "People transported living plants from the Pacific",
+      "It drifted there inside Atlantic icebergs",
+      "It was first domesticated in London"
+    ],
+    "correct": 0,
+    "reveal": "A useful crop travelled within an unequal world.",
+    "steps": [
+      {
+        "label": "CULTIVATE",
+        "text": "Pacific communities cultivated breadfruit long before British expeditions sought to move it elsewhere."
+      },
+      {
+        "label": "TRANSPORT",
+        "text": "After the failed Bounty voyage, Bligh’s later expedition successfully carried plants from Tahiti to Caribbean islands."
+      },
+      {
+        "label": "CONTEXT",
+        "text": "The colonial project sought food for enslaved people. Breadfruit’s later place in Caribbean food culture sits alongside that difficult history."
+      }
+    ],
+    "takeaway": "A crop’s journey includes the people and power behind its movement.",
+    "source": {
+      "name": "Kew Science · Breadfruit",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A582598-1/general-information"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Historical transfer connection through a wider network, not an exact voyage track. The Society Islands photograph shows neighbouring Moorea."
+  },
+  {
+    "id": "cinchona",
+    "category": "PLANTS / KNOWLEDGE AND EMPIRE",
+    "title": "Andean bark reshaped distant plantations.",
+    "teaser": "Cinchona connects Indigenous knowledge with the global movement of plants.",
+    "from": {
+      "name": "Andes",
+      "detail": "South America, native region",
+      "image": "andes",
+      "lat": -8,
+      "lng": -77
+    },
+    "to": {
+      "name": "Asian highlands",
+      "detail": "Java, representative cultivation region",
+      "image": "java",
+      "lat": -7.2,
+      "lng": 109.9
+    },
+    "question": "Why were cinchona plants moved from South America into Asian cultivation?",
+    "options": [
+      "To replace salt in seawater",
+      "Their bark was a source of quinine",
+      "To make cotton thread"
+    ],
+    "correct": 1,
+    "reveal": "A botanical transfer carried knowledge as well as plants.",
+    "steps": [
+      {
+        "label": "KNOW",
+        "text": "Indigenous Andean peoples recognised medicinal properties of cinchona bark before its large-scale European trade."
+      },
+      {
+        "label": "MOVE",
+        "text": "Demand for quinine drove collection and transfer of plants. Kew documents its role in establishing Asian plantations."
+      },
+      {
+        "label": "REFLECT",
+        "text": "The trade affected wild trees and supported colonial expansion. The story is about the history of a plant and its uses, not treatment advice."
+      }
+    ],
+    "takeaway": "Useful plants can reveal histories of knowledge, extraction, and power.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Cinchona tree",
+      "url": "https://www.kew.org/plants/cinchona-tree"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative endpoints, not an exact route. Photographs show the named places or their wider regions."
+  },
+  {
+    "id": "nutmeg",
+    "category": "TRADE / ISLAND SPICES",
+    "title": "A tiny seed drew distant merchants.",
+    "teaser": "Nutmeg connected the Banda Islands with Dutch commercial networks.",
+    "from": {
+      "name": "Banda Islands",
+      "detail": "Maluku, Indonesia",
+      "image": "banda",
+      "lat": -4.52,
+      "lng": 129.9
+    },
+    "to": {
+      "name": "The Netherlands",
+      "detail": "European trade region",
+      "image": "netherlands",
+      "lat": 52.1,
+      "lng": 4.8
+    },
+    "question": "What made the Banda Islands important to early global trade?",
+    "options": [
+      "Their nutmeg crop",
+      "Their Arctic fishing grounds",
+      "Their wheat exports to Antarctica"
+    ],
+    "correct": 0,
+    "reveal": "A kitchen spice can carry a history of monopoly and violence.",
+    "steps": [
+      {
+        "label": "GROW",
+        "text": "Nutmeg comes from a tropical tree historically associated with the Banda Islands."
+      },
+      {
+        "label": "TRADE",
+        "text": "Demand in distant markets drew merchants and the Dutch East India Company into the region."
+      },
+      {
+        "label": "CONSIDER",
+        "text": "Attempts to control production and trade involved colonial coercion. Nutmeg’s familiar flavour should not erase the communities behind its commercial history."
+      }
+    ],
+    "takeaway": "Small islands can have a large place in world history.",
+    "source": {
+      "name": "Dutch Association of Botanic Gardens · Nutmeg",
+      "url": "https://www.botanischetuinen.nl/en/plant_en/1863/nutmeg"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative endpoints, not an exact route. Photographs show the named places or their wider regions.",
+    "sources": [
+      {
+        "name": "Dutch Association of Botanic Gardens · Nutmeg",
+        "url": "https://www.botanischetuinen.nl/en/plant_en/1863/nutmeg"
+      },
+      {
+        "name": "Journal of Southeast Asian Studies · Nutmeg production and colonial labour",
+        "url": "https://www.cambridge.org/core/journals/journal-of-southeast-asian-studies/article/colonisation-and-cultivation-nutmeg-production-labour-and-ecology-on-the-banda-islands-before-and-after-the-conquest-of-1621/BF86973D1324DB0D0FE680E0BF5291F7"
+      }
+    ]
+  },
+  {
+    "id": "clove-transfer",
+    "category": "PLANTS / CHANGING GEOGRAPHIES",
+    "title": "A spice island’s crop found another island home.",
+    "teaser": "Maluku and Zanzibar share a clove-growing connection.",
+    "from": {
+      "name": "Maluku Islands",
+      "detail": "Indonesia, original clove region",
+      "image": "banda",
+      "lat": -3.5,
+      "lng": 128.2
+    },
+    "to": {
+      "name": "Zanzibar",
+      "detail": "East Africa",
+      "image": "zanzibar",
+      "lat": -6.16,
+      "lng": 39.19
+    },
+    "question": "Why is Zanzibar associated with cloves although the tree originated farther east?",
+    "options": [
+      "The two islands are physically joined",
+      "Plant transfers established clove cultivation there",
+      "Cloves grow only in seawater"
+    ],
+    "correct": 1,
+    "reveal": "A crop’s modern identity may be far from its origin.",
+    "steps": [
+      {
+        "label": "ORIGINATE",
+        "text": "Clove trees are associated with Indonesia’s Maluku Islands, where their dried flower buds became a valuable spice."
+      },
+      {
+        "label": "TRANSFER",
+        "text": "Plants were moved through colonial botanical networks, including transfers via Indian Ocean islands."
+      },
+      {
+        "label": "ESTABLISH",
+        "text": "Kew records their arrival in Zanzibar in the nineteenth century and the island’s subsequent importance in clove production."
+      }
+    ],
+    "takeaway": "Agricultural geography changes when people move plants.",
+    "source": {
+      "name": "Kew Science · Clove",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A601421-1/general-information"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic connection through a wider transfer network, not a direct documented voyage. Maluku photograph shows the wider island region."
+  },
+  {
+    "id": "cochineal",
+    "category": "COLOUR / GLOBAL EXCHANGE",
+    "title": "A brilliant European red began on a cactus.",
+    "teaser": "Mexican cochineal became a prized dye in Spain and beyond.",
+    "from": {
+      "name": "Mexico",
+      "detail": "Indigenous dye production region",
+      "image": "mexico",
+      "lat": 17,
+      "lng": -96.7
+    },
+    "to": {
+      "name": "Spain",
+      "detail": "European trade gateway",
+      "image": "spain",
+      "lat": 37.4,
+      "lng": -6
+    },
+    "question": "What produced the red dye called cochineal?",
+    "options": [
+      "Crushed volcanic glass",
+      "Red seaweed from the Arctic",
+      "Tiny cactus-dwelling insects"
+    ],
+    "correct": 2,
+    "reveal": "A colour travelled farther than its source creature.",
+    "steps": [
+      {
+        "label": "MAKE",
+        "text": "Indigenous producers in the Americas cultivated and processed cochineal insects to obtain a rich red dye."
+      },
+      {
+        "label": "EXPORT",
+        "text": "Following Spanish conquest, cochineal entered European trade and became highly desirable for textiles and other uses."
+      },
+      {
+        "label": "RECOGNISE",
+        "text": "The colour depended on living organisms and skilled labour. Its global demand belongs to a history of Indigenous expertise and colonial control."
+      }
+    ],
+    "takeaway": "The colours around us can contain a world of geography.",
+    "source": {
+      "name": "Harvard Museums of Science & Culture · Cochineal, the color of power",
+      "url": "https://hmsc.harvard.edu/online-exhibits/cochineal1/color-power/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative endpoints, not an exact route. Photographs show the named places or their wider regions."
+  },
+  {
+    "id": "nitrate",
+    "category": "EARTH / DESERT TO FARMLAND",
+    "title": "A desert deposit helped feed distant fields.",
+    "teaser": "Northern Chile’s saltpeter industry connected arid land with European agriculture.",
+    "from": {
+      "name": "Humberstone region",
+      "detail": "Atacama, Chile",
+      "image": "humberstone",
+      "lat": -20.2,
+      "lng": -69.8
+    },
+    "to": {
+      "name": "European farmland",
+      "detail": "Britain, illustrative destination region",
+      "image": "britain",
+      "lat": 52,
+      "lng": -1
+    },
+    "question": "Why did agricultural regions import Chilean saltpeter?",
+    "options": [
+      "It supplied nitrate fertiliser",
+      "It was used to make artificial rainfall clouds",
+      "It replaced soil with desert sand"
+    ],
+    "correct": 0,
+    "reveal": "A dry landscape supplied a nutrient for greener ones.",
+    "steps": [
+      {
+        "label": "EXTRACT",
+        "text": "Workers processed nitrate-rich deposits in northern Chile’s exceptionally dry desert."
+      },
+      {
+        "label": "SHIP",
+        "text": "Sodium nitrate fertiliser was exported to agricultural regions in the Americas and Europe."
+      },
+      {
+        "label": "REMEMBER",
+        "text": "Surviving works preserve industrial structures and the history of the communities whose labour sustained the trade."
+      }
+    ],
+    "takeaway": "Food production can depend on resources from a very different landscape.",
+    "source": {
+      "name": "UNESCO · Humberstone and Santa Laura Saltpeter Works",
+      "url": "https://whc.unesco.org/en/list/1178/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative link to European agriculture, not a claim about one shipment or farm."
+  },
+  {
+    "id": "guano",
+    "category": "ECOLOGY / AGRICULTURAL HISTORY",
+    "title": "Seabirds left a resource that crossed an ocean.",
+    "teaser": "Peruvian guano became a significant fertiliser in nineteenth-century Britain.",
+    "from": {
+      "name": "Peruvian coast",
+      "detail": "Pacific seabird region",
+      "image": "peru",
+      "lat": -13.7,
+      "lng": -76.3
+    },
+    "to": {
+      "name": "Britain",
+      "detail": "Historical fertiliser market",
+      "image": "britain",
+      "lat": 52,
+      "lng": -1
+    },
+    "question": "What was the Peruvian guano imported by British farmers?",
+    "options": [
+      "Ground-up glacier ice",
+      "Nutrient-rich seabird droppings",
+      "A type of volcanic coal"
+    ],
+    "correct": 1,
+    "reveal": "An ocean ecosystem helped fertilise distant land.",
+    "steps": [
+      {
+        "label": "ACCUMULATE",
+        "text": "Seabirds deposited nutrient-rich guano on Peru’s dry coastal islands and shores."
+      },
+      {
+        "label": "IMPORT",
+        "text": "Large-scale British imports began in the nineteenth century as farmers sought concentrated fertilisers."
+      },
+      {
+        "label": "CONNECT",
+        "text": "The trade linked marine food webs, extraction labour, shipping, and agricultural change. It also placed pressure on a finite resource."
+      }
+    ],
+    "takeaway": "A field’s history can extend into an ocean food web.",
+    "source": {
+      "name": "University of Bristol · Guano and British Victorians",
+      "url": "https://research-information.bris.ac.uk/en/studentTheses/guano-and-british-victorians/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative endpoints, not an exact route. Photographs show the named places or their wider regions."
+  },
+  {
+    "id": "okavango",
+    "category": "WATER / DISTANT RAIN",
+    "title": "A wetland’s flood begins beyond the horizon.",
+    "teaser": "Angolan rainfall helps sustain Botswana’s Okavango Delta.",
+    "from": {
+      "name": "Angolan highlands",
+      "detail": "Upper catchment region",
+      "image": "angola",
+      "lat": -13,
+      "lng": 18
+    },
+    "to": {
+      "name": "Okavango Delta",
+      "detail": "Botswana",
+      "image": "okavango",
+      "lat": -19.3,
+      "lng": 22.8
+    },
+    "question": "Where does much of the water sustaining the Okavango system originate?",
+    "options": [
+      "From daily Atlantic tides",
+      "From a pipeline under Antarctica",
+      "Rainfall in the upstream Angolan catchment"
+    ],
+    "correct": 2,
+    "reveal": "A wetland can depend on rain falling in another country.",
+    "steps": [
+      {
+        "label": "RAIN",
+        "text": "Water falling in Angola’s highlands feeds rivers in the wider Okavango catchment."
+      },
+      {
+        "label": "TRAVEL",
+        "text": "The river system carries water through the region toward northwestern Botswana."
+      },
+      {
+        "label": "SPREAD",
+        "text": "Water fans into an inland delta instead of reaching the sea. The wetland’s seasonal rhythms support diverse wildlife and depend on upstream conditions."
+      }
+    ],
+    "takeaway": "A watershed can be a more useful ecological boundary than a border.",
+    "source": {
+      "name": "UNESCO · Okavango Delta",
+      "url": "https://whc.unesco.org/en/list/1432/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic catchment-to-delta connection, not the exact river channel. The Angola photo illustrates the country’s highland landscapes."
+  },
+  {
+    "id": "danube",
+    "category": "WATER / SHARED BASIN",
+    "title": "An inland river connects Europe with a sea.",
+    "teaser": "Germany and the Danube Delta belong to one international drainage network.",
+    "from": {
+      "name": "German Danube",
+      "detail": "Upper basin, Regensburg region",
+      "image": "germany",
+      "lat": 49.02,
+      "lng": 12.1
+    },
+    "to": {
+      "name": "Danube Delta",
+      "detail": "Black Sea coast",
+      "image": "danube-delta",
+      "lat": 45.1,
+      "lng": 29.4
+    },
+    "question": "Which sea receives the Danube’s water after its journey across Europe?",
+    "options": [
+      "The Black Sea",
+      "The Caribbean Sea",
+      "The Red Sea"
+    ],
+    "correct": 0,
+    "reveal": "Upstream choices have downstream consequences.",
+    "steps": [
+      {
+        "label": "GATHER",
+        "text": "The Danube and its tributaries collect water from a large basin spanning many countries."
+      },
+      {
+        "label": "CARRY",
+        "text": "Along the way, the river transports water, sediments, nutrients, and the effects of human activity."
+      },
+      {
+        "label": "DISPERSE",
+        "text": "Near the Black Sea, its channels spread through a delta of wetlands and lakes. River management therefore requires cooperation across the basin."
+      }
+    ],
+    "takeaway": "A river links people who may never meet.",
+    "source": {
+      "name": "International Commission for the Protection of the Danube River · River basin",
+      "url": "https://www.icpdr.org/danube-basin/danube-river-basin"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic upper-basin and delta endpoints, not the actual river course."
+  },
+  {
+    "id": "colorado-restoration",
+    "category": "WATER / RESTORING A CONNECTION",
+    "title": "A river restoration crossed a border.",
+    "teaser": "The Colorado’s upstream waters and Mexican delta share a negotiated future.",
+    "from": {
+      "name": "Colorado River",
+      "detail": "Grand Canyon, United States",
+      "image": "colorado",
+      "lat": 36.1,
+      "lng": -112.2
+    },
+    "to": {
+      "name": "Colorado delta",
+      "detail": "Mexico",
+      "image": "colorado-delta",
+      "lat": 31.8,
+      "lng": -114.8
+    },
+    "question": "What was the purpose of the Colorado River’s 2014 environmental pulse flow?",
+    "options": [
+      "To turn the delta into a salt mine",
+      "To deliver water to downstream river and delta habitat",
+      "To reverse the river into the mountains"
+    ],
+    "correct": 1,
+    "reveal": "Water agreements can reconnect habitats as well as countries.",
+    "steps": [
+      {
+        "label": "ALTER",
+        "text": "Dams and water use changed the amount and timing of water reaching the Colorado River’s lower reaches."
+      },
+      {
+        "label": "RELEASE",
+        "text": "A United States–Mexico agreement enabled a managed environmental pulse flow below Morelos Dam in 2014."
+      },
+      {
+        "label": "STUDY",
+        "text": "Researchers monitored how the released water moved through the river corridor. The project connected diplomacy, river science, and ecological restoration."
+      }
+    ],
+    "takeaway": "Managing a shared river includes deciding what water reaches its ecosystems.",
+    "source": {
+      "name": "USGS · History of the 2014 environmental pulse flow",
+      "url": "https://www.usgs.gov/publications/a-history-2014-minute-319-environmental-pulse-flow-asdocumented-field-measurements-and"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "The line links upstream river and delta regions. The 2014 pulse itself was released at Morelos Dam, not the Grand Canyon."
+  },
+  {
+    "id": "roman-water",
+    "category": "ENGINEERING / SHARED KNOWLEDGE",
+    "title": "A Spanish skyline carries Roman engineering.",
+    "teaser": "Rome and Segovia connect through an empire’s water-building traditions.",
+    "from": {
+      "name": "Rome",
+      "detail": "Italy, Roman world",
+      "image": "rome",
+      "lat": 41.9,
+      "lng": 12.48
+    },
+    "to": {
+      "name": "Segovia",
+      "detail": "Spain",
+      "image": "segovia",
+      "lat": 40.95,
+      "lng": -4.12
+    },
+    "question": "What does Segovia’s great aqueduct reveal about its connection with the Roman world?",
+    "options": [
+      "A shared tradition of large-scale water engineering",
+      "A water pipe carrying water directly from Rome",
+      "A natural stone arch carved by a river"
+    ],
+    "correct": 0,
+    "reveal": "An engineering idea travelled farther than the water it carried.",
+    "steps": [
+      {
+        "label": "BUILD",
+        "text": "Roman settlements required dependable water supplies, and aqueducts were one way of bringing water across difficult terrain."
+      },
+      {
+        "label": "ADAPT",
+        "text": "Segovia’s surviving aqueduct is a prominent example of Roman civil engineering adapted to a Spanish city."
+      },
+      {
+        "label": "DISTINGUISH",
+        "text": "Its water came from the local region, not Italy. The connection is one of political history, technical knowledge, and construction."
+      }
+    ],
+    "takeaway": "A structure can connect cultures without connecting their water pipes.",
+    "source": {
+      "name": "UNESCO · Old Town of Segovia and its Aqueduct",
+      "url": "https://whc.unesco.org/en/list/311/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Cultural and engineering connection, not an aqueduct between the two cities."
+  },
+  {
+    "id": "istrian-stone",
+    "category": "ARCHITECTURE / MATERIAL JOURNEYS",
+    "title": "A lagoon city borrowed stone from another shore.",
+    "teaser": "Venice’s buildings connect with limestone landscapes across the Adriatic.",
+    "from": {
+      "name": "Istria",
+      "detail": "Adriatic peninsula",
+      "image": "istria",
+      "lat": 45.05,
+      "lng": 13.65
+    },
+    "to": {
+      "name": "Venice",
+      "detail": "Italy",
+      "image": "venice",
+      "lat": 45.44,
+      "lng": 12.34
+    },
+    "question": "What material links Istrian quarries with many Venetian buildings?",
+    "options": [
+      "Tropical hardwood from coral reefs",
+      "Glacier ice used as foundations",
+      "Durable limestone known as Istrian stone"
+    ],
+    "correct": 2,
+    "reveal": "An architectural identity can begin in a distant quarry.",
+    "steps": [
+      {
+        "label": "QUARRY",
+        "text": "Istrian limestone was extracted from quarries on the peninsula across the Adriatic from Venice."
+      },
+      {
+        "label": "TRANSPORT",
+        "text": "Maritime connections made it possible to bring heavy stone to a city built within a lagoon."
+      },
+      {
+        "label": "BUILD",
+        "text": "Venetian builders used the compact, durable material in structural and decorative work, making it part of the city’s recognisable appearance."
+      }
+    ],
+    "takeaway": "The geography of a building includes where its materials came from.",
+    "source": {
+      "name": "Istituto Veneto · Ancient marbles and stones in Venice",
+      "url": "https://www.istitutoveneto.it/wp-content/uploads/2026/02/ancient-marbles-and-stones-in-venice-architecture-sculpture-reuse-from-antiquity-to-the-baroque-revised-edition.pdf"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative material connection, not a precise shipping track. The Istria photo shows regional stone architecture, not a named quarry."
+  },
+  {
+    "id": "measuring-metre",
+    "category": "SCIENCE / EVERYDAY UNITS",
+    "title": "A ruler’s history runs between two cities.",
+    "teaser": "Dunkirk and Barcelona helped shape the early definition of the metre.",
+    "from": {
+      "name": "Dunkirk",
+      "detail": "Northern France",
+      "image": "dunkirk",
+      "lat": 51.03,
+      "lng": 2.38
+    },
+    "to": {
+      "name": "Barcelona",
+      "detail": "Spain",
+      "image": "barcelona",
+      "lat": 41.38,
+      "lng": 2.17
+    },
+    "question": "Why did astronomers survey between Dunkirk and Barcelona in the eighteenth century?",
+    "options": [
+      "To build a railway across the Pyrenees",
+      "To help establish a length standard from Earth’s dimensions",
+      "To measure the depth of the Mediterranean"
+    ],
+    "correct": 1,
+    "reveal": "A unit on your ruler began with measurements of a planet.",
+    "steps": [
+      {
+        "label": "SURVEY",
+        "text": "Delambre and Méchain measured a meridian arc between northern France and Barcelona using a network of triangles."
+      },
+      {
+        "label": "DEFINE",
+        "text": "The results contributed to the original definition of the metre in relation to the distance from the equator to the pole."
+      },
+      {
+        "label": "UPDATE",
+        "text": "The metre is now defined using the speed of light. The historical survey still connects everyday measurement with geographical exploration."
+      }
+    ],
+    "takeaway": "An ordinary measurement can have an extraordinary origin.",
+    "source": {
+      "name": "Paris Observatory · La Terre et le mètre",
+      "url": "https://media4.obspm.fr/public/ressources_lu/pages_triangulation/mesure-terre_impression.html"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic survey endpoints, not the full chain of triangulation stations."
+  },
+  {
+    "id": "oxford-dodo",
+    "category": "SCIENCE / ISLAND MEMORY",
+    "title": "An extinct island bird left evidence overseas.",
+    "teaser": "Mauritius and an Oxford museum share a remarkable natural-history connection.",
+    "from": {
+      "name": "Mauritius",
+      "detail": "Indian Ocean",
+      "image": "mauritius",
+      "lat": -20.3,
+      "lng": 57.5
+    },
+    "to": {
+      "name": "Oxford",
+      "detail": "Britain",
+      "image": "oxford",
+      "lat": 51.76,
+      "lng": -1.26
+    },
+    "question": "What connects Oxford’s natural-history museum with Mauritius?",
+    "options": [
+      "Important surviving remains of the dodo",
+      "A population of wild dodos breeding in England",
+      "A land bridge still used by flightless birds"
+    ],
+    "correct": 0,
+    "reveal": "A museum object can preserve evidence of a vanished island species.",
+    "steps": [
+      {
+        "label": "LIVE",
+        "text": "Dodos were flightless birds native to Mauritius, where their evolution took place in an island environment."
+      },
+      {
+        "label": "DISAPPEAR",
+        "text": "The species became extinct after human settlement and associated changes transformed its world."
+      },
+      {
+        "label": "STUDY",
+        "text": "Oxford preserves important dodo remains that researchers can examine. These objects connect the island’s history with continuing scientific investigation."
+      }
+    ],
+    "takeaway": "Collections can keep evidence alive after a species has disappeared.",
+    "source": {
+      "name": "Oxford University Museum of Natural History · The Oxford dodo",
+      "url": "https://oumnh.ox.ac.uk/oxford-dodo-en"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative endpoints, not an exact route. Photographs show the named places or their wider regions."
+  },
+  {
+    "id": "stonehenge-stone",
+    "category": "ARCHAEOLOGY / ROCK ORIGINS",
+    "title": "Some stones remember a different landscape.",
+    "teaser": "Stonehenge’s bluestones connect southern England with western Wales.",
+    "from": {
+      "name": "Preseli Hills",
+      "detail": "Wales",
+      "image": "wales",
+      "lat": 51.96,
+      "lng": -4.75
+    },
+    "to": {
+      "name": "Stonehenge",
+      "detail": "Southern England",
+      "image": "stonehenge",
+      "lat": 51.18,
+      "lng": -1.83
+    },
+    "question": "Where did many of Stonehenge’s smaller bluestones originate?",
+    "options": [
+      "The floor of the Indian Ocean",
+      "The Sahara Desert",
+      "The Preseli region of western Wales"
+    ],
+    "correct": 2,
+    "reveal": "The monument’s stones have more than one home.",
+    "steps": [
+      {
+        "label": "IDENTIFY",
+        "text": "Stonehenge contains different stone types. Many smaller bluestones have been traced to the Preseli region of Wales."
+      },
+      {
+        "label": "MOVE",
+        "text": "Their presence in southern England shows the importance of connections over considerable distances in prehistory."
+      },
+      {
+        "label": "QUESTION",
+        "text": "Exactly how the stones travelled remains debated. Their geological origins provide evidence without settling every detail of the journey."
+      }
+    ],
+    "takeaway": "Knowing where something came from does not mean knowing every step it took.",
+    "source": {
+      "name": "English Heritage · Stonehenge history and stories",
+      "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Source-region connection only; the line is not a demonstrated prehistoric transport route. This story concerns many bluestones, not every stone at the monument."
+  },
+  {
+    "id": "surtsey-life",
+    "category": "ECOLOGY / NEW LAND",
+    "title": "A new island became a meeting place for life.",
+    "teaser": "Surtsey and the wider Icelandic environment are connected by natural dispersal.",
+    "from": {
+      "name": "Iceland",
+      "detail": "Nearby island environment",
+      "image": "laki",
+      "lat": 63.8,
+      "lng": -19
+    },
+    "to": {
+      "name": "Surtsey",
+      "detail": "Volcanic island south of Iceland",
+      "image": "surtsey",
+      "lat": 63.3,
+      "lng": -20.6
+    },
+    "question": "How could plants colonise newly formed Surtsey without people planting them?",
+    "options": [
+      "Seeds and other material arrived through natural dispersal",
+      "Trees walked across the seabed",
+      "Soil formed instantly with every plant already present"
+    ],
+    "correct": 0,
+    "reveal": "Isolation is never complete.",
+    "steps": [
+      {
+        "label": "EMERGE",
+        "text": "Volcanic eruptions created Surtsey in the twentieth century, exposing new land to the surrounding environment."
+      },
+      {
+        "label": "ARRIVE",
+        "text": "Wind, water, and animals brought organisms and propagules. Birds became important contributors to the developing ecosystem."
+      },
+      {
+        "label": "OBSERVE",
+        "text": "Strict protection allowed scientists to study colonisation with limited human interference. The island shows how ecological communities assemble over time."
+      }
+    ],
+    "takeaway": "A new landscape gains life through many small connections.",
+    "source": {
+      "name": "UNESCO · Surtsey",
+      "url": "https://whc.unesco.org/en/list/1267/"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative ecological relationship with the surrounding region, not a claim that all colonists came from the displayed mainland point. The Surtsey image records the island’s volcanic formation, rather than its present appearance."
+  },
+  {
+    "id": "gibraltar-exchange",
+    "category": "OCEAN / HIDDEN CURRENTS",
+    "title": "One narrow gateway carries water both ways.",
+    "teaser": "The Strait of Gibraltar links the Atlantic and Mediterranean beneath the surface.",
+    "from": {
+      "name": "Strait of Gibraltar",
+      "detail": "Atlantic–Mediterranean gateway",
+      "image": "gibraltar",
+      "lat": 35.98,
+      "lng": -5.6
+    },
+    "to": {
+      "name": "Mediterranean Sea",
+      "detail": "Eastern side of the exchange",
+      "image": "mediterranean",
+      "lat": 35.8,
+      "lng": 5
+    },
+    "question": "How does water exchange through the Strait of Gibraltar typically work?",
+    "options": [
+      "The sea flows only westward at every depth",
+      "Atlantic water enters near the surface while saltier water exits below",
+      "The strait is sealed by a permanent freshwater wall"
+    ],
+    "correct": 1,
+    "reveal": "A line on a map can hide a layered ocean.",
+    "steps": [
+      {
+        "label": "EVAPORATE",
+        "text": "Strong evaporation helps make Mediterranean waters saltier than incoming Atlantic water."
+      },
+      {
+        "label": "EXCHANGE",
+        "text": "Relatively fresher Atlantic water enters in an upper layer, while denser Mediterranean water flows outward below."
+      },
+      {
+        "label": "OBSERVE",
+        "text": "The narrow gateway concentrates this exchange. Its currents and internal waves reveal activity that a simple coastline map cannot show."
+      }
+    ],
+    "takeaway": "Two connected seas can exchange water in opposite directions at different depths.",
+    "source": {
+      "name": "International Ocean Discovery Program · Mediterranean–Atlantic gateway exchange",
+      "url": "https://www.iodp.tamu.edu/scienceops/sitesumm/401/401_ss1611.html"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustration of connected basins, not a current forecast or an exact water-particle path."
+  },
+  {
+    "id": "tasman-dust",
+    "category": "AIR / TRACES ACROSS THE SEA",
+    "title": "A glacier carried the colour of another continent.",
+    "teaser": "Australian dust reached New Zealand’s Southern Alps.",
+    "from": {
+      "name": "Eastern Australia",
+      "detail": "Airborne dust source region",
+      "image": "australia",
+      "lat": -33,
+      "lng": 146
+    },
+    "to": {
+      "name": "Southern Alps",
+      "detail": "New Zealand",
+      "image": "southern-alps",
+      "lat": -43.5,
+      "lng": 170.4
+    },
+    "question": "What helped turn snow on New Zealand glaciers orange-brown in 2019?",
+    "options": [
+      "A permanent change in the colour of ice crystals",
+      "Red algae exported in shipping containers",
+      "Windblown mineral dust arriving from Australia"
+    ],
+    "correct": 2,
+    "reveal": "A mountain snowfield can record weather far away.",
+    "steps": [
+      {
+        "label": "LIFT",
+        "text": "Dry conditions and winds can raise mineral dust from Australian landscapes into the atmosphere."
+      },
+      {
+        "label": "CROSS",
+        "text": "Airflows carried material across the Tasman Sea, depositing it on snow and ice in New Zealand."
+      },
+      {
+        "label": "CHECK",
+        "text": "Research on the 2019 event linked the striking red colour with an exceptional dust arrival. Dust deposition and smoke pollution are related regional phenomena but should not be treated as identical."
+      }
+    ],
+    "takeaway": "The atmosphere can leave distant landscapes written into snow.",
+    "source": {
+      "name": "Victoria University of Wellington · The summer the Southern Alps turned red",
+      "url": "https://www.wgtn.ac.nz/news/2024/12/the-summer-the-southern-alps-turned-red"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Illustrative source and deposition regions for a past event, not a forecast. The photo is a regional landscape, not evidence of the 2019 deposit."
+  },
+  {
+    "id": "pumice-rafts",
+    "category": "OCEAN / LIVING HITCHHIKERS",
+    "title": "Floating stone carried passengers across a sea.",
+    "teaser": "Tongan eruptions and Australia’s coast are connected by pumice rafting.",
+    "from": {
+      "name": "Tonga region",
+      "detail": "Southwestern Pacific",
+      "image": "tonga",
+      "lat": -18.9,
+      "lng": -174.4
+    },
+    "to": {
+      "name": "Northeastern Australia",
+      "detail": "Pacific receiving coast",
+      "image": "cape-york",
+      "lat": -18,
+      "lng": 147
+    },
+    "question": "How can a volcanic eruption transport marine organisms far across the ocean?",
+    "options": [
+      "Organisms attach to floating pumice carried by currents",
+      "Lava forms a permanent bridge across the Pacific",
+      "Corals fly above the ocean on warm air"
+    ],
+    "correct": 0,
+    "reveal": "A rock can become a temporary island.",
+    "steps": [
+      {
+        "label": "FLOAT",
+        "text": "Gas-rich volcanic rock called pumice can float after an eruption, forming drifting rafts."
+      },
+      {
+        "label": "COLONISE",
+        "text": "Marine organisms attach to the pumice as it travels, turning pieces of stone into mobile habitat."
+      },
+      {
+        "label": "ARRIVE",
+        "text": "QUT researchers documented Tongan pumice reaching Australia with living passengers. Rafting can disperse helpful organisms and potential pests; it is not a guaranteed rescue for damaged reefs."
+      }
+    ],
+    "takeaway": "Ocean currents can move whole travelling communities.",
+    "source": {
+      "name": "Queensland University of Technology · Pumice arrives",
+      "url": "https://www.qut.edu.au/news?id=168028"
+    },
+    "reviewedOn": "2026-11-05",
+    "mapNote": "Schematic connection from a Tongan eruption region to northeastern Australia, not an exact raft track or landing site."
   }
 ]

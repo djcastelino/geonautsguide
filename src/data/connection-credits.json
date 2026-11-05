@@ -672,5 +672,253 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Moonta3.JPG",
     "description": "Moonta, South Australia"
+  },
+  "delaware": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dough4872\" title=\"User:Dough4872\">Dough4872</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cape_Henlopen_State_Park_beach_looking_north_July_2022.jpeg",
+    "description": "Cape Henlopen State Park"
+  },
+  "new-zealand": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Agmonsnir\" title=\"User:Agmonsnir\">Hagai Agmon-Snir حچاي اچمون-سنير חגי אגמון-שניר</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:AnchorageBayNZDec022024_02.jpg",
+    "description": "Abel Tasman National Park"
+  },
+  "appalachians": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Aviator31\" class=\"extiw\" title=\"w:User:Aviator31\">Aviator31</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Clifftops4-7-07.jpg",
+    "description": "Great Smoky Mountains"
+  },
+  "hammerfest": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Clemensfranz\" title=\"User:Clemensfranz\">User:Clemensfranz</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Hammerfest_Juni_2005.jpg",
+    "description": "Hammerfest"
+  },
+  "galapagos": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lobo_marino_(Zalophus_californianus_wollebaeki),_Punta_Pitt,_isla_de_San_Crist%C3%B3bal,_islas_Gal%C3%A1pagos,_Ecuador,_2015-07-24,_DD_11.JPG",
+    "description": "Galápagos Islands"
+  },
+  "tahiti": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11493299@N00\">DANIEL JULIE</a> from Paris, France",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:DSC00042_Polyn%C3%A9sia_Moor%C3%A9a_Island_Motu_Mo%C3%A9a_Lagoon_and_transportation_Boat_(8076082190).jpg",
+    "description": "Moorea"
+  },
+  "java": {
+    "Artist": "Uncredited",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Arjuna_Temple_Complex_in_the_Dieng_Plateau.jpg",
+    "description": "Dieng Plateau"
+  },
+  "banda": {
+    "Artist": "Photo by <a href=\"https://en.wikipedia.org/wiki/en:user:Mark_Richards\" class=\"extiw\" title=\"w:en:user:Mark Richards\">Mark Richards</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:BandaBesarIslandSeenFromFortBelgica.JPG",
+    "description": "Banda Islands"
+  },
+  "zanzibar": {
+    "Artist": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Mbz1\" title=\"User:Mbz1\">Mbz1</a> assumed (based on copyright claims).",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Zanzibar_sultan_palace.jpg",
+    "description": "Stone Town"
+  },
+  "humberstone": {
+    "Artist": "rewbs.soal",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Humberstone.jpg",
+    "description": "Humberstone and Santa Laura Saltpeter Works"
+  },
+  "angola": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/66941036@N08\">tim kubacki</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Tundavala_Gap.jpg",
+    "description": "Tundavala Gap"
+  },
+  "okavango": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/8942661@N02\">Joachim Huber</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Okavango_Delta,_Botswana1.jpg",
+    "description": "Okavango Delta"
+  },
+  "germany": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Geschichtsfanatiker&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Geschichtsfanatiker (page does not exist)\">Geschichtsfanatiker</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Regensburger_Altstadt_von_oben_.jpg",
+    "description": "Regensburg"
+  },
+  "colorado": {
+    "Artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/Lennart_Sikkema\">Lennart Sikkema</a></div>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Canyon_River_Tree_(165872763).jpeg",
+    "description": "Grand Canyon"
+  },
+  "colorado-delta": {
+    "Artist": "NASA Earth Observatory images by Lauren Dauphin, using Landsat data from the U.S. Geological Survey",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Coloradoriverdelta_oli_APR2020.jpg",
+    "description": "Colorado River Delta"
+  },
+  "segovia": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Aqueduct_of_Segovia_08.jpg",
+    "description": "Aqueduct of Segovia"
+  },
+  "venice": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kallerna\" title=\"User:Kallerna\">kallerna</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Rialto_2025_4.jpg",
+    "description": "Rialto Bridge"
+  },
+  "istria": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Olgierd_Rudak\" title=\"User:Olgierd Rudak\">Olgierd Rudak</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Pula_Arena_(2024-10-10_1).jpg",
+    "description": "Pula Arena"
+  },
+  "mauritius": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/200610822@N07\">\"dronepicr\"</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_Morne_Peninsula_in_Mauritius_(53697779236).jpg",
+    "description": "Le Morne Brabant"
+  },
+  "oxford": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Ethan_Doyle_White\" class=\"extiw\" title=\"en:User:Ethan Doyle White\">Ethan Doyle White</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Oxford_University_Museum_of_Natural_History_exterior.JPG",
+    "description": "Oxford University Museum of Natural History"
+  },
+  "stonehenge": {
+    "Artist": "garethwiscombe",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg",
+    "description": "Stonehenge"
+  },
+  "wales": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/22705\">Deborah Tilley</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Preseli_Hills_-_geograph.org.uk_-_1729208.jpg",
+    "description": "Preseli Hills"
+  },
+  "surtsey": {
+    "Artist": "Howell Williams, <a href=\"https://en.wikipedia.org/wiki/NOAA\" class=\"extiw\" title=\"en:NOAA\">NOAA</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Surtsey_eruption_1963.jpg",
+    "description": "Surtsey"
+  },
+  "dunkirk": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Velvet\" title=\"User:Velvet\">Velvet</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Dunkerque_hotel_de_ville_vu_port.jpg",
+    "description": "Dunkirk"
+  },
+  "barcelona": {
+    "Artist": "M McBey",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Evening_light_over_Barcelona.jpg",
+    "description": "Barcelona"
+  },
+  "scotland": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Thincat\" title=\"User:Thincat\">Thincat</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:BenNevis2005.jpg",
+    "description": "Ben Nevis"
+  },
+  "danube-delta": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Cazaresulina&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Cazaresulina (page does not exist)\">Cazaresulina</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cazaresulinaoras2.jpg",
+    "description": "Sulina"
+  },
+  "gibraltar": {
+    "Artist": "Paul Handley",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Gibraltar-Europa-Point-LH-from-the-sea.jpg",
+    "description": "Europa Point"
+  },
+  "baffin": {
+    "Artist": "Ansgar Walk",
+    "LicenseShortName": "CC BY-SA 2.5",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Pangnirtung_Fiord_S_2_2001-07-15.jpg",
+    "description": "Auyuittuq National Park"
+  },
+  "southern-alps": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:LC-de\" title=\"User:LC-de\">Jörg Hempel</a>",
+    "LicenseShortName": "CC BY-SA 3.0 de",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Mt_Cook_LC0247.jpg",
+    "description": "Aoraki / Mount Cook"
+  },
+  "tonga": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Tau%CA%BBolunga\" title=\"User:Tauʻolunga\">Tauʻolunga</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ha%CA%BBamonga.jpg",
+    "description": "Haʻamonga ʻa Maui"
   }
 }
