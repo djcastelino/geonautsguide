@@ -22,7 +22,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 
 | Part | Feature | Experience | Status |
 | --- | --- | --- | --- |
-| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 30 stories in the production collection after the November 4 expansion. |
+| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 50 stories in the production collection after the November 4 expansion. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | Proposed next feature, naturally connected to Daily City Guess. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
@@ -42,7 +42,7 @@ Access: Connections in the homepage navigation, or `https://geonautsguide.com/?v
 
 Prepared November 4, 2026: monarch migration, Arctic terns, salmon nutrient transport, Tambora and Europe, coffee origins, Andean potatoes, Nile headwaters, Atlantic heat transport, European eels, and continental-drift fossils.
 
-The collection grew from 3 to 13 stories, then to 30. It includes a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
+The collection grew from 3 to 13 stories, then to 30 and 50. It includes a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
 
 ### Expansion proposal
 
@@ -73,7 +73,7 @@ The collection grew from 3 to 13 stories, then to 30. It includes a dropdown, pr
 
 1. Preserve the restored homepage and confirm the new feature is easy to find.
 2. Add the central About / Sources & Credits section.
-3. Maintain the 30-story collection and consider growth toward 100 in researched batches.
+3. Maintain the 50-story collection and consider growth toward 100 in researched batches.
 4. Preview Why Here? alongside Daily City Guess.
 5. Evaluate Parts 3–5 individually based on enjoyment, usage, and effort.
 
@@ -93,3 +93,5 @@ The collection grew from 3 to 13 stories, then to 30. It includes a dropdown, pr
 Update this file when a feature is approved, implemented, postponed, or released, so future work can resume from the same decisions.
 
 - **November 4, 2026:** Expanded Planet Connections to 30 source-linked stories; original homepage retained.
+
+- **November 4, 2026:** Added a further 20 connections, reaching 50 stories with research links and credited images.

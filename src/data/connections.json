@@ -1488,5 +1488,985 @@
     },
     "reviewedOn": "2026-11-04",
     "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "basalt-columns",
+    "category": "EARTH / VOLCANIC RELATIVES",
+    "title": "Two shores share a volcanic signature.",
+    "teaser": "Northern Ireland and a Scottish island display the same striking stone geometry.",
+    "from": {
+      "name": "Giant’s Causeway",
+      "detail": "Northern Ireland",
+      "image": "causeway",
+      "lat": 55.24,
+      "lng": -6.51
+    },
+    "to": {
+      "name": "Staffa",
+      "detail": "Scotland",
+      "image": "staffa",
+      "lat": 56.43,
+      "lng": -6.34
+    },
+    "question": "Why do the Giant’s Causeway and Staffa have similar basalt columns?",
+    "options": [
+      "People carved matching stepping stones",
+      "They share related volcanic origins and cooling processes",
+      "Ocean waves stacked identical blocks"
+    ],
+    "correct": 1,
+    "reveal": "Lava cooled into a pattern across two landscapes.",
+    "steps": [
+      {
+        "label": "ERUPT",
+        "text": "Ancient volcanic episodes produced basalt across this region. BGS links Staffa’s columnar rocks with the episodes behind the Giant’s Causeway."
+      },
+      {
+        "label": "COOL",
+        "text": "As thick lava cools and contracts, cracks can develop into regular networks, dividing the rock into columns."
+      },
+      {
+        "label": "COMPARE",
+        "text": "The two coastlines preserve related geological stories. Their resemblance offers evidence of shared physical processes rather than human construction."
+      }
+    ],
+    "takeaway": "A pattern in stone can reveal a relationship across the sea.",
+    "source": {
+      "name": "British Geological Survey · Giant’s Causeway",
+      "url": "https://www.bgs.ac.uk/discovering-geology/maps-and-resources/office-geology/the-giants-causeway-and-causeway-coast/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "fog-deserts",
+    "category": "CLIMATE / SHARED PROCESSES",
+    "title": "Two deserts meet cold ocean water.",
+    "teaser": "The Namib and Atacama show how a dry coast can still receive fog.",
+    "from": {
+      "name": "Namib Desert",
+      "detail": "Southwestern Africa",
+      "image": "namib",
+      "lat": -24,
+      "lng": 14.5
+    },
+    "to": {
+      "name": "Atacama Desert",
+      "detail": "Western South America",
+      "image": "atacama",
+      "lat": -24,
+      "lng": -70
+    },
+    "question": "What helps explain the fog associated with these coastal deserts?",
+    "options": [
+      "Warm rivers from tropical forests",
+      "Permanent sheets of sea ice",
+      "Moist air interacting with cold coastal waters"
+    ],
+    "correct": 2,
+    "reveal": "Similar physics can shape landscapes an ocean apart.",
+    "steps": [
+      {
+        "label": "UPWELL",
+        "text": "Cold ocean waters occur beside both desert coasts. Offshore winds and ocean circulation help bring deeper water toward the surface."
+      },
+      {
+        "label": "CONDENSE",
+        "text": "Moist air cooled near the ocean surface can form fog even where rainfall is scarce."
+      },
+      {
+        "label": "DISTINGUISH",
+        "text": "These deserts have different histories and additional climate influences. The connection is a shared coastal process, not a single current joining them."
+      }
+    ],
+    "takeaway": "Rainfall is not the only way moisture reaches a desert.",
+    "source": {
+      "name": "NASA My NASA Data · Ocean circulation stories",
+      "url": "https://mynasadata.larc.nasa.gov/sites/default/files/2020-08/Scientifically_Interesting_Stories_Ocean%20Circulation_Teacher_508_reduced.pdf"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Comparison of two coastal environments, not a transport route between them. Photos show the wider desert regions."
+  },
+  {
+    "id": "megachad",
+    "category": "WATER / LOST LANDSCAPES",
+    "title": "A desert preserves a vanished shoreline.",
+    "teaser": "Modern Lake Chad and distant desert ridges belong to one changing water story.",
+    "from": {
+      "name": "Lake Chad",
+      "detail": "Central Africa",
+      "image": "chad",
+      "lat": 13.3,
+      "lng": 14
+    },
+    "to": {
+      "name": "Ancient lake country",
+      "detail": "Northern Chad",
+      "image": "bodele",
+      "lat": 17,
+      "lng": 18
+    },
+    "question": "Why are ancient beach ridges found far from modern Lake Chad?",
+    "options": [
+      "A much larger lake once occupied the region",
+      "Modern oceans flood the Sahara every year",
+      "The ridges were built by ships"
+    ],
+    "correct": 0,
+    "reveal": "The shore moved, but the evidence remained.",
+    "steps": [
+      {
+        "label": "EXPAND",
+        "text": "During a wetter period, Lake Mega Chad occupied a vastly larger area than the modern lake."
+      },
+      {
+        "label": "SHAPE",
+        "text": "Waves and currents formed shore features including beach ridges and sand spits."
+      },
+      {
+        "label": "REVEAL",
+        "text": "NASA satellite and elevation observations reveal those former shorelines in today’s dry landscape, hundreds of kilometres from modern waters."
+      }
+    ],
+    "takeaway": "A dry landscape can preserve the shape of past water.",
+    "source": {
+      "name": "NASA Earth Observatory · Remnants of an Ancient Lake",
+      "url": "https://science.nasa.gov/earth/earth-observatory/remnants-of-an-ancient-lake-146304/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "panama",
+    "category": "ENGINEERING / GLOBAL ROUTES",
+    "title": "A narrow crossing changed ocean travel.",
+    "teaser": "Two coasts of Panama connect ships with routes far beyond Central America.",
+    "from": {
+      "name": "Caribbean Panama",
+      "detail": "Atlantic side",
+      "image": "panama-atlantic",
+      "lat": 9.3,
+      "lng": -79.9
+    },
+    "to": {
+      "name": "Panama City",
+      "detail": "Pacific side",
+      "image": "panama-pacific",
+      "lat": 8.95,
+      "lng": -79.53
+    },
+    "question": "What does the Panama Canal connect for ocean-going ships?",
+    "options": [
+      "The Arctic and Southern oceans",
+      "The Atlantic and Pacific oceans",
+      "The Mediterranean and Red seas"
+    ],
+    "correct": 1,
+    "reveal": "A short crossing reshaped long journeys.",
+    "steps": [
+      {
+        "label": "SEPARATE",
+        "text": "The Isthmus of Panama divides Atlantic and Pacific waters across a comparatively narrow strip of land."
+      },
+      {
+        "label": "CONNECT",
+        "text": "The canal provides a navigable crossing between the oceans, changing the distances and routes available to ships."
+      },
+      {
+        "label": "NETWORK",
+        "text": "Its importance extends to ports worldwide. A local piece of infrastructure can become part of a global trading network."
+      }
+    ],
+    "takeaway": "A small place on a map can change the shape of a world journey.",
+    "source": {
+      "name": "Panama Canal Authority · Connectivity",
+      "url": "https://pancanal.com/en/connectivity/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative coast-to-coast link, not the canal’s exact channel, lock layout, or a recommended shipping route."
+  },
+  {
+    "id": "rhine",
+    "category": "WATER / MOUNTAINS TO LOWLANDS",
+    "title": "A lowland river remembers alpine snow.",
+    "teaser": "The Rhine links Swiss mountain waters with the Netherlands.",
+    "from": {
+      "name": "Alpine Rhine region",
+      "detail": "Switzerland",
+      "image": "alps",
+      "lat": 46.8,
+      "lng": 9.3
+    },
+    "to": {
+      "name": "Dutch Rhine delta",
+      "detail": "The Netherlands",
+      "image": "rotterdam",
+      "lat": 51.9,
+      "lng": 4.5
+    },
+    "question": "How do alpine snow and ice influence the Rhine?",
+    "options": [
+      "They freeze all Dutch rivers permanently",
+      "They reach the delta only as icebergs",
+      "Their seasonal melt contributes to river flow"
+    ],
+    "correct": 2,
+    "reveal": "A river carries more than the weather beside its banks.",
+    "steps": [
+      {
+        "label": "STORE",
+        "text": "Snowfields and glaciers store some precipitation in the Alps, delaying its release as flowing water."
+      },
+      {
+        "label": "RELEASE",
+        "text": "Seasonal melting contributes to the Rhine’s flow. The river’s tributaries and rainfall patterns add other influences downstream."
+      },
+      {
+        "label": "CONNECT",
+        "text": "The Rhine system reaches the Netherlands, linking lowland water management with conditions across its upstream basin."
+      }
+    ],
+    "takeaway": "Downstream water has an upstream calendar.",
+    "source": {
+      "name": "International Commission for the Protection of the Rhine · Runoff",
+      "url": "https://www.iksr.org/en/topics/rhine/water-cycle/varying-runoff"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative river-basin connection; the arc does not follow the Rhine’s channel or individual distributaries."
+  },
+  {
+    "id": "himalayan-sediment",
+    "category": "EARTH / RIVERS BUILD LAND",
+    "title": "A mountain range helps build a delta.",
+    "teaser": "Himalayan erosion and Bangladesh’s lowlands are connected by moving sediment.",
+    "from": {
+      "name": "Himalaya",
+      "detail": "Asian mountain belt",
+      "image": "himalaya",
+      "lat": 29,
+      "lng": 92
+    },
+    "to": {
+      "name": "Ganges–Brahmaputra delta",
+      "detail": "Bangladesh",
+      "image": "bangladesh",
+      "lat": 22.2,
+      "lng": 89.5
+    },
+    "question": "What do rivers carry from Himalayan highlands toward the delta?",
+    "options": [
+      "Sediment eroded from the land",
+      "Coral reefs growing on mountain peaks",
+      "Ocean salt moving uphill"
+    ],
+    "correct": 0,
+    "reveal": "What leaves a mountain can become part of a lowland.",
+    "steps": [
+      {
+        "label": "ERODE",
+        "text": "Rivers and streams remove material from Himalayan landscapes, including rapidly eroding parts of the eastern range."
+      },
+      {
+        "label": "TRANSPORT",
+        "text": "Sediment-rich rivers such as the Brahmaputra move that material through valleys and floodplains."
+      },
+      {
+        "label": "DEPOSIT",
+        "text": "Sediment accumulates downstream, including in the Ganges–Brahmaputra delta. Deposition, erosion, flooding, and subsidence continue to reshape the land."
+      }
+    ],
+    "takeaway": "Mountains and deltas are stages in the same material journey.",
+    "source": {
+      "name": "NASA Earth Observatory · The Braided Brahmaputra",
+      "url": "https://science.nasa.gov/earth/earth-observatory/the-braided-brahmaputra-147591/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative mountain-to-delta connection; not a traced river channel. The mountain photograph represents the wider Himalayan range."
+  },
+  {
+    "id": "amazon-andes",
+    "category": "AIR / LANDSCAPE CONTRASTS",
+    "title": "A mountain wall changes the story of moisture.",
+    "teaser": "The Amazon’s humid interior and the Andes reveal what happens when winds meet mountains.",
+    "from": {
+      "name": "Amazon Basin",
+      "detail": "South America",
+      "image": "amazon",
+      "lat": -6,
+      "lng": -65
+    },
+    "to": {
+      "name": "Andes",
+      "detail": "Western South America",
+      "image": "andes",
+      "lat": -12,
+      "lng": -73
+    },
+    "question": "What happens when moisture-bearing air meets the Andes?",
+    "options": [
+      "The mountains erase every cloud",
+      "The terrain influences rainfall and rain shadows",
+      "Rain falls equally on every slope"
+    ],
+    "correct": 1,
+    "reveal": "A mountain can separate very different climates.",
+    "steps": [
+      {
+        "label": "CARRY",
+        "text": "Winds transport moisture from the South American interior toward the eastern slopes of the Andes."
+      },
+      {
+        "label": "RISE",
+        "text": "Mountain topography influences where air rises and precipitation falls, contributing to wetter eastern conditions."
+      },
+      {
+        "label": "CONTRAST",
+        "text": "NASA observations show humid rainforest and much drier landscapes toward the Pacific side. Rain shadows help explain part of this contrast."
+      }
+    ],
+    "takeaway": "Neighbouring landscapes can differ because of the air between them.",
+    "source": {
+      "name": "NASA Earth Observatory · Looking Down on the Andes",
+      "url": "https://science.nasa.gov/earth/earth-observatory/looking-down-on-the-andes-151670/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative atmospheric and terrain connection, not a specific air parcel’s trajectory. Photographs show the wider regions."
+  },
+  {
+    "id": "seaway",
+    "category": "WATER / INLAND CONNECTIONS",
+    "title": "An inland lake belongs to an ocean network.",
+    "teaser": "The Great Lakes connect North America’s interior with Atlantic navigation.",
+    "from": {
+      "name": "Great Lakes",
+      "detail": "Interior North America",
+      "image": "great-lakes",
+      "lat": 47,
+      "lng": -86
+    },
+    "to": {
+      "name": "St. Lawrence region",
+      "detail": "Eastern Canada",
+      "image": "stlawrence",
+      "lat": 48,
+      "lng": -69
+    },
+    "question": "What links Great Lakes shipping with the Atlantic Ocean?",
+    "options": [
+      "A canal through the Rocky Mountains",
+      "A seasonal sea-ice road",
+      "The Great Lakes–St. Lawrence navigation system"
+    ],
+    "correct": 2,
+    "reveal": "A coastline is not the only doorway to the sea.",
+    "steps": [
+      {
+        "label": "JOIN",
+        "text": "The Great Lakes and St. Lawrence form a connected water system reaching toward the Atlantic."
+      },
+      {
+        "label": "NAVIGATE",
+        "text": "Locks and other infrastructure help ships move through changes in water level along the navigation system."
+      },
+      {
+        "label": "TRADE",
+        "text": "The route connects inland producers and ports with wider markets. Its economic geography extends well beyond an ocean shoreline."
+      }
+    ],
+    "takeaway": "An inland port can have an ocean-scale reach.",
+    "source": {
+      "name": "U.S. Seaway Development Corporation · The Seaway System",
+      "url": "https://www.seaway.dot.gov/about/great-lakes-st-lawrence-seaway-system"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative inland-to-estuary connection; not a navigation chart or a trace of the full lock system."
+  },
+  {
+    "id": "brackish-baltic",
+    "category": "OCEAN / WATER EXCHANGE",
+    "title": "Two neighbouring seas do not taste the same.",
+    "teaser": "The North Sea and Baltic show how gateways and rivers affect salinity.",
+    "from": {
+      "name": "North Sea gateway",
+      "detail": "Near Denmark",
+      "image": "north-sea",
+      "lat": 57.7,
+      "lng": 10.6
+    },
+    "to": {
+      "name": "Baltic Sea",
+      "detail": "Northern Europe",
+      "image": "baltic",
+      "lat": 58.5,
+      "lng": 20
+    },
+    "question": "Why is much of the Baltic Sea brackish rather than as salty as the open ocean?",
+    "options": [
+      "Freshwater inflow mixes with limited seawater exchange",
+      "Its water is made entirely of melted ice",
+      "Salt cannot pass through straits"
+    ],
+    "correct": 0,
+    "reveal": "The connection matters—and so does its size.",
+    "steps": [
+      {
+        "label": "EXCHANGE",
+        "text": "Marine water enters the Baltic from the North Sea through its restricted entrance region."
+      },
+      {
+        "label": "DILUTE",
+        "text": "Numerous rivers supply freshwater. Together these flows produce a salinity gradient across the Baltic."
+      },
+      {
+        "label": "INFLUENCE",
+        "text": "Water exchange is comparatively slow. These conditions help shape the sea’s habitats and the organisms able to live there."
+      }
+    ],
+    "takeaway": "A sea’s character depends on what enters and what can leave.",
+    "source": {
+      "name": "HELCOM · About the Baltic Sea",
+      "url": "https://stateofthebalticsea.helcom.fi/overview/about-the-baltic-sea/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative exchange between sea regions; not a current forecast or exact strait-by-strait path."
+  },
+  {
+    "id": "orphan-tsunami",
+    "category": "HISTORY / SCIENTIFIC DETECTIVES",
+    "title": "A Japanese record helped reveal an American earthquake.",
+    "teaser": "Written observations and coastal clues met across the Pacific centuries later.",
+    "from": {
+      "name": "Cascadia coast",
+      "detail": "Northwestern North America",
+      "image": "cascadia",
+      "lat": 46,
+      "lng": -124
+    },
+    "to": {
+      "name": "Japan",
+      "detail": "Western Pacific",
+      "image": "japan",
+      "lat": 38,
+      "lng": 142
+    },
+    "question": "Why was Japan’s January 1700 tsunami called an “orphan” tsunami?",
+    "options": [
+      "It happened in a freshwater lake",
+      "No nearby parent earthquake had been felt",
+      "It had no waves"
+    ],
+    "correct": 1,
+    "reveal": "Distant records helped scientists connect the clues.",
+    "steps": [
+      {
+        "label": "RECORD",
+        "text": "Japanese observers documented flooding and damage in January 1700 without feeling a local earthquake."
+      },
+      {
+        "label": "COMPARE",
+        "text": "Researchers later compared these accounts with evidence of a major earthquake along the Cascadia coast."
+      },
+      {
+        "label": "CONNECT",
+        "text": "The combined evidence linked the tsunami with its distant earthquake source, showing the value of records from opposite sides of an ocean."
+      }
+    ],
+    "takeaway": "A scientific answer can be assembled from clues held far apart.",
+    "source": {
+      "name": "USGS · The Orphan Tsunami of 1700",
+      "url": "https://pubs.usgs.gov/publication/pp1707"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative historical connection, not a wave forecast. Modern place photographs do not depict the 1700 event."
+  },
+  {
+    "id": "krakatoa-observers",
+    "category": "AIR / GLOBAL OBSERVATION",
+    "title": "A volcano brought distant observers into one investigation.",
+    "teaser": "An Indonesian eruption and British records became part of a worldwide scientific effort.",
+    "from": {
+      "name": "Krakatoa",
+      "detail": "Indonesia",
+      "image": "krakatoa",
+      "lat": -6.1,
+      "lng": 105.4
+    },
+    "to": {
+      "name": "Britain",
+      "detail": "Northern Europe",
+      "image": "britain",
+      "lat": 51,
+      "lng": 1
+    },
+    "question": "How did observers far from Krakatoa help investigate its 1883 eruption?",
+    "options": [
+      "By collecting lava in British rivers",
+      "By stopping the eruption remotely",
+      "By reporting unusual skies and atmospheric observations"
+    ],
+    "correct": 2,
+    "reveal": "The connection was written in skies and instruments.",
+    "steps": [
+      {
+        "label": "ERUPT",
+        "text": "Krakatoa’s violent 1883 eruption had effects well beyond Indonesia, including atmospheric disturbances and unusual visual phenomena."
+      },
+      {
+        "label": "REPORT",
+        "text": "The Royal Society’s investigation gathered reports about pressure, sound, sea level, dust, and extraordinary light and colour."
+      },
+      {
+        "label": "COMPARE",
+        "text": "British sunset descriptions joined observations from other places. Combining many records helped scientists investigate a global event."
+      }
+    ],
+    "takeaway": "A distant observer can contribute to understanding a local catastrophe.",
+    "source": {
+      "name": "Royal Society · Crowdsourcing Krakatoa",
+      "url": "https://royalsociety.org/blog/2024/01/crowdsourcing-krakatoa/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative observation network link, not an ash plume or sound-propagation path. Photos show modern places."
+  },
+  {
+    "id": "cornish-miners",
+    "category": "PEOPLE / INDUSTRIAL JOURNEYS",
+    "title": "A mining landscape had a second life overseas.",
+    "teaser": "Cornwall and South Australia share technology, skills, and family histories.",
+    "from": {
+      "name": "Cornwall",
+      "detail": "Britain",
+      "image": "cornwall",
+      "lat": 50.1,
+      "lng": -5.7
+    },
+    "to": {
+      "name": "Moonta",
+      "detail": "South Australia",
+      "image": "moonta",
+      "lat": -34.07,
+      "lng": 137.59
+    },
+    "question": "What helped connect Cornish mining communities with Moonta?",
+    "options": [
+      "The movement of mining skills, technology, and people",
+      "A river running between the mines",
+      "Identical names chosen by chance"
+    ],
+    "correct": 0,
+    "reveal": "People carried a working landscape across the world.",
+    "steps": [
+      {
+        "label": "INNOVATE",
+        "text": "Cornwall developed influential mining technology and specialist skills during its period of industrial expansion."
+      },
+      {
+        "label": "TRANSFER",
+        "text": "Moonta and Burra became important sites for the transfer of Cornish mining and Welsh smelting technology to Australia."
+      },
+      {
+        "label": "REMEMBER",
+        "text": "Mine remains and community histories preserve these links. Industrial heritage is also a story of migration and knowledge."
+      }
+    ],
+    "takeaway": "A landscape can have relatives through the people who worked it.",
+    "source": {
+      "name": "National Trust of Australia · Moonta Mines heritage",
+      "url": "https://www.nationaltrust.org.au/news/moonta-mines-national-heritage-project/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "porcelain",
+    "category": "CRAFT / CROSS-CULTURAL DESIGN",
+    "title": "A Chinese workshop answered a Portuguese order.",
+    "teaser": "Porcelain connected distant makers with unfamiliar symbols and new customers.",
+    "from": {
+      "name": "Jingdezhen region",
+      "detail": "China",
+      "image": "jingdezhen",
+      "lat": 29.3,
+      "lng": 117.2
+    },
+    "to": {
+      "name": "Portugal",
+      "detail": "Atlantic Europe",
+      "image": "portugal",
+      "lat": 38.7,
+      "lng": -9.2
+    },
+    "question": "What shows that Chinese porcelain was being made for Portuguese customers?",
+    "options": [
+      "All porcelain was manufactured in Lisbon",
+      "Export pieces decorated with Portuguese royal arms",
+      "A natural porcelain reef between the countries"
+    ],
+    "correct": 1,
+    "reveal": "An object can preserve a conversation across cultures.",
+    "steps": [
+      {
+        "label": "TRADE",
+        "text": "Portuguese maritime routes helped Chinese porcelain reach European customers in greater quantities during the early sixteenth century."
+      },
+      {
+        "label": "DESIGN",
+        "text": "Chinese potters produced objects specifically for export. The Metropolitan Museum describes an early ewer with Portugal’s royal arms."
+      },
+      {
+        "label": "INTERPRET",
+        "text": "On that object, the arms were painted upside down. Even a small design detail can reveal the challenges of working across unfamiliar visual traditions."
+      }
+    ],
+    "takeaway": "Trade can move symbols as well as objects.",
+    "source": {
+      "name": "Metropolitan Museum of Art · Chinese Export Porcelain",
+      "url": "https://www.metmuseum.org/it/essays/east-and-west-chinese-export-porcelain"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative production-region-to-customer connection, not a documented shipment from a specific kiln. Photos show wider regions."
+  },
+  {
+    "id": "borobudur-art",
+    "category": "ART / CULTURAL CONNECTIONS",
+    "title": "A Javanese monument holds connections across the sea.",
+    "teaser": "Borobudur’s art combines a local setting with wider Buddhist artistic traditions.",
+    "from": {
+      "name": "India",
+      "detail": "South Asia",
+      "image": "sanchi",
+      "lat": 23.5,
+      "lng": 77.7
+    },
+    "to": {
+      "name": "Borobudur",
+      "detail": "Java, Indonesia",
+      "image": "borobudur",
+      "lat": -7.6,
+      "lng": 110.2
+    },
+    "question": "What connection does UNESCO identify in Borobudur’s artistic style?",
+    "options": [
+      "It was carved from Antarctic ice",
+      "It copies modern European factories",
+      "Influences from Indian Buddhist artistic traditions"
+    ],
+    "correct": 2,
+    "reveal": "Ideas can travel and become something locally distinctive.",
+    "steps": [
+      {
+        "label": "SHARE",
+        "text": "Buddhist ideas and artistic traditions circulated across Asia through wider cultural connections."
+      },
+      {
+        "label": "CREATE",
+        "text": "Borobudur developed as a major Javanese monument. Its art includes influences associated with Indian Gupta and post-Gupta styles."
+      },
+      {
+        "label": "DISTINGUISH",
+        "text": "Recognizing influence does not make it a simple copy. A monument can express both local creativity and connections with a wider artistic world."
+      }
+    ],
+    "takeaway": "Cultural connections can generate new forms of beauty.",
+    "source": {
+      "name": "UNESCO / ICOMOS · Borobudur evaluation",
+      "url": "https://whc.unesco.org/document/153832"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative cultural connection, not proof of a direct route from the photographed Indian monument to Borobudur."
+  },
+  {
+    "id": "obelisks",
+    "category": "HISTORY / MOVING MONUMENTS",
+    "title": "A Roman square can hold an Egyptian past.",
+    "teaser": "Monuments moved across the Mediterranean along with imperial power.",
+    "from": {
+      "name": "Egypt",
+      "detail": "Nile Valley",
+      "image": "egypt",
+      "lat": 25.7,
+      "lng": 32.6
+    },
+    "to": {
+      "name": "Rome",
+      "detail": "Italy",
+      "image": "rome",
+      "lat": 41.91,
+      "lng": 12.48
+    },
+    "question": "Why are ancient Egyptian obelisks found in Rome?",
+    "options": [
+      "Roman rulers transported Egyptian monuments to the city",
+      "They grew naturally from Roman soil",
+      "All Egyptian monuments were built in Italy"
+    ],
+    "correct": 0,
+    "reveal": "A monument’s current address may hide an earlier one.",
+    "steps": [
+      {
+        "label": "CONQUER",
+        "text": "After Rome conquered Egypt, the region became an important province of the Roman Empire."
+      },
+      {
+        "label": "TRANSPORT",
+        "text": "Works and monuments, including obelisks, were taken to Rome to decorate places and celebrate imperial conquest."
+      },
+      {
+        "label": "REINTERPRET",
+        "text": "Egyptian culture also influenced Roman artistic production. The connection involves both transported objects and newly created interpretations."
+      }
+    ],
+    "takeaway": "An urban landmark can carry the history of another country.",
+    "source": {
+      "name": "Vatican Museums · Egypt and Rome",
+      "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-gregoriano-egizio/sala-iv--l_egitto-e-roma/sala-iv--l_egitto-e-roma.html"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative Egypt–Rome connection; not the documented transport route of one specific obelisk."
+  },
+  {
+    "id": "chillies",
+    "category": "FOOD / PLANT JOURNEYS",
+    "title": "A familiar Indian heat has American roots.",
+    "teaser": "Chillies connect kitchens across an ocean and centuries of exchange.",
+    "from": {
+      "name": "Mexico",
+      "detail": "The Americas",
+      "image": "mexico",
+      "lat": 19,
+      "lng": -99
+    },
+    "to": {
+      "name": "India",
+      "detail": "South Asia",
+      "image": "india",
+      "lat": 15,
+      "lng": 75
+    },
+    "question": "What is the broader origin story of Capsicum chillies used in Indian cooking?",
+    "options": [
+      "They originated in Himalayan glaciers",
+      "They came from the Americas and spread through trade",
+      "They were always native to every tropical country"
+    ],
+    "correct": 1,
+    "reveal": "A cuisine can adopt a distant plant and make it its own.",
+    "steps": [
+      {
+        "label": "ORIGIN",
+        "text": "Capsicum peppers have American origins. Their species include the familiar cultivated chilli pepper Capsicum annuum."
+      },
+      {
+        "label": "SPREAD",
+        "text": "Seeds reached Europe and were then planted widely through Portuguese connections in Africa and Asia, including India."
+      },
+      {
+        "label": "ADOPT",
+        "text": "Regional cooks incorporated chillies in distinctive ways. A plant’s native range and its later culinary importance need not match."
+      }
+    ],
+    "takeaway": "A local flavour can preserve a global journey.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Capsicum annuum",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2/general-information"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "sunflowers",
+    "category": "PLANTS / CHANGING HOMES",
+    "title": "A North American flower found distant fields.",
+    "teaser": "The sunflower connects its native continent with cultivation in Ukraine.",
+    "from": {
+      "name": "North America",
+      "detail": "Sunflower’s native continent",
+      "image": "prairie",
+      "lat": 38,
+      "lng": -96
+    },
+    "to": {
+      "name": "Ukraine",
+      "detail": "Eastern Europe",
+      "image": "ukraine",
+      "lat": 48.5,
+      "lng": 31
+    },
+    "question": "How can a plant strongly associated with Ukraine also have North American origins?",
+    "options": [
+      "Its seeds can only grow in one country",
+      "Ukraine and North America share a land border",
+      "Plants can be introduced and cultivated far beyond their native range"
+    ],
+    "correct": 2,
+    "reveal": "A familiar field can contain a faraway botanical history.",
+    "steps": [
+      {
+        "label": "ORIGIN",
+        "text": "The common sunflower, Helianthus annuus, is native to North America."
+      },
+      {
+        "label": "INTRODUCE",
+        "text": "People carried the species beyond its original range. Kew records Ukraine among the places where it has been introduced."
+      },
+      {
+        "label": "CULTIVATE",
+        "text": "Its wider cultivation shows how human choices can reshape a plant’s geographical story. A strong modern association does not establish native origin."
+      }
+    ],
+    "takeaway": "A plant can become part of a place without beginning there.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Sunflower",
+      "url": "https://www.kew.org/plants/sunflower"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative native-to-introduced range comparison. Landscape photos show the wider regions, not verified sunflower fields."
+  },
+  {
+    "id": "maize",
+    "category": "FOOD / CULTIVATED WORLDS",
+    "title": "A grain connects Mexico with African tables.",
+    "teaser": "Maize shows how a crop can travel and become important in new food traditions.",
+    "from": {
+      "name": "Mexico",
+      "detail": "Mesoamerica",
+      "image": "mexico",
+      "lat": 19,
+      "lng": -99
+    },
+    "to": {
+      "name": "Kenya",
+      "detail": "Eastern Africa",
+      "image": "kenya",
+      "lat": -0.5,
+      "lng": 36
+    },
+    "question": "What connects maize grown in Kenya with Mexico?",
+    "options": [
+      "The crop’s Mesoamerican origins and later worldwide spread",
+      "An underground grain pipeline",
+      "Its dependence on identical seasons in both countries"
+    ],
+    "correct": 0,
+    "reveal": "A shared crop can link very different landscapes.",
+    "steps": [
+      {
+        "label": "DOMESTICATE",
+        "text": "Maize is associated with domestication in Mesoamerica, including Mexico. It developed through human cultivation rather than appearing as today’s crop everywhere."
+      },
+      {
+        "label": "SPREAD",
+        "text": "The crop spread beyond the Americas and became widely cultivated in other warm regions, including parts of Africa."
+      },
+      {
+        "label": "ADAPT",
+        "text": "Different communities developed their own farming and food traditions around it. Shared botanical origins can coexist with distinct local identities."
+      }
+    ],
+    "takeaway": "A staple food can have both a local culture and a distant beginning.",
+    "source": {
+      "name": "Royal Botanic Gardens, Kew · Zea mays",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A426810-1/general-information"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "tea",
+    "category": "FOOD / CULTURAL HABITS",
+    "title": "A British ritual began with an imported drink.",
+    "teaser": "Tea links East Asian cultivation with changing habits in Britain.",
+    "from": {
+      "name": "China",
+      "detail": "East Asia",
+      "image": "china",
+      "lat": 26,
+      "lng": 110
+    },
+    "to": {
+      "name": "Britain",
+      "detail": "Northwestern Europe",
+      "image": "london",
+      "lat": 51.5,
+      "lng": -0.1
+    },
+    "question": "How did tea become part of British life?",
+    "options": [
+      "It arrived naturally in North Sea currents",
+      "It was imported through maritime trade and later adopted widely",
+      "It was first cultivated beneath London streets"
+    ],
+    "correct": 1,
+    "reveal": "A daily habit can begin as a distant luxury.",
+    "steps": [
+      {
+        "label": "TRADE",
+        "text": "European merchants encountered tea through Asian maritime trade. The V&A describes imports from China and Japan."
+      },
+      {
+        "label": "VALUE",
+        "text": "Its high cost initially made tea a luxury. Trade and imperial expansion shaped who supplied it and who could afford it."
+      },
+      {
+        "label": "ADOPT",
+        "text": "Drinking habits and teapot designs changed as tea became established in Britain. A familiar ritual carries a history of exchange and unequal power."
+      }
+    ],
+    "takeaway": "What feels traditional can be the result of long-distance connections.",
+    "source": {
+      "name": "Victoria and Albert Museum · Teapot design through time",
+      "url": "https://www.vam.ac.uk/articles/teapots-through-time/"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative connection between modern places, not an exact historic route. Photographs show the wider regions."
+  },
+  {
+    "id": "swallows",
+    "category": "WILDLIFE / CONNECTED SEASONS",
+    "title": "A British summer bird has a southern chapter.",
+    "teaser": "Swallows connect familiar countryside with habitats far beyond Europe.",
+    "from": {
+      "name": "Britain",
+      "detail": "Northern breeding region",
+      "image": "norfolk",
+      "lat": 52.8,
+      "lng": 1
+    },
+    "to": {
+      "name": "Southern Africa",
+      "detail": "Southern seasonal range",
+      "image": "south-africa",
+      "lat": -29,
+      "lng": 29
+    },
+    "question": "Where do many swallows seen breeding in Britain travel for the northern winter?",
+    "options": [
+      "They remain in Britain throughout winter",
+      "They migrate to Arctic breeding grounds",
+      "South through Africa, including South Africa"
+    ],
+    "correct": 2,
+    "reveal": "The bird above a field belongs to a much larger journey.",
+    "steps": [
+      {
+        "label": "BREED",
+        "text": "Swallows visit Britain during the warmer part of the year, feeding on flying insects and breeding in suitable habitats."
+      },
+      {
+        "label": "DEPART",
+        "text": "As autumn approaches, they gather before migrating south through Europe and Africa."
+      },
+      {
+        "label": "RETURN",
+        "text": "The RSPB describes British swallows reaching South Africa before returning north in spring. Their needs extend across many landscapes and borders."
+      }
+    ],
+    "takeaway": "A summer visitor depends on places you may never see.",
+    "source": {
+      "name": "RSPB · Swallow",
+      "url": "https://www.rspb.org.uk/birds-and-wildlife/swallow"
+    },
+    "reviewedOn": "2026-11-04",
+    "mapNote": "Illustrative seasonal endpoints, not the tracked route of one bird. Populations and journeys vary."
   }
 ]

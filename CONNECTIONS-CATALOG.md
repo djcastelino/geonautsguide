@@ -1,8 +1,8 @@
 # Planet Connections content catalogue
 
-Collection: 30 stories. Reviewed November 4, 2026.
+Collection: 50 stories. Reviewed November 4, 2026.
 
-Research links support the written summaries; narration reads those same summaries. Image creator, source, and license information is recorded in `src/data/connection-credits.json` and displayed with each story. Maps show illustrative connections.
+Research links support the written summaries; narration reads the same summaries. Image creator, source, and license information is recorded in `src/data/connection-credits.json` and displayed with each story. Maps show illustrative connections.
 
 | # | Connection | Theme | Research source |
 |---|---|---|---|
@@ -36,3 +36,23 @@ Research links support the written summaries; narration reads those same summari
 | 28 | Red Sea ↔ Eastern Mediterranean | OCEAN / HUMAN CHANGE | [UNEP · Mediterranean non-indigenous species assessment](https://wedocs.unep.org/xmlui/bitstream/handle/20.500.11822/21265/17wg444_9_eng.pdf) |
 | 29 | Laki ↔ Britain | AIR / ENVIRONMENTAL HISTORY | [Met Office · Volcanic activity in Iceland](https://www.metoffice.gov.uk/services/transport/aviation/regulated/international-aviation/vaac/iceland) |
 | 30 | Peru ↔ Southern Italy | FOOD / PLANT JOURNEYS | [Royal Botanic Gardens, Kew · Tomato](https://www.kew.org/plants/tomato) |
+| 31 | Giant’s Causeway ↔ Staffa | EARTH / VOLCANIC RELATIVES | [British Geological Survey · Giant’s Causeway](https://www.bgs.ac.uk/discovering-geology/maps-and-resources/office-geology/the-giants-causeway-and-causeway-coast/) |
+| 32 | Namib Desert ↔ Atacama Desert | CLIMATE / SHARED PROCESSES | [NASA My NASA Data · Ocean circulation stories](https://mynasadata.larc.nasa.gov/sites/default/files/2020-08/Scientifically_Interesting_Stories_Ocean%20Circulation_Teacher_508_reduced.pdf) |
+| 33 | Lake Chad ↔ Ancient lake country | WATER / LOST LANDSCAPES | [NASA Earth Observatory · Remnants of an Ancient Lake](https://science.nasa.gov/earth/earth-observatory/remnants-of-an-ancient-lake-146304/) |
+| 34 | Caribbean Panama ↔ Panama City | ENGINEERING / GLOBAL ROUTES | [Panama Canal Authority · Connectivity](https://pancanal.com/en/connectivity/) |
+| 35 | Alpine Rhine region ↔ Dutch Rhine delta | WATER / MOUNTAINS TO LOWLANDS | [International Commission for the Protection of the Rhine · Runoff](https://www.iksr.org/en/topics/rhine/water-cycle/varying-runoff) |
+| 36 | Himalaya ↔ Ganges–Brahmaputra delta | EARTH / RIVERS BUILD LAND | [NASA Earth Observatory · The Braided Brahmaputra](https://science.nasa.gov/earth/earth-observatory/the-braided-brahmaputra-147591/) |
+| 37 | Amazon Basin ↔ Andes | AIR / LANDSCAPE CONTRASTS | [NASA Earth Observatory · Looking Down on the Andes](https://science.nasa.gov/earth/earth-observatory/looking-down-on-the-andes-151670/) |
+| 38 | Great Lakes ↔ St. Lawrence region | WATER / INLAND CONNECTIONS | [U.S. Seaway Development Corporation · The Seaway System](https://www.seaway.dot.gov/about/great-lakes-st-lawrence-seaway-system) |
+| 39 | North Sea gateway ↔ Baltic Sea | OCEAN / WATER EXCHANGE | [HELCOM · About the Baltic Sea](https://stateofthebalticsea.helcom.fi/overview/about-the-baltic-sea/) |
+| 40 | Cascadia coast ↔ Japan | HISTORY / SCIENTIFIC DETECTIVES | [USGS · The Orphan Tsunami of 1700](https://pubs.usgs.gov/publication/pp1707) |
+| 41 | Krakatoa ↔ Britain | AIR / GLOBAL OBSERVATION | [Royal Society · Crowdsourcing Krakatoa](https://royalsociety.org/blog/2024/01/crowdsourcing-krakatoa/) |
+| 42 | Cornwall ↔ Moonta | PEOPLE / INDUSTRIAL JOURNEYS | [National Trust of Australia · Moonta Mines heritage](https://www.nationaltrust.org.au/news/moonta-mines-national-heritage-project/) |
+| 43 | Jingdezhen region ↔ Portugal | CRAFT / CROSS-CULTURAL DESIGN | [Metropolitan Museum of Art · Chinese Export Porcelain](https://www.metmuseum.org/it/essays/east-and-west-chinese-export-porcelain) |
+| 44 | India ↔ Borobudur | ART / CULTURAL CONNECTIONS | [UNESCO / ICOMOS · Borobudur evaluation](https://whc.unesco.org/document/153832) |
+| 45 | Egypt ↔ Rome | HISTORY / MOVING MONUMENTS | [Vatican Museums · Egypt and Rome](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-gregoriano-egizio/sala-iv--l_egitto-e-roma/sala-iv--l_egitto-e-roma.html) |
+| 46 | Mexico ↔ India | FOOD / PLANT JOURNEYS | [Royal Botanic Gardens, Kew · Capsicum annuum](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2/general-information) |
+| 47 | North America ↔ Ukraine | PLANTS / CHANGING HOMES | [Royal Botanic Gardens, Kew · Sunflower](https://www.kew.org/plants/sunflower) |
+| 48 | Mexico ↔ Kenya | FOOD / CULTIVATED WORLDS | [Royal Botanic Gardens, Kew · Zea mays](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A426810-1/general-information) |
+| 49 | China ↔ Britain | FOOD / CULTURAL HABITS | [Victoria and Albert Museum · Teapot design through time](https://www.vam.ac.uk/articles/teapots-through-time/) |
+| 50 | Britain ↔ Southern Africa | WILDLIFE / CONNECTED SEASONS | [RSPB · Swallow](https://www.rspb.org.uk/birds-and-wildlife/swallow) |
