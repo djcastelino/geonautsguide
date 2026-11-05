@@ -1,6 +1,6 @@
 # Planet Connections content catalogue
 
-Collection: 50 stories. Reviewed November 4, 2026.
+Collection: 75 stories. Latest batch reviewed November 5, 2026.
 
 Research links support the written summaries; narration reads the same summaries. Image creator, source, and license information is recorded in `src/data/connection-credits.json` and displayed with each story. Maps show illustrative connections.
 
@@ -14,8 +14,8 @@ Research links support the written summaries; narration reads the same summaries
 | 06 | Pacific coast ↔ Salmon River | WILDLIFE / ECOLOGY | [American Fisheries Society · Marine-derived nutrients in Idaho](https://fisheries.org/doi/9781888569445-ch4/) |
 | 07 | Mount Tambora ↔ Lake Geneva | CLIMATE / HISTORY | [UCAR · Mount Tambora and the Year Without a Summer](https://scied.ucar.edu/learning-zone/how-climate-works/mount-tambora-and-year-without-summer) |
 | 08 | Ethiopian highlands ↔ Haraz Mountains | PLANTS / HUMAN JOURNEYS | [Royal Botanic Gardens, Kew · Coffea arabica](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A747038-1/general-information) |
-| 09 | Lake Titicaca region ↔ Ireland | FOOD / HISTORY | [Royal Botanic Gardens, Kew · Solanum tuberosum](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821337-1/general-information) |
-| 10 | Lake Tana ↔ Nile Delta | WATER / GEOGRAPHY | [NASA Earth Observatory · Two Niles Meet](https://science.nasa.gov/earth/earth-observatory/two-niles-meet-81186/) |
+| 09 | Lake Titicaca region ↔ Ireland | FOOD / HISTORY | [Royal Botanic Gardens, Kew · Solanum tuberosum](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A821337-1/general-information); [American Phytopathological Society · Potato arrival in Europe](https://www.apsnet.org/edcenter/apsnetfeatures/Pages/PotatoLateBlightPlantDiseasesArrival.aspx) |
+| 10 | Lake Tana ↔ Nile Delta | WATER / GEOGRAPHY | [NASA Earth Observatory · Two Niles Meet](https://science.nasa.gov/earth/earth-observatory/two-niles-meet-81186/); [NASA · Lake Tana and the Ethiopian Highlands](https://science.nasa.gov/earth/earth-observatory/lake-tana-and-the-ethiopian-highlands-148549/) |
 | 11 | Florida Straits ↔ Western Europe | OCEAN / CLIMATE | [NOAA · Ocean boundary currents](https://oceanservice.noaa.gov/education/tutorial_currents/04currents3.html) |
 | 12 | River Thames ↔ Sargasso Sea | WILDLIFE / OCEAN MYSTERIES | [Zoological Society of London · European eel conservation](https://www.zsl.org/what-we-do/projects/european-eel-conservation) |
 | 13 | India ↔ Antarctica | EARTH / ANCIENT CONTINENTS | [USGS · Continental drift evidence](https://www.usgs.gov/educational-resources/wegeners-puzzling-continental-drift-evidence) |
@@ -56,3 +56,28 @@ Research links support the written summaries; narration reads the same summaries
 | 48 | Mexico ↔ Kenya | FOOD / CULTIVATED WORLDS | [Royal Botanic Gardens, Kew · Zea mays](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A426810-1/general-information) |
 | 49 | China ↔ Britain | FOOD / CULTURAL HABITS | [Victoria and Albert Museum · Teapot design through time](https://www.vam.ac.uk/articles/teapots-through-time/) |
 | 50 | Britain ↔ Southern Africa | WILDLIFE / CONNECTED SEASONS | [RSPB · Swallow](https://www.rspb.org.uk/birds-and-wildlife/swallow) |
+| 51 | Delaware Bay ↔ Canadian Arctic | WILDLIFE / MIGRATION FUEL | [Delaware River Basin Commission · Horseshoe crabs](https://nj.gov/drbc/basin/living/horseshoe-crabs.html) |
+| 52 | Alaska ↔ New Zealand | WILDLIFE / PACIFIC FLIGHT | [New Zealand Department of Conservation · Bar-tailed godwit](https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/eastern-bar-tailed-godwit/) |
+| 53 | Western New Guinea ↔ California coast | WILDLIFE / OCEAN JOURNEYS | [NOAA Fisheries · Leatherback turtle research](https://www.fisheries.noaa.gov/west-coast/science-data/leatherback-turtle-research) |
+| 54 | Appalachians ↔ Scottish Highlands | EARTH / REUNITED LANDSCAPES | [National Park Service · Supercontinent Pangea](https://www.nps.gov/subjects/fossils/supercontinent-pangea.htm) |
+| 55 | Hammerfest ↔ Lower Danube region | SCIENCE / MEASURING EARTH | [UNESCO · Struve Geodetic Arc](https://whc.unesco.org/en/list/1187/) |
+| 56 | Galápagos Islands ↔ London | SCIENCE / COLLECTION JOURNEYS | [Natural History Museum · Voyage of HMS Beagle](https://www.nhm.ac.uk/our-science/services/collections/zoology/birds/skins/hms-beagle.html) |
+| 57 | Society Islands ↔ Caribbean islands | FOOD / COMPLEX JOURNEYS | [Kew Science · Breadfruit](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A582598-1/general-information) |
+| 58 | Andes ↔ Asian highlands | PLANTS / KNOWLEDGE AND EMPIRE | [Royal Botanic Gardens, Kew · Cinchona tree](https://www.kew.org/plants/cinchona-tree) |
+| 59 | Banda Islands ↔ The Netherlands | TRADE / ISLAND SPICES | [Dutch Association of Botanic Gardens · Nutmeg](https://www.botanischetuinen.nl/en/plant_en/1863/nutmeg); [Journal of Southeast Asian Studies · Nutmeg production and colonial labour](https://www.cambridge.org/core/journals/journal-of-southeast-asian-studies/article/colonisation-and-cultivation-nutmeg-production-labour-and-ecology-on-the-banda-islands-before-and-after-the-conquest-of-1621/BF86973D1324DB0D0FE680E0BF5291F7) |
+| 60 | Maluku Islands ↔ Zanzibar | PLANTS / CHANGING GEOGRAPHIES | [Kew Science · Clove](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A601421-1/general-information) |
+| 61 | Mexico ↔ Spain | COLOUR / GLOBAL EXCHANGE | [Harvard Museums of Science & Culture · Cochineal, the color of power](https://hmsc.harvard.edu/online-exhibits/cochineal1/color-power/) |
+| 62 | Humberstone region ↔ European farmland | EARTH / DESERT TO FARMLAND | [UNESCO · Humberstone and Santa Laura Saltpeter Works](https://whc.unesco.org/en/list/1178/) |
+| 63 | Peruvian coast ↔ Britain | ECOLOGY / AGRICULTURAL HISTORY | [University of Bristol · Guano and British Victorians](https://research-information.bris.ac.uk/en/studentTheses/guano-and-british-victorians/) |
+| 64 | Angolan highlands ↔ Okavango Delta | WATER / DISTANT RAIN | [UNESCO · Okavango Delta](https://whc.unesco.org/en/list/1432/) |
+| 65 | German Danube ↔ Danube Delta | WATER / SHARED BASIN | [International Commission for the Protection of the Danube River · River basin](https://www.icpdr.org/danube-basin/danube-river-basin) |
+| 66 | Colorado River ↔ Colorado delta | WATER / RESTORING A CONNECTION | [USGS · History of the 2014 environmental pulse flow](https://www.usgs.gov/publications/a-history-2014-minute-319-environmental-pulse-flow-asdocumented-field-measurements-and) |
+| 67 | Rome ↔ Segovia | ENGINEERING / SHARED KNOWLEDGE | [UNESCO · Old Town of Segovia and its Aqueduct](https://whc.unesco.org/en/list/311/) |
+| 68 | Istria ↔ Venice | ARCHITECTURE / MATERIAL JOURNEYS | [Istituto Veneto · Ancient marbles and stones in Venice](https://www.istitutoveneto.it/wp-content/uploads/2026/02/ancient-marbles-and-stones-in-venice-architecture-sculpture-reuse-from-antiquity-to-the-baroque-revised-edition.pdf) |
+| 69 | Dunkirk ↔ Barcelona | SCIENCE / EVERYDAY UNITS | [Paris Observatory · La Terre et le mètre](https://media4.obspm.fr/public/ressources_lu/pages_triangulation/mesure-terre_impression.html) |
+| 70 | Mauritius ↔ Oxford | SCIENCE / ISLAND MEMORY | [Oxford University Museum of Natural History · The Oxford dodo](https://oumnh.ox.ac.uk/oxford-dodo-en) |
+| 71 | Preseli Hills ↔ Stonehenge | ARCHAEOLOGY / ROCK ORIGINS | [English Heritage · Stonehenge history and stories](https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/) |
+| 72 | Iceland ↔ Surtsey | ECOLOGY / NEW LAND | [UNESCO · Surtsey](https://whc.unesco.org/en/list/1267/) |
+| 73 | Strait of Gibraltar ↔ Mediterranean Sea | OCEAN / HIDDEN CURRENTS | [International Ocean Discovery Program · Mediterranean–Atlantic gateway exchange](https://www.iodp.tamu.edu/scienceops/sitesumm/401/401_ss1611.html) |
+| 74 | Eastern Australia ↔ Southern Alps | AIR / TRACES ACROSS THE SEA | [Victoria University of Wellington · The summer the Southern Alps turned red](https://www.wgtn.ac.nz/news/2024/12/the-summer-the-southern-alps-turned-red) |
+| 75 | Tonga region ↔ Northeastern Australia | OCEAN / LIVING HITCHHIKERS | [Queensland University of Technology · Pumice arrives](https://www.qut.edu.au/news?id=168028) |

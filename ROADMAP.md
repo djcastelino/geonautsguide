@@ -1,6 +1,6 @@
 # GeonautsGuide roadmap
 
-Last updated: November 4, 2026
+Last updated: November 5, 2026
 
 ## Direction
 
@@ -22,11 +22,41 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 
 | Part | Feature | Experience | Status |
 | --- | --- | --- | --- |
-| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 50 stories in the production collection after the November 4 expansion. |
+| 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 75 stories in the production collection after the November 5 expansion. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | Proposed next feature, naturally connected to Daily City Guess. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
 | 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
+
+## Collection targets
+
+- Work toward **100 entries in each of the five parts**, for a long-term collection of **500 experiences**. For Earth or Another World?, count distinct challenges rather than conventional stories.
+- The first batch of 25 grows Planet Connections from 50 to 75 on November 5. A further batch of 25 remains planned to reach 100.
+- Introduce each new format with a smaller preview collection before expanding toward 100.
+
+## Fresh ideas backlog
+
+These are ideas to explore alongside the five agreed parts, not additional features already built or scheduled. Reuse existing stories where possible.
+
+| Idea | Experience | Possible fit |
+| --- | --- | --- |
+| Your everyday world | Start with coffee, chocolate, pepper, or another familiar object and discover the places behind it. | Follow the Journey; themed entry points into Planet Connections. |
+| One event, distant consequences | Explore how an eruption or another event affected weather, harvests, or communities far away. | Planet Connections; A Place Through Time. |
+| Connected to home | Choose a country and discover its unexpected connections with other places. | Country-based browsing across the collection; initially use country selection rather than automatic location access. |
+| Guess the missing link | Show three places and invite learners to identify what connects them. | A future challenge format using researched relationships. |
+| Follow your curiosity | Offer a related connection at the end of each story, creating a trail through the collection. | Shared navigation across the five parts. |
+
+## Geography learning and schools
+
+Explore GeonautsGuide as a resource for school geography learning, while keeping it enjoyable for independent visitors. This is a potential audience and design direction, not a claim of curriculum alignment or school approval.
+
+- Use the sequence **locate → predict → reveal → explain → discuss**: find places on a map, guess their connection, then explain the evidence.
+- Connect physical geography with human geography: climate, rivers, geology, migration, trade, settlements, and cultural exchange.
+- Add optional age or difficulty labels and topic tags as the collection grows; begin with a small classroom-friendly preview.
+- Consider a teacher view with a short learning objective, vocabulary, a discussion prompt, and a source link for each selected story.
+- Explore short themed lesson trails, such as “How rivers shape cities” or “The geography of everyday food,” plus printable question sheets with separate answers.
+- Keep audio optional, retain readable text, and support a presentation-friendly experience without requiring pupil accounts for basic browsing.
+- Validate usefulness with teacher feedback before investing in classroom accounts, assignments, or student progress tracking.
 
 ## Part 1 — Planet Connections
 
@@ -42,7 +72,7 @@ Access: Connections in the homepage navigation, or `https://geonautsguide.com/?v
 
 Prepared November 4, 2026: monarch migration, Arctic terns, salmon nutrient transport, Tambora and Europe, coffee origins, Andean potatoes, Nile headwaters, Atlantic heat transport, European eels, and continental-drift fossils.
 
-The collection grew from 3 to 13 stories, then to 30 and 50. It includes a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
+The collection grew from 3 to 13 stories, then to 30, 50, and 75. It includes a dropdown, previous/next navigation, and an expandable collection browser. The original homepage remains the landing page.
 
 ### Expansion proposal
 
@@ -73,7 +103,7 @@ The collection grew from 3 to 13 stories, then to 30 and 50. It includes a dropd
 
 1. Preserve the restored homepage and confirm the new feature is easy to find.
 2. Add the central About / Sources & Credits section.
-3. Maintain the 50-story collection and consider growth toward 100 in researched batches.
+3. Grow Planet Connections from 75 to 100 with the next researched batch of 25.
 4. Preview Why Here? alongside Daily City Guess.
 5. Evaluate Parts 3–5 individually based on enjoyment, usage, and effort.
 
@@ -95,3 +125,5 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 4, 2026:** Expanded Planet Connections to 30 source-linked stories; original homepage retained.
 
 - **November 4, 2026:** Added a further 20 connections, reaching 50 stories with research links and credited images.
+
+- **November 5, 2026:** Added 25 connections, reaching 75 stories. Preserved the five-part, 500-experience target, fresh ideas backlog, and geography learning plans.
