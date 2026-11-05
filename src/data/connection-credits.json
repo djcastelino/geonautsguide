@@ -424,5 +424,253 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Cape_Tribulation_from_the_South_Beach_1.jpg",
     "description": "Cape Tribulation"
+  },
+  "causeway": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/alphageek/\">code poet</a> on flickr.",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Causeway-code_poet-4.jpg",
+    "description": "Giant's Causeway"
+  },
+  "staffa": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Scotland-Staffa-Fingals-Cave-1900.jpg",
+    "description": "Fingal's Cave"
+  },
+  "atacama": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Davide_guallini&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Davide guallini (page does not exist)\">Davide guallini</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Valle_della_Luna_01.jpg",
+    "description": "Valle de la Luna (Chile)"
+  },
+  "chad": {
+    "Artist": "Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lake_Chad_(MODIS_2018-06-07).jpg",
+    "description": "Lake Chad"
+  },
+  "bodele": {
+    "Artist": "NASA",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Chad_AMO_2004323_lrg.jpg",
+    "description": "Bodélé Depression"
+  },
+  "panama-pacific": {
+    "Artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/dronepicr\">Dronepicr</a></div>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Panama_Papers_(148830809).jpeg",
+    "description": "Panama City"
+  },
+  "rotterdam": {
+    "Artist": "<bdi>Martin Falbisoner</bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Erasmusbrug,_September_2019.jpg",
+    "description": "Erasmusbrug"
+  },
+  "himalaya": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:PrajwalMohan&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:PrajwalMohan (page does not exist)\">PrajwalMohan</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:South_Face_of_Annapurna_I_(Main).jpg",
+    "description": "Annapurna"
+  },
+  "andes": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/44783494@N08\">Inti Runa Viajero</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Beauty_of_mount_Huandoy,_Cordillera_Blanca,_Ancash,_Peru.jpg",
+    "description": "Cordillera Blanca"
+  },
+  "great-lakes": {
+    "Artist": "National Park Service",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Pictured_Rocks_Bridalveil_Falls.jpg",
+    "description": "Pictured Rocks National Lakeshore"
+  },
+  "stlawrence": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:J.boulian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:J.boulian (page does not exist)\">J.boulian</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Vue_du_Cap_trinit%C3%A9_pr%C3%A8s_de_la_Statue.jpg",
+    "description": "Saguenay Fjord"
+  },
+  "north-sea": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/16822508@N05\">John Nuttall</a> from Hampshire, United Kingdom",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Skagen_rooftops.jpg",
+    "description": "Skagen"
+  },
+  "cascadia": {
+    "Artist": "Dima Sergiyenko; Please attribute this image as the work of \"<a href=\"https://en.wikipedia.org/wiki/User:DDima\" class=\"extiw\" title=\"en:User:DDima\">DiscoverWithDima</a>.\"",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Haystack_Rock,_Oregon_(drone_photograph).jpg",
+    "description": "Cannon Beach, Oregon"
+  },
+  "cornwall": {
+    "Artist": "Kernow Skies",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Crown_Mines_2.png",
+    "description": "Botallack Mine"
+  },
+  "jingdezhen": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:JHH755\" title=\"User:JHH755\">JHH755</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%99%AF%E5%BE%B7%E9%95%87%E5%B8%82%E6%98%8C%E6%B1%9F%E4%B8%9C%E5%B2%B8.JPG",
+    "description": "Jingdezhen"
+  },
+  "portugal": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Alvesgaspar\" title=\"User:Alvesgaspar\">Alvesgaspar</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Torre_Bel%C3%A9m_April_2009-4a.jpg",
+    "description": "Belém Tower"
+  },
+  "borobudur": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Heri_nugroho&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Heri nugroho (page does not exist)\">Heri nugroho</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Pradaksina.jpg",
+    "description": "Borobudur"
+  },
+  "sanchi": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gangulybiswarup\" title=\"User:Gangulybiswarup\">Biswarup Ganguly</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:East_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4398.JPG",
+    "description": "Sanchi"
+  },
+  "egypt": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Holger_Uwe_Schmitt\" title=\"User:Holger Uwe Schmitt\">Holger Uwe Schmitt</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:1550_bis_1070_v._Chr._ca._wurde_der_Tempel_von_Luxor_erbaut._01.jpg",
+    "description": "Luxor Temple"
+  },
+  "rome": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Apaleutos25\" title=\"User:Apaleutos25\">Apaleutos25</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Piazza_del_Popolo,_Roma_(Rome).jpg",
+    "description": "Piazza del Popolo"
+  },
+  "ukraine": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balkhovitin\" title=\"User:Balkhovitin\">Balkhovitin</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%80%D0%BF%D0%B0%D1%82%D1%81%D0%BA%D0%B8%D0%B9_05.jpg",
+    "description": "Carpathian National Nature Park"
+  },
+  "prairie": {
+    "Artist": "NPS",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Sunset_falls_across_the_beautiful_Flint_Hills_(f0f6c731-1dd8-b71b-0b88-d326127c9973).jpg",
+    "description": "Tallgrass Prairie National Preserve"
+  },
+  "kenya": {
+    "Artist": "<span class=\"int-own-work\" lang=\"en\">Own work</span> - photo made by Bob Walker in Kenya",
+    "LicenseShortName": "CC BY-SA 2.5",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:LakeBogoria.jpg",
+    "description": "Great Rift Valley, Kenya"
+  },
+  "south-africa": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/28683388@N08\">Diriye Amey</a> from Locarno, Switzerland",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:South_Africa_-_Drakensberg_(16261357780).jpg",
+    "description": "Drakensberg"
+  },
+  "panama-atlantic": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Garcia.dennis\" title=\"User:Garcia.dennis\">Garcia.dennis</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Toma_a%C3%A9rea_del_Fuerte_San_Lorenzo.jpg",
+    "description": "Fort San Lorenzo"
+  },
+  "alps": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Domob\" title=\"User:Domob\">Daniel Kraft</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Il_Spir_panorama_20210614.jpg",
+    "description": "Ruinaulta"
+  },
+  "baltic": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:ArildV\" title=\"User:ArildV\">Arild Vågen</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandhamn_February_2013_04.jpg",
+    "description": "Sandhamn"
+  },
+  "krakatoa": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Adhari_Arief&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Adhari Arief (page does not exist)\">Adhari Arief</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Anak_krakatau_sebelum_tsunami.jpg",
+    "description": "Anak Krakatoa"
+  },
+  "namib": {
+    "Artist": "Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Namib_desert_MODIS.jpg",
+    "description": "Namib Desert"
+  },
+  "bangladesh": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ashikul_Islam_Anik\" title=\"User:Ashikul Islam Anik\">Ashikul Islam Anik</a>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Padma_River,_Bangladesh.jpg",
+    "description": "Padma River"
+  },
+  "moonta": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Frances76\" class=\"extiw\" title=\"wikipedia:User:Frances76\">Frances76</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Moonta3.JPG",
+    "description": "Moonta, South Australia"
   }
 }
