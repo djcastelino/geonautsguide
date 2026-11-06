@@ -1066,5 +1066,1133 @@
       "water": "HISTORIC LAKE SETTING"
     },
     "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "quebec",
+    "name": "Québec City",
+    "country": "Canada",
+    "image": "why-quebec",
+    "theme": "RIVER AND CLIFF",
+    "title": "A city rose above a river gateway.",
+    "deck": "A cliff and a major river helped shape two connected levels of settlement.",
+    "question": "Which setting or connection best helps explain Québec City’s story?",
+    "options": [
+      "A cliff overlooking the St Lawrence",
+      "A volcanic crater in the Pacific",
+      "A landlocked desert oasis"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The St Lawrence offered access inland and towards the Atlantic. The cliff separated an upper site from the waterfront below."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "French colonial settlement developed an administrative and defensive Upper Town alongside the trading activity of the Lower Town. Fortifications reinforced the distinction."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A commanding height also creates steep journeys. Connections between the two levels remain part of the city’s everyday geography."
+      }
+    ],
+    "takeaway": "Height and water played different roles in the same city.",
+    "source": {
+      "name": "UNESCO · Québec City historic heritage",
+      "url": "https://whc.unesco.org/en/list/300/"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "ST LAWRENCE RIVER",
+      "land": "RIVER AND CLIFF"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Quebec",
+      "Quebec City",
+      "Québec"
+    ]
+  },
+  {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "country": "United Kingdom",
+    "image": "why-edinburgh",
+    "theme": "RIDGE AND FORTRESS",
+    "title": "A fortress gave a ridge its direction.",
+    "deck": "Edinburgh’s contrasting old and new districts reveal two ways of building a capital.",
+    "question": "Which setting or connection best helps explain Edinburgh’s story?",
+    "options": [
+      "A town built entirely on floating islands",
+      "A ridge dominated by a fortress",
+      "An unbroken flat grid from its beginnings"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "Castle Rock stands above surrounding low ground. The Old Town stretches along a ridge, giving its streets a strong direction."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "A medieval settlement grew beneath the fortress. From the eighteenth century, the planned New Town offered a contrasting street pattern beyond the old core."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Expanding beyond a constrained ridge created more room, but joining old and new districts required crossings and changes of level."
+      }
+    ],
+    "takeaway": "Edinburgh’s contrast comes from different planning choices on different ground.",
+    "source": {
+      "name": "UNESCO · Edinburgh historic heritage",
+      "url": "https://whc.unesco.org/en/list/728/"
+    },
+    "diagram": "ridge",
+    "diagramLabels": {
+      "water": "LOW GROUND BETWEEN RIDGES",
+      "land": "RIDGE AND FORTRESS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "porto",
+    "name": "Porto",
+    "country": "Portugal",
+    "image": "why-porto",
+    "theme": "RIVER TO OCEAN",
+    "title": "A river valley opened towards the sea.",
+    "deck": "Porto climbs the banks of the Douro close to its Atlantic outlet.",
+    "question": "Which setting or connection best helps explain Porto’s story?",
+    "options": [
+      "The source of the Amazon",
+      "An inland salt lake",
+      "The Douro near its Atlantic outlet"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "Steep riverbanks place the waterfront and higher neighbourhoods at different levels. The Douro connects the city with an inland valley and the ocean beyond."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Port activity and centuries of construction created a dense hillside city. Bridges connected the two banks rather than removing their differences in height."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "The dramatic setting also makes movement demanding. Routes must negotiate slopes, bridge approaches, and a busy river edge."
+      }
+    ],
+    "takeaway": "Porto’s river is both a connection and a change of level.",
+    "source": {
+      "name": "UNESCO · Porto historic heritage",
+      "url": "https://whc.unesco.org/en/list/755/"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "DOURO RIVER",
+      "land": "RIVER TO OCEAN"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "salzburg",
+    "name": "Salzburg",
+    "country": "Austria",
+    "image": "why-salzburg",
+    "theme": "VALLEY AND AUTHORITY",
+    "title": "A valley became a stage for power.",
+    "deck": "River, hills, and centuries of patronage shaped Salzburg’s compact historic centre.",
+    "question": "Which setting or connection best helps explain Salzburg’s story?",
+    "options": [
+      "A river valley framed by hills",
+      "An Arctic ice shelf",
+      "A chain of coral atolls"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Salzach runs between hills that frame the old city. The setting concentrates routes and creates a striking contrast between the valley floor and higher ground."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Prince-archbishops shaped a city-state here. Religious buildings, public spaces, and work by Italian architects gave the historic centre much of its Baroque character."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A confined setting leaves limited room for new construction. Maintaining the relationship between buildings, hills, and river matters as much as preserving individual monuments."
+      }
+    ],
+    "takeaway": "Landscape framed Salzburg; political and artistic choices composed the city.",
+    "source": {
+      "name": "UNESCO · Salzburg historic heritage",
+      "url": "https://whc.unesco.org/en/list/784/"
+    },
+    "diagram": "valley",
+    "diagramLabels": {
+      "water": "SALZACH RIVER",
+      "land": "VALLEY AND AUTHORITY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "bern",
+    "name": "Bern",
+    "country": "Switzerland",
+    "image": "why-bern",
+    "theme": "RIVER BEND",
+    "title": "A bend in the river became a city’s outline.",
+    "deck": "Bern’s old town occupies raised ground embraced by the Aare.",
+    "question": "Which setting or connection best helps explain Bern’s story?",
+    "options": [
+      "The mouth of the Nile",
+      "A loop of the Aare",
+      "A Mediterranean island"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Aare curves around the old city, creating a distinct peninsula-like site. Water and slopes define its edges rather than a regular rectangular boundary."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Founded in the twelfth century, Bern developed a remarkably coherent street pattern. Arcades, fountains, and successive rebuilding added layers within that framework."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A river loop provides a clear edge but limits connections. Bridges let the city expand beyond a site that could not simply widen in every direction."
+      }
+    ],
+    "takeaway": "A natural boundary can shape a city long after it grows beyond it.",
+    "source": {
+      "name": "UNESCO · Bern historic heritage",
+      "url": "https://whc.unesco.org/en/list/267/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "AARE RIVER",
+      "land": "RIVER BEND"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Berne"
+    ]
+  },
+  {
+    "id": "regensburg",
+    "name": "Regensburg",
+    "country": "Germany",
+    "image": "why-regensburg",
+    "theme": "BRIDGE AND TRADE",
+    "title": "A bridge tied a trading city together.",
+    "deck": "Regensburg’s medieval streets still meet a major European river.",
+    "question": "Which setting or connection best helps explain Regensburg’s story?",
+    "options": [
+      "A harbour on the Red Sea",
+      "A mountain pass above permanent glaciers",
+      "A Danube crossing and trading connections"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Danube connected settlements along its course. A crossing linked its banks and brought overland movement into contact with river traffic."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Regensburg became a medieval trading centre. Its twelfth-century Stone Bridge joined the city with Stadtamhof, while merchants built the houses and towers still visible in the old town."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A useful crossing attracts activity to a concentrated place. Keeping historic streets and a river crossing usable requires balancing access with conservation."
+      }
+    ],
+    "takeaway": "A bridge is infrastructure, but it can also become a city’s organising idea.",
+    "source": {
+      "name": "UNESCO · Regensburg historic heritage",
+      "url": "https://whc.unesco.org/en/list/1155/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "DANUBE RIVER",
+      "land": "BRIDGE AND TRADE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "bamberg",
+    "name": "Bamberg",
+    "country": "Germany",
+    "image": "why-bamberg",
+    "theme": "HILLS AND WATER",
+    "title": "One town grew in several landscapes.",
+    "deck": "Bamberg joins hilltop institutions, river channels, and lower working districts.",
+    "question": "Which setting or connection best helps explain Bamberg’s story?",
+    "options": [
+      "Hills, river branches, and distinct urban districts",
+      "A single artificial island in open ocean",
+      "A settlement without any waterways"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "Hills and branches of the Regnitz give Bamberg more than one kind of urban ground. Higher sites and waterside areas offered different possibilities."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Religious and political institutions occupied prominent sites, while the island town and gardening district developed other patterns of work and settlement. These parts formed a connected historic town."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Preserving Bamberg means caring for relationships between districts, not just a single skyline. Waterways, productive land, and old streets all belong to the story."
+      }
+    ],
+    "takeaway": "Different kinds of ground can support different parts of the same city.",
+    "source": {
+      "name": "UNESCO · Bamberg historic heritage",
+      "url": "https://whc.unesco.org/en/list/624/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "REGNITZ RIVER",
+      "land": "HILLS AND WATER"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "bruges",
+    "name": "Bruges",
+    "country": "Belgium",
+    "image": "why-bruges",
+    "theme": "TRADE AND CANALS",
+    "title": "Waterways helped a town face the world.",
+    "deck": "Bruges turned commercial connections into a rich medieval cityscape.",
+    "question": "Which setting or connection best helps explain Bruges’s story?",
+    "options": [
+      "A permanent polar sea-ice route",
+      "Waterway connections and medieval trade",
+      "A city founded at the summit of the Alps"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "Waterways linked the town with a wider coastal trading region. Its canals were part of a changing system of access, not evidence that the city stood directly on the open sea."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Medieval merchants and civic institutions built an influential commercial centre. The wealth of trade helped support public buildings, domestic architecture, and artistic exchange."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Water connections change over time. Maintaining a historic trading town today involves preserving canals and streets whose functions have evolved."
+      }
+    ],
+    "takeaway": "Commercial reach can be much larger than the town that anchors it.",
+    "source": {
+      "name": "UNESCO · Bruges historic heritage",
+      "url": "https://whc.unesco.org/en/list/996/"
+    },
+    "diagram": "routes",
+    "diagramLabels": {
+      "water": "WATERWAY CONNECTIONS",
+      "land": "TRADE AND CANALS"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Brugge"
+    ]
+  },
+  {
+    "id": "galle",
+    "name": "Galle",
+    "country": "Sri Lanka",
+    "image": "why-galle",
+    "theme": "FORTIFIED PROMONTORY",
+    "title": "Fortifications followed the rock.",
+    "deck": "Galle’s old town adapted European plans to a South Asian coastal site.",
+    "question": "Which setting or connection best helps explain Galle’s story?",
+    "options": [
+      "A plateau surrounded by desert dunes",
+      "A town constructed on seasonal sea ice",
+      "A rocky coastal promontory"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "A rocky promontory projects into the sea on Sri Lanka’s southwest coast. Its shape gave builders a defined waterfront site rather than a blank geometric canvas."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Portuguese and later Dutch colonial authorities fortified the town. Local craftspeople adapted buildings to the climate, while ramparts followed the terrain and a street grid organised the interior."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "The fort remains a living place. New uses and modern services must fit streets, homes, and defences shaped for earlier needs."
+      }
+    ],
+    "takeaway": "Galle shows how an imported plan changes when it meets a particular place.",
+    "source": {
+      "name": "UNESCO · Galle historic heritage",
+      "url": "https://whc.unesco.org/en/list/451/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "INDIAN OCEAN",
+      "land": "FORTIFIED PROMONTORY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "tallinn",
+    "name": "Tallinn",
+    "country": "Estonia",
+    "image": "why-tallinn",
+    "theme": "HILL AND BALTIC TRADE",
+    "title": "A hilltop stronghold met a merchant town.",
+    "deck": "Tallinn’s historic centre records both authority and Baltic commercial connections.",
+    "question": "Which setting or connection best helps explain Tallinn’s story?",
+    "options": [
+      "A fortified hill and Baltic trading connections",
+      "An equatorial rainforest river delta",
+      "A town entirely below the ocean floor"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "A coastal setting offered maritime access, while Toompea provided elevated ground beside the lower town. The two areas did not serve identical functions."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "A fortified upper centre and a lower merchant town developed together. Membership in the Hanseatic trading network helped support the churches, public buildings, and merchants’ houses that survive."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Different districts left different street patterns and views. Keeping those relationships legible matters as the modern city grows around them."
+      }
+    ],
+    "takeaway": "Tallinn’s old town connects two kinds of power: the stronghold and the marketplace.",
+    "source": {
+      "name": "UNESCO · Tallinn historic heritage",
+      "url": "https://whc.unesco.org/en/list/822/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "GULF OF FINLAND",
+      "land": "HILL AND BALTIC TRADE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "riga",
+    "name": "Riga",
+    "country": "Latvia",
+    "image": "why-riga",
+    "theme": "RIVER AND BALTIC",
+    "title": "A river helped connect a trading region.",
+    "deck": "Riga’s old centre and later districts reveal successive waves of commercial growth.",
+    "question": "Which setting or connection best helps explain Riga’s story?",
+    "options": [
+      "A lake at the South Pole",
+      "The Daugava and Baltic trading routes",
+      "A pass through the Andes"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Daugava reaches towards the Gulf of Riga, connecting inland routes with the Baltic region. The riverfront gave the city a strong axis."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Medieval Hanseatic trade supported Riga’s prosperity. Later economic growth expanded the city beyond its medieval core, leaving wooden suburbs and extensive Art Nouveau architecture."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A city can outgrow its original centre without losing it. The challenge is to connect later districts while retaining their different scales and character."
+      }
+    ],
+    "takeaway": "Riga’s neighbourhoods record how a trading city expanded through time.",
+    "source": {
+      "name": "UNESCO · Riga historic heritage",
+      "url": "https://whc.unesco.org/en/list/852/"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "DAUGAVA RIVER",
+      "land": "RIVER AND BALTIC"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "dubrovnik",
+    "name": "Dubrovnik",
+    "country": "Croatia",
+    "image": "why-dubrovnik",
+    "theme": "WALLED MARITIME CITY",
+    "title": "A compact city looked out to sea.",
+    "deck": "Dubrovnik’s walls enclosed a city whose connections extended far beyond them.",
+    "question": "Which setting or connection best helps explain Dubrovnik’s story?",
+    "options": [
+      "An inland glacier-fed salt flat",
+      "The headwaters of the Mississippi",
+      "Access to Adriatic maritime routes"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "A coastal site on the Adriatic placed the town beside Mediterranean sea routes. Its enclosed urban core contrasts with the open water beyond."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Dubrovnik developed into an important maritime power. Walls, civic buildings, and religious institutions gave physical form to a city shaped by commerce and political organisation."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Earthquake and war damaged the city at different times. Its continued existence reflects restoration and collective choices, not the permanence of stone alone."
+      }
+    ],
+    "takeaway": "The walls define a small place; its maritime history reaches much farther.",
+    "source": {
+      "name": "UNESCO · Dubrovnik historic heritage",
+      "url": "https://whc.unesco.org/en/list/95/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "ADRIATIC SEA",
+      "land": "WALLED MARITIME CITY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "split",
+    "name": "Split",
+    "country": "Croatia",
+    "image": "why-split",
+    "theme": "PALACE TO CITY",
+    "title": "A palace became part of a living city.",
+    "deck": "Split’s historic core grew through the reuse of a Roman imperial complex.",
+    "question": "Which setting or connection best helps explain Split’s story?",
+    "options": [
+      "The reuse of Diocletian’s Palace",
+      "A completely untouched empty palace",
+      "A medieval city built on an ice sheet"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "A coastal site offered an outward connection to the Adriatic. Within it, a large Roman palace created a powerful built framework for later settlement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "People adapted Diocletian’s Palace over centuries. Churches, homes, streets, and later buildings became interwoven with ancient structures rather than replacing the complex with an empty monument."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Living inside inherited architecture creates difficult choices. Homes and everyday services must coexist with structures valued for their long history."
+      }
+    ],
+    "takeaway": "Sometimes the most important landscape a city inherits is already built.",
+    "source": {
+      "name": "UNESCO · Split historic heritage",
+      "url": "https://whc.unesco.org/en/list/97/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "ADRIATIC COAST",
+      "land": "PALACE TO CITY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "kotor",
+    "name": "Kotor",
+    "country": "Montenegro",
+    "image": "why-kotor",
+    "theme": "MOUNTAINS AND HARBOUR",
+    "title": "A harbour nestled beneath steep slopes.",
+    "deck": "Kotor’s natural setting brings sheltered water and mountains unusually close together.",
+    "question": "Which setting or connection best helps explain Kotor’s story?",
+    "options": [
+      "A plain thousands of kilometres from any sea",
+      "A natural harbour beneath steep mountain slopes",
+      "A settlement on an active floating iceberg"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The inner Bay of Kotor offers a harbour backed by steep terrain. The narrow strip between shore and slope concentrates buildings and movement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "The medieval town became an artistic and commercial centre. Its walls and buildings connected maritime activity with a defensible settlement at the foot of the mountains."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Constrained ground limits expansion, while earthquake damage has required restoration. Both natural hazards and new construction affect the relationship between town and bay."
+      }
+    ],
+    "takeaway": "Shelter at sea can come with very little room on land.",
+    "source": {
+      "name": "UNESCO · Kotor historic heritage",
+      "url": "https://whc.unesco.org/en/list/125/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "BAY OF KOTOR",
+      "land": "MOUNTAINS AND HARBOUR"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "valletta",
+    "name": "Valletta",
+    "country": "Malta",
+    "image": "why-valletta",
+    "theme": "PENINSULA AND DEFENCE",
+    "title": "A peninsula became a planned fortress city.",
+    "deck": "Valletta concentrated streets, institutions, and defences between two harbours.",
+    "question": "Which setting or connection best helps explain Valletta’s story?",
+    "options": [
+      "An inland basin in the Himalayas",
+      "A settlement without any coastal access",
+      "A peninsula between two harbours"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The peninsula between Grand Harbour and Marsamxett Harbour offered an elevated site with water along both sides. Its shape created a narrow but strategic building area."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "The Order of St John developed a fortified capital with an organised street plan. Public buildings, churches, and defensive works filled a compact area rather than spreading across a broad plain."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Limited space and changes in level make access a design problem. A living capital must accommodate daily movement within an unusually concentrated historic landscape."
+      }
+    ],
+    "takeaway": "A planned city can still take its essential shape from the coastline.",
+    "source": {
+      "name": "UNESCO · Valletta historic heritage",
+      "url": "https://whc.unesco.org/en/list/131/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "MALTESE HARBOURS",
+      "land": "PENINSULA AND DEFENCE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "naples",
+    "name": "Naples",
+    "country": "Italy",
+    "image": "why-naples",
+    "theme": "BAY AND URBAN LAYERS",
+    "title": "A coastal city kept building on its past.",
+    "deck": "Naples’ historic centre carries the imprint of successive Mediterranean cultures.",
+    "question": "Which setting or connection best helps explain Naples’s story?",
+    "options": [
+      "A Mediterranean bay with successive urban layers",
+      "A settlement founded on Antarctic ice",
+      "A city with no connection to the sea"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Bay of Naples places the city beside the sea, with higher terrain behind its dense neighbourhoods. The waterfront offers connections while slopes influence expansion."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Greek settlement and later societies left successive layers of streets, buildings, and institutions. The historic centre preserves traces of these different periods within a continuing city."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A long-lived centre is not a single frozen plan. Conservation must work with everyday housing, movement, and the needs of a densely inhabited place."
+      }
+    ],
+    "takeaway": "Naples is a palimpsest: later urban life has kept writing over earlier foundations.",
+    "source": {
+      "name": "UNESCO · Naples historic heritage",
+      "url": "https://whc.unesco.org/en/list/726/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "BAY OF NAPLES",
+      "land": "BAY AND URBAN LAYERS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "avignon",
+    "name": "Avignon",
+    "country": "France",
+    "image": "why-avignon",
+    "theme": "RIVER AND PAPAL POWER",
+    "title": "A riverside town became a seat of power.",
+    "deck": "Avignon’s monumental skyline reflects an exceptional period in its history.",
+    "question": "Which setting or connection best helps explain Avignon’s story?",
+    "options": [
+      "A capital built on a coral reef",
+      "A Rhône crossing reinforced by papal institutions",
+      "A city founded at the Amazon estuary"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Rhône offered a major river corridor. The bridge and fortified town linked movement along the water with routes reaching its banks."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "The fourteenth-century papacy made Avignon a centre of religious and political authority. The palace, surrounding institutions, and city walls gave that role a lasting architectural presence."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Political importance can move elsewhere while buildings remain. The city now cares for a monumental inheritance whose scale reflects a particular historical moment."
+      }
+    ],
+    "takeaway": "Geography offered a location; an institutional decision transformed its importance.",
+    "source": {
+      "name": "UNESCO · Avignon historic heritage",
+      "url": "https://whc.unesco.org/en/list/228/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "RHÔNE RIVER",
+      "land": "RIVER AND PAPAL POWER"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "toledo",
+    "name": "Toledo",
+    "country": "Spain",
+    "image": "why-toledo",
+    "theme": "HILL AND RIVER LOOP",
+    "title": "A river loop framed a hilltop city.",
+    "deck": "Toledo’s compact setting holds layers of changing political and cultural life.",
+    "question": "Which setting or connection best helps explain Toledo’s story?",
+    "options": [
+      "A floating city in the Baltic",
+      "A settlement on an unbroken flat desert grid",
+      "A hill framed by a loop of the Tagus"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Tagus curves around steep ground supporting the historic city. Approaches and crossings make the difference between being surrounded by water and being connected across it."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Successive Roman, Visigothic, Islamic, and Christian authorities shaped Toledo. Jewish, Christian, and Muslim communities contributed to a complex architectural and cultural inheritance."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A striking defensive setting also constrains movement. Historic streets and steep approaches need care as present-day uses occupy an inherited urban fabric."
+      }
+    ],
+    "takeaway": "Toledo’s ground helps explain its outline, while its history explains the layers inside.",
+    "source": {
+      "name": "UNESCO · Toledo historic heritage",
+      "url": "https://whc.unesco.org/en/list/379/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "TAGUS RIVER",
+      "land": "HILL AND RIVER LOOP"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cordoba",
+    "name": "Córdoba",
+    "country": "Spain",
+    "image": "why-cordoba",
+    "theme": "RIVER AND CAPITAL",
+    "title": "A riverbank became a centre of authority.",
+    "deck": "Córdoba combines a Guadalquivir crossing with a remarkable history of urban patronage.",
+    "question": "Which setting or connection best helps explain Córdoba’s story?",
+    "options": [
+      "The Guadalquivir crossing and successive centres of power",
+      "A harbour on the Pacific Ocean",
+      "A settlement with no river connections"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Guadalquivir provides a clear river edge beside the historic centre. A bridge connects the banks and channels movement towards the old city."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Córdoba became a major centre under Islamic rule. Later Christian institutions adapted and added to the city, including the cathedral within the former Great Mosque."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Different periods overlap in the same buildings and streets. Understanding the city requires reading those changes rather than assigning the whole place to one era."
+      }
+    ],
+    "takeaway": "A useful river site becomes distinctive through the institutions people build around it.",
+    "source": {
+      "name": "UNESCO · Córdoba historic heritage",
+      "url": "https://whc.unesco.org/en/list/313/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "GUADALQUIVIR RIVER",
+      "land": "RIVER AND CAPITAL"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Cordoba"
+    ]
+  },
+  {
+    "id": "granada",
+    "name": "Granada",
+    "country": "Spain",
+    "image": "why-granada",
+    "theme": "TWO HILLS",
+    "title": "Two hills held different faces of a city.",
+    "deck": "The Alhambra and Albayzín face one another above Granada’s lower town.",
+    "question": "Which setting or connection best helps explain Granada’s story?",
+    "options": [
+      "A city built entirely on a lagoon",
+      "Opposing hills above a river valley",
+      "A plain without changes in elevation"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "Adjacent hills divided by the Darro valley create strong changes in level and opposing views. The lower city lies beneath these elevated historic districts."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "The Alhambra developed as a fortified palace complex, while the Albayzín grew as a residential quarter. Gardens and water systems formed part of a carefully adapted urban landscape."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Steep terrain gives the city dramatic views but complicates access. Preserving the hillsides and their relationship is part of caring for the architecture."
+      }
+    ],
+    "takeaway": "Granada’s famous views are relationships between places, not just isolated monuments.",
+    "source": {
+      "name": "UNESCO · Granada historic heritage",
+      "url": "https://whc.unesco.org/en/list/314/"
+    },
+    "diagram": "valley",
+    "diagramLabels": {
+      "water": "DARRO VALLEY",
+      "land": "TWO HILLS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "fez",
+    "name": "Fez",
+    "country": "Morocco",
+    "image": "why-fez",
+    "theme": "WATER AND MEDINA",
+    "title": "A valley became a dense urban world.",
+    "deck": "Fez’s medina grew around water, movement, commerce, and institutions.",
+    "question": "Which setting or connection best helps explain Fez’s story?",
+    "options": [
+      "A remote coral island",
+      "A capital constructed on permanent sea ice",
+      "A river valley with a dense network of urban institutions"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The historic city occupies a valley setting crossed by waterways. Slopes and watercourses helped shape a compact fabric of lanes and neighbourhoods."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Successive rulers and communities developed mosques, schools, markets, fountains, and lodging for merchants. Marinid patronage gave many important monuments their surviving form."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Dense historic streets do not easily accommodate every modern service. Conservation must support residents and working neighbourhoods alongside the care of monuments."
+      }
+    ],
+    "takeaway": "A city is sustained by everyday networks as much as by its celebrated buildings.",
+    "source": {
+      "name": "UNESCO · Fez historic heritage",
+      "url": "https://whc.unesco.org/en/list/170/"
+    },
+    "diagram": "valley",
+    "diagramLabels": {
+      "water": "FEZ RIVER VALLEY",
+      "land": "WATER AND MEDINA"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Fes",
+      "Fès"
+    ]
+  },
+  {
+    "id": "marrakesh",
+    "name": "Marrakesh",
+    "country": "Morocco",
+    "image": "why-marrakesh",
+    "theme": "PLAIN AND CAPITAL",
+    "title": "A capital gathered routes and people.",
+    "deck": "Marrakesh’s importance grew through political foundations and connections across a wider region.",
+    "question": "Which setting or connection best helps explain Marrakesh’s story?",
+    "options": [
+      "An inland centre connected by regional land routes",
+      "An Atlantic island harbour",
+      "A settlement at the source of the Danube"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "An inland plain near the Atlas Mountains offers a different setting from Morocco’s coastal ports. Connections here depended on routes across land rather than an urban seafront."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Founded by the Almoravids in the eleventh century, Marrakesh became a political, economic, and cultural centre. Walls, gates, gardens, and public spaces expressed that role."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "An inland city needs more than a convenient meeting point. Its water, gardens, buildings, and busy public spaces require sustained management as uses change."
+      }
+    ],
+    "takeaway": "A city does not need a seaport to become a powerful regional crossroads.",
+    "source": {
+      "name": "UNESCO · Marrakesh historic heritage",
+      "url": "https://whc.unesco.org/en/list/331/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "REGIONAL LAND ROUTES",
+      "land": "PLAIN AND CAPITAL"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Marrakech"
+    ]
+  },
+  {
+    "id": "zanzibar",
+    "name": "Zanzibar City",
+    "country": "Tanzania",
+    "image": "why-zanzibar",
+    "theme": "SWAHILI TRADING COAST",
+    "title": "A coastal town connected cultures.",
+    "deck": "Stone Town’s streets and buildings reflect a long history of Indian Ocean exchange.",
+    "question": "Which setting or connection best helps explain Zanzibar City’s story?",
+    "options": [
+      "A pass through the Rocky Mountains",
+      "Indian Ocean maritime connections",
+      "A city in a landlocked Arctic basin"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "Zanzibar’s island setting opened towards sea routes linking East Africa with other Indian Ocean shores. The waterfront connected the town to movement across water."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Swahili urban traditions interacted with influences from the Arab region, India, and Europe. Trade and political change left their marks on buildings and the street pattern; this history also includes slavery and exploitation."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "A historic port is also a place where people live. Maintaining homes, infrastructure, and buildings matters alongside presenting its trading history."
+      }
+    ],
+    "takeaway": "Connections leave cultural traces, but their human consequences must also be remembered.",
+    "source": {
+      "name": "UNESCO · Zanzibar City historic heritage",
+      "url": "https://whc.unesco.org/en/list/173/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "INDIAN OCEAN",
+      "land": "SWAHILI TRADING COAST"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Zanzibar",
+      "Stone Town"
+    ]
+  },
+  {
+    "id": "hoi-an",
+    "name": "Hội An",
+    "country": "Vietnam",
+    "image": "why-hoi-an",
+    "theme": "RIVER TRADING PORT",
+    "title": "A trading port left its street plan behind.",
+    "deck": "Hội An preserves the urban fabric of a port shaped by local and overseas exchange.",
+    "question": "Which setting or connection best helps explain Hội An’s story?",
+    "options": [
+      "A city on a polar ice sheet",
+      "A settlement without any waterway access",
+      "A river port linked to maritime trade"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Thu Bồn river system connects the town with the coastal region. Water access helped make an inland riverbank part of a wider maritime network."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "From the fifteenth to nineteenth centuries, the town developed as a trading port. Local building traditions and overseas influences combined in houses, assembly halls, and a distinctive street plan."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "Commercial functions can shift while a townscape survives. The challenge is keeping the old fabric inhabited and usable rather than treating it only as scenery."
+      }
+    ],
+    "takeaway": "A port’s trading role can change while its connections remain visible in the streets.",
+    "source": {
+      "name": "UNESCO · Hội An historic heritage",
+      "url": "https://whc.unesco.org/en/list/948/"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "THU BỒN RIVER",
+      "land": "RIVER TRADING PORT"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Hoi An"
+    ]
+  },
+  {
+    "id": "luang-prabang",
+    "name": "Luang Prabang",
+    "country": "Laos",
+    "image": "why-luang-prabang",
+    "theme": "RIVER CONFLUENCE",
+    "title": "Two rivers framed a royal town.",
+    "deck": "Luang Prabang’s peninsula holds a distinctive meeting of urban traditions.",
+    "question": "Which setting or connection best helps explain Luang Prabang’s story?",
+    "options": [
+      "The meeting of the Mekong and Nam Khan",
+      "The delta of the Nile",
+      "A town built in an empty volcanic crater"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the ground.",
+        "text": "The Nam Khan meets the Mekong beside the historic town. Water on two sides defines a narrow site with hills contributing to its wider setting."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "People gave the setting a purpose.",
+        "text": "Royal and religious institutions shaped traditional Lao urban life. Later colonial buildings introduced another architectural layer without erasing the town’s earlier structure."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful setting still needs care.",
+        "text": "New development must fit more than individual monuments. Riverbanks, street patterns, homes, and religious places together create the town’s character."
+      }
+    ],
+    "takeaway": "A confluence can frame both a settlement and the encounters recorded within it.",
+    "source": {
+      "name": "UNESCO · Luang Prabang historic heritage",
+      "url": "https://whc.unesco.org/en/list/479/"
+    },
+    "diagram": "confluence",
+    "diagramLabels": {
+      "water": "MEKONG + NAM KHAN",
+      "land": "RIVER CONFLUENCE"
+    },
+    "reviewedOn": "2026-11-06"
   }
 ]
