@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Compass } from "lucide-react";
+import About from "./components/About";
 import WhyHere from "./components/WhyHere";
 import PlanetConnections from "./components/PlanetConnections";
 import ExpeditionHome from "./components/ExpeditionHome";
@@ -13,7 +14,7 @@ import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
-const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid"].includes(value) ? value : "home"; };
+const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about"].includes(value) ? value : "home"; };
 
 function App() {
   const [view, setView] = useState(routeView);
@@ -111,6 +112,7 @@ function App() {
             onExplore={() => onNavigate("grid")}
             onConnections={() => onNavigate("connections")}
             onWhyHere={() => onNavigate("whyhere")}
+            onAbout={() => onNavigate("about")}
             onPlan={() => onNavigate("planner")}
             onChallenge={() => onNavigate("cityguess")}
             onLandmarkSelect={onLandmarkSelect}
@@ -124,6 +126,7 @@ function App() {
             isLoading={isLoading}
           />
         )}
+        {view === "about" && <About />}
         {view === "planner" && <TripPlanner />}
         {view === "cityguess" && <CityGuess onWhyHere={(city) => onNavigate("whyhere", city)} />}
         {view === "detail" && selectedLandmark && narrationData && (

@@ -89,7 +89,7 @@ The collection grew from 3 to 13 stories, then to 30, 50, 75, and 100. It includ
 - Link supporting evidence beneath every story. Current sources include NASA, NPS, and USGS.
 - Retain per-image creator credits, source links, and license information. Public-domain status must be checked per image; Wikimedia hosting alone does not establish it.
 - Keep Photography & credits available within the experience.
-- **Planned:** add an About / Sources & Credits section bringing sources, image credits, and the editorial approach together. This central section is **not implemented yet**.
+- **Implemented November 6:** About / Sources & Credits brings the editorial approach, AI and synthetic-audio disclosure, story sources, photograph credits, map acknowledgements, and feedback contact together.
 - Explain that narration reads our written summaries; it is not an original recording or endorsement by the source organizations.
 - Maps illustrate connections; distinguish them from precise trajectories, reconstructions, or warning maps where relevant.
 
@@ -102,7 +102,7 @@ The collection grew from 3 to 13 stories, then to 30, 50, 75, and 100. It includ
 ## Suggested order of work
 
 1. Preserve the restored homepage and confirm the new feature is easy to find.
-2. Add the central About / Sources & Credits section.
+2. Maintain the central About / Sources & Credits section; its directories update from the story and image catalogues.
 3. Maintain the 100-story Planet Connections collection and improve discovery based on usage.
 4. Maintain the approved 25-city Why Here? collection and expand toward 100 in researched batches.
 5. Evaluate Parts 3–5 individually based on enjoyment, usage, and effort.
@@ -143,3 +143,5 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 6, 2026:** Prepared and tested Why Here? as a five-city preview, including a 390-pixel phone layout and quiz handoff.
 
 - **November 6, 2026:** Approved Why Here? and expanded from 5 to 25 cities for production publication. Added city-specific diagram labels and five further diagram types.
+
+- **November 6, 2026:** Added About / Sources & Credits with searchable story and photography directories, AI-audio explanation, and feedback at geonautsguide@gmail.com.

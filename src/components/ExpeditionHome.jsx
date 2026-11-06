@@ -7,7 +7,7 @@ const startingPlaces = ['machu-picchu', 'petra', 'taj-mahal', 'dolomites', 'colo
 const homeImage = place => startingPlaces.includes(place.id) ? { ...place, imageUrl: `/images/home/${place.id}.webp` } : place;
 const collections = ['All discoveries', 'Ancient worlds', 'Wild places', 'Human wonders'];
 
-export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan, onChallenge, onLandmarkSelect, isLoading, onConnections, onWhyHere }) {
+export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan, onChallenge, onLandmarkSelect, isLoading, onConnections, onWhyHere, onAbout }) {
   const [collection, setCollection] = useState('All discoveries');
   const [query, setQuery] = useState('');
   const countries = new Set(landmarks.map(place => place.country)).size;
@@ -37,6 +37,7 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan,
             <button onClick={onWhyHere}>Why Here?</button>
             <button onClick={onPlan}>Travel planner</button>
             <button onClick={onChallenge}>Daily City Guess</button>
+            <button onClick={onAbout}>About</button>
           </nav>
           <button className="expedition-nav-plan" onClick={onPlan}>Plan a journey <ArrowUpRight size={16} /></button>
         </header>
@@ -82,7 +83,7 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan,
       </section>
 
       <section className="expedition-plan expedition-section" aria-labelledby="plan-title"><div><p className="expedition-eyebrow dark-eyebrow">03 / MAKE IT YOUR OWN</p><h2 id="plan-title">Less planning.<br /><em>More possibility.</em></h2><p>Bring your dates, your interests, and your sense of adventure.<br />We’ll help you connect the dots.</p><button className="expedition-button expedition-button-dark" onClick={onPlan}>Start planning your journey <ArrowUpRight size={18} /></button></div><div className="expedition-route-art" aria-hidden="true"><svg viewBox="0 0 480 300" fill="none"><path d="M20 240C100 240 42 70 155 90S225 285 310 175 370 45 450 55" stroke="currentColor" strokeWidth="1.5" strokeDasharray="5 7" /><circle cx="20" cy="240" r="7" fill="currentColor" /><circle cx="155" cy="90" r="9" stroke="currentColor" /><circle cx="310" cy="175" r="9" stroke="currentColor" /><circle cx="450" cy="55" r="7" fill="currentColor" /></svg><span className="route-note route-note-one">A PLACE TO BEGIN</span><span className="route-note route-note-two">A WORTHWHILE DETOUR</span><Compass className="route-compass" size={76} strokeWidth={0.7} /></div></section>
-      <footer className="expedition-footer"><div className="expedition-footer-brand"><Compass size={24} strokeWidth={1.2} /> GEONAUTS GUIDE</div><p>Stay curious. Go a little further. <a href="/privacy-policy.html" style={{textDecoration: "underline"}}>Privacy policy</a></p><span>© {new Date().getFullYear()} GEONAUTS GUIDE</span></footer>
+      <footer className="expedition-footer"><div className="expedition-footer-brand"><Compass size={24} strokeWidth={1.2} /> GEONAUTS GUIDE</div><p>Stay curious. Go a little further. <span className="expedition-about-links"><a href="?view=about">About & credits</a><a href="mailto:geonautsguide@gmail.com?subject=GeonautsGuide%20feedback">Feedback</a><a href="/privacy-policy.html">Privacy policy</a></span></p><span>© {new Date().getFullYear()} GEONAUTS GUIDE</span></footer>
       {isLoading && <div className="expedition-loading" role="status"><Compass size={22} className="expedition-loading-icon" /> Finding the story behind this place…</div>}
     </div>
   );
