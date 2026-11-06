@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Compass } from "lucide-react";
+import PlaceThroughTime from "./components/PlaceThroughTime";
 import About from "./components/About";
 import WhyHere from "./components/WhyHere";
 import PlanetConnections from "./components/PlanetConnections";
@@ -14,7 +15,7 @@ import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
-const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about"].includes(value) ? value : "home"; };
+const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime"].includes(value) ? value : "home"; };
 
 function App() {
   const [view, setView] = useState(routeView);
@@ -32,7 +33,7 @@ function App() {
   const onNavigate = (next, city = "") => {
     const url = new URL(window.location.href);
     if (next === "home") url.searchParams.delete("view"); else url.searchParams.set("view", next);
-    if (next === "whyhere" && city) url.searchParams.set("city", city); else url.searchParams.delete("city");
+    if (["whyhere", "throughtime"].includes(next) && city) url.searchParams.set("city", city); else url.searchParams.delete("city");
     window.history.pushState({}, "", url);
     setWhyCity(city);
     generation.current++;
@@ -86,6 +87,7 @@ function App() {
       if (request === generation.current) setIsLoading(false);
     }
   };
+  if (view === "throughtime") return <PlaceThroughTime key={whyCity} initialCity={whyCity} onHome={() => onNavigate("home")} onWhyHere={(city) => onNavigate("whyhere", city)} />;
   if (view === "whyhere") return <WhyHere key={whyCity} initialCity={whyCity} onHome={() => onNavigate("home")} onChallenge={() => onNavigate("cityguess")} />;
   if (view === "connections") return <PlanetConnections onHome={() => onNavigate("home")} />;
   return (
@@ -112,6 +114,7 @@ function App() {
             onExplore={() => onNavigate("grid")}
             onConnections={() => onNavigate("connections")}
             onWhyHere={() => onNavigate("whyhere")}
+            onThroughTime={() => onNavigate("throughtime")}
             onAbout={() => onNavigate("about")}
             onPlan={() => onNavigate("planner")}
             onChallenge={() => onNavigate("cityguess")}

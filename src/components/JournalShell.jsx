@@ -18,6 +18,7 @@ export function JournalHeader({ current, onNavigate }) {
           ["home", "Home"],
           ["grid", "Discover"],
           ["whyhere", "Why Here?"],
+          ["throughtime", "Through time"],
           ["planner", "Travel planner"],
           ["cityguess", "Daily City Guess"],
           ["about", "About"],

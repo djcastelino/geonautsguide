@@ -24,7 +24,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 | --- | --- | --- | --- |
 | 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 100 stories in the production collection after the November 5 expansion. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | 100-city collection completed November 6. Includes location quizzes, written landscape stories, narration and post-quiz links. |
-| 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
+| 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Five-city collection published: Rome, Istanbul, London, Cairo, Kyoto. Archive/present views, sourced timeline chapters and optional narration. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
 | 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
 
@@ -153,3 +153,13 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 6, 2026:** Completed the 100-city Why Here? collection with the final 25 stories across Africa, Atlantic islands, the Caribbean and the Americas. Existing homepage, Planet Connections, quiz and planner preserved.
 
 - **November 6, 2026:** Removed repetitive Why Here sketches and layer controls. Photo, quiz, chapters, takeaway, narration and sources remain. Future maps should only be added when city-specific geography adds explanatory value.
+
+## Part 3 — A Place Through Time
+
+- Five-city collection: Rome, Istanbul, London, Cairo and Kyoto, at `?view=throughtime`. Production publication approved.
+- Archival images have recorded dates, creators and licences; modern views are labelled separately. Differing viewpoints are explicit; no misleading aligned-image slider.
+- Four selectable chapters, change/continuity accounts, written-story narration, per-city evidence and About credits.
+- Reuses existing visual identity; default homepage and earlier collections remain.
+- **November 6, 2026:** Prepared the five-city preview on a separate branch and deployment.
+
+- **November 6, 2026:** User approved the five-city Through Time preview for production publication.
