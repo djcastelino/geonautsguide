@@ -2194,5 +2194,1133 @@
       "land": "RIVER CONFLUENCE"
     },
     "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "image": "why-kyoto",
+    "theme": "IMPERIAL CITY PLAN",
+    "title": "A capital began with a deliberate plan.",
+    "deck": "Kyoto shows how political choice can organise a city as strongly as terrain.",
+    "question": "Which factor best explains Kyoto’s setting and development?",
+    "options": [
+      "An Atlantic naval harbour",
+      "A planned inland imperial capital",
+      "A town founded on a coral reef"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "The Kyoto basin offered an inland setting framed by higher ground. The city’s relationship with nearby hills differs from the orderly streets of its central districts."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Established as an imperial capital in 794, Kyoto drew on Chinese capital planning. Courts, temples, gardens, and generations of residents gave that framework a distinct Japanese expression."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "An enduring plan does not mean an unchanging city. Modern needs must fit a landscape valued for wooden architecture, gardens, and relationships between buildings and their settings."
+      }
+    ],
+    "takeaway": "The grid supplied a framework; more than a millennium of choices supplied its character.",
+    "source": {
+      "name": "UNESCO · Kyoto historic heritage",
+      "url": "https://whc.unesco.org/en/list/688/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "KYOTO BASIN",
+      "land": "KYOTO BASIN"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "nara",
+    "name": "Nara",
+    "country": "Japan",
+    "image": "why-nara",
+    "theme": "CAPITAL AND INSTITUTIONS",
+    "title": "A planned capital concentrated a new state.",
+    "deck": "Nara’s surviving institutions reveal a city shaped by government and belief.",
+    "question": "Which factor best explains Nara’s setting and development?",
+    "options": [
+      "A port at the mouth of the Amazon",
+      "A city built on seasonal sea ice",
+      "An inland planned capital with major institutions"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "An inland basin provided space for a formal capital plan. Rather than growing only around one bridge or harbour, the city was organised around institutions and ordered urban space."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Nara served as Japan’s capital from 710 to 784. Palace grounds, Buddhist temples, and Shinto shrines reflect the consolidation of government and cultural life during that period."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The capital moved, but important institutions remained. Protecting their settings means understanding a wider historic landscape rather than viewing each monument alone."
+      }
+    ],
+    "takeaway": "A short period as a capital can leave a very long urban legacy.",
+    "source": {
+      "name": "UNESCO · Nara historic heritage",
+      "url": "https://whc.unesco.org/en/list/870/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "NARA BASIN",
+      "land": "NARA BASIN"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "macao",
+    "name": "Macao",
+    "country": "China",
+    "image": "why-macao",
+    "theme": "PORT AND CULTURAL EXCHANGE",
+    "title": "A trading port became a meeting place.",
+    "deck": "Macao’s historic streets connect maritime commerce with centuries of cultural exchange.",
+    "question": "Which factor best explains Macao’s setting and development?",
+    "options": [
+      "A coastal port linking Chinese and overseas networks",
+      "A city deep inside the Andes",
+      "An isolated inland glacier basin"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A coastal position near the Pearl River estuary linked the settlement to regional waters and international shipping. Hills and a compact shoreline gave it a distinctive physical frame."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Portuguese administration and Chinese communities shaped a port whose public, residential, and religious buildings record interacting traditions. Trade connected this small place with much larger networks."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "A historic centre now sits inside a much larger urban landscape. Its street scale and relationships between buildings need attention as surrounding development changes."
+      }
+    ],
+    "takeaway": "Macao’s small historic centre records connections far beyond its shoreline.",
+    "source": {
+      "name": "UNESCO · Macao historic heritage",
+      "url": "https://whc.unesco.org/en/list/1110/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "PEARL RIVER ESTUARY",
+      "land": "PEARL RIVER ESTUARY"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Macau"
+    ]
+  },
+  {
+    "id": "george-town",
+    "name": "George Town",
+    "country": "Malaysia",
+    "image": "why-george-town",
+    "theme": "STRAITS TRADING PORT",
+    "title": "A port turned passing routes into neighbourhoods.",
+    "deck": "George Town’s streets record the everyday life of a multicultural trading city.",
+    "question": "Which factor best explains George Town’s setting and development?",
+    "options": [
+      "A town at the North Pole",
+      "An island port beside the Straits of Malacca",
+      "A settlement with no access to maritime routes"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Penang’s island position beside the Straits of Malacca connected the town with a major maritime corridor. The port linked local waterfront activity with wider Asian and European routes."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "From the late eighteenth century, trade and migration shaped streets of shops, homes, institutions, and places of worship. Different communities built a shared city without creating a single uniform architectural tradition."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "A trading streetscape is also working infrastructure. Conservation must leave room for residents and everyday commerce, not only preserve attractive facades."
+      }
+    ],
+    "takeaway": "A route becomes a city when people stay, work, and build communities along it.",
+    "source": {
+      "name": "UNESCO · George Town historic heritage",
+      "url": "https://whc.unesco.org/en/list/1223/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "STRAITS OF MALACCA",
+      "land": "STRAITS OF MALACCA"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Georgetown",
+      "George Town, Penang"
+    ]
+  },
+  {
+    "id": "lijiang",
+    "name": "Lijiang",
+    "country": "China",
+    "image": "why-lijiang",
+    "theme": "TERRAIN AND WATER SYSTEM",
+    "title": "The town bent its plan to the ground.",
+    "deck": "Lijiang combines irregular terrain with an ingenious network of water channels.",
+    "question": "Which factor best explains Lijiang’s setting and development?",
+    "options": [
+      "A perfectly flat artificial island",
+      "A settlement designed without any water access",
+      "Adaptation to uneven terrain and a water-supply network"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Uneven ground made a rigid street grid a poor fit. Water moving through the site became part of the town’s organisation rather than an edge to be ignored."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Communities developed streets, bridges, houses, and a complex water-supply system adapted to the setting. Commercial connections brought cultural influences that became visible in its architecture."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "A water system is useful only while it is maintained. Protecting the town means caring for channels and daily urban functions as well as its buildings."
+      }
+    ],
+    "takeaway": "Lijiang’s plan is a negotiation with its ground, not a grid imposed over it.",
+    "source": {
+      "name": "UNESCO · Lijiang historic heritage",
+      "url": "https://whc.unesco.org/en/list/811/"
+    },
+    "diagram": "valley",
+    "diagramLabels": {
+      "water": "URBAN WATER CHANNELS",
+      "land": "URBAN WATER CHANNELS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "pingyao",
+    "name": "Pingyao",
+    "country": "China",
+    "image": "why-pingyao",
+    "theme": "WALLS AND FINANCE",
+    "title": "A walled city helped organise far-reaching finance.",
+    "deck": "Pingyao’s urban fabric preserves both traditional planning and a commercial network.",
+    "question": "Which factor best explains Pingyao’s setting and development?",
+    "options": [
+      "A walled town connected to banking and commerce",
+      "A remote seaport on Antarctica",
+      "A settlement built entirely on boats"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A compact walled core gave streets and gates a clear structure. The enclosed town was a physical place; its commercial relationships reached well beyond those boundaries."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Merchants and banking institutions made Pingyao an important financial centre in the nineteenth and early twentieth centuries. Their buildings became part of an urban fabric with much older planning traditions."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Commercial importance can change while a town survives. Keeping streets and homes usable matters alongside preserving the buildings associated with former prosperity."
+      }
+    ],
+    "takeaway": "A town’s walls can contain its buildings without containing its influence.",
+    "source": {
+      "name": "UNESCO · Pingyao historic heritage",
+      "url": "https://whc.unesco.org/en/list/812/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "WALLED URBAN CORE",
+      "land": "WALLED URBAN CORE"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Ping Yao"
+    ]
+  },
+  {
+    "id": "samarkand",
+    "name": "Samarkand",
+    "country": "Uzbekistan",
+    "image": "why-samarkand",
+    "theme": "CROSSROADS AND PATRONAGE",
+    "title": "Routes met; rulers made a capital.",
+    "deck": "Samarkand’s monuments reveal more than the movement of goods along a route.",
+    "question": "Which factor best explains Samarkand’s setting and development?",
+    "options": [
+      "An Atlantic shipping canal",
+      "Overland connections reinforced by major political patronage",
+      "An isolated polar research camp"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "An inland Central Asian setting placed the city within overland networks. Such connections offered opportunities for exchange, but a useful location alone did not build its celebrated urban spaces."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Timurid rulers reshaped the city especially strongly in the fourteenth and fifteenth centuries. Religious buildings, public ensembles, and an observatory expressed political ambition and intellectual life."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The historic city contains different periods and districts. Preserving a famous skyline requires attention to the ordinary urban fabric surrounding it as well."
+      }
+    ],
+    "takeaway": "A crossroads creates opportunity; investment determines what becomes monumental.",
+    "source": {
+      "name": "UNESCO · Samarkand historic heritage",
+      "url": "https://whc.unesco.org/en/list/603/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "CENTRAL ASIAN LAND ROUTES",
+      "land": "CENTRAL ASIAN LAND ROUTES"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "bukhara",
+    "name": "Bukhara",
+    "country": "Uzbekistan",
+    "image": "why-bukhara",
+    "theme": "OASIS AND URBAN NETWORKS",
+    "title": "A stopping place became an urban world.",
+    "deck": "Bukhara’s streets connect trade with religious, educational, and civic institutions.",
+    "question": "Which factor best explains Bukhara’s setting and development?",
+    "options": [
+      "A harbour opening onto the Caribbean",
+      "A settlement on a permanent ice shelf",
+      "A Central Asian town on Silk Route networks"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "An inland settlement on Silk Route networks offered a place where journeys and regional connections could converge. Water and services were necessary to make a lasting town possible."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Generations built markets, mosques, schools, and neighbourhoods rather than a single isolated monument. The surviving medieval fabric shows how these functions fitted together."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The value of the centre lies partly in continuity between its buildings. Replacing ordinary streets can weaken the setting even when famous monuments remain intact."
+      }
+    ],
+    "takeaway": "A historic city is a system of linked places, not simply a collection of landmarks.",
+    "source": {
+      "name": "UNESCO · Bukhara historic heritage",
+      "url": "https://whc.unesco.org/en/list/602/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "SILK ROUTE CONNECTIONS",
+      "land": "SILK ROUTE CONNECTIONS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "khiva",
+    "name": "Khiva",
+    "country": "Uzbekistan",
+    "image": "why-khiva",
+    "theme": "OASIS AND WALLED CORE",
+    "title": "An oasis supported the next journey.",
+    "deck": "Khiva’s inner town turns a difficult regional landscape into a compact urban story.",
+    "question": "Which factor best explains Khiva’s setting and development?",
+    "options": [
+      "An oasis stop on desert caravan routes",
+      "An oceanic island without freshwater",
+      "A city founded on the Baltic coast"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "The oasis offered a stopping place before caravans crossed desert towards Iran. A place to pause and obtain supplies mattered because the surrounding journey was demanding."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Within Itchan Kala’s brick walls, rulers and communities built mosques, schools, palaces, and residential streets. The enclosed urban ensemble took shape through successive periods of construction."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Walls preserve an outline, but a living historic town also depends on maintenance and suitable uses. Its desert-route history should be read alongside the people who inhabited it."
+      }
+    ],
+    "takeaway": "The importance of a stopping place grows when the next stretch of travel is difficult.",
+    "source": {
+      "name": "UNESCO · Khiva historic heritage",
+      "url": "https://whc.unesco.org/en/list/543/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "DESERT CARAVAN ROUTES",
+      "land": "DESERT CARAVAN ROUTES"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "ahmedabad",
+    "name": "Ahmedabad",
+    "country": "India",
+    "image": "why-ahmedabad",
+    "theme": "RIVERBANK AND NEIGHBOURHOODS",
+    "title": "A riverside capital grew through neighbourhoods.",
+    "deck": "Ahmedabad’s old city joins royal foundations with the intimate scale of residential streets.",
+    "question": "Which factor best explains Ahmedabad’s setting and development?",
+    "options": [
+      "An Arctic island harbour",
+      "A Sabarmati riverbank and tightly organised neighbourhoods",
+      "A settlement in a dry volcanic crater"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "The historic walled city developed on the eastern bank of the Sabarmati. The river set a major edge, while gates and routes connected the urban core with its surroundings."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Founded by Sultan Ahmad Shah in the fifteenth century, the city combined major institutions with densely packed residential pols. Wells, religious places, and shared spaces supported everyday neighbourhood life."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Preserving the city requires more than restoring large monuments. Traditional homes and communal spaces must remain workable for the people who use them."
+      }
+    ],
+    "takeaway": "Ahmedabad’s story can be read at two scales: the capital and the neighbourhood.",
+    "source": {
+      "name": "UNESCO · Ahmedabad historic heritage",
+      "url": "https://whc.unesco.org/en/list/1551/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "SABARMATI RIVER",
+      "land": "SABARMATI RIVER"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Ahmadabad"
+    ]
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "country": "India",
+    "image": "why-jaipur",
+    "theme": "PLAIN AND COMMERCIAL CAPITAL",
+    "title": "A ruler chose a plain and drew a grid.",
+    "deck": "Jaipur used planned streets to organise a new commercial capital.",
+    "question": "Which factor best explains Jaipur’s setting and development?",
+    "options": [
+      "A city built entirely on lagoon islands",
+      "An unplanned settlement on a glacier",
+      "A planned grid on a plain"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Unlike many nearby settlements on hillier sites, the new city occupied a plain. That offered room for an organised layout rather than requiring streets to follow steep slopes."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Founded in 1727, Jaipur combined a grid with planning ideas from several traditions. Markets, squares, residences, and temples were coordinated along its principal streets."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "A consistent plan does not remove the pressures of a busy city. Modern movement and services must coexist with commercial streets and their distinctive facades."
+      }
+    ],
+    "takeaway": "Choosing flatter ground helped make a particular kind of capital possible.",
+    "source": {
+      "name": "UNESCO · Jaipur historic heritage",
+      "url": "https://whc.unesco.org/en/list/1605/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "PLANNED STREET GRID",
+      "land": "PLANNED STREET GRID"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "bagan",
+    "name": "Bagan",
+    "country": "Myanmar",
+    "image": "why-bagan",
+    "theme": "RIVER BEND AND ROYAL LANDSCAPE",
+    "title": "A river plain became a monumental landscape.",
+    "deck": "Bagan’s many religious structures record a regional empire and generations of devotion.",
+    "question": "Which factor best explains Bagan’s setting and development?",
+    "options": [
+      "A central plain beside an Ayeyarwady river bend",
+      "A town floating in the Atlantic",
+      "A settlement isolated inside an ice cave"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A bend of the Ayeyarwady lies beside the central plain. River and open ground provided a setting for settlement and connections across a wider region."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "As a capital especially prominent between the eleventh and thirteenth centuries, Bagan accumulated temples, stupas, monasteries, and other structures. Patronage created an extensive landscape rather than one compact monument."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Its scale makes conservation a landscape problem. Protecting individual buildings also means considering the spaces, archaeological remains, and views between them."
+      }
+    ],
+    "takeaway": "Bagan’s significance comes from an entire landscape of building and belief.",
+    "source": {
+      "name": "UNESCO · Bagan historic heritage",
+      "url": "https://whc.unesco.org/en/list/1588/"
+    },
+    "diagram": "river",
+    "diagramLabels": {
+      "water": "AYEYARWADY RIVER",
+      "land": "AYEYARWADY RIVER"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "ayutthaya",
+    "name": "Ayutthaya",
+    "country": "Thailand",
+    "image": "why-ayutthaya",
+    "theme": "RIVERS AND ROYAL CAPITAL",
+    "title": "Rivers connected a royal island.",
+    "deck": "Ayutthaya’s setting joined inland routes with a wider trading world.",
+    "question": "Which factor best explains Ayutthaya’s setting and development?",
+    "options": [
+      "An inland town without waterways",
+      "A river island connected with inland and maritime routes",
+      "A capital on a polar ice shelf"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "The historic city stood on an island surrounded by rivers connecting it with the sea. Water offered movement and a defensive boundary, rather than serving only one purpose."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Founded around 1350, Ayutthaya became a major Siamese capital and international trading centre. Royal and religious complexes gave form to its wealth and authority."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The city was destroyed in the eighteenth century. Its surviving archaeological landscape requires interpretation that distinguishes former urban life from the ruins visible now."
+      }
+    ],
+    "takeaway": "Water can connect a city to the world while also defining its edges.",
+    "source": {
+      "name": "UNESCO · Ayutthaya historic heritage",
+      "url": "https://whc.unesco.org/en/list/576/"
+    },
+    "diagram": "confluence",
+    "diagramLabels": {
+      "water": "CHAO PHRAYA RIVER NETWORK",
+      "land": "CHAO PHRAYA RIVER NETWORK"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "sukhothai",
+    "name": "Sukhothai",
+    "country": "Thailand",
+    "image": "why-sukhothai",
+    "theme": "ROYAL CENTRE AND WATERWORKS",
+    "title": "A kingdom built its centre on the plain.",
+    "deck": "Sukhothai’s planned spaces and monuments record an influential early Thai capital.",
+    "question": "Which factor best explains Sukhothai’s setting and development?",
+    "options": [
+      "A settlement constructed on sea ice",
+      "A city at the mouth of the Rhine",
+      "An inland royal centre supported by water management"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "The old city occupies inland ground rather than an open seaport. Walls, moats, and water-management works helped organise a settlement whose needs extended beyond its temples."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Royal patronage and local traditions shaped the capital in the thirteenth and fourteenth centuries. Architecture and sculpture developed a distinctive style within a network of associated towns."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The surviving site is not the whole former kingdom. Understanding it means connecting waterworks, urban space, and nearby centres with the monuments that attract attention first."
+      }
+    ],
+    "takeaway": "A capital depends on the systems around its monuments as well as the monuments themselves.",
+    "source": {
+      "name": "UNESCO · Sukhothai historic heritage",
+      "url": "https://whc.unesco.org/en/list/574/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "PLANNED HISTORIC CORE",
+      "land": "PLANNED HISTORIC CORE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "vigan",
+    "name": "Vigan",
+    "country": "Philippines",
+    "image": "why-vigan",
+    "theme": "TRADE AND CULTURAL ADAPTATION",
+    "title": "A colonial plan acquired a local character.",
+    "deck": "Vigan’s streets combine imposed planning with regional building traditions.",
+    "question": "Which factor best explains Vigan’s setting and development?",
+    "options": [
+      "A planned town shaped by Filipino, Chinese, and European influences",
+      "An untouched European town transported without adaptation",
+      "A settlement on a floating polar island"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Northern Luzon provided a setting linked to river and coastal commerce. The historic core’s organised streets connected houses, civic spaces, and places of work within a compact town."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Spanish colonial planning interacted with Filipino and Chinese influences. Builders adapted homes and commercial buildings, producing a distinctive streetscape rather than simply reproducing a European town."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Historic facades form part of working homes and businesses. Their conservation needs to support those uses, not only the appearance of a single famous street."
+      }
+    ],
+    "takeaway": "A plan can arrive from elsewhere; the resulting city is made locally.",
+    "source": {
+      "name": "UNESCO · Vigan historic heritage",
+      "url": "https://whc.unesco.org/en/list/502/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "PLANNED STREET NETWORK",
+      "land": "PLANNED STREET NETWORK"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cartagena",
+    "name": "Cartagena",
+    "country": "Colombia",
+    "image": "why-cartagena",
+    "theme": "BAY AND FORTIFICATIONS",
+    "title": "A sheltered bay became a fortified gateway.",
+    "deck": "Cartagena’s defensive works reveal how strongly a valuable port needed protection.",
+    "question": "Which factor best explains Cartagena’s setting and development?",
+    "options": [
+      "An inland Andean salt lake",
+      "A Caribbean bay protected by extensive fortifications",
+      "A town built on the Arctic Ocean floor"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A bay on the Caribbean coast offered shelter and maritime access. Entrances, shorelines, and nearby land created a setting where defence could be organised at several points."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Colonial authorities built an extensive fortification system around a major port. Distinct neighbourhoods developed inside the city, reflecting different social and economic roles."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The same defensive inheritance now belongs to a living coastal city. Conservation must consider public access and residential life as well as walls and monuments."
+      }
+    ],
+    "takeaway": "A port’s valuable connections can explain the effort spent defending them.",
+    "source": {
+      "name": "UNESCO · Cartagena historic heritage",
+      "url": "https://whc.unesco.org/en/list/285/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "CARIBBEAN BAY",
+      "land": "CARIBBEAN BAY"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Cartagena de Indias"
+    ]
+  },
+  {
+    "id": "quito",
+    "name": "Quito",
+    "country": "Ecuador",
+    "image": "why-quito",
+    "theme": "HIGH-ALTITUDE CITY",
+    "title": "A capital took shape in the Andes.",
+    "deck": "Quito’s historic centre combines a highland setting with successive cultural foundations.",
+    "question": "Which factor best explains Quito’s setting and development?",
+    "options": [
+      "A city below sea level in the Baltic",
+      "A capital on a coral atoll",
+      "A high Andean site with earlier urban foundations"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "High Andean terrain places the city far above sea level. Slopes and surrounding relief make expansion and connections different from those of a broad coastal plain."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "The Spanish colonial city was established over an earlier Inca centre. Local and overseas artistic traditions interacted in its religious architecture and wider urban fabric."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Earthquakes and modern growth have tested the city’s buildings and setting. Preserving the historic centre requires decisions about both structural care and everyday urban needs."
+      }
+    ],
+    "takeaway": "Quito’s setting explains the terrain; its successive communities explain the architecture.",
+    "source": {
+      "name": "UNESCO · Quito historic heritage",
+      "url": "https://whc.unesco.org/en/list/2/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "ANDEAN TERRAIN",
+      "land": "ANDEAN TERRAIN"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cuenca",
+    "name": "Cuenca",
+    "country": "Ecuador",
+    "image": "why-cuenca",
+    "theme": "VALLEY AND COLONIAL GRID",
+    "title": "A formal grid met an Andean valley.",
+    "deck": "Cuenca brings a carefully ordered street plan into a mountain-framed setting.",
+    "question": "Which factor best explains Cuenca’s setting and development?",
+    "options": [
+      "A planned colonial grid within an Andean valley",
+      "A floating settlement in open ocean",
+      "A city without surrounding mountains"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "An inland valley surrounded by the Andes offered land for settlement and regional agriculture. Rivers and changes in level formed part of the landscape around the planned core."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Founded as a colonial town in 1557, Cuenca followed formal Spanish planning guidelines. The grid organised an administrative and agricultural centre that continued growing over centuries."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The enduring layout is only one layer of the city. Modern buildings and uses must work with inherited streets and the relationship between town and valley."
+      }
+    ],
+    "takeaway": "A grid can be regular even when the wider landscape is anything but.",
+    "source": {
+      "name": "UNESCO · Cuenca historic heritage",
+      "url": "https://whc.unesco.org/en/list/863/"
+    },
+    "diagram": "valley",
+    "diagramLabels": {
+      "water": "ANDEAN RIVER VALLEY",
+      "land": "ANDEAN RIVER VALLEY"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Cuenca, Ecuador"
+    ]
+  },
+  {
+    "id": "sucre",
+    "name": "Sucre",
+    "country": "Bolivia",
+    "image": "why-sucre",
+    "theme": "HIGHLAND ADMINISTRATIVE CENTRE",
+    "title": "Institutions helped anchor a highland city.",
+    "deck": "Sucre’s role as a capital was built through administration and architecture.",
+    "question": "Which factor best explains Sucre’s setting and development?",
+    "options": [
+      "An Atlantic island trading post",
+      "A highland centre strengthened by civic and religious institutions",
+      "A settlement designed for Antarctic research"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A highland setting made Sucre an inland centre rather than a seaport. Its position must be understood alongside the regional routes connecting settlements and economic activity."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Spanish founders established the city in the sixteenth century. Religious and civic institutions helped sustain an important centre whose architecture combined local traditions and European forms."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "A change in political importance does not erase an urban inheritance. Caring for the historic city means accommodating present-day needs within its established streets and buildings."
+      }
+    ],
+    "takeaway": "Institutions can make a regional setting into a lasting urban centre.",
+    "source": {
+      "name": "UNESCO · Sucre historic heritage",
+      "url": "https://whc.unesco.org/en/list/566/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "BOLIVIAN HIGHLANDS",
+      "land": "BOLIVIAN HIGHLANDS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "potosi",
+    "name": "Potosí",
+    "country": "Bolivia",
+    "image": "why-potosi",
+    "theme": "MINERAL RESOURCE AND LABOUR",
+    "title": "Silver drew a city to a mountain.",
+    "deck": "Potosí’s location is inseparable from ore, water infrastructure, and human labour.",
+    "question": "Which factor best explains Potosí’s setting and development?",
+    "options": [
+      "A natural deepwater harbour",
+      "A capital chosen only for its beach climate",
+      "Silver ore at Cerro Rico and supporting industrial systems"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Cerro Rico contained the silver ore that made the site economically important. The high-altitude location required supporting systems rather than offering an effortless place to build a city."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Mining and hydraulic mills drove a vast colonial industrial complex. Aqueducts, artificial lakes, a mint, homes, and workers’ districts became parts of the same system, sustained in part by coerced labour."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The legacy includes environmental damage and continuing risks around mining. Monumental wealth and human exploitation belong in the same account of the city."
+      }
+    ],
+    "takeaway": "A resource can explain a city’s location without justifying the costs of extracting it.",
+    "source": {
+      "name": "UNESCO · Potosí historic heritage",
+      "url": "https://whc.unesco.org/en/list/420/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "CERRO RICO",
+      "land": "CERRO RICO"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Potosi"
+    ]
+  },
+  {
+    "id": "salvador",
+    "name": "Salvador",
+    "country": "Brazil",
+    "image": "why-salvador",
+    "theme": "CLIFF AND ATLANTIC PORT",
+    "title": "A city connected a bay with higher ground.",
+    "deck": "Salvador’s upper and lower districts reveal different roles within a colonial port.",
+    "question": "Which factor best explains Salvador’s setting and development?",
+    "options": [
+      "A bay-front port with upper and lower urban levels",
+      "A city in a landlocked desert basin",
+      "A settlement on permanent sea ice"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A coastal escarpment separates higher ground from a waterfront on the Bay of All Saints. Maritime access and elevation offered different advantages within one settlement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "As Brazil’s first colonial capital, Salvador developed administrative, religious, and port functions. African, Indigenous, and European communities shaped its culture, while slavery underpinned much colonial economic activity."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Moving between levels remains part of the city’s geography. Its heritage also requires remembering the people and unequal systems behind its celebrated buildings."
+      }
+    ],
+    "takeaway": "Salvador’s dramatic setting carries a complex human history, not only a colourful skyline.",
+    "source": {
+      "name": "UNESCO · Salvador historic heritage",
+      "url": "https://whc.unesco.org/en/list/309/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "BAY OF ALL SAINTS",
+      "land": "BAY OF ALL SAINTS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "brasilia",
+    "name": "Brasília",
+    "country": "Brazil",
+    "image": "why-brasilia",
+    "theme": "PURPOSE-BUILT CAPITAL",
+    "title": "The decision came before the city.",
+    "deck": "Brasília makes political planning unusually visible in the urban landscape.",
+    "question": "Which factor best explains Brasília’s setting and development?",
+    "options": [
+      "A medieval city that grew around an ocean harbour",
+      "A deliberately planned capital on an inland plateau",
+      "A town built inside a moving glacier"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "An inland plateau supplied the setting for a new national capital. This was a deliberate relocation project rather than the gradual growth of a historic seaport."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Lúcio Costa’s plan and Oscar Niemeyer’s major buildings coordinated administrative spaces, residential districts, and circulation. The capital opened in 1960 as an ambitious modern urban project."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Large-scale organisation creates distances as well as order. The lived city must meet everyday movement and social needs beyond the clarity of its famous plan."
+      }
+    ],
+    "takeaway": "Sometimes the answer to why here begins with a national decision.",
+    "source": {
+      "name": "UNESCO · Brasília historic heritage",
+      "url": "https://whc.unesco.org/en/list/445/"
+    },
+    "diagram": "axes",
+    "diagramLabels": {
+      "water": "INLAND PLATEAU",
+      "land": "INLAND PLATEAU"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Brasilia"
+    ]
+  },
+  {
+    "id": "ouro-preto",
+    "name": "Ouro Preto",
+    "country": "Brazil",
+    "image": "why-ouro-preto",
+    "theme": "GOLD AND STEEP GROUND",
+    "title": "Gold brought building to difficult terrain.",
+    "deck": "Ouro Preto’s steep streets record a mining boom and its aftermath.",
+    "question": "Which factor best explains Ouro Preto’s setting and development?",
+    "options": [
+      "A seaport beside the Arctic Ocean",
+      "A town planned on perfectly flat reclaimed seabed",
+      "Gold deposits in hilly terrain"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Hilly ground in Minas Gerais shaped the town’s routes and views. Gold deposits provided a reason to settle despite the demanding terrain."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "A late-seventeenth-century mining settlement became a major centre during the eighteenth-century gold rush. Wealth supported churches, bridges, fountains, and artistic work, alongside an economy dependent on enslaved labour."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "Mining prosperity declined, but the town remained. Conservation now has to sustain daily life in a steep urban fabric built for a very different economic moment."
+      }
+    ],
+    "takeaway": "A temporary resource boom can leave a permanent townscape.",
+    "source": {
+      "name": "UNESCO · Ouro Preto historic heritage",
+      "url": "https://whc.unesco.org/en/list/124/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "MINAS GERAIS HILLS",
+      "land": "MINAS GERAIS HILLS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "valparaiso",
+    "name": "Valparaíso",
+    "country": "Chile",
+    "image": "why-valparaiso",
+    "theme": "PORT PLAIN AND HILLS",
+    "title": "A port climbed its natural amphitheatre.",
+    "deck": "Valparaíso’s hillside streets tell a different story from the flatter waterfront below.",
+    "question": "Which factor best explains Valparaíso’s setting and development?",
+    "options": [
+      "A narrow port plain backed by steep hills",
+      "An inland city surrounded by desert flats",
+      "A city built entirely on floating islands"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "A narrow coastal plain meets steep surrounding hills. This creates a natural amphitheatre where building cannot simply extend inland on the same level."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "Port growth linked the city with international shipping. Residents adapted the hills with irregular streets, stairs, and mechanical elevators, contrasting with the more geometric layout on the plain."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The setting makes connections between levels essential. Looking after historic infrastructure and hillside neighbourhoods is part of preserving how the city actually works."
+      }
+    ],
+    "takeaway": "Valparaíso’s transport systems are part of its landscape story.",
+    "source": {
+      "name": "UNESCO · Valparaíso historic heritage",
+      "url": "https://whc.unesco.org/en/list/959/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "PACIFIC COAST",
+      "land": "PACIFIC COAST"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Valparaiso"
+    ]
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "country": "Cuba",
+    "image": "why-havana",
+    "theme": "HARBOUR AND DEFENCE",
+    "title": "A harbour anchored an Atlantic city.",
+    "deck": "Old Havana records maritime activity within a larger modern capital.",
+    "question": "Which factor best explains Havana’s setting and development?",
+    "options": [
+      "A settlement at the source of the Ganges",
+      "A sheltered harbour with shipbuilding and defensive functions",
+      "A city with no access to the sea"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Begin with the setting.",
+        "text": "Havana Bay provided a sheltered maritime setting. Its relationship with the coast and harbour entrance helped organise port activity and the placement of defensive works."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A place becomes a city.",
+        "text": "The Spanish colonial city developed into an important shipbuilding centre. Squares, houses, public buildings, and fortifications accumulated around a port connected with wider Atlantic networks."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The inheritance needs care.",
+        "text": "The old centre is not an empty historic display. Maintaining homes and public spaces is as important as conserving celebrated monuments within the expanding metropolis."
+      }
+    ],
+    "takeaway": "A harbour can anchor a city while generations build very different lives around it.",
+    "source": {
+      "name": "UNESCO · Havana historic heritage",
+      "url": "https://whc.unesco.org/en/list/204/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "HAVANA BAY",
+      "land": "HAVANA BAY"
+    },
+    "reviewedOn": "2026-11-06"
   }
 ]

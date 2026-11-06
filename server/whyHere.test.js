@@ -4,12 +4,12 @@ import { existsSync, readFileSync } from 'node:fs';
 import { findWhyHereCity, whyHereCities } from '../src/utils/whyHere.js';
 const credits = JSON.parse(readFileSync(new URL('../src/data/connection-credits.json',import.meta.url)));
 test('Why Here entries support quiz, diagrams, narration and credited images', () => {
-  assert.equal(whyHereCities.length,50);
-  assert.equal(new Set(whyHereCities.map(c=>c.id)).size,50);
+  assert.equal(whyHereCities.length,75);
+  assert.equal(new Set(whyHereCities.map(c=>c.id)).size,75);
   for (const city of whyHereCities) {
     assert.equal(city.options.length,3); assert.ok(Number.isInteger(city.correct) && city.correct>=0 && city.correct<3);
     assert.equal(city.steps.length,3);
-    assert.ok(['crossing','lagoon','routes','strait','valley','harbour','estuary','delta','confluence','basin','land-routes','ridge'].includes(city.diagram));
+    assert.ok(['crossing','lagoon','routes','strait','valley','harbour','estuary','delta','confluence','basin','land-routes','ridge','grid','hills','axes','river'].includes(city.diagram));
     assert.ok(existsSync(new URL(`../public/images/connections/${city.image}.jpg`,import.meta.url)));
     assert.ok(credits[city.image]?.source && credits[city.image]?.Artist !== undefined);
     assert.match(city.source.url,/^https:\/\//);
