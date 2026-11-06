@@ -1,0 +1,202 @@
+[
+  {
+    "id": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "image": "london",
+    "theme": "RIVER CROSSING",
+    "title": "A crossing became a crossroads.",
+    "deck": "The Thames offered a route for boats—and a place where land routes could meet.",
+    "question": "Which combination helped Roman London develop here?",
+    "options": [
+      "A Thames crossing and access to river trade",
+      "A nearby source of Alpine glacier ice",
+      "A harbour directly on the open Mediterranean"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water brought opportunity.",
+        "text": "The Thames connected the settlement with a wider river and sea network. A crossing also allowed people and goods to move between its banks."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A bridge made a meeting point.",
+        "text": "The Romans established Londinium and built a timber bridge early in its history. Roads, waterfront activity, and the settlement developed around this connection."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful river needs managing.",
+        "text": "A river is an opportunity and a constraint. Building beside tidal water requires crossings, working waterfronts, and continuing decisions about how people use its banks."
+      }
+    ],
+    "takeaway": "The river offered possibilities. People turned them into a city.",
+    "source": {
+      "name": "London Museum · Roman London timeline",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"
+    },
+    "diagram": "crossing",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "country": "Italy",
+    "image": "venice",
+    "theme": "LAGOON SETTLEMENT",
+    "title": "A city learned to live between land and water.",
+    "deck": "Islands in a shallow lagoon became the setting for a distinctive maritime city.",
+    "question": "What most directly shaped Venice’s urban form?",
+    "options": [
+      "A continuous mountain ridge through its centre",
+      "Its islands, tidal channels, and lagoon setting",
+      "A broad desert plain without surface water"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A different kind of ground.",
+        "text": "The lagoon offered islands and channels rather than a simple continuous building site. Water influenced where settlements could grow and how people moved."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Adaptation became an identity.",
+        "text": "People connected islands, developed waterways, and adapted buildings to the setting. Over centuries, this became a city whose streets and maritime connections worked together."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The setting needs constant care.",
+        "text": "Venice and its lagoon remain interdependent. High water and changes to the lagoon environment pose challenges to buildings, habitats, and the city’s future."
+      }
+    ],
+    "takeaway": "Venice’s setting was neither effortless nor inevitable. Its cityscape records centuries of adaptation.",
+    "source": {
+      "name": "UNESCO · Venice and its Lagoon",
+      "url": "https://whc.unesco.org/en/list/394/"
+    },
+    "diagram": "lagoon",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "image": "why-singapore",
+    "theme": "MARITIME CROSSROADS",
+    "title": "A small island sits on a very large network.",
+    "deck": "Singapore’s location places it near major maritime routes between oceans.",
+    "question": "Which geographical advantage helped Singapore become a trading hub?",
+    "options": [
+      "A location on major maritime trade routes",
+      "A navigable river connecting it directly to Europe",
+      "Its position inside an inland mountain basin"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Look beyond the island.",
+        "text": "Singapore sits at a maritime crossroads in Southeast Asia. Its importance becomes clearer when viewed as part of a network of routes rather than by land area alone."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Location needed investment.",
+        "text": "Port infrastructure, services, connectivity, and policy helped turn a strategic position into a major maritime hub. Geography supplied an opportunity, not a finished outcome."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Connection creates dependence.",
+        "text": "A hub gains from international movement but must continually adapt its infrastructure and services. Ships do not choose a port merely because a map places it nearby."
+      }
+    ],
+    "takeaway": "A good location becomes valuable through the connections people build around it.",
+    "source": {
+      "name": "Singapore Ministry of Transport · Maritime",
+      "url": "https://www.mot.gov.sg/what-we-do/maritime/"
+    },
+    "diagram": "routes",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "istanbul",
+    "name": "Istanbul",
+    "country": "Türkiye",
+    "image": "why-istanbul",
+    "theme": "STRAIT & PENINSULA",
+    "title": "A narrow passage made a powerful position.",
+    "deck": "The Bosphorus places Istanbul between major land regions and connected seas.",
+    "question": "What makes Istanbul’s location strategically important?",
+    "options": [
+      "Its isolation from all navigable water",
+      "Its position beside the Bosphorus between land regions and sea routes",
+      "Its location at the source of the Amazon"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water narrows. Routes meet.",
+        "text": "The Bosphorus connects the Black Sea with the Sea of Marmara and onward toward the Mediterranean. The city occupies a meeting point between the Balkans and Anatolia."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A position became a capital.",
+        "text": "Successive societies built on this strategic setting. Istanbul’s history includes its roles as a capital of the Eastern Roman and Ottoman empires."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A connection is also a division.",
+        "text": "Waterways offer access while separating shores. A city in this setting has to organise movement across land and water as well as benefit from the routes passing through."
+      }
+    ],
+    "takeaway": "The same strait that divides shores can make a city a meeting place.",
+    "source": {
+      "name": "UNESCO · Historic Areas of Istanbul",
+      "url": "https://whc.unesco.org/en/list/356/"
+    },
+    "diagram": "strait",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cusco",
+    "name": "Cusco",
+    "country": "Peru",
+    "image": "why-cusco",
+    "theme": "ANDEAN VALLEY",
+    "title": "A high valley became an imperial centre.",
+    "deck": "Cusco’s setting combines mountain terrain, rivers, and a fertile alluvial valley.",
+    "question": "What geographical setting supported Cusco’s development?",
+    "options": [
+      "A low-lying tropical coastal delta",
+      "An island at the mouth of the Rhine",
+      "A fertile, river-fed valley in the Andes"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A valley within the mountains.",
+        "text": "Cusco lies high in the Peruvian Andes in a fertile alluvial valley fed by several rivers. This was a setting where mountain terrain and usable valley land came together."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Political decisions shaped the city.",
+        "text": "Inca rulers developed Cusco into a complex capital with administrative and religious functions. Its significance depended on institutions and power as well as its physical setting."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A city carries layers of history.",
+        "text": "Following Spanish conquest, buildings were erected over and around Inca structures. The city’s present form records both its Andean setting and major changes in political control."
+      }
+    ],
+    "takeaway": "Terrain helps explain a setting. Human decisions explain much of what happened there.",
+    "source": {
+      "name": "UNESCO · City of Cuzco",
+      "url": "https://whc.unesco.org/en/list/273/"
+    },
+    "diagram": "valley",
+    "reviewedOn": "2026-11-06"
+  }
+]

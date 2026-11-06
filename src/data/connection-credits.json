@@ -1216,5 +1216,29 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Rice_terraces_on_Bali_-_Tegalalang_Rice_Terrace_-_Indonesia_04.jpg",
     "description": "File:Rice terraces on Bali - Tegalalang Rice Terrace - Indonesia 04.jpg"
+  },
+  "why-istanbul": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hunanuk&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hunanuk (page does not exist)\">Hunanuk</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
+    "description": "Istanbul"
+  },
+  "why-singapore": {
+    "Artist": "<bdi>Bijay Chaurasia</bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Singapore-3499.jpg",
+    "description": "Marina Bay, Singapore"
+  },
+  "why-cusco": {
+    "Artist": "tomscoffin",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_Calle_Suecia.jpg",
+    "description": "Cusco"
   }
 }

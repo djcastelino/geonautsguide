@@ -1,3 +1,4 @@
+import { findWhyHereCity } from "../utils/whyHere";
 import { cityFactSpeechText } from "../utils/speechText";
 import { completeCityStats } from "../utils/cityStats";
 import {
@@ -30,7 +31,7 @@ const todayGame = (city) => {
     : {};
 };
 
-const CityGuess = () => {
+const CityGuess = ({ onWhyHere }) => {
   const [initial] = useState(() => {
     const city = getDailyCity();
     return { city, game: todayGame(city) };
@@ -321,6 +322,7 @@ const CityGuess = () => {
   const date = archiveDate || new Date();
   const stats = getStats();
   const over = gameState !== "playing";
+  const whyHereCity = findWhyHereCity(dailyCity.name);
   return (
     <div className="journal-page journal-city">
       <div className="journal-page-heading">
@@ -604,6 +606,7 @@ const CityGuess = () => {
               {audioError}
             </p>
           )}
+          {onWhyHere && <div className="journal-why-link"><p className="journal-kicker">THE GEOGRAPHY BEHIND THE ANSWER</p><h3>{whyHereCity ? `Why did ${dailyCity.name} grow here?` : "Why do cities grow where they do?"}</h3><p>Rivers. Harbours. Mountain valleys. Discover how a setting becomes a city.</p><button className="journal-button" onClick={() => onWhyHere(whyHereCity?.id || "")}>Explore Why Here? <ArrowUpRight size={16}/></button></div>}
           <div className="journal-city-fact-grid">
             {[
               ["CONTINENT", dailyCity.continent],

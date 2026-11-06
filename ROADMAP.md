@@ -1,6 +1,6 @@
 # GeonautsGuide roadmap
 
-Last updated: November 5, 2026
+Last updated: November 6, 2026
 
 ## Direction
 
@@ -23,7 +23,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 | Part | Feature | Experience | Status |
 | --- | --- | --- | --- |
 | 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 100 stories in the production collection after the November 5 expansion. |
-| 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | Proposed next feature, naturally connected to Daily City Guess. |
+| 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | Five-city preview prepared November 6: London, Venice, Singapore, Istanbul, and Cusco. Linked after Daily City Guess completion; production publication pending preview review. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
 | 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
@@ -104,7 +104,7 @@ The collection grew from 3 to 13 stories, then to 30, 50, 75, and 100. It includ
 1. Preserve the restored homepage and confirm the new feature is easy to find.
 2. Add the central About / Sources & Credits section.
 3. Maintain the 100-story Planet Connections collection and improve discovery based on usage.
-4. Preview Why Here? alongside Daily City Guess.
+4. Review the five-city Why Here? preview, then decide on publication and researched expansion toward 100 cities.
 5. Evaluate Parts 3–5 individually based on enjoyment, usage, and effort.
 
 ## Release notes
@@ -129,3 +129,14 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 5, 2026:** Added 25 connections, reaching 75 stories. Preserved the five-part, 500-experience target, fresh ideas backlog, and geography learning plans.
 
 - **November 5, 2026:** Added the final batch of 25, reaching 100 Planet Connections. Original homepage and prior 75 stories preserved.
+
+## Part 2 — Why Here? preview
+
+- Five city stories introduce river crossings, lagoons, maritime routes, straits, and an Andean valley.
+- Each has a quiz, three landscape layers, three written chapters, optional narration, source links, and photograph credits.
+- Diagrams are clearly labelled explanatory sketches, not real maps or historical reconstructions. Stories distinguish geographical opportunities from human decisions.
+- Daily City Guess offers the feature only after revealing the answer. Covered cities open their own story; other cities lead to the collection. Existing fun facts and audio remain.
+- New feature and homepage navigation are in a separate preview branch; the production homepage is unchanged until publication.
+- Content: `src/data/why-here.json`; design: `src/components/WhyHere.jsx` and `.css`; narration: `src/hooks/useStoryAudio.js`.
+
+- **November 6, 2026:** Prepared and tested Why Here? as a five-city preview, including a 390-pixel phone layout and quiz handoff.
