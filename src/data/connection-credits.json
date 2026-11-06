@@ -1792,5 +1792,205 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Inmaculada_Concepci%C3%B3n,_Cuenca.jpg",
     "description": "New Cathedral of Cuenca"
+  },
+  "why-tunis": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:IssamBarhoumi\" title=\"User:IssamBarhoumi\">IssamBarhoumi</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Medina_old_Town_of_Tunis.jpeg",
+    "description": "Medina of Tunis"
+  },
+  "why-sousse": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Bert_in_England&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Bert in England (page does not exist)\">Bert in England</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sousse,_Inside_the_Medina,_through_a_window_2016-04-19.jpeg",
+    "description": "Medina of Sousse"
+  },
+  "why-algiers": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/24106950@N06\">toufik Lerari</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:AlgerCasbah.jpg",
+    "description": "Casbah of Algiers"
+  },
+  "why-essaouira": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Holger_Uwe_Schmitt\" title=\"User:Holger Uwe Schmitt\">Holger Uwe Schmitt</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%22Ein_bemerkenswertes_historisches_Denkmal%22._16.jpg",
+    "description": "Essaouira"
+  },
+  "why-rabat": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Holger_Uwe_Schmitt\" title=\"User:Holger Uwe Schmitt\">Holger Uwe Schmitt</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:%22Eine_beeindruckende_Festung%22._09.jpg",
+    "description": "Rabat"
+  },
+  "why-meknes": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Moleskine&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Moleskine (page does not exist)\">Moleskine</a>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Bab_Mansour_in_Meknes1732.jpg",
+    "description": "Meknes"
+  },
+  "why-saint-louis": {
+    "Artist": "Jim Williams",
+    "LicenseShortName": "CC BY-SA 3.0 igo",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Island_of_Saint-Louis-113799.jpg",
+    "description": "Saint-Louis, Senegal"
+  },
+  "why-djenne": {
+    "Artist": "qiv",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Moschee_von_Djenn%C3%A9.jpg",
+    "description": "Djenné"
+  },
+  "why-timbuktu": {
+    "Artist": "Flickr user: Emilio Labrador Santiago de Chile <a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/people/3059349393/\">https://www.flickr.com/people/3059349393/</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Donkeys,_Timbuktu.jpg",
+    "description": "Timbuktu"
+  },
+  "why-agadez": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/9508280@N07\">Dan Lundberg</a>",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:1997_277-16A_Agadez_hotel.jpg",
+    "description": "Agadez"
+  },
+  "why-harar": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/64607715@N05\">Rod Waddington</a> from Kergunyah, Australia",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:City_Gate,_Harar_Jugol_(14464345823).jpg",
+    "description": "Harar"
+  },
+  "why-lamu": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Almaddy2022\" title=\"User:Almaddy2022\">Almaddy2022</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lamu_Old_Town.jpg",
+    "description": "Lamu"
+  },
+  "why-mombasa": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Maingi030&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Maingi030 (page does not exist)\">Maingi030</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Fort_Jesus_at_the_Mombasa_Island.jpg",
+    "description": "Fort Jesus"
+  },
+  "why-mozambique-island": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10259776@N00\">Stig Nygaard</a> from Copenhagen, Denmark",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ilha_de_Mocambique.jpg",
+    "description": "Island of Mozambique"
+  },
+  "why-angra": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ayuntamiento,_Angra_do_Hero%C3%ADsmo,_isla_de_Terceira,_Azores,_Portugal,_2020-07-25,_DD_12.jpg",
+    "description": "Angra do Heroísmo"
+  },
+  "why-san-juan": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Druemdach\" title=\"User:Druemdach\">Nils Huenerfuerst</a> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:Castillo_San_Felipe_del_Morro_aerial,_May_2024_-_01.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Castillo_San_Felipe_del_Morro_aerial,_May_2024_-_01.jpg",
+    "description": "Old San Juan"
+  },
+  "why-santo-domingo": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Desox7x&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Desox7x (page does not exist)\">Desox7x</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Calle_las_Damas,_Santo_Domingo,_Zona_Colonial.jpg",
+    "description": "Ciudad Colonial (Santo Domingo)"
+  },
+  "why-panama-city": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Garcia.dennis\" title=\"User:Garcia.dennis\">Garcia.dennis</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Casco_Antiguo_(San_Felipe)_-_Pamama.jpg",
+    "description": "Casco Viejo, Panama"
+  },
+  "why-willemstad": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Coolcaesar\" title=\"User:Coolcaesar\">Coolcaesar</a>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Handelskade_in_Willemstad.jpg",
+    "description": "Willemstad"
+  },
+  "why-coro": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Luisontiveros&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Luisontiveros (page does not exist)\">Luisontiveros</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Casco_central_Santa_Ana_de_Coro,_estado_Falcon,_Venezuela.jpg",
+    "description": "Coro, Venezuela"
+  },
+  "why-arequipa": {
+    "Artist": "Hans Brian Brandsberg Berg",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Arequipa_2006.jpg",
+    "description": "Arequipa"
+  },
+  "why-antigua": {
+    "Artist": "Juan Francisco",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Antigua_-_Arco.jpg",
+    "description": "Antigua Guatemala"
+  },
+  "why-paramaribo": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Junie609&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Junie609 (page does not exist)\">Junie609</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Fort_Zeelandia_top_view_(photo_5)_located_at_Abraham_Crijnssenweg_1_paramaribo,_suriname.jpg",
+    "description": "Fort Zeelandia (Suriname)"
+  },
+  "why-kairouan": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/8363663@N02\">MAREK SZAREJKO</a> from CLONMEL, IRELAND  -  POLAND",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Great_Mosque_of_Kairouan_Panorama_-_Grande_Mosqu%C3%A9e_de_Kairouan_Panorama.jpg",
+    "description": "Great Mosque of Kairouan"
+  },
+  "why-asmara": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">sailko</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiat_tagliero,_08.JPG",
+    "description": "Fiat Tagliero Building"
   }
 }
