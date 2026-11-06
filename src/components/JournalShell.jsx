@@ -20,6 +20,7 @@ export function JournalHeader({ current, onNavigate }) {
           ["whyhere", "Why Here?"],
           ["planner", "Travel planner"],
           ["cityguess", "Daily City Guess"],
+          ["about", "About"],
         ].map(([id, title]) => (
           <button
             key={id}
@@ -43,7 +44,7 @@ export function JournalFooter() {
       <span>
         <Compass size={20} strokeWidth={1.2} /> GEONAUTS GUIDE
       </span>
-      <p>A little more wonder, wherever you go. <a href="/privacy-policy.html" style={{textDecoration: "underline"}}>Privacy policy</a></p>
+      <p>A little more wonder, wherever you go. <span className="journal-footer-links"><a href="?view=about">About & credits</a><a href="mailto:geonautsguide@gmail.com?subject=GeonautsGuide%20feedback">Feedback</a><a href="/privacy-policy.html">Privacy policy</a></span></p>
       <small>© {new Date().getFullYear()} GEONAUTS GUIDE</small>
     </footer>
   );

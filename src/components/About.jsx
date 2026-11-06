@@ -1,0 +1,42 @@
+import { useState } from 'react';
+import { ArrowUpRight, Compass, Headphones, Mail, Search } from 'lucide-react';
+import connections from '../data/connections.json';
+import cities from '../data/why-here.json' with { type: 'json' };
+import imageCredits from '../data/connection-credits.json';
+import './About.css';
+
+const storySources = [
+  ...connections.map(story => ({ id: `connection-${story.id}`, title: `${story.from.name} ↔ ${story.to.name}`, section: 'Planet Connections', sources: story.sources || [story.source] })),
+  ...cities.map(city => ({ id: `city-${city.id}`, title: city.name, section: 'Why Here?', sources: [city.source] })),
+];
+const places = new Map();
+for (const place of [...connections.flatMap(story => [story.from, story.to]), ...cities]) {
+  if (!places.has(place.image)) places.set(place.image, new Set());
+  places.get(place.image).add(place.name);
+}
+const cleanCredit = value => (value || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&nbsp;/g, ' ');
+const photographs = [...places].map(([id, names]) => ({ id, name: [...names].join(' · '), ...imageCredits[id], artist: cleanCredit(imageCredits[id]?.Artist) })).sort((a,b) => a.name.localeCompare(b.name));
+const feedback = 'mailto:geonautsguide@gmail.com?subject=GeonautsGuide%20feedback';
+
+export default function About() {
+  const [sourceSearch, setSourceSearch] = useState(''), [imageSearch, setImageSearch] = useState('');
+  const sources = storySources.filter(story => `${story.title} ${story.section} ${story.sources.map(source => source.name).join(' ')}`.toLowerCase().includes(sourceSearch.trim().toLowerCase()));
+  const photos = photographs.filter(photo => `${photo.name} ${photo.artist} ${photo.LicenseShortName}`.toLowerCase().includes(imageSearch.trim().toLowerCase()));
+  return <div className="about-page">
+    <section className="about-intro"><div><p className="about-eyebrow">ABOUT GEONAUTS GUIDE</p><h1>A little more wonder.<br/><em>A clearer view.</em></h1></div><div><Compass size={43} strokeWidth={1}/><p>Discover the connections between places, nature, history, and the people who shape our world.</p><a href={feedback}>Share an idea <ArrowUpRight size={17}/></a></div></section>
+    <div className="about-numbers"><span><strong>{connections.length}</strong> Planet Connections</span><span><strong>{cities.length}</strong> Why Here? cities</span><span><Headphones size={19}/> Listen. Read. Look closer.</span></div>
+    <section className="about-section"><p className="about-eyebrow">01 / HOW THE STORIES COME TO LIFE</p><h2>Curiosity, sources,<br/><em>and a synthetic voice.</em></h2><div className="about-methods">
+      <article><span>01</span><h3>Landmark audio tours</h3><p>Landmark guide scripts are generated with AI using supplied landmark information and Wikipedia context when available. The narration is AI-generated speech, not a recording of an on-site human guide.</p></article>
+      <article><span>02</span><h3>Connections & city stories</h3><p>Planet Connections and Why Here? use prepared, source-linked stories. AI tools assist with drafting and presentation. Their audio reads the written story using a synthetic voice; it does not independently research a new answer each time you press play.</p></article>
+      <article><span>03</span><h3>Quizzes & planning</h3><p>Daily City Guess uses stored clues and fun facts, with optional synthetic narration. Travel-planning suggestions are generated with AI. Confirm current opening hours, transport, and destination details when making plans.</p></article>
+    </div><p className="about-note">AI-assisted content can contain mistakes. The research links let you look further, and corrections are welcome. A source credit does not imply that an organisation created, approved, or endorsed our summaries or audio.</p></section>
+    <section className="about-section about-evidence"><p className="about-eyebrow">02 / FOLLOW THE EVIDENCE</p><h2>The story doesn’t<br/><em>end at our words.</em></h2><p>Planet Connections and Why Here? link to supporting material from sources including NASA, UNESCO, museums, research institutions, and public authorities. Daily City Guess also links to the source of its fun fact.</p>
+      <details className="about-directory"><summary>Story sources <span>{storySources.length} entries</span></summary><label className="about-search"><Search size={17}/><input type="search" value={sourceSearch} onChange={event => setSourceSearch(event.target.value)} placeholder="A city, connection, or organisation…" aria-label="Search story sources"/></label><p className="about-result-count" role="status">{sources.length} matching stories</p><div className="about-source-list">{sources.map(story => <article key={story.id}><div><small>{story.section}</small><h3>{story.title}</h3></div><div>{story.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.name}<ArrowUpRight size={14}/></a>)}</div></article>)}</div>{!sources.length && <p>No stories match this search. Try a city or source name.</p>}</details>
+    </section>
+    <section className="about-section"><p className="about-eyebrow">03 / IMAGES, MAPS & ACKNOWLEDGEMENTS</p><h2>Credit where<br/><em>it belongs.</em></h2><div className="about-credit-notes"><div><h3>Photography</h3><p>The directory below covers photography in Planet Connections and Why Here?. It records the creator, original file page, and licence for each image. Images are resized and may be cropped in the layout. Wikimedia hosting does not mean every image is public domain; individual licences apply.</p><p>Other Discover imagery comes from the site’s landmark collection, with Wikipedia used for photo recovery when needed. The credits directory below is specific to the two source-linked story collections.</p></div><div><h3>Maps & illustrations</h3><p>Planet Connections uses public-domain map geometry from <a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">Natural Earth<ArrowUpRight size={13}/></a>. Connecting lines illustrate relationships rather than exact travel paths.</p><p>Why Here? landscape sketches are explanatory illustrations, not geographic surveys or verified historical reconstructions. Present-day photographs are not presented as images of ancient cities.</p></div></div>
+      <p className="about-note">Optional background music in landmark guides uses an existing Pixabay track, served locally for reliable playback. <a href="https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" target="_blank" rel="noreferrer">Original Pixabay audio file</a>. Music is separate from the synthetic narration and remains optional.</p>
+      <details className="about-directory"><summary>Photography credits <span>{photographs.length} credited files</span></summary><label className="about-search"><Search size={17}/><input type="search" value={imageSearch} onChange={event => setImageSearch(event.target.value)} placeholder="A place, photographer, or licence…" aria-label="Search photography credits"/></label><p className="about-result-count" role="status">{photos.length} matching photographs</p><div className="about-photo-list">{photos.map(photo => <article key={photo.id}><img src={`/images/connections/${photo.id}.jpg`} alt="" loading="lazy"/><div><h3>{photo.name}</h3><p>{photo.artist || 'Creator information: see original file page'}</p><div><a href={photo.source} target="_blank" rel="noreferrer">Original file & attribution<ArrowUpRight size={13}/></a><a href={photo.LicenseUrl || photo.source} target="_blank" rel="noreferrer">{photo.LicenseShortName}<ArrowUpRight size={13}/></a></div></div></article>)}</div>{!photos.length && <p>No photographs match this search. Try a place name.</p>}</details>
+    </section>
+    <section className="about-feedback" aria-labelledby="feedback-title"><div><p className="about-eyebrow">04 / HELP US SEE A LITTLE FURTHER</p><h2 id="feedback-title">A thought?<br/><em>We’re listening.</em></h2><p>Ideas, corrections, photo-credit queries, or something that isn’t working? Tell us the story or city and what you noticed.</p></div><a className="about-email" href={feedback}><Mail size={23}/><span>geonautsguide@gmail.com<small>FEEDBACK & CORRECTIONS</small></span><ArrowUpRight size={19}/></a></section>
+  </div>;
+}
