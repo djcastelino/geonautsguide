@@ -1741,7 +1741,9 @@
       "description": "Two massive rock-cut temples",
       "significance": "Four colossal statues of Ramesses II. Relocated in 1960s.",
       "height": "20m statues",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Templo_de_Rams%C3%A9s_II%2C_Abu_Simbel%2C_Egipto%2C_2022-04-02%2C_DD_03.jpg/1200px-Templo_de_Rams%C3%A9s_II%2C_Abu_Simbel%2C_Egipto%2C_2022-04-02%2C_DD_03.jpg",
+      "wikipediaPage": "Abu Simbel temples",
+      "imageCredit": "landmark-abu-simbel",
+      "imageUrl": "/images/connections/landmark-abu-simbel.jpg",
       "unsplashQuery": "abu simbel temples",
       "type": "Man-made"
     },

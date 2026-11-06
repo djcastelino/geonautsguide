@@ -1384,5 +1384,13 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg",
     "description": "File:Hong Kong Harbour Night 2019-06-11.jpg"
+  },
+  "landmark-abu-simbel": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161013233832/http://www.panoramio.com/user/1642678?with_photo_id=27079522\">youssef_alam</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ramsis,_Aswan_Governorate,_Egypt_-_panoramio.jpg",
+    "description": "Abu Simbel temples"
   }
 }
