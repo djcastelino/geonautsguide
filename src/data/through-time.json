@@ -1,0 +1,253 @@
+[
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "title": "An arena. A ruin. A city that kept going.",
+    "deck": "The Colosseum survived as its surroundings and purpose changed. Read the city as layers, rather than a single ancient moment.",
+    "modernImage": "time-rome-modern",
+    "modernPath": "/images/connections/time-rome-modern.jpg",
+    "archiveDate": "c. 1890–1900",
+    "archiveTitle": "Inside the Colosseum",
+    "archiveType": "Photochrom print · historical colours added in printing",
+    "modernTitle": "The Colosseum in the present-day city",
+    "changed": "From an imperial spectacle to an archaeological landmark: the structure remains, but the way people use and understand it has changed.",
+    "persisted": "The amphitheatre still anchors how visitors recognise Rome. Survival, adaptation, excavation, and conservation all belong to its history.",
+    "notice": "Look at the exposed interior in the archive print. A familiar monument was already a ruin long before today’s visitor experience.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic Centre of Rome",
+        "url": "https://whc.unesco.org/en/list/91/"
+      }
+    ],
+    "eras": [
+      [
+        "Antiquity",
+        "An imperial centre",
+        "The amphitheatre belonged to a much wider city of forums, public monuments, infrastructure, and imperial power."
+      ],
+      [
+        "Papal Rome",
+        "Another city within the old one",
+        "Religious and public buildings added new centres of activity alongside the remains of antiquity. Rome did not stop developing when imperial rule changed."
+      ],
+      [
+        "1890s",
+        "The ruin becomes an image",
+        "The archive print presents an already ancient monument to an expanding audience for travel images. It documents its own era, not the arena in Roman times."
+      ],
+      [
+        "Present day",
+        "A living city around an archaeological site",
+        "The Colosseum is both a protected monument and part of modern Rome. Its meaning now includes research, conservation, and public access."
+      ]
+    ],
+    "archiveImage": "time-rome-archive",
+    "modernCredit": "time-rome-modern",
+    "archivePath": "/images/connections/time-rome-archive.jpg"
+  },
+  {
+    "id": "istanbul",
+    "name": "Istanbul",
+    "country": "Türkiye",
+    "title": "The water stayed. The capital changed.",
+    "deck": "Read a city shaped by different empires through its enduring maritime setting and its changing skyline.",
+    "modernImage": "time-istanbul-modern",
+    "archiveDate": "c. 1890–1900",
+    "archiveTitle": "The Golden Horn, then called Constantinople",
+    "archiveType": "Photochrom print · historical colours added in printing",
+    "modernTitle": "Galata Bridge across the Golden Horn",
+    "changed": "Different political and religious centres added new buildings to the skyline. The historic city now sits inside a much larger metropolis.",
+    "persisted": "The water remains a powerful organising feature. The Golden Horn and Bosphorus still help explain how districts face and connect with one another.",
+    "notice": "Notice how densely the historic waterfront was already built. The archive is a late Ottoman-era view, not an image of Byzantine Constantinople.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic Areas of Istanbul",
+        "url": "https://whc.unesco.org/en/list/356/"
+      }
+    ],
+    "eras": [
+      [
+        "6th century",
+        "A Byzantine landmark",
+        "Hagia Sophia became one of the city’s defining monumental buildings, reflecting its role as a major religious and political centre."
+      ],
+      [
+        "16th century",
+        "An Ottoman skyline",
+        "Buildings including the Süleymaniye Mosque added another architectural layer. Later power did not erase every trace of earlier urban life."
+      ],
+      [
+        "1890s",
+        "A waterfront in print",
+        "The historical view records the Golden Horn in the late Ottoman period. The name Constantinople in its catalogue belongs to that archival record."
+      ],
+      [
+        "Present day",
+        "Old districts, larger city",
+        "Historic waterfronts and monuments remain within a growing urban region. The challenge is caring for these layers while everyday city life continues."
+      ]
+    ],
+    "archiveImage": "time-istanbul-archive",
+    "modernPath": "/images/connections/time-istanbul-modern.jpg",
+    "modernCredit": "time-istanbul-modern",
+    "archivePath": "/images/connections/time-istanbul-archive.jpg"
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "title": "One river. Many generations of crossings.",
+    "deck": "London Bridge offers a thread through a city repeatedly rebuilt around the Thames.",
+    "modernImage": "time-london-modern",
+    "archiveDate": "c. 1890–1900",
+    "archiveTitle": "London Bridge in a late-Victorian print",
+    "archiveType": "Photochrom print · historical colours added in printing",
+    "modernTitle": "A present-day view of London Bridge",
+    "changed": "The bridge in the historical print is not the bridge standing here now. Structures, traffic, and the skyline change even when a crossing keeps its name.",
+    "persisted": "The Thames crossing remains a useful connection between the banks. A long-lived route need not depend on one long-lived structure.",
+    "notice": "Compare the bridge forms and their surroundings. These are different bridges and viewpoints, not a perfectly aligned before-and-after pair.",
+    "sources": [
+      {
+        "name": "London Museum · Roman London",
+        "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"
+      },
+      {
+        "name": "UK Parliament · Rebuilding after the Great Fire",
+        "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/collections/collections-great-fire-1666/1666-act-to-rebuild-the-city-of-london/"
+      },
+      {
+        "name": "City Bridge Foundation · London Bridge",
+        "url": "https://www.citybridgefoundation.org.uk/what-we-do/bridges"
+      }
+    ],
+    "eras": [
+      [
+        "Roman era",
+        "A crossing helps make a town",
+        "Londinium developed with a bridge, roads, and river trade. The crossing connected movement on land with activity along the Thames."
+      ],
+      [
+        "1666–1667",
+        "Fire and rebuilding",
+        "The Great Fire destroyed much of the City. A rebuilding act followed in 1667, shaping how the damaged city was reconstructed."
+      ],
+      [
+        "1890s",
+        "A busy Victorian crossing",
+        "This print shows an earlier London Bridge and a working river landscape. Its date matters: it does not depict the medieval bridge or the modern one."
+      ],
+      [
+        "Present day",
+        "The connection outlives the structure",
+        "Today’s London Bridge continues a long history of crossing at this part of the Thames, within a markedly changed cityscape."
+      ]
+    ],
+    "archiveImage": "time-london-archive",
+    "modernPath": "/images/connections/time-london-modern.jpg",
+    "modernCredit": "time-london-modern",
+    "archivePath": "/images/connections/time-london-archive.jpg"
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "country": "Egypt",
+    "title": "A city grew beyond its first boundaries.",
+    "deck": "An archive view from the Nile opens a longer story: a medieval capital became one layer within a much larger urban landscape.",
+    "modernImage": "why-cairo",
+    "archiveDate": "c. 1890",
+    "archiveTitle": "The Nile shore near Bulaq",
+    "archiveType": "Historical photochrom view · colour is a printing treatment",
+    "modernTitle": "A wider view of present-day Cairo",
+    "changed": "The modern urban landscape extends around older districts and monuments. The archive riverbank view is one fragment of that longer expansion.",
+    "persisted": "Riverfront activity and long-established neighbourhoods remain part of Cairo’s story. The medieval city is still legible within later urban layers.",
+    "notice": "The old view documents a working Nile shore. It is not a photograph of medieval Cairo, and it does not show the whole nineteenth-century city.",
+    "sources": [
+      {
+        "name": "Egyptian Ministry of Tourism and Antiquities · Historical Cairo",
+        "url": "https://egymonuments.gov.eg/collections/historical-cairo/"
+      },
+      {
+        "name": "UNESCO · Historic Cairo",
+        "url": "https://whc.unesco.org/en/list/89/"
+      }
+    ],
+    "eras": [
+      [
+        "969",
+        "A new capital",
+        "The Fatimids founded al-Qahira northeast of earlier settlements. Al-Azhar was commissioned soon afterwards, giving the new city a major institution."
+      ],
+      [
+        "14th century",
+        "A flourishing historic centre",
+        "Mosques, schools, fountains, and other buildings contributed to a major urban and cultural centre. Historic Cairo preserves many layers rather than one frozen date."
+      ],
+      [
+        "c. 1890",
+        "A riverbank moment",
+        "The archive image shows the Nile shore near Bulaq, including a sailing vessel. It is evidence of a particular riverside scene in a later era."
+      ],
+      [
+        "Present day",
+        "A historic city inside a metropolis",
+        "Older neighbourhoods and monumental buildings coexist with much later growth. A photograph of one district cannot stand for the entire city."
+      ]
+    ],
+    "archiveImage": "time-cairo-archive",
+    "modernPath": "/images/connections/why-cairo.jpg",
+    "modernCredit": "why-cairo",
+    "archivePath": "/images/connections/time-cairo-archive.jpg"
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "title": "A capital moved. A cultural city endured.",
+    "deck": "Kyoto’s story continues after its imperial role changed. Streets, wooden buildings, and cultural practices carry different kinds of continuity.",
+    "modernImage": "time-kyoto-modern",
+    "archiveDate": "1890–1894",
+    "archiveTitle": "Street decorations in Kyoto",
+    "archiveType": "Hand-coloured albumen photograph · unknown photographer, Rijksmuseum collection",
+    "modernTitle": "A present-day street in Gion, Kyoto",
+    "changed": "The political centre shifted, while later infrastructure and modern urban life altered the city. Historic wooden streets survive through continued care, not by being untouched.",
+    "persisted": "Kyoto retained a strong cultural identity after its imperial role ended. Building traditions and gardens remain important alongside everyday urban change.",
+    "notice": "Look at the decorated street in the historical photograph. The modern view is another Kyoto street, not a claim that this exact scene survives unchanged.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic Monuments of Ancient Kyoto",
+        "url": "https://whc.unesco.org/en/list/688/"
+      },
+      {
+        "name": "Kyoto official tourism · History of Kyoto",
+        "url": "https://shugakuryoko.kyoto.travel/study/history/"
+      }
+    ],
+    "eras": [
+      [
+        "794",
+        "A planned imperial capital",
+        "Heian-kyo was established as a new capital, drawing on Chinese capital planning. It became the setting for a long development of Japanese culture."
+      ],
+      [
+        "19th century",
+        "The imperial centre shifts",
+        "Kyoto’s role changed as the imperial centre moved to Tokyo. Losing that political role did not mean losing the city’s cultural life."
+      ],
+      [
+        "1890–1894",
+        "A street, recorded and coloured",
+        "This archival photograph documents street decorations. Its hand colouring is part of the historical object, not evidence that the camera captured colour naturally."
+      ],
+      [
+        "Present day",
+        "Continuity takes work",
+        "Traditional streets, wooden architecture, and gardens exist alongside a modern city. Preservation is an ongoing choice involving buildings and the people who use them."
+      ]
+    ],
+    "archiveImage": "time-kyoto-archive",
+    "modernPath": "/images/connections/time-kyoto-modern.jpg",
+    "modernCredit": "time-kyoto-modern",
+    "archivePath": "/images/connections/time-kyoto-archive.jpg"
+  }
+]
