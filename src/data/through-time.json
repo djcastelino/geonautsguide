@@ -249,5 +249,256 @@
     "modernPath": "/images/connections/time-kyoto-modern.jpg",
     "modernCredit": "time-kyoto-modern",
     "archivePath": "/images/connections/time-kyoto-archive.jpg"
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin",
+    "country": "Germany",
+    "title": "The gate stayed. The barrier disappeared.",
+    "deck": "One landmark became a border, then a meeting place. Compare the space around the Brandenburg Gate—not just the stonework.",
+    "archiveDate": "20 November 1961",
+    "archiveTitle": "The Wall at the Brandenburg Gate",
+    "archiveType": "Historical photograph · German Federal Archives",
+    "modernTitle": "Brandenburg Gate in an open public square",
+    "changed": "The barrier and restricted ground transformed access to the gate. Their removal changed the meaning and use of the same landmark.",
+    "persisted": "The gate remained recognisable through division and reopening. Its architectural continuity makes the political change especially visible.",
+    "notice": "The 1961 photograph records a divided city. Compare restricted space with today’s public access; the images use different viewpoints.",
+    "sources": [
+      {
+        "name": "Berlin city portal · Brandenburg Gate",
+        "url": "https://www.berlin.de/en/attractions-and-sights/3560266-3104052-brandenburg-gate.en.html"
+      },
+      {
+        "name": "Berlin State Monuments Office · Development of the Wall",
+        "url": "https://www.berlin.de/landesdenkmalamt/denkmale/highlight-berliner-mauer/aufbau-und-entwicklung/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1961",
+        "A landmark with an earlier history",
+        "The gate existed long before the Berlin Wall. It had already experienced war damage and restoration."
+      ],
+      [
+        "1961",
+        "A gate people could not reach",
+        "Construction of the Wall placed the gate within restricted ground. The archive photograph records the barrier that November."
+      ],
+      [
+        "1989",
+        "Access and meaning change",
+        "The opening of the Wall transformed the gate into a symbol of unity. The crossing here reopened in December."
+      ],
+      [
+        "Present day",
+        "Public space replaces a barrier",
+        "The landmark now faces an accessible public setting. Remembering the border gives that openness historical meaning."
+      ]
+    ],
+    "archiveImage": "time-berlin-archive",
+    "archivePath": "/images/connections/time-berlin-archive.jpg",
+    "modernImage": "time-berlin-modern",
+    "modernCredit": "time-berlin-modern",
+    "modernPath": "/images/connections/time-berlin-modern.jpg"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "title": "From cargo river to civic waterfront.",
+    "deck": "Boat Quay makes urban transformation visible: the river stayed while work, buildings, and the use of its banks changed.",
+    "archiveDate": "c. 1890–1910",
+    "archiveTitle": "Boats at Singapore’s Boat Quay",
+    "archiveType": "Historical photograph · Rijksmuseum collection",
+    "modernTitle": "Boat Quay beside the modern skyline",
+    "changed": "River cleanup and redevelopment altered waterfront work and land use. Businesses and communities were relocated as part of that transformation.",
+    "persisted": "The river bend and quays remain a thread between the trading settlement and present-day city.",
+    "notice": "Look for working boats and waterfront buildings in the archive. The newer image shows a different phase of the river’s urban role.",
+    "sources": [
+      {
+        "name": "National Library Board · Singapore’s Waterfront Life",
+        "url": "https://curiocity.nlb.gov.sg/digital-stories/singapore-maritime-odyssey/singapore-maritime-odyssey-waterfront-life/"
+      },
+      {
+        "name": "National Library Board · Nature and Environment in Singapore",
+        "url": "https://biblioasia.nlb.gov.sg/all-sections/vol-13-issue-4-jan-mar-2018-when-tigers-used-to-roam/"
+      }
+    ],
+    "eras": [
+      [
+        "c. 1890–1910",
+        "A working river",
+        "The archival photograph shows Boat Quay’s commercial riverfront, with boats and buildings closely connected to the water."
+      ],
+      [
+        "1977",
+        "A cleanup begins",
+        "A major programme addressed pollution in the Singapore River and Kallang Basin. It involved relocating activities as well as cleaning water."
+      ],
+      [
+        "1987",
+        "A transformed waterway",
+        "The decade-long cleanup changed the river’s condition and helped create opportunities for different waterfront uses."
+      ],
+      [
+        "Present day",
+        "An inherited river, a new setting",
+        "Older quays and waterfront buildings sit beside much later development. A cleaner landscape also records planning decisions and social change."
+      ]
+    ],
+    "archiveImage": "time-singapore-archive",
+    "archivePath": "/images/connections/time-singapore-archive.jpg",
+    "modernImage": "time-singapore-modern",
+    "modernCredit": "time-singapore-modern",
+    "modernPath": "/images/connections/time-singapore-modern.jpg"
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "country": "Italy",
+    "title": "The canal endured. Everyday life changed.",
+    "deck": "A familiar waterfront can hide profound change. Venice shows why visual continuity and social continuity are different things.",
+    "archiveDate": "c. 1890–1900",
+    "archiveTitle": "The Grand Canal in a historical print",
+    "archiveType": "Photochrom print · colour added during printing",
+    "modernTitle": "The Grand Canal in present-day Venice",
+    "changed": "The historic city’s functions have shifted, with tourism pressure and changes in residential and commercial use. Familiar facades do not mean unchanged lives.",
+    "persisted": "Canals, bridges, and closely built islands continue to organise movement. The city and lagoon remain interdependent.",
+    "notice": "Compare the water route and building edges. This pair suggests continuity of urban form, not proof that residents’ daily lives stayed the same.",
+    "sources": [
+      {
+        "name": "UNESCO · Venice and its Lagoon",
+        "url": "https://whc.unesco.org/en/list/394/"
+      }
+    ],
+    "eras": [
+      [
+        "Early settlement",
+        "Living with lagoon water",
+        "Island settlements developed within a lagoon landscape. Water shaped how places connected and where people could build."
+      ],
+      [
+        "Medieval era",
+        "A maritime city",
+        "Venice grew into a major maritime power. Its urban system connected islands through canals, bridges, and shared institutions."
+      ],
+      [
+        "1890s",
+        "The canal becomes a travel image",
+        "The photochrom print records a later view of the Grand Canal. Its colours belong to the printing process."
+      ],
+      [
+        "Present day",
+        "Continuity under pressure",
+        "The inherited urban layout remains recognisable, while tourism, housing changes, and high water pose distinct challenges."
+      ]
+    ],
+    "archiveImage": "time-venice-archive",
+    "archivePath": "/images/connections/time-venice-archive.jpg",
+    "modernImage": "time-venice-modern",
+    "modernCredit": "time-venice-modern",
+    "modernPath": "/images/connections/time-venice-modern.jpg"
+  },
+  {
+    "id": "new-york",
+    "name": "New York City",
+    "country": "United States",
+    "title": "The waterfront stayed. The horizon rose.",
+    "deck": "Lower Manhattan’s skyline changed through cycles of construction. The harbour view helps make that vertical transformation legible.",
+    "archiveDate": "1900",
+    "archiveTitle": "Manhattan skyline from New Jersey",
+    "archiveType": "Historical photograph · Library of Congress collection",
+    "modernTitle": "Lower Manhattan’s present-day skyline",
+    "changed": "Office towers grew through advances in construction, elevators, and finance. Height emerged from economic and regulatory choices, not technology alone.",
+    "persisted": "The waterfront still provides a way to read the skyline as a whole, even as individual buildings change.",
+    "notice": "Look at the height and spacing of towers in the 1900 view. The newer photograph is another waterfront perspective, not an aligned repeat photograph.",
+    "sources": [
+      {
+        "name": "The Skyscraper Museum · Skyline, 1900–1916",
+        "url": "https://old.skyscraper.org/skyline/skyline_1900-1916.html"
+      },
+      {
+        "name": "The Skyscraper Museum · Skyline exhibition",
+        "url": "https://www.skyscraper.org/skyline/"
+      }
+    ],
+    "eras": [
+      [
+        "Late 1800s",
+        "A new kind of silhouette",
+        "Clusters of taller office buildings began changing Manhattan’s profile. Valuable commercial land and new building techniques encouraged upward growth."
+      ],
+      [
+        "1900",
+        "A skyline already forming",
+        "The archive photograph shows an earlier skyline across the water. New York was not a low-rise blank slate awaiting skyscrapers."
+      ],
+      [
+        "Early 1900s",
+        "Towers multiply",
+        "Construction booms filled Lower Manhattan with taller buildings. Foundations, steel frames, elevators, investment, and regulation all shaped the result."
+      ],
+      [
+        "Present day",
+        "A collage of building eras",
+        "The skyline contains buildings from different periods. Its identity comes from successive additions and replacements rather than one master design."
+      ]
+    ],
+    "archiveImage": "time-new-york-archive",
+    "archivePath": "/images/connections/time-new-york-archive.jpg",
+    "modernImage": "why-new-york",
+    "modernCredit": "why-new-york",
+    "modernPath": "/images/connections/why-new-york.jpg"
+  },
+  {
+    "id": "hiroshima",
+    "name": "Hiroshima",
+    "country": "Japan",
+    "title": "A ruin preserved. A city rebuilt.",
+    "deck": "The Atomic Bomb Dome connects destruction with deliberate remembrance. Its survival should be read within the history of the people and city around it.",
+    "archiveDate": "October 1945",
+    "archiveTitle": "The damaged dome after the atomic bombing",
+    "archiveType": "Historical photograph · preserved building remains",
+    "modernTitle": "The preserved Atomic Bomb Dome in 2018",
+    "changed": "The surrounding city was rebuilt while the damaged dome was deliberately conserved. Preservation did not mean restoring the building to its original appearance.",
+    "persisted": "The surviving structure provides physical testimony to the bombing and a focus for remembrance and peace.",
+    "notice": "Both images show a damaged building, but their surroundings differ. The later landscape reflects a choice to preserve the ruin within a rebuilt city.",
+    "sources": [
+      {
+        "name": "Hiroshima City · The Story of the Atomic Bomb Dome",
+        "url": "https://www.city.hiroshima.lg.jp/english/peace/1029869/1010014.html"
+      },
+      {
+        "name": "UNESCO · Hiroshima Peace Memorial",
+        "url": "https://whc.unesco.org/en/list/775/"
+      }
+    ],
+    "eras": [
+      [
+        "1915",
+        "An exhibition hall opens",
+        "The building began as a commercial exhibition hall on the Motoyasu River, designed to promote local products."
+      ],
+      [
+        "1945",
+        "Destruction and loss",
+        "The atomic bombing on 6 August devastated Hiroshima. The hall was burned and severely damaged; part of its structure remained."
+      ],
+      [
+        "Post-war decades",
+        "A decision to preserve",
+        "As the city recovered, debate over the ruin led to a deliberate policy of conservation rather than demolition or full reconstruction."
+      ],
+      [
+        "Present day",
+        "Memory within a living city",
+        "The preserved dome stands within a landscape of remembrance. It is evidence of destruction, not a substitute for the wider human story."
+      ]
+    ],
+    "archiveImage": "time-hiroshima-archive",
+    "archivePath": "/images/connections/time-hiroshima-archive.jpg",
+    "modernImage": "time-hiroshima-modern",
+    "modernCredit": "time-hiroshima-modern",
+    "modernPath": "/images/connections/time-hiroshima-modern.jpg"
   }
 ]
