@@ -23,7 +23,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 | Part | Feature | Experience | Status |
 | --- | --- | --- | --- |
 | 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 100 stories in the production collection after the November 5 expansion. |
-| 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | 100-city collection completed November 6. Includes location quizzes, interactive landscape sketches, narration and post-quiz links. |
+| 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | 100-city collection completed November 6. Includes location quizzes, written landscape stories, narration and post-quiz links. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Future idea. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
 | 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
@@ -133,8 +133,8 @@ Update this file when a feature is approved, implemented, postponed, or released
 ## Part 2 — Why Here?
 
 - 100 city stories cover river crossings, lagoons, maritime routes, straits, valleys, harbours, estuaries, deltas, confluences, and a historic lake basin.
-- Each has a quiz, three landscape layers, three written chapters, optional narration, source links, and photograph credits.
-- Diagrams are clearly labelled explanatory sketches, not real maps or historical reconstructions. Stories distinguish geographical opportunities from human decisions.
+- Each has a quiz, three written chapters, optional narration, source links, and photograph credits.
+- Generic landscape sketches were removed after feedback that they added little city-specific value. Stories distinguish geographical opportunities from human decisions.
 - Daily City Guess offers the feature only after revealing the answer. Covered cities open their own story; other cities lead to the collection. Existing fun facts and audio remain.
 - Production publication was approved after the five-city preview. The original homepage remains the default; Why Here? is an additional navigation choice.
 - City picker, previous/next controls, and an expandable browser support the larger collection.
@@ -151,3 +151,5 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 6, 2026:** Expanded Why Here? to 75 cities, adding Asian and Latin American stories, credited photographs, and planned-grid and highland sketches.
 
 - **November 6, 2026:** Completed the 100-city Why Here? collection with the final 25 stories across Africa, Atlantic islands, the Caribbean and the Americas. Existing homepage, Planet Connections, quiz and planner preserved.
+
+- **November 6, 2026:** Removed repetitive Why Here sketches and layer controls. Photo, quiz, chapters, takeaway, narration and sources remain. Future maps should only be added when city-specific geography adds explanatory value.
