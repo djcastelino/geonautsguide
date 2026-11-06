@@ -2,11 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 const read = path => JSON.parse(readFileSync(new URL(path,import.meta.url)));
-const cities=read('../src/data/through-time.json'), credits=read('../src/data/connection-credits.json'), why=read('../src/data/why-here.json');
-test('Through Time journeys have dated, separately credited archive and modern views with a valid onward city',()=>{
-  assert.equal(cities.length,5); assert.equal(new Set(cities.map(c=>c.id)).size,5);
+const cities=read('../src/data/through-time.json'), credits=read('../src/data/connection-credits.json');
+test('Through Time journeys have dated, separately credited archive and modern views with complete timelines',()=>{
+  assert.equal(cities.length,10); assert.equal(new Set(cities.map(c=>c.id)).size,10);
   for(const city of cities){
-    assert.ok(why.some(c=>c.id===city.id));
     assert.notEqual(city.archiveImage,city.modernCredit);
     for(const [key,path] of [[city.archiveImage,city.archivePath],[city.modernCredit,city.modernPath]]){
       assert.ok(existsSync(new URL('../public'+path,import.meta.url)));

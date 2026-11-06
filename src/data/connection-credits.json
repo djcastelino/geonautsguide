@@ -2085,5 +2085,104 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
     "description": "Colosseum"
+  },
+  "time-berlin-archive": {
+    "Artist": "Bundesarchiv, Bild 183-88222-0002 / Sturm, Horst / CC-BY-SA 3.0",
+    "LicenseShortName": "CC BY-SA 3.0 de",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-88222-0002,_Berlin,_Mauer_am_Brandenburger_Tor.jpg",
+    "description": "File:Bundesarchiv Bild 183-88222-0002, Berlin, Mauer am Brandenburger Tor.jpg",
+    "archiveDate": "20 November 1961<div style=\"display: none;\">date QS:P571,+1961-11-20T00:00:00Z/11</div>",
+    "archiveTitle": "File:Bundesarchiv Bild 183-88222-0002, Berlin, Mauer am Brandenburger Tor.jpg",
+    "imageDescription": "<div class=\"description\">\n<div style=\"background:var(--background-color-neutral, #eaecf0); color:inherit; font-size:86%; direction:ltr;\">For documentary purposes the German Federal Archive often retained the <b>original image captions</b>, which may be <b>erroneous, biased, obsolete or politically extreme</b>. <abbr class=\"BArchtooltips\" title=\"Files from the inventories “Bild 101 Propagandakompanien der Wehrmacht” and “Bild 183 ADN” may have particularly biased or politically extreme descriptions.\"><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/20px-Info_non-talk.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"15\" height=\"15\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/40px-Info_non-talk.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"62\" data-file-height=\"62\"></span></span></abbr></div><div class=\"language de\">ADN-ZB/Sturm<br>\n<p>20.11.1961<br>\n</p>\nBerlin: Grenzsicherung am Brandenburger Tor.</div></div>"
+  },
+  "time-singapore-archive": {
+    "Artist": "Rijksmuseum",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Binnenhaven_van_Singapore_The_boat_quay_Singapore_(titel_op_object),_RP-F-00-5018-39.jpg",
+    "description": "File:Binnenhaven van Singapore The boat quay Singapore (titel op object), RP-F-00-5018-39.jpg",
+    "archiveDate": "ca. 1890 - ca. 1910",
+    "archiveTitle": "File:Binnenhaven van Singapore The boat quay Singapore (titel op object), RP-F-00-5018-39.jpg",
+    "imageDescription": "<br><br><big><b>Identificatie</b></big><br><b>Titel(s): </b>Binnenhaven van Singapore. The boat quay Singapore (titel op object)<br><b>Objecttype:</b> foto <br><b>Objectnummer:</b> RP-F-00-5018-39<br><b>Opschriften / Merken:</b> onderschrift, onder foto, met potlood geschreven: ‘The boat quay Singapore’<br><br><big><b>Vervaardiging</b></big><br><b>Vervaardiger:</b> fotograaf: anoniem (vermeld op object), samensteller: anoniem (mogelijk)<br><b>Plaats vervaardiging:</b> fotograaf: Singapore, samensteller: Nederland<br><b>Datering:</b> ca. 1890 - ca. 1910<br><b>Fysieke kenmerken:</b> foto op karton<br><b>Materiaal:</b> papier karton fotopapier <br><b>Techniek:</b> ontwikkelgelatinezilverdruk<br><b>Afmetingen:</b> foto: h 280 mm × b 200 mm, blad: h 570 mm × b 463 mm<br><br><big><b>Verwerving en rechten</b></big><br><b>Credit line:</b> Schenking van de erven van de heer C.J.J.G. Vosmaer, Leiden<br><b>Verwerving:</b> schenking 1989<br><b>Copyright:</b> Publiek domein"
+  },
+  "time-venice-archive": {
+    "Artist": "Detroit Publishing Co.",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Grand_Canal_photochrom_2c.jpg",
+    "description": "File:Grand Canal photochrom 2c.jpg",
+    "archiveDate": "between 1890 and 1900<div style=\"display: none;\">date QS:P,+1500-00-00T00:00:00Z/6,P1319,+1890-00-00T00:00:00Z/9,P1326,+1900-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Grand Canal photochrom 2c.jpg",
+    "imageDescription": "Da Mulla Palace, Venice, Italy.  Photochrom."
+  },
+  "time-new-york-archive": {
+    "Artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Manhattan_skyline_from_New_Jersey,_with_ferry_Maryland_and_side-wheeler_Magenta_in_foreground_LCCN92517655.jpg",
+    "description": "File:Manhattan skyline from New Jersey, with ferry Maryland and side-wheeler Magenta in foreground LCCN92517655.jpg",
+    "archiveDate": "1900",
+    "archiveTitle": "File:Manhattan skyline from New Jersey, with ferry Maryland and side-wheeler Magenta in foreground LCCN92517655.jpg",
+    "imageDescription": "<i>Title:</i> Manhattan skyline from New Jersey, with ferry Maryland and side-wheeler Magenta in foreground\n<i>Abstract/medium:</i> 1 photographic print."
+  },
+  "time-hiroshima-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Shigeo_Hayashi\" class=\"extiw\" title=\"w:en:Shigeo Hayashi\"><span title=\"Japanese photographer (1918–2002)\">Shigeo Hayashi</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Hiroshima_Dome_1945.gif",
+    "description": "File:Hiroshima Dome 1945.gif",
+    "archiveDate": "1945-10",
+    "archiveTitle": "File:Hiroshima Dome 1945.gif",
+    "imageDescription": "Photo of what became later Hiroshima Peace Memorial among the ruins of buildings in Hiroshima, in early October, 1945, photo by Shigeo Hayashi."
+  },
+  "time-berlin-modern": {
+    "Artist": "<b><a href=\"//commons.wikimedia.org/wiki/User:Der_Wolf_im_Wald\" title=\"User:Der Wolf im Wald\">Thomas Wolf</a></b>, <small><a rel=\"nofollow\" class=\"external text\" href=\"http://www.foto-tw.de\">www.foto-tw.de</a></small>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg",
+    "description": "Brandenburg Gate",
+    "archiveDate": "",
+    "archiveTitle": "Brandenburg_Gate",
+    "imageDescription": ""
+  },
+  "time-singapore-modern": {
+    "Artist": "chensiyuan",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Boat_quay_sct.JPG",
+    "description": "Boat Quay",
+    "archiveDate": "",
+    "archiveTitle": "Boat_Quay",
+    "imageDescription": ""
+  },
+  "time-venice-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Archaeodontosaurus\" title=\"User:Archaeodontosaurus\">Didier Descouens</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg",
+    "description": "Grand Canal (Venice)",
+    "archiveDate": "",
+    "archiveTitle": "Grand_Canal_(Venice)",
+    "imageDescription": ""
+  },
+  "time-hiroshima-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Balon_Greyjoy\" title=\"User:Balon Greyjoy\">Balon Greyjoy</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg",
+    "description": "File:20181111 Atomic Bomb Dome-5.jpg",
+    "archiveDate": "",
+    "archiveTitle": "File:20181111 Atomic Bomb Dome-5.jpg",
+    "imageDescription": ""
   }
 }
