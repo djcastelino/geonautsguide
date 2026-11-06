@@ -1592,5 +1592,205 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:2024_H%E1%BB%99i_An_-_Japanese_Covered_Bridge_(Ch%C3%B9a_C%E1%BA%A7u)_after_renovation_-_img_11.jpg",
     "description": "Japanese Covered Bridge"
+  },
+  "why-kyoto": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Martin_Falbisoner\" title=\"User:Martin Falbisoner\">Martin Falbisoner</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg",
+    "description": "Kyoto"
+  },
+  "why-nara": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Wiiii\" title=\"User:Wiiii\">Wiiii</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:T%C5%8Ddai-ji_Kon-d%C5%8D.jpg",
+    "description": "Nara (city)"
+  },
+  "why-george-town": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HundenvonPenang&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HundenvonPenang (page does not exist)\">HundenvonPenang</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_George_Town,_Penang_at_night_Nov2024-29-17.jpg",
+    "description": "George Town, Penang"
+  },
+  "why-lijiang": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161026151130/http://www.panoramio.com/user/4062248?with_photo_id=73588776\">Pavel Špindler</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lijiang_-_panoramio_(6).jpg",
+    "description": "Old Town of Lijiang"
+  },
+  "why-pingyao": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Zhangzhugang\" title=\"User:Zhangzhugang\">Zhangzhugang</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Pingyao_Shilou_2013.08.25_07-01-33.jpg",
+    "description": "Pingyao"
+  },
+  "why-samarkand": {
+    "Artist": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Registan_-_Gusjer.jpg\" title=\"File:Registan - Gusjer.jpg\">Registan_-_Gusjer.jpg</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/20244534@N00\">Gustavo Jeronimo</a> from Aranjuez, Spain</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:MrPanyGoff\" title=\"User:MrPanyGoff\"><span style=\"font-family:BernhardMod BT;\">MrPanyGoff</span></a></li></ul>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg",
+    "description": "Samarkand"
+  },
+  "why-bukhara": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Euyasik\" title=\"User:Euyasik\">Euyasik</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Kalon-Ensemble_Buchara.jpg",
+    "description": "Bukhara"
+  },
+  "why-khiva": {
+    "Artist": "Bgag",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Islam_Khodja_Madrasa_01.jpg",
+    "description": "Itchan Kala"
+  },
+  "why-ahmedabad": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tarun802&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tarun802 (page does not exist)\">Tarun802</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sabarmati_riverside.jpg",
+    "description": "Ahmedabad"
+  },
+  "why-jaipur": {
+    "Artist": "<b><a href=\"//commons.wikimedia.org/wiki/User:Chainwit.\" title=\"User:Chainwit.\">Chainwit.</a></b>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+    "description": "Jaipur"
+  },
+  "why-bagan": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/drepung/\">Corto Maltese 1999</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Bagan,_Burma.jpg",
+    "description": "Bagan"
+  },
+  "why-sukhothai": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Khunkay&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Khunkay (page does not exist)\">Khunkay</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Wat_srichum_03.jpg",
+    "description": "Sukhothai Historical Park"
+  },
+  "why-vigan": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ralffralff\" title=\"User:Ralffralff\">Ralff Nestor Nacor</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Calle_Crisologo,_Vigan,_Ilocos_Sur,_Apr_2026_(2).jpg",
+    "description": "Vigan"
+  },
+  "why-cartagena": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Sgonzalezb\" title=\"User:Sgonzalezb\">Sgonzalezb</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Museo_Naval_del_Caribe.JPG",
+    "description": "Cartagena, Colombia"
+  },
+  "why-quito": {
+    "Artist": "Asamblea Nacional  del Ecuador",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:FACHADA_ASAMBLEA_NACIONAL._QUITO,_20_DE_FEBRERO_2020._01.jpg",
+    "description": "Quito"
+  },
+  "why-sucre": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Parallelepiped09&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Parallelepiped09 (page does not exist)\">Parallelepiped09</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sucre,_Capital_de_Bolivia.jpg",
+    "description": "Sucre"
+  },
+  "why-potosi": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Parallelepiped09&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Parallelepiped09 (page does not exist)\">Parallelepiped09</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Vista_de_la_Villa_Imperial_de_Potos%C3%AD.jpg",
+    "description": "Potosí"
+  },
+  "why-salvador": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/agecombahia/\">Fotos Gov/Ba</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Salvador_BA_(cropped)_2.jpg",
+    "description": "Salvador, Bahia"
+  },
+  "why-brasilia": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Arturdiasr&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Arturdiasr (page does not exist)\">Arturdiasr</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Planalto_Central_(cropped).jpg",
+    "description": "Brasília"
+  },
+  "why-ouro-preto": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Raquel_Mendes_Silva&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Raquel Mendes Silva (page does not exist)\">Raquel Mendes Silva</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Conjunto_arquitet%C3%B4nico_e_urban%C3%ADstico_de_Ouro_Preto.JPG",
+    "description": "Ouro Preto"
+  },
+  "why-valparaiso": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Julia_Sumangil&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Julia Sumangil (page does not exist)\">Julia Sumangil</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Historic_Quarter_of_the_Seaport_City_of_Valpara%C3%ADso_04.jpg",
+    "description": "Valparaíso"
+  },
+  "why-havana": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:RenaatPeeters&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:RenaatPeeters (page does not exist)\">RenaatPeeters</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:DJI_0197_crp_wiki.jpg",
+    "description": "Havana"
+  },
+  "why-macao": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:K.Y.K.Z.K.\" title=\"User:K.Y.K.Z.K.\">K.Y.K.Z.K.</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru%C3%ADnas_de_S._Paulo.jpg",
+    "description": "Historic Centre of Macau"
+  },
+  "why-ayutthaya": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Average_trinmo&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Average trinmo (page does not exist)\">Average trinmo</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Wat_Chaiwatthanaram_by_drone.jpg",
+    "description": "Wat Chaiwatthanaram"
+  },
+  "why-cuenca": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Bgag\" title=\"User:Bgag\">Bernard Gagnon</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Inmaculada_Concepci%C3%B3n,_Cuenca.jpg",
+    "description": "New Cathedral of Cuenca"
   }
 }

@@ -132,7 +132,7 @@ Update this file when a feature is approved, implemented, postponed, or released
 
 ## Part 2 — Why Here?
 
-- 50 city stories cover river crossings, lagoons, maritime routes, straits, valleys, harbours, estuaries, deltas, confluences, and a historic lake basin.
+- 75 city stories cover river crossings, lagoons, maritime routes, straits, valleys, harbours, estuaries, deltas, confluences, and a historic lake basin.
 - Each has a quiz, three landscape layers, three written chapters, optional narration, source links, and photograph credits.
 - Diagrams are clearly labelled explanatory sketches, not real maps or historical reconstructions. Stories distinguish geographical opportunities from human decisions.
 - Daily City Guess offers the feature only after revealing the answer. Covered cities open their own story; other cities lead to the collection. Existing fun facts and audio remain.
@@ -147,3 +147,5 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 6, 2026:** Added About / Sources & Credits with searchable story and photography directories, AI-audio explanation, and feedback at geonautsguide@gmail.com.
 
 - **November 6, 2026:** Expanded Why Here? from 25 to 50 cities, with 25 additional source-linked quizzes, landscape chapters, and credited local photographs. Main homepage remains the Dolomites; daily Field Note remains separate.
+
+- **November 6, 2026:** Expanded Why Here? to 75 cities, adding Asian and Latin American stories, credited photographs, and planned-grid and highland sketches.
