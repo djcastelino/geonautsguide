@@ -2245,3 +2245,5 @@
   .journal-header nav { gap: 8px; }
   .journal-header nav button { font-size: 10px; }
 }
+
+.journal-why-link{padding:28px;margin:28px 0;background:#e8ecd9;border:1px solid #c6d1b4}.journal-why-link h3{font:400 29px Georgia,serif;margin:10px 0}.journal-why-link>p:not(.journal-kicker){font-size:14px;line-height:1.8;color:#5e6b50}.journal-why-link .journal-button{margin-top:18px}

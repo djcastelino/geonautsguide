@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "london",
+    "name": "London",
+    "country": "United Kingdom",
+    "image": "london",
+    "theme": "RIVER CROSSING",
+    "title": "A crossing became a crossroads.",
+    "deck": "The Thames offered a route for boats—and a place where land routes could meet.",
+    "question": "Which combination helped Roman London develop here?",
+    "options": [
+      "A Thames crossing and access to river trade",
+      "A nearby source of Alpine glacier ice",
+      "A harbour directly on the open Mediterranean"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water brought opportunity.",
+        "text": "The Thames connected the settlement with a wider river and sea network. A crossing also allowed people and goods to move between its banks."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A bridge made a meeting point.",
+        "text": "The Romans established Londinium and built a timber bridge early in its history. Roads, waterfront activity, and the settlement developed around this connection."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful river needs managing.",
+        "text": "A river is an opportunity and a constraint. Building beside tidal water requires crossings, working waterfronts, and continuing decisions about how people use its banks."
+      }
+    ],
+    "takeaway": "The river offered possibilities. People turned them into a city.",
+    "source": {
+      "name": "London Museum · Roman London timeline",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/timeline-roman-london-londinium/"
+    },
+    "diagram": "crossing",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "country": "Italy",
+    "image": "venice",
+    "theme": "LAGOON SETTLEMENT",
+    "title": "A city learned to live between land and water.",
+    "deck": "Islands in a shallow lagoon became the setting for a distinctive maritime city.",
+    "question": "What most directly shaped Venice’s urban form?",
+    "options": [
+      "A continuous mountain ridge through its centre",
+      "Its islands, tidal channels, and lagoon setting",
+      "A broad desert plain without surface water"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A different kind of ground.",
+        "text": "The lagoon offered islands and channels rather than a simple continuous building site. Water influenced where settlements could grow and how people moved."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Adaptation became an identity.",
+        "text": "People connected islands, developed waterways, and adapted buildings to the setting. Over centuries, this became a city whose streets and maritime connections worked together."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The setting needs constant care.",
+        "text": "Venice and its lagoon remain interdependent. High water and changes to the lagoon environment pose challenges to buildings, habitats, and the city’s future."
+      }
+    ],
+    "takeaway": "Venice’s setting was neither effortless nor inevitable. Its cityscape records centuries of adaptation.",
+    "source": {
+      "name": "UNESCO · Venice and its Lagoon",
+      "url": "https://whc.unesco.org/en/list/394/"
+    },
+    "diagram": "lagoon",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "image": "why-singapore",
+    "theme": "MARITIME CROSSROADS",
+    "title": "A small island sits on a very large network.",
+    "deck": "Singapore’s location places it near major maritime routes between oceans.",
+    "question": "Which geographical advantage helped Singapore become a trading hub?",
+    "options": [
+      "A location on major maritime trade routes",
+      "A navigable river connecting it directly to Europe",
+      "Its position inside an inland mountain basin"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Look beyond the island.",
+        "text": "Singapore sits at a maritime crossroads in Southeast Asia. Its importance becomes clearer when viewed as part of a network of routes rather than by land area alone."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Location needed investment.",
+        "text": "Port infrastructure, services, connectivity, and policy helped turn a strategic position into a major maritime hub. Geography supplied an opportunity, not a finished outcome."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Connection creates dependence.",
+        "text": "A hub gains from international movement but must continually adapt its infrastructure and services. Ships do not choose a port merely because a map places it nearby."
+      }
+    ],
+    "takeaway": "A good location becomes valuable through the connections people build around it.",
+    "source": {
+      "name": "Singapore Ministry of Transport · Maritime",
+      "url": "https://www.mot.gov.sg/what-we-do/maritime/"
+    },
+    "diagram": "routes",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "istanbul",
+    "name": "Istanbul",
+    "country": "Türkiye",
+    "image": "why-istanbul",
+    "theme": "STRAIT & PENINSULA",
+    "title": "A narrow passage made a powerful position.",
+    "deck": "The Bosphorus places Istanbul between major land regions and connected seas.",
+    "question": "What makes Istanbul’s location strategically important?",
+    "options": [
+      "Its isolation from all navigable water",
+      "Its position beside the Bosphorus between land regions and sea routes",
+      "Its location at the source of the Amazon"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water narrows. Routes meet.",
+        "text": "The Bosphorus connects the Black Sea with the Sea of Marmara and onward toward the Mediterranean. The city occupies a meeting point between the Balkans and Anatolia."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A position became a capital.",
+        "text": "Successive societies built on this strategic setting. Istanbul’s history includes its roles as a capital of the Eastern Roman and Ottoman empires."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A connection is also a division.",
+        "text": "Waterways offer access while separating shores. A city in this setting has to organise movement across land and water as well as benefit from the routes passing through."
+      }
+    ],
+    "takeaway": "The same strait that divides shores can make a city a meeting place.",
+    "source": {
+      "name": "UNESCO · Historic Areas of Istanbul",
+      "url": "https://whc.unesco.org/en/list/356/"
+    },
+    "diagram": "strait",
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cusco",
+    "name": "Cusco",
+    "country": "Peru",
+    "image": "why-cusco",
+    "theme": "ANDEAN VALLEY",
+    "title": "A high valley became an imperial centre.",
+    "deck": "Cusco’s setting combines mountain terrain, rivers, and a fertile alluvial valley.",
+    "question": "What geographical setting supported Cusco’s development?",
+    "options": [
+      "A low-lying tropical coastal delta",
+      "An island at the mouth of the Rhine",
+      "A fertile, river-fed valley in the Andes"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A valley within the mountains.",
+        "text": "Cusco lies high in the Peruvian Andes in a fertile alluvial valley fed by several rivers. This was a setting where mountain terrain and usable valley land came together."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Political decisions shaped the city.",
+        "text": "Inca rulers developed Cusco into a complex capital with administrative and religious functions. Its significance depended on institutions and power as well as its physical setting."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A city carries layers of history.",
+        "text": "Following Spanish conquest, buildings were erected over and around Inca structures. The city’s present form records both its Andean setting and major changes in political control."
+      }
+    ],
+    "takeaway": "Terrain helps explain a setting. Human decisions explain much of what happened there.",
+    "source": {
+      "name": "UNESCO · City of Cuzco",
+      "url": "https://whc.unesco.org/en/list/273/"
+    },
+    "diagram": "valley",
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Cuzco"
+    ]
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "image": "why-paris",
+    "theme": "RIVER & ISLANDS",
+    "title": "A river gave the city a spine.",
+    "deck": "The Seine helped organise movement, crossings, and the shape of Paris.",
+    "question": "Which feature has strongly structured Paris’s urban landscape?",
+    "options": [
+      "The Seine and the connections across its banks",
+      "A natural harbour on the Pacific",
+      "A ring of active volcanoes"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A bend with connections.",
+        "text": "Paris developed along the Seine, within a larger network of rivers in the Paris Basin. Its banks and islands formed a setting for settlement and movement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Bridges joined more than banks.",
+        "text": "Successive communities and rulers built crossings, quays, monuments, and neighbourhoods around the river. The resulting cityscape records centuries of decisions rather than a single founding plan."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The banks remain contested space.",
+        "text": "Transport, public access, building, and heritage protection compete along a limited waterfront. The river continues to influence how the city changes."
+      }
+    ],
+    "takeaway": "A city’s river can remain its organising thread long after its first settlements.",
+    "source": {
+      "name": "UNESCO · Paris, Banks of the Seine",
+      "url": "https://whc.unesco.org/en/list/600/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "RIVER SEINE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "image": "why-rome",
+    "theme": "RIVER & HILLS",
+    "title": "A riverside setting became a centre of power.",
+    "deck": "Rome’s physical setting combines the Tiber with a complex landscape of hills.",
+    "question": "Which river is central to Rome’s geographical setting?",
+    "options": [
+      "The Seine",
+      "The Tiber",
+      "The Danube"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water beside higher ground.",
+        "text": "Rome developed on the banks of the Tiber within an uneven landscape. The river was a geographical connection, while the surrounding terrain shaped how areas of the city related to one another."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Institutions expanded the setting.",
+        "text": "Political power, engineering, and successive building programmes transformed a settlement into a major centre. The republic, empire, and later city each added layers."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Later cities inherit earlier ones.",
+        "text": "Rome’s streets and buildings occupy a landscape already reshaped many times. Preserving older layers while accommodating current needs remains part of urban life."
+      }
+    ],
+    "takeaway": "The Tiber helps explain the setting; centuries of human decisions explain the city.",
+    "source": {
+      "name": "UNESCO · Historic Centre of Rome",
+      "url": "https://whc.unesco.org/en/list/91/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "RIVER TIBER"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "lyon",
+    "name": "Lyon",
+    "country": "France",
+    "image": "why-lyon",
+    "theme": "TWO-RIVER CONFLUENCE",
+    "title": "Two rivers made one distinctive setting.",
+    "deck": "Lyon occupies a meeting point of the Rhône and Saône, with hills rising nearby.",
+    "question": "What is a defining feature of Lyon’s location?",
+    "options": [
+      "An isolated island in the Atlantic",
+      "A dry basin with no rivers",
+      "The confluence of the Rhône and Saône"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Two waterways meet.",
+        "text": "The Rhône and Saône come together at Lyon. The rivers and nearby hills created distinct areas of usable ground and different routes through the landscape."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A city grew in stages.",
+        "text": "From its Roman history onward, Lyon developed through successive urban expansions. Neighbourhoods, crossings, and commercial activity gave the river setting different roles over time."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Water divides as well as connects.",
+        "text": "River corridors require bridges and careful planning. The land between waterways is valuable, but it is not unlimited or separate from the rivers around it."
+      }
+    ],
+    "takeaway": "A confluence can connect routes while giving a city a very particular shape.",
+    "source": {
+      "name": "UNESCO · Historic Site of Lyon",
+      "url": "https://whc.unesco.org/en/list/872/"
+    },
+    "diagram": "confluence",
+    "diagramLabels": {
+      "water": "RHÔNE + SAÔNE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "country": "Czechia",
+    "image": "why-prague",
+    "theme": "RIVER & CROSSINGS",
+    "title": "A river linked a city of different heights.",
+    "deck": "The Vltava and Prague’s terrain helped shape a city on both banks.",
+    "question": "Which physical feature connects Prague’s historic districts?",
+    "options": [
+      "The Vltava River and its crossings",
+      "An inland salt lake",
+      "A desert caravan oasis"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Banks with different perspectives.",
+        "text": "Prague’s historic centre occupies both sides of the Vltava. The river and changes in elevation contribute to the relationship between its districts and landmarks."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Crossings became civic places.",
+        "text": "Building bridges connected areas that water separated. Rulers, merchants, religious communities, and residents added to a cityscape whose history is visible across the river."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living city is also a heritage landscape.",
+        "text": "New development and transport needs must coexist with the historic river setting. Preserving the relationship between buildings, views, and open spaces requires active choices."
+      }
+    ],
+    "takeaway": "A bridge can be both infrastructure and a way of understanding a city.",
+    "source": {
+      "name": "UNESCO · Historic Centre of Prague",
+      "url": "https://whc.unesco.org/en/list/616/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "RIVER VLTAVA"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "country": "Hungary",
+    "image": "why-budapest",
+    "theme": "TWO BANKS, ONE CITY",
+    "title": "Different riverbanks became a shared cityscape.",
+    "deck": "Buda’s higher ground and Pest’s plain meet across the Danube.",
+    "question": "What helps explain the contrasting landscapes of Buda and Pest?",
+    "options": [
+      "Both sit on identical volcanic islands",
+      "Buda’s higher right bank faces Pest’s flatter left bank",
+      "A mountain range separates them from the Danube"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "One river, contrasting sides.",
+        "text": "The Danube runs between the higher ground associated with Buda and the plain associated with Pest. This contrast is central to the historic cityscape."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections joined urban histories.",
+        "text": "Settlement, institutions, bridges, and building linked areas with different histories and physical forms. The river became a shared urban frontage rather than merely an edge."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Keep the relationship visible.",
+        "text": "Development on either bank can affect the wider river panorama. The heritage value lies partly in the relationship between terrain, water, and buildings—not just isolated monuments."
+      }
+    ],
+    "takeaway": "One city can make sense only when you look at both sides of its river.",
+    "source": {
+      "name": "UNESCO · Budapest and the Banks of the Danube",
+      "url": "https://whc.unesco.org/en/list/400/"
+    },
+    "diagram": "crossing",
+    "diagramLabels": {
+      "water": "RIVER DANUBE"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "The Netherlands",
+    "image": "why-amsterdam",
+    "theme": "LOWLAND WATER NETWORK",
+    "title": "Managing water helped create urban space.",
+    "deck": "The Amstel, the IJ, and an engineered canal network shaped Amsterdam.",
+    "question": "What was central to Amsterdam’s historic expansion?",
+    "options": [
+      "Building only on a steep mountain ridge",
+      "Removing every connection with navigable water",
+      "Organising water, canals, and reclaimed urban land"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A lowland meeting of waters.",
+        "text": "The confluence of the Amstel and the IJ provided the setting for Amsterdam’s founding port. Water connections offered opportunity within a landscape that needed management."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Canals were a city-making project.",
+        "text": "Later expansion used a planned canal network and new urban land. This connected transport, water engineering, property development, and the organisation of neighbourhoods."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The system needs care.",
+        "text": "An engineered water city depends on continued management. Canals are part of the urban structure, not decoration that can be considered separately from buildings and movement."
+      }
+    ],
+    "takeaway": "Sometimes the setting of a city is partly built, not simply found.",
+    "source": {
+      "name": "UNESCO Urban Heritage Atlas · Amsterdam",
+      "url": "https://whc.unesco.org/en/urban-heritage-atlas/amsterdam/"
+    },
+    "diagram": "delta",
+    "diagramLabels": {
+      "water": "AMSTEL / IJ NETWORK"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "rotterdam",
+    "name": "Rotterdam",
+    "country": "The Netherlands",
+    "image": "rotterdam",
+    "theme": "DELTA & PORT",
+    "title": "A river settlement learned to reach the sea.",
+    "deck": "Rotterdam’s history connects a dam in the Rotte with a much larger port landscape.",
+    "question": "What combination helps explain Rotterdam’s development?",
+    "options": [
+      "A river setting followed by major investment in port access",
+      "A location in an isolated alpine valley",
+      "A port created without any navigable water"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A lowland river setting.",
+        "text": "Rotterdam grew around a dam in the Rotte within the wider waterways of the Rhine–Meuse region. Inland and maritime connections made the setting significant."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Access had to be maintained.",
+        "text": "Port growth required infrastructure and changing connections with the sea. The city archive describes nineteenth-century concern about the port silting up."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A useful position is not enough.",
+        "text": "A port must adapt when channels, ships, and economic demands change. Engineering and investment help determine whether geographical access remains commercially useful."
+      }
+    ],
+    "takeaway": "A port’s geography is an ongoing project, not a permanent guarantee.",
+    "source": {
+      "name": "Rotterdam City Archives · Rotterdam history",
+      "url": "https://stadsarchief.rotterdam.nl/en/rotterdam-en"
+    },
+    "diagram": "delta",
+    "diagramLabels": {
+      "water": "RHINE–MEUSE REGION"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "image": "portugal",
+    "theme": "ESTUARY & OCEAN",
+    "title": "A river opens toward an ocean.",
+    "deck": "Lisbon sits beside the Tagus estuary, with access to Atlantic routes.",
+    "question": "Which water setting helps explain Lisbon’s maritime connections?",
+    "options": [
+      "A closed lake with no outlet",
+      "The Tagus estuary and its Atlantic access",
+      "A river flowing directly to the Arctic Ocean"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A broad water gateway.",
+        "text": "The Tagus reaches a wide estuary beside Lisbon before meeting the Atlantic. River and maritime settings come together here."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A waterfront became infrastructure.",
+        "text": "Port facilities, navigation channels, and land transport connections make the estuary useful for moving goods and people. Access depends on organisation as well as water."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Many uses share the estuary.",
+        "text": "Navigation, urban life, recreation, and natural habitats occupy the same broader setting. Decisions about the waterfront affect more than the ships arriving there."
+      }
+    ],
+    "takeaway": "An estuary links inland geography with ocean networks.",
+    "source": {
+      "name": "Port of Lisbon · Accessibilities",
+      "url": "https://www.portodelisboa.pt/en/acessibilidades"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "TAGUS ESTUARY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "new-york",
+    "name": "New York City",
+    "country": "United States",
+    "image": "why-new-york",
+    "theme": "HARBOUR & ESTUARY",
+    "title": "A harbour became an urban gateway.",
+    "deck": "New York’s waterfront connects a large estuary with ocean commerce.",
+    "question": "What has helped keep New York’s harbour useful for shipping?",
+    "options": [
+      "Being an inland mountain lake",
+      "Having no rivers or deposited sediment",
+      "Natural access combined with maintained navigation channels"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "An estuary at the coast.",
+        "text": "New York and New Jersey share a harbour system connected with rivers and the Atlantic. This offers a large water-based setting for urban activity."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "The gateway was developed.",
+        "text": "Shipping facilities and navigation works helped turn this setting into an active port. Trade and settlement reshaped shorelines and water spaces over time."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Channels do not maintain themselves.",
+        "text": "Sediment accumulates in estuaries. The US Army Corps of Engineers describes dredging as necessary to remove shoals that interfere with navigation."
+      }
+    ],
+    "takeaway": "A natural harbour can still depend on very deliberate engineering.",
+    "source": {
+      "name": "US Army Corps of Engineers · New York harbour navigation",
+      "url": "https://www.nan.usace.army.mil/Missions/Navigation/Historic-Area-Remediation-Site-HARS/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "NEW YORK HARBOUR"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "New York",
+      "NYC"
+    ]
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "image": "why-sydney",
+    "theme": "HARBOUR SETTLEMENT",
+    "title": "A sheltered cove changed a colonial plan.",
+    "deck": "Sydney’s colonial settlement began at Sydney Cove within Port Jackson.",
+    "question": "Where did the First Fleet establish its settlement after finding Botany Bay unsuitable?",
+    "options": [
+      "Sydney Cove in Port Jackson",
+      "An inland site beside Lake Eyre",
+      "A settlement on the opposite side of Australia"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A cove within a harbour.",
+        "text": "Port Jackson offered the water setting in which Sydney Cove was chosen for British settlement. The choice followed the fleet’s initial arrival at Botany Bay."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A decision with lasting effects.",
+        "text": "The colonial settlement established in 1788 developed into the city of Sydney. This was not an empty landscape: Aboriginal communities had lived in the region long before the fleet arrived."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Access did not mean absence of consequences.",
+        "text": "The harbour story includes colonial institutions and their impact on existing peoples. Explaining a location should not turn settlement into an inevitable or uncomplicated outcome."
+      }
+    ],
+    "takeaway": "A geographical advantage can sit within a much more difficult human history.",
+    "source": {
+      "name": "Parliament of New South Wales · Early European settlement",
+      "url": "https://www.parliament.nsw.gov.au/about-parliament/heritage-history/history-democracy-nsw/1788-to-1810-early-european-settlement"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "PORT JACKSON"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "country": "China",
+    "image": "why-hong-kong",
+    "theme": "DEEP-WATER HARBOUR",
+    "title": "A harbour connected a city with global trade.",
+    "deck": "Hong Kong’s port has long been central to its development and prosperity.",
+    "question": "Which combination helps explain Hong Kong’s port role?",
+    "options": [
+      "An isolated inland basin",
+      "A strategic maritime location and developed port facilities",
+      "A location without access to regional markets"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Position within a trading region.",
+        "text": "Hong Kong lies on major Far East trade routes within the Asia-Pacific region. Its harbour setting helped give maritime activity a central place in the city."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Facilities made location useful.",
+        "text": "Terminals, shipping services, and connections with surrounding markets developed around that setting. The port’s role rests on a working system rather than location alone."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Waterfront space has competing demands.",
+        "text": "Shipping, urban development, passenger travel, and other activities share a constrained coastal environment. A successful harbour has to be managed as well as occupied."
+      }
+    ],
+    "takeaway": "The value of a harbour comes from both its setting and its connections.",
+    "source": {
+      "name": "Hong Kong Marine Department · The Port",
+      "url": "https://www.mardep.gov.hk/en/materials-and-publications/publications/hk-fact-sheet/index.html"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "VICTORIA HARBOUR"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cape-town",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "image": "why-cape-town",
+    "theme": "OCEAN WAYPOINT",
+    "title": "A stopping place became a colonial city.",
+    "deck": "Table Bay sat along the sea route linking Europe with Asia around southern Africa.",
+    "question": "Why did the Dutch East India Company establish a station at the Cape?",
+    "options": [
+      "To build an inland canal to the Mediterranean",
+      "To grow crops beneath Antarctic ice",
+      "To supply passing ships with water and fresh produce"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A strategic pause in a long voyage.",
+        "text": "The Cape occupied an important position on ocean routes around southern Africa. Ships on lengthy voyages needed opportunities to obtain supplies."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "A station grew into something larger.",
+        "text": "The Dutch East India Company established a refreshment station in 1652, with gardens and fortifications serving commercial and strategic purposes."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The place already had inhabitants.",
+        "text": "Khoi communities used the Table Bay region before the colonial station. The city’s growth therefore belongs to a history of contact, dispossession, and unequal power as well as maritime geography."
+      }
+    ],
+    "takeaway": "A convenient stopping place can become the beginning of a much larger transformation.",
+    "source": {
+      "name": "City of Cape Town · City Hall and precinct history",
+      "url": "https://resource.capetown.gov.za/documentcentre/Documents/Graphics%20and%20educational%20material/City%20Hall%20and%20Precinct%20_%20Brochure.pdf"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "TABLE BAY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai",
+    "country": "India",
+    "image": "why-mumbai",
+    "theme": "NATURAL HARBOUR",
+    "title": "A safe anchorage became a maritime city.",
+    "deck": "Mumbai’s harbour offered advantages for shipping along India’s western seaboard.",
+    "question": "Which feature attracted maritime interest in Mumbai’s setting?",
+    "options": [
+      "Its sheltered natural harbour",
+      "Its location at the source of the Ganges",
+      "Its position beyond all ocean trade routes"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A haven for vessels.",
+        "text": "Mumbai’s natural harbour offered a maritime base on India’s western coast. Its advantages were recognised long before the modern port took its present form."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Commerce changed the scale.",
+        "text": "Port development and connections with wider trade turned a geographical opportunity into a major commercial system. Political control and investment shaped that transformation."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The port and city share a shore.",
+        "text": "A growing maritime city must organise the space needed by shipping alongside other urban uses. The historical harbour cannot explain today’s metropolis without its later infrastructure and institutions."
+      }
+    ],
+    "takeaway": "A sheltered anchorage is a beginning, not a complete explanation for a metropolis.",
+    "source": {
+      "name": "Mumbai Port Authority · History",
+      "url": "https://www.mumbaiport.gov.in/show_content.php?lang=1&level=1&lid=56&ls_id=1042"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "MUMBAI HARBOUR"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "rio-de-janeiro",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "image": "why-rio",
+    "theme": "BAY & MOUNTAINS",
+    "title": "A city fitted itself between mountains and sea.",
+    "deck": "Rio’s landscape combines Guanabara Bay, the Atlantic coast, and steep forested terrain.",
+    "question": "What strongly shapes Rio de Janeiro’s physical layout?",
+    "options": [
+      "An uninterrupted flat desert",
+      "The interaction of mountains, bay, and ocean",
+      "A broad inland ice sheet"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Space between rising ground and water.",
+        "text": "Rio occupies coastal land framed by Guanabara Bay and steep mountains. This creates dramatic contrasts over short distances."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Building worked with and changed the setting.",
+        "text": "Neighbourhoods, designed landscapes, routes, and public spaces developed within this terrain. The city’s identity comes from interaction between natural features and human activity."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The landscape is part of the city.",
+        "text": "Mountains, forests, shorelines, and urban areas are interdependent. Protecting the cultural landscape means considering their relationships rather than treating nature as a backdrop."
+      }
+    ],
+    "takeaway": "A skyline can be shaped as much by the land around buildings as by the buildings themselves.",
+    "source": {
+      "name": "UNESCO · Rio de Janeiro, Carioca Landscapes",
+      "url": "https://whc.unesco.org/en/list/1100/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "GUANABARA BAY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "country": "United States",
+    "image": "why-san-francisco",
+    "theme": "BAY & BOOMTOWN",
+    "title": "Ships helped turn a port into a boomtown.",
+    "deck": "San Francisco’s bay-side settlement expanded rapidly during the Gold Rush.",
+    "question": "What helped drive the surge of ships and people into San Francisco in the mid-nineteenth century?",
+    "options": [
+      "A newly completed canal to the Nile",
+      "The closure of every Pacific shipping route",
+      "The California Gold Rush"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A cove connected with a larger bay.",
+        "text": "The settlement’s waterfront offered a place for ships to arrive within the San Francisco Bay system."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Opportunity drew a sudden crowd.",
+        "text": "Gold Rush migration brought vessels and people in extraordinary numbers. Some ships were abandoned, reused, or incorporated into the expanding waterfront."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Growth changed the shoreline.",
+        "text": "Later building and fill buried parts of the maritime landscape. The ships preserved beneath modern streets reveal how quickly people can remake a coastal setting."
+      }
+    ],
+    "takeaway": "An urban street can conceal the waterfront that helped create it.",
+    "source": {
+      "name": "National Park Service · Buried ships of San Francisco",
+      "url": "https://www.nps.gov/safr/learn/historyculture/buried-ships-of-san-francisco.htm"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "SAN FRANCISCO BAY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "buenos-aires",
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "image": "why-buenos-aires",
+    "theme": "ESTUARY & HINTERLAND",
+    "title": "A port connected an interior with wider markets.",
+    "deck": "Buenos Aires developed beside the Río de la Plata, with links extending inland.",
+    "question": "What became a major strength of Buenos Aires as a commercial centre?",
+    "options": [
+      "Its port and connections with interior cities",
+      "An isolated location without navigable water",
+      "A harbour on the Pacific side of the Andes"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A broad estuary setting.",
+        "text": "Buenos Aires sits beside the Río de la Plata on South America’s Atlantic side. The setting offered a water-based gateway rather than a position within the Andes."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Political status and trade reinforced one another.",
+        "text": "Its role as a colonial capital strengthened its commercial position. The city’s official history identifies its port and inland connections as major advantages."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "Access had to be built.",
+        "text": "Port infrastructure and waterfront development changed the city’s relationship with the estuary. The usefulness of a broad expanse of water still depended on practical ways to handle ships and cargo."
+      }
+    ],
+    "takeaway": "A gateway matters because of what lies behind it as well as beyond it.",
+    "source": {
+      "name": "City of Buenos Aires · City history",
+      "url": "https://turismo.buenosaires.gob.ar/es/article/historia-de-buenos-aires"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "RÍO DE LA PLATA"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "country": "China",
+    "image": "why-shanghai",
+    "theme": "RIVER–SEA GATEWAY",
+    "title": "A river city grew into a coastal port network.",
+    "deck": "Shanghai’s port geography connects the Huangpu with the Yangtze Delta and the sea.",
+    "question": "What helps explain Shanghai’s maritime position?",
+    "options": [
+      "A closed mountain basin far from rivers",
+      "Connections between river transport, delta land, and sea routes",
+      "A location on the Atlantic coast"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Rivers connect with the coast.",
+        "text": "The Huangpu meets the Yangtze in a broader delta region linked with the sea. This offers more than a single waterfront: it connects different scales of transport."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "The port moved and expanded.",
+        "text": "As shipping needs changed, terminals and port functions developed beyond the historic riverfront. Modernisation reshaped the geography of the port."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A hub has to keep adapting.",
+        "text": "Larger ships, cargo systems, land requirements, and regional connections affect where port activity can operate. The original waterfront is only one part of the modern system."
+      }
+    ],
+    "takeaway": "A city’s working geography can expand far beyond its most photographed riverbank.",
+    "source": {
+      "name": "OECD · The competitiveness of global port-cities: Shanghai",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/11/the-competitiveness-of-global-port-cities-the-case-of-shanghai-china_g17a239f/5k3wd3bnz7tb-en.pdf"
+    },
+    "diagram": "delta",
+    "diagramLabels": {
+      "water": "HUANGPU / YANGTZE REGION"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "country": "Egypt",
+    "image": "why-cairo",
+    "theme": "VALLEY & DELTA GATEWAY",
+    "title": "A river corridor became a setting for a capital.",
+    "deck": "Cairo occupies a strategic position beside the Nile near the approach to its delta.",
+    "question": "Which geographical setting is central to Cairo’s location?",
+    "options": [
+      "An island in the Indian Ocean",
+      "A highland valley in the Andes",
+      "The Nile corridor near its delta region"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water within a much drier region.",
+        "text": "The Nile creates a major inhabited corridor through Egypt. Cairo’s setting lies beside the river near the transition toward the delta."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Political and religious roles reinforced the setting.",
+        "text": "Successive urban centres and institutions developed in this region. Cairo became a major political and religious centre rather than simply a settlement beside water."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A capital concentrates demands.",
+        "text": "People, administration, movement, and development place overlapping demands on a limited river setting. Geography offers a framework, but political decisions help determine where activity concentrates."
+      }
+    ],
+    "takeaway": "A river helps explain where a city can thrive; institutions help explain why it becomes a capital.",
+    "source": {
+      "name": "Cairo Governorate · Cairo in Lines",
+      "url": "https://cairo.gov.eg/en/about-governorate/cairo-in-lines/"
+    },
+    "diagram": "delta",
+    "diagramLabels": {
+      "water": "NILE VALLEY / DELTA"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "kathmandu",
+    "name": "Kathmandu",
+    "country": "Nepal",
+    "image": "why-kathmandu",
+    "theme": "VALLEY & URBAN NETWORK",
+    "title": "A valley holds more than one urban story.",
+    "deck": "Kathmandu belongs to a wider valley of historic cities, settlements, and religious places.",
+    "question": "What setting helps explain Kathmandu’s relationship with nearby historic centres?",
+    "options": [
+      "A shared valley containing several connected settlements",
+      "A line of isolated coral atolls",
+      "A river delta on the Mediterranean"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "A valley within a mountain region.",
+        "text": "Kathmandu is part of a wider valley landscape rather than a solitary settlement on a summit."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Several centres shaped the region.",
+        "text": "Kathmandu, Patan, and Bhaktapur developed distinctive urban and cultural roles. Palaces, public spaces, shrines, and local communities gave the valley a network of centres."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The wider setting matters.",
+        "text": "Heritage places sit within living urban environments. Caring for the valley requires attention to settlements and communities as well as its best-known monuments."
+      }
+    ],
+    "takeaway": "A capital can be understood better as part of a regional network than as one point on a map.",
+    "source": {
+      "name": "Nepal Tourism Board · Kathmandu Valley",
+      "url": "https://ntb.gov.np/kathmandu-valley"
+    },
+    "diagram": "valley",
+    "diagramLabels": {
+      "water": "VALLEY WATERWAYS",
+      "land": "HIMALAYAN VALLEY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "image": "why-mexico-city",
+    "theme": "HISTORIC LAKE BASIN",
+    "title": "A modern city carries the memory of a lake.",
+    "deck": "Mexico City grew over the island city of Tenochtitlan and a transformed lake landscape.",
+    "question": "What was a defining part of Tenochtitlan’s setting?",
+    "options": [
+      "An Atlantic cliff-top harbour",
+      "An island city within a lake system",
+      "A settlement on an Antarctic ice shelf"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Water once framed the city.",
+        "text": "Tenochtitlan developed as an island city within a lake landscape. Its setting differs greatly from the continuous urban fabric visible today."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Conquest changed the landscape.",
+        "text": "After Spanish conquest, the colonial city was built over the older capital. Drainage transformed the surrounding lake environment as the city changed."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "The past remains part of the present.",
+        "text": "The modern city occupies a landscape reshaped by successive societies. Understanding its setting requires looking beneath today’s streets to the earlier relationship between land and water."
+      }
+    ],
+    "takeaway": "A city can outgrow the visible landscape that first made its location distinctive.",
+    "source": {
+      "name": "UNESCO · Historic Centre of Mexico City and Xochimilco",
+      "url": "https://whc.unesco.org/en/list/412/"
+    },
+    "diagram": "basin",
+    "diagramLabels": {
+      "water": "HISTORIC LAKE SETTING"
+    },
+    "reviewedOn": "2026-11-06"
+  }
+]

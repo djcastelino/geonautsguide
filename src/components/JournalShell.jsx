@@ -17,6 +17,7 @@ export function JournalHeader({ current, onNavigate }) {
         {[
           ["home", "Home"],
           ["grid", "Discover"],
+          ["whyhere", "Why Here?"],
           ["planner", "Travel planner"],
           ["cityguess", "Daily City Guess"],
         ].map(([id, title]) => (

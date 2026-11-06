@@ -1,5 +1,6 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Compass } from "lucide-react";
+import WhyHere from "./components/WhyHere";
 import PlanetConnections from "./components/PlanetConnections";
 import ExpeditionHome from "./components/ExpeditionHome";
 import { JournalHeader, JournalFooter } from "./components/JournalShell";
@@ -12,8 +13,11 @@ import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
+const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid"].includes(value) ? value : "home"; };
+
 function App() {
-  const [view, setView] = useState(new URLSearchParams(window.location.search).get("view") === "connections" ? "connections" : "home");
+  const [view, setView] = useState(routeView);
+  const [whyCity, setWhyCity] = useState(() => new URLSearchParams(window.location.search).get("city") || "");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedLandmark, setSelectedLandmark] = useState(null);
@@ -24,7 +28,12 @@ function App() {
   );
   const featured =
     landmarksData.landmarks[dayOfYear % landmarksData.landmarks.length];
-  const onNavigate = (next) => {
+  const onNavigate = (next, city = "") => {
+    const url = new URL(window.location.href);
+    if (next === "home") url.searchParams.delete("view"); else url.searchParams.set("view", next);
+    if (next === "whyhere" && city) url.searchParams.set("city", city); else url.searchParams.delete("city");
+    window.history.pushState({}, "", url);
+    setWhyCity(city);
     generation.current++;
     setView(next);
     setSelectedLandmark(null);
@@ -33,6 +42,11 @@ function App() {
     setIsLoading(false);
     window.scrollTo({ top: 0, behavior: "instant" });
   };
+  useEffect(() => {
+    const restore = () => { generation.current++; setView(routeView()); setWhyCity(new URLSearchParams(window.location.search).get("city") || ""); setSelectedLandmark(null); setNarrationData(null); setIsLoading(false); setError(null); };
+    window.addEventListener("popstate", restore);
+    return () => window.removeEventListener("popstate", restore);
+  }, []);
   const onLandmarkSelect = async (landmark) => {
     const request = ++generation.current;
     setIsLoading(true);
@@ -71,6 +85,7 @@ function App() {
       if (request === generation.current) setIsLoading(false);
     }
   };
+  if (view === "whyhere") return <WhyHere key={whyCity} initialCity={whyCity} onHome={() => onNavigate("home")} onChallenge={() => onNavigate("cityguess")} />;
   if (view === "connections") return <PlanetConnections onHome={() => onNavigate("home")} />;
   return (
     <div className="journal-app">
@@ -95,6 +110,7 @@ function App() {
             featured={featured}
             onExplore={() => onNavigate("grid")}
             onConnections={() => onNavigate("connections")}
+            onWhyHere={() => onNavigate("whyhere")}
             onPlan={() => onNavigate("planner")}
             onChallenge={() => onNavigate("cityguess")}
             onLandmarkSelect={onLandmarkSelect}
@@ -109,7 +125,7 @@ function App() {
           />
         )}
         {view === "planner" && <TripPlanner />}
-        {view === "cityguess" && <CityGuess />}
+        {view === "cityguess" && <CityGuess onWhyHere={(city) => onNavigate("whyhere", city)} />}
         {view === "detail" && selectedLandmark && narrationData && (
           <LandmarkDetail
             landmark={selectedLandmark}
