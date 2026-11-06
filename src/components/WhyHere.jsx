@@ -7,7 +7,7 @@ import './WhyHere.css';
 
 function LandscapeSketch({ city }) {
   const [layer, setLayer] = useState(0);
-  const water = ['lagoon', 'routes', 'harbour', 'estuary'].includes(city.diagram);
+  const water = ['lagoon', 'routes', 'harbour', 'estuary', 'isthmus'].includes(city.diagram);
   const waterLabel = city.diagramLabels?.water || (city.diagram === 'crossing' ? 'RIVER THAMES' : 'RIVER-FED VALLEY');
   return <div className="wh-sketch"><div className="wh-sketch-heading"><div><p className="wh-eyebrow">READ THE LANDSCAPE</p><h3>Start with the setting.</h3></div><span>ILLUSTRATIVE SKETCH / NOT TO SCALE</span></div>
     <div className="wh-layers" role="group" aria-label="Landscape layers">{['The landscape', 'The connections', 'The city'].map((label, i) => <button key={label} aria-pressed={layer === i} onClick={() => setLayer(i)}>{`0${i + 1}`} <span>{label}</span></button>)}</div>
@@ -16,6 +16,7 @@ function LandscapeSketch({ city }) {
       <rect width="900" height="370" fill={water ? '#243e40' : '#25382d'}/><rect width="900" height="370" fill="url(#wh-grid)"/>
       {city.diagram === 'crossing' && <><path d="M-20 235Q160 285 330 205T610 170T930 110" className="wh-water"/><text x="90" y="320">{waterLabel}</text>{layer > 0 && <><path d="M450 30V330M180 55L450 180L770 300" className="wh-route"/><path d="M418 151L474 218" className="wh-bridge"/></>}</>}
       {city.diagram === 'lagoon' && <><path d="M0 0H175L155 100L225 190L180 370H0Z" fill="#455843"/>{[[365,140,70,26],[470,190,45,23],[555,140,56,24],[485,95,26,15]].map(([x,y,rx,ry]) => <ellipse key={x} cx={x} cy={y} rx={rx} ry={ry} fill="#607153"/>)}<text x="45" y="65">MAINLAND</text><text x="660" y="295">LAGOON</text>{layer > 0 && <path d="M160 150Q330 100 450 170T770 170M320 280L450 170L620 70" className="wh-route"/>}</>}
+      {city.diagram === 'isthmus' && <><path d="M0 75Q240 65 405 150Q450 175 500 150Q700 65 900 75V300Q700 310 500 220Q450 195 405 220Q240 310 0 300Z" fill="#53674c"/><text x="60" y="40">CARIBBEAN SEA</text><text x="615" y="350">PACIFIC OCEAN</text>{layer > 0 && <path d="M400 100L450 180L525 270M60 185H840" className="wh-route"/>}</>}
       {city.diagram === 'river' && <><path d="M-20 285Q185 315 330 235T610 195T930 135" className="wh-water"/><text x="70" y="350">{waterLabel}</text>{layer > 0 && <path d="M70 205Q230 235 375 160T840 60" className="wh-route"/>}</>}
       {city.diagram === 'axes' && <><path d="M75 185H825M335 25Q565 185 335 345" fill="none" stroke="#819477" strokeWidth="3"/><text x="60" y="75">MONUMENTAL AXIS</text><text x="570" y="310">CURVED MOVEMENT AXIS</text>{layer > 0 && <><path d="M75 185H825M335 25Q565 185 335 345" className="wh-route"/><path d="M155 140H210V165H155ZM250 140H305V165H250ZM155 205H210V230H155ZM250 205H305V230H250Z" fill="#819477"/></>}</>}
       {city.diagram === 'grid' && <><path d="M170 80H730V300H170ZM170 150H730M170 225H730M310 80V300M450 80V300M590 80V300" fill="none" stroke="#819477" strokeWidth="2"/><text x="50" y="45">{city.diagramLabels?.land || 'PLANNED URBAN CORE'}</text>{layer > 0 && <path d="M0 180H900M450 0V370" className="wh-route"/>}</>}

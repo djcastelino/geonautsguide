@@ -3322,5 +3322,1139 @@
       "land": "HAVANA BAY"
     },
     "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "tunis",
+    "name": "Tunis",
+    "country": "Tunisia",
+    "image": "why-tunis",
+    "theme": "MEDINA AND REGIONAL CAPITAL",
+    "title": "Institutions made a connected town influential.",
+    "deck": "Tunis’s historic medina records a city whose reach extended beyond its compact streets.",
+    "question": "Which connection or setting best explains Tunis’s story?",
+    "options": [
+      "An isolated polar mining camp",
+      "A city entirely built on coral platforms",
+      "Regional connections reinforced by political and cultural institutions"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A North African setting connected the town with surrounding settlements and Mediterranean networks. Within the historic core, dense streets linked neighbourhoods, markets, and institutions."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Under Almohad and Hafsid rule, Tunis became a wealthy political and cultural centre. Mosques, schools, palaces, and fountains expressed the investment of successive rulers and communities."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "A medina is more than its largest monuments. Keeping residential streets and everyday services workable helps preserve the relationships that made the centre a city."
+      }
+    ],
+    "takeaway": "Connections offer possibilities; institutions and neighbourhoods turn them into urban life.",
+    "source": {
+      "name": "UNESCO · Tunis heritage and setting",
+      "url": "https://whc.unesco.org/en/list/36/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "NORTH AFRICAN CONNECTIONS",
+      "land": "NORTH AFRICAN CONNECTIONS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "sousse",
+    "name": "Sousse",
+    "country": "Tunisia",
+    "image": "why-sousse",
+    "theme": "COMMERCE AND COASTAL DEFENCE",
+    "title": "A trading port also guarded the coast.",
+    "deck": "Sousse’s historic core combines maritime activity with a defensive landscape.",
+    "question": "Which connection or setting best explains Sousse’s story?",
+    "options": [
+      "A Mediterranean port combining trade and defence",
+      "A city at the source of the Amazon",
+      "A settlement without any maritime connections"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A Mediterranean coastal site offered sea connections but also exposure. Port activity and the need to control approaches gave the waterfront more than one role."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "During the Aghlabid period, Sousse developed as a commercial and military port. Its ribat, kasbah, ramparts, and religious buildings formed part of a wider coastal defence system."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Defensive structures can outlast their original purpose. Conservation must now support a living town while keeping the relationship between its walls, streets, and shore understandable."
+      }
+    ],
+    "takeaway": "The same sea can be a route for commerce and a reason to build defences.",
+    "source": {
+      "name": "UNESCO · Sousse heritage and setting",
+      "url": "https://whc.unesco.org/en/list/498/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "MEDITERRANEAN COAST",
+      "land": "MEDITERRANEAN COAST"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "kairouan",
+    "name": "Kairouan",
+    "country": "Tunisia",
+    "image": "why-kairouan",
+    "theme": "FOUNDATION AND RELIGIOUS CENTRE",
+    "title": "A founded city kept its importance after power moved.",
+    "deck": "Kairouan shows why a city can endure beyond its period as a political centre.",
+    "question": "Which connection or setting best explains Kairouan’s story?",
+    "options": [
+      "A settlement dependent on an Arctic shipping lane",
+      "An inland foundation sustained by religious institutions",
+      "A city built in an underwater crater"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "An inland location set the town apart from the region’s seaports. Its connections depended on movement across land and on the services that sustained settlement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Founded in 670, Kairouan flourished especially under the Aghlabids. Religious institutions and monumental building helped maintain its significance after political authority shifted elsewhere."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "A historical role survives through continued use and maintenance, not just age. Caring for the town includes the urban fabric around its best-known religious buildings."
+      }
+    ],
+    "takeaway": "A capital can lose political primacy without losing its urban purpose.",
+    "source": {
+      "name": "UNESCO · Kairouan heritage and setting",
+      "url": "https://whc.unesco.org/en/list/499/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "INLAND NORTH AFRICA",
+      "land": "INLAND NORTH AFRICA"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "algiers",
+    "name": "Algiers",
+    "country": "Algeria",
+    "image": "why-algiers",
+    "theme": "SLOPE AND MARITIME CITY",
+    "title": "A medina climbed above the sea.",
+    "deck": "Algiers’s Kasbah joins a coastal outlook with a dense hillside urban fabric.",
+    "question": "Which connection or setting best explains Algiers’s story?",
+    "options": [
+      "A town on a flat Antarctic ice shelf",
+      "A city far from all coastal routes",
+      "A hillside medina overlooking a Mediterranean coastal site"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The historic quarter overlooks the Mediterranean and the islands associated with an ancient trading post. Sloping ground created changes of level between higher sites and the waterfront."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "A citadel, mosques, Ottoman-era palaces, and residential streets developed within a closely connected urban structure. Different periods added layers rather than one complete plan replacing all others."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Steep streets and traditional buildings require practical care. Preserving community life matters alongside the conservation of individual palaces and monuments."
+      }
+    ],
+    "takeaway": "The Kasbah’s setting is vertical as well as maritime.",
+    "source": {
+      "name": "UNESCO · Algiers heritage and setting",
+      "url": "https://whc.unesco.org/en/list/565/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "MEDITERRANEAN BAY",
+      "land": "MEDITERRANEAN BAY"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "essaouira",
+    "name": "Essaouira",
+    "country": "Morocco",
+    "image": "why-essaouira",
+    "theme": "PLANNED TRADING PORT",
+    "title": "A planned port linked inland routes to the Atlantic.",
+    "deck": "Essaouira’s fortifications and streets were shaped for international exchange.",
+    "question": "Which connection or setting best explains Essaouira’s story?",
+    "options": [
+      "An Atlantic seaport linked to inland trading routes",
+      "A settlement at the South Pole",
+      "A town without connections beyond its walls"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "An Atlantic coastal site offered an outlet towards overseas routes. Connections inland tied the port to Morocco and the Saharan hinterland rather than leaving it as an isolated waterfront."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "The late-eighteenth-century fortified town applied European military planning in a North African context. Rulers, merchants, and communities made it an international trading seaport."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "A planned port still changes with use. Maintaining its walls and streets must go together with keeping the historic town suitable for residents and local activity."
+      }
+    ],
+    "takeaway": "Essaouira’s story joins a designed town with a much larger trading geography.",
+    "source": {
+      "name": "UNESCO · Essaouira heritage and setting",
+      "url": "https://whc.unesco.org/en/list/753/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "ATLANTIC OCEAN",
+      "land": "ATLANTIC OCEAN"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "rabat",
+    "name": "Rabat",
+    "country": "Morocco",
+    "image": "why-rabat",
+    "theme": "HISTORIC CITY AND MODERN CAPITAL",
+    "title": "A modern capital grew beside an older city.",
+    "deck": "Rabat reveals how new planning can sit alongside a long-established urban landscape.",
+    "question": "Which connection or setting best explains Rabat’s story?",
+    "options": [
+      "A city built entirely on a glacier",
+      "An Atlantic estuary setting with old and modern urban layers",
+      "A landlocked town in the Andes"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The Atlantic coast and Bou Regreg estuary provide a setting where river and sea meet. Older fortified areas occupy a different urban pattern from later planned districts."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "The twentieth-century capital developed administrative, residential, commercial, and garden spaces alongside earlier parts of the city. Its character comes from the relationship between these layers."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Protecting a shared urban inheritance means caring for both older and modern districts. Neither can explain the city fully when treated on its own."
+      }
+    ],
+    "takeaway": "A new capital does not always erase the city that came before it.",
+    "source": {
+      "name": "UNESCO · Rabat heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1401/"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "BOU REGREG / ATLANTIC",
+      "land": "BOU REGREG / ATLANTIC"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "meknes",
+    "name": "Meknes",
+    "country": "Morocco",
+    "image": "why-meknes",
+    "theme": "MILITARY TOWN TO CAPITAL",
+    "title": "A ruler transformed an inland settlement.",
+    "deck": "Meknes’s scale reflects a deliberate period of capital building.",
+    "question": "Which connection or setting best explains Meknes’s story?",
+    "options": [
+      "An oceanic island built from coral",
+      "A city founded solely as a modern airport hub",
+      "An inland military settlement transformed by royal investment"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "An inland setting connected the settlement with regional land routes. Unlike a seaport, its urban growth did not depend on an open waterfront."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Founded as an Almoravid military settlement, Meknes became a capital under Moulay Ismaïl. Walls, monumental gates, and major building projects gave political ambition a visible urban form."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "A capital-building campaign can leave structures larger than later everyday needs. Their survival depends on maintenance and suitable uses within a continuing city."
+      }
+    ],
+    "takeaway": "The most decisive change in a city’s geography can be a ruler’s decision to invest.",
+    "source": {
+      "name": "UNESCO · Meknes heritage and setting",
+      "url": "https://whc.unesco.org/en/list/793/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "INLAND MOROCCAN ROUTES",
+      "land": "INLAND MOROCCAN ROUTES"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Meknès"
+    ]
+  },
+  {
+    "id": "saint-louis",
+    "name": "Saint-Louis",
+    "country": "Senegal",
+    "image": "why-saint-louis",
+    "theme": "ISLAND AND RIVER MOUTH",
+    "title": "An island became a river gateway.",
+    "deck": "Saint-Louis’s quays and regular streets reveal a settlement organised around water.",
+    "question": "Which connection or setting best explains Saint-Louis’s story?",
+    "options": [
+      "An island at the mouth of the Senegal River",
+      "A hilltop town in the Himalayas",
+      "A settlement on a frozen inland lake"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "An island near the Senegal River’s mouth offered a distinct building site between river connections and the Atlantic region. Its limits gave the urban core a compact outline."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "French colonial settlement and later capital functions supported quays, commercial activity, and an ordered street plan. The island town became an important cultural and economic centre."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "An island site makes connections to surrounding districts essential. Preserving the historic core requires attention to its river setting as well as individual buildings."
+      }
+    ],
+    "takeaway": "Saint-Louis’s grid sits within a boundary drawn by water.",
+    "source": {
+      "name": "UNESCO · Saint-Louis heritage and setting",
+      "url": "https://whc.unesco.org/en/list/956/"
+    },
+    "diagram": "estuary",
+    "diagramLabels": {
+      "water": "SENEGAL RIVER",
+      "land": "SENEGAL RIVER"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Saint Louis",
+      "Saint-Louis, Senegal"
+    ]
+  },
+  {
+    "id": "djenne",
+    "name": "Djenné",
+    "country": "Mali",
+    "image": "why-djenne",
+    "theme": "MARKET AND RAISED GROUND",
+    "title": "The town built above the flood.",
+    "deck": "Djenné connects trading history with an architecture adapted to seasonal water.",
+    "question": "Which connection or setting best explains Djenné’s story?",
+    "options": [
+      "A settlement on permanent sea ice",
+      "Raised ground within a seasonally flooded landscape",
+      "A town built without regard to seasonal water"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "Seasonal floods made small areas of raised ground important. Traditional houses were built on hillocks, giving settlement a practical response to a changing waterscape."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "The town developed as a market centre linked to trans-Saharan gold trade. Religious, commercial, and domestic life shaped a distinctive earthen urban landscape."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Earthen construction needs repeated care. The town’s survival reflects maintenance, skills, and community work rather than buildings that can simply be left untouched."
+      }
+    ],
+    "takeaway": "Sometimes a small difference in ground level helps explain where a town can endure.",
+    "source": {
+      "name": "UNESCO · Djenné heritage and setting",
+      "url": "https://whc.unesco.org/en/list/116/"
+    },
+    "diagram": "river",
+    "diagramLabels": {
+      "water": "SEASONAL FLOOD LANDSCAPE",
+      "land": "SEASONAL FLOOD LANDSCAPE"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Djenne"
+    ]
+  },
+  {
+    "id": "timbuktu",
+    "name": "Timbuktu",
+    "country": "Mali",
+    "image": "why-timbuktu",
+    "theme": "CARAVANS AND SCHOLARSHIP",
+    "title": "Exchange supported a city of learning.",
+    "deck": "Timbuktu’s history joins overland connections with intellectual and religious life.",
+    "question": "Which connection or setting best explains Timbuktu’s story?",
+    "options": [
+      "A town centred on an Antarctic harbour",
+      "A settlement with no links beyond its own streets",
+      "Saharan connections combined with institutions of learning"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The southern edge of the Sahara connected the town with wider caravan networks and the Niger region. Movement across different environments helped give the place regional significance."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Commerce and scholarship supported mosques, schools, and manuscript culture. Timbuktu became a major intellectual and spiritual centre in the fifteenth and sixteenth centuries."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Earthen buildings and collections need continued protection and care. The city’s significance lies in transmitted knowledge as well as its surviving architecture."
+      }
+    ],
+    "takeaway": "A trading crossroads can become a crossroads of ideas.",
+    "source": {
+      "name": "UNESCO · Timbuktu heritage and setting",
+      "url": "https://whc.unesco.org/en/list/119/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "SAHARA / SAHEL CONNECTIONS",
+      "land": "SAHARA / SAHEL CONNECTIONS"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Tombouctou"
+    ]
+  },
+  {
+    "id": "agadez",
+    "name": "Agadez",
+    "country": "Niger",
+    "image": "why-agadez",
+    "theme": "ENCAMPMENTS TO CITY",
+    "title": "Old encampments left a street pattern.",
+    "deck": "Agadez’s irregular quarters preserve traces of how settlement became urban.",
+    "question": "Which connection or setting best explains Agadez’s story?",
+    "options": [
+      "Caravan connections and quarters shaped by earlier encampments",
+      "A grid imposed on an empty polar island",
+      "A town built entirely on floating pontoons"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A site at the southern edge of the Sahara placed the town on caravan connections. A place where journeys converged could support exchange, rest, and services."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "As the Sultanate of Aïr developed, Tuareg groups settled while respecting earlier encampment boundaries. Those divisions helped shape irregular quarters and an enduring street pattern."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "The earthen city depends on building skills and maintenance. Its heritage includes commercial and craft traditions as well as prominent religious and palatial structures."
+      }
+    ],
+    "takeaway": "A street pattern can preserve the memory of life before the city.",
+    "source": {
+      "name": "UNESCO · Agadez heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1268/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "SAHARAN CARAVAN ROUTES",
+      "land": "SAHARAN CARAVAN ROUTES"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "asmara",
+    "name": "Asmara",
+    "country": "Eritrea",
+    "image": "why-asmara",
+    "theme": "HIGHLAND OUTPOST AND MODERNISM",
+    "title": "Colonial planning reshaped a highland settlement.",
+    "deck": "Asmara’s modernist buildings belong to a wider and unequal colonial urban history.",
+    "question": "Which connection or setting best explains Asmara’s story?",
+    "options": [
+      "A town built at the bottom of the Red Sea",
+      "A highland settlement reshaped by colonial planning",
+      "An Arctic island created for whaling"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A highland site more than two thousand metres above sea level distinguishes the city from nearby coastal ports. Regional connections linked this elevated settlement with a wider territory."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Italian colonial authorities developed a military outpost and later an extensive modernist building programme. Planned districts existed alongside Indigenous neighbourhoods, which also form part of the historic city."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Celebrating architectural design alone gives an incomplete account. Conservation needs to include the city’s African communities and colonial inequalities as well as its well-known buildings."
+      }
+    ],
+    "takeaway": "A celebrated urban style is only one layer of a city’s human history.",
+    "source": {
+      "name": "UNESCO · Asmara heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1550/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "ERITREAN HIGHLANDS",
+      "land": "ERITREAN HIGHLANDS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "harar",
+    "name": "Harar",
+    "country": "Ethiopia",
+    "image": "why-harar",
+    "theme": "FORTIFIED PLATEAU TOWN",
+    "title": "Walls enclosed a distinctive urban culture.",
+    "deck": "Harar’s setting and homes are as important to its story as its monuments.",
+    "question": "Which connection or setting best explains Harar’s story?",
+    "options": [
+      "A settlement on coral islands in open ocean",
+      "A city at the mouth of the Rhine",
+      "A fortified town on a plateau with deep gorges"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A plateau cut by deep gorges and surrounded by deserts and savannah gave the town a clearly defined regional setting. This was an inland urban centre rather than a maritime port."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Walls enclosed a town of mosques, shrines, and closely connected residential streets. The interiors of traditional houses express a particularly distinctive part of its cultural life."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Protecting a walled town means more than keeping its outline intact. Household spaces and living traditions need room to continue within the historic fabric."
+      }
+    ],
+    "takeaway": "The most revealing part of a historic city may be inside its homes.",
+    "source": {
+      "name": "UNESCO · Harar heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1189/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "PLATEAU AND GORGES",
+      "land": "PLATEAU AND GORGES"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Harar Jugol"
+    ]
+  },
+  {
+    "id": "lamu",
+    "name": "Lamu",
+    "country": "Kenya",
+    "image": "why-lamu",
+    "theme": "SWAHILI ISLAND TOWN",
+    "title": "An island town made exchange domestic.",
+    "deck": "Lamu’s houses and narrow streets show how maritime connections become everyday urban life.",
+    "question": "Which connection or setting best explains Lamu’s story?",
+    "options": [
+      "An East African island town connected with Indian Ocean routes",
+      "A settlement at the edge of a polar glacier",
+      "A landlocked town without maritime links"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "An island setting on the East African coast opened towards Indian Ocean routes. Water connected the town to a wider region while giving its waterfront a strong organising role."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Swahili builders developed homes in coral stone and mangrove timber, with courtyards, verandas, and carved doors. Commerce and religious life sustained a distinct urban culture."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Traditional materials and house forms require continued craftsmanship. Preserving the town should support its residential functions rather than reduce its architecture to a backdrop."
+      }
+    ],
+    "takeaway": "Ocean connections can be read in a town’s homes, not only in its harbour.",
+    "source": {
+      "name": "UNESCO · Lamu heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1055/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "INDIAN OCEAN CONNECTIONS",
+      "land": "INDIAN OCEAN CONNECTIONS"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "mombasa",
+    "name": "Mombasa",
+    "country": "Kenya",
+    "image": "why-mombasa",
+    "theme": "PORT AND STRATEGIC CONTROL",
+    "title": "A fort revealed the value of a port.",
+    "deck": "Fort Jesus makes a struggle over maritime access visible in stone.",
+    "question": "Which connection or setting best explains Mombasa’s story?",
+    "options": [
+      "A town built for Arctic research",
+      "A coastal port whose approaches attracted fortification",
+      "An inland settlement with no sea connections"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A coastal port on Indian Ocean routes offered access to shipping and regional exchange. Its approaches created places where fortification could influence movement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "The Portuguese built Fort Jesus in the late sixteenth century to protect the port. Its design applied military planning to a particular coastal site and became part of a longer history of changing control."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "A fort explains only part of a port city. Reading it well means connecting military architecture with commerce and the communities affected by those struggles."
+      }
+    ],
+    "takeaway": "Defensive architecture often points towards a connection people considered worth controlling.",
+    "source": {
+      "name": "UNESCO · Mombasa heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1295/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "MOMBASA PORT",
+      "land": "MOMBASA PORT"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "mozambique-island",
+    "name": "Island of Mozambique",
+    "country": "Mozambique",
+    "image": "why-mozambique-island",
+    "theme": "ISLAND TRADING POST",
+    "title": "A small island joined a long ocean route.",
+    "deck": "The Island of Mozambique linked a compact settlement with journeys far beyond its coast.",
+    "question": "Which connection or setting best explains Island of Mozambique’s story?",
+    "options": [
+      "A settlement on a Siberian ice sheet",
+      "A city far from any navigable water",
+      "An island trading post on Indian Ocean routes"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The island setting offered a maritime stopping place on routes connecting East Africa with the wider Indian Ocean. Its small area gave building and movement clear physical limits."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "A fortified trading town developed through local and Portuguese colonial interactions. Repeated use of related materials and construction techniques helped create a coherent architectural character."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Different neighbourhoods and building traditions belong to the same island history. Conservation must support residents and varied urban fabric, not just monumental waterfront buildings."
+      }
+    ],
+    "takeaway": "A very small place can occupy an important position in a very large network.",
+    "source": {
+      "name": "UNESCO · Island of Mozambique heritage and setting",
+      "url": "https://whc.unesco.org/en/list/599/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "INDIAN OCEAN",
+      "land": "INDIAN OCEAN"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Ilha de Moçambique",
+      "Mozambique Island"
+    ]
+  },
+  {
+    "id": "angra",
+    "name": "Angra do Heroísmo",
+    "country": "Portugal",
+    "image": "why-angra",
+    "theme": "ISLAND PORT OF CALL",
+    "title": "An ocean crossing needed places to pause.",
+    "deck": "Angra’s importance grew from its role in long-distance sailing networks.",
+    "question": "Which connection or setting best explains Angra do Heroísmo’s story?",
+    "options": [
+      "An Azorean port of call on Atlantic sailing routes",
+      "A town built at the source of the Nile",
+      "A capital on an uninhabited Antarctic plateau"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "Terceira’s position in the Azores placed the town within Atlantic voyage routes. A useful island harbour could provide an important stop rather than an ultimate destination."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Angra developed as a major port of call from the fifteenth century through the sailing era. Fortifications and urban institutions supported and protected maritime activity."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Shipping technology can change a port’s role. Earthquake damage and restoration also show that the town’s survival required rebuilding, not merely a favourable location."
+      }
+    ],
+    "takeaway": "A place can become important because of what lies between destinations.",
+    "source": {
+      "name": "UNESCO · Angra do Heroísmo heritage and setting",
+      "url": "https://whc.unesco.org/en/list/206/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "ATLANTIC OCEAN ROUTES",
+      "land": "ATLANTIC OCEAN ROUTES"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Angra do Heroismo"
+    ]
+  },
+  {
+    "id": "san-juan",
+    "name": "San Juan",
+    "country": "Puerto Rico, United States",
+    "image": "why-san-juan",
+    "theme": "HARBOUR ENTRANCE AND DEFENCE",
+    "title": "The harbour entrance became a defensive landscape.",
+    "deck": "San Juan’s fortifications show how military engineering responded to a coastal setting.",
+    "question": "Which connection or setting best explains San Juan’s story?",
+    "options": [
+      "A landlocked city in the Andes",
+      "A strategic bay protected by successive defensive works",
+      "A town built entirely beneath a glacier"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A bay opening towards the Caribbean created a valuable maritime connection. The shape of its entrance and nearby land influenced where defences could protect the city and harbour."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Successive defensive works developed over centuries. European military ideas were adapted to an American harbour site rather than copied without regard to the ground."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "The structures remain part of a modern urban landscape. Conservation has to consider access, public space, and the relationship between the city and its coast."
+      }
+    ],
+    "takeaway": "Fortifications make the geography of a harbour’s entrance unusually easy to read.",
+    "source": {
+      "name": "UNESCO · San Juan heritage and setting",
+      "url": "https://whc.unesco.org/en/list/266/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "BAY OF SAN JUAN",
+      "land": "BAY OF SAN JUAN"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "San Juan, Puerto Rico"
+    ]
+  },
+  {
+    "id": "santo-domingo",
+    "name": "Santo Domingo",
+    "country": "Dominican Republic",
+    "image": "why-santo-domingo",
+    "theme": "RIVER MOUTH AND COLONIAL GRID",
+    "title": "A colonial grid became a wider model.",
+    "deck": "Santo Domingo’s early urban plan influenced later Spanish colonial town building.",
+    "question": "Which connection or setting best explains Santo Domingo’s story?",
+    "options": [
+      "A settlement centred on an Arctic ice station",
+      "A city founded without any connection to water",
+      "A coastal river-mouth settlement organised on a grid"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The settlement developed near the Ozama River’s mouth on Hispaniola’s Caribbean coast. River and sea access gave the town a setting for port and administrative functions."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Colonial authorities organised streets around a grid and established major civic, commercial, and religious institutions. The plan became influential elsewhere in the Americas amid colonisation and profound disruption of Indigenous societies."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "The old centre survives within a much larger city. Keeping its streets usable and its history understandable requires more than preserving isolated early monuments."
+      }
+    ],
+    "takeaway": "An urban plan can travel far beyond the place where it first gains influence.",
+    "source": {
+      "name": "UNESCO · Santo Domingo heritage and setting",
+      "url": "https://whc.unesco.org/en/list/526/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "OZAMA RIVER / COAST",
+      "land": "OZAMA RIVER / COAST"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "panama-city",
+    "name": "Panama City",
+    "country": "Panama",
+    "image": "why-panama-city",
+    "theme": "CROSS-ISTHMUS EXCHANGE",
+    "title": "A narrow land bridge connected two ocean worlds.",
+    "deck": "Panama City’s historic sites belong to a route across the isthmus, not just a single waterfront.",
+    "question": "Which connection or setting best explains Panama City’s story?",
+    "options": [
+      "A Pacific city connected to routes across the isthmus",
+      "A settlement isolated in central Antarctica",
+      "A city built at the source of the Danube"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The Pacific side of a narrow isthmus offered access to routes crossing towards the Caribbean. Before the modern canal, moving across land was essential to these connections."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Colonial authorities developed ports, roads, and urban centres to move people and goods. Panamá Viejo and the later historic district record different stages of a city linked with transisthmian exchange."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "The historic route also carries the legacy of conquest and coerced labour. Its urban remains need to be understood within that wider human and transport landscape."
+      }
+    ],
+    "takeaway": "The canal is one chapter in a much longer history of crossing this land bridge.",
+    "source": {
+      "name": "UNESCO · Panama City heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1582/"
+    },
+    "diagram": "isthmus",
+    "diagramLabels": {
+      "water": "PACIFIC SIDE OF THE ISTHMUS",
+      "land": "PACIFIC SIDE OF THE ISTHMUS"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Panama",
+      "Panamá City",
+      "Panamá"
+    ]
+  },
+  {
+    "id": "willemstad",
+    "name": "Willemstad",
+    "country": "Curaçao, Kingdom of the Netherlands",
+    "image": "why-willemstad",
+    "theme": "HARBOUR AND CONNECTED DISTRICTS",
+    "title": "A natural harbour gathered different districts.",
+    "deck": "Willemstad grew through maritime exchange and a distinctive regional architectural mix.",
+    "question": "Which connection or setting best explains Willemstad’s story?",
+    "options": [
+      "A city in an inland Himalayan valley",
+      "A natural harbour supporting trade and distinct districts",
+      "A town built exclusively for polar exploration"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A sheltered natural harbour on Curaçao offered a place for ships and trading activity. Its waterway separated as well as connected parts of the urban settlement."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "A Dutch trading settlement founded in 1634 expanded into several historic districts. Buildings combined European planning ideas with influences from other Caribbean and Latin American ports."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Different districts belong to one harbour story. Preserving the urban setting means maintaining connections and everyday uses on both sides of the water."
+      }
+    ],
+    "takeaway": "A harbour can divide urban space while giving the whole city its reason to connect.",
+    "source": {
+      "name": "UNESCO · Willemstad heritage and setting",
+      "url": "https://whc.unesco.org/en/list/819/"
+    },
+    "diagram": "harbour",
+    "diagramLabels": {
+      "water": "NATURAL CARIBBEAN HARBOUR",
+      "land": "NATURAL CARIBBEAN HARBOUR"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "paramaribo",
+    "name": "Paramaribo",
+    "country": "Suriname",
+    "image": "why-paramaribo",
+    "theme": "RIVERFRONT AND LOCAL BUILDING",
+    "title": "An imported plan became a tropical city.",
+    "deck": "Paramaribo’s historic streets show overseas design adapted through local materials and skills.",
+    "question": "Which connection or setting best explains Paramaribo’s story?",
+    "options": [
+      "A city founded on an Alpine glacier",
+      "A settlement without river or coastal connections",
+      "A riverside colonial town adapted through local techniques"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "The historic centre stands beside the Suriname River. Natural shell ridges offered better-drained ground for its main streets, while surrounding marshy land required more engineering to build upon."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "The colonial street plan and buildings developed through Dutch influence and local construction traditions. Their combination produced a characteristic townscape rather than a direct copy of a European city."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Timber and other traditional materials need regular maintenance. The survival of the historic centre depends on continued building skills and viable residential and public uses."
+      }
+    ],
+    "takeaway": "Architecture changes when a planning tradition meets different materials, climate, and craftspeople.",
+    "source": {
+      "name": "UNESCO · Paramaribo heritage and setting",
+      "url": "https://whc.unesco.org/en/list/940/"
+    },
+    "diagram": "river",
+    "diagramLabels": {
+      "water": "SURINAME RIVER",
+      "land": "SURINAME RIVER"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "coro",
+    "name": "Coro",
+    "country": "Venezuela",
+    "image": "why-coro",
+    "theme": "EARTHEN CITY AND MARITIME LINK",
+    "title": "A town and its port formed a connected pair.",
+    "deck": "Coro’s earthen buildings tell a story of regional exchange and adapted construction.",
+    "question": "Which connection or setting best explains Coro’s story?",
+    "options": [
+      "An earthen-built town linked with a nearby coastal port",
+      "A settlement built entirely from Antarctic ice",
+      "A city designed without any regional connections"
+    ],
+    "correct": 0,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "Northern Venezuela provided a coastal regional setting, with the town linked to its port at La Vela. Urban and maritime functions did not have to occupy exactly the same place."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Founded in the sixteenth century, Coro combined local traditions with Spanish Mudéjar and Dutch architectural techniques. Earthen construction gave this exchange a distinctive physical form."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Earth buildings demand care suited to their materials. Preserving the town also means understanding its link with the port rather than treating the two as unrelated sites."
+      }
+    ],
+    "takeaway": "Sometimes the answer to why here involves two nearby places sharing different roles.",
+    "source": {
+      "name": "UNESCO · Coro heritage and setting",
+      "url": "https://whc.unesco.org/en/list/658/"
+    },
+    "diagram": "land-routes",
+    "diagramLabels": {
+      "water": "TOWN AND COASTAL PORT",
+      "land": "TOWN AND COASTAL PORT"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "arequipa",
+    "name": "Arequipa",
+    "country": "Peru",
+    "image": "why-arequipa",
+    "theme": "LOCAL STONE AND URBAN CRAFT",
+    "title": "A city built its character from volcanic stone.",
+    "deck": "Arequipa links regional geology with the work of builders from different traditions.",
+    "question": "Which connection or setting best explains Arequipa’s story?",
+    "options": [
+      "A city built entirely from imported polar ice",
+      "Local volcanic sillar shaped by diverse building traditions",
+      "A settlement dependent on a deep-sea coral mine"
+    ],
+    "correct": 1,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "An Andean setting supplied volcanic sillar, the building stone associated with the historic centre. The relationship between local material and urban form is especially visible here."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "Local, Indigenous, and European building techniques combined in walls, vaults, courtyards, and decorated facades. Skilled masons transformed a regional resource into a recognisable urban architecture."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "A material’s beauty does not eliminate structural needs. Caring for this built inheritance requires knowledge of construction as well as attention to changing urban uses."
+      }
+    ],
+    "takeaway": "Geology supplies a material; people give it architectural meaning.",
+    "source": {
+      "name": "UNESCO · Arequipa heritage and setting",
+      "url": "https://whc.unesco.org/en/list/1016/"
+    },
+    "diagram": "hills",
+    "diagramLabels": {
+      "water": "VOLCANIC ANDEAN SETTING",
+      "land": "VOLCANIC ANDEAN SETTING"
+    },
+    "reviewedOn": "2026-11-06"
+  },
+  {
+    "id": "antigua",
+    "name": "Antigua Guatemala",
+    "country": "Guatemala",
+    "image": "why-antigua",
+    "theme": "PLANNED CAPITAL AND EARTHQUAKES",
+    "title": "A formal plan met an unstable landscape.",
+    "deck": "Antigua’s streets and ruins record both colonial ambition and environmental limits.",
+    "question": "Which connection or setting best explains Antigua Guatemala’s story?",
+    "options": [
+      "A city built on a permanently stable sea-ice platform",
+      "An isolated settlement without a street plan",
+      "A planned highland capital in an earthquake-prone region"
+    ],
+    "correct": 2,
+    "steps": [
+      {
+        "label": "THE LANDSCAPE",
+        "title": "Read the setting.",
+        "text": "A highland site in an earthquake-prone region offered a dramatic but demanding setting. A regular street plan could organise movement without removing the risks beneath the city."
+      },
+      {
+        "label": "THE HUMAN CHOICE",
+        "title": "Connections became urban life.",
+        "text": "The colonial capital accumulated major buildings within a Renaissance-influenced grid. The destructive earthquake of 1773 changed its trajectory, leaving important monuments as ruins."
+      },
+      {
+        "label": "THE TRADE-OFF",
+        "title": "A living inheritance.",
+        "text": "Ruins are not incomplete copies of intact buildings. Their care must respect what survives while supporting a living town around them."
+      }
+    ],
+    "takeaway": "A city’s layout can be carefully planned while its future remains vulnerable to natural forces.",
+    "source": {
+      "name": "UNESCO · Antigua Guatemala heritage and setting",
+      "url": "https://whc.unesco.org/en/list/65/"
+    },
+    "diagram": "grid",
+    "diagramLabels": {
+      "water": "GUATEMALAN HIGHLANDS",
+      "land": "GUATEMALAN HIGHLANDS"
+    },
+    "reviewedOn": "2026-11-06",
+    "aliases": [
+      "Antigua"
+    ]
   }
 ]
