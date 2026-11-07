@@ -2441,5 +2441,100 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Zanzibar_sultan_palace.jpg",
     "description": "Stone Town"
+  },
+  "time-aswan-archive": {
+    "Artist": "UNESCO",
+    "LicenseShortName": "CC BY-SA 3.0 igo",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lats_works_on_the_Great_Temple_before_the_inauguration_ceremony_of_its_new_site.jpg",
+    "description": "File:Lats works on the Great Temple before the inauguration ceremony of its new site.jpg",
+    "archiveDate": "1968-01-02",
+    "archiveTitle": "File:Lats works on the Great Temple before the inauguration ceremony of its new site.jpg",
+    "imageDescription": "Abu - Simbel - The international campaign for saving of the Nubian monuments was launched by Unesco in 1960. Lats works on the Great Temple before the inauguration ceremony of its new site."
+  },
+  "time-aswan-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161013233832/http://www.panoramio.com/user/1642678?with_photo_id=27079522\">youssef_alam</a>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Ramsis,_Aswan_Governorate,_Egypt_-_panoramio.jpg",
+    "description": "Abu Simbel"
+  },
+  "time-paris-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Charles_Marville\" class=\"extiw\" title=\"w:en:Charles Marville\"><span title=\"French photographer (1813-1879)\">Charles Marville</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Marville,_Avenue_de_l%27Opera,_1878.jpg",
+    "description": "File:Charles Marville, Avenue de l'Opera, 1878.jpg",
+    "archiveDate": "1878<div style=\"display: none;\">date QS:P571,+1878-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Charles Marville, Avenue de l'Opera, 1878.jpg",
+    "imageDescription": "Oudry style lamp post with a cluster of 3 lamps on edge of footpath, shops in background."
+  },
+  "time-medellin-archive": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:JoranL&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:JoranL (page does not exist)\">JoranL</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Biblioteca_de_Espa%C3%B1a_and_Metrocable_02.jpg",
+    "description": "File:Biblioteca de España and Metrocable 02.jpg",
+    "archiveDate": "2009-02-17 16:40:39",
+    "archiveTitle": "File:Biblioteca de España and Metrocable 02.jpg",
+    "imageDescription": "Both the Metrocable and the Library have been symbols of the modernisation of Medellín, in particular marginalised areas like Comuna 1, far up the hills that surround the city."
+  },
+  "time-medellin-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lucelupe&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lucelupe (page does not exist)\">Lucelupe</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cabinas_del_Metrocable_en_Medell%C3%ADn.jpg",
+    "description": "File:Cabinas del Metrocable en Medellín.jpg"
+  },
+  "time-detroit-archive": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/Curt_Teich\" class=\"extiw\" title=\"en:Curt Teich\">Curt Teich</a> &amp; Co. Chicago., Publisher",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:POSTCARD_New_Michigan_Central_Station_circa_1915.jpg",
+    "description": "File:POSTCARD New Michigan Central Station circa 1915.jpg",
+    "archiveDate": "between 1913 and 1915<div style=\"display: none;\">date QS:P,+1913-00-00T00:00:00Z/8,P1319,+1913-00-00T00:00:00Z/9,P1326,+1915-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:POSTCARD New Michigan Central Station circa 1915.jpg",
+    "imageDescription": "<i>New Michigan Central Station, Detroit, Mich.</i>\n<dl><dd>Reverse text: \"The New Michigan Central Station is located near Michigan Avenue between fifteenth and seventeenth Streets, covers twenty-one acres and the total cost is $15,000,000.00.  There will be eleven tracks in the station that will accommodate 135 passenger coaches.  It will have all conveniences, such as a complete Drug Store with special facilities for the care of Invalids and Change Room where travelers can at nominal cost obtain Shower Baths and make a change of clothing.  Accommodations for passengers will not be outdone by any Railroad Station in the World.\"</dd>\n<dd>Postcard 32214</dd></dl>"
+  },
+  "time-detroit-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cards84664\" title=\"User:Cards84664\">Cards84664</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Michigan_Central_Station,_May_2024_(1).png",
+    "description": "File:Michigan Central Station, May 2024 (1).png"
+  },
+  "time-wellington-archive": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/35759981@N08\">Archives New Zealand</a> from New Zealand",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Plan_of_the_Town_of_Wellington,_1840_(11968849753).jpg",
+    "description": "File:Plan of the Town of Wellington, 1840 (11968849753).jpg",
+    "archiveDate": "1840",
+    "archiveTitle": "File:Plan of the Town of Wellington, 1840 (11968849753).jpg",
+    "imageDescription": "<p>On 22 January 1840, the first of the New Zealand Company's ships, the Aurora, arrived in Petone, marking the founding of the settlement that would become known as Wellington.\n</p><p>The new town, named in honour of Arthur Wellesley, the first Duke of Wellington, was established to promote a British colony in New Zealand. William Wakefield, the Company's New Zealand agent, left instructions for the settlement to be laid out around Lambton Harbour. However, the Company's chief surveyor, William Mein Smith, placed the town near the mouth of the Hutt River. Unfortunately, early European inhabitants of the region did not realise that the Hutt River was prone to flooding. \n</p><p>On his return from England a few months later, Wakefield moved the town to less flood-prone Lambton Harbour. The land had not been sold by its Māori occupants, but this did not stop the company subdividing it into town acres. One tenth of these were kept for Māori use. A green reserve running around the edge of the settlement was also set aside. This became known as the Town Belt.\n</p><p>The map above is part of the Ministry of Works and Development records held by Archives New Zealand. The department was established in 1870 to undertake public works such as the construction of roads, railways, bridges and public buildings.\nArchives Reference: AADX W3142 51 (R21084707)\n</p><p>Further information about the settlement of Wellington can be found here: \n<a rel=\"nofollow\" class=\"external text\" href=\"http://www.nzhistory.net.nz/wellington-anniversary-day\">www.nzhistory.net.nz/wellington-anniversary-day</a>\n</p><p>For updates on our On This Day series and news from Archives New Zealand, follow us on Twitter twitter.com/ArchivesNZ\n</p>\nMaterial supplied by Archives New Zealand"
+  },
+  "time-wellington-modern": {
+    "Artist": "<a href=\"//www.flickr.com/people/42033648@N00\" class=\"extiw\" title=\"flickruser:42033648@N00\">Phillip Capper</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg",
+    "description": "Wellington Harbour"
+  },
+  "time-paris-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Zairon\" title=\"User:Zairon\">Zairon</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_Avenue_de_l%27Op%C3%A9ra.jpg",
+    "description": "File:Paris Avenue de l'Opéra.jpg"
   }
 }

@@ -1253,5 +1253,260 @@
     "modernImage": "time-zanzibar-modern",
     "modernCredit": "time-zanzibar-modern",
     "modernPath": "/images/connections/time-zanzibar-modern.jpg"
+  },
+  {
+    "id": "aswan",
+    "name": "Aswan & Abu Simbel",
+    "country": "Egypt",
+    "title": "The temples that moved.",
+    "deck": "The High Dam changed the Nile valley. At Abu Simbel, rescuers moved two temples above the rising water.",
+    "archiveDate": "1968",
+    "archiveTitle": "Finishing work at the relocated Great Temple",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Abu Simbel at its relocated site",
+    "changed": "The reservoir covered parts of the old valley. Nubian communities were displaced, while selected monuments were relocated.",
+    "persisted": "The temples still face the Nile landscape from their reconstructed setting.",
+    "notice": "The archive shows work at the new site before inauguration.",
+    "sources": [
+      {
+        "name": "UNESCO · Nubian rescue campaign",
+        "url": "https://whc.unesco.org/en/activities/172/"
+      },
+      {
+        "name": "UNESCO · Nubian monuments",
+        "url": "https://whc.unesco.org/en/list/88/"
+      }
+    ],
+    "eras": [
+      [
+        "Ancient Nubia",
+        "Temples cut into rock",
+        "The temples of Abu Simbel were carved into the rock under Ramesses II."
+      ],
+      [
+        "1960s",
+        "A rising reservoir",
+        "Construction of the Aswan High Dam threatened monuments and displaced Nubian communities."
+      ],
+      [
+        "1968",
+        "Reassembled above the water",
+        "Workers cut the temples into blocks and rebuilt them higher above the valley."
+      ],
+      [
+        "Present day",
+        "A relocated landmark",
+        "The reconstructed setting preserves the monumental façades and gives visitors a view of the rescue work’s result."
+      ]
+    ],
+    "archiveImage": "time-aswan-archive",
+    "archivePath": "/images/connections/time-aswan-archive.jpg",
+    "modernImage": "time-aswan-modern",
+    "modernCredit": "time-aswan-modern",
+    "modernPath": "/images/connections/time-aswan-modern.jpg"
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "title": "An avenue through the old city.",
+    "deck": "Avenue de l’Opéra shows how nineteenth-century rebuilding opened new routes and views through Paris.",
+    "archiveDate": "1878",
+    "archiveTitle": "Streetlamp on Avenue de l’Opéra, photographed by Charles Marville",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Avenue de l’Opéra in modern Paris",
+    "changed": "A broad avenue cut through an older network of streets.",
+    "persisted": "The avenue still frames the approach to the opera house.",
+    "notice": "Marville’s close view shows the avenue’s street furniture. The wider modern photograph shows the corridor those lamps once lined.",
+    "sources": [
+      {
+        "name": "City of Paris · Haussmann and Marville",
+        "url": "https://www.paris.fr/pages/haussmann-et-marville-une-histoire-de-l-urbanisme-et-de-la-photographie-23455"
+      }
+    ],
+    "eras": [
+      [
+        "Before the works",
+        "An older street network",
+        "Small streets and densely built blocks occupied the area crossed by the new avenue."
+      ],
+      [
+        "Mid-19th century",
+        "Replanning Paris",
+        "Under Napoleon III, Haussmann oversaw extensive changes to the capital’s streets and infrastructure."
+      ],
+      [
+        "1878",
+        "The new route photographed",
+        "Marville documented details of the rebuilt city, including this streetlamp on the avenue."
+      ],
+      [
+        "Present day",
+        "An enduring sightline",
+        "The broad street still leads the eye toward the Palais Garnier."
+      ]
+    ],
+    "archiveImage": "time-paris-archive",
+    "archivePath": "/images/connections/time-paris-archive.jpg",
+    "modernImage": "time-paris-modern",
+    "modernCredit": "time-paris-modern",
+    "modernPath": "/images/connections/time-paris-modern.jpg"
+  },
+  {
+    "id": "medellin",
+    "name": "Medellín",
+    "country": "Colombia",
+    "title": "When the hills joined the metro.",
+    "deck": "A cable car made the steep slopes part of Medellín’s everyday transit network.",
+    "archiveDate": "2009",
+    "archiveTitle": "An early view of Metrocable and Biblioteca España",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Metrocable cabins above Medellín",
+    "changed": "Line K connected hillside neighborhoods to the metro at Acevedo.",
+    "persisted": "The slopes still shape the route, the station locations, and the view from each cabin.",
+    "notice": "The archive shows the line in service several years after it opened.",
+    "sources": [
+      {
+        "name": "Metro de Medellín · History",
+        "url": "https://www.metrodemedellin.gov.co/quienes-somos/historia/"
+      },
+      {
+        "name": "World Bank · Metropolitan Medellín",
+        "url": "https://documents.worldbank.org/curated/en/794921605300053603/pdf/Metropolitan-Medellin-Somos10-Integrating-Ten-Municipalities-into-One-Metropolis.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "Before Line K",
+        "A city on steep slopes",
+        "Hillside neighborhoods and valley transport corridors presented different access challenges."
+      ],
+      [
+        "2004",
+        "A cable joins the metro",
+        "Line K began service, linking the slopes with the rail network at Acevedo."
+      ],
+      [
+        "2009",
+        "The line in everyday use",
+        "The archive shows the cable route alongside the Biblioteca España in Santo Domingo."
+      ],
+      [
+        "Present day",
+        "A transit network above the streets",
+        "Cable cars serve parts of the metropolitan network, connecting stations across terrain that shapes how people travel."
+      ]
+    ],
+    "archiveImage": "time-medellin-archive",
+    "archivePath": "/images/connections/time-medellin-archive.jpg",
+    "modernImage": "time-medellin-modern",
+    "modernCredit": "time-medellin-modern",
+    "modernPath": "/images/connections/time-medellin-modern.jpg"
+  },
+  {
+    "id": "detroit",
+    "name": "Detroit",
+    "country": "United States",
+    "title": "A station finds a second life.",
+    "deck": "Michigan Central Station went from rail gateway to long closure and then reopened with a new purpose.",
+    "archiveDate": "c. 1913–1915",
+    "archiveTitle": "Postcard of the new Michigan Central Station",
+    "archiveType": "Historical postcard",
+    "modernTitle": "Michigan Central Station in May 2024",
+    "changed": "Passenger rail service ended in 1988. The restored building reopened in 2024 as part of a technology and cultural campus.",
+    "persisted": "The station’s prominent tower and grand entrance still anchor the view.",
+    "notice": "Compare the tower and entrance. The modern image dates from shortly before the reopening.",
+    "sources": [
+      {
+        "name": "Ford · Michigan Central reopening",
+        "url": "https://www.fromtheroad.ford.com/us/en/articles/2024/new-michigan-central-station-reopens-as-heart-of-a-culture-and-t"
+      },
+      {
+        "name": "The Henry Ford · Michigan Central Station",
+        "url": "https://www.thehenryford.org/collections/explore/artifact/275164"
+      }
+    ],
+    "eras": [
+      [
+        "1913",
+        "A new rail gateway",
+        "Michigan Central Station opened as a major passenger rail terminal."
+      ],
+      [
+        "Early 20th century",
+        "The station on a postcard",
+        "The archive shows the new building as a landmark worth sending home."
+      ],
+      [
+        "1988",
+        "Passenger service ends",
+        "The last passenger trains departed and the station entered a long period of vacancy."
+      ],
+      [
+        "2024",
+        "The doors reopen",
+        "Restoration gave the building a new role in a campus for technology and public events."
+      ]
+    ],
+    "archiveImage": "time-detroit-archive",
+    "archivePath": "/images/connections/time-detroit-archive.jpg",
+    "modernImage": "time-detroit-modern",
+    "modernCredit": "time-detroit-modern",
+    "modernPath": "/images/connections/time-detroit-modern.jpg"
+  },
+  {
+    "id": "wellington",
+    "name": "Wellington",
+    "country": "New Zealand",
+    "title": "The shoreline that moved.",
+    "deck": "An early town plan records a harbour edge reshaped by earthquake uplift and later reclamation.",
+    "archiveDate": "1840",
+    "archiveTitle": "Early plan of the town of Wellington",
+    "archiveType": "Historical planning map",
+    "modernTitle": "Wellington Harbour and the modern waterfront",
+    "changed": "Earthquake uplift changed parts of the coast. Reclamation separately extended the built waterfront.",
+    "persisted": "The harbour and steep hills still frame the city.",
+    "notice": "Use the plan to locate the old shoreline. Proposed streets on the map show the surveyors’ intentions.",
+    "sources": [
+      {
+        "name": "New Zealand History · 1855 earthquake",
+        "url": "https://nzhistory.govt.nz/massive-earthquake-hits-wellington"
+      },
+      {
+        "name": "Te Ara · Plans for Wellington in 1841",
+        "url": "https://teara.govt.nz/en/zoomify/4438/plans-for-wellington-in-1841"
+      },
+      {
+        "name": "Wellington City Council · Old Shoreline Trail",
+        "url": "https://wellington.govt.nz/-/media/recreation/enjoy-the-outdoors/walks-and-walkways/files/heritage-trails/oldshorelinetrail.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "1840",
+        "A town plan at the harbour",
+        "The early survey placed streets beside Lambton Harbour in a landscape already inhabited by Māori."
+      ],
+      [
+        "1855",
+        "The ground rises",
+        "The Wairarapa earthquake lifted land around Wellington Harbour and altered parts of the shoreline."
+      ],
+      [
+        "Later development",
+        "Building outward",
+        "Reclamation added land in stages, extending the waterfront beyond the earlier shoreline."
+      ],
+      [
+        "Present day",
+        "Reading the old coast",
+        "The modern waterfront lies beyond parts of the shore shown on early plans. The harbour remains central to the city’s shape."
+      ]
+    ],
+    "archiveImage": "time-wellington-archive",
+    "archivePath": "/images/connections/time-wellington-archive.jpg",
+    "modernImage": "time-wellington-modern",
+    "modernCredit": "time-wellington-modern",
+    "modernPath": "/images/connections/time-wellington-modern.jpg"
   }
 ]
