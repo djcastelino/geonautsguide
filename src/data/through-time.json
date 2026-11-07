@@ -1508,5 +1508,248 @@
     "modernImage": "time-wellington-modern",
     "modernCredit": "time-wellington-modern",
     "modernPath": "/images/connections/time-wellington-modern.jpg"
+  },
+  {
+    "id": "panama-city",
+    "name": "Panama City",
+    "country": "Panama",
+    "title": "The city that moved.",
+    "deck": "Two sites tell the story of a capital rebuilt on a different stretch of coast.",
+    "archiveDate": "1908",
+    "archiveTitle": "Ruins of the original city at Panamá Viejo",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Casco Antiguo, the relocated historic centre",
+    "changed": "The city moved after the original settlement was destroyed in 1671.",
+    "persisted": "The Pacific coast continued to shape the city’s role as a trading and administrative centre.",
+    "notice": "The images show two separate sites. The ruined cathedral tower belongs to the original settlement.",
+    "sources": [
+      {
+        "name": "UNESCO · Archaeological Site and Historic Centre of Panamá City",
+        "url": "https://whc.unesco.org/en/tentativelists/5970"
+      }
+    ],
+    "eras": [
+      [
+        "1519",
+        "A Pacific settlement",
+        "The Spanish founded Panamá at the site now called Panamá Viejo."
+      ],
+      [
+        "1671",
+        "The original city falls",
+        "The attack led by Henry Morgan left the city devastated."
+      ],
+      [
+        "1673",
+        "A new site",
+        "The settlement moved to a peninsula where it could be defended more readily."
+      ],
+      [
+        "Present day",
+        "Two places to read one history",
+        "The ruins of Panamá Viejo and the streets of Casco Antiguo preserve different chapters of the city’s development."
+      ]
+    ],
+    "archiveImage": "time-panama-city-archive",
+    "archivePath": "/images/connections/time-panama-city-archive.jpg",
+    "modernImage": "time-panama-city-modern",
+    "modernCredit": "time-panama-city-modern",
+    "modernPath": "/images/connections/time-panama-city-modern.jpg"
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "title": "The city that grew into a grid.",
+    "deck": "Cerdà’s expansion plan and the Eixample from above show how a drawing became a street pattern.",
+    "archiveDate": "1859",
+    "archiveTitle": "Ildefons Cerdà’s expansion plan",
+    "archiveType": "Historical planning map",
+    "modernTitle": "The Eixample from above",
+    "changed": "Expansion extended Barcelona beyond the old city in a regular network of streets and blocks.",
+    "persisted": "The clipped block corners and diagonal routes remain easy to spot from above.",
+    "notice": "Compare the repeated block shapes. The plan records Cerdà’s proposal, while the aerial view records what was built.",
+    "sources": [
+      {
+        "name": "Barcelona History Museum · Cerdà and Barcelona",
+        "url": "https://www.barcelona.cat/museuhistoria/sites/default/files/cerda_cat.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "Before the expansion",
+        "A city within walls",
+        "Barcelona’s growth put pressure on space within the old city."
+      ],
+      [
+        "1859",
+        "An extension on paper",
+        "Cerdà proposed a network of streets and blocks extending across the surrounding plain."
+      ],
+      [
+        "Later 19th century",
+        "The grid takes shape",
+        "Development filled the new blocks over time, adapting the plan as land was built on."
+      ],
+      [
+        "Present day",
+        "A pattern still visible",
+        "The Eixample’s regular blocks and angled corners give the district a recognizable form."
+      ]
+    ],
+    "archiveImage": "time-barcelona-archive",
+    "archivePath": "/images/connections/time-barcelona-archive.jpg",
+    "modernImage": "time-barcelona-modern",
+    "modernCredit": "time-barcelona-modern",
+    "modernPath": "/images/connections/time-barcelona-modern.jpg"
+  },
+  {
+    "id": "seattle",
+    "name": "Seattle",
+    "country": "United States",
+    "title": "Rebuilding above the old streets.",
+    "deck": "The Great Seattle Fire left ruins where Pioneer Square’s brick and stone streetscape would rise.",
+    "archiveDate": "1889",
+    "archiveTitle": "Ruins after the Great Seattle Fire",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Seattle’s Pioneer Square district",
+    "changed": "Reconstruction changed building materials and raised street levels in parts of the district.",
+    "persisted": "Pioneer Square remained a recognizable centre of Seattle’s early commercial history.",
+    "notice": "Look at the ruined buildings and then at the masonry of the rebuilt district. The views show different angles.",
+    "sources": [
+      {
+        "name": "Seattle Municipal Archives · Great Seattle Fire",
+        "url": "https://www.seattle.gov/city-archives/exhibits-and-education/digital-document-libraries/the-great-seattle-fire-of-1889"
+      },
+      {
+        "name": "City of Seattle · Pioneer Square Preservation District",
+        "url": "https://www.adc.seattle.gov/neighborhoods/historic-preservation/historic-districts/pioneer-square-preservation-district"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1889",
+        "A commercial district",
+        "Early Seattle’s business district grew around the waterfront."
+      ],
+      [
+        "June 1889",
+        "The fire spreads",
+        "A fire swept through much of the commercial district, leaving the ruins shown in the archive."
+      ],
+      [
+        "Reconstruction",
+        "A different building fabric",
+        "The city rebuilt with brick and stone, and street grades changed in parts of the district."
+      ],
+      [
+        "Present day",
+        "A district with layers",
+        "Pioneer Square preserves much of the streetscape built after the fire."
+      ]
+    ],
+    "archiveImage": "time-seattle-archive",
+    "archivePath": "/images/connections/time-seattle-archive.jpg",
+    "modernImage": "time-seattle-modern",
+    "modernCredit": "time-seattle-modern",
+    "modernPath": "/images/connections/time-seattle-modern.jpg"
+  },
+  {
+    "id": "napier",
+    "name": "Napier",
+    "country": "New Zealand",
+    "title": "An earthquake and an Art Deco city.",
+    "deck": "The 1931 earthquake brought a concentrated period of rebuilding that still shapes central Napier.",
+    "archiveDate": "1931",
+    "archiveTitle": "Demolition at the post office on Shakespeare Road",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Art Deco architecture in central Napier",
+    "changed": "The earthquake and fires damaged central Napier. Reconstruction introduced a new generation of buildings.",
+    "persisted": "The rebuilt centre retains many of the buildings and decorative details of the 1930s.",
+    "notice": "The archive shows demolition after the earthquake. The modern view shows architecture from the rebuilding era.",
+    "sources": [
+      {
+        "name": "Te Ara · Rebuilding Napier",
+        "url": "https://teara.govt.nz/mi/historic-earthquakes/page-8"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1931",
+        "A growing coastal town",
+        "Napier had a commercial centre serving the wider Hawke’s Bay region."
+      ],
+      [
+        "February 1931",
+        "Earthquake and fire",
+        "The disaster damaged the town and disrupted daily life."
+      ],
+      [
+        "Early 1930s",
+        "Rebuilding in a short span",
+        "Much of the centre was rebuilt within a few years, when Art Deco and related styles were in use."
+      ],
+      [
+        "Present day",
+        "The rebuilding era in view",
+        "Street façades and decorative details let visitors read the period of reconstruction."
+      ]
+    ],
+    "archiveImage": "time-napier-archive",
+    "archivePath": "/images/connections/time-napier-archive.jpg",
+    "modernImage": "time-napier-modern",
+    "modernCredit": "time-napier-modern",
+    "modernPath": "/images/connections/time-napier-modern.jpg"
+  },
+  {
+    "id": "chandigarh",
+    "name": "Chandigarh",
+    "country": "India",
+    "title": "Building a new seat of government.",
+    "deck": "The Capitol Complex makes the ambitions of a planned capital visible in concrete and open space.",
+    "archiveDate": "2006",
+    "archiveTitle": "Earlier view of Chandigarh’s Secretariat",
+    "archiveType": "Historical photograph of the completed building",
+    "modernTitle": "The Secretariat and Palace of Assembly",
+    "changed": "A new planned city took shape after Partition created the need for a capital for Indian Punjab.",
+    "persisted": "The Secretariat still expresses the scale and design of the Capitol Complex.",
+    "notice": "The archive shows the completed Secretariat. The wider view brings the Assembly into the picture and shows how the buildings relate to each other.",
+    "sources": [
+      {
+        "name": "Chandigarh Administration · Historical background",
+        "url": "https://chandigarh.gov.in/historical-background"
+      },
+      {
+        "name": "UNESCO · Architectural Work of Le Corbusier",
+        "url": "https://whc.unesco.org/en/list/1321/"
+      }
+    ],
+    "eras": [
+      [
+        "1947",
+        "A capital needed",
+        "Partition placed Lahore in Pakistan, creating the need for a new capital for Indian Punjab."
+      ],
+      [
+        "Early 1950s",
+        "Designing a city",
+        "An initial plan by Albert Mayer’s team was followed by a revised plan led by Le Corbusier and collaborators."
+      ],
+      [
+        "Building the capital",
+        "A monumental government precinct",
+        "The Capitol Complex brought together the Secretariat, Assembly, and High Court."
+      ],
+      [
+        "Present day",
+        "The plan in use",
+        "The complex remains a government precinct and part of a UNESCO listing for Le Corbusier’s architectural work."
+      ]
+    ],
+    "archiveImage": "time-chandigarh-archive",
+    "archivePath": "/images/connections/time-chandigarh-archive.jpg",
+    "modernImage": "time-chandigarh-modern",
+    "modernCredit": "time-chandigarh-modern",
+    "modernPath": "/images/connections/time-chandigarh-modern.jpg"
   }
 ]
