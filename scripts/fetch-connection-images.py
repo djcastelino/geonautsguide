@@ -28,7 +28,7 @@ def fetch(item):
  meta=json.loads(get('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params)))
  info=next(iter(meta['query']['pages'].values()))['imageinfo'][0];m=info['extmetadata']
  credit={k:m.get(k,{}).get('value','') for k in ['Artist','LicenseShortName','LicenseUrl','AttributionRequired']}
- if credit['LicenseShortName'] not in {'Public domain','CC0','CC BY 2.0','CC BY 2.5','CC BY 3.0','CC BY 3.0 au','CC BY 4.0','CC BY-SA 2.0','CC BY-SA 2.5','CC BY-SA 3.0','CC BY-SA 3.0 de','CC BY-SA 2.0 fr','CC BY-SA 3.0 igo','CC BY-SA 3.0 es','CC BY-SA 4.0'}:raise ValueError('Review license for '+key+': '+credit['LicenseShortName'])
+ if credit['LicenseShortName'] not in {'KOGL Type 1','Public domain','CC0','CC BY 2.0','CC BY 2.5','CC BY 3.0','CC BY 3.0 au','CC BY 4.0','CC BY-SA 2.0','CC BY-SA 2.5','CC BY-SA 3.0','CC BY-SA 3.0 de','CC BY-SA 2.0 fr','CC BY-SA 3.0 igo','CC BY-SA 3.0 es','CC BY-SA 4.0'}:raise ValueError('Review license for '+key+': '+credit['LicenseShortName'])
  credit['source']=info['descriptionurl'];credit['description']=title.replace('_',' ')
  picture=Image.open(io.BytesIO(get(info.get('thumburl',info['url'])))).convert('RGB');picture.thumbnail((1200,1000));picture.save(ROOT/'public/images/connections'/f'{key}.jpg',quality=84,optimize=True)
  return key,credit

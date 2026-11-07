@@ -24,7 +24,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 | --- | --- | --- | --- |
 | 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 100 stories in the production collection after the November 5 expansion. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | 100-city collection completed November 6. Includes location quizzes, written landscape stories, narration and post-quiz links. |
-| 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Ten-city collection published: Rome, Istanbul, London, Cairo, Kyoto, Berlin, Singapore, Venice, New York City and Hiroshima. Archive/present views, sourced timeline chapters and optional narration. |
+| 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Fifteen-city collection published: Rome, Istanbul, London, Cairo, Kyoto, Berlin, Singapore, Venice, New York City, Hiroshima, Seoul, Hong Kong, Warsaw, San Francisco and Dubai. Archive/present views, sourced timeline chapters and optional narration. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
 | 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
 
@@ -165,3 +165,6 @@ Update this file when a feature is approved, implemented, postponed, or released
 - **November 6, 2026:** User approved the five-city Through Time preview for production publication.
 
 - **November 6, 2026:** Added Berlin, Singapore, Venice, New York City and Hiroshima after selecting dated archival images that support clear change/continuity stories. Collection total: 10.
+
+### Through Time expansion — 15 cities
+Added Seoul, Hong Kong, Warsaw, San Francisco, and Dubai, with dated archive views, separately credited modern images, four-chapter timelines, and research links. Hong Kong’s archive is explicitly labelled as a painting. Existing quizzes, Planet Connections, and Why Here remain available.
