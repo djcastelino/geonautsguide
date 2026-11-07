@@ -500,5 +500,252 @@
     "modernImage": "time-hiroshima-modern",
     "modernCredit": "time-hiroshima-modern",
     "modernPath": "/images/connections/time-hiroshima-modern.jpg"
+  },
+  {
+    "id": "seoul",
+    "name": "Seoul",
+    "country": "South Korea",
+    "title": "A stream hidden. A stream revealed.",
+    "deck": "Cheonggyecheon shows how the same corridor can serve very different ideas of a modern city.",
+    "archiveDate": "5 August 1960",
+    "archiveTitle": "Construction covering Cheonggyecheon",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The reopened Cheonggyecheon corridor",
+    "changed": "A covered watercourse and traffic corridor became a public space beside flowing water.",
+    "persisted": "The stream’s route still threads through central Seoul, even as its surroundings and management change.",
+    "notice": "The archive shows covering work, not the later elevated highway. Today’s stream is maintained infrastructure, rather than an untouched river.",
+    "sources": [
+      {
+        "name": "Seoul Metropolitan Government · Cheonggyecheon restoration",
+        "url": "https://english.seoul.go.kr/service/amusement/stream/1-cheonggyecheon/"
+      },
+      {
+        "name": "Seoul Metropolitan Government · History",
+        "url": "https://english.seoul.go.kr/seoul-views/meaning-of-seoul/1-history/"
+      }
+    ],
+    "eras": [
+      [
+        "Before covering",
+        "Water through the city",
+        "The stream formed a working corridor within the growing capital."
+      ],
+      [
+        "1960",
+        "Building over water",
+        "The archive catches the physical act of covering the channel. Later roads made traffic the dominant experience here."
+      ],
+      [
+        "2003–2005",
+        "Choosing a different corridor",
+        "Seoul removed road infrastructure and reopened the stream as part of a major restoration project."
+      ],
+      [
+        "Present day",
+        "An engineered public landscape",
+        "Paths and crossings bring people close to the water. Its flow requires ongoing management and supplied water."
+      ]
+    ],
+    "archiveImage": "time-seoul-archive",
+    "archivePath": "/images/connections/time-seoul-archive.jpg",
+    "modernImage": "time-seoul-modern",
+    "modernCredit": "time-seoul-modern",
+    "modernPath": "/images/connections/time-seoul-modern.jpg"
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "country": "China",
+    "title": "The hills stayed. The shoreline moved.",
+    "deck": "An early harbour painting and a modern skyline reveal both a recognisable setting and a waterfront rebuilt outward.",
+    "archiveDate": "c. 1850",
+    "archiveTitle": "Hong Kong Harbour and Victoria Peak",
+    "archiveType": "Historical painting · not a photograph",
+    "modernTitle": "Victoria Harbour and the modern skyline",
+    "changed": "Reclamation extended parts of the shore while successive development built upward.",
+    "persisted": "The harbour and steep island backdrop continue to shape the city’s identity.",
+    "notice": "Compare the hills and the density of buildings. These are different viewpoints, and the painted scene is an artist’s representation.",
+    "sources": [
+      {
+        "name": "Hong Kong Development Bureau · Our Central",
+        "url": "https://www.devb.gov.hk/en/issues_in_focus/conserving_central/our_central/index.html"
+      }
+    ],
+    "eras": [
+      [
+        "1841 onward",
+        "An administrative waterfront",
+        "The area later known as Central developed as a colonial administrative and trading centre beside the harbour."
+      ],
+      [
+        "c. 1850",
+        "A harbour pictured",
+        "The archive painting records an early view of shipping and settlement beneath the island’s hills."
+      ],
+      [
+        "Later development",
+        "Land made from water",
+        "Reclamation, transport links, and rebuilding changed the relationship between streets and shore."
+      ],
+      [
+        "Present day",
+        "A vertical waterfront",
+        "High-rise development defines much of the skyline, while the harbour remains the larger geographic frame."
+      ]
+    ],
+    "archiveImage": "time-hong-kong-archive",
+    "archivePath": "/images/connections/time-hong-kong-archive.jpg",
+    "modernImage": "why-hong-kong",
+    "modernCredit": "why-hong-kong",
+    "modernPath": "/images/connections/why-hong-kong.jpg"
+  },
+  {
+    "id": "warsaw",
+    "name": "Warsaw",
+    "country": "Poland",
+    "title": "An old town built again.",
+    "deck": "Warsaw asks a surprising question: can a reconstructed place carry a city’s historical identity?",
+    "archiveDate": "1945",
+    "archiveTitle": "The ruined Old Town Market Square, Barss side",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Warsaw’s reconstructed Old Town Market Place",
+    "changed": "Ruined buildings were reconstructed to recover the historic townscape.",
+    "persisted": "The market square’s role as a recognisable civic place survived through deliberate rebuilding.",
+    "notice": "The old appearance of the facades does not mean they passed through the war intact.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic Centre of Warsaw",
+        "url": "https://whc.unesco.org/en/list/30/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1944",
+        "A layered townscape",
+        "Centuries of building had shaped the Old Town’s streets and market square."
+      ],
+      [
+        "1944–1945",
+        "Destruction made visible",
+        "Nazi forces devastated the historic centre. The archive shows the square in ruins after the war."
+      ],
+      [
+        "Postwar years",
+        "Rebuilding a shared identity",
+        "Residents and specialists reconstructed the historic urban form, including townhouses and public spaces."
+      ],
+      [
+        "Present day",
+        "Reconstruction as heritage",
+        "The rebuilt centre is recognised by UNESCO. Its significance includes the collective decision to recover a lost townscape."
+      ]
+    ],
+    "archiveImage": "time-warsaw-archive",
+    "archivePath": "/images/connections/time-warsaw-archive.jpg",
+    "modernImage": "time-warsaw-modern",
+    "modernCredit": "time-warsaw-modern",
+    "modernPath": "/images/connections/time-warsaw-modern.jpg"
+  },
+  {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "country": "United States",
+    "title": "A city interrupted. A skyline rebuilt.",
+    "deck": "A 1906 aerial panorama records the scale of destruction; a modern bay view shows a city whose story continued.",
+    "archiveDate": "1906",
+    "archiveTitle": "San Francisco after the earthquake and fire",
+    "archiveType": "Historical aerial photograph · George R. Lawrence",
+    "modernTitle": "The modern San Francisco waterfront and Bay Bridge",
+    "changed": "Rebuilding and later development transformed the skyline after the earthquake and fires.",
+    "persisted": "The bay remains the setting in which the city’s growth is read.",
+    "notice": "The archive is unusually wide. Look across the damaged urban fabric rather than treating it as a matching view of the modern bridge.",
+    "sources": [
+      {
+        "name": "Library of Congress · San Francisco panorama",
+        "url": "https://www.loc.gov/item/2007660415/"
+      },
+      {
+        "name": "USGS · The 1906 San Francisco earthquake",
+        "url": "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/"
+      }
+    ],
+    "eras": [
+      [
+        "Before April 1906",
+        "A city on the bay",
+        "Dense neighbourhoods and commercial streets occupied the peninsula before the disaster."
+      ],
+      [
+        "April 1906",
+        "Earthquake and fire",
+        "The earthquake and the fires that followed devastated large areas of the city."
+      ],
+      [
+        "1906 panorama",
+        "Seeing the damage from above",
+        "George R. Lawrence’s aerial photograph makes the extent of destruction visible across many blocks at once."
+      ],
+      [
+        "Present day",
+        "Another layer of city",
+        "A rebuilt and expanded city faces the same bay. The modern view belongs to a later era of bridges and high-rise development."
+      ]
+    ],
+    "archiveImage": "time-san-francisco-archive",
+    "archivePath": "/images/connections/time-san-francisco-archive.jpg",
+    "modernImage": "why-san-francisco",
+    "modernCredit": "why-san-francisco",
+    "modernPath": "/images/connections/why-san-francisco.jpg"
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "title": "Before the skyline, the creek.",
+    "deck": "Follow Dubai through the waterway that supported its trading life, rather than starting with its tallest buildings.",
+    "archiveDate": "c. 1964",
+    "archiveTitle": "Dubai Creek in the mid-1960s",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Dubai Creek and its working waterfront",
+    "changed": "Dredging, crossings, and urban growth altered how the creek served the city.",
+    "persisted": "Boats and waterfront activity still make the creek a place of movement and exchange.",
+    "notice": "The archive belongs to a city already trading and developing. It is not a picture of an empty desert before Dubai existed.",
+    "sources": [
+      {
+        "name": "UNESCO Tentative Lists · Khor Dubai · submitted by the UAE",
+        "url": "https://whc.unesco.org/en/tentativelists/5662/"
+      },
+      {
+        "name": "Visit Dubai · Deira Creekside",
+        "url": "https://www.visitdubai.com/en/places-to-visit/deira-creekside"
+      }
+    ],
+    "eras": [
+      [
+        "Before major dredging",
+        "A sheltered trading inlet",
+        "Fishing, pearling, and trade connected settlement around the creek to maritime routes."
+      ],
+      [
+        "1961",
+        "Making room for vessels",
+        "Dredging improved access to the shallow creek and supported its commercial role."
+      ],
+      [
+        "c. 1964",
+        "A waterfront in transition",
+        "The archive shows the creek during a period of infrastructure growth, rather than before all modern development."
+      ],
+      [
+        "Present day",
+        "Trade alongside tourism",
+        "Water transport and working vessels share the creek with visitor activity. Its older geography remains legible within a much larger city."
+      ]
+    ],
+    "archiveImage": "time-dubai-archive",
+    "archivePath": "/images/connections/time-dubai-archive.jpg",
+    "modernImage": "time-dubai-modern",
+    "modernCredit": "time-dubai-modern",
+    "modernPath": "/images/connections/time-dubai-modern.jpg"
   }
 ]

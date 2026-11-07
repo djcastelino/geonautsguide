@@ -2184,5 +2184,90 @@
     "archiveDate": "",
     "archiveTitle": "File:20181111 Atomic Bomb Dome-5.jpg",
     "imageDescription": ""
+  },
+  "time-seoul-archive": {
+    "Artist": "Republic of Korea, Office of Public Information, Public Relations Bureau (대한민국 공보처 홍보국), 5 August 1960 · KOGL Type 1",
+    "LicenseShortName": "KOGL Type 1",
+    "LicenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheonggye_stream_covering_1955_01.jpg",
+    "description": "File:Cheonggye stream covering 1955 01.jpg",
+    "archiveDate": "Taken on 5 August 1960",
+    "archiveTitle": "File:Cheonggye stream covering 1955 01.jpg",
+    "imageDescription": "청계천 복개 공사가 진행되는 모습. 1960년에 촬영되었음."
+  },
+  "time-hong-kong-archive": {
+    "Artist": "<span lang=\"en\">Anonymous</span><span style=\"display:none\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_%26_Victoria_Peak,_circa_1850.jpg",
+    "description": "File:Hong Kong Harbour & Victoria Peak, circa 1850.jpg",
+    "archiveDate": "circa 1850<div style=\"display: none;\">date QS:P,+1850-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "archiveTitle": "File:Hong Kong Harbour & Victoria Peak, circa 1850.jpg",
+    "imageDescription": "Hong Kong Harbour and Victoria Peak, circa 1850<br>\n<p>At this point, the signal tower atop the peak has yet to be installed and there is a strand or two of beachfront acreage still available.<br>\nTwo American ships are prominent: a pacific sidewheel steamer (one of only a few possible for this date) is at anchor between British ships, while an interesting American sailing sloop hold the traditionally important center foreground, proudly flying the star &amp; stripes. Chinese-built hulks for themselves and the British compete for anchorage with a french sailing ship as well.<br>\n</p>\nThe vantage the artist has chosen is a bit more northern than most views, affording a view of the range on into the Guangzhou and Guangdong province. It is in this direction that the last European ship is depicted, what appears to be a Dutch ensign on the staff of a sailing barque. The exacting brushwork of the artist and realistic coloration makes exploring the buildings over the Victorian headland an adventure, with towers and residences near the warehouses. A British flag flies from a staff set in foliage, softly stating the most prominent residents of the period, still live less than halfway up the peak."
+  },
+  "time-warsaw-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Warsaw_Old_Town_Market_Square,_Barrs_side,_photograph_of_1945.jpeg",
+    "description": "File:Warsaw Old Town Market Square, Barrs side, photograph of 1945.jpeg",
+    "archiveDate": "1945",
+    "archiveTitle": "File:Warsaw Old Town Market Square, Barrs side, photograph of 1945.jpeg",
+    "imageDescription": "Warsaw Old Town Market Square, Barss Side"
+  },
+  "time-san-francisco-archive": {
+    "Artist": "George Raymond Lawrence",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:1906_San_Francisco_earthquake_aftermath_panorama.jpg",
+    "description": "File:1906 San Francisco earthquake aftermath panorama.jpg",
+    "archiveDate": "Taken in 1906",
+    "archiveTitle": "File:1906 San Francisco earthquake aftermath panorama.jpg",
+    "imageDescription": "George R Lawrence's aerial photograph of the damage from the <a href=\"https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake\" class=\"extiw\" title=\"en:1906 San Francisco earthquake\">1906 San Francisco earthquake</a>, taken about 3 weeks after the disaster."
+  },
+  "time-dubai-archive": {
+    "Artist": "Noor Ali",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Dubai_Creek_1964.jpg",
+    "description": "File:Dubai Creek 1964.jpg",
+    "archiveDate": "circa 1964<div style=\"display: none;\">date QS:P,+1964-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "archiveTitle": "File:Dubai Creek 1964.jpg",
+    "imageDescription": "Dubai Creek in <a href=\"//commons.wikimedia.org/wiki/1964\" title=\"1964\">1964</a>"
+  },
+  "time-seoul-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Basile_Morin\" title=\"User:Basile Morin\">Basile Morin</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheonggyecheon_stream_at_sunrise_with_trees_in_Seoul.jpg",
+    "description": "Cheonggyecheon",
+    "archiveDate": "",
+    "archiveTitle": "Cheonggyecheon",
+    "imageDescription": ""
+  },
+  "time-dubai-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Phil6007&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Phil6007 (page does not exist)\">Phil6007</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:The_view_of_Dubai_Creek.jpg",
+    "description": "Dubai Creek",
+    "archiveDate": "",
+    "archiveTitle": "Dubai_Creek",
+    "imageDescription": ""
+  },
+  "time-warsaw-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kgbo\" title=\"User:Kgbo\">Kgbo</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Town_Market_Square_in_Warsaw,_2019.jpg",
+    "description": "File:Old Town Market Square in Warsaw, 2019.jpg"
   }
 }
