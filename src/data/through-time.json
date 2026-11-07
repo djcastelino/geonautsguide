@@ -994,5 +994,264 @@
     "modernImage": "why-valletta",
     "modernCredit": "why-valletta",
     "modernPath": "/images/connections/why-valletta.jpg"
+  },
+  {
+    "id": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "title": "The city beneath the city.",
+    "deck": "A sixteenth-century map and an excavated temple reveal traces of Tenochtitlan in the modern capital.",
+    "archiveDate": "1524",
+    "archiveTitle": "Printed map of Tenochtitlan",
+    "archiveType": "Historical map · interpretive view",
+    "modernTitle": "Templo Mayor archaeological site",
+    "changed": "The Mexica ceremonial centre was dismantled after the Spanish conquest, and colonial construction reshaped the area.",
+    "persisted": "The historic centre still occupies part of the earlier city, whose remains can be seen at Templo Mayor.",
+    "notice": "The map presents a historical interpretation of the lake city. The modern photograph shows one excavated site.",
+    "sources": [
+      {
+        "name": "New York Public Library · Map of Tenochtitlan",
+        "url": "https://old-digitalcollections.nypl.org/items/86436d7e-d8e8-2db4-e040-e00a18060199"
+      },
+      {
+        "name": "INAH · Proyecto Templo Mayor",
+        "url": "https://templomayor.inah.gob.mx/historia/proyecto-templo-mayor"
+      },
+      {
+        "name": "INAH · Templo Mayor",
+        "url": "https://lugares.inah.gob.mx/es/node/4463"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1521",
+        "A capital on water",
+        "Tenochtitlan was the political and religious centre of the Mexica. Templo Mayor stood at the heart of its sacred precinct."
+      ],
+      [
+        "1524",
+        "A city on the printed page",
+        "Published after the Spanish conquest, the map depicts the island city and its links to the shore."
+      ],
+      [
+        "1978",
+        "A discovery below the street",
+        "Utility workers found the Coyolxauhqui sculpture. The discovery prompted a wider archaeological project around Templo Mayor."
+      ],
+      [
+        "Present day",
+        "Earlier layers in view",
+        "The excavation and museum let visitors encounter remains of the Mexica capital beside the buildings of today’s historic centre."
+      ]
+    ],
+    "archiveImage": "time-mexico-city-archive",
+    "archivePath": "/images/connections/time-mexico-city-archive.jpg",
+    "modernImage": "time-mexico-city-modern",
+    "modernCredit": "time-mexico-city-modern",
+    "modernPath": "/images/connections/time-mexico-city-modern.jpg"
+  },
+  {
+    "id": "cape-town",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "title": "The neighborhood that was taken away.",
+    "deck": "District Six tells a story of forced removal, community memory, and the long work of return.",
+    "archiveDate": "2007",
+    "archiveTitle": "District Six after forced removals and demolition",
+    "archiveType": "Historical photograph · aftermath",
+    "modernTitle": "District Six Museum Homecoming Centre",
+    "changed": "Apartheid authorities forced residents out and demolished much of the neighborhood.",
+    "persisted": "Former residents and their families have kept the neighborhood’s history alive through testimony and community work.",
+    "notice": "The archive shows the aftermath of clearance. The Homecoming Centre provides a different view of how the neighborhood is remembered.",
+    "sources": [
+      {
+        "name": "City of Cape Town · District Six heritage",
+        "url": "https://www.capetown.gov.za/explore-and-enjoy/cape-towns-history-and-heritage/heritage-sites-and-buildings/museums-landmarks-and-heritage-sites/"
+      },
+      {
+        "name": "South African History Archive · District Six",
+        "url": "https://www.saha.org.za/news/2010/February/district_six_recalling_the_forced_removals.htm"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1966",
+        "A lived neighborhood",
+        "District Six was home to a diverse community near the centre of Cape Town."
+      ],
+      [
+        "1966",
+        "A declaration redraws belonging",
+        "Under the Group Areas Act, the apartheid government designated District Six for white occupation."
+      ],
+      [
+        "After the declaration",
+        "Forced removal and demolition",
+        "Residents were displaced and much of the neighborhood was cleared. The archive photograph records the landscape decades later."
+      ],
+      [
+        "Present day",
+        "Keeping memory in public",
+        "The District Six Museum draws on the memories of displaced residents and their families to document what was lost."
+      ]
+    ],
+    "archiveImage": "time-cape-town-archive",
+    "archivePath": "/images/connections/time-cape-town-archive.jpg",
+    "modernImage": "time-cape-town-modern",
+    "modernCredit": "time-cape-town-modern",
+    "modernPath": "/images/connections/time-cape-town-modern.jpg"
+  },
+  {
+    "id": "bilbao",
+    "name": "Bilbao",
+    "country": "Spain",
+    "title": "A river with a second working life.",
+    "deck": "An older river crossing and today’s cultural waterfront show how Bilbao’s relationship with its estuary evolved.",
+    "archiveDate": "c. 1890",
+    "archiveTitle": "The Isabel II bridge and Bilbao’s historic riverfront",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Guggenheim Museum on the redeveloped waterfront",
+    "changed": "Former industrial and port land at Abandoibarra became a district of public spaces, cultural institutions, and new buildings.",
+    "persisted": "The estuary still links districts and provides a way to read the city’s development.",
+    "notice": "The photographs show different parts of the same estuary. The old bridge view gives context for the waterfront’s earlier role.",
+    "sources": [
+      {
+        "name": "Guggenheim Museum Bilbao · Architecture",
+        "url": "https://www.guggenheim-bilbao.eus/en/useful-information/sightsee/explore/architecture"
+      },
+      {
+        "name": "Lee Kuan Yew World City Prize · Abandoibarra waterfront",
+        "url": "https://www.leekuanyewworldcityprize.gov.sg/winning-cities/case-studies/abandoibarra-waterfront/"
+      }
+    ],
+    "eras": [
+      [
+        "Late nineteenth century",
+        "A city faces the estuary",
+        "The archive view shows a crossing connecting parts of a city organised around its waterway."
+      ],
+      [
+        "Industrial era",
+        "A working waterfront",
+        "Port and industrial activity occupied land at Abandoibarra, near the city centre."
+      ],
+      [
+        "Late twentieth century",
+        "A new role for port land",
+        "Industrial decline opened former working sites to redevelopment. The museum became one part of a wider district plan."
+      ],
+      [
+        "Present day",
+        "A waterfront people can walk",
+        "Public spaces and cultural buildings now draw visitors to the estuary. The river remains the geographic thread."
+      ]
+    ],
+    "archiveImage": "time-bilbao-archive",
+    "archivePath": "/images/connections/time-bilbao-archive.jpg",
+    "modernImage": "time-bilbao-modern",
+    "modernCredit": "time-bilbao-modern",
+    "modernPath": "/images/connections/time-bilbao-modern.jpg"
+  },
+  {
+    "id": "boston",
+    "name": "Boston",
+    "country": "United States",
+    "title": "The streets built over the tide.",
+    "deck": "An 1852 plan shows Back Bay while its transformation from tidal flats to a neighborhood was still being planned.",
+    "archiveDate": "1852",
+    "archiveTitle": "Plan of Back Bay and its vicinity",
+    "archiveType": "Historical planning map",
+    "modernTitle": "Boston’s Back Bay skyline from the Charles River",
+    "changed": "Fill created land for a new street grid and buildings where tidal flats once extended.",
+    "persisted": "The name Back Bay preserves a clue to the earlier landscape.",
+    "notice": "Look for the water and proposed streets on the plan. Proposed lines show an intention, while the photograph looks toward the built neighborhood.",
+    "sources": [
+      {
+        "name": "National Park Service · Boston’s Green Connection",
+        "url": "https://home.nps.gov/articles/the-emerald-necklace-boston-s-green-connection.htm"
+      },
+      {
+        "name": "USGS · The geology of Boston",
+        "url": "https://pubs.usgs.gov/circ/2005/1280/pdf/cir1280.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "Before filling",
+        "A tidal landscape",
+        "The Back Bay area included tidal flats, marshes, and creeks."
+      ],
+      [
+        "1852",
+        "Planning new land",
+        "The archive plan records a stage in the effort to turn the bay into buildable ground."
+      ],
+      [
+        "Late nineteenth century",
+        "From flats to streets",
+        "Filling extended the city onto land that had once been part of the bay."
+      ],
+      [
+        "Present day",
+        "The old geography in a name",
+        "Back Bay is now a built neighborhood. Its name and the historical map make the earlier shoreline easier to imagine."
+      ]
+    ],
+    "archiveImage": "time-boston-archive",
+    "archivePath": "/images/connections/time-boston-archive.jpg",
+    "modernImage": "time-boston-modern",
+    "modernCredit": "time-boston-modern",
+    "modernPath": "/images/connections/time-boston-modern.jpg"
+  },
+  {
+    "id": "zanzibar",
+    "name": "Zanzibar City",
+    "country": "Tanzania",
+    "title": "A port written in stone.",
+    "deck": "Stone Town’s waterfront gives a view into the Indian Ocean connections that shaped its buildings and streets.",
+    "archiveDate": "c. 1900–1920",
+    "archiveTitle": "Exterior of the Sultan’s palace in Zanzibar",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Stone Town in the modern city",
+    "changed": "The old trading town became a protected historic district within a growing city.",
+    "persisted": "The street pattern and architecture still show influences from across the Indian Ocean.",
+    "notice": "The palace shows one side of port life. The wider story also includes enslaved people and the networks that profited from their trade.",
+    "sources": [
+      {
+        "name": "UNESCO · Stone Town of Zanzibar",
+        "url": "https://whc.unesco.org/en/list/173/"
+      },
+      {
+        "name": "Library of Congress · Sultan’s palace photograph",
+        "url": "https://www.loc.gov/item/89708469/"
+      }
+    ],
+    "eras": [
+      [
+        "Indian Ocean trade",
+        "A Swahili port",
+        "Trade connected Zanzibar to the East African coast and ports across the Indian Ocean."
+      ],
+      [
+        "Nineteenth century",
+        "Power at the waterfront",
+        "The palace reflects the political importance of the port. Zanzibar’s trade also included the trafficking of enslaved people."
+      ],
+      [
+        "The built town",
+        "Connections in the streets",
+        "Buildings and the compact street pattern reflect encounters between Swahili, Arab, Indian, and European traditions."
+      ],
+      [
+        "Present day",
+        "An inhabited historic district",
+        "Stone Town’s heritage is visible in its buildings and public spaces, within a city that continues to change."
+      ]
+    ],
+    "archiveImage": "time-zanzibar-archive",
+    "archivePath": "/images/connections/time-zanzibar-archive.jpg",
+    "modernImage": "time-zanzibar-modern",
+    "modernCredit": "time-zanzibar-modern",
+    "modernPath": "/images/connections/time-zanzibar-modern.jpg"
   }
 ]
