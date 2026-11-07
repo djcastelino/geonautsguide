@@ -2269,5 +2269,82 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Old_Town_Market_Square_in_Warsaw,_2019.jpg",
     "description": "File:Old Town Market Square in Warsaw, 2019.jpg"
+  },
+  "time-canberra-archive": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Chrisfromcanberra\" class=\"extiw\" title=\"en:User:Chrisfromcanberra\">Chrisfromcanberra</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:Chrisfromcanberra\" class=\"extiw\" title=\"en:User talk:Chrisfromcanberra\">talk</a>)",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Kings_ave_bridge.jpg",
+    "description": "File:Kings ave bridge.jpg",
+    "archiveDate": "circa 1961<div style=\"display: none;\">date QS:P,+1961-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "archiveTitle": "File:Kings ave bridge.jpg",
+    "imageDescription": "Kings Ave Bridge under construction"
+  },
+  "time-brasilia-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "CC BY 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:0741_NOV_B_05_Esplanada_dos_Ministerios_Brasilia_DF_03_09_1959.jpg",
+    "description": "File:0741 NOV B 05 Esplanada dos Ministerios Brasilia DF 03 09 1959.jpg",
+    "archiveDate": "1959",
+    "archiveTitle": "File:0741 NOV B 05 Esplanada dos Ministerios Brasilia DF 03 09 1959.jpg",
+    "imageDescription": "Construção dos edifícios ministeriais em Brasília"
+  },
+  "time-mostar-archive": {
+    "Artist": "<div class=\"fn value\">\nPhotochrom Print Collection</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Mostar,_with_old_Narenta_Bridge,_Herzegowina,_Austro-Hungary-LCCN2002710851.jpg",
+    "description": "File:Mostar, with old Narenta Bridge, Herzegowina, Austro-Hungary-LCCN2002710851.jpg",
+    "archiveDate": "between 1890 and 1900<div style=\"display: none;\">date QS:P571,+1500-00-00T00:00:00Z/6,P1319,+1890-00-00T00:00:00Z/9,P1326,+1900-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Mostar, with old Narenta Bridge, Herzegowina, Austro-Hungary-LCCN2002710851.jpg",
+    "imageDescription": "<div class=\"description\">\nPrint no. \"16795\".; Title from the Detroit Publishing Co., Catalogue J-foreign section, Detroit, Mich. : Detroit Publishing Company, 1905.; Forms part of: Views of the Austro-Hungarian Empire in the Photochrom print collection.</div>"
+  },
+  "time-rotterdam-archive": {
+    "Artist": "Hendrik (Henk) (H.) Sutterland",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Ru%C3%AFnes_van_de_Hoogstraat_en_omgeving_1940.jpg",
+    "description": "File:Ruïnes van de Hoogstraat en omgeving 1940.jpg",
+    "archiveDate": "01-06-1940 - 08-1940",
+    "archiveTitle": "File:Ruïnes van de Hoogstraat en omgeving 1940.jpg",
+    "imageDescription": "Ruins in the vicinity of the Hoogstraat in the eastern part of the stadsdriehoek. The chimney (right) is situated at the Valkenstraat between the Boerensteiger and the Hoogstraat. Year: 1940."
+  },
+  "time-valletta-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lascaris_Bastion_and_Upper_Barrakka_Gardens,_Valletta_(V%26A_Museum).jpg",
+    "description": "File:Lascaris Bastion and Upper Barrakka Gardens, Valletta (V&A Museum).jpg",
+    "archiveDate": "circa 1890<div style=\"display: none;\">date QS:P,+1890-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "archiveTitle": "File:Lascaris Bastion and Upper Barrakka Gardens, Valletta (V&A Museum).jpg",
+    "imageDescription": "Lascaris Bastion and Upper Barrakka Gardens (V&amp;A Museum)\n<a rel=\"nofollow\" class=\"external free\" href=\"http://collections.vam.ac.uk/item/O1075975/photograph-unknown/\">http://collections.vam.ac.uk/item/O1075975/photograph-unknown/</a>"
+  },
+  "time-canberra-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/83228425@N00\">Wade Johanson</a> from Canberra, Australia",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Kings_Avenue_Bridge_on_Lake_Burley_Griffin.jpg",
+    "description": "File:Kings Avenue Bridge on Lake Burley Griffin.jpg",
+    "archiveDate": "",
+    "archiveTitle": "File:Kings Avenue Bridge on Lake Burley Griffin.jpg",
+    "imageDescription": ""
+  },
+  "time-mostar-modern": {
+    "Artist": "<div class=\"fn value\">\n<a href=\"https://hu.wikipedia.org/wiki/User:Ramirez\" class=\"extiw\" title=\"hu:User:Ramirez\">Ramirez</a></div>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg",
+    "description": "Stari Most",
+    "archiveDate": "",
+    "archiveTitle": "Stari_Most",
+    "imageDescription": ""
   }
 }

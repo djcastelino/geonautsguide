@@ -747,5 +747,252 @@
     "modernImage": "time-dubai-modern",
     "modernCredit": "time-dubai-modern",
     "modernPath": "/images/connections/time-dubai-modern.jpg"
+  },
+  {
+    "id": "canberra",
+    "name": "Canberra",
+    "country": "Australia",
+    "title": "A bridge waiting for its lake.",
+    "deck": "A construction photograph reveals a familiar capital landmark before the water arrived.",
+    "archiveDate": "c. 1961",
+    "archiveTitle": "Kings Avenue Bridge under construction before the lake filled",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Kings Avenue Bridge across Lake Burley Griffin",
+    "changed": "A river floodplain became an artificial lake, reshaping views and movement through the capital.",
+    "persisted": "The surrounding landforms remain the setting for the city’s planned axes and crossings.",
+    "notice": "In the archive, bridge construction stands above dry ground. The modern view shows the completed crossing with the lake around it.",
+    "sources": [
+      {
+        "name": "National Capital Authority · Scrivener Dam",
+        "url": "https://www.nca.gov.au/attractions/scrivener-dam"
+      },
+      {
+        "name": "National Capital Authority · Lake Burley Griffin",
+        "url": "https://www.nca.gov.au/attractions/lake-burley-griffin"
+      }
+    ],
+    "eras": [
+      [
+        "The plan",
+        "Water imagined",
+        "A lake formed an important part of the design for the national capital. The design preceded its construction by decades."
+      ],
+      [
+        "c. 1961",
+        "Crossing a future lake",
+        "The archive catches Kings Avenue Bridge being built while the future lake bed was still exposed."
+      ],
+      [
+        "1963–1964",
+        "The water arrives",
+        "Scrivener Dam’s valves closed in September 1963. After a dry interval, rain filled the lake in 1964."
+      ],
+      [
+        "Present day",
+        "A capital around water",
+        "The lake now frames national institutions, recreation areas, and bridges. Its level is managed by the dam."
+      ]
+    ],
+    "archiveImage": "time-canberra-archive",
+    "archivePath": "/images/connections/time-canberra-archive.jpg",
+    "modernImage": "time-canberra-modern",
+    "modernCredit": "time-canberra-modern",
+    "modernPath": "/images/connections/time-canberra-modern.jpg"
+  },
+  {
+    "id": "brasilia",
+    "name": "Brasília",
+    "country": "Brazil",
+    "title": "A capital drawn, then built.",
+    "deck": "Construction on the Esplanade of Ministries gives a rare view of a capital city taking physical shape.",
+    "archiveDate": "1959",
+    "archiveTitle": "Ministry buildings under construction in Brasília",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Brasília’s modern planned cityscape",
+    "changed": "A construction landscape became the administrative heart of a new capital.",
+    "persisted": "The relationship between monumental buildings, open space, and the city plan remains central to its identity.",
+    "notice": "The archive belongs to the construction period. The finished city was made by workers and evolving decisions, not by a drawing alone.",
+    "sources": [
+      {
+        "name": "UNESCO · Brasília",
+        "url": "https://whc.unesco.org/en/list/445/"
+      },
+      {
+        "name": "IPHAN · Brasília World Heritage",
+        "url": "https://www.gov.br/iphan/pt-br/superintendencias/distrito-federal/patrimonio-mundial"
+      }
+    ],
+    "eras": [
+      [
+        "1956",
+        "A national project",
+        "Brazil began creating a new capital in the country’s interior as part of a wider modernization project."
+      ],
+      [
+        "1957–1959",
+        "The plan becomes a worksite",
+        "Lúcio Costa’s urban plan and Oscar Niemeyer’s major public buildings took shape. The archive shows ministry construction in 1959."
+      ],
+      [
+        "1960",
+        "The capital opens",
+        "Brasília was inaugurated on 21 April 1960. The new administrative centre marked a major shift inland."
+      ],
+      [
+        "Present day",
+        "A living planned city",
+        "The protected modernist core is also a place of work and daily life. Its streets and buildings invite visitors to read the original planning ideas."
+      ]
+    ],
+    "archiveImage": "time-brasilia-archive",
+    "archivePath": "/images/connections/time-brasilia-archive.jpg",
+    "modernImage": "why-brasilia",
+    "modernCredit": "why-brasilia",
+    "modernPath": "/images/connections/why-brasilia.jpg"
+  },
+  {
+    "id": "mostar",
+    "name": "Mostar",
+    "country": "Bosnia and Herzegovina",
+    "title": "A crossing lost. A crossing restored.",
+    "deck": "The Old Bridge’s familiar arch carries a history of construction, destruction, and deliberate rebuilding.",
+    "archiveDate": "c. 1890–1900",
+    "archiveTitle": "Mostar with the original Old Bridge over the Neretva",
+    "archiveType": "Photochrom print · historical colours added in printing",
+    "modernTitle": "Mostar’s reconstructed Old Bridge",
+    "changed": "The original bridge was destroyed in 1993; the arch seen today is a reconstruction inaugurated in 2004.",
+    "persisted": "The river crossing remains a defining element of the townscape and its memory.",
+    "notice": "A similar arch appears in both views, but these are not images of the same surviving structure.",
+    "sources": [
+      {
+        "name": "UNESCO · Creating reconciliation: Mostar Bridge",
+        "url": "https://whc.unesco.org/en/activities/1299"
+      },
+      {
+        "name": "UNESCO · Old Bridge Area of Mostar",
+        "url": "https://whc.unesco.org/en/list/946/"
+      }
+    ],
+    "eras": [
+      [
+        "1566",
+        "An Ottoman crossing",
+        "The stone bridge joined the banks of the Neretva and became a defining landmark of Mostar."
+      ],
+      [
+        "1890s",
+        "The original arch pictured",
+        "The archive print shows the old bridge before its twentieth-century destruction. Its colours were added during photochrom printing."
+      ],
+      [
+        "1993",
+        "The crossing falls",
+        "Shelling destroyed the bridge on 9 November 1993 during the conflict in Bosnia and Herzegovina."
+      ],
+      [
+        "2004 onward",
+        "Rebuilding the landmark",
+        "International cooperation supported reconstruction of the bridge and its surroundings. The new bridge reopened in 2004; rebuilding also raised questions about memory and authenticity."
+      ]
+    ],
+    "archiveImage": "time-mostar-archive",
+    "archivePath": "/images/connections/time-mostar-archive.jpg",
+    "modernImage": "time-mostar-modern",
+    "modernCredit": "time-mostar-modern",
+    "modernPath": "/images/connections/time-mostar-modern.jpg"
+  },
+  {
+    "id": "rotterdam",
+    "name": "Rotterdam",
+    "country": "Netherlands",
+    "title": "Rebuilding without turning back.",
+    "deck": "Rotterdam’s ruined centre and modern riverfront reveal a city whose reconstruction changed its urban form.",
+    "archiveDate": "June–August 1940",
+    "archiveTitle": "Ruins of the Hoogstraat and surrounding streets",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Erasmus Bridge and modern Rotterdam",
+    "changed": "Reconstruction replaced parts of the fine-grained centre with larger blocks, broader streets, and open spaces.",
+    "persisted": "The city’s relationship with water remains visible, even as its buildings and crossings change.",
+    "notice": "These views show different districts. The ruins explain the reconstruction context; the modern bridge is a later chapter, not a direct replacement for the street pictured.",
+    "sources": [
+      {
+        "name": "Dutch Cultural Heritage Agency · Rotterdam reconstruction",
+        "url": "https://www.cultureelerfgoed.nl/documenten/2016/01/01/rotterdam-oostelijke-binnenstad-een-wederopbouwgebied-van-nationaal-belang-nr-05"
+      }
+    ],
+    "eras": [
+      [
+        "Before May 1940",
+        "A tightly woven centre",
+        "The historic centre had a finer-grained street pattern than the reconstructed city that followed."
+      ],
+      [
+        "1940",
+        "A centre devastated",
+        "The bombing of 14 May destroyed much of the historic centre. The archive shows ruins around the Hoogstraat later that year."
+      ],
+      [
+        "Reconstruction",
+        "A different urban scale",
+        "Planning began soon after the bombing. Larger city blocks, broad boulevards, and generous green spaces reshaped the centre."
+      ],
+      [
+        "Present day",
+        "New landmarks on the water",
+        "The modern riverfront adds another layer to the city. The comparison asks how a city can retain its identity while changing its physical form."
+      ]
+    ],
+    "archiveImage": "time-rotterdam-archive",
+    "archivePath": "/images/connections/time-rotterdam-archive.jpg",
+    "modernImage": "rotterdam",
+    "modernCredit": "rotterdam",
+    "modernPath": "/images/connections/rotterdam.jpg"
+  },
+  {
+    "id": "valletta",
+    "name": "Valletta",
+    "country": "Malta",
+    "title": "A fortress with a life beyond defence.",
+    "deck": "Harbour-side fortifications frame a capital whose everyday life extends far beyond its military origins.",
+    "archiveDate": "c. 1890",
+    "archiveTitle": "Lascaris Bastion and Upper Barrakka Gardens",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Valletta and its fortified harbour setting",
+    "changed": "A fortified capital has accumulated new civic, cultural, and visitor uses while retaining much of its historic form.",
+    "persisted": "The bastions and peninsula setting still help explain the city’s shape.",
+    "notice": "The archive is a nineteenth-century view of an older city. It does not show Valletta at its foundation in 1566.",
+    "sources": [
+      {
+        "name": "UNESCO · City of Valletta",
+        "url": "https://whc.unesco.org/en/list/131/"
+      }
+    ],
+    "eras": [
+      [
+        "1566",
+        "A fortified capital begins",
+        "The Order of St John founded Valletta after the Great Siege of 1565, with defence central to its plan."
+      ],
+      [
+        "Later centuries",
+        "More than walls",
+        "Religious, charitable, administrative, and residential buildings created a compact city within the fortifications."
+      ],
+      [
+        "c. 1890",
+        "The harbour edge pictured",
+        "The archive shows Lascaris Bastion and Upper Barrakka Gardens, bringing defensive masonry and public space into the same view."
+      ],
+      [
+        "Present day",
+        "An inhabited heritage city",
+        "The fortified form remains legible within a functioning capital. Streets, gardens, and public buildings connect daily life with the city’s older fabric."
+      ]
+    ],
+    "archiveImage": "time-valletta-archive",
+    "archivePath": "/images/connections/time-valletta-archive.jpg",
+    "modernImage": "why-valletta",
+    "modernCredit": "why-valletta",
+    "modernPath": "/images/connections/why-valletta.jpg"
   }
 ]
