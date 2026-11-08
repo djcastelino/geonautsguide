@@ -1423,5 +1423,480 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "photoUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_(II).jpg"
+  },
+  {
+    "city": "Venice, Italy",
+    "name": "Grand Canal",
+    "question": "Why do so many grand façades face the water?",
+    "clue": "Look at how the buildings meet the canal directly.",
+    "choices": [
+      "The canal served as a main route for arrivals by boat",
+      "They were designed to be seen only from rooftops",
+      "The canal was dug after the palaces lost their entrances"
+    ],
+    "correct": 0,
+    "explanation": "The Grand Canal is a major route through Venice. For many buildings, the water-facing façade was the side arriving guests and merchants would see first.",
+    "url": "https://whc.unesco.org/en/list/394/",
+    "image": "/images/connections/time-venice-modern.jpg",
+    "credit": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg"
+  },
+  {
+    "city": "Singapore",
+    "name": "Boat Quay",
+    "question": "Why did traders build shophouses in rows right beside the river?",
+    "clue": "Notice the narrow gap between the buildings and the water.",
+    "choices": [
+      "To shelter a railway along the riverbank",
+      "To keep trading premises near boats carrying cargo",
+      "To make room for fields behind a dam"
+    ],
+    "correct": 1,
+    "explanation": "Small boats brought cargo up the Singapore River. Shophouses near the landing places gave merchants places to store, sell and handle goods close to the boats.",
+    "url": "https://www.ura.gov.sg/conservation/find-a-building/conservation-portal/btqy/",
+    "image": "/images/connections/time-singapore-modern.jpg",
+    "credit": "chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Boat_quay_sct.JPG"
+  },
+  {
+    "city": "New York City, United States",
+    "name": "Skyscraper setbacks",
+    "question": "Why do some older towers get narrower as they rise?",
+    "clue": "Look for a profile that steps back from the street.",
+    "choices": [
+      "To keep buildings below the height of bridges",
+      "To make every floor the same size",
+      "To leave more daylight and open sky above the street"
+    ],
+    "correct": 2,
+    "explanation": "New York’s 1916 zoning rules limited the bulk of tall buildings near street edges. Stepping upper floors back allowed towers to rise while reducing how much they blocked the sky.",
+    "url": "https://thegreatestgrid.mcny.org/greatest-grid/manhattan-monumentality/294",
+    "image": "/images/connections/why-new-york.jpg",
+    "credit": "Daniele Pieroni",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Luchtfoto_van_Lower_Manhattan.jpg"
+  },
+  {
+    "city": "Hong Kong",
+    "name": "Victoria Harbour",
+    "question": "Why maintain public access along parts of this dense waterfront?",
+    "clue": "Notice how little land separates buildings from the harbour.",
+    "choices": [
+      "To let people walk and gather at the water’s edge",
+      "To reserve the whole waterfront for cargo",
+      "To direct visitors away from the city centre"
+    ],
+    "correct": 0,
+    "explanation": "Promenades and public spaces give people access to the harbour in a dense city. Waterfront projects can reconnect individual sites to walking routes and public destinations.",
+    "url": "https://www.devb.gov.hk/en/issues_in_focus/conserving_central/our_central/index.html",
+    "image": "/images/connections/why-hong-kong.jpg",
+    "credit": "Benh LIEU SONG (Flickr)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Harbour_Night_2019-06-11.jpg"
+  },
+  {
+    "city": "Rotterdam, Netherlands",
+    "name": "Erasmus Bridge",
+    "question": "Why does the bridge combine a tall mast with sloping cables?",
+    "clue": "Trace the cables from the mast to the deck.",
+    "choices": [
+      "To lift each vehicle up to the bridge",
+      "To support a long span over the river",
+      "To keep the deck from getting wet in rain"
+    ],
+    "correct": 1,
+    "explanation": "The cables carry loads from the deck to the mast. A cable-stayed span can cross a broad stretch of water while limiting the number of supports in the river.",
+    "url": "https://www.rotterdam.nl/erasmusbrug",
+    "image": "/images/connections/rotterdam.jpg",
+    "credit": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Erasmusbrug,_September_2019.jpg"
+  },
+  {
+    "city": "Abu Simbel, Egypt",
+    "name": "The relocated temples",
+    "question": "Why does this ancient temple stand inside a reconstructed hillside?",
+    "clue": "Notice how the rock frames the carved entrance.",
+    "choices": [
+      "To build a new road through the sanctuary",
+      "To provide shelter for a market",
+      "To move the monument above a rising reservoir"
+    ],
+    "correct": 2,
+    "explanation": "The reservoir behind the Aswan High Dam threatened the original site. Teams cut the temples into blocks and reassembled them at a higher location, recreating the setting around them.",
+    "url": "https://whc.unesco.org/en/activities/172/",
+    "image": "/images/connections/time-aswan-modern.jpg",
+    "credit": "youssef_alam",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Ramsis,_Aswan_Governorate,_Egypt_-_panoramio.jpg"
+  },
+  {
+    "city": "Wellington, New Zealand",
+    "name": "Reclaimed harbourfront",
+    "question": "Why did the city extend parts of its shoreline?",
+    "clue": "Look for the flat band of development between the harbour and the hills.",
+    "choices": [
+      "To make more room for port facilities and city streets",
+      "To stop all ships from reaching the shore",
+      "To move the hills farther inland"
+    ],
+    "correct": 0,
+    "explanation": "The harbour and steep hills left limited flat ground. Reclamation added space for wharves, transport and buildings at the water’s edge.",
+    "url": "https://wellington.govt.nz/-/media/arts-and-culture/heritage/files/thematic-heritage-study.pdf",
+    "image": "/images/connections/time-wellington-modern.jpg",
+    "credit": "Phillip Capper",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Wellington_Harbour,_New_Zealand,_Nov._2009.jpg"
+  },
+  {
+    "city": "Timbuktu, Mali",
+    "name": "Djingareyber Mosque",
+    "question": "Why do wooden poles project from these earthen walls?",
+    "clue": "Look at the poles spaced across the wall surface.",
+    "choices": [
+      "They marked the height of floodwater",
+      "They give workers footholds for maintaining the plaster",
+      "They were built to hold rooftop gardens"
+    ],
+    "correct": 1,
+    "explanation": "The timber projections provide access for repair crews. Earthen walls need periodic maintenance, and built-in footholds make it possible to reach higher sections.",
+    "url": "https://whc.unesco.org/en/list/119/",
+    "image": "/images/connections/time-timbuktu-modern.jpg",
+    "credit": "upyernoz",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Djinguereber_Mosque,_Timbuktu.jpg"
+  },
+  {
+    "city": "Ayutthaya, Thailand",
+    "name": "The river-ringed capital",
+    "question": "Why put the capital on an island formed by rivers?",
+    "clue": "Think about how waterways change the routes into a city.",
+    "choices": [
+      "To keep boats from reaching markets",
+      "To move farther away from water supplies",
+      "To combine defensible approaches with access to trade"
+    ],
+    "correct": 2,
+    "explanation": "Rivers protected much of Ayutthaya’s perimeter and connected it to trading routes. Canals added links within the city and helped organize movement and water management.",
+    "url": "https://whc.unesco.org/en/list/576/",
+    "image": "/images/connections/time-ayutthaya-modern.jpg",
+    "credit": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Wat_Mahathat,_Ayutthaya_20231230.jpg"
+  },
+  {
+    "city": "Grand-Bassam, Côte d’Ivoire",
+    "name": "Colonial street plan",
+    "question": "Why did this colonial port group administration and trade in separate quarters?",
+    "clue": "Look at how streets and buildings form distinct blocks.",
+    "choices": [
+      "The plan organized the town by function",
+      "Each quarter belonged to a different island",
+      "The streets followed underground rail lines"
+    ],
+    "correct": 0,
+    "explanation": "The colonial plan set aside areas for administration, commerce and housing. The layout records how colonial authorities organized the port and separated different groups and activities.",
+    "url": "https://whc.unesco.org/en/list/1322/",
+    "image": "/images/connections/time-grand-bassam-modern.jpg",
+    "credit": "Joker-x http://fr.wikipedia.org/wiki/User:Joker-x",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:800px-Grand-Bassam.jpg"
+  },
+  {
+    "city": "Cidade Velha, Cabo Verde",
+    "name": "Fort Real de São Filipe",
+    "question": "Why build a fort on high ground above a coastal settlement?",
+    "clue": "Look from the heights toward the shoreline below.",
+    "choices": [
+      "To store drinking water at sea level",
+      "To oversee and defend the port approaches",
+      "To make it easier to unload boats"
+    ],
+    "correct": 1,
+    "explanation": "A fort above Ribeira Grande overlooked the coast and the routes into the settlement. Its height helped defenders watch the approaches to a port in the Atlantic trading network.",
+    "url": "https://whc.unesco.org/en/list/1310/",
+    "image": "/images/connections/time-cidade-velha-modern.jpg",
+    "credit": "Cayambe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Cidade_Velha_Pelourinho_square_b_2011.jpg"
+  },
+  {
+    "city": "Saint Petersburg, Russia",
+    "name": "Neva waterfront",
+    "question": "Why are major buildings and public spaces arranged along the water?",
+    "clue": "Notice the broad views opened by the river and its embankments.",
+    "choices": [
+      "The waterway was intended to hide the city centre",
+      "The river was built as a private courtyard",
+      "The river helped organize the city’s routes and ceremonial views"
+    ],
+    "correct": 2,
+    "explanation": "The Neva and the city’s canals formed part of the plan. Embankments turned the water’s edge into a connected frontage, and prominent buildings could be seen across the open water.",
+    "url": "https://whc.unesco.org/en/list/540/",
+    "image": "/images/connections/time-saint-petersburg-modern.jpg",
+    "credit": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Saint_Petersburg,_Russia,_Neva_River,_Panoramic_view.jpg"
+  },
+  {
+    "city": "Lima, Peru",
+    "name": "Plaza Mayor",
+    "question": "Why group important public buildings around a single square?",
+    "clue": "Look at the different institutions facing the same open space.",
+    "choices": [
+      "To make the square a shared civic and ceremonial centre",
+      "To turn the square into a canal basin",
+      "To keep government out of the city centre"
+    ],
+    "correct": 0,
+    "explanation": "The main square brought civic, religious and administrative institutions together. It gave the street grid a recognizable centre and provided open space for public events.",
+    "url": "https://whc.unesco.org/en/list/500/",
+    "image": "/images/connections/time-lima-modern.jpg",
+    "credit": "Art DiNo from Lima, Perú",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Lima.jpg"
+  },
+  {
+    "city": "Amsterdam, Netherlands",
+    "name": "Canal ring",
+    "question": "Why build canals in a ring around the older centre?",
+    "clue": "Look at how streets and buildings follow the bends of the water.",
+    "choices": [
+      "To enclose a single ornamental pond",
+      "To extend the city with transport and water management built in",
+      "To reserve all land along the canals for farming"
+    ],
+    "correct": 1,
+    "explanation": "Amsterdam expanded by laying out canals, streets and building plots together. The canals helped manage water and move goods, while their banks opened space for new neighbourhoods.",
+    "url": "https://whc.unesco.org/en/list/1349/",
+    "image": "/images/connections/time-amsterdam-modern.jpg",
+    "credit": "Andrés Barrios",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png"
+  },
+  {
+    "city": "Samarkand, Uzbekistan",
+    "name": "Registan",
+    "question": "Why do three large buildings face the same square?",
+    "clue": "Notice how the entrances open toward a common space.",
+    "choices": [
+      "To create separate private gardens between the buildings",
+      "To hide the entrances from people crossing the square",
+      "To frame a public space shared by major institutions"
+    ],
+    "correct": 2,
+    "explanation": "The three madrasas face the Registan and give the square a defined shape. The open ground connects the entrances and makes the ensemble a central public place.",
+    "url": "https://whc.unesco.org/en/list/603/",
+    "image": "/images/connections/time-samarkand-modern.jpg",
+    "credit": "Registan_-_Gusjer.jpg: Gustavo Jeronimo from Aranjuez, Spain\nderivative work: MrPanyGoff",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg"
+  },
+  {
+    "city": "Bukhara, Uzbekistan",
+    "name": "Po-i-Kalyan ensemble",
+    "question": "Why group a mosque, a madrasa and a tall minaret together?",
+    "clue": "Notice how the tower rises above neighbouring buildings.",
+    "choices": [
+      "The complex linked worship and learning around a visible landmark",
+      "The tower stored cargo for ships",
+      "The buildings were intended as city gates"
+    ],
+    "correct": 0,
+    "explanation": "The mosque and madrasa face one another across a public space. The minaret gives the ensemble a recognizable marker within the surrounding streets.",
+    "url": "https://whc.unesco.org/en/list/602/",
+    "image": "/images/connections/why-bukhara.jpg",
+    "credit": "Euyasik",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Kalon-Ensemble_Buchara.jpg"
+  },
+  {
+    "city": "Udaipur, India",
+    "name": "City Palace and Lake Pichola",
+    "question": "Why does the palace stretch along the lakeshore?",
+    "clue": "Look at how the walls follow the edge above the water.",
+    "choices": [
+      "To make space for ocean-going ships",
+      "To use the shore and slope as a setting for the palace complex",
+      "To keep every room at exactly the same height"
+    ],
+    "correct": 1,
+    "explanation": "The complex developed on elevated ground beside Lake Pichola. Its courtyards and buildings occupy several levels, with the lakeshore giving the ensemble a clear edge and long views.",
+    "url": "https://www.tourism.rajasthan.gov.in/udaipur.html",
+    "image": "/images/connections/time-udaipur-modern.jpg",
+    "credit": "Güldem Üstün from Istanbul, TURKEY",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:India_(Udaipur)_City_Palace_Complex_built_nearly_400_years_ago_on_the_east_bank_of_Lake_Pichola_(32065607103).jpg"
+  },
+  {
+    "city": "Athens, Greece",
+    "name": "Acropolis",
+    "question": "Why put a major sanctuary on this rocky hill?",
+    "clue": "Look at how clearly the summit stands above the streets below.",
+    "choices": [
+      "To give boats a landing near the temples",
+      "To keep the sanctuary out of view",
+      "To make the sanctuary prominent above the city"
+    ],
+    "correct": 2,
+    "explanation": "The Acropolis occupies a natural strongpoint. Building temples on the summit gave the sanctuary a conspicuous position and made the approach to it part of the experience.",
+    "url": "https://whc.unesco.org/en/list/404/",
+    "image": "/images/connections/time-athens-modern.jpg",
+    "credit": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg"
+  },
+  {
+    "city": "Halifax, Canada",
+    "name": "The harbour and Citadel Hill",
+    "question": "Why place a citadel on high ground above the harbour?",
+    "clue": "Think about what defenders could see from above the waterfront.",
+    "choices": [
+      "To watch the harbour and protect the naval station",
+      "To provide a place for ships to unload",
+      "To keep watch only on farmland inland"
+    ],
+    "correct": 0,
+    "explanation": "The hill gave defenders a view over the harbour and the town. Fortifications there supported a wider defensive system around an important naval base.",
+    "url": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=281",
+    "image": "/images/connections/time-halifax-modern.jpg",
+    "credit": "Alkan de Beaumont Chaglar",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Halifax_harbour_with_view_of_Dartmouth.jpg"
+  },
+  {
+    "city": "Montréal, Canada",
+    "name": "Old Port",
+    "question": "Why did the port need long wharves along the St. Lawrence?",
+    "clue": "Look at how much of the waterfront is given to loading space.",
+    "choices": [
+      "To stop trains reaching the riverfront",
+      "To transfer freight between ships and land transport",
+      "To make the river narrower for swimming"
+    ],
+    "correct": 1,
+    "explanation": "Wharves brought vessels close to storage and land transport. This made the port a place where cargo could change modes without travelling far through city streets.",
+    "url": "https://www.oldportofmontreal.com/history-old-port",
+    "image": "/images/connections/time-montreal-modern.jpg",
+    "credit": "Krestavilis at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Montreal_Old_port.jpg",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Montreal_Old_port.jpg"
+  },
+  {
+    "city": "Vancouver, Canada",
+    "name": "Gastown after the Great Fire",
+    "question": "Why was rebuilding an early priority in this waterfront district?",
+    "clue": "Look at how the streets and buildings meet near the historic centre.",
+    "choices": [
+      "To turn the district into farmland",
+      "To move the working port inland",
+      "To restore a settlement where people already lived and traded"
+    ],
+    "correct": 2,
+    "explanation": "The fire of 1886 destroyed much of the young city. Residents and businesses rebuilt quickly in the same area, keeping the waterfront and early street network central to its growth.",
+    "url": "https://archives.vancouver.ca/projects/EarlyVan/SearchEarlyVan/Vol2pdf/MatthewsEarlyVancouverVol2_TheGreatFire13June1886.pdf",
+    "image": "/images/connections/time-vancouver-modern.jpg",
+    "credit": "Lee Coursey from Decatur, GA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Vancouver_2018-20180422-2108_(42138196834).jpg"
+  },
+  {
+    "city": "Osaka, Japan",
+    "name": "Osaka Castle keep",
+    "question": "Why does a historic-looking castle keep have a modern structure?",
+    "clue": "Look at the traditional rooflines on the reconstructed building.",
+    "choices": [
+      "A modern reconstruction recreated the historic silhouette",
+      "The roofs were copied from a railway station",
+      "The entire keep was transferred from another city"
+    ],
+    "correct": 0,
+    "explanation": "The current keep was completed in 1931 using modern construction. It restores the visible form of a castle landmark and houses a museum inside.",
+    "url": "https://www.osaka-info.jp/en/spot/osaka-castle-main-keep/",
+    "image": "/images/connections/time-osaka-modern.jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg"
+  },
+  {
+    "city": "Christchurch, New Zealand",
+    "name": "Christ Church Cathedral",
+    "question": "Why did earthquake damage prompt a debate over this building’s future?",
+    "clue": "Notice the damaged structure in the centre of a public square.",
+    "choices": [
+      "The building blocked access to the port",
+      "Restoring the landmark had to be weighed against safety and engineering needs",
+      "The building had been intended as a temporary stage"
+    ],
+    "correct": 1,
+    "explanation": "The earthquakes badly damaged the cathedral. Its place in Cathedral Square made the decision about its future both an engineering question and a question about the identity of the city centre.",
+    "url": "https://christchurchcathedral.org.nz/cathedral-history/",
+    "image": "/images/connections/time-christchurch-modern.jpg",
+    "credit": "New Zealand Defence Force",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral_-_2011_earthquake_damage.jpg"
+  },
+  {
+    "city": "Manila, Philippines",
+    "name": "Intramuros",
+    "question": "Why enclose the colonial centre within one continuous wall?",
+    "clue": "Notice the limited routes through the boundary.",
+    "choices": [
+      "To raise the whole district above a river",
+      "To separate several independent port cities",
+      "To defend a concentration of government and religious buildings"
+    ],
+    "correct": 2,
+    "explanation": "The walls enclosed the centre of Spanish colonial administration. Gates controlled the points of entry, while the walled district concentrated major public and religious institutions.",
+    "url": "https://intramuros.gov.ph/",
+    "image": "/images/connections/manila.jpg",
+    "credit": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Baluartillo_de_San_Jos%C3%A9,_Manila,_Filipinas,_2023-08-26,_DD_41.jpg"
+  },
+  {
+    "city": "Cusco, Peru",
+    "name": "Inca and colonial street fabric",
+    "question": "Why can later buildings sit directly above older stonework?",
+    "clue": "Look for changes in the masonry near the base of a wall.",
+    "choices": [
+      "Later builders reused parts of the Inca city",
+      "The lower walls were shipped in for a museum",
+      "All of the walls were built at the same time"
+    ],
+    "correct": 0,
+    "explanation": "After the Spanish conquest, builders reused some Inca foundations and walls. At street level, the junction between different kinds of masonry can show how one city was built into another.",
+    "url": "https://whc.unesco.org/en/list/273/",
+    "image": "/images/connections/why-cusco.jpg",
+    "credit": "tomscoffin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Vista_Calle_Suecia.jpg"
   }
 ]
