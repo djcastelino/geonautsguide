@@ -2002,5 +2002,244 @@
     "modernImage": "time-lowell-modern",
     "modernCredit": "time-lowell-modern",
     "modernPath": "/images/connections/time-lowell-modern.jpg"
+  },
+  {
+    "id": "le-havre",
+    "name": "Le Havre",
+    "country": "France",
+    "title": "A city rebuilt in concrete.",
+    "deck": "The old city hall and the rebuilt civic square show how Le Havre responded to wartime destruction.",
+    "archiveDate": "1859–1900",
+    "archiveTitle": "Le Havre’s former city hall",
+    "archiveType": "Historical postcard · colour print",
+    "modernTitle": "City Hall Square in the rebuilt centre",
+    "changed": "A postwar plan replaced much of the destroyed centre with coordinated streets, squares, and reinforced concrete buildings.",
+    "persisted": "The city hall square still marks a civic centre.",
+    "notice": "Compare the architecture surrounding the civic space. The earlier image dates from before the wartime bombing.",
+    "sources": [
+      {
+        "name": "UNESCO · Le Havre, the city rebuilt by Auguste Perret",
+        "url": "https://whc.unesco.org/en/list/1181/"
+      }
+    ],
+    "eras": [
+      [
+        "Before the war",
+        "An established port city",
+        "The former city hall belonged to the civic centre of an established port."
+      ],
+      [
+        "1944",
+        "The centre devastated",
+        "Wartime bombing destroyed much of central Le Havre."
+      ],
+      [
+        "1945–1964",
+        "A reconstruction plan",
+        "A team led by Auguste Perret used a coordinated plan and reinforced concrete to rebuild the centre."
+      ],
+      [
+        "Present day",
+        "The rebuilt city as heritage",
+        "The streets and public buildings are part of a living city and a UNESCO World Heritage site."
+      ]
+    ],
+    "archiveImage": "time-le-havre-archive",
+    "archivePath": "/images/connections/time-le-havre-archive.jpg",
+    "modernImage": "time-le-havre-modern",
+    "modernCredit": "time-le-havre-modern",
+    "modernPath": "/images/connections/time-le-havre-modern.jpg"
+  },
+  {
+    "id": "potosi",
+    "name": "Potosí",
+    "country": "Bolivia",
+    "title": "A city shaped by silver.",
+    "deck": "A historical mining illustration and a view of Cerro Rico connect the mountain with the city below.",
+    "archiveDate": "c. 1750",
+    "archiveTitle": "Illustration of a silver mine at Potosí",
+    "archiveType": "Historical illustration",
+    "modernTitle": "Cerro Rico above Potosí",
+    "changed": "Colonial silver mining drove the growth of a city and an industrial landscape.",
+    "persisted": "The mountain remains a defining feature of Potosí and its mining history.",
+    "notice": "The illustration imagines a view into a mine. The photograph shows the mountain in the wider landscape.",
+    "sources": [
+      {
+        "name": "UNESCO · City of Potosí",
+        "url": "https://whc.unesco.org/en/list/420/"
+      }
+    ],
+    "eras": [
+      [
+        "Sixteenth century",
+        "Silver draws a city uphill",
+        "Mining at Cerro Rico brought rapid growth to Potosí under Spanish colonial rule."
+      ],
+      [
+        "Colonial mining",
+        "Labor behind the silver",
+        "The mining economy depended in part on coerced Indigenous labor under the colonial mita."
+      ],
+      [
+        "c. 1750",
+        "A mine pictured",
+        "The illustration depicts miners working within the mountain and makes the underground work visible."
+      ],
+      [
+        "Present day",
+        "A mountain and its city",
+        "Cerro Rico, the historic city, and its industrial remains preserve evidence of the long history of extraction."
+      ]
+    ],
+    "archiveImage": "time-potosi-archive",
+    "archivePath": "/images/connections/time-potosi-archive.jpg",
+    "modernImage": "time-potosi-modern",
+    "modernCredit": "time-potosi-modern",
+    "modernPath": "/images/connections/time-potosi-modern.jpg"
+  },
+  {
+    "id": "split",
+    "name": "Split",
+    "country": "Croatia",
+    "title": "A palace becomes city streets.",
+    "deck": "Two views of the Peristyle show how a Roman imperial residence became part of a living city.",
+    "archiveDate": "c. 1890–1900",
+    "archiveTitle": "The Peristyle in a historical view of Split",
+    "archiveType": "Photochrom print · historical colours added in printing",
+    "modernTitle": "The Peristyle in modern Split",
+    "changed": "Homes, shops, and places of worship took shape within and around the palace.",
+    "persisted": "The palace walls, gates, and courtyards still help organize movement through the old centre.",
+    "notice": "Look for the columns and the open court across both views.",
+    "sources": [
+      {
+        "name": "UNESCO · Historical Complex of Split with the Palace of Diocletian",
+        "url": "https://whc.unesco.org/en/list/97/"
+      }
+    ],
+    "eras": [
+      [
+        "Around 300 CE",
+        "An imperial residence",
+        "Diocletian built a fortified residence on the Adriatic coast."
+      ],
+      [
+        "Later centuries",
+        "A city within the walls",
+        "Later inhabitants adapted the complex, making homes and streets among its Roman structures."
+      ],
+      [
+        "Late nineteenth century",
+        "The courtyard pictured",
+        "The archive shows the Peristyle after many centuries of use and alteration."
+      ],
+      [
+        "Present day",
+        "A Roman structure in everyday use",
+        "Visitors and residents cross a courtyard that still connects several parts of the old centre."
+      ]
+    ],
+    "archiveImage": "time-split-archive",
+    "archivePath": "/images/connections/time-split-archive.jpg",
+    "modernImage": "time-split-modern",
+    "modernCredit": "time-split-modern",
+    "modernPath": "/images/connections/time-split-modern.jpg"
+  },
+  {
+    "id": "luxembourg",
+    "name": "Luxembourg City",
+    "country": "Luxembourg",
+    "title": "What remains when the fortress comes down.",
+    "deck": "An old fortification plan and a valley view show how defenses once followed the city’s terrain.",
+    "archiveDate": "1686",
+    "archiveTitle": "A plan of fortified Luxembourg",
+    "archiveType": "Historical plan",
+    "modernTitle": "Fortification remains viewed from the Adolphe Bridge",
+    "changed": "After the 1867 Treaty of London, much of the fortress was dismantled.",
+    "persisted": "Sections of wall and the steep valleys still make the defensive geography visible.",
+    "notice": "Compare the lines on the plan with the surviving stonework. The photograph covers only one part of the former defenses.",
+    "sources": [
+      {
+        "name": "UNESCO · City of Luxembourg",
+        "url": "https://whc.unesco.org/en/list/699/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1686",
+        "A stronghold above valleys",
+        "The city’s cliffs and deep valleys gave successive rulers a place to build defenses."
+      ],
+      [
+        "1686",
+        "The defenses mapped",
+        "The plan records part of the military landscape at a particular point in its development."
+      ],
+      [
+        "From 1867",
+        "The dismantling",
+        "The Treaty of London required the fortress to be dismantled, opening parts of the city to new uses."
+      ],
+      [
+        "Present day",
+        "Fragments within the capital",
+        "Remaining walls and works tell part of the story of a much larger defensive system."
+      ]
+    ],
+    "archiveImage": "time-luxembourg-archive",
+    "archivePath": "/images/connections/time-luxembourg-archive.jpg",
+    "modernImage": "time-luxembourg-modern",
+    "modernCredit": "time-luxembourg-modern",
+    "modernPath": "/images/connections/time-luxembourg-modern.jpg"
+  },
+  {
+    "id": "matera",
+    "name": "Matera",
+    "country": "Italy",
+    "title": "The cave districts become a living place again.",
+    "deck": "A historical photograph and a modern view of the Sassi trace relocation and the later reuse of rock-cut neighborhoods.",
+    "archiveDate": "c. 1948–1955",
+    "archiveTitle": "New housing in postwar Matera",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Sassi districts of Matera",
+    "changed": "Residents were relocated from the Sassi in the twentieth century. Restoration later brought new uses and residents to parts of the districts.",
+    "persisted": "The steep lanes, rock-cut spaces, and masonry facades still show how settlement adapted to the ravine.",
+    "notice": "Read the archive in the context of a housing program. The modern view shows the larger landscape of the Sassi.",
+    "sources": [
+      {
+        "name": "UNESCO · The Sassi and the Park of the Rupestrian Churches of Matera",
+        "url": "https://whc.unesco.org/en/list/670/"
+      },
+      {
+        "name": "US National Archives · Matera housing photograph",
+        "url": "https://catalog.archives.gov/id/541719"
+      }
+    ],
+    "eras": [
+      [
+        "Over centuries",
+        "Building into the ravine",
+        "Rock-cut spaces and masonry buildings formed a dense settlement on the ravine slopes."
+      ],
+      [
+        "Mid-20th century",
+        "A housing intervention",
+        "Government rehousing moved people out of the Sassi as authorities responded to poor living conditions."
+      ],
+      [
+        "Late twentieth century",
+        "Restoration and reuse",
+        "Conservation returned buildings and rock-cut spaces to use. UNESCO inscribed the site in 1993."
+      ],
+      [
+        "Present day",
+        "A district with several lives",
+        "The Sassi now combine housing, cultural sites, and visitor uses within an older settlement pattern."
+      ]
+    ],
+    "archiveImage": "time-matera-archive",
+    "archivePath": "/images/connections/time-matera-archive.jpg",
+    "modernImage": "time-matera-modern",
+    "modernCredit": "time-matera-modern",
+    "modernPath": "/images/connections/time-matera-modern.jpg"
   }
 ]

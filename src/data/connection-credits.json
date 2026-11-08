@@ -2723,5 +2723,100 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Lowell,_MA_-_Boott_Cotton_Mills_(Mill_No._6)_(2).jpg",
     "description": "File:Lowell, MA - Boott Cotton Mills (Mill No. 6) (2).jpg"
+  },
+  "time-le-havre-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Hotel_de_Ville_Le_Havre_1859-1944.jpg",
+    "description": "File:Hotel de Ville Le Havre 1859-1944.jpg",
+    "archiveDate": "between 1859 and 1900<div style=\"display: none;\">date QS:P,+1500-00-00T00:00:00Z/6,P1319,+1859-00-00T00:00:00Z/9,P1326,+1900-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Hotel de Ville Le Havre 1859-1944.jpg",
+    "imageDescription": "<p>Town Hall of Le Havre, the venue of the Olympic Congress 1897\n</p><p>old Postcard, no restrictions on use\n</p>\nCopyright: free of charges"
+  },
+  "time-le-havre-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:MJJR\" title=\"User:MJJR\">Marc Ryckaert</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_Havre_Place_H%C3%B4tel_de_Ville_R05.jpg",
+    "description": "File:Le Havre Place Hôtel de Ville R05.jpg"
+  },
+  "time-potosi-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:A_silver_mine_in_Potos%C3%AD,_Bolivia_-_cross-section_and_miners_digging_(ca._1750).jpg",
+    "description": "File:A silver mine in Potosí, Bolivia - cross-section and miners digging (ca. 1750).jpg",
+    "archiveDate": "1750-01-01",
+    "archiveTitle": "File:A silver mine in Potosí, Bolivia - cross-section and miners digging (ca. 1750).jpg",
+    "imageDescription": "A section of a silver mine in Potosi, in Bolivia, and the manner of working it. Engraved for The Universal Magazine of Knowledge and Pleasure ca. 1750."
+  },
+  "time-potosi-modern": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/nl:User:Mhwater\" class=\"extiw\" title=\"w:nl:User:Mhwater\">Mhwater</a> at <a href=\"https://en.wikipedia.org/wiki/nl:\" class=\"extiw\" title=\"w:nl:\">Dutch Wikipedia</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Cerro_ricco.jpg",
+    "description": "Cerro Rico"
+  },
+  "time-split-archive": {
+    "Artist": "<div class=\"fn value\">\nPhotochrom Print Collection</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Spalato,_Diocletian%27s_Palace,_the_Peristyle,_Dalmatia,_Austro-Hungary-LCCN2002710818.jpg",
+    "description": "File:Spalato, Diocletian's Palace, the Peristyle, Dalmatia, Austro-Hungary-LCCN2002710818.jpg",
+    "archiveDate": "between 1890 and 1900<div style=\"display: none;\">date QS:P571,+1500-00-00T00:00:00Z/6,P1319,+1890-00-00T00:00:00Z/9,P1326,+1900-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Spalato, Diocletian's Palace, the Peristyle, Dalmatia, Austro-Hungary-LCCN2002710818.jpg",
+    "imageDescription": "<div class=\"description\">\nForms part of: Views of the Austro-Hungarian Empire in the Photochrom print collection.; Print no. \"17403\".; Title from the Detroit Publishing Co., Catalogue J-foreign section, Detroit, Mich. : Detroit Publishing Company, 1905.</div>"
+  },
+  "time-luxembourg-archive": {
+    "Artist": "",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Plan_de_Luxembourg,_1686_-_dessin_-_btv1b6903710k.jpg",
+    "description": "File:Plan de Luxembourg, 1686 - dessin - btv1b6903710k.jpg",
+    "archiveDate": "1686<div style=\"display: none;\">date QS:P571,+1686-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Plan de Luxembourg, 1686 - dessin - btv1b6903710k.jpg",
+    "imageDescription": "Sujet : Fortifications -- Luxembourg\n<p>Luxembourg -- 1477-1795\nDessins et plans -- 17e siècle\nRéférence bibliographique : Gaignières, 6248\n</p>\nAppartient à l’ensemble documentaire : Des17Gaig"
+  },
+  "time-luxembourg-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cayambe\" title=\"User:Cayambe\">Cayambe</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Luxembourg_Fortress_from_Adolphe_Bridge_02_c67.jpg",
+    "description": "File:Luxembourg Fortress from Adolphe Bridge 02 c67.jpg"
+  },
+  "time-matera-archive": {
+    "Artist": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Matera,_Italy._Italy%27s_government_and_America%27s_Economic_Cooperation_Administration_cooperate_to_build_a_new_housing..._-_NARA_-_541719.tif",
+    "description": "File:Matera, Italy. Italy's government and America's Economic Cooperation Administration cooperate to build a new housing... - NARA - 541719.tif",
+    "archiveDate": "between circa 1948 and circa 1955<div style=\"display: none;\">date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1948-00-00T00:00:00Z/9,P1326,+1955-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "archiveTitle": "File:Matera, Italy. Italy's government and America's Economic Cooperation Administration cooperate to build a new housing... - NARA - 541719.tif",
+    "imageDescription": ""
+  },
+  "time-matera-modern": {
+    "Artist": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Atigra~commonswiki&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Atigra~commonswiki (page does not exist)\">Atigra~commonswiki</a> assumed (based on copyright claims).",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sassi_matera.jpg",
+    "description": "File:Sassi matera.jpg"
+  },
+  "time-split-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Silverije\" title=\"User:Silverije\">Silverije</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Peristil,_Split.jpg",
+    "description": "File:Peristil, Split.jpg"
   }
 }
