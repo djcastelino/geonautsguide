@@ -1,0 +1,817 @@
+[
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "title": "From forest to coffeehouse",
+    "intro": "Follow arabica from its East African roots through the Red Sea to the coffeehouses of London.",
+    "stops": [
+      ["Ethiopian highlands", 36, 7, "A forest plant", "Arabica coffee grew wild in Ethiopia. Its journey begins in the highlands, where the plant was already part of local life before it became a commodity traded across oceans."],
+      ["Mocha, Yemen", 43.25, 13.32, "A port gives coffee its name", "Yemen became an early centre of coffee cultivation and trade. Merchants bought beans through Mocha, a Red Sea port whose name became associated with the drink."],
+      ["London, England", -0.13, 51.51, "A new place to gather", "Coffeehouses appeared in London in the mid-seventeenth century. A drink carried across trading networks gave customers a new place to meet, talk and exchange news."]
+    ],
+    "sources": [
+      {"name": "New York Botanical Garden · Coffeehouse cultures", "url": "https://libguides.nybg.org/c.php?g=1485221&p=11077129"},
+      {"name": "Cambridge University Press · Coffee in the Red Sea area", "url": "https://www.cambridge.org/core/books/abs/global-coffee-economy-in-africa-asia-and-latin-america-15001989/coffee-in-the-red-sea-area-from-the-sixteenth-to-the-nineteenth-century/8EDB621854C8AF5514BF39D6325171CE"}
+    ]
+  },
+  {
+    "id": "pepper",
+    "name": "Black pepper",
+    "title": "The spice that crossed oceans",
+    "intro": "Trace one branch of the pepper trade from India’s Malabar Coast around southern Africa to Lisbon.",
+    "stops": [
+      ["Kozhikode, India", 75.78, 11.26, "A market on the Malabar Coast", "Kozhikode, historically called Calicut, was already a busy Indian Ocean port when Vasco da Gama arrived in 1498. Pepper grown in the region passed through established merchant networks."],
+      ["Cape of Good Hope, South Africa", 18.47, -34.36, "A sea route around Africa", "The Portuguese route linked the Atlantic and Indian Oceans by rounding southern Africa. Ships could carry pepper toward Europe without relying on the same chain of ports used in Mediterranean trade."],
+      ["Lisbon, Portugal", -9.14, 38.72, "A new European entry point", "Portuguese merchants brought Malabar pepper to Lisbon. The route shifted part of the European trade toward Atlantic ports while other routes continued to operate."]
+    ],
+    "sources": [
+      {"name": "Kerala Tourism · Muziris and the spice routes", "url": "https://www.keralatourism.org/muziris/muziris-project/spice-route"},
+      {"name": "Trinity College Dublin · Did Vasco da Gama Matter for European Markets?", "url": "https://www.tcd.ie/Economics/staff/orourkek/dagamafinalDec05.pdf"}
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "The potato",
+    "title": "A highland crop crosses the Atlantic",
+    "intro": "Follow a crop that Andean farmers diversified long before it reached Europe.",
+    "stops": [
+      ["Central Andes", -70, -16, "A crop adapted to the highlands", "Andean communities cultivated many kinds of potatoes. Different varieties and ways of preserving them helped make the crop a dependable food in the highlands."],
+      ["Canary Islands, Spain", -16.63, 28.29, "An Atlantic stepping stone", "Early records place potatoes in the Canary Islands in the sixteenth century. The islands offer a clue to how the crop travelled on shipping routes linking the Americas and Europe."],
+      ["Seville, Spain", -5.99, 37.39, "From a new arrival to a staple", "Early records in mainland Spain include purchases for a hospital in Seville. Farmers and gardeners helped the crop spread over time, long before it became an everyday food across much of Europe."]
+    ],
+    "sources": [
+      {"name": "Cambridge University Press · Immigrant Potatoes", "url": "https://www.cambridge.org/core/books/feeding-the-people/immigrant-potatoes/46D247BCC4281E145ADD0FF361C234D2"},
+      {"name": "REDI research repository · Early history of the potato in Europe", "url": "https://redi.cedia.edu.ec/document/474647"}
+    ]
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "title": "How a craft travelled west",
+    "intro": "Trace the spread of papermaking across workshops, trading cities and writing cultures.",
+    "stops": [
+      ["China", 108.94, 34.34, "Fibres become a writing surface", "Papermakers in China learned to turn plant fibres into thin sheets. The craft could travel wherever people had suitable fibres, water and the knowledge to work them."],
+      ["Samarkand, Uzbekistan", 66.96, 39.65, "A Central Asian centre", "Samarkand became known for papermaking. A familiar story ties the craft’s spread to a single battle, but the route here shows centres of production without assigning the transfer to one event."],
+      ["Baghdad, Iraq", 44.37, 33.31, "Paper in the Abbasid world", "Papermaking reached Baghdad during the Abbasid era. Paper supported the work of scribes and book producers as the craft spread to other cities."],
+      ["Fabriano, Italy", 12.90, 43.34, "European workshops adapt the craft", "European papermakers developed their own workshop methods. Italian centres such as Fabriano became known for paper production and for using watermarks to identify sheets."]
+    ],
+    "sources": [
+      {"name": "UNESCO · Silk Roads arts and crafts", "url": "https://ar.unesco.org/silkroad/sites/default/files/knowledge-bank-article/vol_IVb%20silk%20road_arts%20and%20crafts%20BIS.pdf"},
+      {"name": "Vanderbilt Libraries · Papermaking in Europe and America", "url": "https://exhibitions.library.vanderbilt.edu/papermaking/section/overview/"}
+    ]
+  },
+  {
+    "id": "cable",
+    "name": "Transatlantic cable",
+    "title": "When a message outran a ship",
+    "intro": "Follow the 1866 telegraph cable from the Irish coast to Newfoundland, with a stop in the open Atlantic.",
+    "stops": [
+      ["Valentia Island, Ireland", -10.35, 51.91, "The eastern end", "A cable briefly worked in 1858 before failing. Engineers tried again, and in July 1866 the Great Eastern began paying out a new cable from Valentia."],
+      ["North Atlantic", -32, 50, "An engineering problem at sea", "A cable could break under its own weight as it sank. Crews had to control the rate at which it ran off the ship. An attempt in 1865 had already ended with a break at sea."],
+      ["Heart’s Content, Newfoundland", -53.37, 47.87, "The signal comes ashore", "The cable reached Heart’s Content on July 27, 1866. Once connected to telegraph networks on both shores, news could cross the ocean in minutes instead of waiting for the next ship."]
+    ],
+    "sources": [
+      {"name": "World Heritage Ireland · Transatlantic Cable Ensemble", "url": "https://www.worldheritageireland.ie/tentative-list/transatlantic-cable-ensemble/"},
+      {"name": "Smithsonian Libraries · The Underwater Web", "url": "https://www.sil.si.edu/exhibitions/underwater-web/uw-bold-and-cautious-02.htm"}
+    ]
+  },
+  {
+    "id": "silk-roads",
+    "name": "The Silk Roads",
+    "title": "From imperial capital to mountain corridors",
+    "intro": "Follow one branch of the Silk Roads and see how people crossed deserts and mountain passes.",
+    "stops": [
+      [
+        "Chang’an (Xi’an), China",
+        108.94,
+        34.34,
+        "An imperial starting point",
+        "Chang’an was a major capital at the eastern end of the corridor. Its markets drew merchants who connected the imperial city to regions far beyond it."
+      ],
+      [
+        "Dunhuang, China",
+        94.66,
+        40.14,
+        "An oasis at the desert’s edge",
+        "Water and provisions made oasis towns crucial to travellers. The caves at nearby Mogao preserve evidence of the religious and artistic exchange that accompanied trade."
+      ],
+      [
+        "Suyab (Ak-Beshim), Kyrgyzstan",
+        75.2,
+        42.8,
+        "A meeting point in the Chu Valley",
+        "Suyab lay on routes through the western Tianshan region. Traders, rulers and religious communities all left traces along this corridor."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Chang’an–Tianshan Corridor",
+        "url": "https://whc.unesco.org/en/list/1442/"
+      }
+    ]
+  },
+  {
+    "id": "andean-road",
+    "name": "Qhapaq Ñan",
+    "title": "The roads that held an empire together",
+    "intro": "Trace selected points of the Andean road network through mountains and high plateaus.",
+    "stops": [
+      [
+        "Quito, Ecuador",
+        -78.51,
+        -0.22,
+        "A northern centre",
+        "Inca rule reached the northern Andes, where imperial roads linked centres in present-day Ecuador to a wider network that also incorporated older routes."
+      ],
+      [
+        "Cusco, Peru",
+        -71.97,
+        -13.52,
+        "Roads radiate from the capital",
+        "The network tied Cusco to administrative centres, settlements and storehouses. Runners could relay messages in stages across difficult terrain."
+      ],
+      [
+        "Titicaca plateau",
+        -69.4,
+        -15.8,
+        "Across the high plateau",
+        "Roads crossed the open highlands near Lake Titicaca and continued into other regions. The network linked communities separated by altitude and distance."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Qhapaq Ñan",
+        "url": "https://whc.unesco.org/en/list/1459/"
+      }
+    ]
+  },
+  {
+    "id": "grand-canal",
+    "name": "China’s Grand Canal",
+    "title": "How grain reached the capital",
+    "intro": "Follow the waterways that connected southern production centres to northern cities.",
+    "stops": [
+      [
+        "Hangzhou, China",
+        120.16,
+        30.27,
+        "A southern gateway",
+        "The canal connected the prosperous lower Yangtze region to markets farther north. Grain from the south could travel much of the way by water."
+      ],
+      [
+        "Huai’an, China",
+        119.02,
+        33.61,
+        "Managing a water crossing",
+        "Near Huai’an, canal traffic encountered the Huai River system. Keeping the route navigable required water management as well as digging channels."
+      ],
+      [
+        "Beijing, China",
+        116.41,
+        39.9,
+        "Feeding the capital",
+        "The waterway helped supply the northern capital. The canal connected the needs of the imperial court and city to agricultural regions hundreds of kilometres away."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · The Grand Canal",
+        "url": "https://whc.unesco.org/en/list/1443/"
+      }
+    ]
+  },
+  {
+    "id": "canal-du-midi",
+    "name": "Canal du Midi",
+    "title": "Finding water for a canal summit",
+    "intro": "Cross southern France and discover how engineers kept a hilltop canal supplied.",
+    "stops": [
+      [
+        "Toulouse, France",
+        1.44,
+        43.6,
+        "A gateway to the Garonne",
+        "The canal starts at Toulouse, where it meets the Garonne river system. This connection made it part of a larger water route between the Atlantic and the Mediterranean."
+      ],
+      [
+        "Naurouze, France",
+        1.82,
+        43.35,
+        "Water for the highest stretch",
+        "At the summit, water could drain toward either coast. Feed channels brought water from the Montagne Noire to replace what lock operations consumed."
+      ],
+      [
+        "Étang de Thau, France",
+        3.61,
+        43.4,
+        "A lagoon opens to the Mediterranean",
+        "The canal reaches the Étang de Thau near Marseillan. The lagoon connects onward to the Mediterranean, where coastal shipping could take over."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Canal du Midi",
+        "url": "https://whc.unesco.org/en/list/770/"
+      }
+    ]
+  },
+  {
+    "id": "rideau",
+    "name": "Rideau Canal",
+    "title": "An inland route between two rivers",
+    "intro": "Follow a canal built to connect Ottawa and Lake Ontario through rivers and lakes.",
+    "stops": [
+      [
+        "Ottawa, Canada",
+        -75.7,
+        45.43,
+        "An inland alternative",
+        "Built in the early nineteenth century, the Rideau Canal gave British North America a route between the Ottawa River and Lake Ontario away from the border section of the St. Lawrence."
+      ],
+      [
+        "Smiths Falls, Canada",
+        -76.02,
+        44.9,
+        "Locks between lakes",
+        "Instead of excavating the entire route, builders used lakes and rivers already on the landscape. Locks and dams joined navigable stretches and managed differences in height."
+      ],
+      [
+        "Kingston, Canada",
+        -76.48,
+        44.23,
+        "Out onto Lake Ontario",
+        "The route reached Kingston at Lake Ontario. A military supply route became a corridor for commerce and later for recreational boating."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Rideau Canal",
+        "url": "https://whc.unesco.org/en/list/1221/"
+      }
+    ]
+  },
+  {
+    "id": "panama-canal",
+    "name": "Panama Canal",
+    "title": "Why ships climb above the sea",
+    "intro": "Cross the isthmus on the original lock route and see why it relies on a freshwater lake.",
+    "stops": [
+      [
+        "Gatún Locks, Panama",
+        -79.92,
+        9.27,
+        "A lift from the Atlantic",
+        "Water flows into successive lock chambers to raise vessels from the Atlantic side. Their destination is Gatún Lake, about 26 metres above sea level."
+      ],
+      [
+        "Gatún Lake, Panama",
+        -79.91,
+        9.11,
+        "A lake becomes a shipping lane",
+        "Damming the Chagres River created a reservoir large enough to carry vessels across much of the isthmus. It also supplies water for the original locks."
+      ],
+      [
+        "Miraflores Locks, Panama",
+        -79.59,
+        9.0,
+        "Back down toward the Pacific",
+        "After crossing the divide and descending at Pedro Miguel, ships reach Miraflores for the final descent on the original route. Each lock adjusts the water around the ship."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Panama Canal Authority · Canal history",
+        "url": "https://pancanal.com/en/history-of-the-panama-canal/"
+      }
+    ]
+  },
+  {
+    "id": "suez-canal",
+    "name": "Suez Canal",
+    "title": "A sea-level shortcut across Egypt",
+    "intro": "Trace the cut linking the Mediterranean and Red Sea and see how it differs from a lock canal.",
+    "stops": [
+      [
+        "Port Said, Egypt",
+        32.3,
+        31.27,
+        "A Mediterranean entrance",
+        "The canal opened in 1869, giving ships a passage from the Mediterranean into Egypt’s isthmus of Suez. Before it opened, a sea voyage between Europe and the Indian Ocean went around Africa."
+      ],
+      [
+        "Great Bitter Lake, Egypt",
+        32.45,
+        30.32,
+        "A lake along the channel",
+        "The canal crosses the Bitter Lakes. Their wider waters give ships more room than the narrow excavated portions of the passage."
+      ],
+      [
+        "Suez, Egypt",
+        32.55,
+        29.97,
+        "Out to the Red Sea",
+        "At the southern end, vessels reach the Gulf of Suez and can continue into the Red Sea. Ships pass through at sea level without a flight of locks."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Suez Canal Authority · Canal history",
+        "url": "https://www.suezcanal.gov.eg/english/about/suezcanal/pages/canalhistory.aspx"
+      }
+    ]
+  },
+  {
+    "id": "semmering",
+    "name": "Semmering Railway",
+    "title": "A railway learns to climb",
+    "intro": "Travel from Gloggnitz to Mürzzuschlag on an early mountain railway.",
+    "stops": [
+      [
+        "Gloggnitz, Austria",
+        15.94,
+        47.68,
+        "The mountain approach",
+        "Work began in 1848 on a railway that would carry ordinary trains over the Semmering. The challenge was to climb steep terrain while keeping gradients manageable for locomotives."
+      ],
+      [
+        "Semmering Pass, Austria",
+        15.83,
+        47.63,
+        "Building with the contours",
+        "Curves lengthened the climb, while viaducts and tunnels carried tracks across ravines and through ridges. The line’s shape records the engineers’ response to the landscape."
+      ],
+      [
+        "Mürzzuschlag, Austria",
+        15.67,
+        47.61,
+        "Across the divide",
+        "The line opened in 1854 and joined railways on either side of the mountains. Its bridges and tunnels demonstrated that rail could cross terrain once considered impractical for main lines."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Semmering Railway",
+        "url": "https://whc.unesco.org/en/list/785/"
+      }
+    ]
+  },
+  {
+    "id": "bernina",
+    "name": "Rhaetian Railway",
+    "title": "From Alpine valleys to Italy by rail",
+    "intro": "Follow two railway lines across the Alps, from Thusis to Tirano.",
+    "stops": [
+      [
+        "Thusis, Switzerland",
+        9.44,
+        46.7,
+        "Into the Albula valley",
+        "From Thusis the Albula line climbs through an Alpine valley. Loops and tunnels let trains gain height over a longer distance."
+      ],
+      [
+        "Ospizio Bernina, Switzerland",
+        10.02,
+        46.41,
+        "Above the tree line",
+        "The Bernina line reaches its summit beside Lago Bianco. Steep gradients and tight curves allow a train to climb over the pass without a rack-and-pinion system."
+      ],
+      [
+        "Tirano, Italy",
+        10.17,
+        46.22,
+        "Down to the valley floor",
+        "The railway descends through the Poschiavo valley into Italy. At Brusio, a spiral viaduct lengthens the descent so the train can lose elevation within a small area."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Rhaetian Railway · Albula and Bernina lines",
+        "url": "https://www.rhb.ch/en/unesco-world-heritage-rhb/unesco-railway-lines/"
+      }
+    ]
+  },
+  {
+    "id": "darjeeling",
+    "name": "Darjeeling Himalayan Railway",
+    "title": "A narrow-gauge climb into the Himalayas",
+    "intro": "Follow the railway that connected the Bengal plains with Darjeeling’s high ridges.",
+    "stops": [
+      [
+        "Siliguri, India",
+        88.43,
+        26.72,
+        "From the plains",
+        "The Darjeeling Himalayan Railway linked the plains to a hill town in the late nineteenth century. Narrow-gauge tracks helped it negotiate a route where a broad railway would have needed more space."
+      ],
+      [
+        "Ghum, India",
+        88.25,
+        27.01,
+        "A summit on a winding route",
+        "Loops and reversing sections let the line gain height without a single sustained steep climb. Ghum sits near the highest point on the route."
+      ],
+      [
+        "Darjeeling, India",
+        88.26,
+        27.04,
+        "A hill town becomes easier to reach",
+        "The railway brought passengers and supplies into Darjeeling. It tied the hill station and surrounding tea-growing district more closely to the plains below."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Mountain Railways of India",
+        "url": "https://whc.unesco.org/en/list/944/"
+      }
+    ]
+  },
+  {
+    "id": "camino",
+    "name": "Camino de Santiago",
+    "title": "From the Pyrenees to Santiago",
+    "intro": "Follow three points on the French Way, one of several routes used by pilgrims to Santiago.",
+    "stops": [
+      [
+        "Roncesvalles, Spain",
+        -1.32,
+        43.01,
+        "Shelter after the crossing",
+        "Travellers crossing the Pyrenees from France could find shelter at Roncesvalles. The mountain crossing made the availability of beds, food and care especially important."
+      ],
+      [
+        "Burgos, Spain",
+        -3.7,
+        42.34,
+        "A city on the pilgrimage road",
+        "Farther west, pilgrims crossed the city of Burgos. A long flow of travellers helped sustain institutions that offered hospitality along the route."
+      ],
+      [
+        "Santiago de Compostela, Spain",
+        -8.54,
+        42.88,
+        "The destination",
+        "The cathedral in Santiago drew pilgrims from across Europe. The paths that converged on the city carried stories, customs and artistic ideas alongside travellers."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Xunta de Galicia · The French Way",
+        "url": "https://www.caminodesantiago.gal/en/make-plans/the-ways/french-way"
+      }
+    ]
+  },
+  {
+    "id": "kumano",
+    "name": "Kumano Kodō",
+    "title": "A pilgrimage through Japan’s Kii Mountains",
+    "intro": "Trace part of the Nakahechi route from the coast into the forested Kii Peninsula.",
+    "stops": [
+      [
+        "Tanabe, Japan",
+        135.38,
+        33.73,
+        "From coast to interior",
+        "Pilgrims travelling south along the coast reached Tanabe before turning inland. The route changes character here as it leaves the coast for valleys and steep ridges."
+      ],
+      [
+        "Takijiri-ōji, Japan",
+        135.53,
+        33.79,
+        "Entering the sacred mountains",
+        "The shrine at Takijiri marks a traditional entrance to the mountain region. Smaller shrines along the path gave pilgrims places to stop and make offerings."
+      ],
+      [
+        "Kumano Hongū Taisha, Japan",
+        135.77,
+        33.84,
+        "A shrine reached on foot",
+        "The path leads toward one of the three Kumano grand shrines. Climbing and walking through the forest were part of the pilgrimage experience."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Tanabe City Kumano Tourism Bureau · Nakahechi",
+        "url": "https://www.tb-kumano.jp/en/kumano-kodo/nakahechi/"
+      }
+    ]
+  },
+  {
+    "id": "oregon-trail",
+    "name": "Oregon Trail",
+    "title": "Across the Continental Divide by wagon",
+    "intro": "Follow three points on the overland migration route to Oregon’s Willamette Valley.",
+    "stops": [
+      [
+        "Independence, Missouri",
+        -94.42,
+        39.09,
+        "A place to provision",
+        "Many emigrants bought supplies and assembled wagon parties near the Missouri River. How much food, water and equipment a wagon could carry shaped the journey from the start."
+      ],
+      [
+        "South Pass, Wyoming",
+        -108.92,
+        42.37,
+        "A broad crossing of the Rockies",
+        "South Pass offered wagons a relatively gradual way over the Continental Divide. Travellers used Indigenous routes and knowledge as they crossed lands already home to Native nations."
+      ],
+      [
+        "Oregon City, Oregon",
+        -122.61,
+        45.36,
+        "Into the Willamette Valley",
+        "Oregon City became an endpoint for many journeys. The movement brought new settlements and intensified the dispossession of Indigenous peoples."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Park Service · Oregon Trail",
+        "url": "https://www.nps.gov/oreg/index.htm"
+      }
+    ]
+  },
+  {
+    "id": "lewis-clark",
+    "name": "Lewis and Clark Expedition",
+    "title": "Up the Missouri and out to the Pacific",
+    "intro": "Follow three camps on the 1804–06 expedition and see how knowledge travelled with the party.",
+    "stops": [
+      [
+        "Camp Dubois, Illinois",
+        -90.11,
+        38.8,
+        "Preparing near the confluence",
+        "The expedition spent the winter preparing near the junction of the Mississippi and Missouri rivers. In 1804 the party headed upstream on the Missouri."
+      ],
+      [
+        "Fort Mandan, North Dakota",
+        -101.31,
+        47.28,
+        "Wintering beside established villages",
+        "The expedition wintered near Mandan and Hidatsa communities and drew on local knowledge. Sacagawea and Toussaint Charbonneau joined the party before it continued west."
+      ],
+      [
+        "Fort Clatsop, Oregon",
+        -123.88,
+        46.13,
+        "A winter near the Pacific",
+        "After crossing the Rockies and travelling down the Columbia River system, the party spent the winter near the Pacific. Its journals recorded observations made along routes Native peoples already knew."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Park Service · Lewis and Clark Trail",
+        "url": "https://www.nps.gov/lecl/index.htm"
+      }
+    ]
+  },
+  {
+    "id": "santa-fe",
+    "name": "Santa Fe Trail",
+    "title": "A trading road across the plains",
+    "intro": "Follow the mountain branch of a commercial trail that connected Missouri to New Mexico.",
+    "stops": [
+      [
+        "Franklin, Missouri",
+        -92.76,
+        39.0,
+        "An early point of departure",
+        "William Becknell left the Franklin area in 1821 and opened a profitable trade with Santa Fe. Traders could exchange goods across the frontier with newly independent Mexico."
+      ],
+      [
+        "Bent’s Old Fort, Colorado",
+        -103.43,
+        38.04,
+        "A trading post on the mountain route",
+        "This post on the Arkansas River linked merchants and Indigenous trading partners. Wagons could use the mountain branch to reach New Mexico via Raton Pass."
+      ],
+      [
+        "Santa Fe, New Mexico",
+        -105.94,
+        35.69,
+        "A market at the western end",
+        "Santa Fe connected overland commerce with older trade routes into Mexico. The goods unloaded here often continued onward with other merchants."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Park Service · Santa Fe Trail",
+        "url": "https://www.nps.gov/safe/index.htm"
+      }
+    ]
+  },
+  {
+    "id": "tubman",
+    "name": "Harriet Tubman’s journeys",
+    "title": "Across a border in search of freedom",
+    "intro": "Trace three places in Tubman’s life and the wider network that supported people escaping slavery.",
+    "stops": [
+      [
+        "Dorchester County, Maryland",
+        -76.13,
+        38.45,
+        "The Eastern Shore",
+        "Tubman was born enslaved on Maryland’s Eastern Shore and escaped in 1849. She later returned to the region to guide others out of slavery."
+      ],
+      [
+        "Philadelphia, Pennsylvania",
+        -75.17,
+        39.95,
+        "A network of support",
+        "Tubman reached Philadelphia, where abolitionists aided people who escaped slavery. The Fugitive Slave Act of 1850 raised the risk of recapture even in free states."
+      ],
+      [
+        "St. Catharines, Ontario",
+        -79.24,
+        43.16,
+        "Beyond U.S. jurisdiction",
+        "Tubman lived for a time in St. Catharines, where people who had escaped slavery established a community. Crossing into Canada placed them beyond enforcement of the U.S. fugitive slave law."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "U.S. National Archives · Harriet Tubman",
+        "url": "https://www.archives.gov/research/african-americans/individuals/harriet-tubman"
+      }
+    ]
+  },
+  {
+    "id": "struve",
+    "name": "Struve Geodetic Arc",
+    "title": "Measuring Earth one triangle at a time",
+    "intro": "Follow survey points from northern Norway to the Black Sea region.",
+    "stops": [
+      [
+        "Hammerfest, Norway",
+        23.67,
+        70.66,
+        "A northern survey point",
+        "The Meridian Column marks the northern end of a nineteenth-century survey. Surveyors linked points by measuring angles between stations."
+      ],
+      [
+        "Tartu Observatory, Estonia",
+        26.72,
+        58.38,
+        "A reference for the survey",
+        "Friedrich Georg Wilhelm Struve worked at Tartu, which became a reference point for the survey. A chain of triangles allowed survey teams to calculate distances that were impractical to measure directly."
+      ],
+      [
+        "Staro-Nekrasivka, Ukraine",
+        28.92,
+        45.33,
+        "A southern endpoint",
+        "The arc ended near the Black Sea. The long measurement helped scientists estimate Earth’s size and shape with greater precision."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Struve Geodetic Arc",
+        "url": "https://whc.unesco.org/en/list/1187/"
+      }
+    ]
+  },
+  {
+    "id": "norse-atlantic",
+    "name": "Norse North Atlantic crossings",
+    "title": "From Iceland to Newfoundland",
+    "intro": "Follow selected points in the Norse expansion across the North Atlantic.",
+    "stops": [
+      [
+        "Western Iceland",
+        -22.0,
+        65.0,
+        "An island base",
+        "Norse settlers established communities in Iceland. Islands provided places to settle and resupply as voyages extended farther into the North Atlantic."
+      ],
+      [
+        "Southern Greenland",
+        -45.52,
+        61.16,
+        "A foothold in the fjords",
+        "Norse settlements grew in parts of Greenland where fjords offered landing places and nearby land supported grazing. Voyages could continue westward from these settlements."
+      ],
+      [
+        "L’Anse aux Meadows, Newfoundland",
+        -55.53,
+        51.6,
+        "Evidence on the ground",
+        "Archaeologists found remains of Norse-style buildings and evidence of ironworking here. The site confirms that Norse seafarers reached North America around a thousand years ago."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · L’Anse aux Meadows",
+        "url": "https://whc.unesco.org/en/list/4/"
+      }
+    ]
+  },
+  {
+    "id": "makasar",
+    "name": "The Makasar trepang trade",
+    "title": "A seasonal crossing to Arnhem Land",
+    "intro": "Follow the sea-cucumber trade between Sulawesi and northern Australia.",
+    "stops": [
+      [
+        "Makassar, Indonesia",
+        119.41,
+        -5.14,
+        "A port linked to Asian markets",
+        "Fishing crews set out from ports in what is now Indonesia to harvest trepang, or sea cucumber. Traders could sell the dried product onward into Asian markets."
+      ],
+      [
+        "Northern Australian waters",
+        132.0,
+        -9.0,
+        "Sailing with the seasons",
+        "Seasonal winds shaped when crews could sail south and when they could return. The voyages repeated across generations, creating regular contact across the sea."
+      ],
+      [
+        "North-east Arnhem Land, Australia",
+        136.7,
+        -12.35,
+        "Work and exchange on the coast",
+        "Crews processed trepang on the coast, where they traded and interacted with Aboriginal communities including Yolŋu people. Words, objects and accounts preserve traces of that contact."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Museum of Australia · Trade with the Makasar",
+        "url": "https://www.nma.gov.au/defining-moments/resources/trade-with-the-makasar"
+      }
+    ]
+  },
+  {
+    "id": "pony-express",
+    "name": "Pony Express",
+    "title": "How mail outran a single rider",
+    "intro": "Follow the relay that carried mail across the American West before the telegraph took over.",
+    "stops": [
+      [
+        "St. Joseph, Missouri",
+        -94.85,
+        39.77,
+        "Mail changes hands",
+        "At St. Joseph, mail began the westbound relay. Riders carried compact mail bags because speed depended on keeping the load light."
+      ],
+      [
+        "Fort Bridger, Wyoming",
+        -110.39,
+        41.32,
+        "Fresh horses keep it moving",
+        "Relay stations gave riders fresh horses at intervals. The network let mail travel through mountain and desert country faster than one horse could sustain."
+      ],
+      [
+        "Sacramento, California",
+        -121.49,
+        38.58,
+        "A brief era of fast mail",
+        "Sacramento was the western end of the overland relay. Completion of the transcontinental telegraph in 1861 made the service unnecessary."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Park Service · Pony Express Trail",
+        "url": "https://www.nps.gov/thingstodo/horseback-riding-on-the-pony-express-trail.htm"
+      }
+    ]
+  },
+  {
+    "id": "greenwich-time",
+    "name": "Greenwich time signals",
+    "title": "How ships set their clocks from shore",
+    "intro": "Follow a time signal from the Royal Observatory to ships and onward to the English Channel.",
+    "stops": [
+      [
+        "Royal Observatory, Greenwich",
+        0.0,
+        51.48,
+        "A clock made visible",
+        "The observatory began dropping a time ball in 1833. Its fall gave observers a visible signal they could use to set their clocks."
+      ],
+      [
+        "Deal, Kent",
+        1.4,
+        51.22,
+        "Time travels by wire",
+        "A later time ball at Deal received its signal by telegraph from Greenwich. Its drop relayed the observatory’s time to vessels offshore."
+      ],
+      [
+        "The Downs, English Channel",
+        1.46,
+        51.19,
+        "A signal reaches the ship",
+        "Ships at anchor off Deal could watch the ball drop and check their chronometers. Accurate time helped navigators determine longitude once at sea."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Royal Museums Greenwich · Greenwich Time Ball",
+        "url": "https://www.rmg.co.uk/royal-observatory/attractions/greenwich-time-ball"
+      },
+      {
+        "name": "Royal Observatory Greenwich · Deal Time Ball",
+        "url": "https://www.royalobservatorygreenwich.org/articles.php?article=910"
+      }
+    ]
+  }
+]
