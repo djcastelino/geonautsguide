@@ -813,5 +813,904 @@
         "url": "https://www.royalobservatorygreenwich.org/articles.php?article=910"
       }
     ]
+  },
+  {
+    "id": "negev-incense",
+    "name": "Incense across the Negev",
+    "title": "How a caravan crossed the desert",
+    "intro": "Follow three Nabataean settlements on the trade network that carried incense toward Mediterranean markets.",
+    "stops": [
+      [
+        "Mamshit, Israel",
+        35.06,
+        31.02,
+        "A market on a desert branch",
+        "Mamshit stood on a branch of the Nabataean trade network. Caravans needed places to replenish supplies as much as they needed buyers for their cargo."
+      ],
+      [
+        "Avdat, Israel",
+        34.77,
+        30.79,
+        "A stop above the valley",
+        "Avdat developed at a junction of desert routes. Fortifications, settlement remains and traces of farming show how a caravan stop could become a permanent community."
+      ],
+      [
+        "Haluza, Israel",
+        34.66,
+        31.1,
+        "Toward the Mediterranean",
+        "Haluza lay closer to the western end of the desert crossing. Towns like these allowed merchants to break a long journey into manageable stages."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Incense Route in the Negev",
+        "url": "https://whc.unesco.org/en/list/1107/"
+      }
+    ]
+  },
+  {
+    "id": "oman-incense",
+    "name": "Oman’s frankincense",
+    "title": "From resin trees to seaborne trade",
+    "intro": "Follow the supply network linking Dhofar’s frankincense trees to inland and coastal markets.",
+    "stops": [
+      [
+        "Wadi Dawkah, Oman",
+        54.07,
+        17.33,
+        "A harvest from the bark",
+        "Frankincense collectors cut into the bark of Boswellia trees and gathered the resin after it hardened. The dry hills of Dhofar supported the trees that made this trade possible."
+      ],
+      [
+        "Shisr, Oman",
+        53.65,
+        18.25,
+        "Water for the inland route",
+        "The oasis at Shisr gave travellers a place to find water at the edge of the desert. Its position made it valuable to caravans carrying goods inland."
+      ],
+      [
+        "Khor Rori, Oman",
+        54.44,
+        17.04,
+        "Resin leaves by sea",
+        "At Khor Rori, the settlement of Sumhuram gave traders access to the Indian Ocean. Frankincense could move in several directions through the inland and maritime network."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Land of Frankincense",
+        "url": "https://whc.unesco.org/en/list/1010/"
+      }
+    ]
+  },
+  {
+    "id": "tierra-adentro",
+    "name": "Camino Real de Tierra Adentro",
+    "title": "A road built around silver",
+    "intro": "Follow the inland road that carried silver, supplies and people through New Spain.",
+    "stops": [
+      [
+        "Mexico City, Mexico",
+        -99.13,
+        19.43,
+        "The southern hub",
+        "From the capital, supplies and people travelled north. Silver returning from mining districts tied the road to trade through the capital and beyond."
+      ],
+      [
+        "Zacatecas, Mexico",
+        -102.57,
+        22.77,
+        "The mines create a market",
+        "Silver mining made Zacatecas a major destination. Mines and growing towns needed a steady flow of food, tools and workers across dry country."
+      ],
+      [
+        "Durango, Mexico",
+        -104.67,
+        24.03,
+        "An inland road becomes a corridor",
+        "The road continued north through Durango. Settlements, bridges and religious buildings along its branches record a route that also carried ideas and institutions."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Camino Real de Tierra Adentro",
+        "url": "https://whc.unesco.org/en/list/1351/"
+      }
+    ]
+  },
+  {
+    "id": "zarafshan",
+    "name": "The Zarafshan–Karakum corridor",
+    "title": "Oases across Central Asia",
+    "intro": "Travel west along a Silk Roads corridor shaped by rivers, oasis cities and desert crossings.",
+    "stops": [
+      [
+        "Panjakent, Tajikistan",
+        67.61,
+        39.49,
+        "A town in the Zarafshan valley",
+        "The valley gave travellers a way through mountain country. Ancient Panjakent preserves traces of Sogdian communities whose merchants helped connect distant markets."
+      ],
+      [
+        "Paykend, Uzbekistan",
+        64.01,
+        39.58,
+        "An oasis trading town",
+        "Near Bukhara, Paykend served merchants on routes through the lower Zarafshan. Its position gave caravans a staging point before long stretches of desert."
+      ],
+      [
+        "Amul, Turkmenistan",
+        63.57,
+        39.08,
+        "A river crossing opens another route",
+        "At Amul, near modern Türkmenabat, travellers could cross the Amu Darya. From there routes led toward the Karakum and onward to other centres."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Zarafshan–Karakum Corridor",
+        "url": "https://whc.unesco.org/en/list/1675/"
+      }
+    ]
+  },
+  {
+    "id": "hadrians-wall",
+    "name": "Hadrian’s Wall frontier",
+    "title": "How a frontier moved people and supplies",
+    "intro": "Follow three points along Rome’s northern frontier in Britain.",
+    "stops": [
+      [
+        "Wallsend, England",
+        -1.53,
+        54.99,
+        "A fort at the river end",
+        "Segedunum stood near the Tyne at the wall’s eastern end. A fort here could oversee a frontier approach near a navigable river."
+      ],
+      [
+        "Housesteads, England",
+        -2.33,
+        55.01,
+        "A garrison on the ridge",
+        "The fort at Housesteads occupied a ridge with wide views. Soldiers stationed there needed water, food and equipment brought into the frontier zone."
+      ],
+      [
+        "Birdoswald, England",
+        -2.6,
+        54.99,
+        "Fort, crossing and settlement",
+        "Birdoswald stood near the River Irthing. A fort helped control local movement, while civilian communities grew around the military presence."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Frontiers of the Roman Empire",
+        "url": "https://whc.unesco.org/en/list/430/"
+      }
+    ]
+  },
+  {
+    "id": "loire",
+    "name": "The Loire river corridor",
+    "title": "How a river linked markets and estates",
+    "intro": "Trace the middle Loire through cities and the country estates that grew along its banks.",
+    "stops": [
+      [
+        "Orléans, France",
+        1.91,
+        47.9,
+        "A bend close to Paris",
+        "The Loire’s northward bend made Orléans a meeting point for river traffic and overland routes. Cargo could change hands here for the journey toward Paris."
+      ],
+      [
+        "Tours, France",
+        0.68,
+        47.39,
+        "River access and fertile land",
+        "Tours sits between the Loire and Cher. Access to water routes and fertile countryside helped support trade, towns and major estates in the valley."
+      ],
+      [
+        "Chalonnes-sur-Loire, France",
+        -0.76,
+        47.35,
+        "Toward the lower river",
+        "Downstream, the river connected vineyard country and settlements with routes toward the Atlantic. The cultural landscape grew from the interaction between farming and transport."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · The Loire Valley",
+        "url": "https://whc.unesco.org/en/list/933/"
+      }
+    ]
+  },
+  {
+    "id": "douro",
+    "name": "Port wine down the Douro",
+    "title": "From vineyard terraces to the Atlantic",
+    "intro": "Trace how wine moved from the steep upper Douro to warehouses near the river mouth.",
+    "stops": [
+      [
+        "Pinhão, Portugal",
+        -7.55,
+        41.19,
+        "Vines on steep slopes",
+        "Terraces make steep hillsides workable and help hold soil in place. The wine began in a growing landscape shaped by generations of labour."
+      ],
+      [
+        "Peso da Régua, Portugal",
+        -7.79,
+        41.16,
+        "A regional point of exchange",
+        "The Douro channel gave wine producers a route through difficult terrain. Régua grew as a centre for moving wine out of the interior."
+      ],
+      [
+        "Vila Nova de Gaia, Portugal",
+        -8.61,
+        41.14,
+        "Cellars near the Atlantic",
+        "Wine could be aged and prepared for export in cellars across the river from Porto. The journey linked a warm inland growing area with coastal trade."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Alto Douro Wine Region",
+        "url": "https://whc.unesco.org/en/list/1046/"
+      }
+    ]
+  },
+  {
+    "id": "tokaj",
+    "name": "Tokaj wine",
+    "title": "From autumn mist to hillside cellars",
+    "intro": "Explore the connection between growing conditions, a network of cellars and Tokaj’s wine trade.",
+    "stops": [
+      [
+        "Mád, Hungary",
+        21.28,
+        48.19,
+        "Vines on volcanic ground",
+        "Vineyards around Mád occupy slopes formed on volcanic terrain. The terrain creates differences in exposure, drainage and growing conditions over short distances."
+      ],
+      [
+        "Tarcal, Hungary",
+        21.34,
+        48.13,
+        "Weather changes the harvest",
+        "Autumn moisture can favour noble rot under the right conditions. The fungus concentrates sugars in affected grapes, which can be gathered separately for sweet wine."
+      ],
+      [
+        "Tokaj, Hungary",
+        21.41,
+        48.12,
+        "Cellars and a river junction",
+        "Tokaj stands where the Bodrog meets the Tisza. Cellars helped producers store wine, while the town’s river position connected the growing district to wider markets."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Tokaj Wine Region",
+        "url": "https://whc.unesco.org/en/list/1063/"
+      }
+    ]
+  },
+  {
+    "id": "champagne",
+    "name": "Champagne’s route to market",
+    "title": "From chalk slopes to underground cellars",
+    "intro": "Trace the landscape, storage and trade behind a sparkling wine.",
+    "stops": [
+      [
+        "Hautvillers, France",
+        3.94,
+        49.08,
+        "Grapes on the hillsides",
+        "Around Hautvillers, hillside vineyards form part of the growing landscape. Slope and exposure influence how the grapes ripen."
+      ],
+      [
+        "Épernay, France",
+        3.96,
+        49.04,
+        "A town above the cellars",
+        "Producers used underground cellars to store and mature wine. The cool, relatively stable conditions helped make lengthy ageing practical."
+      ],
+      [
+        "Reims, France",
+        4.03,
+        49.25,
+        "Wine houses connect to markets",
+        "Reims became another production and trading centre. The houses and their cellars show how the industry combined rural growing, urban production and international distribution."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Champagne Hillsides, Houses and Cellars",
+        "url": "https://whc.unesco.org/en/list/1465/"
+      }
+    ]
+  },
+  {
+    "id": "burgundy",
+    "name": "Burgundy’s vineyard plots",
+    "title": "How wine took the name of a place",
+    "intro": "Follow the relationship between vineyard plots, trading houses and the institutions that shaped Burgundy’s wine country.",
+    "stops": [
+      [
+        "Vosne-Romanée, France",
+        4.95,
+        47.16,
+        "A name for a small plot",
+        "The named vineyard plots known as climats capture differences in terrain and a long history of cultivation. A wine could be identified with a remarkably small area."
+      ],
+      [
+        "Beaune, France",
+        4.84,
+        47.02,
+        "A centre for the trade",
+        "Beaune developed as a place where wine was made, stored and marketed. The town connected individual growers to buyers farther away."
+      ],
+      [
+        "Dijon, France",
+        5.04,
+        47.32,
+        "Institutions shape the landscape",
+        "Dijon’s political and administrative role helped shape the region’s landholding and wine economy. The vineyard names reflect centuries of social history as well as soil."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Climats of Burgundy",
+        "url": "https://whc.unesco.org/en/list/1425/"
+      }
+    ]
+  },
+  {
+    "id": "tequila",
+    "name": "The blue agave journey",
+    "title": "From planted slopes to distillery",
+    "intro": "Follow three towns in Jalisco’s agave landscape and see where growing ends and processing begins.",
+    "stops": [
+      [
+        "El Arenal, Mexico",
+        -103.69,
+        20.78,
+        "Rows of blue agave",
+        "Agave plants take years to mature. Their rows create a landscape where production follows the long growing cycle of a single crop."
+      ],
+      [
+        "Amatitán, Mexico",
+        -103.73,
+        20.83,
+        "Harvest and processing",
+        "Harvesters cut away the leaves to expose the heart. The hearts can then be cooked and processed to release fermentable sugars."
+      ],
+      [
+        "Tequila, Mexico",
+        -103.84,
+        20.88,
+        "Distilling gives the town a wider reach",
+        "Distilleries turn the fermented liquid into a spirit. The growth of production tied the town’s workshops and labour to a market far beyond Jalisco."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Agave Landscape of Tequila",
+        "url": "https://whc.unesco.org/en/list/1209/"
+      }
+    ]
+  },
+  {
+    "id": "colombia-coffee",
+    "name": "Coffee in Colombia’s mountains",
+    "title": "From hillside farms to a regional market",
+    "intro": "Explore selected places in Colombia’s coffee landscape, where steep ground shaped farming and settlement.",
+    "stops": [
+      [
+        "Pijao, Colombia",
+        -75.7,
+        4.33,
+        "Farms on the slopes",
+        "Coffee growers work a landscape of small farms and steep slopes. The terrain makes the way a crop is planted, harvested and moved especially important."
+      ],
+      [
+        "Filandia, Colombia",
+        -75.66,
+        4.67,
+        "A town among the farms",
+        "Towns like Filandia offered services and gathering places for nearby farming communities. Their streets and buildings reflect settlement linked to the coffee economy."
+      ],
+      [
+        "Pereira, Colombia",
+        -75.7,
+        4.81,
+        "A larger hub for the region",
+        "Regional cities linked farming districts to wider commercial networks. Coffee travelled through layers of local and regional exchange on its way to distant buyers."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Coffee Cultural Landscape of Colombia",
+        "url": "https://whc.unesco.org/en/list/1121/"
+      }
+    ]
+  },
+  {
+    "id": "spa-towns",
+    "name": "Europe’s spa circuit",
+    "title": "How people travelled for mineral water",
+    "intro": "Follow three examples of the spa culture that spread through European travel, medicine and leisure.",
+    "stops": [
+      [
+        "Bath, England",
+        -2.36,
+        51.38,
+        "A city built around hot springs",
+        "Naturally heated water drew people to Bath for centuries. The later spa city added rooms, walks and public spaces for visitors who came to take the waters."
+      ],
+      [
+        "Baden-Baden, Germany",
+        8.24,
+        48.76,
+        "A resort grows around the cure",
+        "Thermal baths attracted visitors to Baden-Baden. Parks and entertainment made a stay part of social life as well as a course of treatment."
+      ],
+      [
+        "Karlovy Vary, Czechia",
+        12.88,
+        50.23,
+        "Taking the waters in public",
+        "Colonnades sheltered people walking between springs. The buildings show how drinking mineral water became a shared ritual that reshaped resort towns."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Great Spa Towns of Europe",
+        "url": "https://whc.unesco.org/en/list/1613/"
+      }
+    ]
+  },
+  {
+    "id": "hanse",
+    "name": "Hanseatic Baltic trade",
+    "title": "How merchants linked Baltic ports",
+    "intro": "Follow three ports that show how merchants, ships and warehouses tied the Baltic together.",
+    "stops": [
+      [
+        "Wismar, Germany",
+        11.46,
+        53.89,
+        "A port built for merchants",
+        "Wismar grew as a Baltic trading town. Its harbour and town plan connected ships, warehouses and markets."
+      ],
+      [
+        "Stralsund, Germany",
+        13.09,
+        54.31,
+        "A crossing point on the coast",
+        "Stralsund’s position near the routes to Rügen helped it participate in Baltic exchange. Merchants used networks that linked many independent ports."
+      ],
+      [
+        "Visby, Sweden",
+        18.3,
+        57.64,
+        "An island stop in the Baltic",
+        "Gotland’s position gave Visby access to routes across the sea. Its medieval warehouses and walls reflect the wealth and risks of long-distance trade."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Historic Centres of Stralsund and Wismar",
+        "url": "https://whc.unesco.org/en/list/1067/"
+      },
+      {
+        "name": "UNESCO · Hanseatic Town of Visby",
+        "url": "https://whc.unesco.org/en/list/731/"
+      }
+    ]
+  },
+  {
+    "id": "swahili",
+    "name": "Kilwa’s Indian Ocean trade",
+    "title": "From inland gold to island ports",
+    "intro": "Follow the trade network that made Kilwa a point of exchange between Africa and the wider Indian Ocean.",
+    "stops": [
+      [
+        "Sofala coast, Mozambique",
+        34.73,
+        -20.17,
+        "Gold reaches the coast",
+        "Gold from the southern African interior reached coastal markets including Sofala. Merchants could then ship it north or exchange it for goods brought by sea."
+      ],
+      [
+        "Kilwa Kisiwani, Tanzania",
+        39.5,
+        -8.96,
+        "An island harbour in the trade",
+        "Kilwa’s merchants gained wealth through trade including gold and ivory. Imported ceramics and other goods show how far the network reached."
+      ],
+      [
+        "Songo Mnara, Tanzania",
+        39.56,
+        -9.08,
+        "A nearby Swahili trading town",
+        "Songo Mnara preserves stone houses and mosques. Together the two island settlements show how coastal trade helped sustain distinctive urban communities."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Kilwa Kisiwani and Songo Mnara",
+        "url": "https://whc.unesco.org/en/list/144/"
+      }
+    ]
+  },
+  {
+    "id": "venetian-defences",
+    "name": "Venice’s defensive network",
+    "title": "Fortifying the roads and sea lanes",
+    "intro": "Follow the places Venice fortified to hold routes across northern Italy and the Adriatic.",
+    "stops": [
+      [
+        "Bergamo, Italy",
+        9.66,
+        45.7,
+        "Defending the inland edge",
+        "Venice built substantial walls around Bergamo’s upper town. A fortified hilltop helped secure its position on the western side of the mainland territories."
+      ],
+      [
+        "Peschiera del Garda, Italy",
+        10.69,
+        45.44,
+        "Where a lake becomes a river",
+        "Peschiera stands at Lake Garda’s outlet into the Mincio. Its fortifications guarded a crossing and access to routes that used the lake and river."
+      ],
+      [
+        "Kotor, Montenegro",
+        18.77,
+        42.42,
+        "A harbour within a bay",
+        "Kotor’s position deep in the bay gave it shelter and a defensible approach. Its walls climbed the steep slopes above the harbour."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Venetian Works of Defence",
+        "url": "https://whc.unesco.org/en/list/1533/"
+      }
+    ]
+  },
+  {
+    "id": "portuguese-indian-ocean",
+    "name": "Portuguese Indian Ocean routes",
+    "title": "Why three ports mattered to one empire",
+    "intro": "Trace selected Portuguese strongholds between the east African coast, India and the Strait of Malacca.",
+    "stops": [
+      [
+        "Island of Mozambique, Mozambique",
+        40.73,
+        -15.04,
+        "A staging port",
+        "The island became a stopping point for Portuguese shipping on the east African coast. Ships could use it for shelter and supplies before continuing across the ocean."
+      ],
+      [
+        "Old Goa, India",
+        73.91,
+        15.5,
+        "An administrative base on a river",
+        "Goa became a centre of Portuguese administration in Asia. Its position on the Mandovi provided access to the coast and Indian Ocean trade."
+      ],
+      [
+        "Melaka, Malaysia",
+        102.25,
+        2.19,
+        "Access to a narrow passage",
+        "Melaka occupied a strategic position on the strait connecting the Indian Ocean with waters farther east. Portuguese rule followed conquest of a city that was already a major trading centre."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Churches and Convents of Goa",
+        "url": "https://whc.unesco.org/en/list/234/"
+      },
+      {
+        "name": "UNESCO · Island of Mozambique",
+        "url": "https://whc.unesco.org/en/list/599/"
+      },
+      {
+        "name": "UNESCO · Melaka and George Town",
+        "url": "https://whc.unesco.org/en/list/1223/"
+      }
+    ]
+  },
+  {
+    "id": "batavia",
+    "name": "The voyage of the Batavia",
+    "title": "A trading voyage cut short",
+    "intro": "Follow the Dutch East India Company ship from departure to shipwreck and the survivors’ journey onward.",
+    "stops": [
+      [
+        "Texel, Netherlands",
+        4.82,
+        53.02,
+        "A departure for Asian trade",
+        "The Batavia sailed from the Netherlands in 1628 carrying people, supplies and valuables. It was headed for the company’s trading base on Java."
+      ],
+      [
+        "Houtman Abrolhos, Australia",
+        113.79,
+        -28.48,
+        "A reef stops the voyage",
+        "The ship struck a reef off Western Australia in 1629. Survivors reached nearby islands, where access to water and supplies became urgent."
+      ],
+      [
+        "Jakarta, Indonesia",
+        106.81,
+        -6.13,
+        "The destination reached in a small boat",
+        "The commander and a group of others sailed on in a ship’s boat to seek help at Batavia, now Jakarta. A rescue vessel later returned to the islands."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Western Australian Museum · Batavia’s history",
+        "url": "https://museum.wa.gov.au/research/research-areas/maritime-archaeology/batavia-cape-inscription/batavia/index.html"
+      }
+    ]
+  },
+  {
+    "id": "trail-of-tears",
+    "name": "Cherokee Trail of Tears",
+    "title": "A homeland taken by force",
+    "intro": "Trace places connected with the forced removal of Cherokee people from their homelands in the 1830s.",
+    "stops": [
+      [
+        "New Echota, Georgia",
+        -84.91,
+        34.54,
+        "A capital and a disputed treaty",
+        "New Echota was a Cherokee capital. A treaty signed there by a minority faction became the U.S. government’s basis for removal despite opposition from most Cherokee people."
+      ],
+      [
+        "Ross’s Landing, Tennessee",
+        -85.31,
+        35.06,
+        "Gathering for forced removal",
+        "The landing was one departure point. Cherokee groups travelled by water or overland under conditions that caused illness and many deaths."
+      ],
+      [
+        "Tahlequah, Oklahoma",
+        -94.97,
+        35.92,
+        "Rebuilding after removal",
+        "Tahlequah became a political centre of the Cherokee Nation in Indian Territory. Cherokee people rebuilt institutions and communities after the forced migration."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Cherokee Nation · Our Journey",
+        "url": "https://www.cherokee.gov/about-the-nation/remember-the-removal/our-journey/"
+      },
+      {
+        "name": "National Park Service · Ross’s Landing",
+        "url": "https://www.nps.gov/places/ross-s-landing.htm"
+      }
+    ]
+  },
+  {
+    "id": "nez-perce",
+    "name": "The 1877 Nez Perce flight",
+    "title": "A forced journey toward Canada",
+    "intro": "Follow three places in the flight of Nimiipuu bands who resisted removal to a reservation.",
+    "stops": [
+      [
+        "Wallowa Valley, Oregon",
+        -117.23,
+        45.43,
+        "Leaving a homeland",
+        "The Wallowa Valley was home to Chief Joseph’s band. U.S. demands for removal helped set in motion a long flight eastward involving several bands."
+      ],
+      [
+        "Big Hole, Montana",
+        -113.65,
+        45.65,
+        "An attack at a camp",
+        "U.S. troops attacked the camp at Big Hole. Many Nimiipuu people, including women and children, were killed, and survivors continued on."
+      ],
+      [
+        "Bear Paw, Montana",
+        -109.23,
+        48.38,
+        "A final siege near the border",
+        "The pursuit reached the Bear Paw Mountains, close to Canada. Some people escaped north, while others surrendered after a siege."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Bureau of Land Management · Nez Perce Trail",
+        "url": "https://www.blm.gov/visit/nez-perce-national-historic-trail"
+      },
+      {
+        "name": "National Park Service · Big Hole National Battlefield",
+        "url": "https://www.nps.gov/articles/725543.htm"
+      }
+    ]
+  },
+  {
+    "id": "anza",
+    "name": "The Anza expedition",
+    "title": "A colonial route to San Francisco Bay",
+    "intro": "Trace part of the 1775–76 overland expedition that brought settlers to northern California.",
+    "stops": [
+      [
+        "Tubac, Arizona",
+        -111.05,
+        31.61,
+        "A presidio on the route",
+        "The expedition travelled through Tubac, where Anza had served as commander. Families, soldiers and livestock made this a settlement expedition as well as a scouting journey."
+      ],
+      [
+        "Yuma Crossing, Arizona",
+        -114.62,
+        32.73,
+        "Crossing the Colorado",
+        "Reaching California required a crossing of the Colorado River. The expedition passed through Quechan homelands and relied on Indigenous cooperation."
+      ],
+      [
+        "San Francisco Bay, California",
+        -122.46,
+        37.8,
+        "Selecting sites on the bay",
+        "Anza explored the bay area for settlement sites. The expedition helped extend Spanish colonial power into lands already inhabited by Indigenous communities."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Park Service · Juan Bautista de Anza Trail",
+        "url": "https://www.nps.gov/articles/bautista.htm"
+      }
+    ]
+  },
+  {
+    "id": "iditarod",
+    "name": "Iditarod freight trails",
+    "title": "How winter linked Alaska’s towns",
+    "intro": "Trace selected points on a historic trail system that moved mail, supplies and people across Alaska.",
+    "stops": [
+      [
+        "Seward, Alaska",
+        -149.44,
+        60.1,
+        "A coastal entry point",
+        "Ships could unload people and freight at Seward. From the coast, routes led inland toward settlements and mining districts."
+      ],
+      [
+        "Knik, Alaska",
+        -149.72,
+        61.46,
+        "A transfer to winter travel",
+        "Knik served as a jumping-off point for trips inland. In winter, dog teams could move along packed snow and frozen waterways."
+      ],
+      [
+        "Nome, Alaska",
+        -165.4,
+        64.5,
+        "A distant town stays connected",
+        "Trail branches helped move mail and freight to western Alaska. The network joined newer settlements with paths and travel practices already used by Alaska Native peoples."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Bureau of Land Management · Iditarod National Historic Trail",
+        "url": "https://www.blm.gov/programs/national-conservation-lands/national-scenic-and-historic-trails/iditarod"
+      }
+    ]
+  },
+  {
+    "id": "mesta",
+    "name": "Spain’s sheep trails",
+    "title": "How herds moved with the seasons",
+    "intro": "Follow the logic of seasonal grazing through the Spanish network of livestock routes.",
+    "stops": [
+      [
+        "Soria uplands, Spain",
+        -2.47,
+        41.77,
+        "Summer in the high country",
+        "Herders could move sheep into cooler uplands when lowland pastures dried. Seasonal movement made use of grass available at different times of the year."
+      ],
+      [
+        "Central Spain",
+        -4.0,
+        40.34,
+        "A protected corridor",
+        "Broad rights of way called cañadas helped keep routes open for large flocks. Herders needed resting places and water as well as uninterrupted passage."
+      ],
+      [
+        "Extremadura, Spain",
+        -6.1,
+        39.0,
+        "Winter on lower ground",
+        "Lower and milder areas could support winter grazing. Moving between seasonal pastures connected rural economies across central and western Spain."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO Tentative List · Mesta livestock trails",
+        "url": "https://whc.unesco.org/en/tentativelists/5128/"
+      }
+    ]
+  },
+  {
+    "id": "tratturi",
+    "name": "Italy’s shepherd tracks",
+    "title": "From Apennine grass to winter plains",
+    "intro": "Trace the route logic of transhumance between the central Apennines and Puglia.",
+    "stops": [
+      [
+        "L’Aquila, Italy",
+        13.4,
+        42.35,
+        "A highland departure",
+        "Flocks grazed in upland areas during the warmer months. As cold weather approached, shepherds could lead them toward lower ground."
+      ],
+      [
+        "Molise, Italy",
+        14.6,
+        41.6,
+        "A broad track through the hills",
+        "The drove roads, called tratturi, gave herders room to move many animals. Communities along the way provided places to rest, exchange goods and resupply."
+      ],
+      [
+        "Foggia, Italy",
+        15.55,
+        41.46,
+        "Winter on the Tavoliere",
+        "The lower plains around Foggia offered grazing through milder months. Seasonal movement linked the plains to mountain communities and their wool economy."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO Tentative List · Royal Shepherd’s Track",
+        "url": "https://whc.unesco.org/en/tentativelists/5005/"
+      }
+    ]
+  },
+  {
+    "id": "ruhr-coal",
+    "name": "Coal through the Ruhr",
+    "title": "From underground seam to river port",
+    "intro": "Follow the links between mining, coke production and heavy transport in Germany’s Ruhr region.",
+    "stops": [
+      [
+        "Zollverein mine, Essen",
+        7.04,
+        51.49,
+        "Bringing coal to the surface",
+        "At Zollverein, shafts and machinery moved coal out of deep workings. Sorting and washing prepared it for further processing or shipment."
+      ],
+      [
+        "Zollverein coking plant, Essen",
+        7.02,
+        51.49,
+        "Coal becomes furnace fuel",
+        "Heating coal with limited oxygen produced coke. Steelmaking depended on fuel that could withstand the heat and weight inside blast furnaces."
+      ],
+      [
+        "Duisburg, Germany",
+        6.74,
+        51.45,
+        "Industry meets the Rhine",
+        "Duisburg’s port connects the Ruhr industrial area with the Rhine. Barges and railways made it possible to move the heavy raw materials and products of this regional economy in bulk."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Zollverein Coal Mine Industrial Complex",
+        "url": "https://whc.unesco.org/en/list/975/"
+      },
+      {
+        "name": "duisport · Port of Duisburg",
+        "url": "https://www.duisport.de/?lang=en"
+      }
+    ]
   }
 ]
