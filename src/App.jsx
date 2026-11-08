@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Compass } from "lucide-react";
 import PlaceThroughTime from "./components/PlaceThroughTime";
+import WorldQuiz from "./components/WorldQuiz";
 import FollowJourney from "./components/FollowJourney";
 import About from "./components/About";
 import WhyHere from "./components/WhyHere";
@@ -16,7 +17,7 @@ import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
-const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey"].includes(value) ? value : "home"; };
+const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey", "worldquiz"].includes(value) ? value : "home"; };
 
 function App() {
   const [view, setView] = useState(routeView);
@@ -88,6 +89,7 @@ function App() {
       if (request === generation.current) setIsLoading(false);
     }
   };
+  if (view === "worldquiz") return <WorldQuiz onHome={() => onNavigate("home")} />;
   if (view === "journey") return <FollowJourney onHome={() => onNavigate("home")} />;
   if (view === "throughtime") return <PlaceThroughTime key={whyCity} initialCity={whyCity} onHome={() => onNavigate("home")} onWhyHere={(city) => onNavigate("whyhere", city)} />;
   if (view === "whyhere") return <WhyHere key={whyCity} initialCity={whyCity} onHome={() => onNavigate("home")} onChallenge={() => onNavigate("cityguess")} />;
@@ -117,6 +119,7 @@ function App() {
             onConnections={() => onNavigate("connections")}
             onWhyHere={() => onNavigate("whyhere")}
             onThroughTime={() => onNavigate("throughtime")}
+            onWorldQuiz={() => onNavigate("worldquiz")}
             onJourney={() => onNavigate("journey")}
             onAbout={() => onNavigate("about")}
             onPlan={() => onNavigate("planner")}

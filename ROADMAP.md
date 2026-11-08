@@ -26,11 +26,11 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | 100-city collection completed November 6. Includes location quizzes, written landscape stories, narration and post-quiz links. |
 | 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | 100-journey collection complete: Rome, Istanbul, London, Cairo, Kyoto, Berlin, Singapore, Venice, New York City, Hiroshima, Seoul, Hong Kong, Warsaw, San Francisco, Dubai, Canberra, Brasília, Mostar, Rotterdam, Valletta, Mexico City, Cape Town, Bilbao, Boston, Zanzibar City, Aswan and Abu Simbel, Paris, Medellín, Detroit, Wellington, Panama City, Barcelona, Seattle, Napier, Chandigarh, Suwon, Timbuktu, Baku, Liverpool, Lowell, Le Havre, Potosí, Split, Luxembourg City, Matera, Lisbon, Dresden, Ayutthaya, Bam, Valparaíso, Hoi An, George Town, Grand-Bassam, Cidade Velha, Essen, Rjukan, Saltaire, New Lanark, Asmara, Hué, Saint Petersburg, Lima, Budapest, Cartagena, Amsterdam, Samarkand, Bukhara, Suzhou, Québec City, Udaipur, Bucharest, Dubrovnik, Agadez, Harar, Prague, Pompeii, Athens, Edinburgh, Halifax, Chicago, Sydney, Nagasaki, Gdańsk, Montréal, Vancouver, Auckland, Osaka, Vienna, San Juan, Bath, Christchurch, Havana, Stockholm, Cologne, Manila, Marseille, Machu Picchu, Petra, Angkor Thom and Cusco. Archive/present views, sourced timeline chapters and optional narration. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | 100 source-linked journeys, completing the initial collection, with route maps, selectable stops and optional narration. |
-| 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
+| 5 | How Cities Work | Explore why cities designed everyday features the way they did. | 25 source-linked city design stories. |
 
 ## Collection targets
 
-- Work toward **100 entries in each of the five parts**, for a long-term collection of **500 experiences**. For Earth or Another World?, count distinct challenges rather than conventional stories.
+- Work toward **100 entries in each of the five parts**, for a long-term collection of **500 experiences**. For How Cities Work, count distinct design stories.
 - Two batches of 25 grow Planet Connections from 50 to 100 on November 5, completing the first section’s initial collection target.
 - Introduce each new format with a smaller preview collection before expanding toward 100.
 
