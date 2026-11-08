@@ -3,12 +3,14 @@ import { ArrowUpRight, Compass, Headphones, Mail, Search } from 'lucide-react';
 import connections from '../data/connections.json';
 import cities from '../data/why-here.json' with { type: 'json' };
 import landmarkData from '../data/landmarks.json';
+import worldQuiz from '../data/world-quiz.json';
 import journeys from '../data/journeys.json';
 import timePlaces from '../data/through-time.json';
 import imageCredits from '../data/connection-credits.json';
 import './About.css';
 
 const storySources = [
+  ...worldQuiz.map(round => ({ id: round.image, title: round.name, section: 'Earth or Another World?', sources: [{ name: `${round.type} · ${round.credit}`, url: round.url }] })),
   ...journeys.map(journey => ({ id: `journey-${journey.id}`, title: journey.name, section: 'Follow the Journey', sources: journey.sources })),
   ...timePlaces.map(place => ({ id: `time-${place.id}`, title: place.name, section: 'A Place Through Time', sources: place.sources })),
   ...connections.map(story => ({ id: `connection-${story.id}`, title: `${story.from.name} ↔ ${story.to.name}`, section: 'Planet Connections', sources: story.sources || [story.source] })),

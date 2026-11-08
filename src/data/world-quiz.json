@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Richat Structure, Mauritania",
+    "earth": true,
+    "image": "/images/world-quiz/1.jpg",
+    "clue": "Concentric rings of exposed rock sit amid the desert.",
+    "type": "Landsat mosaic",
+    "credit": "NASA Earth Observatory / Lauren Dauphin",
+    "url": "https://science.nasa.gov/earth/earth-observatory/eyeing-the-richat-structure/",
+    "explanation": "The rings look like an impact crater from orbit. They’re layers of an uplifted dome that erosion exposed, with the tougher rock standing out as ridges."
+  },
+  {
+    "name": "Valles Marineris, Mars",
+    "earth": false,
+    "image": "/images/world-quiz/2.jpg",
+    "clue": "Long parallel valleys cut through a rugged plateau.",
+    "type": "Viking orbital mosaic",
+    "credit": "NASA / JPL",
+    "url": "https://science.nasa.gov/photojournal/valles-marineris/",
+    "explanation": "The canyon system resembles Earth’s great gorges. Its origin is different from a river carving the Grand Canyon. The Martian crust pulled apart, and landslides helped reshape the steep walls."
+  },
+  {
+    "name": "Sputnik Planitia, Pluto",
+    "earth": false,
+    "image": "/images/world-quiz/3.jpg",
+    "clue": "A pale plain meets rough blocks and ridges.",
+    "type": "New Horizons image with enhanced colour",
+    "credit": "NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute",
+    "url": "https://science.nasa.gov/photojournal/from-plutos-mountains-to-its-plains/",
+    "explanation": "The bright plain resembles a frozen landscape on Earth, but it contains nitrogen ice. At Pluto’s temperatures, water ice can form the hard blocks around the plain."
+  },
+  {
+    "name": "Lake Natron, Tanzania",
+    "earth": true,
+    "image": "/images/world-quiz/4.jpg",
+    "clue": "Crimson shallows border pale salt deposits.",
+    "type": "Natural-colour Landsat image",
+    "credit": "NASA Earth Observatory / Joshua Stevens, using USGS Landsat data",
+    "url": "https://science.nasa.gov/earth/earth-observatory/lake-natron-tanzania-90191/",
+    "explanation": "Evaporation concentrates salts in this shallow lake. Salt-loving microorganisms can turn isolated pools pink and red, creating colours that look surprising from orbit."
+  },
+  {
+    "name": "Maat Mons, Venus",
+    "earth": false,
+    "image": "/images/world-quiz/5.jpg",
+    "clue": "Broad flows fan out below a high volcanic peak.",
+    "type": "Magellan radar reconstruction with simulated colour and exaggerated relief",
+    "credit": "NASA / JPL",
+    "url": "https://science.nasa.gov/photojournal/venus-3-d-perspective-view-of-maat-mons/",
+    "explanation": "Lava flows spread around a large volcano, much as they can around broad volcanoes on Earth. Magellan mapped the surface with radar, which could see through Venus’s clouds."
+  }
+]
