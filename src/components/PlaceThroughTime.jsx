@@ -21,7 +21,19 @@ export default function PlaceThroughTime({ initialCity, onHome, onWhyHere }) {
   const narration = `${city.name}. ${city.title} ${city.deck} ${city.eras.map(e => `${e[0]}. ${e[1]}. ${e[2]}`).join(' ')} What changed? ${city.changed} What persisted? ${city.persisted}`;
   return <div className="tt-page"><header className="tt-header"><button className="tt-brand" onClick={onHome}><Compass size={30} strokeWidth={1.2}/><span>GEONAUTS<small>GUIDE</small></span></button><span>DISCOVER THE CONNECTIONS.</span><button className="tt-home" onClick={onHome}><ArrowLeft size={15}/> Back to the guide</button></header>
     <main><section className="tt-intro"><div><p className="tt-eyebrow">03 / A PLACE THROUGH TIME</p><h1>Same place.<br/><em>A different world.</em></h1></div><div><Clock3 size={34} strokeWidth={1}/><p>Look beyond the present.<br/>Follow the turning points.<br/>Find the thread that endured.</p><span className="tt-preview">{places.length} CITIES · MANY CHAPTERS</span></div></section>
-    <nav className="tt-cities" aria-label="Choose a place through time">{places.map((p,i)=><button key={p.id} aria-current={i===index?'page':undefined} onClick={()=>move(i)}><small>{String(i+1).padStart(2,'0')} / {p.country}</small><span>{p.name}<ArrowUpRight size={16}/></span></button>)}</nav>
+    <div className="tt-picker">
+      <label htmlFor="through-time-city">Choose a city</label>
+      <select id="through-time-city" value={index} onChange={event => move(Number(event.target.value))}>
+        {places.map((place, position) => (
+          <option key={place.id} value={position}>{place.name} · {place.country}</option>
+        ))}
+      </select>
+      <div className="tt-picker-controls">
+        <span aria-live="polite">{index + 1} / {places.length}</span>
+        <button type="button" aria-label="Previous city" onClick={() => move((index - 1 + places.length) % places.length)}><ArrowLeft size={16}/></button>
+        <button type="button" aria-label="Next city" onClick={() => move((index + 1) % places.length)}><ArrowRight size={16}/></button>
+      </div>
+    </div>
     <section className="tt-city-heading"><div><p className="tt-eyebrow">{city.name.toUpperCase()} / {city.country.toUpperCase()}</p><h2>{city.title}</h2><p>{city.deck}</p></div><button className="tt-audio" onClick={()=>audio.toggle(narration)} disabled={audio.state==='loading'}>{audio.state==='playing'?<Pause size={17}/>:<Headphones size={17}/>} {audio.state==='loading'?'Preparing audio…':audio.state==='playing'?'Pause story':audio.state==='paused'?'Resume story':'Listen to the journey'}</button></section>
     {audio.error && <p className="tt-audio-error" role="alert">{audio.error}</p>}
     <section className="tt-comparison" aria-label={`${city.name} historical and later views`}><div className="tt-compare-toolbar"><p className="tt-eyebrow">01 / TWO WINDOWS INTO A CITY</p><div role="group" aria-label="Image comparison view">{[['both','Side by side'],['archive','Archive'],['modern',city.modernDate ? 'Later view' : 'Present day']].map(([id,label])=><button key={id} aria-pressed={view===id} onClick={()=>setView(id)}>{label}</button>)}</div></div><div className={`tt-pair ${view!=='both'?'tt-single':''}`}>{view!=='modern' && <Picture image={city.archiveImage} src={city.archivePath} label="THE ARCHIVE" date={city.archiveDate} title={city.archiveTitle} type={city.archiveType}/>} {view!=='archive' && <Picture image={city.modernCredit} src={city.modernPath} label={city.modernDate ? "LATER VIEW" : "PRESENT-DAY VIEW"} date={city.modernDate || "Present-day photograph"} title={city.modernTitle}/>}</div><p className="tt-view-note">Two views of the same city, often from different viewpoints or districts. They are not aligned images of one exact scene. Archival dates refer to the image record; present-day views are not a live feed.</p><div className="tt-notice"><span>LOOK CLOSER</span><p>{city.notice}</p></div></section>
