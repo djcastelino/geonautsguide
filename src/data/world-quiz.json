@@ -93,5 +93,100 @@
     "photoUrl": "https://commons.wikimedia.org/wiki/File:Central-Mid-levels_escalator.jpg",
     "url": "https://www.td.gov.hk/en/transport_in_hong_kong/pedestrians/hillside_escalator/",
     "image": "/images/city-quiz/5.jpg"
+  },
+  {
+    "city": "Venice, Italy",
+    "name": "Acqua alta walkways",
+    "question": "Why does Venice set up these raised walkways?",
+    "clue": "Look at where the boards sit relative to the water around them.",
+    "choices": [
+      "To protect fragile paving from crowds",
+      "To keep people walking during high water",
+      "To create separate queues for boats"
+    ],
+    "correct": 1,
+    "explanation": "Temporary walkways keep selected pedestrian routes usable when high tides flood low streets and squares. The city sets out the platforms along planned routes according to expected water levels.",
+    "credit": "Giovanni.mello",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Acqua_alta_at_Venice.jpg",
+    "url": "https://www.comune.venezia.it/it/node/5739",
+    "image": "/images/city-quiz/6.jpg"
+  },
+  {
+    "city": "Singapore",
+    "name": "Bishan–Ang Mo Kio Park",
+    "question": "Why replace a straight concrete canal with a winding river in a park?",
+    "clue": "Notice how much open space there is between the water and the paths.",
+    "choices": [
+      "To give high flows room to spread",
+      "To create a shorter route for water",
+      "To keep the river at a fixed width"
+    ],
+    "correct": 0,
+    "explanation": "The landscaped banks give the river room to expand during heavy rain. At lower flows, the same corridor provides space for park users and habitats along the water.",
+    "credit": "Wzhkevin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Looking_north_up_Kallang_River_at_Bishan-Ang_Mo_Kio_Park.jpg",
+    "url": "https://www.pub.gov.sg/Public/Places-of-Interest/Our-Reservoirs-and-Waterways/Bishan-Ang-Mo-Kio-Park",
+    "image": "/images/city-quiz/7.jpg"
+  },
+  {
+    "city": "Curitiba, Brazil",
+    "name": "Tube bus stations",
+    "question": "Why do people wait inside a raised tube before boarding?",
+    "clue": "Compare the platform height with the floor of a bus.",
+    "choices": [
+      "To keep passengers above seasonal floodwater",
+      "To give buses a covered place to park",
+      "To collect fares before boarding and let people board at floor level"
+    ],
+    "correct": 2,
+    "explanation": "Riders pay at the station and wait on a raised platform. When the bus arrives, passengers can board near floor level, so less time is spent collecting fares and climbing steps at the door.",
+    "credit": "Gucarpa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Tubo_Curitiba.JPG",
+    "url": "https://transporte.curitiba.pr.gov.br/",
+    "image": "/images/city-quiz/8.jpg"
+  },
+  {
+    "city": "London, England",
+    "name": "Thames Barrier",
+    "question": "Why do these structures leave gaps across the river?",
+    "clue": "Look at the openings between the piers.",
+    "choices": [
+      "To let ships through while gates are lowered",
+      "To funnel fast water through turbines",
+      "To separate river traffic into fixed lanes"
+    ],
+    "correct": 0,
+    "explanation": "The gates usually rest below the river surface so boats can pass. When a dangerous surge is forecast, the gates can rotate up between the piers to help protect London from flooding.",
+    "credit": "Tom Corser",
+    "license": "CC BY-SA 2.0 UK",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/uk/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Thames_Barrier_London.jpg",
+    "url": "https://www.gov.uk/guidance/the-thames-barrier",
+    "image": "/images/city-quiz/9.jpg"
+  },
+  {
+    "city": "Montréal, Canada",
+    "name": "RÉSO pedestrian network",
+    "question": "Why connect buildings with passages below the street?",
+    "clue": "The corridor leads toward several destinations without reaching an outdoor crossing.",
+    "choices": [
+      "To keep walking routes open while linking transit, shops and offices",
+      "To reserve the passages for building deliveries",
+      "To replace street-level bus routes with tunnels"
+    ],
+    "correct": 0,
+    "explanation": "The RÉSO links parts of downtown, including métro stations, shops and offices. Its indoor passages let pedestrians make many everyday trips while sheltered from snow and cold.",
+    "credit": "Bohemian Baltimore",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Underground_City_Montreal_Quebec_01.jpg",
+    "url": "https://montreal.ca/articles/reso-le-reseau-souterrain-de-montreal-13713",
+    "image": "/images/city-quiz/10.jpg"
   }
 ]

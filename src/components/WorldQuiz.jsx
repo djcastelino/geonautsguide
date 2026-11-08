@@ -4,21 +4,14 @@ import rounds from '../data/world-quiz.json';
 import './WorldQuiz.css';
 
 export default function WorldQuiz({ onHome }) {
-  const [answers, setAnswers] = useState([]);
+  const [revealed, setRevealed] = useState(false);
   const [index, setIndex] = useState(0);
   const round = rounds[index];
-  const answer = answers[index];
-  const revealed = answer !== undefined;
   const finished = index === rounds.length - 1;
-  const score = answers.filter((value, position) => value === rounds[position].correct).length;
 
   function advance() {
-    if (finished) {
-      setAnswers([]);
-      setIndex(0);
-      return;
-    }
-    setIndex(index + 1);
+    setRevealed(false);
+    setIndex((index + 1) % rounds.length);
   }
 
   return <div className="tt-page world-quiz">
@@ -27,35 +20,35 @@ export default function WorldQuiz({ onHome }) {
       <button className="tt-home" onClick={onHome}><ArrowLeft size={15}/> Back to the guide</button>
     </header>
     <main className="world-main">
-      <p className="tt-eyebrow">05 / THE CITY DESIGN QUIZ</p>
-      <h1>How does <em>this city work?</em></h1>
-      <p>Five cities. Look closely and figure out why each one built it this way.</p>
-      <section className="world-round" aria-label="City design challenge">
+      <p className="tt-eyebrow">05 / URBAN DESIGN</p>
+      <h1>How <em>cities work</em></h1>
+      <p>Why did they build it this way? Look closely at ten cities and discover the thinking behind their designs.</p>
+      <section className="world-round" aria-label="City design story">
         <figure>
           <img key={round.image} src={round.image} alt={revealed ? round.name : round.clue}/>
-          <figcaption>CHALLENGE {index + 1} / {rounds.length}</figcaption>
+          <figcaption>CITY {index + 1} / {rounds.length}</figcaption>
         </figure>
         <div className="world-panel" aria-live="polite">
           {revealed ? <>
-            <p className="tt-eyebrow">{answer === round.correct ? 'CORRECT' : 'THE REVEAL'}</p>
+            <p className="tt-eyebrow">{round.city}</p>
             <h2>{round.name}</h2>
             <p><strong>{round.choices[round.correct]}</strong></p>
             <p>{round.explanation}</p>
-            <p className="world-credit">Photo by {round.credit} · {round.license}</p>
+            <p className="world-credit">Photo by {round.credit} · {round.license} · Sized for display</p>
             <a href={round.url} target="_blank" rel="noreferrer">Read about the design <ArrowUpRight size={14}/></a>
             <a href={round.photoUrl} target="_blank" rel="noreferrer">Original photo</a>
             <a href={round.licenseUrl} target="_blank" rel="noreferrer">{round.license} licence</a>
-            {finished && <p><strong>Final score {score} / {rounds.length}</strong></p>}
-            <button onClick={advance}>{finished ? 'Play again' : 'Next city'} <ArrowRight size={16}/></button>
+            <button onClick={advance}>{finished ? 'Back to the first city' : 'Next city'} <ArrowRight size={16}/></button>
           </> : <>
             <p className="tt-eyebrow">{round.city}</p>
             <h2>{round.question}</h2>
             <p>{round.clue}</p>
             <div className="world-choices">
-              {round.choices.map((choice, position) => (
-                <button key={choice} onClick={() => setAnswers([...answers, position])}>{choice}</button>
+              {round.choices.map(choice => (
+                <button key={choice} onClick={() => setRevealed(true)}>{choice}</button>
               ))}
             </div>
+            <button className="world-reveal" onClick={() => setRevealed(true)}>Reveal the explanation <ArrowRight size={16}/></button>
           </>}
         </div>
       </section>

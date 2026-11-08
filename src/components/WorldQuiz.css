@@ -19,3 +19,6 @@
   .world-round { grid-template-columns: 1fr; }
   .world-round img { max-height: 48vh; }
 }
+
+.world-panel .world-reveal { margin-top: 16px; background: transparent; color: inherit; }
+.world-panel .world-reveal:hover { background: #dfe8cc; }
