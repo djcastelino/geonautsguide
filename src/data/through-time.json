@@ -1751,5 +1751,256 @@
     "modernImage": "time-chandigarh-modern",
     "modernCredit": "time-chandigarh-modern",
     "modernPath": "/images/connections/time-chandigarh-modern.jpg"
+  },
+  {
+    "id": "suwon",
+    "name": "Suwon",
+    "country": "South Korea",
+    "title": "The fortress recorded in a book.",
+    "deck": "An illustrated construction record helped later generations restore Hwaseong Fortress.",
+    "archiveDate": "1801",
+    "archiveTitle": "An illustration from the Hwaseong construction record",
+    "archiveType": "Historical document · modern reproduction",
+    "modernTitle": "Hwaseong Fortress in modern Suwon",
+    "changed": "Restoration and reconstruction returned damaged or missing features to the fortress circuit.",
+    "persisted": "The walls and gates still mark out the historic centre.",
+    "notice": "The document records the construction of the fortress. The photograph shows part of the surviving and restored complex.",
+    "sources": [
+      {
+        "name": "UNESCO · Hwaseong Fortress",
+        "url": "https://whc.unesco.org/en/list/817"
+      }
+    ],
+    "eras": [
+      [
+        "1790s",
+        "A fortress for Suwon",
+        "King Jeongjo commissioned a fortified complex around the city."
+      ],
+      [
+        "1801",
+        "The details go into print",
+        "An illustrated report documented the works, their design, and how they were built."
+      ],
+      [
+        "From 1964",
+        "A record becomes a guide",
+        "Restoration drew on the report to recover details that had been damaged or lost."
+      ],
+      [
+        "Present day",
+        "The circuit in a modern city",
+        "The walls and gates remain visible within Suwon’s urban fabric."
+      ]
+    ],
+    "archiveImage": "time-suwon-archive",
+    "archivePath": "/images/connections/time-suwon-archive.jpg",
+    "modernImage": "time-suwon-modern",
+    "modernCredit": "time-suwon-modern",
+    "modernPath": "/images/connections/time-suwon-modern.jpg"
+  },
+  {
+    "id": "timbuktu",
+    "name": "Timbuktu",
+    "country": "Mali",
+    "title": "The craft that keeps a city standing.",
+    "deck": "Two views of Djingareyber Mosque frame a story of earth building, maintenance, and reconstruction.",
+    "archiveDate": "1905–1906",
+    "archiveTitle": "Djingareyber Mosque on a Fortier postcard",
+    "archiveType": "Historical postcard",
+    "modernTitle": "Djingareyber Mosque in a later photograph",
+    "changed": "Local masons rebuilt destroyed mausoleums after the 2012 attacks.",
+    "persisted": "The city’s earthen architecture continues to depend on local building knowledge and care.",
+    "notice": "Both images show the mosque. The timeline separately follows the reconstruction of the mausoleums.",
+    "sources": [
+      {
+        "name": "UNESCO · Timbuktu",
+        "url": "https://whc.unesco.org/en/list/119/"
+      },
+      {
+        "name": "UNESCO · Mausoleum reconstruction",
+        "url": "https://whc.unesco.org/en/canopy/timbuktu/"
+      }
+    ],
+    "eras": [
+      [
+        "Medieval Timbuktu",
+        "A city of learning",
+        "Mosques and scholarly institutions helped make Timbuktu a centre of Islamic learning."
+      ],
+      [
+        "1905–1906",
+        "The mosque pictured",
+        "The postcard records Djingareyber’s earthen walls and projecting timbers."
+      ],
+      [
+        "2012",
+        "Destruction of mausoleums",
+        "Armed groups destroyed mausoleums that held religious and cultural significance for residents."
+      ],
+      [
+        "2015",
+        "Rebuilding with local knowledge",
+        "Local masons used traditional techniques to rebuild the mausoleums, with support from UNESCO and partners."
+      ]
+    ],
+    "archiveImage": "time-timbuktu-archive",
+    "archivePath": "/images/connections/time-timbuktu-archive.jpg",
+    "modernImage": "time-timbuktu-modern",
+    "modernCredit": "time-timbuktu-modern",
+    "modernPath": "/images/connections/time-timbuktu-modern.jpg"
+  },
+  {
+    "id": "baku",
+    "name": "Baku",
+    "country": "Azerbaijan",
+    "title": "An oil city grows outside its walls.",
+    "deck": "The Lutheran church offers a street-level view of the city that expanded during the oil boom.",
+    "archiveDate": "1900",
+    "archiveTitle": "Baku’s Lutheran church around 1900",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Church of the Saviour in modern Baku",
+    "changed": "The oil boom accelerated growth outside the historic walled city.",
+    "persisted": "Buildings from the expansion remain part of the modern cityscape.",
+    "notice": "The church gives the two views a common reference point outside the old walls.",
+    "sources": [
+      {
+        "name": "UNESCO · Walled City of Baku",
+        "url": "https://whc.unesco.org/en/list/958/"
+      },
+      {
+        "name": "OSCE · Baku’s first oil boom",
+        "url": "https://www.osce.org/baku/2740"
+      }
+    ],
+    "eras": [
+      [
+        "Before the boom",
+        "A city within walls",
+        "The fortified core preserves an older pattern of streets, buildings, and defenses."
+      ],
+      [
+        "Late 19th century",
+        "Oil accelerates growth",
+        "The growth of the oil industry drew people and investment to Baku."
+      ],
+      [
+        "Around 1900",
+        "A new cityscape emerges",
+        "The Lutheran church is one of the buildings that appeared outside the old core during this period."
+      ],
+      [
+        "Present day",
+        "Two layers close together",
+        "The old walls and the buildings of the expanding city reveal different periods of Baku’s history."
+      ]
+    ],
+    "archiveImage": "time-baku-archive",
+    "archivePath": "/images/connections/time-baku-archive.jpg",
+    "modernImage": "time-baku-modern",
+    "modernCredit": "time-baku-modern",
+    "modernPath": "/images/connections/time-baku-modern.jpg"
+  },
+  {
+    "id": "liverpool",
+    "name": "Liverpool",
+    "country": "United Kingdom",
+    "title": "A dock changes its work.",
+    "deck": "A painting of Salthouse Dock and a photograph of neighboring Albert Dock show different lives of Liverpool’s waterfront.",
+    "archiveDate": "1884",
+    "archiveTitle": "Salthouse Dock painted by John Atkinson Grimshaw",
+    "archiveType": "Historical painting",
+    "modernTitle": "The Albert Dock basin and former warehouses",
+    "changed": "Albert Dock’s warehouses took on public and commercial uses after the working dock closed.",
+    "persisted": "The basin and warehouse buildings still explain how ships and storage once fit together.",
+    "notice": "The painting shows Salthouse Dock. The photograph shows adjacent Albert Dock.",
+    "sources": [
+      {
+        "name": "Royal Albert Dock · History",
+        "url": "https://albertdock.com/history/"
+      },
+      {
+        "name": "Institution of Civil Engineers · Albert Warehouses",
+        "url": "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/albert-warehouses-liverpool-albert-docks"
+      }
+    ],
+    "eras": [
+      [
+        "1846",
+        "A dock built for cargo",
+        "Albert Dock opened with warehouses beside the basin so goods could move between ships and storage."
+      ],
+      [
+        "1884",
+        "The working waterfront painted",
+        "Grimshaw captured the atmosphere of nearby Salthouse Dock."
+      ],
+      [
+        "Twentieth century",
+        "A changing port",
+        "Albert Dock’s role declined as shipping changed. The dock closed and the warehouses were later restored."
+      ],
+      [
+        "Present day",
+        "A public waterfront",
+        "Visitors use the former dock for museums, shops, and walks beside the basin."
+      ]
+    ],
+    "archiveImage": "time-liverpool-archive",
+    "archivePath": "/images/connections/time-liverpool-archive.jpg",
+    "modernImage": "time-liverpool-modern",
+    "modernCredit": "time-liverpool-modern",
+    "modernPath": "/images/connections/time-liverpool-modern.jpg"
+  },
+  {
+    "id": "lowell",
+    "name": "Lowell",
+    "country": "United States",
+    "title": "The mills and the people beside them.",
+    "deck": "A historic riverfront view and the former Boott Cotton Mills connect textile work with life in the city.",
+    "archiveDate": "c. 1900",
+    "archiveTitle": "Textile mills along the Merrimack River",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Boott Cotton Mills Museum",
+    "changed": "The former mill now interprets textile manufacturing and the lives of its workers.",
+    "persisted": "The brick mills and waterways still reveal the geography of industrial Lowell.",
+    "notice": "The archive shows the wider industrial riverfront. The modern view focuses on a building in the Boott complex.",
+    "sources": [
+      {
+        "name": "National Park Service · The boarding houses",
+        "url": "https://www.nps.gov/lowe/learn/historyculture/the-boarding-houses.htm"
+      },
+      {
+        "name": "National Park Service · Lowell images",
+        "url": "https://www.nps.gov/lowe/learn/photosmultimedia/index.htm"
+      }
+    ],
+    "eras": [
+      [
+        "Nineteenth century",
+        "Water powers industry",
+        "The river and canal network supplied water power to Lowell’s textile mills."
+      ],
+      [
+        "The mill town",
+        "Work and housing close together",
+        "Boardinghouses accommodated workers near the mills, including young women recruited to textile work."
+      ],
+      [
+        "Around 1900",
+        "A changing workforce",
+        "Men outnumbered women among boardinghouse residents by 1900."
+      ],
+      [
+        "Present day",
+        "Industrial buildings become evidence",
+        "The mill museum and nearby boardinghouses help visitors connect machinery, working conditions, and daily life."
+      ]
+    ],
+    "archiveImage": "time-lowell-archive",
+    "archivePath": "/images/connections/time-lowell-archive.jpg",
+    "modernImage": "time-lowell-modern",
+    "modernCredit": "time-lowell-modern",
+    "modernPath": "/images/connections/time-lowell-modern.jpg"
   }
 ]

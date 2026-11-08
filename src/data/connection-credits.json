@@ -2630,5 +2630,98 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Secretariat_building_and_Palace_of_Assembly_,part_of_the_Capitol_Complex_,Chandigarh_01.jpg",
     "description": "File:Secretariat building and Palace of Assembly ,part of the Capitol Complex ,Chandigarh 01.jpg"
+  },
+  "time-suwon-archive": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://emuseum.go.kr/main\">국립중앙박물관 e뮤지엄</a>",
+    "LicenseShortName": "KOGL Type 1",
+    "LicenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Hwaseong_seongyeok_uigwe_07.jpg",
+    "description": "File:Hwaseong seongyeok uigwe 07.jpg",
+    "archiveDate": "1801 (publication of the original work)",
+    "archiveTitle": "File:Hwaseong seongyeok uigwe 07.jpg",
+    "imageDescription": "Hwaseong seongyeok uigwe (화성성역의궤) is a book that contains the details, systems, and rituals related to the construction of Hwaseong Fortress in the late Joseon Dynasty. It was published in the first year of King Sunjo of Joseon (1801)."
+  },
+  "time-suwon-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/fukagawa/\">d'n'c</a> (a flickr user)",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Hwaseong.Fortress-Janganmun.01.jpg",
+    "description": "File:Hwaseong.Fortress-Janganmun.01.jpg"
+  },
+  "time-timbuktu-archive": {
+    "Artist": "Edmond Fortier (1862-1928)",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Fortier_372_Timbuktu_Djingereber_Mosque.jpg",
+    "description": "File:Fortier 372 Timbuktu Djingereber Mosque.jpg",
+    "archiveDate": "between 1905 and 1906<div style=\"display: none;\">date QS:P,+1905-00-00T00:00:00Z/8,P1319,+1905-00-00T00:00:00Z/9,P1326,+1906-00-00T00:00:00Z/9</div>",
+    "archiveTitle": "File:Fortier 372 Timbuktu Djingereber Mosque.jpg",
+    "imageDescription": "Postcard 372 by <a href=\"https://en.wikipedia.org/wiki/Fran%C3%A7ois-Edmond_Fortier\" class=\"extiw\" title=\"en:François-Edmond Fortier\">Edmond Fortier</a>. View of the <a href=\"https://en.wikipedia.org/wiki/Djinguereber_Mosque\" class=\"extiw\" title=\"en:Djinguereber Mosque\">Djinguereber Mosque</a> in <a href=\"//commons.wikimedia.org/wiki/Timbuktu\" title=\"Timbuktu\">Timbuktu</a>, Mali."
+  },
+  "time-timbuktu-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/48600082269@N01\">upyernoz</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Djinguereber_Mosque,_Timbuktu.jpg",
+    "description": "File:Djinguereber Mosque, Timbuktu.jpg"
+  },
+  "time-baku-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lutheran_Church_in_Baku_1900.jpg",
+    "description": "File:Lutheran Church in Baku 1900.jpg",
+    "archiveDate": "1900",
+    "archiveTitle": "File:Lutheran Church in Baku 1900.jpg",
+    "imageDescription": "Kircha in Baku"
+  },
+  "time-baku-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Interfase\" title=\"User:Interfase\">Interfase</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lutheran_Church_in_Baku_(2).JPG",
+    "description": "File:Lutheran Church in Baku (2).JPG"
+  },
+  "time-liverpool-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:John_Atkinson_Grimshaw\" class=\"extiw\" title=\"w:en:John Atkinson Grimshaw\"><span title=\"English painter (1836-1893)\">John Atkinson Grimshaw</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Atkinson_Grimshaw_(1836-1893)_-_Salthouse_Dock,_Liverpool,_1884_-_Binns_Collection_049_A69_-_Liverpool_Central_Library.jpg",
+    "description": "File:John Atkinson Grimshaw (1836-1893) - Salthouse Dock, Liverpool, 1884 - Binns Collection 049 A69 - Liverpool Central Library.jpg",
+    "archiveDate": "1884",
+    "archiveTitle": "John Atkinson Grimshaw (1836-1893) - Salthouse Dock, Liverpool, 1884 - Binns Collection 049 A69 - Liverpool Central Library.jpg"
+  },
+  "time-liverpool-modern": {
+    "Artist": "Flickr user: Gene Hunt",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:AlbertDock_Liverpool.jpg",
+    "description": "File:AlbertDock Liverpool.jpg"
+  },
+  "time-lowell-archive": {
+    "Artist": "Detroit Publishing Co.",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lowell,_Mass.,_mills_on_Merrimack_River;_LOC;_det.4a18323.jpg",
+    "description": "File:Lowell, Mass., mills on Merrimack River; LOC; det.4a18323.jpg",
+    "archiveDate": "c. 1900",
+    "archiveTitle": "Lowell, Mass., mills on Merrimack River; LOC; det.4a18323.jpg"
+  },
+  "time-lowell-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Bmzuckerman\" title=\"User:Bmzuckerman\">Bmzuckerman</a>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Lowell,_MA_-_Boott_Cotton_Mills_(Mill_No._6)_(2).jpg",
+    "description": "File:Lowell, MA - Boott Cotton Mills (Mill No. 6) (2).jpg"
   }
 }
