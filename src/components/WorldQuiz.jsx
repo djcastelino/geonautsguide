@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowLeft, ArrowRight, ArrowUpRight, Compass, Globe, Orbit } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ArrowUpRight, Compass } from 'lucide-react';
 import rounds from '../data/world-quiz.json';
 import './WorldQuiz.css';
 
@@ -10,7 +10,7 @@ export default function WorldQuiz({ onHome }) {
   const answer = answers[index];
   const revealed = answer !== undefined;
   const finished = index === rounds.length - 1;
-  const score = answers.filter((value, position) => value === rounds[position].earth).length;
+  const score = answers.filter((value, position) => value === rounds[position].correct).length;
 
   function advance() {
     if (finished) {
@@ -28,8 +28,8 @@ export default function WorldQuiz({ onHome }) {
     </header>
     <main className="world-main">
       <p className="tt-eyebrow">05 / LANDSCAPES FROM SPACE</p>
-      <h1>Earth or <em>another world?</em></h1>
-      <p>Look closely at the landscape. Where do you think it is?</p>
+      <h1>What shaped <em>this place?</em></h1>
+      <p>Five landscapes from Earth. Read the clues in each image and guess what made it.</p>
       <section className="world-round" aria-label="Landscape challenge">
         <figure>
           <img key={round.image} src={round.image} alt={revealed ? round.name : round.clue}/>
@@ -37,8 +37,9 @@ export default function WorldQuiz({ onHome }) {
         </figure>
         <div className="world-panel" aria-live="polite">
           {revealed ? <>
-            <p className="tt-eyebrow">{answer === round.earth ? 'CORRECT' : 'THE REVEAL'} · {round.earth ? 'EARTH' : 'ANOTHER WORLD'}</p>
+            <p className="tt-eyebrow">{answer === round.correct ? 'CORRECT' : 'THE REVEAL'}</p>
             <h2>{round.name}</h2>
+            <p><strong>{round.choices[round.correct]}</strong></p>
             <p>{round.explanation}</p>
             <p className="world-credit">{round.type} · {round.credit}</p>
             <a href={round.url} target="_blank" rel="noreferrer">Original image & science <ArrowUpRight size={14}/></a>
@@ -46,11 +47,12 @@ export default function WorldQuiz({ onHome }) {
             <button onClick={advance}>{finished ? 'Play again' : 'Next landscape'} <ArrowRight size={16}/></button>
           </> : <>
             <p className="tt-eyebrow">LOOK CLOSER</p>
-            <h2>Where are we?</h2>
+            <h2>What made this landscape?</h2>
             <p>{round.clue}</p>
             <div className="world-choices">
-              <button onClick={() => setAnswers([...answers, true])}><Globe size={20}/> Earth</button>
-              <button onClick={() => setAnswers([...answers, false])}><Orbit size={20}/> Another world</button>
+              {round.choices.map((choice, position) => (
+                <button key={choice} onClick={() => setAnswers([...answers, position])}>{choice}</button>
+              ))}
             </div>
           </>}
         </div>

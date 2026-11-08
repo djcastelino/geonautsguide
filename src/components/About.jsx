@@ -10,7 +10,7 @@ import imageCredits from '../data/connection-credits.json';
 import './About.css';
 
 const storySources = [
-  ...worldQuiz.map(round => ({ id: round.image, title: round.name, section: 'Earth or Another World?', sources: [{ name: `${round.type} · ${round.credit}`, url: round.url }] })),
+  ...worldQuiz.map(round => ({ id: round.image, title: round.name, section: 'What Shaped This Place?', sources: [{ name: `${round.type} · ${round.credit}`, url: round.url }] })),
   ...journeys.map(journey => ({ id: `journey-${journey.id}`, title: journey.name, section: 'Follow the Journey', sources: journey.sources })),
   ...timePlaces.map(place => ({ id: `time-${place.id}`, title: place.name, section: 'A Place Through Time', sources: place.sources })),
   ...connections.map(story => ({ id: `connection-${story.id}`, title: `${story.from.name} ↔ ${story.to.name}`, section: 'Planet Connections', sources: story.sources || [story.source] })),

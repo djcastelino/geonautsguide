@@ -37,7 +37,7 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan,
             <button onClick={onWhyHere}>Why Here?</button>
             <button onClick={onThroughTime}>Through time</button>
             <button onClick={onJourney}>Follow the Journey</button>
-            <button onClick={onWorldQuiz}>Earth or Another World?</button>
+            <button onClick={onWorldQuiz}>What Shaped This Place?</button>
             <button onClick={onPlan}>Travel planner</button>
             <button onClick={onChallenge}>Daily City Guess</button>
             <button onClick={onAbout}>About</button>
