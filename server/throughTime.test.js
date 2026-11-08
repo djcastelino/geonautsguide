@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 const read = path => JSON.parse(readFileSync(new URL(path,import.meta.url)));
 const cities=read('../src/data/through-time.json'), credits=read('../src/data/connection-credits.json');
 test('Through Time journeys have dated, separately credited archive and modern views with complete timelines',()=>{
-  assert.equal(cities.length,45); assert.equal(new Set(cities.map(c=>c.id)).size,45);
+  assert.equal(cities.length,50); assert.equal(new Set(cities.map(c=>c.id)).size,50);
   for(const city of cities){
     assert.notEqual(city.archiveImage,city.modernCredit);
     for(const [key,path] of [[city.archiveImage,city.archivePath],[city.modernCredit,city.modernPath]]){

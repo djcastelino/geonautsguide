@@ -2241,5 +2241,244 @@
     "modernImage": "time-matera-modern",
     "modernCredit": "time-matera-modern",
     "modernPath": "/images/connections/time-matera-modern.jpg"
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "title": "A new grid after the earthquake.",
+    "deck": "An engraving of the 1755 disaster and a view of the Baixa trace the rebuilding of the lower town.",
+    "archiveDate": "1755",
+    "archiveTitle": "Lisbon during the 1755 disaster",
+    "archiveType": "Historical engraving",
+    "modernTitle": "The rebuilt Baixa district",
+    "changed": "The earthquake, tsunami, and fires devastated the lower city. Rebuilding imposed a more regular street plan.",
+    "persisted": "The lower town remains a link between the hills and the Tagus waterfront.",
+    "notice": "The engraving is an artist’s account of the disaster. Look for the regular layout in the later view.",
+    "sources": [
+      {
+        "name": "Lisbon municipal studies · The 1755 earthquake",
+        "url": "https://geo.lisboa.pt/atividades-e-difusao/investigacao/detalhe/o-terramoto-de-1-de-novembro-de-1755"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1755",
+        "The lower city",
+        "Lisbon’s commercial centre occupied low ground near the Tagus."
+      ],
+      [
+        "1755",
+        "A compound disaster",
+        "Shaking, a tsunami, and fires damaged the city on 1 November."
+      ],
+      [
+        "Reconstruction",
+        "A planned Baixa",
+        "The rebuilding replaced much of the old street layout with a regular grid."
+      ],
+      [
+        "Present day",
+        "A plan visible on foot",
+        "The straight streets and squares preserve the pattern of the reconstruction."
+      ]
+    ],
+    "archiveImage": "time-lisbon-archive",
+    "archivePath": "/images/connections/time-lisbon-archive.jpg",
+    "modernImage": "time-lisbon-modern",
+    "modernCredit": "time-lisbon-modern",
+    "modernPath": "/images/connections/time-lisbon-modern.jpg"
+  },
+  {
+    "id": "dresden",
+    "name": "Dresden",
+    "country": "Germany",
+    "title": "A ruin becomes a church again.",
+    "deck": "Two photographs of the Frauenkirche trace the rebuilding of a defining city landmark.",
+    "archiveDate": "1988",
+    "archiveTitle": "Ruins of Dresden’s Frauenkirche",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The reconstructed Frauenkirche",
+    "changed": "A ruin that remained for decades after the war was reconstructed.",
+    "persisted": "Surviving stones and the historic site connect the new building to the earlier church.",
+    "notice": "Look for the dome in the modern view and the scale of the surviving fragments in the archive.",
+    "sources": [
+      {
+        "name": "Frauenkirche Foundation · Reconstruction",
+        "url": "https://www.frauenkirche-dresden.de/reconstruction"
+      },
+      {
+        "name": "Frauenkirche Foundation · History",
+        "url": "https://www.frauenkirche-dresden.de/history"
+      }
+    ],
+    "eras": [
+      [
+        "Eighteenth century",
+        "A church with a stone dome",
+        "The Baroque Frauenkirche became a landmark in central Dresden."
+      ],
+      [
+        "1945",
+        "Collapse",
+        "The church collapsed after the wartime bombing and fire."
+      ],
+      [
+        "1988",
+        "A ruin in the city",
+        "The archive records the site before reconstruction began."
+      ],
+      [
+        "2005",
+        "Reopening",
+        "The reconstructed church reopened, incorporating recoverable stones from the earlier structure."
+      ]
+    ],
+    "archiveImage": "time-dresden-archive",
+    "archivePath": "/images/connections/time-dresden-archive.jpg",
+    "modernImage": "time-dresden-modern",
+    "modernCredit": "time-dresden-modern",
+    "modernPath": "/images/connections/time-dresden-modern.jpg"
+  },
+  {
+    "id": "ayutthaya",
+    "name": "Ayutthaya",
+    "country": "Thailand",
+    "title": "An island capital in ruins.",
+    "deck": "A seventeenth-century map records the river setting of a capital whose monuments survive in an archaeological park.",
+    "archiveDate": "1691",
+    "archiveTitle": "Map of Ayutthaya published by Simon de La Loubère",
+    "archiveType": "Historical map",
+    "modernTitle": "Remains in Ayutthaya Historical Park",
+    "changed": "The old capital fell in 1767. Its former administrative role passed to other cities.",
+    "persisted": "The rivers and surviving temples still mark the geography of the old capital.",
+    "notice": "The map shows the city before its fall. The photograph shows part of the much larger archaeological site.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic City of Ayutthaya",
+        "url": "https://whc.unesco.org/en/list/576/"
+      }
+    ],
+    "eras": [
+      [
+        "1350",
+        "A capital amid rivers",
+        "Ayutthaya grew on an island formed by waterways."
+      ],
+      [
+        "1691",
+        "A city mapped",
+        "The historical map records the island and some of the routes and landmarks observed by visitors."
+      ],
+      [
+        "1767",
+        "The capital falls",
+        "The Burmese army captured and destroyed much of the city."
+      ],
+      [
+        "Present day",
+        "A landscape of remains",
+        "Temple ruins and waterways help explain the scale and setting of the former capital."
+      ]
+    ],
+    "archiveImage": "time-ayutthaya-archive",
+    "archivePath": "/images/connections/time-ayutthaya-archive.jpg",
+    "modernImage": "time-ayutthaya-modern",
+    "modernCredit": "time-ayutthaya-modern",
+    "modernPath": "/images/connections/time-ayutthaya-modern.jpg"
+  },
+  {
+    "id": "bam",
+    "name": "Bam",
+    "country": "Iran",
+    "title": "Rebuilding an earthen citadel.",
+    "deck": "Views of Arg-e Bam trace the survival and restoration of a fortified settlement after a devastating earthquake.",
+    "archiveDate": "1994",
+    "archiveTitle": "Bam Citadel before the earthquake",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Arg-e Bam after reconstruction began",
+    "changed": "The 2003 earthquake destroyed or damaged large portions of the citadel.",
+    "persisted": "The hill, enclosure, and use of earth still define the site.",
+    "notice": "The earlier photograph documents the citadel before the earthquake. The later view records part of the recovered complex.",
+    "sources": [
+      {
+        "name": "UNESCO · Bam and its Cultural Landscape",
+        "url": "https://whc.unesco.org/en/list/1208/"
+      }
+    ],
+    "eras": [
+      [
+        "Historic Bam",
+        "A fortified oasis",
+        "Settlement and trade grew in a landscape sustained by underground water channels."
+      ],
+      [
+        "1994",
+        "The citadel before the disaster",
+        "The photograph records the earthen walls before the 2003 earthquake."
+      ],
+      [
+        "2003",
+        "Earthquake damage",
+        "The earthquake caused severe damage to the citadel and devastated the surrounding city."
+      ],
+      [
+        "Reconstruction",
+        "Working with earth",
+        "Conservation and reconstruction used knowledge of the original materials and building techniques."
+      ]
+    ],
+    "archiveImage": "time-bam-archive",
+    "archivePath": "/images/connections/time-bam-archive.jpg",
+    "modernImage": "time-bam-modern",
+    "modernCredit": "time-bam-modern",
+    "modernPath": "/images/connections/time-bam-modern.jpg"
+  },
+  {
+    "id": "valparaiso",
+    "name": "Valparaíso",
+    "country": "Chile",
+    "title": "A port climbs the hills.",
+    "deck": "A nineteenth-century harbor photograph and a modern city view show the tight connection between port and hillside neighborhoods.",
+    "archiveDate": "1892",
+    "archiveTitle": "Valparaíso harbor",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Valparaíso’s harbor and hillside neighborhoods",
+    "changed": "Port growth extended development across the narrow coastal strip and up the surrounding slopes.",
+    "persisted": "The bay and steep hills still shape the city and its routes.",
+    "notice": "Follow the line where the harbor meets the hills. The photographs show how much of the city rises above the water.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic Quarter of Valparaíso",
+        "url": "https://whc.unesco.org/en/list/959/"
+      }
+    ],
+    "eras": [
+      [
+        "Nineteenth century",
+        "A Pacific port",
+        "Valparaíso grew as an important stop for shipping on the Pacific coast."
+      ],
+      [
+        "1892",
+        "The harbor pictured",
+        "The archive shows ships in the bay and the urban edge behind them."
+      ],
+      [
+        "The city climbs",
+        "Connections up the slopes",
+        "Stairs and funiculars linked neighborhoods on the hills to the lower streets."
+      ],
+      [
+        "Present day",
+        "Terrain still sets the pattern",
+        "The port, narrow coastal plain, and crowded slopes remain legible in the modern city."
+      ]
+    ],
+    "archiveImage": "time-valparaiso-archive",
+    "archivePath": "/images/connections/time-valparaiso-archive.jpg",
+    "modernImage": "time-valparaiso-modern",
+    "modernCredit": "time-valparaiso-modern",
+    "modernPath": "/images/connections/time-valparaiso-modern.jpg"
   }
 ]
