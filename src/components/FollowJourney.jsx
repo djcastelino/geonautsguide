@@ -16,7 +16,7 @@ function RouteMap({ stops, active }) {
   const ys = stops.map(([, , lat]) => -lat);
   const left = Math.min(...xs), right = Math.max(...xs);
   const top = Math.min(...ys), bottom = Math.max(...ys);
-  const width = Math.max(right - left + 24, (bottom - top + 20) * 1.7);
+  const width = Math.max(right - left, (bottom - top) * 1.7, 0.35) * 1.35;
   const height = width / 1.7;
   const viewBox = [((left + right) - width) / 2, ((top + bottom) - height) / 2, width, height];
   const points = stops.map(([, lon, lat]) => `${lon},${-lat}`);
@@ -55,7 +55,7 @@ export default function FollowJourney({ onHome }) {
       <section className="fj-intro">
         <p className="tt-eyebrow">04 / FOLLOW THE JOURNEY</p>
         <h1>Every journey <em>leaves a trace.</em></h1>
-        <p>Trace the routes that carried crops, crafts and messages across the world.</p>
+        <p>Trace the routes that carried people, goods and ideas across the world.</p>
       </section>
       <section className="fj-content" aria-labelledby="fj-title">
         <div className="tt-picker">
