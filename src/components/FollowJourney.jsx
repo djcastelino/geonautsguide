@@ -18,7 +18,7 @@ function RouteMap({ stops, active }) {
   const ys = stops.map(([, , lat]) => -lat);
   const left = Math.min(...xs), right = Math.max(...xs);
   const top = Math.min(...ys), bottom = Math.max(...ys);
-  const width = Math.max(right - left, (bottom - top) * 1.7, 0.35) * 1.35;
+  const width = Math.max(right - left, (bottom - top) * 1.7, 0.008) * 1.35;
   const height = width / 1.7;
   const viewBox = [((left + right) - width) / 2, ((top + bottom) - height) / 2, width, height];
   const points = stops.map(([, , lat], index) => `${xs[index]},${-lat}`);
