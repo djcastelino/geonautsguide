@@ -27,10 +27,10 @@ export default function WorldQuiz({ onHome }) {
       <button className="tt-home" onClick={onHome}><ArrowLeft size={15}/> Back to the guide</button>
     </header>
     <main className="world-main">
-      <p className="tt-eyebrow">05 / LANDSCAPES FROM SPACE</p>
-      <h1>What shaped <em>this place?</em></h1>
-      <p>Five landscapes from Earth. Read the clues in each image and guess what made it.</p>
-      <section className="world-round" aria-label="Landscape challenge">
+      <p className="tt-eyebrow">05 / THE CITY DESIGN QUIZ</p>
+      <h1>How does <em>this city work?</em></h1>
+      <p>Five cities. Look closely and figure out why each one built it this way.</p>
+      <section className="world-round" aria-label="City design challenge">
         <figure>
           <img key={round.image} src={round.image} alt={revealed ? round.name : round.clue}/>
           <figcaption>CHALLENGE {index + 1} / {rounds.length}</figcaption>
@@ -41,13 +41,15 @@ export default function WorldQuiz({ onHome }) {
             <h2>{round.name}</h2>
             <p><strong>{round.choices[round.correct]}</strong></p>
             <p>{round.explanation}</p>
-            <p className="world-credit">{round.type} · {round.credit}</p>
-            <a href={round.url} target="_blank" rel="noreferrer">Original image & science <ArrowUpRight size={14}/></a>
+            <p className="world-credit">Photo by {round.credit} · {round.license}</p>
+            <a href={round.url} target="_blank" rel="noreferrer">Read about the design <ArrowUpRight size={14}/></a>
+            <a href={round.photoUrl} target="_blank" rel="noreferrer">Original photo</a>
+            <a href={round.licenseUrl} target="_blank" rel="noreferrer">{round.license} licence</a>
             {finished && <p><strong>Final score {score} / {rounds.length}</strong></p>}
-            <button onClick={advance}>{finished ? 'Play again' : 'Next landscape'} <ArrowRight size={16}/></button>
+            <button onClick={advance}>{finished ? 'Play again' : 'Next city'} <ArrowRight size={16}/></button>
           </> : <>
-            <p className="tt-eyebrow">LOOK CLOSER</p>
-            <h2>What made this landscape?</h2>
+            <p className="tt-eyebrow">{round.city}</p>
+            <h2>{round.question}</h2>
             <p>{round.clue}</p>
             <div className="world-choices">
               {round.choices.map((choice, position) => (

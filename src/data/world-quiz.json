@@ -1,77 +1,97 @@
 [
   {
-    "name": "Richat Structure, Mauritania",
-    "image": "/images/world-quiz/1.jpg",
-    "clue": "Concentric rings of exposed rock sit amid the desert.",
-    "type": "Landsat mosaic",
-    "credit": "NASA Earth Observatory / Lauren Dauphin",
-    "url": "https://science.nasa.gov/earth/earth-observatory/eyeing-the-richat-structure/",
-    "explanation": "The rings look like an impact crater from orbit. They’re layers of an uplifted dome that erosion exposed, with the tougher rock standing out as ridges.",
+    "city": "Medellín, Colombia",
+    "name": "Metrocable",
+    "question": "Why is this cable car part of the metro?",
+    "clue": "Look at how steeply the streets climb below the cabins.",
     "choices": [
-      "A meteor impact",
-      "Uplift and erosion",
-      "Wind piling up sand"
+      "To bypass steep streets and connect hillside neighborhoods",
+      "To move goods from warehouses to markets",
+      "To link mountain resorts to each other"
     ],
-    "correct": 1
+    "correct": 0,
+    "explanation": "Cable cars can climb directly above steep, winding streets. At Acevedo, riders can transfer between the hillside Metrocable and the metro line along the valley.",
+    "credit": "CONOCER",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Metrocable_Medellin.jpeg",
+    "url": "https://www.leekuanyewworldcityprize.gov.sg/winning-cities/case-studies/metrocable/",
+    "image": "/images/city-quiz/1.jpg"
   },
   {
-    "name": "Grand Canyon, Arizona",
-    "image": "/images/world-quiz/2.jpg",
-    "clue": "A narrow river winds far below a snow-covered plateau.",
-    "type": "ISS astronaut photograph",
-    "credit": "NASA / ISS Expedition 74",
-    "url": "https://science.nasa.gov/earth/earth-observatory/a-grand-snow-rimmed-canyon/",
-    "explanation": "The Colorado River cut down through the rock as it carried sediment away. Tributaries and erosion along the walls helped widen the canyon.",
+    "city": "Rotterdam, Netherlands",
+    "name": "Benthemplein water square",
+    "question": "Why does this court sit below the surrounding streets?",
+    "clue": "Notice the steps around the court and the channels leading down to it.",
     "choices": [
-      "A river cutting through rock",
-      "A glacier widening a valley",
-      "A fault dropping a block of land"
+      "To keep play sheltered from wind",
+      "To store stormwater during heavy rain",
+      "To make room for underground seating"
     ],
-    "correct": 0
+    "correct": 1,
+    "explanation": "Rainwater from the surrounding area flows into sunken basins, including the sports court. The square holds the water temporarily, easing pressure on drainage. When it’s dry, people can play and gather there.",
+    "credit": "Cathrotterdam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Benthemplein_terrain_basket_gestion_eau.jpg",
+    "url": "https://www.rotterdam.nl/benthemplein",
+    "image": "/images/city-quiz/2.jpg"
   },
   {
-    "name": "Malaspina Glacier (Sít’ Tlein), Alaska",
-    "image": "/images/world-quiz/3.jpg",
-    "clue": "Dark bands fold and loop across a broad, pale lobe.",
-    "type": "Landsat image",
-    "credit": "NASA Earth Observatory / Jesse Allen, using USGS Landsat data",
-    "url": "https://science.nasa.gov/earth/earth-observatory/malaspina-glacier-alaska-86767/",
-    "explanation": "Ice spills from mountain valleys onto a plain and spreads outward. As the glacier surges and slows, it folds bands of rock debris into the loops visible from above.",
+    "city": "Bologna, Italy",
+    "name": "Portico of San Luca",
+    "question": "Why is this uphill walk covered for so much of the route?",
+    "clue": "The arches continue up the hill, following the path.",
     "choices": [
-      "Lava spreading from a fissure",
-      "A river laying down sediment",
-      "Moving ice carrying rock debris"
+      "To mark where the city walls once stood",
+      "To carry drinking water uphill",
+      "To shelter people walking to a hilltop sanctuary"
     ],
-    "correct": 2
+    "correct": 2,
+    "explanation": "The long portico shelters people walking to the Sanctuary of San Luca. It takes the covered walkway familiar in Bologna’s streets and carries it up a hill, where shade and protection from rain make a difference on a long walk.",
+    "credit": "MarkPagl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Bologna_Portico_di_San_Luca.jpg",
+    "url": "https://portici.comune.bologna.it/en/la-serie/san-luca/portico-di-san-luca",
+    "image": "/images/city-quiz/3.jpg"
   },
   {
-    "name": "Lake Natron, Tanzania",
-    "image": "/images/world-quiz/4.jpg",
-    "clue": "Crimson shallows border pale salt deposits.",
-    "type": "Natural-colour Landsat image",
-    "credit": "NASA Earth Observatory / Joshua Stevens, using USGS Landsat data",
-    "url": "https://science.nasa.gov/earth/earth-observatory/lake-natron-tanzania-90191/",
-    "explanation": "As water evaporates from the shallow lake, dissolved salts become more concentrated and can form pale crusts. Salt-loving microorganisms give some of the remaining pools their red and pink colours.",
+    "city": "Amsterdam, Netherlands",
+    "name": "Stationsplein bicycle parking",
+    "question": "Why put thousands of bike spaces beneath the water here?",
+    "clue": "This bicycle garage is directly beside Amsterdam Centraal.",
     "choices": [
-      "Iron-rich runoff staining the shore",
-      "Evaporation concentrating salts",
-      "Hot springs depositing minerals"
+      "To store bikes awaiting export by boat",
+      "To free up surface space and make bike-to-train transfers easy",
+      "To move rental bikes away from the city centre"
     ],
-    "correct": 1
+    "correct": 1,
+    "explanation": "Cyclists can leave their bikes near the station and continue by train. Putting the garage under the water makes room for thousands of bikes while freeing space on the busy surface around the station.",
+    "credit": "Hay Kranen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Fietsenstalling_Stationsplein_Amsterdam_-_Overzicht_-_%28Q111657629%29.jpg",
+    "url": "https://bikecity.amsterdam.nl/en/amsterdams-largest-bike-parking/",
+    "image": "/images/city-quiz/4.jpg"
   },
   {
-    "name": "Holuhraun lava field, Iceland",
-    "image": "/images/world-quiz/5.jpg",
-    "clue": "A dark, lobed patch spreads across a lighter plain.",
-    "type": "Earth Observing-1 satellite image",
-    "credit": "NASA Earth Observatory / Jesse Allen, using NASA EO-1 ALI data",
-    "url": "https://science.nasa.gov/earth/earth-observatory/holuhraun-lava-field-84431/",
-    "explanation": "Lava poured from a fissure during the 2014 eruption and spread across the plain. As it cooled, it formed the dark rock and irregular edges of the new lava field.",
+    "city": "Hong Kong",
+    "name": "Central–Mid-Levels escalator",
+    "question": "Why does this hillside escalator switch direction during the day?",
+    "clue": "The route links hillside homes with the business district below.",
     "choices": [
-      "Lava flowing from a fissure",
-      "A river flooding its banks",
-      "A landslide spreading downhill"
+      "To follow the direction of the morning commute",
+      "To match the direction of traffic on nearby streets",
+      "To alternate access to two different hillside neighborhoods"
     ],
-    "correct": 0
+    "correct": 0,
+    "explanation": "In the morning, the escalator carries people downhill toward Central. Later it runs uphill, making the climb back toward Mid-Levels easier. The same infrastructure serves two different flows over the course of a day.",
+    "credit": "K.C. Tang",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Central-Mid-levels_escalator.jpg",
+    "url": "https://www.td.gov.hk/en/transport_in_hong_kong/pedestrians/hillside_escalator/",
+    "image": "/images/city-quiz/5.jpg"
   }
 ]
