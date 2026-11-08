@@ -473,5 +473,480 @@
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "photoUrl": "https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg"
+  },
+  {
+    "city": "Rome, Italy",
+    "name": "Colosseum",
+    "question": "How could crowds reach so many seats quickly?",
+    "clue": "Notice the repeated arches around the outside.",
+    "choices": [
+      "Many entrances fed separate stairs and corridors",
+      "Spectators climbed ladders from the arena",
+      "Everyone used a single central ramp"
+    ],
+    "correct": 0,
+    "explanation": "The outer arches led into a network of corridors and stairs. Distributing arrivals around the perimeter helped spectators reach their sections without funneling everyone through one gate.",
+    "url": "https://colosseo.it/en/area/the-colosseum/",
+    "image": "/images/connections/time-rome-modern.jpg",
+    "credit": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+  },
+  {
+    "city": "Kyoto, Japan",
+    "name": "Gion street fronts",
+    "question": "Why do many of these buildings have narrow fronts along the street?",
+    "clue": "Look at how closely the entrances sit next to one another.",
+    "choices": [
+      "They were designed as detached houses with side gardens",
+      "Long, narrow plots gave many properties direct street access",
+      "The façades were temporary screens for festivals"
+    ],
+    "correct": 1,
+    "explanation": "Kyoto’s traditional townhouses often occupy narrow plots that extend back from the street. That arrangement puts many entrances and shopfronts along a block, with more living and working space behind them.",
+    "url": "https://whc.unesco.org/en/list/688/",
+    "image": "/images/connections/time-kyoto-modern.jpg",
+    "credit": "663highland",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:150124_Gion_Kyoto_Japan01s3.jpg"
+  },
+  {
+    "city": "Dubai, United Arab Emirates",
+    "name": "Dubai Creek",
+    "question": "Why did merchants set up along this creek?",
+    "clue": "Look at how boats can reach buildings deep inland from the coast.",
+    "choices": [
+      "The creek had no connection to the sea",
+      "The banks blocked trade between neighborhoods",
+      "The inlet gave boats a sheltered route to markets"
+    ],
+    "correct": 2,
+    "explanation": "Dubai Creek brought maritime traffic inland to markets and wharves. Boats could unload goods close to traders, making the banks a working commercial corridor.",
+    "url": "https://whc.unesco.org/en/tentativelists/5662/",
+    "image": "/images/connections/time-dubai-modern.jpg",
+    "credit": "Phil6007",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:The_view_of_Dubai_Creek.jpg"
+  },
+  {
+    "city": "Brasília, Brazil",
+    "name": "The planned capital",
+    "question": "Why does the capital put major civic buildings along a broad axis?",
+    "clue": "Look at the generous open spaces around the public buildings.",
+    "choices": [
+      "To organize national institutions along a clear civic spine",
+      "To trace a former railway line",
+      "To fit the streets between steep ravines"
+    ],
+    "correct": 0,
+    "explanation": "Lúcio Costa’s plan used a monumental axis for major government and civic buildings. A separate axis organizes much of the residential fabric, giving different functions distinct places in the plan.",
+    "url": "https://whc.unesco.org/en/list/445/",
+    "image": "/images/connections/why-brasilia.jpg",
+    "credit": "Arturdiasr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Planalto_Central_(cropped).jpg"
+  },
+  {
+    "city": "Valletta, Malta",
+    "name": "The fortified peninsula",
+    "question": "Why do fortifications wrap around this narrow city?",
+    "clue": "Notice the water on both sides of the built-up ridge.",
+    "choices": [
+      "To keep the sea away from freshwater farms",
+      "To defend the peninsula and its harbour approaches",
+      "To provide a raised promenade above a railway"
+    ],
+    "correct": 1,
+    "explanation": "Valletta occupies a peninsula between two harbours. Fortifications around its edges helped defend the city and the waters on either side, while a street grid organized the interior.",
+    "url": "https://whc.unesco.org/en/list/131/",
+    "image": "/images/connections/why-valletta.jpg",
+    "credit": "Mandyy88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:St_Sebastian_Curtain_(cropped).jpg"
+  },
+  {
+    "city": "Zanzibar City, Tanzania",
+    "name": "Stone Town",
+    "question": "Why does this port neighbourhood contain so many architectural traditions?",
+    "clue": "Look at the doors, balconies and street fronts built close together.",
+    "choices": [
+      "Its buildings were imported intact from Europe",
+      "It was laid out as a single modern housing project",
+      "Indian Ocean trade brought people and building traditions together"
+    ],
+    "correct": 2,
+    "explanation": "Stone Town was a trading centre where African, Arab, Indian and European influences met. Craftspeople and residents brought those influences into details such as carved doors and street-facing balconies.",
+    "url": "https://whc.unesco.org/en/list/173/",
+    "image": "/images/connections/time-zanzibar-modern.jpg",
+    "credit": "No machine-readable author provided. Mbz1 assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Zanzibar_sultan_palace.jpg"
+  },
+  {
+    "city": "Paris, France",
+    "name": "Avenue de l’Opéra",
+    "question": "Why cut a straight avenue through an older street network?",
+    "clue": "Look down the clear line of sight toward the opera house.",
+    "choices": [
+      "To connect important destinations and create a direct vista",
+      "To follow the edge of a canal",
+      "To fit the street around a surviving city wall"
+    ],
+    "correct": 0,
+    "explanation": "The avenue created a direct route toward the opera and a prominent view of its façade. It was part of a period of major street rebuilding that changed how people moved through central Paris.",
+    "url": "https://www.paris.fr/pages/haussmann-et-marville-une-histoire-de-l-urbanisme-et-de-la-photographie-23455",
+    "image": "/images/connections/time-paris-modern.jpg",
+    "credit": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Paris_Avenue_de_l%27Op%C3%A9ra.jpg"
+  },
+  {
+    "city": "Napier, New Zealand",
+    "name": "Art Deco streets",
+    "question": "Why do neighbouring buildings share a style from the same era?",
+    "clue": "Look for the repeated geometric decoration along the street.",
+    "choices": [
+      "An earthquake led to much of the centre being rebuilt at once",
+      "The buildings were relocated from a film set",
+      "A port warehouse was divided into all of the shops"
+    ],
+    "correct": 0,
+    "explanation": "The 1931 earthquake and fires devastated central Napier. Much of the rebuilding happened in the years that followed, so many buildings reflect architectural fashions of the same period, including Art Deco.",
+    "url": "https://teara.govt.nz/en/historic-earthquakes/page-8",
+    "image": "/images/connections/time-napier-modern.jpg",
+    "credit": "lumoplank",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Napier,_Part_II-_Art_Deco_-_Napier9507.jpg"
+  },
+  {
+    "city": "Chandigarh, India",
+    "name": "Capitol Complex",
+    "question": "Why group these large public buildings in one precinct?",
+    "clue": "Notice how the buildings share open ground instead of lining a shopping street.",
+    "choices": [
+      "To consolidate wholesale markets",
+      "To set out the institutions of a planned capital together",
+      "To turn the site into a residential superblock"
+    ],
+    "correct": 1,
+    "explanation": "Chandigarh’s Capitol Complex groups the assembly, secretariat and high court. The shared precinct gives the main institutions of government a deliberate place in the plan of the new capital.",
+    "url": "https://chandigarh.gov.in/historical-background",
+    "image": "/images/connections/time-chandigarh-modern.jpg",
+    "credit": "Harvinder Chandigarh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Secretariat_building_and_Palace_of_Assembly_,part_of_the_Capitol_Complex_,Chandigarh_01.jpg"
+  },
+  {
+    "city": "Lowell, United States",
+    "name": "Boott Cotton Mills",
+    "question": "Why are the former mills clustered near the river?",
+    "clue": "Look at how the industrial buildings sit along the water.",
+    "choices": [
+      "To move finished buildings downriver",
+      "To irrigate fields in the mill yards",
+      "To draw power from water routed through canals"
+    ],
+    "correct": 2,
+    "explanation": "Lowell’s canals distributed water from the Merrimack River to textile mills. The flow drove machinery, making access to the canal system important to where the mills were built.",
+    "url": "https://www.nps.gov/lowe/learn/historyculture/the-waterpower-system.htm",
+    "image": "/images/connections/time-lowell-modern.jpg",
+    "credit": "Bmzuckerman",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Lowell,_MA_-_Boott_Cotton_Mills_(Mill_No._6)_(2).jpg"
+  },
+  {
+    "city": "Split, Croatia",
+    "name": "The Peristyle",
+    "question": "Why is a Roman palace courtyard now part of the city’s street life?",
+    "clue": "Look at how later buildings meet the ancient columns.",
+    "choices": [
+      "A new park copied an ancient courtyard",
+      "Residents adapted the palace precinct into a living town",
+      "The whole courtyard was moved from the countryside"
+    ],
+    "correct": 1,
+    "explanation": "After the Roman period, people lived and built within the former palace. Streets and buildings grew around surviving structures, and the Peristyle became part of the occupied city.",
+    "url": "https://whc.unesco.org/en/list/97/",
+    "image": "/images/connections/time-split-modern.jpg",
+    "credit": "Silverije",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Peristil,_Split.jpg"
+  },
+  {
+    "city": "Matera, Italy",
+    "name": "The Sassi",
+    "question": "How could homes be built into a steep ravine?",
+    "clue": "Notice the buildings stacked against the slope.",
+    "choices": [
+      "Builders cut rooms into the rock and added masonry fronts",
+      "Builders levelled the entire ravine before construction",
+      "Each home was built on a floating platform"
+    ],
+    "correct": 0,
+    "explanation": "Many dwellings combine spaces cut into soft rock with built façades and additions. Paths, roofs and stairs fit together at different levels of the slope.",
+    "url": "https://whc.unesco.org/en/list/670/",
+    "image": "/images/connections/time-matera-modern.jpg",
+    "credit": "No machine-readable author provided. Atigra~commonswiki assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Sassi_matera.jpg"
+  },
+  {
+    "city": "Lisbon, Portugal",
+    "name": "Pombaline Baixa",
+    "question": "Why does this older city have such a regular downtown grid?",
+    "clue": "Look for the straight streets and repeating blocks.",
+    "choices": [
+      "The grid follows Roman farm boundaries exactly",
+      "The centre was rebuilt to a coordinated plan after an earthquake",
+      "The streets were once parallel rivers"
+    ],
+    "correct": 1,
+    "explanation": "After the 1755 earthquake, planners laid out the lower city with straighter streets and regular blocks. Coordinated building designs made it possible to reconstruct whole streets together.",
+    "url": "https://geo.lisboa.pt/atividades-e-difusao/investigacao/detalhe/o-terramoto-de-1-de-novembro-de-1755",
+    "image": "/images/connections/time-lisbon-modern.jpg",
+    "credit": "Kent Wang",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Equestrian_statue_of_King_Jos%C3%A9_I_with_Arco_Triunfal_da_Rua_Augusta_45.jpg"
+  },
+  {
+    "city": "Valparaíso, Chile",
+    "name": "The hills above the port",
+    "question": "Why did this port develop lifts up its hillsides?",
+    "clue": "Look at the steep rise immediately behind the waterfront.",
+    "choices": [
+      "To lower ships into the harbour",
+      "To move cargo between offshore vessels",
+      "To connect hillside homes with streets below"
+    ],
+    "correct": 2,
+    "explanation": "The flat land near the port is narrow and much of the city climbs the hills. Inclined lifts helped connect higher neighbourhoods with the lower streets and waterfront.",
+    "url": "https://whc.unesco.org/en/list/959/",
+    "image": "/images/connections/time-valparaiso-modern.jpg",
+    "credit": "Julia Sumangil",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Historic_Quarter_of_the_Seaport_City_of_Valpara%C3%ADso_04.jpg"
+  },
+  {
+    "city": "Hội An, Vietnam",
+    "name": "Trading streets",
+    "question": "Why did merchants build so close to the waterfront?",
+    "clue": "Look at the compact row of buildings beside the river.",
+    "choices": [
+      "The river linked trading houses with boats carrying goods",
+      "The waterfront was reserved for farming",
+      "Merchants needed to be as far as possible from the port"
+    ],
+    "correct": 0,
+    "explanation": "Hội An grew as a trading port on the Thu Bồn River. Streets, houses and wharves formed a compact district where merchants could receive, store and exchange goods close to boat traffic.",
+    "url": "https://whc.unesco.org/en/list/948/",
+    "image": "/images/connections/why-hoi-an.jpg",
+    "credit": "Chainwit.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:2024_H%E1%BB%99i_An_-_Japanese_Covered_Bridge_(Ch%C3%B9a_C%E1%BA%A7u)_after_renovation_-_img_11.jpg"
+  },
+  {
+    "city": "Rjukan, Norway",
+    "name": "Såheim power station",
+    "question": "Why put a large power station in this mountain valley?",
+    "clue": "Look at the steep slopes behind the building.",
+    "choices": [
+      "To use tides to turn turbines",
+      "To use water falling from higher ground",
+      "To burn coal brought in by ocean ships"
+    ],
+    "correct": 1,
+    "explanation": "Water descending from the surrounding high ground could drive turbines. Hydroelectric power supported energy-intensive industrial production in a valley far from a major coastal port.",
+    "url": "https://whc.unesco.org/en/list/1486/",
+    "image": "/images/connections/time-rjukan-modern.jpg",
+    "credit": "Lars Biørn-Hansen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:S%C3%A5heim_Kraftstasjon.jpg"
+  },
+  {
+    "city": "Saltaire, England",
+    "name": "Salts Mill",
+    "question": "Why build a mill village beside a canal and railway?",
+    "clue": "Look at how the large mill sits within a compact settlement.",
+    "choices": [
+      "The canal supplied seawater for the machinery",
+      "The railway separated the mill from all housing",
+      "The links moved supplies and goods while workers lived nearby"
+    ],
+    "correct": 2,
+    "explanation": "The mill stood close to canal and rail transport, which helped move materials and products. Housing and services nearby tied the settlement to the daily needs of the workforce.",
+    "url": "https://whc.unesco.org/en/list/1028/",
+    "image": "/images/connections/time-saltaire-modern.jpg",
+    "credit": "No machine-readable author provided. Jungpionier assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Saltaire_Salts_Mill.jpg"
+  },
+  {
+    "city": "Budapest, Hungary",
+    "name": "Chain Bridge",
+    "question": "What did a permanent bridge change for the two sides of the Danube?",
+    "clue": "Notice the wide gap the crossing spans.",
+    "choices": [
+      "People and goods could cross without depending on ferries or seasonal crossings",
+      "Ships no longer needed the river",
+      "The two banks became separate port districts"
+    ],
+    "correct": 0,
+    "explanation": "The Chain Bridge created a permanent crossing between Buda and Pest. More dependable movement across the river helped the two sides function as parts of one city.",
+    "url": "https://whc.unesco.org/en/list/400/",
+    "image": "/images/connections/time-budapest-modern.jpg",
+    "credit": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg"
+  },
+  {
+    "city": "Cartagena, Colombia",
+    "name": "San Felipe de Barajas fortress",
+    "question": "Why put this fortress on a hill overlooking the approaches?",
+    "clue": "Look at how the walls rise above the surrounding ground.",
+    "choices": [
+      "To collect water in a valley reservoir",
+      "To oversee and defend routes into the port city",
+      "To create a sheltered dock for ships"
+    ],
+    "correct": 1,
+    "explanation": "The fortress occupies high ground outside the historic centre. From there defenders could oversee approaches on land and reinforce the wider system protecting the port.",
+    "url": "https://whc.unesco.org/en/list/285/",
+    "image": "/images/connections/time-cartagena-modern.jpg",
+    "credit": "Martin St-Amant (S23678)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:62_-_Carthag%C3%A8ne_-_D%C3%A9cembre_2008.jpg"
+  },
+  {
+    "city": "Québec City, Canada",
+    "name": "Upper and Lower Town",
+    "question": "Why did the old city develop on two levels?",
+    "clue": "Look at the drop between the bluff and the riverfront.",
+    "choices": [
+      "A canal once ran along the top of the cliff",
+      "The upper streets were built to load ships",
+      "The bluff served defence while the riverfront served trade"
+    ],
+    "correct": 2,
+    "explanation": "The heights above the St. Lawrence offered a defensive position. The lower town grew near the water, where ships landed and merchants traded.",
+    "url": "https://whc.unesco.org/en/list/300/",
+    "image": "/images/connections/time-quebec-modern.jpg",
+    "credit": "Xavier Fournier-Blais",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Le_tourisme_dans_le_vieux_Qu%C3%A9bec.jpg"
+  },
+  {
+    "city": "Dubrovnik, Croatia",
+    "name": "The city walls",
+    "question": "Why carry the walls along the coast as well as around the land side?",
+    "clue": "Look at how tightly the fortifications follow the town’s edge.",
+    "choices": [
+      "The maritime city needed defences against approaches by sea and land",
+      "The walls marked the limits of a farming estate",
+      "The walls channelled a river through the town"
+    ],
+    "correct": 0,
+    "explanation": "Dubrovnik’s prosperity depended on maritime trade. Walls and forts enclosed the town and helped protect the harbour and the approaches from both the sea and inland.",
+    "url": "https://whc.unesco.org/en/list/95/",
+    "image": "/images/connections/why-dubrovnik.jpg",
+    "credit": "Zysko serhii",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:The_walls_of_the_fortress_and_View_of_the_old_city._panorama.jpg"
+  },
+  {
+    "city": "Edinburgh, Scotland",
+    "name": "Old and New Towns",
+    "question": "Why do two adjoining districts have such different street patterns?",
+    "clue": "Compare the ridge of the Old Town with the more regular streets beyond it.",
+    "choices": [
+      "The two districts were once on separate islands",
+      "A planned expansion added a regular layout beside a medieval ridge town",
+      "The grid was laid out as a railway yard"
+    ],
+    "correct": 1,
+    "explanation": "The Old Town followed a ridge with narrow routes branching off it. The later New Town was planned on different ground, using broad streets and regular blocks.",
+    "url": "https://whc.unesco.org/en/list/728/",
+    "image": "/images/connections/why-edinburgh.jpg",
+    "credit": "Andrew Colin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Edinburgh.jpg"
+  },
+  {
+    "city": "Sydney, Australia",
+    "name": "Sydney Harbour Bridge",
+    "question": "Why span the harbour with a large arch?",
+    "clue": "Look at the clear waterway below the road and rail deck.",
+    "choices": [
+      "To give sailing ships a platform for unloading",
+      "To divide the harbour into separate reservoirs",
+      "To carry heavy traffic while leaving room for vessels below"
+    ],
+    "correct": 2,
+    "explanation": "The steel arch supports a deck for road and rail traffic. The broad span keeps major supports out of the shipping channel and gives vessels clearance beneath the crossing.",
+    "url": "https://www.transport.nsw.gov.au/system/files/media/documents/2023/harbour-bridge-history.pdf",
+    "image": "/images/connections/time-sydney-modern.jpg",
+    "credit": "Servite et contribuere",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge-16_October_2025.jpg"
+  },
+  {
+    "city": "Auckland, New Zealand",
+    "name": "The reclaimed waterfront",
+    "question": "Why is part of the city centre on land that used to be water?",
+    "clue": "Notice the broad, built-up edge beside the working harbour.",
+    "choices": [
+      "Reclamation made room for wharves and land-side port activity",
+      "A river changed course and exposed its bed overnight",
+      "The land was raised solely to build a sea wall"
+    ],
+    "correct": 0,
+    "explanation": "Auckland extended parts of its shoreline by filling in shallow areas. Reclaimed ground gave the growing port more space for wharves, freight and streets connecting the waterfront to the city.",
+    "url": "https://www.aucklandcouncil.govt.nz/arts-culture-heritage/heritage-walks-places/Documents/auckland-city-heritage-walks-original-shoreline.pdf",
+    "image": "/images/connections/time-auckland-modern.jpg",
+    "credit": "Allan Grey",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Auckland_CBD_skyline_and_harbour.jpg"
+  },
+  {
+    "city": "Marseille, France",
+    "name": "Old Port",
+    "question": "Why did the old port grow around this long inlet?",
+    "clue": "Look at how the water reaches into the city between two sides of the harbour.",
+    "choices": [
+      "It let boats reach a hilltop market without unloading",
+      "The inlet offered sheltered water and long edges for quays",
+      "It kept the port isolated from surrounding streets"
+    ],
+    "correct": 1,
+    "explanation": "The inlet gave vessels shelter from the open Mediterranean and put them close to the city. Quays along the banks turned that natural shape into a working harbour.",
+    "url": "https://www.marseille-tourisme.com/en/discover-marseille/culture-heritage/discover-the-neighbourhoods/old-port/",
+    "image": "/images/connections/time-marseille-modern.jpg",
+    "credit": "Ingo Mehling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg"
   }
 ]
