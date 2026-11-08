@@ -948,5 +948,480 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "photoUrl": "https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg"
+  },
+  {
+    "city": "Berlin, Germany",
+    "name": "Pariser Platz",
+    "question": "Why does this gate frame the end of a long avenue?",
+    "clue": "Look through the columns toward the street beyond.",
+    "choices": [
+      "It was built as a stage entrance",
+      "It marked a formal entrance to the city",
+      "It held up a bridge over a canal"
+    ],
+    "correct": 1,
+    "explanation": "The Brandenburg Gate was built at the western end of Unter den Linden as a ceremonial city entrance. The approach puts the gate in view long before pedestrians reach the square.",
+    "url": "https://www.berlin.de/en/attractions-and-sights/3560266-3104052-brandenburg-gate.en.html",
+    "image": "/images/connections/time-berlin-modern.jpg",
+    "credit": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg"
+  },
+  {
+    "city": "Warsaw, Poland",
+    "name": "Old Town Market Place",
+    "question": "Why do these façades look historic even though much of the square was rebuilt after World War II?",
+    "clue": "Look at how each narrow façade has its own shape and colour.",
+    "choices": [
+      "The buildings came from another town",
+      "The façades survived intact",
+      "The reconstruction recovered the historic form of the square"
+    ],
+    "correct": 2,
+    "explanation": "Warsaw rebuilt the Old Town after its wartime destruction, drawing on records of its earlier buildings. Recreating the street pattern and façades restored a familiar public space.",
+    "url": "https://whc.unesco.org/en/list/30/",
+    "image": "/images/connections/time-warsaw-modern.jpg",
+    "credit": "Kgbo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Old_Town_Market_Square_in_Warsaw,_2019.jpg"
+  },
+  {
+    "city": "Istanbul, Türkiye",
+    "name": "Galata Bridge",
+    "question": "Why does this bridge have a movable section?",
+    "clue": "Look at the boats using the Golden Horn.",
+    "choices": [
+      "To allow taller vessels through",
+      "To turn the road into a pedestrian plaza",
+      "To change the bridge’s alignment with the tides"
+    ],
+    "correct": 0,
+    "explanation": "The bridge has a bascule section that can lift for vessels requiring more clearance. The opening lets the crossing serve road traffic while keeping a route into the Golden Horn.",
+    "url": "https://heavymovablestructures.org/wp-content/uploads/2017/12/00534.pdf",
+    "image": "/images/connections/time-istanbul-modern.jpg",
+    "credit": "Rrburke",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Galata_Bridge_from_Galata_Tower.JPG"
+  },
+  {
+    "city": "San Francisco, United States",
+    "name": "Bay Bridge",
+    "question": "Why use an island as part of the crossing?",
+    "clue": "Look for land between the two stretches of water.",
+    "choices": [
+      "To keep boats out of the bay",
+      "To divide the crossing into two sections",
+      "To provide parking in the middle"
+    ],
+    "correct": 1,
+    "explanation": "The Bay Bridge uses Yerba Buena Island between the western and eastern spans. A tunnel through the island carries traffic from one part of the crossing to the other.",
+    "url": "https://www.mtc.ca.gov/operations/programs-projects/bridges/san-francisco-oakland-bay-bridge",
+    "image": "/images/connections/why-san-francisco.jpg",
+    "credit": "InvadingInvader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Bay_Bridge_2022.jpg"
+  },
+  {
+    "city": "Boston, United States",
+    "name": "Charles River Esplanade",
+    "question": "Why leave a long strip of open ground beside the river?",
+    "clue": "Notice the band between the water and the buildings.",
+    "choices": [
+      "To reserve a road for freight trucks",
+      "To separate the city from a military port",
+      "To give people continuous access to the riverfront"
+    ],
+    "correct": 2,
+    "explanation": "The Esplanade provides paths and open space along the Charles. A continuous public strip makes it possible to follow the river past several neighbourhoods.",
+    "url": "https://www.mass.gov/locations/charles-river-reservation",
+    "image": "/images/connections/time-boston-modern.jpg",
+    "credit": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Boston_skyline_from_Longfellow_Bridge_September_2017_panorama_2.jpg"
+  },
+  {
+    "city": "Mexico City, Mexico",
+    "name": "Templo Mayor",
+    "question": "Why leave an open archaeological site beside modern downtown streets?",
+    "clue": "Look at the exposed walls below the surrounding street level.",
+    "choices": [
+      "To preserve visible traces of the Mexica capital where they were found",
+      "To finish digging a new subway station",
+      "To save a space for a future office building"
+    ],
+    "correct": 0,
+    "explanation": "Excavation exposed remains of the main temple precinct of Tenochtitlan. Preserving them on site lets visitors see the older city directly alongside the present centre.",
+    "url": "https://www.templomayor.inah.gob.mx/",
+    "image": "/images/connections/time-mexico-city-modern.jpg",
+    "credit": "Juan Carlos Fonseca Mata",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Ruinas_del_Templo_Mayor_y_Catedral_Metropolitana_-_Ciudad_de_M%C3%A9xico.jpg"
+  },
+  {
+    "city": "Cape Town, South Africa",
+    "name": "District Six Museum Homecoming Centre",
+    "question": "Why make a public place for former residents to gather and tell their stories?",
+    "clue": "The building is a gathering place as well as an exhibition venue.",
+    "choices": [
+      "To exhibit only new housing designs",
+      "To keep the memory of a community displaced by apartheid",
+      "To relocate the city archives out of downtown"
+    ],
+    "correct": 1,
+    "explanation": "The District Six Museum records the lives of residents forced out under apartheid. The Homecoming Centre gives former residents and their families space for exhibitions, workshops and shared remembrance.",
+    "url": "https://www.districtsix.co.za/",
+    "image": "/images/connections/time-cape-town-modern.jpg",
+    "credit": "Islahaddow",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:District_Six_Homecoming_Centre_on_Caledon_Street,_Cape_Town.jpg"
+  },
+  {
+    "city": "Detroit, United States",
+    "name": "Michigan Central Station",
+    "question": "Why reuse a former railway station for a new public and work space?",
+    "clue": "Notice the size of the building and its prominent street frontage.",
+    "choices": [
+      "To hide the former station behind an industrial site",
+      "To move intercity rail to the roof",
+      "To bring a large historic building back into everyday use"
+    ],
+    "correct": 2,
+    "explanation": "The restored station became part of a wider redevelopment with public spaces and workplaces. The project reused a landmark built to receive large numbers of people.",
+    "url": "https://michigancentral.com/the-station/",
+    "image": "/images/connections/time-detroit-modern.jpg",
+    "credit": "Cards84664",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Michigan_Central_Station,_May_2024_(1).png"
+  },
+  {
+    "city": "Seattle, United States",
+    "name": "Pioneer Square street levels",
+    "question": "Why are some old storefronts below the sidewalks people use today?",
+    "clue": "Imagine the sidewalk rising while the buildings remain in place.",
+    "choices": [
+      "Street levels were raised as the city rebuilt",
+      "Shopkeepers dug tunnels to the harbour",
+      "The buildings slowly slid downhill together"
+    ],
+    "correct": 0,
+    "explanation": "After the 1889 fire, rebuilding and changes to street grades left some original storefronts below the later sidewalks. The difference preserves traces of two stages in the city’s development.",
+    "url": "https://www.seattle.gov/city-archives/exhibits-and-education/digital-document-libraries/the-great-seattle-fire-of-1889",
+    "image": "/images/connections/time-seattle-modern.jpg",
+    "credit": "Toohool",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Pioneer_Square_from_Columbia_Center.jpg"
+  },
+  {
+    "city": "Panama City, Panama",
+    "name": "Casco Antiguo",
+    "question": "Why rebuild the city on a peninsula after its earlier site was destroyed?",
+    "clue": "Look at how water surrounds much of the old quarter.",
+    "choices": [
+      "To move farther from ocean trade",
+      "To make the settlement easier to defend",
+      "To gain a large plain for farming"
+    ],
+    "correct": 1,
+    "explanation": "After the destruction of the earlier settlement, the city was re-established on a more defensible peninsula. Water limited the approaches and fortifications helped protect the new site.",
+    "url": "https://whc.unesco.org/en/list/790/",
+    "image": "/images/connections/time-panama-city-modern.jpg",
+    "credit": "Garcia.dennis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Casco_Antiguo_(San_Felipe)_-_Pamama.jpg"
+  },
+  {
+    "city": "Potosí, Bolivia",
+    "name": "Cerro Rico and the mining city",
+    "question": "Why did a large city grow beneath this mountain at such high altitude?",
+    "clue": "The mountain dominates the view over the rooftops.",
+    "choices": [
+      "A sheltered bay made it a shipping centre",
+      "The slopes were ideal for tropical crops",
+      "Silver mining drew workers and trade to the site"
+    ],
+    "correct": 2,
+    "explanation": "The silver deposits of Cerro Rico supported mining and refining on a large scale. Workers, merchants and supply networks built up around the mountain despite the difficult high-altitude setting.",
+    "url": "https://whc.unesco.org/en/list/420/",
+    "image": "/images/connections/time-potosi-modern.jpg",
+    "credit": "Mhwater at Dutch Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Cerro_ricco.jpg",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Cerro_ricco.jpg"
+  },
+  {
+    "city": "Luxembourg City, Luxembourg",
+    "name": "The fortified valleys",
+    "question": "Why do the old defences follow steep cliffs?",
+    "clue": "Notice the difference in height between the upper city and valley floor.",
+    "choices": [
+      "The terrain formed part of the defensive system",
+      "The walls were intended to level the valley for farming",
+      "The cliffs formed after the defences were built"
+    ],
+    "correct": 0,
+    "explanation": "The fortress used the rocky promontory and steep valleys as natural obstacles. Walls and defensive works reinforced approaches where attackers might otherwise gain access.",
+    "url": "https://whc.unesco.org/en/list/699/",
+    "image": "/images/connections/time-luxembourg-modern.jpg",
+    "credit": "Cayambe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Luxembourg_Fortress_from_Adolphe_Bridge_02_c67.jpg"
+  },
+  {
+    "city": "Dresden, Germany",
+    "name": "Frauenkirche",
+    "question": "Why are darker stones scattered across the rebuilt church?",
+    "clue": "Look for isolated dark blocks against the lighter masonry.",
+    "choices": [
+      "They mark where modern services enter the building",
+      "Salvaged stones were fitted into the reconstructed walls",
+      "The stones were painted to show different rooms"
+    ],
+    "correct": 1,
+    "explanation": "The reconstruction incorporated usable stones recovered from the ruins. Their darker surfaces make part of the original fabric visible within the rebuilt church.",
+    "url": "https://www.frauenkirche-dresden.de/reconstruction",
+    "image": "/images/connections/time-dresden-modern.jpg",
+    "credit": "Netopyr",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:100130_150006_Dresden_Frauenkirche_winter_blue_sky-2.jpg"
+  },
+  {
+    "city": "Bam, Iran",
+    "name": "Arg-e Bam",
+    "question": "Why use earth to build so much of this fortified settlement?",
+    "clue": "Look at the continuous colour and texture of the walls.",
+    "choices": [
+      "To copy the colour of distant marble quarries",
+      "To keep the settlement light enough to relocate",
+      "Local earth could be shaped into walls and buildings"
+    ],
+    "correct": 2,
+    "explanation": "Builders used earthen techniques such as mud brick and rammed earth. A locally available material served everything from ordinary structures to the walls of the citadel.",
+    "url": "https://whc.unesco.org/en/list/1208/",
+    "image": "/images/connections/time-bam-modern.jpg",
+    "credit": "Christophe GRAZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:16-09_Arg_Bam_C-GRAZ.jpg"
+  },
+  {
+    "city": "Essen, Germany",
+    "name": "Zollverein coal mine",
+    "question": "Why is a tall steel frame built above this former mine?",
+    "clue": "Look at the structure standing over the shaft.",
+    "choices": [
+      "It carried the equipment used to hoist loads through the shaft",
+      "It held a reservoir for drinking water",
+      "It supported a bridge between neighbourhoods"
+    ],
+    "correct": 0,
+    "explanation": "The headframe carried equipment for raising and lowering loads through the mine shaft. It connected underground work with the surface buildings where the coal was handled.",
+    "url": "https://whc.unesco.org/en/list/975/",
+    "image": "/images/connections/time-essen-modern.jpg",
+    "credit": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Zeche_Zollverein_abends.jpg"
+  },
+  {
+    "city": "New Lanark, Scotland",
+    "name": "The mill village",
+    "question": "Why did a settlement grow right beside these riverside mills?",
+    "clue": "The buildings occupy a narrow strip along the Clyde.",
+    "choices": [
+      "The site gave ships direct access to the ocean",
+      "The river supplied power and the mills needed workers nearby",
+      "The valley was selected to avoid access to water"
+    ],
+    "correct": 1,
+    "explanation": "The mills used the Clyde for waterpower. Housing and shared facilities grew beside the workplaces, making the valley a working settlement as well as an industrial site.",
+    "url": "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/world-heritage-sites/new-lanark/",
+    "image": "/images/connections/time-new-lanark-modern.jpg",
+    "credit": "mrpbps",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:New_Lanark_buildings_2009.jpg"
+  },
+  {
+    "city": "Asmara, Eritrea",
+    "name": "Modernist streets",
+    "question": "Why do many buildings in the centre reflect the same period of design?",
+    "clue": "Look for repeated geometric forms and relatively spare façades.",
+    "choices": [
+      "The whole centre was relocated from another country",
+      "A medieval building code required concrete",
+      "Colonial expansion brought concentrated construction during the modernist era"
+    ],
+    "correct": 2,
+    "explanation": "Much of central Asmara was planned and built during Italian colonial rule. Architects used contemporary modernist forms, while colonial planning also imposed unequal access and segregation.",
+    "url": "https://whc.unesco.org/en/list/1550/",
+    "image": "/images/connections/time-asmara-modern.jpg",
+    "credit": "Tigernssnowy7",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Asmara_Montage.png"
+  },
+  {
+    "city": "Hué, Vietnam",
+    "name": "Imperial City",
+    "question": "Why place a walled enclosure inside a larger citadel?",
+    "clue": "Look at the sequence of gates and enclosed spaces.",
+    "choices": [
+      "The nested boundaries separated spaces with different levels of access",
+      "Each wall belonged to a different independent city",
+      "The inner wall was built to carry canal boats"
+    ],
+    "correct": 0,
+    "explanation": "Hué’s citadel enclosed the Imperial City, which in turn contained more restricted royal spaces. Walls and gates made the hierarchy visible and controlled how people moved through it.",
+    "url": "https://whc.unesco.org/en/list/678/",
+    "image": "/images/connections/time-hue-modern.jpg",
+    "credit": "NguyenThanhBac123",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BA%A1i_n%E1%BB%99i.jpg"
+  },
+  {
+    "city": "San Juan, Puerto Rico",
+    "name": "Fortified harbour entrance",
+    "question": "Why build major defences at the tip of Old San Juan?",
+    "clue": "Look at how the point projects toward the entrance to the bay.",
+    "choices": [
+      "To direct rainwater into the old town",
+      "To watch and defend the channel used by incoming ships",
+      "To provide a shortcut for inland roads"
+    ],
+    "correct": 1,
+    "explanation": "Fortifications at the entrance helped defenders monitor ships and control access to the harbour. The point gave them a view over the approach from the Atlantic.",
+    "url": "https://whc.unesco.org/en/list/266/",
+    "image": "/images/connections/why-san-juan.jpg",
+    "credit": "Nils Huenerfuerst",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Castillo_San_Felipe_del_Morro_aerial,_May_2024_-_01.jpg"
+  },
+  {
+    "city": "Agadez, Niger",
+    "name": "Earthen architecture",
+    "question": "Why use earth for both houses and a tall landmark?",
+    "clue": "Look at the similar surface of the tower and surrounding buildings.",
+    "choices": [
+      "The whole city was cast from one mold",
+      "The material had to be brought by sea",
+      "Local builders developed techniques for constructing and repairing with earth"
+    ],
+    "correct": 2,
+    "explanation": "Earthen building techniques supplied the historic town with walls, houses and its prominent minaret. Regular repair is part of keeping exposed earthen surfaces in use.",
+    "url": "https://whc.unesco.org/en/list/1268/",
+    "image": "/images/connections/why-agadez.jpg",
+    "credit": "Dan Lundberg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:1997_277-16A_Agadez_hotel.jpg"
+  },
+  {
+    "city": "Harar, Ethiopia",
+    "name": "Jugol’s fortified neighbourhoods",
+    "question": "Why does the old town have walls with a limited number of entrances?",
+    "clue": "Think about what happens when many lanes meet a few gates.",
+    "choices": [
+      "The gates channelled access through places that could be guarded",
+      "The gates divided farmland into irrigation districts",
+      "The walls held back a permanent lake"
+    ],
+    "correct": 0,
+    "explanation": "Harar’s historic wall defined a fortified town. Gateways concentrated movement between the town and its surroundings at known points.",
+    "url": "https://whc.unesco.org/en/list/1189/",
+    "image": "/images/connections/why-harar.jpg",
+    "credit": "Rod Waddington from Kergunyah, Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:City_Gate,_Harar_Jugol_(14464345823).jpg"
+  },
+  {
+    "city": "Prague, Czechia",
+    "name": "Charles Bridge",
+    "question": "Why does this old crossing have a series of arches?",
+    "clue": "Notice the piers breaking up the distance between the banks.",
+    "choices": [
+      "The piers were built to stop all river traffic",
+      "Several shorter stone spans could carry the crossing across a wide river",
+      "The gaps were left for future buildings"
+    ],
+    "correct": 1,
+    "explanation": "The bridge uses repeated masonry arches, each supported by piers or abutments. That arrangement lets a stone bridge cross a wider river than a single short span could cover.",
+    "url": "https://whc.unesco.org/en/list/616/",
+    "image": "/images/connections/why-prague.jpg",
+    "credit": "Moyan Brenn from Italy",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Prague_(6365119737).jpg"
+  },
+  {
+    "city": "Petra, Jordan",
+    "name": "The Treasury",
+    "question": "How did builders make this elaborate façade on the canyon wall?",
+    "clue": "Look where the columns meet the surrounding cliff.",
+    "choices": [
+      "They assembled blocks cut from a quarry elsewhere",
+      "They carved the façade out of the sandstone cliff",
+      "They built a brick wall and covered it with stone panels"
+    ],
+    "correct": 1,
+    "explanation": "The Nabataeans carved the façade and interior into the existing sandstone. The columns and pediment give the impression of a building assembled from separate parts, but the façade is cut directly from the rock.",
+    "url": "https://whc.unesco.org/en/list/326/",
+    "image": "/images/connections/time-petra-modern.jpg",
+    "credit": "Dudva",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_(The_Treasury)_in_Petra.jpg"
+  },
+  {
+    "city": "Machu Picchu, Peru",
+    "name": "Hillside terraces",
+    "question": "Why build a staircase of broad terraces on this slope?",
+    "clue": "Look at how retaining walls divide the steep ground.",
+    "choices": [
+      "They created usable ground and helped manage drainage",
+      "They were built to guide ships through rapids",
+      "They were intended to make the hillside steeper"
+    ],
+    "correct": 0,
+    "explanation": "Terraces turned sections of a steep slope into level ground. Retaining walls and drainage helped manage water and stabilize ground around the settlement.",
+    "url": "https://whc.unesco.org/en/list/274/",
+    "image": "/images/connections/time-machu-picchu-modern.jpg",
+    "credit": "Draceane",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg"
+  },
+  {
+    "city": "Angkor Thom, Cambodia",
+    "name": "The walled capital",
+    "question": "Why surround a large capital with both a moat and walls?",
+    "clue": "Look at the controlled approach to the gate.",
+    "choices": [
+      "The moat was meant to be the city’s main street",
+      "Together they defined the city and concentrated entry at gates",
+      "The wall served as a terrace for farming the moat"
+    ],
+    "correct": 1,
+    "explanation": "The moat and walls enclosed Angkor Thom. Causeways and gates provided clear routes into the city through an otherwise continuous boundary.",
+    "url": "https://whc.unesco.org/en/list/668/",
+    "image": "/images/connections/time-angkor-modern.jpg",
+    "credit": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_(II).jpg"
   }
 ]
