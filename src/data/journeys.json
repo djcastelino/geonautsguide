@@ -1712,5 +1712,861 @@
         "url": "https://www.duisport.de/?lang=en"
       }
     ]
+  },
+  {
+    "id": "iwami",
+    "name": "Iwami Ginzan silver",
+    "title": "From a mountain mine to the Sea of Japan",
+    "intro": "Follow the roads that carried silver and supplies between mine and coast.",
+    "stops": [
+      [
+        "Ōmori, Japan",
+        132.44,
+        35.1,
+        "A settlement at the mine",
+        "Mining and refining drew workers and merchants into the hills around Ōmori."
+      ],
+      [
+        "Tomogaura, Japan",
+        132.41,
+        35.14,
+        "A short road to the sea",
+        "An early transport road linked the mining district with this small coastal harbour."
+      ],
+      [
+        "Yunotsu, Japan",
+        132.34,
+        35.1,
+        "A port for a growing trade",
+        "Yunotsu was another outlet for silver and an entry point for supplies heading uphill."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Iwami Ginzan Silver Mine",
+        "url": "https://whc.unesco.org/en/list/1246/"
+      }
+    ]
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury and American silver",
+    "title": "Why a metal crossed an ocean",
+    "intro": "Follow a supply chain linking a Spanish mine to silver refining in colonial Mexico.",
+    "stops": [
+      [
+        "Almadén, Spain",
+        -4.84,
+        38.78,
+        "A mine for quicksilver",
+        "Workers extracted mercury from cinnabar. The metal was valuable because it could bind with silver in crushed ore."
+      ],
+      [
+        "Veracruz, Mexico",
+        -96.13,
+        19.2,
+        "A port in the colonial supply chain",
+        "Mercury shipped from Spain could enter New Spain through Veracruz before travelling inland."
+      ],
+      [
+        "Pachuca, Mexico",
+        -98.74,
+        20.12,
+        "A new way to refine ore",
+        "The patio process used mercury to recover silver from ore. It expanded refining capacity and exposed workers to a toxic metal."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Heritage of Mercury",
+        "url": "https://whc.unesco.org/en/list/1313/"
+      }
+    ]
+  },
+  {
+    "id": "rjukan-freight",
+    "name": "Rjukan’s industrial railway and ferry",
+    "title": "Moving fertilizer out of a steep valley",
+    "intro": "Follow the rail-and-water connection built for Norway’s inland fertilizer industry.",
+    "stops": [
+      [
+        "Rjukan, Norway",
+        8.59,
+        59.88,
+        "Waterfall power makes fertilizer",
+        "Hydroelectricity made energy-intensive fertilizer production possible far inland."
+      ],
+      [
+        "Mæl, Norway",
+        8.76,
+        59.92,
+        "Rail wagons cross a lake",
+        "At Mæl, a railway ferry carried wagons onto Lake Tinn. The lake served as a link where continuous track was impractical."
+      ],
+      [
+        "Notodden, Norway",
+        9.26,
+        59.56,
+        "An industrial gateway",
+        "Rail connected the south side of the lake to Notodden. From there a larger transport network carried fertilizer toward export markets."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Rjukan–Notodden Industrial Heritage",
+        "url": "https://whc.unesco.org/en/list/1486/"
+      }
+    ]
+  },
+  {
+    "id": "derwent-cotton",
+    "name": "Cotton along the Derwent",
+    "title": "How waterpower spread a factory system",
+    "intro": "Trace the river valley where mechanized cotton spinning reshaped work and settlement.",
+    "stops": [
+      [
+        "Cromford, England",
+        -1.56,
+        53.11,
+        "Power from a steady flow",
+        "Richard Arkwright’s mill used waterpower to drive spinning machinery, concentrating production in one building."
+      ],
+      [
+        "Belper, England",
+        -1.48,
+        53.03,
+        "Mills reshape a town",
+        "The Strutts developed large mills at Belper. Housing and services grew around the new pattern of factory work."
+      ],
+      [
+        "Darley Abbey, England",
+        -1.48,
+        52.94,
+        "A system takes root downstream",
+        "Another mill community grew on the lower Derwent. River sites helped spread a model that later factories could reproduce elsewhere."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Derwent Valley Mills",
+        "url": "https://whc.unesco.org/en/list/1030/"
+      }
+    ]
+  },
+  {
+    "id": "blaenavon-iron",
+    "name": "Blaenavon’s iron supply chain",
+    "title": "From hillsides to furnaces",
+    "intro": "See how mines, furnaces and transport links made an ironmaking district possible.",
+    "stops": [
+      [
+        "Big Pit, Wales",
+        -3.11,
+        51.77,
+        "Fuel from underground",
+        "The coal workings show how deeply the district depended on miners and local fuel."
+      ],
+      [
+        "Blaenavon Ironworks, Wales",
+        -3.09,
+        51.78,
+        "Several materials meet at a furnace",
+        "Iron ore, limestone and fuel had to reach the same site in volume. The district’s geology put these materials within reach."
+      ],
+      [
+        "Llanfoist, Wales",
+        -3.04,
+        51.81,
+        "Downhill to a canal",
+        "Tramroads and inclines helped move industrial freight down toward the canal near Llanfoist."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Blaenavon Industrial Landscape",
+        "url": "https://whc.unesco.org/en/list/984/"
+      }
+    ]
+  },
+  {
+    "id": "ironbridge",
+    "name": "Iron across the Severn",
+    "title": "How a river carried an industrial district",
+    "intro": "Follow the places where fuel, cast iron and finished goods moved through the Severn gorge.",
+    "stops": [
+      [
+        "Coalbrookdale, England",
+        -2.49,
+        52.64,
+        "Coke fuels a furnace",
+        "Smelting with coke reduced reliance on charcoal and helped change the scale of ironmaking."
+      ],
+      [
+        "Iron Bridge, England",
+        -2.48,
+        52.63,
+        "A material becomes a crossing",
+        "Cast iron produced in the district became the structure of a bridge across the river."
+      ],
+      [
+        "Coalport, England",
+        -2.44,
+        52.62,
+        "Freight meets the river",
+        "River and canal connections moved bulky goods through the gorge. The industrial district depended on transport as well as furnaces."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Ironbridge Gorge",
+        "url": "https://whc.unesco.org/en/list/371/"
+      }
+    ]
+  },
+  {
+    "id": "pontcysyllte",
+    "name": "Pontcysyllte Aqueduct and Canal",
+    "title": "When boats crossed above a river",
+    "intro": "Follow three points where canal engineers kept boats moving across difficult terrain.",
+    "stops": [
+      [
+        "Chirk, Wales",
+        -3.06,
+        52.93,
+        "Across the Ceiriog valley",
+        "An aqueduct carries the canal above the Ceiriog, keeping boats at the canal’s level."
+      ],
+      [
+        "Pontcysyllte, Wales",
+        -3.09,
+        52.97,
+        "An iron trough above the Dee",
+        "A cast-iron trough carries canal water on tall masonry piers. Boats pass above the valley instead of descending to its floor."
+      ],
+      [
+        "Llangollen, Wales",
+        -3.17,
+        52.97,
+        "Water enters the system",
+        "Farther west the canal draws water from the Dee at Horseshoe Falls, helping keep the channel supplied."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Pontcysyllte Aqueduct and Canal",
+        "url": "https://whc.unesco.org/en/list/1303/"
+      }
+    ]
+  },
+  {
+    "id": "ore-mountains",
+    "name": "Mining across the Ore Mountains",
+    "title": "How skills moved with miners",
+    "intro": "Trace three towns where mining shaped settlement and techniques crossed a mountain border.",
+    "stops": [
+      [
+        "Freiberg, Germany",
+        13.34,
+        50.92,
+        "Silver draws settlement",
+        "Silver mining helped Freiberg grow. Managing deeper workings required organized labour and specialist knowledge."
+      ],
+      [
+        "Annaberg, Germany",
+        13.0,
+        50.58,
+        "A new centre after a discovery",
+        "Silver finds drew workers and investment to Annaberg. Mining towns brought together people who shared methods and equipment."
+      ],
+      [
+        "Jáchymov, Czechia",
+        12.92,
+        50.37,
+        "Ore becomes coin",
+        "Silver from Jáchymov supplied a mint. Its silver coins helped carry the name of a mining town into wider trade."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Erzgebirge/Krušnohoří Mining Region",
+        "url": "https://whc.unesco.org/en/list/1478/"
+      }
+    ]
+  },
+  {
+    "id": "camino-primitivo",
+    "name": "Camino Primitivo",
+    "title": "From Asturias across the mountains",
+    "intro": "Follow the inland pilgrimage route from Oviedo into Galicia.",
+    "stops": [
+      [
+        "Oviedo, Spain",
+        -5.85,
+        43.36,
+        "A departure from Asturias",
+        "Oviedo’s religious institutions helped make it a departure point for pilgrims heading west."
+      ],
+      [
+        "Puerto del Palo, Spain",
+        -6.71,
+        43.24,
+        "Crossing the high ground",
+        "The route climbs into mountain country, where weather and the spacing of settlements affect how far people can travel."
+      ],
+      [
+        "Lugo, Spain",
+        -7.56,
+        43.01,
+        "From mountain paths to a walled city",
+        "Pilgrims pass through Lugo before continuing toward Santiago. The city offered a different setting from the exposed crossings behind them."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Spain Tourism · The Primitive Way",
+        "url": "https://www.spain.info/en/activities/primitive-original-way-oviedo-santiago/"
+      }
+    ]
+  },
+  {
+    "id": "via-appia",
+    "name": "The Appian Way",
+    "title": "From Rome to an Adriatic port",
+    "intro": "Follow a Roman road that made movement between the capital and southeastern Italy easier.",
+    "stops": [
+      [
+        "Rome, Italy",
+        12.5,
+        41.87,
+        "A road leaves the capital",
+        "The Appian Way began in the fourth century BCE and grew into a strategic corridor for troops, goods and travellers."
+      ],
+      [
+        "Benevento, Italy",
+        14.78,
+        41.13,
+        "A junction inland",
+        "Benevento stood where routes crossed southern Italy. Road traffic helped make it an important inland centre."
+      ],
+      [
+        "Brindisi, Italy",
+        17.95,
+        40.64,
+        "The road meets the sea",
+        "At Brindisi, ships could carry travellers and cargo across the Adriatic. The port extended the reach of the road beyond Italy."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Via Appia",
+        "url": "https://whc.unesco.org/en/list/1708/"
+      }
+    ]
+  },
+  {
+    "id": "francigena",
+    "name": "Via Francigena",
+    "title": "From Canterbury to Rome on foot",
+    "intro": "Trace selected places on a pilgrimage corridor recorded by an archbishop returning from Rome.",
+    "stops": [
+      [
+        "Canterbury, England",
+        1.08,
+        51.28,
+        "A connection recorded in writing",
+        "Sigeric of Canterbury recorded his return stages from Rome in the tenth century. The record helps anchor the route in real places."
+      ],
+      [
+        "Great St Bernard Pass",
+        7.17,
+        45.87,
+        "An Alpine passage",
+        "The pass crosses high terrain between present-day Switzerland and Italy. Weather and shelter mattered as much as distance."
+      ],
+      [
+        "Rome, Italy",
+        12.45,
+        41.9,
+        "A destination for pilgrims",
+        "Rome drew travellers from across Europe. The journey linked local paths, roads and stopping places into a long-distance corridor."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "European Association of the Via Francigena Ways",
+        "url": "https://www.viefrancigene.org/en/"
+      }
+    ]
+  },
+  {
+    "id": "achaemenid-road",
+    "name": "The Persian Royal Road",
+    "title": "How messages crossed an empire",
+    "intro": "Trace selected points on the route linking western Anatolia to an Achaemenid capital.",
+    "stops": [
+      [
+        "Sardis, Türkiye",
+        28.04,
+        38.49,
+        "A western administrative centre",
+        "Sardis stood inland from the Aegean and gave the empire a base in western Anatolia."
+      ],
+      [
+        "Central Anatolia",
+        33.5,
+        39.0,
+        "Road stations make distance manageable",
+        "A network of staging points supported official travel. Riders and messengers could use supplies and fresh mounts along the way."
+      ],
+      [
+        "Susa, Iran",
+        48.25,
+        32.19,
+        "A capital receives the messages",
+        "Susa was a major Achaemenid administrative centre. The road helped connect decisions made at court to regions far to the west."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Susa",
+        "url": "https://whc.unesco.org/en/list/1455/"
+      }
+    ]
+  },
+  {
+    "id": "tea-horse",
+    "name": "The Tea Horse Road",
+    "title": "From Yunnan tea country to the plateau",
+    "intro": "Follow selected points in the caravan network linking southwestern China and Tibet.",
+    "stops": [
+      [
+        "Dali, China",
+        100.17,
+        25.69,
+        "A hub in a mountain basin",
+        "Dali lay on routes connecting tea-producing districts with towns farther north."
+      ],
+      [
+        "Lijiang, China",
+        100.23,
+        26.87,
+        "A place for caravans to regroup",
+        "Trading towns provided food, shelter and markets. Pack animals could take loads through terrain that wheeled vehicles struggled to cross."
+      ],
+      [
+        "Lhasa, Tibet",
+        91.13,
+        29.65,
+        "Tea reaches the plateau",
+        "Tea was prized in Tibet, where it could be mixed with butter. The route connected distinct environments and food traditions."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Old Town of Lijiang",
+        "url": "https://whc.unesco.org/en/list/811/"
+      },
+      {
+        "name": "Embassy of China · The Ancient Tea Horse Road",
+        "url": "https://in.china-embassy.gov.cn/xwfw/zgxw/201909/P020210622223206236825.pdf"
+      }
+    ]
+  },
+  {
+    "id": "buddhist-manuscripts",
+    "name": "Buddhism along caravan routes",
+    "title": "How travellers carried teachings across Asia",
+    "intro": "Trace three centres that show how Buddhist communities and texts moved across languages and landscapes.",
+    "stops": [
+      [
+        "Taxila, Pakistan",
+        72.82,
+        33.75,
+        "A centre of learning and exchange",
+        "Monasteries near Taxila grew along routes connecting South and Central Asia. Travellers encountered religious communities alongside markets."
+      ],
+      [
+        "Bamiyan, Afghanistan",
+        67.83,
+        34.83,
+        "A valley shaped by pilgrimage",
+        "Bamiyan’s cliffs held Buddhist monuments and monastic spaces. The valley lay on routes across the Hindu Kush."
+      ],
+      [
+        "Dunhuang, China",
+        94.8,
+        40.04,
+        "Texts survive near a desert crossing",
+        "Manuscripts preserved at Mogao record different languages and traditions. They show how teachings moved with people who translated, copied and preserved them."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "British Library · Buddhist travellers and pilgrims",
+        "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/transmission-of-buddhism/buddhist-travellers-and-pilgrims/"
+      },
+      {
+        "name": "UNESCO · Taxila",
+        "url": "https://whc.unesco.org/en/list/139/"
+      },
+      {
+        "name": "UNESCO · Bamiyan Valley",
+        "url": "https://whc.unesco.org/en/list/208/"
+      }
+    ]
+  },
+  {
+    "id": "quanzhou",
+    "name": "Quanzhou’s maritime supply network",
+    "title": "From inland kilns to overseas markets",
+    "intro": "Trace a production and transport network behind one of medieval China’s busiest ports.",
+    "stops": [
+      [
+        "Dehua, China",
+        118.24,
+        25.49,
+        "Ceramics begin inland",
+        "Kilns in Dehua produced ceramics for a market that reached beyond the region. The wares first had to reach the coast."
+      ],
+      [
+        "Quanzhou, China",
+        118.59,
+        24.91,
+        "Merchants assemble cargoes",
+        "Quanzhou brought producers, officials and visiting merchants together. Its infrastructure helped coordinate taxes, storage and transport."
+      ],
+      [
+        "Shihu, China",
+        118.73,
+        24.82,
+        "A landing place near the open sea",
+        "Docks near the harbour mouth helped move people and cargo between coastal routes and the city."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Quanzhou",
+        "url": "https://whc.unesco.org/en/list/1561/"
+      }
+    ]
+  },
+  {
+    "id": "srivijaya",
+    "name": "Srivijaya’s maritime crossroads",
+    "title": "How ports worked the monsoon routes",
+    "intro": "Follow selected locations in the trading world around the Strait of Malacca.",
+    "stops": [
+      [
+        "Palembang, Indonesia",
+        104.76,
+        -2.99,
+        "A river links inland and sea trade",
+        "The Musi connected settlement near Palembang with inland products and the sea."
+      ],
+      [
+        "Strait of Malacca",
+        100.0,
+        3.7,
+        "A narrow passage concentrates traffic",
+        "Ships moving between the Indian Ocean and waters farther east could pass through this strait. Seasonal winds affected when they sailed."
+      ],
+      [
+        "Kedah, Malaysia",
+        100.42,
+        5.73,
+        "A trading coast on the other shore",
+        "Early trading sites in Kedah show the importance of the peninsula’s west coast. Ships could exchange goods and wait for favourable sailing conditions."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Palembang City · Kedatuan Sriwijaya",
+        "url": "https://asik.palembang.go.id/uploads/Roadmap_SMB_II_bf326e0769.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hokulea",
+    "name": "Hōkūleʻa’s first voyage to Tahiti",
+    "title": "Crossing the Pacific by reading the sky and sea",
+    "intro": "Follow the 1976 voyage that renewed public interest in Polynesian navigation.",
+    "stops": [
+      [
+        "Honolua Bay, Maui",
+        -156.64,
+        21.01,
+        "A double-hulled canoe sets out",
+        "Hōkūleʻa left Maui in 1976 on a voyage to Tahiti. The canoe was built to put traditional voyaging knowledge into practice."
+      ],
+      [
+        "Central Pacific",
+        -151.5,
+        3.0,
+        "Finding direction far from land",
+        "Navigator Mau Piailug used observations such as stars and ocean swells. This ocean marker represents the open-water leg of the voyage."
+      ],
+      [
+        "Papeʻete, Tahiti",
+        -149.57,
+        -17.54,
+        "A welcome at landfall",
+        "The arrival brought people together around a living maritime tradition. The voyage inspired further work to teach and practise wayfinding."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Polynesian Voyaging Society · Hōkūleʻa’s maiden voyage",
+        "url": "https://hokulea.com/polynesian-voyaging-society-honors-the-50th-anniversary-of-hokule%CA%BBas-1976-maiden-voyage-to-tahiti/"
+      }
+    ]
+  },
+  {
+    "id": "atlantic-slavery",
+    "name": "Forced crossings to Valongo Wharf",
+    "title": "The human cost of the South Atlantic trade",
+    "intro": "Trace representative stages in the forced movement of enslaved Africans to Rio de Janeiro.",
+    "stops": [
+      [
+        "Luanda, Angola",
+        13.23,
+        -8.84,
+        "A major port of forced departure",
+        "Many captives transported to Brazil passed through ports in West Central Africa, including Luanda."
+      ],
+      [
+        "South Atlantic",
+        -15.0,
+        -17.0,
+        "A crossing under coercion",
+        "Ships carried captives in brutal conditions. Many people died at sea, and those who survived faced sale and forced labour."
+      ],
+      [
+        "Valongo Wharf, Rio de Janeiro",
+        -43.19,
+        -22.9,
+        "A place of arrival and remembrance",
+        "The wharf received enslaved people in the nineteenth century. Its remains preserve evidence of the trade in the city itself."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Valongo Wharf Archaeological Site",
+        "url": "https://whc.unesco.org/en/list/1548/"
+      }
+    ]
+  },
+  {
+    "id": "hawaii-migration",
+    "name": "Japanese migration to Hawaiʻi",
+    "title": "From contract recruitment to plantation communities",
+    "intro": "Follow an example of the journeys that brought Japanese workers to Hawaiʻi’s sugar plantations.",
+    "stops": [
+      [
+        "Yokohama, Japan",
+        139.64,
+        35.45,
+        "A port of departure",
+        "Recruitment brought workers from different parts of Japan to ports for the passage to Hawaiʻi."
+      ],
+      [
+        "Honolulu, Hawaiʻi",
+        -157.86,
+        21.31,
+        "Contracts shape the next leg",
+        "Arriving workers could be assigned to plantations. Wages, housing and working conditions shaped whether people stayed and where they settled."
+      ],
+      [
+        "Waipahu, Oʻahu",
+        -158.01,
+        21.39,
+        "A community grows around sugar",
+        "Plantation settlements brought workers from different backgrounds together. Families established institutions that lasted beyond the plantation era."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Library of Congress · Hawaiʻi plantation society",
+        "url": "https://www.loc.gov/classroom-materials/immigration/japanese/hawaii-life-in-a-plantation-society/"
+      }
+    ]
+  },
+  {
+    "id": "sewell",
+    "name": "Copper from Sewell",
+    "title": "How a mining town stayed connected to the valley",
+    "intro": "Trace the transport links that supported a copper mine high in the Chilean Andes.",
+    "stops": [
+      [
+        "El Teniente, Chile",
+        -70.35,
+        -34.09,
+        "Mining inside the mountain",
+        "Copper ore was extracted in steep terrain, where workers and machinery needed reliable access."
+      ],
+      [
+        "Sewell, Chile",
+        -70.38,
+        -34.08,
+        "A town built around stairs",
+        "Steep slopes shaped the settlement around pedestrian routes and stairs. Its residents lived close to the mining complex."
+      ],
+      [
+        "Rancagua, Chile",
+        -70.74,
+        -34.17,
+        "The valley connects to the wider network",
+        "A railway linked the mountain complex to Rancagua, moving people and supplies between very different elevations."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "National Library of Chile · Sewell",
+        "url": "https://www.memoriachilena.gob.cl/602/w3-article-97292.html"
+      }
+    ]
+  },
+  {
+    "id": "atacama-nitrate",
+    "name": "Atacama nitrate to the coast",
+    "title": "From desert deposits to fertilizer markets",
+    "intro": "Follow the links between desert mining settlements and the ships that carried nitrate abroad.",
+    "stops": [
+      [
+        "Santa Laura, Chile",
+        -69.82,
+        -20.21,
+        "Processing a desert deposit",
+        "Workers processed nitrate-rich material into a concentrated product that could be shipped for use in fertilizers and industry."
+      ],
+      [
+        "Humberstone, Chile",
+        -69.79,
+        -20.21,
+        "A town built for the works",
+        "The nitrate economy drew workers and families into the desert. Settlements needed regular supplies of water and food."
+      ],
+      [
+        "Iquique, Chile",
+        -70.14,
+        -20.21,
+        "A rail cargo becomes a sea cargo",
+        "Rail moved nitrate from the desert to coastal ports. Ships then carried it into overseas markets."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Humberstone and Santa Laura",
+        "url": "https://whc.unesco.org/en/list/1178/"
+      }
+    ]
+  },
+  {
+    "id": "fray-bentos",
+    "name": "Fray Bentos and the meat trade",
+    "title": "How the Río Uruguay supplied distant kitchens",
+    "intro": "Follow the chain from cattle country to industrial processing and overseas sales.",
+    "stops": [
+      [
+        "Río Negro cattle country, Uruguay",
+        -57.4,
+        -32.9,
+        "The grasslands supply cattle",
+        "Ranches in the region supplied animals to the riverside factory."
+      ],
+      [
+        "Fray Bentos, Uruguay",
+        -58.32,
+        -33.12,
+        "A factory makes meat portable",
+        "Workers produced meat extract and canned products. Processing helped meat survive a much longer journey."
+      ],
+      [
+        "Britain",
+        -0.12,
+        51.5,
+        "A distant market for preserved food",
+        "British buyers were among the overseas customers. The supply chain connected grassland, river shipping and industrial food production."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Fray Bentos Industrial Landscape",
+        "url": "https://whc.unesco.org/en/list/1464/"
+      }
+    ]
+  },
+  {
+    "id": "laponia",
+    "name": "Sámi reindeer movements",
+    "title": "Between forest and mountain pastures",
+    "intro": "Trace representative landscapes in a seasonal herding cycle in northern Sweden.",
+    "stops": [
+      [
+        "Forest country near Jokkmokk",
+        19.84,
+        66.6,
+        "Winter grazing in the forest",
+        "Reindeer can graze on lichens in forest country. Snow and ice conditions affect whether they can reach forage."
+      ],
+      [
+        "Lule River valley",
+        18.78,
+        67.03,
+        "Moving with the seasons",
+        "Herding communities move animals as grazing conditions change. Routes vary with weather, terrain and local knowledge."
+      ],
+      [
+        "Laponian mountains",
+        17.54,
+        67.27,
+        "Summer in higher country",
+        "Mountain pastures provide summer grazing. The cycle depends on keeping different grazing landscapes connected."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Laponian Area",
+        "url": "https://whc.unesco.org/en/list/774/"
+      }
+    ]
+  },
+  {
+    "id": "wadden-flyway",
+    "name": "The East Atlantic Flyway",
+    "title": "Why a bird needs more than one coastline",
+    "intro": "Follow representative staging areas used by migratory shorebirds along the Atlantic coast.",
+    "stops": [
+      [
+        "Arctic coast",
+        25.0,
+        71.0,
+        "A short breeding season",
+        "Some shorebirds nest at high latitudes, where long summer days offer a brief period of abundant food."
+      ],
+      [
+        "Wadden Sea",
+        8.3,
+        53.7,
+        "A place to refuel",
+        "Exposed tidal flats give birds access to worms and other prey. Feeding here helps replenish energy for another long flight."
+      ],
+      [
+        "Banc d’Arguin, Mauritania",
+        -16.4,
+        19.7,
+        "A warmer coast for winter",
+        "Shallow coastal waters and tidal flats support wintering birds. The migration depends on the condition of sites along the entire flyway."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Wadden Sea Flyway Initiative · East Atlantic Flyway",
+        "url": "https://flyway.waddensea-worldheritage.org/east-atlantic-flyway"
+      },
+      {
+        "name": "UNESCO · Wadden Sea",
+        "url": "https://whc.unesco.org/en/list/1314/"
+      }
+    ]
   }
 ]
