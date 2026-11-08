@@ -2568,5 +2568,884 @@
         "url": "https://whc.unesco.org/en/list/1314/"
       }
     ]
+  },
+  {
+    "id": "stockfish",
+    "name": "Lofoten stockfish",
+    "title": "How Arctic cod reached distant kitchens",
+    "intro": "Trace how drying and shipping made Norwegian cod a long-distance commodity.",
+    "stops": [
+      [
+        "Lofoten, Norway",
+        13.56,
+        68.15,
+        "The winter catch",
+        "Migrating cod gather near Lofoten to spawn. Fishers caught them during the cold season and hung the fish on racks to dry."
+      ],
+      [
+        "Bergen, Norway",
+        5.32,
+        60.4,
+        "A port for sorting and export",
+        "Dried fish could keep on long voyages. Merchants in Bergen assembled and sorted shipments for buyers abroad."
+      ],
+      [
+        "Italy",
+        12.34,
+        45.44,
+        "An ingredient takes on a new life",
+        "Italian cooks soaked the dried fish before cooking it. Preservation linked a seasonal northern fishery to kitchens far to the south."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "Museum Nord · History of Lofoten",
+        "url": "https://www.museumnord.no/en/stories/history-of-lofoten/"
+      }
+    ]
+  },
+  {
+    "id": "french-salt",
+    "name": "Brine across Franche-Comté",
+    "title": "Why a saltworks moved closer to fuel",
+    "intro": "Trace a brine pipeline built to bring salt water to the fuel needed to boil it.",
+    "stops": [
+      [
+        "Salins-les-Bains, France",
+        5.88,
+        46.94,
+        "Salt from underground water",
+        "Workers brought brine to the surface. Boiling it in open pans left salt behind but consumed large quantities of wood."
+      ],
+      [
+        "Port-Lesney, France",
+        5.82,
+        47.0,
+        "A pipeline carries the brine",
+        "Wooden pipes carried brine across the countryside. Moving the liquid made it possible to separate the source from the furnaces."
+      ],
+      [
+        "Arc-et-Senans, France",
+        5.78,
+        47.03,
+        "Furnaces closer to the forest",
+        "The royal saltworks stood closer to supplies of fuel. Its layout brought evaporation pans, storage and workers into one planned complex."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Saltworks of Salins-les-Bains and Arc-et-Senans",
+        "url": "https://whc.unesco.org/en/list/203/"
+      }
+    ]
+  },
+  {
+    "id": "sado",
+    "name": "Sado’s gold route",
+    "title": "From mountain workings to a shipping port",
+    "intro": "Follow an island network built around gold mining and onward transport.",
+    "stops": [
+      [
+        "Nishimikawa, Japan",
+        138.31,
+        37.88,
+        "Washing gold from sediment",
+        "Workers used water to separate gold from heavier deposits in the Nishimikawa district."
+      ],
+      [
+        "Aikawa, Japan",
+        138.25,
+        38.04,
+        "Following veins underground",
+        "At Aikawa, miners worked veins in hard rock. The mining settlement supported people who dug, sorted and refined ore."
+      ],
+      [
+        "Ogi, Japan",
+        138.28,
+        37.81,
+        "Gold leaves the island",
+        "Ogi served as a shipping port for Sado. Maritime transport linked the island’s mining economy with mainland Japan."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Sado Island Gold Mines",
+        "url": "https://whc.unesco.org/en/list/1698/"
+      }
+    ]
+  },
+  {
+    "id": "guanajuato",
+    "name": "Silver through Guanajuato",
+    "title": "How a vein shaped a city",
+    "intro": "Trace the relationship between a rich mine, a city in a ravine and a network of colonial roads.",
+    "stops": [
+      [
+        "La Valenciana, Mexico",
+        -101.26,
+        21.04,
+        "Mining above the city",
+        "The Valenciana mine worked a rich vein on the hills above Guanajuato. Its output supported a large workforce and local businesses."
+      ],
+      [
+        "Guanajuato, Mexico",
+        -101.26,
+        21.02,
+        "A city grows in a narrow valley",
+        "Workers, merchants and officials converged in the valleys below the mines. Steep terrain shaped the city’s winding streets."
+      ],
+      [
+        "Silao, Mexico",
+        -101.43,
+        20.94,
+        "Out toward regional markets",
+        "Roads toward the Bajío moved supplies and goods between mining settlements and farming districts. Silver production relied on these links."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Historic Town of Guanajuato and Adjacent Mines",
+        "url": "https://whc.unesco.org/en/list/482/"
+      }
+    ]
+  },
+  {
+    "id": "polish-salt",
+    "name": "Salt beneath Kraków",
+    "title": "How two mines supplied a royal economy",
+    "intro": "Visit two salt mines and the castle that administered their operations.",
+    "stops": [
+      [
+        "Bochnia, Poland",
+        20.42,
+        49.97,
+        "From brine to rock salt",
+        "The discovery of solid deposits made deep mining possible. Workers cut salt out of the rock rather than recovering it solely by evaporation."
+      ],
+      [
+        "Wieliczka, Poland",
+        20.06,
+        49.98,
+        "A second mine joins the network",
+        "The mines employed specialized crews and needed ways to lift heavy loads. Together they became important to the royal economy."
+      ],
+      [
+        "Saltworks Castle, Wieliczka",
+        20.064,
+        49.984,
+        "The trade needs an office",
+        "The castle served as an administrative centre for the enterprise. Managing production and sales mattered as much as extracting the salt."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Wieliczka and Bochnia Royal Salt Mines",
+        "url": "https://whc.unesco.org/en/list/32/"
+      }
+    ]
+  },
+  {
+    "id": "northern-coal",
+    "name": "Coal across northern France",
+    "title": "From mine shafts to an industrial region",
+    "intro": "Follow three examples of how mining changed the transport and settlements of northern France.",
+    "stops": [
+      [
+        "Lewarde, France",
+        3.17,
+        50.33,
+        "Work moves below ground",
+        "Shafts gave miners access to coal seams. Above ground, equipment sorted the coal and sent it onward."
+      ],
+      [
+        "Loos-en-Gohelle, France",
+        2.8,
+        50.45,
+        "Waste changes the skyline",
+        "Spoil heaps grew near mines and processing sites. Their scale reflects the amount of rock moved to obtain usable coal."
+      ],
+      [
+        "Lens, France",
+        2.83,
+        50.43,
+        "A district built around the industry",
+        "Housing, rail and other infrastructure linked pits to workers and customers. The industry reshaped whole towns."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Nord-Pas de Calais Mining Basin",
+        "url": "https://whc.unesco.org/en/list/1360/"
+      }
+    ]
+  },
+  {
+    "id": "swiss-watches",
+    "name": "Watchmaking in the Swiss Jura",
+    "title": "How small workshops made a global product",
+    "intro": "Trace the landscape that connected skilled workers, workshops and the trade in precision timepieces.",
+    "stops": [
+      [
+        "Le Locle, Switzerland",
+        6.75,
+        47.06,
+        "Specialists share the work",
+        "Watchmaking could be divided among workers making or finishing small components. Their skills supported a dense local network."
+      ],
+      [
+        "La Chaux-de-Fonds, Switzerland",
+        6.83,
+        47.1,
+        "The town plan helps production",
+        "Buildings combined work and living spaces. Regular streets and abundant daylight made the plan useful for precision work."
+      ],
+      [
+        "Neuchâtel, Switzerland",
+        6.93,
+        47.0,
+        "An industry reaches outward",
+        "The Jura workshops belonged to a wider regional economy. Finished watches could travel far because their value was high relative to their size."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Watchmaking Town Planning",
+        "url": "https://whc.unesco.org/en/list/1302/"
+      }
+    ]
+  },
+  {
+    "id": "ivrea-design",
+    "name": "Olivetti’s industrial Ivrea",
+    "title": "From factory floor to community",
+    "intro": "Trace the spaces that supported an Italian company’s approach to making office machines.",
+    "stops": [
+      [
+        "Via Jervis factories, Ivrea",
+        7.87,
+        45.46,
+        "Machines produced at scale",
+        "Olivetti’s factories made products including typewriters. Buildings and machinery helped coordinate work on a much larger scale than a workshop."
+      ],
+      [
+        "Social Services Centre, Ivrea",
+        7.873,
+        45.459,
+        "Services are part of the plan",
+        "The company provided social and cultural services. These facilities belonged to the industrial city alongside the production buildings."
+      ],
+      [
+        "Talponia housing, Ivrea",
+        7.867,
+        45.458,
+        "Housing links work and daily life",
+        "Residential projects formed another part of the plan. Factory work affected where employees lived and the services they could reach."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Ivrea Industrial City",
+        "url": "https://whc.unesco.org/en/list/1538/"
+      }
+    ]
+  },
+  {
+    "id": "new-lanark",
+    "name": "Cotton through New Lanark",
+    "title": "From river power to a mill village",
+    "intro": "Follow the movement of water, fibre and workers through a Scottish manufacturing settlement.",
+    "stops": [
+      [
+        "Falls of Clyde, Scotland",
+        -3.78,
+        55.65,
+        "The river supplies power",
+        "The Clyde drops through a gorge near the village. The mills harnessed the river to drive production."
+      ],
+      [
+        "New Lanark mills, Scotland",
+        -3.78,
+        55.66,
+        "Fibre becomes yarn",
+        "Machinery spun cotton in the mill buildings. Bringing production into one complex required coordinating labour and power."
+      ],
+      [
+        "New Lanark village, Scotland",
+        -3.782,
+        55.664,
+        "A workforce settles beside the mills",
+        "The village provided housing and services. Under Robert Owen, education became a prominent part of life in the community."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · New Lanark",
+        "url": "https://whc.unesco.org/en/list/429/"
+      }
+    ]
+  },
+  {
+    "id": "crespi-textiles",
+    "name": "Textiles at Crespi d’Adda",
+    "title": "How a company town organized a working day",
+    "intro": "Walk through a settlement built around a textile factory and its workforce.",
+    "stops": [
+      [
+        "Adda riverbank, Italy",
+        9.53,
+        45.59,
+        "A factory site beside water",
+        "The Crespi family built the mill near the Adda. The location tied production to a river valley and its sources of power."
+      ],
+      [
+        "Crespi factory, Italy",
+        9.533,
+        45.593,
+        "Work concentrates behind a gate",
+        "Spinning and weaving brought large numbers of workers to one site. The factory shaped the rhythms of the settlement around it."
+      ],
+      [
+        "Crespi workers’ village, Italy",
+        9.535,
+        45.596,
+        "Work and housing share a street plan",
+        "Houses and communal buildings stood close to the factory. The layout made the company a major influence over daily life."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Crespi d’Adda",
+        "url": "https://whc.unesco.org/en/list/730/"
+      }
+    ]
+  },
+  {
+    "id": "verla-board",
+    "name": "Wood fibre at Verla",
+    "title": "How a Finnish mill turned logs into board",
+    "intro": "Follow the material through a small industrial community at a river rapid.",
+    "stops": [
+      [
+        "Verla log pond, Finland",
+        26.64,
+        61.06,
+        "Logs arrive at the mill",
+        "Wood could reach inland mills through waterways. Holding logs near the mill gave workers a stock to draw on."
+      ],
+      [
+        "Verla rapids, Finland",
+        26.642,
+        61.062,
+        "Waterpower turns wood into pulp",
+        "Power from the rapids drove equipment that ground wood into fibres. Water was important to both power and processing."
+      ],
+      [
+        "Verla board mill, Finland",
+        26.644,
+        61.061,
+        "Wet sheets become a product",
+        "Workers formed and dried sheets of board. The buildings preserve different stages of turning a bulky raw material into a saleable product."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Verla Groundwood and Board Mill",
+        "url": "https://whc.unesco.org/en/list/751/"
+      }
+    ]
+  },
+  {
+    "id": "bruges-shipping",
+    "name": "Bruges and its outports",
+    "title": "How an inland market reached the North Sea",
+    "intro": "Follow the historic water route between Bruges and the coast.",
+    "stops": [
+      [
+        "Bruges, Belgium",
+        3.22,
+        51.21,
+        "A market away from open water",
+        "Bruges was a major trading city. Canals and channels connected its merchants to vessels outside the city."
+      ],
+      [
+        "Damme, Belgium",
+        3.28,
+        51.25,
+        "Goods transfer closer to the coast",
+        "Damme acted as an outport for Bruges. Cargo could transfer into smaller vessels suited to inland channels."
+      ],
+      [
+        "Sluis, Netherlands",
+        3.39,
+        51.31,
+        "A gateway on the Zwin",
+        "Sluis lay nearer the sea on the historic inlet. Silting changed how ships could reach the network over time."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Historic Centre of Brugge",
+        "url": "https://whc.unesco.org/en/list/996/"
+      }
+    ]
+  },
+  {
+    "id": "augsburg-water",
+    "name": "Water through Augsburg",
+    "title": "From river channels to fountains and workshops",
+    "intro": "Follow selected parts of a system built to move water and use its energy.",
+    "stops": [
+      [
+        "Hochablass, Augsburg",
+        10.94,
+        48.34,
+        "Water enters a controlled channel",
+        "A weir on the Lech diverts water into canals. Channel control lets water do work away from the main river."
+      ],
+      [
+        "Water towers at the Red Gate",
+        10.9,
+        48.36,
+        "Pumps lift water above the streets",
+        "Water towers formed part of a supply system that could deliver water by gravity once it was raised."
+      ],
+      [
+        "Central Augsburg",
+        10.9,
+        48.37,
+        "Different flows serve different needs",
+        "Canals drove workshops while separate supplies served fountains and drinking water. The system had to manage both quality and quantity."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Water Management System of Augsburg",
+        "url": "https://whc.unesco.org/en/list/1580/"
+      }
+    ]
+  },
+  {
+    "id": "shushtar-water",
+    "name": "Water through Shushtar",
+    "title": "Turning a river into an industrial system",
+    "intro": "Trace the diversion and return of water through a historic network in southwestern Iran.",
+    "stops": [
+      [
+        "Band-e Mizan, Iran",
+        48.85,
+        32.06,
+        "Dividing the river",
+        "A diversion structure splits flow between channels. Controlling where the water went made its power and supply more predictable."
+      ],
+      [
+        "Gargar mills, Iran",
+        48.86,
+        32.04,
+        "A drop powers machinery",
+        "Tunnels and channels carried water through the mill area. Falling water supplied energy for grinding."
+      ],
+      [
+        "Band-e Qaisar, Iran",
+        48.84,
+        32.05,
+        "A crossing also manages flow",
+        "The bridge-dam belongs to a wider system of crossings and water controls. The works linked irrigation, transport and industry."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Shushtar Historical Hydraulic System",
+        "url": "https://whc.unesco.org/en/list/1315/"
+      }
+    ]
+  },
+  {
+    "id": "qanat",
+    "name": "Water beneath the Iranian plateau",
+    "title": "How gravity brings water out of dry ground",
+    "intro": "Follow the stages of a qanat from upland recharge to a settlement’s fields.",
+    "stops": [
+      [
+        "Uplands south of Gonabad, Iran",
+        58.69,
+        34.17,
+        "Water enters underground",
+        "Rain and runoff can replenish groundwater below the hills. A qanat taps this water below the surface."
+      ],
+      [
+        "Qasabeh qanat, Iran",
+        58.68,
+        34.3,
+        "A gently sloping tunnel",
+        "A tunnel carries water by gravity. Vertical shafts let workers dig, remove spoil and maintain the channel."
+      ],
+      [
+        "Gonabad, Iran",
+        58.68,
+        34.35,
+        "Water reaches lower ground",
+        "At an outlet, water can be distributed to settlements and fields. Sharing and maintenance rules are part of keeping the system working."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · The Persian Qanat",
+        "url": "https://whc.unesco.org/en/list/1506/"
+      }
+    ]
+  },
+  {
+    "id": "persian-inns",
+    "name": "Caravan inns across Iran",
+    "title": "How a road became possible in stages",
+    "intro": "Trace selected caravanserais that offered shelter between major markets.",
+    "stops": [
+      [
+        "Isfahan, Iran",
+        51.67,
+        32.65,
+        "A city assembles cargo",
+        "Merchants could buy goods and find pack animals in a major trading city before setting out."
+      ],
+      [
+        "Kuhpayeh, Iran",
+        52.44,
+        32.71,
+        "A protected stop on the road",
+        "Caravanserais offered enclosed space for travellers, loads and animals. Their placement helped define a practical day’s travel."
+      ],
+      [
+        "Yazd, Iran",
+        54.37,
+        31.9,
+        "A market beyond the dry crossing",
+        "Yazd connected roads across dry country. Inns helped turn isolated stretches into a usable trading network."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · The Persian Caravanserai",
+        "url": "https://whc.unesco.org/en/list/1668/"
+      }
+    ]
+  },
+  {
+    "id": "tabriz-market",
+    "name": "Tabriz’s overland trading network",
+    "title": "Where long journeys ended in a bazaar",
+    "intro": "Follow selected points linking the Iranian plateau, a covered market and routes toward Anatolia.",
+    "stops": [
+      [
+        "Central Iranian plateau",
+        50.94,
+        34.64,
+        "Goods gather for overland trade",
+        "Caravans could consolidate loads at inland towns before continuing toward larger markets."
+      ],
+      [
+        "Tabriz, Iran",
+        46.29,
+        38.08,
+        "A market joins many trades",
+        "The covered bazaar housed shops and spaces for storage and exchange. Different goods and crafts could cluster within one complex."
+      ],
+      [
+        "Eastern Anatolia",
+        41.27,
+        39.91,
+        "The routes continue west",
+        "Overland roads linked Tabriz with Anatolia. Goods often passed through several markets and merchants before reaching buyers."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Tabriz Historic Bazaar Complex",
+        "url": "https://whc.unesco.org/en/list/1346/"
+      }
+    ]
+  },
+  {
+    "id": "atlas-caravans",
+    "name": "Across the High Atlas by caravan",
+    "title": "Why a fortified village stood on a trading road",
+    "intro": "Follow selected places between the southern valleys and Marrakesh.",
+    "stops": [
+      [
+        "Ounila valley, Morocco",
+        -7.11,
+        31.13,
+        "A valley guides movement",
+        "Water and settlements helped define practical approaches to the mountains."
+      ],
+      [
+        "Aït Ben Haddou, Morocco",
+        -7.13,
+        31.05,
+        "A fortified settlement on the route",
+        "The earthen ksar stood along a historic caravan route. A compact settlement offered a defensible place in a landscape of long crossings."
+      ],
+      [
+        "Marrakesh, Morocco",
+        -8.0,
+        31.63,
+        "Mountain routes reach an urban market",
+        "The city gathered goods and merchants from several routes. Market demand helped make the difficult crossings worthwhile."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Ksar of Ait-Ben-Haddou",
+        "url": "https://whc.unesco.org/en/list/444/"
+      }
+    ]
+  },
+  {
+    "id": "niger-trade",
+    "name": "Trade along the Inland Niger Delta",
+    "title": "Where river boats met desert caravans",
+    "intro": "Trace selected trading centres in the Niger’s inland floodplain and its northern approaches.",
+    "stops": [
+      [
+        "Djenné, Mali",
+        -4.56,
+        13.91,
+        "A town in the floodplain",
+        "Djenné grew in a landscape where seasonal water shaped food production and transport."
+      ],
+      [
+        "Mopti, Mali",
+        -4.19,
+        14.49,
+        "Two waterways come together",
+        "At the Bani and Niger junction, river traffic could change direction or transfer cargo."
+      ],
+      [
+        "Timbuktu, Mali",
+        -3.0,
+        16.77,
+        "Trade changes mode near the desert",
+        "Timbuktu linked river approaches with caravan routes across the Sahara. Commerce helped support a centre of scholarship."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Old Towns of Djenné",
+        "url": "https://whc.unesco.org/en/list/116/"
+      },
+      {
+        "name": "UNESCO · Timbuktu",
+        "url": "https://whc.unesco.org/en/list/119/"
+      }
+    ]
+  },
+  {
+    "id": "ghana-forts",
+    "name": "Trading forts on Ghana’s coast",
+    "title": "How coastal strongholds became sites of captivity",
+    "intro": "Visit three places that reveal how European trade and the Atlantic slave trade changed the coast.",
+    "stops": [
+      [
+        "Elmina, Ghana",
+        -1.35,
+        5.08,
+        "A fortified trading post",
+        "European powers built and seized forts to control parts of coastal trade. Elmina’s role shifted over time from gold trading to participation in the trade in enslaved people."
+      ],
+      [
+        "Cape Coast, Ghana",
+        -1.24,
+        5.1,
+        "Captivity before forced embarkation",
+        "Cape Coast Castle held enslaved people before they were forced aboard ships. The buildings preserve evidence of that violence."
+      ],
+      [
+        "Anomabo, Ghana",
+        -1.12,
+        5.17,
+        "A network of departure points",
+        "The fort at Anomabo was part of a wider coastal system. These sites represent different points of departure rather than stops on one captive’s journey."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Forts and Castles of Ghana",
+        "url": "https://whc.unesco.org/en/list/34/"
+      }
+    ]
+  },
+  {
+    "id": "liverpool-cotton",
+    "name": "Cotton from Liverpool to Manchester",
+    "title": "From ocean cargo to factory fibre",
+    "intro": "Follow how the port and its inland links helped supply the Lancashire textile industry.",
+    "stops": [
+      [
+        "Liverpool docks, England",
+        -3.0,
+        53.4,
+        "Raw cotton arrives by sea",
+        "Bales arrived from overseas growing regions, including plantations that relied on enslaved labour."
+      ],
+      [
+        "Edge Hill, Liverpool",
+        -2.95,
+        53.4,
+        "Freight changes mode",
+        "The Liverpool and Manchester Railway created another way to move goods inland, alongside road and canal routes."
+      ],
+      [
+        "Manchester, England",
+        -2.25,
+        53.48,
+        "Factories transform the fibre",
+        "Mills spun cotton into yarn and turned it into cloth. Export routes connected finished textiles to buyers abroad."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Liverpool Maritime Mercantile City archive",
+        "url": "https://whc.unesco.org/en/list/1150/"
+      }
+    ]
+  },
+  {
+    "id": "basque-whaling",
+    "name": "Basque whaling at Red Bay",
+    "title": "From a Labrador harbour to European markets",
+    "intro": "Follow the seasonal Atlantic trade in whale oil and the shore stations that processed it.",
+    "stops": [
+      [
+        "Basque coast",
+        -1.98,
+        43.32,
+        "Crews equip for a long season",
+        "Ships left with crews, barrels and equipment to process whales far from their home ports."
+      ],
+      [
+        "Strait of Belle Isle",
+        -56.7,
+        51.5,
+        "A passage on the whales’ route",
+        "Whales moving through these waters drew crews to the Labrador coast."
+      ],
+      [
+        "Red Bay, Canada",
+        -56.43,
+        51.73,
+        "A harbour becomes a processing station",
+        "Workers rendered blubber into oil and stored it in barrels. The processed cargo could then make the Atlantic return voyage."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Red Bay Basque Whaling Station",
+        "url": "https://whc.unesco.org/en/list/1412/"
+      }
+    ]
+  },
+  {
+    "id": "vizcaya-ferry",
+    "name": "The Vizcaya transporter bridge",
+    "title": "A crossing that left the river open",
+    "intro": "Follow the short trip across the Nervión on a suspended ferry platform.",
+    "stops": [
+      [
+        "Portugalete, Spain",
+        -3.02,
+        43.32,
+        "Passengers board at river level",
+        "People and vehicles can board a moving platform from the bank without climbing to the height of a bridge deck."
+      ],
+      [
+        "Nervión estuary, Spain",
+        -3.017,
+        43.323,
+        "The platform crosses below the span",
+        "The platform hangs from a high structure. The design leaves clearance for river traffic while carrying local traffic across."
+      ],
+      [
+        "Getxo, Spain",
+        -3.015,
+        43.324,
+        "A link across an industrial estuary",
+        "A short crossing connects settlements on opposite banks near the mouth of the estuary."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · Vizcaya Bridge",
+        "url": "https://whc.unesco.org/en/list/1217/"
+      }
+    ]
+  },
+  {
+    "id": "forth-rail",
+    "name": "Rail across the Firth of Forth",
+    "title": "How a bridge changed a rail journey",
+    "intro": "Trace the railway crossing that linked the shores of the Firth of Forth.",
+    "stops": [
+      [
+        "South Queensferry, Scotland",
+        -3.39,
+        55.99,
+        "The tracks approach open water",
+        "A bridge had to carry heavy trains across a busy estuary while giving ships room to pass below."
+      ],
+      [
+        "Inchgarvie, Scotland",
+        -3.39,
+        56.0,
+        "An island helps support the crossing",
+        "A central pier stands at the island. The cantilever design carries the railway across long spans between supports."
+      ],
+      [
+        "North Queensferry, Scotland",
+        -3.39,
+        56.01,
+        "A through route into Fife",
+        "The crossing opened in 1890. Trains could continue into Fife without relying on a ferry crossing."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · The Forth Bridge",
+        "url": "https://whc.unesco.org/en/list/1485/"
+      }
+    ]
+  },
+  {
+    "id": "cuba-coffee",
+    "name": "Coffee through eastern Cuba",
+    "title": "How migrants carried a farming system across the Caribbean",
+    "intro": "Follow the movement of people and coffee-growing techniques to the mountains near Santiago de Cuba.",
+    "stops": [
+      [
+        "Saint-Domingue, present-day Haiti",
+        -72.34,
+        19.75,
+        "Plantation expertise moves with people",
+        "During and after the Haitian Revolution, refugees and migrants crossed to Cuba. Some brought experience with coffee cultivation and processing."
+      ],
+      [
+        "Sierra Maestra foothills, Cuba",
+        -75.85,
+        20.1,
+        "Coffee farms take shape on slopes",
+        "Plantation builders adapted terraces, roads and waterworks to steep terrain. Production relied in part on enslaved labour."
+      ],
+      [
+        "Santiago de Cuba, Cuba",
+        -75.83,
+        20.02,
+        "A coastal outlet for a mountain crop",
+        "Roads connected growing districts to the port. Coffee joined a wider Caribbean trade in crops and supplies."
+      ]
+    ],
+    "sources": [
+      {
+        "name": "UNESCO · First Coffee Plantations in South-East Cuba",
+        "url": "https://whc.unesco.org/en/list/1008/"
+      }
+    ]
   }
 ]
