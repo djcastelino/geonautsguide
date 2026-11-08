@@ -1,0 +1,78 @@
+[
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "title": "From forest to coffeehouse",
+    "intro": "Follow arabica from its East African roots through the Red Sea to the coffeehouses of London.",
+    "stops": [
+      ["Ethiopian highlands", 36, 7, "A forest plant", "Arabica coffee grew wild in Ethiopia. Its journey begins in the highlands, where the plant was already part of local life before it became a commodity traded across oceans."],
+      ["Mocha, Yemen", 43.25, 13.32, "A port gives coffee its name", "Yemen became an early centre of coffee cultivation and trade. Merchants bought beans through Mocha, a Red Sea port whose name became associated with the drink."],
+      ["London, England", -0.13, 51.51, "A new place to gather", "Coffeehouses appeared in London in the mid-seventeenth century. A drink carried across trading networks gave customers a new place to meet, talk and exchange news."]
+    ],
+    "sources": [
+      {"name": "New York Botanical Garden · Coffeehouse cultures", "url": "https://libguides.nybg.org/c.php?g=1485221&p=11077129"},
+      {"name": "Cambridge University Press · Coffee in the Red Sea area", "url": "https://www.cambridge.org/core/books/abs/global-coffee-economy-in-africa-asia-and-latin-america-15001989/coffee-in-the-red-sea-area-from-the-sixteenth-to-the-nineteenth-century/8EDB621854C8AF5514BF39D6325171CE"}
+    ]
+  },
+  {
+    "id": "pepper",
+    "name": "Black pepper",
+    "title": "The spice that crossed oceans",
+    "intro": "Trace one branch of the pepper trade from India’s Malabar Coast around southern Africa to Lisbon.",
+    "stops": [
+      ["Kozhikode, India", 75.78, 11.26, "A market on the Malabar Coast", "Kozhikode, historically called Calicut, was already a busy Indian Ocean port when Vasco da Gama arrived in 1498. Pepper grown in the region passed through established merchant networks."],
+      ["Cape of Good Hope, South Africa", 18.47, -34.36, "A sea route around Africa", "The Portuguese route linked the Atlantic and Indian Oceans by rounding southern Africa. Ships could carry pepper toward Europe without relying on the same chain of ports used in Mediterranean trade."],
+      ["Lisbon, Portugal", -9.14, 38.72, "A new European entry point", "Portuguese merchants brought Malabar pepper to Lisbon. The route shifted part of the European trade toward Atlantic ports while other routes continued to operate."]
+    ],
+    "sources": [
+      {"name": "Kerala Tourism · Muziris and the spice routes", "url": "https://www.keralatourism.org/muziris/muziris-project/spice-route"},
+      {"name": "Trinity College Dublin · Did Vasco da Gama Matter for European Markets?", "url": "https://www.tcd.ie/Economics/staff/orourkek/dagamafinalDec05.pdf"}
+    ]
+  },
+  {
+    "id": "potato",
+    "name": "The potato",
+    "title": "A highland crop crosses the Atlantic",
+    "intro": "Follow a crop that Andean farmers diversified long before it reached Europe.",
+    "stops": [
+      ["Central Andes", -70, -16, "A crop adapted to the highlands", "Andean communities cultivated many kinds of potatoes. Different varieties and ways of preserving them helped make the crop a dependable food in the highlands."],
+      ["Canary Islands, Spain", -16.63, 28.29, "An Atlantic stepping stone", "Early records place potatoes in the Canary Islands in the sixteenth century. The islands offer a clue to how the crop travelled on shipping routes linking the Americas and Europe."],
+      ["Seville, Spain", -5.99, 37.39, "From a new arrival to a staple", "Early records in mainland Spain include purchases for a hospital in Seville. Farmers and gardeners helped the crop spread over time, long before it became an everyday food across much of Europe."]
+    ],
+    "sources": [
+      {"name": "Cambridge University Press · Immigrant Potatoes", "url": "https://www.cambridge.org/core/books/feeding-the-people/immigrant-potatoes/46D247BCC4281E145ADD0FF361C234D2"},
+      {"name": "REDI research repository · Early history of the potato in Europe", "url": "https://redi.cedia.edu.ec/document/474647"}
+    ]
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "title": "How a craft travelled west",
+    "intro": "Trace the spread of papermaking across workshops, trading cities and writing cultures.",
+    "stops": [
+      ["China", 108.94, 34.34, "Fibres become a writing surface", "Papermakers in China learned to turn plant fibres into thin sheets. The craft could travel wherever people had suitable fibres, water and the knowledge to work them."],
+      ["Samarkand, Uzbekistan", 66.96, 39.65, "A Central Asian centre", "Samarkand became known for papermaking. A familiar story ties the craft’s spread to a single battle, but the route here shows centres of production without assigning the transfer to one event."],
+      ["Baghdad, Iraq", 44.37, 33.31, "Paper in the Abbasid world", "Papermaking reached Baghdad during the Abbasid era. Paper supported the work of scribes and book producers as the craft spread to other cities."],
+      ["Fabriano, Italy", 12.90, 43.34, "European workshops adapt the craft", "European papermakers developed their own workshop methods. Italian centres such as Fabriano became known for paper production and for using watermarks to identify sheets."]
+    ],
+    "sources": [
+      {"name": "UNESCO · Silk Roads arts and crafts", "url": "https://ar.unesco.org/silkroad/sites/default/files/knowledge-bank-article/vol_IVb%20silk%20road_arts%20and%20crafts%20BIS.pdf"},
+      {"name": "Vanderbilt Libraries · Papermaking in Europe and America", "url": "https://exhibitions.library.vanderbilt.edu/papermaking/section/overview/"}
+    ]
+  },
+  {
+    "id": "cable",
+    "name": "Transatlantic cable",
+    "title": "When a message outran a ship",
+    "intro": "Follow the 1866 telegraph cable from the Irish coast to Newfoundland, with a stop in the open Atlantic.",
+    "stops": [
+      ["Valentia Island, Ireland", -10.35, 51.91, "The eastern end", "A cable briefly worked in 1858 before failing. Engineers tried again, and in July 1866 the Great Eastern began paying out a new cable from Valentia."],
+      ["North Atlantic", -32, 50, "An engineering problem at sea", "A cable could break under its own weight as it sank. Crews had to control the rate at which it ran off the ship. An attempt in 1865 had already ended with a break at sea."],
+      ["Heart’s Content, Newfoundland", -53.37, 47.87, "The signal comes ashore", "The cable reached Heart’s Content on July 27, 1866. Once connected to telegraph networks on both shores, news could cross the ocean in minutes instead of waiting for the next ship."]
+    ],
+    "sources": [
+      {"name": "World Heritage Ireland · Transatlantic Cable Ensemble", "url": "https://www.worldheritageireland.ie/tentative-list/transatlantic-cable-ensemble/"},
+      {"name": "Smithsonian Libraries · The Underwater Web", "url": "https://www.sil.si.edu/exhibitions/underwater-web/uw-bold-and-cautious-02.htm"}
+    ]
+  }
+]
