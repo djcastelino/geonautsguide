@@ -37,12 +37,14 @@ function RouteMap({ stops, active }) {
 }
 
 export default function FollowJourney({ onHome }) {
-  const [id, setId] = useState(journeys[0].id);
+  const [index, setIndex] = useState(0);
   const [active, setActive] = useState(0);
   const audio = useStoryAudio();
-  const journey = journeys.find(item => item.id === id);
+  const journey = journeys[index];
   const [place, , , title, description] = journey.stops[active];
   const selectStop = index => { audio.reset(); setActive(index); };
+
+  const selectJourney = next => { setIndex(next); selectStop(0); };
 
   return <div className="tt-page fj-page">
     <header className="tt-header">
@@ -58,9 +60,14 @@ export default function FollowJourney({ onHome }) {
       <section className="fj-content" aria-labelledby="fj-title">
         <div className="tt-picker">
           <label htmlFor="fj-journey">Choose a journey</label>
-          <select id="fj-journey" value={id} onChange={event => { setId(event.target.value); selectStop(0); }}>
-            {journeys.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}
+          <select id="fj-journey" value={index} onChange={event => selectJourney(Number(event.target.value))}>
+            {journeys.map((item, position) => <option key={item.id} value={position}>{item.name}</option>)}
           </select>
+          <div className="tt-picker-controls">
+            <span aria-live="polite">{index + 1} / {journeys.length}</span>
+            <button type="button" aria-label="Previous journey" onClick={() => selectJourney((index - 1 + journeys.length) % journeys.length)}><ArrowLeft size={16}/></button>
+            <button type="button" aria-label="Next journey" onClick={() => selectJourney((index + 1) % journeys.length)}><ArrowRight size={16}/></button>
+          </div>
         </div>
         <h2 id="fj-title">{journey.title}</h2>
         <p>{journey.intro}</p>
