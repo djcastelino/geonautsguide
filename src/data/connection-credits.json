@@ -3095,5 +3095,177 @@
     "AttributionRequired": "false",
     "source": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BA%A1i_n%E1%BB%99i.jpg",
     "description": "Imperial City of Huế"
+  },
+  "time-saint-petersburg-archive": {
+    "Artist": "<div class=\"fn value\">\nCartographer — John (Ivan) Truscott (<b>Russian</b>: <i>Джон (Иван) Трускот</i>); Apprentice —  Mikhail Ivanovich Makhaev (<b>Russian</b>: <i>Михаил Иванович Махаев</i>)</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Truscott_Map_of_St-Petersburg_1753.jpg",
+    "description": "File:Truscott Map of St-Petersburg 1753.jpg",
+    "archiveDate": "1753",
+    "archiveTitle": "File:Truscott Map of St-Petersburg 1753.jpg"
+  },
+  "time-lima-archive": {
+    "Artist": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/w/index.php?title=User:Dobleclick&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dobleclick (page does not exist)\">Dobleclick</a> assumed (based on copyright claims).",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Lima1750.jpg",
+    "description": "File:Lima1750.jpg",
+    "archiveDate": "1750",
+    "archiveTitle": "File:Lima1750.jpg"
+  },
+  "time-lima-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26589989@N02\">Art DiNo</a> from Lima, Perú",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas,_Lima.jpg",
+    "description": "Historic Centre of Lima"
+  },
+  "time-budapest-archive": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Br%C3%BCck_%26_Sohn_Kunstverlag_Mei%C3%9Fen\" title=\"User:Brück &amp; Sohn Kunstverlag Meißen\">Brück &amp; Sohn Kunstverlag Meißen</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:12290-Budapest-1910-Kettenbr%C3%BCcke-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg",
+    "description": "File:12290-Budapest-1910-Kettenbrücke-Brück & Sohn Kunstverlag.jpg",
+    "archiveDate": "1910",
+    "archiveTitle": "File:12290-Budapest-1910-Kettenbrücke-Brück & Sohn Kunstverlag.jpg"
+  },
+  "time-budapest-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Wilfredor\" class=\"mw-redirect\" title=\"User:Wilfredor\">Wilfredor</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg",
+    "description": "Széchenyi Chain Bridge"
+  },
+  "time-cartagena-archive": {
+    "Artist": "<div class=\"fn value\">\nLaws, William (17..- 17..). Cartographe</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:A_New_plan_of_the_Harbour,_city_and_forts_of_Cartagena_with_the_progress_of_the_British_fleet_in_their_several_stations_and_attacks_from_the_4th_of_March_1741_till_the_1st_of_April_when_Capt_Laws_came_away_sent_over..._-_btv1b85964587.jpg",
+    "description": "File:A New plan of the Harbour, city and forts of Cartagena with the progress of the British fleet in their several stations and attacks from the 4th of March 1741 till the 1st of April when Capt Laws came away sent over... - btv1b85964587.jpg",
+    "archiveDate": "1741",
+    "archiveTitle": "File:A New plan of the Harbour, city and forts of Cartagena with the progress of the British fleet in their several stations and attacks from the 4th of March 1741 till the 1st of April when Capt Laws came away sent over... - btv1b85964587.jpg"
+  },
+  "time-cartagena-modern": {
+    "Artist": "Martin St-Amant (<a href=\"//commons.wikimedia.org/wiki/User:S23678\" title=\"User:S23678\">S23678</a>)",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:62_-_Carthag%C3%A8ne_-_D%C3%A9cembre_2008.jpg",
+    "description": "Castillo San Felipe de Barajas"
+  },
+  "time-amsterdam-archive": {
+    "Artist": "Julius Milheuser, after Daniël Stalpaert",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Map_of_Amsterdam_with_the_new_city_extension_4.jpg",
+    "description": "File:Map of Amsterdam with the new city extension 4.jpg",
+    "archiveDate": "1662",
+    "archiveTitle": "File:Map of Amsterdam with the new city extension 4.jpg"
+  },
+  "time-amsterdam-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Andr%C3%A9s_Barrios&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Andrés Barrios (page does not exist)\">Andrés Barrios</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Imagen_de_los_canales_conc%C3%A9ntricos_en_%C3%81msterdam.png",
+    "description": "Canals of Amsterdam"
+  },
+  "time-samarkand-archive": {
+    "Artist": "Kun, Aleksandr L., 1840-1888",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Syr_Darya_Oblast._City_of_Samarkand._Section_of_the_City_Bordering_the_Registan_WDL10937.png",
+    "description": "File:Syr Darya Oblast. City of Samarkand. Section of the City Bordering the Registan WDL10937.png",
+    "archiveDate": "1865–1872",
+    "archiveTitle": "File:Syr Darya Oblast. City of Samarkand. Section of the City Bordering the Registan WDL10937.png"
+  },
+  "time-samarkand-modern": {
+    "Artist": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Registan_-_Gusjer.jpg\" title=\"File:Registan - Gusjer.jpg\">Registan_-_Gusjer.jpg</a>: <a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/20244534@N00\">Gustavo Jeronimo</a> from Aranjuez, Spain</li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:MrPanyGoff\" title=\"User:MrPanyGoff\"><span style=\"font-family:BernhardMod BT;\">MrPanyGoff</span></a></li></ul>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg",
+    "description": "Registan"
+  },
+  "time-bukhara-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Sergey_Prokudin-Gorsky\" class=\"extiw\" title=\"w:en:Sergey Prokudin-Gorsky\"><span title=\"Russian chemist and photographer (1863–1944)\">Sergei Prokudin-Gorskii</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Bokhara1909.jpg",
+    "description": "File:Bokhara1909.jpg",
+    "archiveDate": "1907",
+    "archiveTitle": "File:Bokhara1909.jpg"
+  },
+  "time-suzhou-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Windmemories\" title=\"User:Windmemories\">Windmemories</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:2017-04-16_Pingjianglu,_Suzhou.jpg",
+    "description": "File:2017-04-16 Pingjianglu, Suzhou.jpg"
+  },
+  "time-quebec-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:A_plan_of_Quebec,_metropolis_of_Canada_in_North_America._LOC_2017593660.jpg",
+    "description": "File:A plan of Quebec, metropolis of Canada in North America. LOC 2017593660.jpg",
+    "archiveDate": "18th century",
+    "archiveTitle": "File:A plan of Quebec, metropolis of Canada in North America. LOC 2017593660.jpg"
+  },
+  "time-quebec-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Xavier_Fournier-Blais&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Xavier Fournier-Blais (page does not exist)\">Xavier Fournier-Blais</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Le_tourisme_dans_le_vieux_Qu%C3%A9bec.jpg",
+    "description": "Old Quebec"
+  },
+  "time-udaipur-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Maharaja_Fateh_Singh_of_Udaipur,_(r.1884-1930),_on_royal_barge,_Udaipur.jpg",
+    "description": "File:Maharaja Fateh Singh of Udaipur, (r.1884-1930), on royal barge, Udaipur.jpg",
+    "archiveDate": "c. 1900",
+    "archiveTitle": "File:Maharaja Fateh Singh of Udaipur, (r.1884-1930), on royal barge, Udaipur.jpg"
+  },
+  "time-udaipur-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126397594@N03\">Güldem Üstün</a> from Istanbul, TURKEY",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:India_(Udaipur)_City_Palace_Complex_built_nearly_400_years_ago_on_the_east_bank_of_Lake_Pichola_(32065607103).jpg",
+    "description": "File:India (Udaipur) City Palace Complex built nearly 400 years ago on the east bank of Lake Pichola (32065607103).jpg"
+  },
+  "time-saint-petersburg-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Argenberg\" title=\"User:Argenberg\">Vyacheslav Argenberg</a>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint_Petersburg,_Russia,_Neva_River,_Panoramic_view.jpg",
+    "description": "File:Saint Petersburg, Russia, Neva River, Panoramic view.jpg"
+  },
+  "time-suzhou-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Long_raft_transporting_bamboo,_Suzhou,_Jiangsu,_China,_ca.1900-1919_(IMP-YDS-RG008-358-0008-0049).jpg",
+    "description": "File:Long raft transporting bamboo, Suzhou, Jiangsu, China, ca.1900-1919 (IMP-YDS-RG008-358-0008-0049).jpg",
+    "archiveDate": "c. 1900–1919",
+    "archiveTitle": "File:Long raft transporting bamboo, Suzhou, Jiangsu, China, ca.1900-1919 (IMP-YDS-RG008-358-0008-0049).jpg"
   }
 }
