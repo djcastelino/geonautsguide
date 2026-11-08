@@ -2950,5 +2950,475 @@
     "modernImage": "time-hue-modern",
     "modernCredit": "time-hue-modern",
     "modernPath": "/images/connections/time-hue-modern.jpg"
+  },
+  {
+    "id": "saint-petersburg",
+    "name": "Saint Petersburg",
+    "country": "Russia",
+    "title": "A capital drawn around the Neva.",
+    "deck": "A 1753 plan shows how waterways organized a new imperial city.",
+    "archiveDate": "1753",
+    "archiveTitle": "Truscott’s plan of Saint Petersburg",
+    "archiveType": "Historical map",
+    "modernTitle": "Saint Petersburg in a later view",
+    "changed": "A planned capital grew across islands and riverbanks.",
+    "persisted": "The Neva still organizes views and movement through the historic centre.",
+    "notice": "Find the broad river on the plan and use it to orient the later view.",
+    "sources": [
+      {
+        "name": "Saint Petersburg · historical context",
+        "url": "https://whc.unesco.org/en/list/540/"
+      }
+    ],
+    "eras": [
+      [
+        "1703",
+        "A new city on the Neva",
+        "Peter the Great founded the city near the river’s outlet to the Baltic."
+      ],
+      [
+        "Eighteenth century",
+        "A capital takes shape",
+        "Planned streets, embankments, and government buildings established a new urban pattern."
+      ],
+      [
+        "1753",
+        "The city mapped",
+        "The plan records development on both sides of the river."
+      ],
+      [
+        "Present day",
+        "The river as a reference point",
+        "The historic centre retains the relationship between monumental buildings and water."
+      ]
+    ],
+    "archiveImage": "time-saint-petersburg-archive",
+    "archivePath": "/images/connections/time-saint-petersburg-archive.jpg",
+    "modernImage": "time-saint-petersburg-modern",
+    "modernCredit": "time-saint-petersburg-modern",
+    "modernPath": "/images/connections/time-saint-petersburg-modern.jpg"
+  },
+  {
+    "id": "lima",
+    "name": "Lima",
+    "country": "Peru",
+    "title": "When the walls came down.",
+    "deck": "A plan of the walled city provides a reference for reading Lima’s later expansion.",
+    "archiveDate": "1750",
+    "archiveTitle": "Plan of Lima around 1750",
+    "archiveType": "Historical map",
+    "modernTitle": "The historic centre of Lima",
+    "changed": "The city spread beyond its defensive enclosure as the walls were dismantled.",
+    "persisted": "The older centre retains its colonial street grid and civic spaces.",
+    "notice": "Trace the perimeter on the map, then look at the built fabric of the historic core.",
+    "sources": [
+      {
+        "name": "Lima · historical context",
+        "url": "https://whc.unesco.org/en/list/500/"
+      }
+    ],
+    "eras": [
+      [
+        "1535",
+        "A colonial capital",
+        "The Spanish established Lima in the Rímac valley in an already inhabited landscape."
+      ],
+      [
+        "Colonial era",
+        "A city within walls",
+        "Defensive works enclosed the urban centre."
+      ],
+      [
+        "Nineteenth century",
+        "Room to expand",
+        "The removal of much of the wall allowed streets and development to extend outward."
+      ],
+      [
+        "Present day",
+        "The older centre within a metropolis",
+        "The historic district preserves a legible part of the earlier city."
+      ]
+    ],
+    "archiveImage": "time-lima-archive",
+    "archivePath": "/images/connections/time-lima-archive.jpg",
+    "modernImage": "time-lima-modern",
+    "modernCredit": "time-lima-modern",
+    "modernPath": "/images/connections/time-lima-modern.jpg"
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "country": "Hungary",
+    "title": "A bridge between cities.",
+    "deck": "A 1910 postcard and a later photograph show how the Chain Bridge connects the two banks of the Danube.",
+    "archiveDate": "1910",
+    "archiveTitle": "The Chain Bridge on a Brück & Sohn postcard",
+    "archiveType": "Historical postcard",
+    "modernTitle": "The Széchenyi Chain Bridge",
+    "changed": "A permanent bridge helped connect Buda and Pest. The crossing was rebuilt after wartime destruction.",
+    "persisted": "The bridge still links the historic riverbanks and anchors the view.",
+    "notice": "Compare the towers and suspension chains, which give the crossing its recognizable profile.",
+    "sources": [
+      {
+        "name": "Budapest · historical context",
+        "url": "https://whc.unesco.org/en/list/400/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1849",
+        "Separate banks",
+        "Buda and Pest developed on opposite sides of the Danube."
+      ],
+      [
+        "1849",
+        "A permanent crossing",
+        "The Chain Bridge opened between the two banks."
+      ],
+      [
+        "1873",
+        "A unified city",
+        "Buda, Pest, and Óbuda united as Budapest."
+      ],
+      [
+        "After 1945",
+        "The crossing restored",
+        "The bridge was rebuilt following its destruction during the war."
+      ]
+    ],
+    "archiveImage": "time-budapest-archive",
+    "archivePath": "/images/connections/time-budapest-archive.jpg",
+    "modernImage": "time-budapest-modern",
+    "modernCredit": "time-budapest-modern",
+    "modernPath": "/images/connections/time-budapest-modern.jpg"
+  },
+  {
+    "id": "cartagena",
+    "name": "Cartagena",
+    "country": "Colombia",
+    "title": "The harbor defended in layers.",
+    "deck": "A siege map and a later view of San Felipe show how the port was protected on land and at sea.",
+    "archiveDate": "1741",
+    "archiveTitle": "Plan of Cartagena’s harbor and defenses during the siege",
+    "archiveType": "Historical map",
+    "modernTitle": "Castillo San Felipe de Barajas",
+    "changed": "Successive defenses turned the harbor and its approaches into a military landscape.",
+    "persisted": "The surviving fortifications make that defensive system visible today.",
+    "notice": "The map shows a system of defenses. The photograph focuses on one fortified hill.",
+    "sources": [
+      {
+        "name": "Cartagena · historical context",
+        "url": "https://whc.unesco.org/en/list/285/"
+      }
+    ],
+    "eras": [
+      [
+        "Colonial era",
+        "A strategic Caribbean port",
+        "Cartagena became a major port within Spain’s American empire."
+      ],
+      [
+        "Fortification",
+        "Defending several approaches",
+        "Forts and walls guarded access from land and sea."
+      ],
+      [
+        "1741",
+        "A siege mapped",
+        "The map records the harbor and British fleet positions during the attack."
+      ],
+      [
+        "Present day",
+        "Defenses in the cityscape",
+        "Surviving walls and forts help explain why the harbor was defended in layers."
+      ]
+    ],
+    "archiveImage": "time-cartagena-archive",
+    "archivePath": "/images/connections/time-cartagena-archive.jpg",
+    "modernImage": "time-cartagena-modern",
+    "modernCredit": "time-cartagena-modern",
+    "modernPath": "/images/connections/time-cartagena-modern.jpg"
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "title": "A city expands in rings.",
+    "deck": "An expansion plan and a modern canal view show how Amsterdam made room for growth.",
+    "archiveDate": "1662",
+    "archiveTitle": "Amsterdam with the proposed city extension",
+    "archiveType": "Historical map",
+    "modernTitle": "Amsterdam’s canal ring",
+    "changed": "Planned canals and building plots expanded the city beyond its earlier core.",
+    "persisted": "Waterways, bridges, and narrow plots still define much of the historic centre.",
+    "notice": "The plan shows part of the proposed extension. The aerial photograph shows how the canal ring fits into the wider city.",
+    "sources": [
+      {
+        "name": "Amsterdam · historical context",
+        "url": "https://whc.unesco.org/en/list/1349/"
+      }
+    ],
+    "eras": [
+      [
+        "Before expansion",
+        "A growing commercial centre",
+        "Trade and population growth increased pressure on the older city."
+      ],
+      [
+        "Seventeenth century",
+        "Planning canals and plots",
+        "The city extended its canal network and laid out land for buildings."
+      ],
+      [
+        "The built canal ring",
+        "Water and streets work together",
+        "Canals served movement and drainage while framing streets and houses."
+      ],
+      [
+        "Present day",
+        "The plan in daily use",
+        "The canal ring remains a lived part of the city."
+      ]
+    ],
+    "archiveImage": "time-amsterdam-archive",
+    "archivePath": "/images/connections/time-amsterdam-archive.jpg",
+    "modernImage": "time-amsterdam-modern",
+    "modernCredit": "time-amsterdam-modern",
+    "modernPath": "/images/connections/time-amsterdam-modern.jpg"
+  },
+  {
+    "id": "samarkand",
+    "name": "Samarkand",
+    "country": "Uzbekistan",
+    "title": "The square beside the city.",
+    "deck": "A historic view near the Registan and a modern photograph show the monuments in different settings.",
+    "archiveDate": "1865–1872",
+    "archiveTitle": "The neighborhood adjoining the Registan",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Registan ensemble",
+    "changed": "Conservation and restoration reshaped how the monumental square is experienced.",
+    "persisted": "The madrasas still define the Registan’s edges.",
+    "notice": "The archive includes the surrounding city. The later photograph concentrates on the ensemble.",
+    "sources": [
+      {
+        "name": "Samarkand · historical context",
+        "url": "https://whc.unesco.org/en/list/603/"
+      }
+    ],
+    "eras": [
+      [
+        "Timurid era",
+        "An imperial centre",
+        "Samarkand became a major centre under Timur and his successors."
+      ],
+      [
+        "Fifteenth–seventeenth centuries",
+        "A square framed by madrasas",
+        "Successive buildings gave the Registan its monumental form."
+      ],
+      [
+        "1865–1872",
+        "The square in its urban setting",
+        "The archive records the relationship between the monuments and nearby buildings."
+      ],
+      [
+        "Present day",
+        "Restored monuments",
+        "The ensemble remains a focal point for reading the city’s architectural history."
+      ]
+    ],
+    "archiveImage": "time-samarkand-archive",
+    "archivePath": "/images/connections/time-samarkand-archive.jpg",
+    "modernImage": "time-samarkand-modern",
+    "modernCredit": "time-samarkand-modern",
+    "modernPath": "/images/connections/time-samarkand-modern.jpg"
+  },
+  {
+    "id": "bukhara",
+    "name": "Bukhara",
+    "country": "Uzbekistan",
+    "title": "Trade leaves a roofline.",
+    "deck": "An early photograph and a modern view trace a city organized around markets and religious institutions.",
+    "archiveDate": "1907",
+    "archiveTitle": "The entrance to Bukhara’s Ark citadel",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Po-i-Kalyan ensemble in Bukhara",
+    "changed": "The city’s political and economic roles changed while much of the historic centre survived.",
+    "persisted": "Markets, religious buildings, and lanes still reveal the older urban pattern.",
+    "notice": "Use the images as views into different parts of the historic city.",
+    "sources": [
+      {
+        "name": "Bukhara · historical context",
+        "url": "https://whc.unesco.org/en/list/602/"
+      }
+    ],
+    "eras": [
+      [
+        "Silk Road era",
+        "A trading and scholarly centre",
+        "Bukhara grew through connections across Central Asia."
+      ],
+      [
+        "Historic city",
+        "Commerce in sheltered spaces",
+        "Covered markets and lanes supported trade and movement."
+      ],
+      [
+        "1907",
+        "The city photographed",
+        "The archive records a view of Bukhara before later twentieth-century changes."
+      ],
+      [
+        "Present day",
+        "Reading the old fabric",
+        "The historic centre preserves evidence of trade, learning, and everyday settlement."
+      ]
+    ],
+    "archiveImage": "time-bukhara-archive",
+    "archivePath": "/images/connections/time-bukhara-archive.jpg",
+    "modernImage": "why-bukhara",
+    "modernCredit": "why-bukhara",
+    "modernPath": "/images/connections/why-bukhara.jpg"
+  },
+  {
+    "id": "suzhou",
+    "name": "Suzhou",
+    "country": "China",
+    "title": "A canal carries the city’s work.",
+    "deck": "An early photograph of bamboo transport and a later canal view show two uses of the same urban geography.",
+    "archiveDate": "c. 1900–1919",
+    "archiveTitle": "A bamboo raft on a Suzhou waterway",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Pingjiang Road and its canal",
+    "changed": "Urban waterways have shifted from everyday freight corridors toward mixed local and visitor uses.",
+    "persisted": "Canals and bridges still shape movement and the form of historic streets.",
+    "notice": "The archival view shows work on the water. The modern photograph shows another canal-side setting.",
+    "sources": [
+      {
+        "name": "Suzhou · historical context",
+        "url": "https://whc.unesco.org/en/list/1443/"
+      }
+    ],
+    "eras": [
+      [
+        "Historic Suzhou",
+        "A city connected by water",
+        "Waterways connected neighborhoods and supported commerce."
+      ],
+      [
+        "Early twentieth century",
+        "Freight on the canals",
+        "The archive shows bamboo being moved by raft."
+      ],
+      [
+        "Later development",
+        "Transport patterns change",
+        "Road transport took on much of the work once done on urban waterways."
+      ],
+      [
+        "Present day",
+        "Canal-side streets survive",
+        "The canal and neighboring lane show how water and settlement fit together."
+      ]
+    ],
+    "archiveImage": "time-suzhou-archive",
+    "archivePath": "/images/connections/time-suzhou-archive.jpg",
+    "modernImage": "time-suzhou-modern",
+    "modernCredit": "time-suzhou-modern",
+    "modernPath": "/images/connections/time-suzhou-modern.jpg"
+  },
+  {
+    "id": "quebec",
+    "name": "Québec City",
+    "country": "Canada",
+    "title": "A fortified city above the river.",
+    "deck": "An early plan and a later view connect the Upper Town’s defenses with the port below.",
+    "archiveDate": "Eighteenth century",
+    "archiveTitle": "A plan of Québec, metropolis of Canada",
+    "archiveType": "Historical map",
+    "modernTitle": "Old Québec in a later view",
+    "changed": "Military and commercial roles evolved under French and British rule.",
+    "persisted": "The cliff, river, and surviving fortifications still explain the city’s layout.",
+    "notice": "Find the upper and lower town on the plan and compare their relationship to the river.",
+    "sources": [
+      {
+        "name": "Québec City · historical context",
+        "url": "https://whc.unesco.org/en/list/300/"
+      }
+    ],
+    "eras": [
+      [
+        "Seventeenth century",
+        "A settlement by the St. Lawrence",
+        "Québec grew as a French colonial settlement and port."
+      ],
+      [
+        "Eighteenth century",
+        "The heights defended",
+        "Fortifications made use of the steep terrain overlooking the river."
+      ],
+      [
+        "British period",
+        "Defenses evolve",
+        "Later military works added to the fortified landscape."
+      ],
+      [
+        "Present day",
+        "The old town in layers",
+        "Walls, streets, and the cliff preserve the distinction between upper and lower town."
+      ]
+    ],
+    "archiveImage": "time-quebec-archive",
+    "archivePath": "/images/connections/time-quebec-archive.jpg",
+    "modernImage": "time-quebec-modern",
+    "modernCredit": "time-quebec-modern",
+    "modernPath": "/images/connections/time-quebec-modern.jpg"
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "country": "India",
+    "title": "A capital seen from its lake.",
+    "deck": "A royal barge photograph and a later view of the City Palace show how Lake Pichola frames Udaipur.",
+    "archiveDate": "Late nineteenth or early twentieth century",
+    "archiveTitle": "Maharana Fateh Singh aboard a royal barge",
+    "archiveType": "Historical photograph",
+    "modernTitle": "City Palace on the east bank of Lake Pichola",
+    "changed": "A royal capital developed into a modern city with the palace and lake as public points of reference.",
+    "persisted": "The palace’s relationship to the lake remains visible.",
+    "notice": "The archive shows ceremonial use of the water. The later photograph shows the shore that framed it.",
+    "sources": [
+      {
+        "name": "Udaipur · historical context",
+        "url": "https://www.tourism.rajasthan.gov.in/udaipur.html"
+      }
+    ],
+    "eras": [
+      [
+        "Sixteenth century",
+        "A capital in the hills",
+        "The rulers of Mewar established Udaipur in a landscape of hills and lakes."
+      ],
+      [
+        "Palace growth",
+        "Building along the shore",
+        "Successive rulers extended the palace complex above Lake Pichola."
+      ],
+      [
+        "Fateh Singh’s reign",
+        "A royal barge photographed",
+        "The archive records how the lake could serve as a setting for royal ceremony."
+      ],
+      [
+        "Present day",
+        "A lake still central to the view",
+        "The shore and palace remain central to how visitors read the city."
+      ]
+    ],
+    "archiveImage": "time-udaipur-archive",
+    "archivePath": "/images/connections/time-udaipur-archive.jpg",
+    "modernImage": "time-udaipur-modern",
+    "modernCredit": "time-udaipur-modern",
+    "modernPath": "/images/connections/time-udaipur-modern.jpg"
   }
 ]
