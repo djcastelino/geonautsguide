@@ -3407,5 +3407,177 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Halifax_harbour_with_view_of_Dartmouth.jpg",
     "description": "File:Halifax harbour with view of Dartmouth.jpg"
+  },
+  "time-sydney-archive": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/26602074@N06\">Blue Mountains Library, Local Studies</a> from Blue Mountains, Australia",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge_Under_Construction_(40906230472).jpg",
+    "description": "File:Sydney Harbour Bridge Under Construction (40906230472).jpg",
+    "archiveDate": "c. 1930",
+    "archiveTitle": "File:Sydney Harbour Bridge Under Construction (40906230472).jpg"
+  },
+  "time-sydney-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Servite_et_contribuere&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Servite et contribuere (page does not exist)\">Servite et contribuere</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge-16_October_2025.jpg",
+    "description": "Sydney Harbour Bridge"
+  },
+  "time-nagasaki-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Isaac_Titsingh\" class=\"extiw\" title=\"w:en:Isaac Titsingh\"><span title=\"Dutch diplomat (1745 - 1812)\">Isaac Titsingh</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Plattegrond_van_Deshima.jpg",
+    "description": "File:Plattegrond van Deshima.jpg",
+    "archiveDate": "1824–1825",
+    "archiveTitle": "File:Plattegrond van Deshima.jpg"
+  },
+  "time-nagasaki-modern": {
+    "Artist": "<div class=\"fn value\">\nKeith Finch</div>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Edo-era_Dejima_within_modern_Nagasaki.jpg",
+    "description": "File:Edo-era Dejima within modern Nagasaki.jpg"
+  },
+  "time-gdansk-archive": {
+    "Artist": "unknown",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:01945_3_86_0_-_2_171398_Women_looking_at_the_ruins_of_Granary_Island_over_the_Mot%C5%82awa_River_in_Gda%C5%84sk_(1945).jpg",
+    "description": "File:01945 3 86 0 - 2 171398 Women looking at the ruins of Granary Island over the Motława River in Gdańsk (1945).jpg",
+    "archiveDate": "1945",
+    "archiveTitle": "File:01945 3 86 0 - 2 171398 Women looking at the ruins of Granary Island over the Motława River in Gdańsk (1945).jpg"
+  },
+  "time-montreal-modern": {
+    "Artist": "<a href=\"https://en.wikipedia.org/wiki/User:Krestavilis\" class=\"extiw\" title=\"wikipedia:User:Krestavilis\">Krestavilis</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Montreal_Old_port.jpg",
+    "description": "Old Port of Montreal"
+  },
+  "time-vancouver-archive": {
+    "Artist": "jmv",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Harry_Torkington_Devine_(July_28,_1865_-_December_17,_1938),_Vancouver_before_the_fire_(CVA_LGN_450-452_realigned).jpg",
+    "description": "File:Harry Torkington Devine (July 28, 1865 - December 17, 1938), Vancouver before the fire (CVA LGN 450-452 realigned).jpg",
+    "archiveDate": "1886",
+    "archiveTitle": "File:Harry Torkington Devine (July 28, 1865 - December 17, 1938), Vancouver before the fire (CVA LGN 450-452 realigned).jpg"
+  },
+  "time-vancouver-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73543141@N00\">Lee Coursey</a> from Decatur, GA",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Vancouver_2018-20180422-2108_(42138196834).jpg",
+    "description": "Gastown"
+  },
+  "time-auckland-archive": {
+    "Artist": "<div class=\"fn value\">\nFelton Mathew</div>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:The_harbour_and_city_of_Auckland,_the_capital_of_New_Zealand_(1841)_-_Auckland.png",
+    "description": "File:The harbour and city of Auckland, the capital of New Zealand (1841) - Auckland.png",
+    "archiveDate": "1841",
+    "archiveTitle": "File:The harbour and city of Auckland, the capital of New Zealand (1841) - Auckland.png"
+  },
+  "time-osaka-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_under_reconstruction.JPG",
+    "description": "File:Osaka Castle under reconstruction.JPG",
+    "archiveDate": "1931",
+    "archiveTitle": "File:Osaka Castle under reconstruction.JPG"
+  },
+  "time-osaka-modern": {
+    "Artist": "<a href=\"https://ja.wikipedia.org/wiki/user:663highland\" class=\"extiw\" title=\"ja:user:663highland\">663highland</a>",
+    "LicenseShortName": "CC BY 2.5",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_03bs3200.jpg",
+    "description": "Osaka Castle"
+  },
+  "time-vienna-archive": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q89707\" class=\"extiw\" title=\"d:Q89707\"><span title=\"Austrian photographer (1812–1872)\">Andreas Groll</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Vienna_State_Opera_House_under_construction-1865.jpg",
+    "description": "File:Vienna State Opera House under construction-1865.jpg",
+    "archiveDate": "1865",
+    "archiveTitle": "File:Vienna State Opera House under construction-1865.jpg"
+  },
+  "time-vienna-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wiener_Staatsoper_GmbH&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wiener Staatsoper GmbH (page does not exist)\">Wiener Staatsoper GmbH</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiener_Staatsoper_Front.jpg",
+    "description": "Vienna State Opera"
+  },
+  "time-san-juan-archive": {
+    "Artist": "Besosa, Co.",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Plano_del_puerto_de_San_Juan_de_Puerto-Rico_-_con_la_representaci%C3%B3n_de_las_obras_ejecultada_desde_1887_hasta_el_30_de_Junio_1894.jpg",
+    "description": "File:Plano del puerto de San Juan de Puerto-Rico - con la representación de las obras ejecultada desde 1887 hasta el 30 de Junio 1894.jpg",
+    "archiveDate": "1894",
+    "archiveTitle": "File:Plano del puerto de San Juan de Puerto-Rico - con la representación de las obras ejecultada desde 1887 hasta el 30 de Junio 1894.jpg"
+  },
+  "time-bath-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Thomas_Malton\" class=\"extiw\" title=\"w:en:Thomas Malton\"><span title=\"British artist (1748-1804)\">Thomas Malton</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal_Crescent_Thomas_Malton_1780.jpg",
+    "description": "File:Royal Crescent Thomas Malton 1780.jpg",
+    "archiveDate": "1780",
+    "archiveTitle": "File:Royal Crescent Thomas Malton 1780.jpg"
+  },
+  "time-bath-modern": {
+    "Artist": "Photographed by Adrian Pingstone on April 20th 2005 and placed in the public domain.",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Royal.crescent.bath.arp.jpg",
+    "description": "File:Royal.crescent.bath.arp.jpg"
+  },
+  "time-gdansk-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Silar&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Silar (page does not exist)\">Silar</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:02024_0178_Modern_architecture_of_the_Granaries_Island_in_Old_Town_of_Gdansk.jpg",
+    "description": "File:02024 0178 Modern architecture of the Granaries Island in Old Town of Gdansk.jpg"
+  },
+  "time-montreal-archive": {
+    "Artist": "Wm. Notman &amp; Son",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Harbour_from_the_elevator_Railway_Grand_Trunk,_Montreal,_QC,_1906.jpg",
+    "description": "File:Harbour from the elevator Railway Grand Trunk, Montreal, QC, 1906.jpg",
+    "archiveDate": "1906",
+    "archiveTitle": "File:Harbour from the elevator Railway Grand Trunk, Montreal, QC, 1906.jpg"
+  },
+  "time-auckland-modern": {
+    "Artist": "Allan Grey",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Auckland_CBD_skyline_and_harbour.jpg",
+    "description": "File:Auckland CBD skyline and harbour.jpg"
   }
 }
