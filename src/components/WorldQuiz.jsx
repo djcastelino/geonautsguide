@@ -22,7 +22,7 @@ export default function WorldQuiz({ onHome }) {
     <main className="world-main">
       <p className="tt-eyebrow">05 / URBAN DESIGN</p>
       <h1>How <em>cities work</em></h1>
-      <p>Why did they build it this way? Look closely at ten cities and discover the thinking behind their designs.</p>
+      <p>Why did they build it this way? Look closely at {rounds.length} cities and discover the thinking behind their designs.</p>
       <section className="world-round" aria-label="City design story">
         <figure>
           <img key={round.image} src={round.image} alt={revealed ? round.name : round.clue}/>

@@ -188,5 +188,290 @@
     "photoUrl": "https://commons.wikimedia.org/wiki/File:Underground_City_Montreal_Quebec_01.jpg",
     "url": "https://montreal.ca/articles/reso-le-reseau-souterrain-de-montreal-13713",
     "image": "/images/city-quiz/10.jpg"
+  },
+  {
+    "city": "Seoul, South Korea",
+    "name": "Cheonggyecheon",
+    "question": "Why did Seoul remove a highway to bring this stream back into view?",
+    "clue": "Look at the walking paths below the surrounding streets.",
+    "choices": [
+      "To make a shipping channel",
+      "To reconnect downtown with a public stream corridor",
+      "To extend the road network below ground"
+    ],
+    "correct": 1,
+    "explanation": "The city removed the elevated road and opened up the stream corridor. Paths, crossings and planted banks turned the space into a public route through downtown.",
+    "url": "https://english.seoul.go.kr/service/amusement/stream/1-cheonggyecheon/",
+    "image": "/images/connections/time-seoul-modern.jpg",
+    "credit": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Cheonggyecheon_stream_at_sunrise_with_trees_in_Seoul.jpg"
+  },
+  {
+    "city": "Barcelona, Spain",
+    "name": "Eixample street corners",
+    "question": "Why are the corners of these blocks clipped?",
+    "clue": "Look for the extra space where four blocks meet.",
+    "choices": [
+      "To make intersections wider and easier to see across",
+      "To mark the old city gates",
+      "To make every block face south"
+    ],
+    "correct": 0,
+    "explanation": "The Eixample plan cut back the corners of its blocks. The chamfers give people and vehicles more room at intersections and open views along the crossing streets.",
+    "url": "https://www.meet.barcelona/en/visit-and-love-it/charming-corners",
+    "image": "/images/connections/time-barcelona-modern.jpg",
+    "credit": "Alhzeiia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Eixample_aire.jpg"
+  },
+  {
+    "city": "Bilbao, Spain",
+    "name": "Abandoibarra waterfront",
+    "question": "Why place a major museum beside this river?",
+    "clue": "Look at the open riverbank around the museum.",
+    "choices": [
+      "To use the river for shipping exhibits",
+      "To protect the city from high tides",
+      "To draw people back to a former industrial waterfront"
+    ],
+    "correct": 2,
+    "explanation": "The Guggenheim was part of a broader redevelopment of a former port and industrial area. Public paths and spaces made the riverbank a place to visit and walk through.",
+    "url": "https://www.leekuanyewworldcityprize.gov.sg/winning-cities/case-studies/abandoibarra-waterfront/",
+    "image": "/images/connections/time-bilbao-modern.jpg",
+    "credit": "Naotake Murayama",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Museo_Guggenheim,_Bilbao_(31273245344).jpg"
+  },
+  {
+    "city": "Chicago, United States",
+    "name": "Chicago River",
+    "question": "Why did Chicago engineer this river to flow away from Lake Michigan?",
+    "clue": "The river runs through the city beside the lake that supplies its drinking water.",
+    "choices": [
+      "To keep sewage away from the drinking-water intake",
+      "To turn the river into a reservoir",
+      "To stop boats entering the city"
+    ],
+    "correct": 0,
+    "explanation": "Chicago opened a canal that redirected the river toward the Mississippi basin. The aim was to keep sewage carried by the river from reaching the city’s drinking-water supply in Lake Michigan.",
+    "url": "https://www.mwrd.org/what-we-do/history-protecting-our-water-environment",
+    "image": "/images/connections/time-chicago-modern.jpg",
+    "credit": "ajay_suresh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Chicago_Riverwalk_(51556708640).jpg"
+  },
+  {
+    "city": "Canberra, Australia",
+    "name": "Lake Burley Griffin",
+    "question": "Why create a lake between parts of the capital?",
+    "clue": "Look at how the bridge spans a broad body of water through the city.",
+    "choices": [
+      "To serve as an ocean shipping terminal",
+      "To anchor the capital’s layout around a central landscape",
+      "To remove the need for bridges"
+    ],
+    "correct": 1,
+    "explanation": "The capital plan used a lake as a central feature, relating the city’s layout to the valley and surrounding hills. Damming the Molonglo River created the lake and bridges connected the two sides.",
+    "url": "https://www.nca.gov.au/attractions/lake-burley-griffin",
+    "image": "/images/connections/time-canberra-modern.jpg",
+    "credit": "Wade Johanson from Canberra, Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Kings_Avenue_Bridge_on_Lake_Burley_Griffin.jpg"
+  },
+  {
+    "city": "Vienna, Austria",
+    "name": "Ringstrasse",
+    "question": "Why does a broad boulevard loop around Vienna’s old centre?",
+    "clue": "The opera house stands along the edge of the old core.",
+    "choices": [
+      "To mark the banks of a filled-in river",
+      "To follow the route of an old railway",
+      "To reuse the space occupied by the city’s defences"
+    ],
+    "correct": 2,
+    "explanation": "Vienna replaced its old fortifications with the Ringstrasse. The boulevard and the ground around it made room for civic and cultural buildings, including the opera house.",
+    "url": "https://www.wien.gv.at/en/education/history-ringstrasse-period",
+    "image": "/images/connections/time-vienna-modern.jpg",
+    "credit": "Wiener Staatsoper GmbH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Wiener_Staatsoper_Front.jpg"
+  },
+  {
+    "city": "Bath, England",
+    "name": "Royal Crescent",
+    "question": "Why make this row of houses look like one building?",
+    "clue": "Look for the repeating columns and uninterrupted curve.",
+    "choices": [
+      "To give separate homes a unified frontage",
+      "To create one large indoor market",
+      "To support a wall around the city"
+    ],
+    "correct": 0,
+    "explanation": "The Royal Crescent uses a coordinated façade across separate homes. The curve and repeating columns make the street read as a single architectural composition.",
+    "url": "https://historicengland.org.uk/listing/heritage-gateway/results/record/f47f405f-d030-4528-9054-1126aee5bfb8/66421",
+    "image": "/images/connections/time-bath-modern.jpg",
+    "credit": "Photographed by Adrian Pingstone on April 20th 2005 and placed in the public domain.",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Royal.crescent.bath.arp.jpg",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Royal.crescent.bath.arp.jpg"
+  },
+  {
+    "city": "Le Havre, France",
+    "name": "Perret’s rebuilt centre",
+    "question": "Why do so many buildings around this square repeat the same spacing?",
+    "clue": "Look for regular intervals between columns and windows.",
+    "choices": [
+      "To disguise houses built in different centuries",
+      "To rebuild the centre using a shared construction system",
+      "To follow the bends of a former river"
+    ],
+    "correct": 1,
+    "explanation": "After wartime destruction, Auguste Perret’s team used a shared modular grid and reinforced concrete. The repeated dimensions helped coordinate construction across the rebuilt centre.",
+    "url": "https://whc.unesco.org/en/list/1181/",
+    "image": "/images/connections/time-le-havre-modern.jpg",
+    "credit": "Marc Ryckaert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Le_Havre_Place_H%C3%B4tel_de_Ville_R05.jpg"
+  },
+  {
+    "city": "Nagasaki, Japan",
+    "name": "Dejima",
+    "question": "Why is the outline of an old island visible inside the modern city?",
+    "clue": "Look for the fan shape surrounded by today’s streets.",
+    "choices": [
+      "A bridge collapsed and left it stranded",
+      "The island drifted toward shore",
+      "Land reclamation filled in the water around it"
+    ],
+    "correct": 2,
+    "explanation": "Dejima was an artificial island used to control contact and trade with foreign merchants. As Nagasaki reclaimed land from the harbour, the island became part of the mainland street fabric.",
+    "url": "https://nagasakidejima.jp/english/history/",
+    "image": "/images/connections/time-nagasaki-modern.jpg",
+    "credit": "Keith Finch",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Edo-era_Dejima_within_modern_Nagasaki.jpg"
+  },
+  {
+    "city": "Gdańsk, Poland",
+    "name": "Granary Island",
+    "question": "Why did this waterfront island become a place to store grain?",
+    "clue": "Look at how closely the buildings face the water.",
+    "choices": [
+      "Bulk cargo could move between warehouses and boats",
+      "The grain had to be grown on the island",
+      "The island was the only place protected from wind"
+    ],
+    "correct": 0,
+    "explanation": "Gdańsk exported grain through its port. Warehouses on the Motława kept large stocks near the vessels that moved them. The photo shows later development on that historic site.",
+    "url": "https://gdansk.travel/en/attraction/granary-island-in-gdansk-532",
+    "image": "/images/connections/time-gdansk-modern.jpg",
+    "credit": "Silar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:02024_0178_Modern_architecture_of_the_Granaries_Island_in_Old_Town_of_Gdansk.jpg"
+  },
+  {
+    "city": "Suzhou, China",
+    "name": "Pingjiang Road",
+    "question": "Why do a street and a canal run side by side here?",
+    "clue": "Notice how buildings and crossings serve both the lane and the water.",
+    "choices": [
+      "The canal was an unused building trench",
+      "The neighbourhood developed around routes on foot and by boat",
+      "The canal was dug to keep pedestrians off the street"
+    ],
+    "correct": 1,
+    "explanation": "Suzhou’s historic neighbourhoods grew around parallel land and water routes. The canal provided a way to move by boat, while the street and bridges linked nearby buildings on foot.",
+    "url": "https://english.suzhou.gov.cn/szsenglish/sz4ajjq/201911/39c24a78b929414cb00a80f1ec75865f.shtml",
+    "image": "/images/connections/time-suzhou-modern.jpg",
+    "credit": "Windmemories",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:2017-04-16_Pingjianglu,_Suzhou.jpg"
+  },
+  {
+    "city": "Liverpool, England",
+    "name": "Royal Albert Dock",
+    "question": "Why build warehouses right at the edge of this dock?",
+    "clue": "The warehouse fronts rise straight above the basin.",
+    "choices": [
+      "To keep ships outside the port",
+      "To create a barrier against ocean waves",
+      "To unload goods straight from ships into storage"
+    ],
+    "correct": 2,
+    "explanation": "Ships could unload directly into the Albert Dock warehouses, reducing transfers on land. Brick, stone and iron also reduced the fire risk associated with timber construction.",
+    "url": "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/albert-warehouses-liverpool-albert-docks",
+    "image": "/images/connections/time-liverpool-modern.jpg",
+    "credit": "Flickr user: Gene Hunt",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:AlbertDock_Liverpool.jpg"
+  },
+  {
+    "city": "Mostar, Bosnia and Herzegovina",
+    "name": "Stari Most",
+    "question": "Why use one broad arch over this river?",
+    "clue": "Notice that the bridge meets the banks without a pier in the channel.",
+    "choices": [
+      "To cross the river without a support in the water",
+      "To hold water behind the bridge",
+      "To carry boats over the valley"
+    ],
+    "correct": 0,
+    "explanation": "The stone arch carries the crossing between the banks in a single span. The bridge joins the two sides of the old town over the deep Neretva channel.",
+    "url": "https://whc.unesco.org/en/list/946/",
+    "image": "/images/connections/time-mostar-modern.jpg",
+    "credit": "Ramirez",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Mostar_Old_Town_Panorama_2007.jpg"
+  },
+  {
+    "city": "Suwon, South Korea",
+    "name": "Janganmun gate",
+    "question": "Why put a substantial gate where a road passes through the city wall?",
+    "clue": "Look at the opening and the structure above it.",
+    "choices": [
+      "To keep the road open in every direction",
+      "To control access while keeping a route through the fortress",
+      "To carry water over the road"
+    ],
+    "correct": 1,
+    "explanation": "The fortress wall needed gateways for people and traffic. A defended gate let the city control entry at a point where the road interrupted the wall.",
+    "url": "https://whc.unesco.org/en/list/817/",
+    "image": "/images/connections/time-suwon-modern.jpg",
+    "credit": "d'n'c (a flickr user)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:Hwaseong.Fortress-Janganmun.01.jpg"
+  },
+  {
+    "city": "Hiroshima, Japan",
+    "name": "Atomic Bomb Dome",
+    "question": "Why preserve this damaged building in the centre of Hiroshima?",
+    "clue": "Look at the exposed frame and brickwork that survived.",
+    "choices": [
+      "To finish it later as an exhibition hall",
+      "To demonstrate a new type of construction",
+      "To keep a visible record of the bombing and its human cost"
+    ],
+    "correct": 2,
+    "explanation": "Hiroshima preserved the surviving structure as part of its peace memorial. The building’s condition makes the destruction visible and gives the surrounding memorial landscape a physical point of remembrance.",
+    "url": "https://whc.unesco.org/en/list/775/",
+    "image": "/images/connections/time-hiroshima-modern.jpg",
+    "credit": "Balon Greyjoy",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:20181111_Atomic_Bomb_Dome-5.jpg"
   }
 ]
