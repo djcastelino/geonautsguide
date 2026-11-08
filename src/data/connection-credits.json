@@ -2981,5 +2981,119 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Cidade_Velha_Pelourinho_square_b_2011.jpg",
     "description": "Cidade Velha"
+  },
+  "time-essen-archive": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Neptuul\" title=\"User:Neptuul\">Neptuul</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Zeche_Zollverein_-_Essen_-_letzter_Arbeitstag_23_12_1986.jpg",
+    "description": "File:Zeche Zollverein - Essen - letzter Arbeitstag 23 12 1986.jpg",
+    "archiveDate": "1986-12-23",
+    "archiveTitle": "File:Zeche Zollverein - Essen - letzter Arbeitstag 23 12 1986.jpg",
+    "imageDescription": "<a href=\"https://en.wikipedia.org/wiki/Zollverein_Coal_Mine_Industrial_Complex\" class=\"extiw\" title=\"en:Zollverein Coal Mine Industrial Complex\">Zeche Zollverein</a> - December 23, 1986: final working day - <a href=\"https://en.wikipedia.org/wiki/Essen\" class=\"extiw\" title=\"en:Essen\">Essen</a>, <a href=\"https://en.wikipedia.org/wiki/Germany\" class=\"extiw\" title=\"en:Germany\">Germany</a>"
+  },
+  "time-essen-modern": {
+    "Artist": "<b><a href=\"//commons.wikimedia.org/wiki/User:Der_Wolf_im_Wald\" title=\"User:Der Wolf im Wald\">Thomas Wolf</a></b>, <small><a rel=\"nofollow\" class=\"external text\" href=\"http://www.foto-tw.de\">www.foto-tw.de</a></small>",
+    "LicenseShortName": "CC BY-SA 3.0 de",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Zeche_Zollverein_abends.jpg",
+    "description": "Zollverein Coal Mine Industrial Complex"
+  },
+  "time-rjukan-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Anders_Beer_Wilse\" class=\"extiw\" title=\"w:en:Anders Beer Wilse\"><span title=\"Norwegian photographer (1865–1949)\">Anders Beer Wilse</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Rjukan_fabrikker_-_Norsk_Hydro.jpg",
+    "description": "File:Rjukan fabrikker - Norsk Hydro.jpg",
+    "archiveDate": "between 1900 and 1940<div style=\"display: none;\">date QS:P,+1950-00-00T00:00:00Z/7,P1319,+1900-00-00T00:00:00Z/9,P1326,+1940-00-00T00:00:00Z/9</div> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q109942864#P571\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+    "archiveTitle": "File:Rjukan fabrikker - Norsk Hydro.jpg",
+    "imageDescription": "Rjukan fabrikker tilhørende Norsk Hydro med elva i forgrunnen. Ukjent år for fotografering. Håndkolorert dias."
+  },
+  "time-rjukan-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lars-bh\" title=\"User:Lars-bh\">Lars Biørn-Hansen</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:S%C3%A5heim_Kraftstasjon.jpg",
+    "description": "File:Såheim Kraftstasjon.jpg"
+  },
+  "time-saltaire-archive": {
+    "Artist": "(signed) J. Dale &amp; Co. Bradford",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Salts_Mill,_drawing.jpg",
+    "description": "File:Salts Mill, drawing.jpg",
+    "archiveDate": "1800s<div style=\"display: none;\">date QS:P,+1800-00-00T00:00:00Z/8</div>",
+    "archiveTitle": "File:Salts Mill, drawing.jpg",
+    "imageDescription": "Salt's Mill, Saltaire, West Yorkshire, built 1868 and designed by Lockwood and Mawson."
+  },
+  "time-saltaire-modern": {
+    "Artist": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Jungpionier\" title=\"User:Jungpionier\">Jungpionier</a> assumed (based on copyright claims).",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Saltaire_Salts_Mill.jpg",
+    "description": "File:Saltaire Salts Mill.jpg"
+  },
+  "time-new-lanark-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Percy_Benzie_Abery\" class=\"extiw\" title=\"w:en:Percy Benzie Abery\"><span title=\"British photographer (1876–1948)\">Percy Benzie Abery</span></a></bdi>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Exert_from_the_Glasgow_Courier,_18th_March_1820,_of_an_address_to_Robert_Owen_from_the_inhabitants_of_New_Lanark_(1294481).jpg",
+    "description": "File:Exert from the Glasgow Courier, 18th March 1820, of an address to Robert Owen from the inhabitants of New Lanark (1294481).jpg",
+    "archiveDate": "1820 (original publication)",
+    "archiveTitle": "File:Exert from the Glasgow Courier, 18th March 1820, of an address to Robert Owen from the inhabitants of New Lanark (1294481).jpg",
+    "imageDescription": "<div class=\"description\">\nAbstract: Exert from the Glasgow Courier, 18th March 1820, of an address to Robert Owen from the inhabitants of New Lanark</div>"
+  },
+  "time-new-lanark-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/25413523@N08\">mrpbps</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Lanark_buildings_2009.jpg",
+    "description": "New Lanark"
+  },
+  "time-asmara-archive": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/45492098@N07\">John Brantley</a> from San Antonio",
+    "LicenseShortName": "CC BY-SA 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Asmara-1940-Radiomarina.jpg",
+    "description": "File:Asmara-1940-Radiomarina.jpg",
+    "archiveDate": "Late 1940s (original photograph)",
+    "archiveTitle": "File:Asmara-1940-Radiomarina.jpg",
+    "imageDescription": "Pictures taken while stationed at U.S. Army Kagnew Station, Asmara, late 1940s."
+  },
+  "time-asmara-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tigernssnowy7&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tigernssnowy7 (page does not exist)\">Tigernssnowy7</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Asmara_Montage.png",
+    "description": "Asmara"
+  },
+  "time-hue-archive": {
+    "Artist": "Unknown photographer",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:AP0032-Sallet_Hu%C3%A9,_1920_%E2%80%93_Palais_du_Co_Mat_%E2%80%93_Ecran_protecteur_(1).jpg",
+    "description": "File:AP0032-Sallet Hué, 1920 – Palais du Co Mat – Ecran protecteur (1).jpg",
+    "archiveDate": "1920",
+    "archiveTitle": "File:AP0032-Sallet Hué, 1920 – Palais du Co Mat – Ecran protecteur (1).jpg",
+    "imageDescription": "Titre : Hué, 1920 – Palais du Co Mat – Ecran protecteur (1)<br>\n<p>Notice : Carte postale de la deuxième série de la collection Morin frères portant le numéro MF 38. Sur cette collection, voir AP0028. Notule : Hué : la Citadelle La Citadelle de Hué est entourée d’un rempart de dix kilomètres de côté, ponctué de dix portes surmontées par des miradors et défendu par des fossés, des glacis et des bastions. Cette citadelle renferme la Cité Capitale (Kinh Thanh) qui était la capitale du royaume et le siège du pouvoir royal et de toute l’administration. Tout autour de la Cité Impériale et de la Cité Interdite enfermées derrière leurs hauts murs, s’étendait une véritable ville abritant les administrations, les sièges des six ministères et des conseils du gouvernement, ainsi que des casernes, des magasins de riz, une fabrique de sapèques, des palais princiers, des temples, le Camp des Lettrés ainsi que des demeures de mandarins. (Comité de Rédaction) Notule : Le Co Mat ou Conseil Secret Le Pavillon du Co Mât, Conseil Secret, était situé dans l’allée des Ministères, à l’intérieur de la citadelle de Hué. Il a été construit, ainsi que les délégations qui l’entourent, sous le règne de Thanh Thai. Les membres du Conseil secret s’y réunissaient régulièrement en présence de l’empereur. Pendant la période coloniale, les réunions du Conseil Secret, présidées par le résident supérieur en Annam, se tenaient deux fois par semaine pour délibérer des affaires publiques. Le palais est situé au centre d’une enceinte en maçonnerie ouverte, à l’Est et à l’Ouest par deux portes monumentales. L’entrée principale, à l’Est (voir AP2472), est un portique à trois ouvertures, surmonté par un petit pavillon. La porte ouest, plus modeste, ne comporte qu’une seule ouverture (voir AP1172). Entre l’entrée principale et le pavillon du Co Mat se dresse un imposant écran en maçonnerie pour protéger le bâtiment des influences maléfiques (voir AP1124). Il a la forme d’un rouleau qui se déroule autour de deux pinceaux et est orné en son centre du caractère Tho de la longévité, comme le précise la mention manuscrite portée au verso de la carte. Les animaux symboliques, licornes, phénix, dragons et chauves-souris décorent les côtés et le faîtage (voir AP2473). Le palais du Co Mat lui-même est un petit bâtiment entouré d’une véranda à ouvertures cintrées et surmonté d’un étage en retrait (voir AP1181). Plus tard, un petit portique supporté par de fines colonettes jumelées a été ajouté au dessus de l’escalier d’accès (voir AP1173). (Comité de Rédaction) Sur les bâtiments de la Ville Impériale, voir AP1923. Sur l’art décoratif annamite, voir AP0582.<br>\n</p>\nMots Clefs : Annam Thua Thien Hué 1920 Carte postale Citadelle – Conseil secret – Co Mat Motif décoratif – Ecran"
+  },
+  "time-hue-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:NguyenThanhBac123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:NguyenThanhBac123 (page does not exist)\">NguyenThanhBac123</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:%C4%90%E1%BA%A1i_n%E1%BB%99i.jpg",
+    "description": "Imperial City of Huế"
   }
 }

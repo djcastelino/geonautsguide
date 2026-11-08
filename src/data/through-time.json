@@ -2668,5 +2668,287 @@
     "modernImage": "time-cidade-velha-modern",
     "modernCredit": "time-cidade-velha-modern",
     "modernPath": "/images/connections/time-cidade-velha-modern.jpg"
+  },
+  {
+    "id": "essen",
+    "name": "Essen",
+    "country": "Germany",
+    "title": "The last shift at Zollverein.",
+    "deck": "A photograph from the mine’s final working day anchors the story of its reuse.",
+    "archiveDate": "23 December 1986",
+    "archiveTitle": "Zollverein on its last working day",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The former Zollverein coal mine complex",
+    "changed": "Coal extraction ended and the complex took on cultural and educational uses.",
+    "persisted": "The shafts and industrial buildings still show how the mine was organized.",
+    "notice": "The two views show different stages in the life of the same industrial complex.",
+    "sources": [
+      {
+        "name": "UNESCO · Essen",
+        "url": "https://whc.unesco.org/en/list/975/"
+      }
+    ],
+    "eras": [
+      [
+        "Nineteenth century",
+        "Mining grows in the Ruhr",
+        "Coal mining shaped the economy and settlement of Essen."
+      ],
+      [
+        "Twentieth century",
+        "Industry designed at scale",
+        "Zollverein’s shafts and processing buildings formed an integrated industrial complex."
+      ],
+      [
+        "1986",
+        "The last shift",
+        "Mining ended at Zollverein in December 1986."
+      ],
+      [
+        "Present day",
+        "Industry interpreted",
+        "The surviving complex provides space for museums and cultural activity."
+      ]
+    ],
+    "archiveImage": "time-essen-archive",
+    "archivePath": "/images/connections/time-essen-archive.jpg",
+    "modernImage": "time-essen-modern",
+    "modernCredit": "time-essen-modern",
+    "modernPath": "/images/connections/time-essen-modern.jpg"
+  },
+  {
+    "id": "rjukan",
+    "name": "Rjukan",
+    "country": "Norway",
+    "title": "A factory town powered by water.",
+    "deck": "Industrial buildings and a hydroelectric station show how a steep valley became a manufacturing centre.",
+    "archiveDate": "1900–1940",
+    "archiveTitle": "Norsk Hydro’s Rjukan factories",
+    "archiveType": "Historical colour view",
+    "modernTitle": "Såheim hydroelectric power station",
+    "changed": "Hydroelectricity enabled industrial fertilizer production and the development of a company town.",
+    "persisted": "The power station and factory landscape still show how water and industry fit together.",
+    "notice": "The images show different parts of the same industrial system.",
+    "sources": [
+      {
+        "name": "UNESCO · Rjukan",
+        "url": "https://whc.unesco.org/en/list/1486/"
+      }
+    ],
+    "eras": [
+      [
+        "Before industrialization",
+        "Power in the valley",
+        "The steep terrain and water resources offered potential for hydroelectric generation."
+      ],
+      [
+        "Early twentieth century",
+        "Power becomes production",
+        "Norsk Hydro developed power stations and factories to make fertilizer."
+      ],
+      [
+        "Company town",
+        "Housing follows industry",
+        "Housing and services grew around the needs of workers and their families."
+      ],
+      [
+        "Present day",
+        "An industrial landscape survives",
+        "The stations, factories, and town remain evidence of how electricity reshaped the valley."
+      ]
+    ],
+    "archiveImage": "time-rjukan-archive",
+    "archivePath": "/images/connections/time-rjukan-archive.jpg",
+    "modernImage": "time-rjukan-modern",
+    "modernCredit": "time-rjukan-modern",
+    "modernPath": "/images/connections/time-rjukan-modern.jpg"
+  },
+  {
+    "id": "saltaire",
+    "name": "Saltaire",
+    "country": "United Kingdom",
+    "title": "A mill and a village built together.",
+    "deck": "A drawing of Salts Mill and a modern photograph introduce the planned community that grew around textile work.",
+    "archiveDate": "Nineteenth century",
+    "archiveTitle": "An early drawing of Salts Mill",
+    "archiveType": "Historical illustration",
+    "modernTitle": "Salts Mill in modern Saltaire",
+    "changed": "A textile mill and planned village took shape together. The mill later found new uses.",
+    "persisted": "The mill and nearby housing still show the relationship between employment and daily life.",
+    "notice": "Compare the mill’s footprint and massing across the two views.",
+    "sources": [
+      {
+        "name": "UNESCO · Saltaire",
+        "url": "https://whc.unesco.org/en/list/1028/"
+      }
+    ],
+    "eras": [
+      [
+        "Mid-nineteenth century",
+        "A new mill",
+        "Titus Salt established a large textile mill by the River Aire."
+      ],
+      [
+        "The village grows",
+        "Homes near work",
+        "Housing and public buildings formed a planned settlement around the mill."
+      ],
+      [
+        "Industrial decline",
+        "Production ends",
+        "Textile production eventually ceased and the mill became available for reuse."
+      ],
+      [
+        "Present day",
+        "A mill with a different purpose",
+        "The building houses new activities within the surviving planned village."
+      ]
+    ],
+    "archiveImage": "time-saltaire-archive",
+    "archivePath": "/images/connections/time-saltaire-archive.jpg",
+    "modernImage": "time-saltaire-modern",
+    "modernCredit": "time-saltaire-modern",
+    "modernPath": "/images/connections/time-saltaire-modern.jpg"
+  },
+  {
+    "id": "new-lanark",
+    "name": "New Lanark",
+    "country": "United Kingdom",
+    "title": "What a mill village owed its workers.",
+    "deck": "An 1820 printed address and a view of the village connect textile production with experiments in education and welfare.",
+    "archiveDate": "1820",
+    "archiveTitle": "Address to Robert Owen printed in the Glasgow Courier",
+    "archiveType": "Archival reproduction of an 1820 newspaper extract",
+    "modernTitle": "The mill village of New Lanark",
+    "changed": "Under Robert Owen, the village became known for reforms in education and living conditions.",
+    "persisted": "The mills, housing, and community buildings preserve the setting in which those reforms took place.",
+    "notice": "The archive is a document from the community, while the photograph shows the buildings that framed daily life.",
+    "sources": [
+      {
+        "name": "UNESCO · New Lanark",
+        "url": "https://whc.unesco.org/en/list/429/"
+      }
+    ],
+    "eras": [
+      [
+        "Late eighteenth century",
+        "A mill village on the Clyde",
+        "Water power supported cotton manufacturing in a purpose-built settlement."
+      ],
+      [
+        "Early nineteenth century",
+        "Reform alongside production",
+        "Robert Owen developed educational and social programs in the village."
+      ],
+      [
+        "1820",
+        "Residents address Owen",
+        "The published address records a moment in the relationship between residents and the manager."
+      ],
+      [
+        "Present day",
+        "A village that tells a labor story",
+        "The preserved buildings let visitors connect production, housing, and education."
+      ]
+    ],
+    "archiveImage": "time-new-lanark-archive",
+    "archivePath": "/images/connections/time-new-lanark-archive.jpg",
+    "modernImage": "time-new-lanark-modern",
+    "modernCredit": "time-new-lanark-modern",
+    "modernPath": "/images/connections/time-new-lanark-modern.jpg"
+  },
+  {
+    "id": "asmara",
+    "name": "Asmara",
+    "country": "Eritrea",
+    "title": "A colonial plan becomes a capital’s fabric.",
+    "deck": "An archive photograph and a modern city view trace the architectural legacy of Italian colonial rule.",
+    "archiveDate": "Late 1940s",
+    "archiveTitle": "A mosque and street scene in Asmara",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Views of modern Asmara",
+    "changed": "Italian colonial planning transformed Asmara, including through racial segregation.",
+    "persisted": "Modernist buildings remain within the capital of independent Eritrea.",
+    "notice": "The views record different parts of the city. Read the architecture alongside the political history that produced it.",
+    "sources": [
+      {
+        "name": "UNESCO · Asmara",
+        "url": "https://whc.unesco.org/en/list/1550/"
+      }
+    ],
+    "eras": [
+      [
+        "Colonial period",
+        "A city reshaped",
+        "Italian rule brought new plans, institutions, and construction."
+      ],
+      [
+        "1930s–1940s",
+        "Modernist forms",
+        "New buildings used architectural forms associated with the period."
+      ],
+      [
+        "Independence",
+        "A capital takes on a new role",
+        "Asmara became the capital of independent Eritrea."
+      ],
+      [
+        "Present day",
+        "A layered architectural inheritance",
+        "The surviving cityscape preserves evidence of colonial planning and later use."
+      ]
+    ],
+    "archiveImage": "time-asmara-archive",
+    "archivePath": "/images/connections/time-asmara-archive.jpg",
+    "modernImage": "time-asmara-modern",
+    "modernCredit": "time-asmara-modern",
+    "modernPath": "/images/connections/time-asmara-modern.jpg"
+  },
+  {
+    "id": "hue",
+    "name": "Hué",
+    "country": "Vietnam",
+    "title": "The buildings that held an imperial court.",
+    "deck": "A 1920 palace photograph and a later citadel view trace the capital built by the Nguyễn dynasty.",
+    "archiveDate": "1920",
+    "archiveTitle": "Screen at the Cơ Mật palace in Hué",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Imperial City of Hué",
+    "changed": "The imperial capital lost its court function and suffered wartime damage. Conservation has restored parts of the complex.",
+    "persisted": "The citadel and its buildings still express the organization of imperial Hué.",
+    "notice": "The historical photograph shows a palace detail. The modern view places the imperial architecture in its larger setting.",
+    "sources": [
+      {
+        "name": "UNESCO · Hué",
+        "url": "https://whc.unesco.org/en/list/678/"
+      }
+    ],
+    "eras": [
+      [
+        "1802",
+        "A dynasty establishes its capital",
+        "The Nguyễn dynasty made Hué the capital of a unified Vietnam."
+      ],
+      [
+        "Nineteenth century",
+        "A court in layers",
+        "Fortifications, gates, palaces, and ritual spaces organized the imperial centre."
+      ],
+      [
+        "Twentieth century",
+        "Political change and damage",
+        "The monarchy ended and conflict damaged parts of the complex."
+      ],
+      [
+        "Present day",
+        "Conserving the imperial fabric",
+        "Restoration and surviving buildings help visitors read how the court worked."
+      ]
+    ],
+    "archiveImage": "time-hue-archive",
+    "archivePath": "/images/connections/time-hue-archive.jpg",
+    "modernImage": "time-hue-modern",
+    "modernCredit": "time-hue-modern",
+    "modernPath": "/images/connections/time-hue-modern.jpg"
   }
 ]
