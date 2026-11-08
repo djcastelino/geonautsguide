@@ -3894,5 +3894,475 @@
     "modernImage": "time-chicago-modern",
     "modernCredit": "time-chicago-modern",
     "modernPath": "/images/connections/time-chicago-modern.jpg"
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "title": "The arch that joined the harbor.",
+    "deck": "A construction photograph shows the steel crossing before it became part of Sydney’s everyday skyline.",
+    "archiveDate": "c. 1930",
+    "archiveTitle": "Sydney Harbour Bridge under construction",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The completed Sydney Harbour Bridge",
+    "changed": "A fixed crossing carried road and rail traffic between the city and the North Shore.",
+    "persisted": "The harbor still defines the route and the bridge’s profile.",
+    "notice": "Compare the incomplete steelwork with the finished arch.",
+    "sources": [
+      {
+        "name": "Sydney · historical context",
+        "url": "https://www.transport.nsw.gov.au/system/files/media/documents/2023/harbour-bridge-history.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "Before the bridge",
+        "A harbor crossed by ferry",
+        "Ferries provided a connection between the city and the North Shore."
+      ],
+      [
+        "1920s",
+        "Approaches take shape",
+        "Construction transformed land on either side of the harbor to connect the bridge with streets and railways."
+      ],
+      [
+        "1932",
+        "The crossing opens",
+        "The bridge opened to traffic, adding a fixed route across the water."
+      ],
+      [
+        "Present day",
+        "Infrastructure becomes a landmark",
+        "The arch remains a working crossing and a recognizable part of the city."
+      ]
+    ],
+    "archiveImage": "time-sydney-archive",
+    "archivePath": "/images/connections/time-sydney-archive.jpg",
+    "modernImage": "time-sydney-modern",
+    "modernCredit": "time-sydney-modern",
+    "modernPath": "/images/connections/time-sydney-modern.jpg"
+  },
+  {
+    "id": "nagasaki",
+    "name": "Nagasaki",
+    "country": "Japan",
+    "title": "An island within the city.",
+    "deck": "A plan of Dejima and a later aerial view reveal how a trading island became enclosed by land.",
+    "archiveDate": "1824–1825",
+    "archiveTitle": "Plan of Dejima",
+    "archiveType": "Historical map",
+    "modernTitle": "Dejima’s former outline marked on a modern aerial image",
+    "changed": "Reclamation surrounded the former island, and later restoration recovered part of the trading compound.",
+    "persisted": "Its distinctive fan-shaped outline remains legible.",
+    "notice": "Follow the perimeter in both views. The modern shoreline lies beyond the old island.",
+    "sources": [
+      {
+        "name": "Nagasaki · historical context",
+        "url": "https://nagasakidejima.jp/english/history/"
+      }
+    ],
+    "eras": [
+      [
+        "1636",
+        "A trading island built",
+        "Authorities built an artificial island to concentrate foreign trade."
+      ],
+      [
+        "1641",
+        "Dutch traders move to Dejima",
+        "The Dutch trading post moved to the island, where activity was closely regulated."
+      ],
+      [
+        "Later development",
+        "The shore moves outward",
+        "Reclamation connected the former island with the surrounding city."
+      ],
+      [
+        "Present day",
+        "A compound reconstructed",
+        "Restored buildings and the island outline help explain the geography of the trading post."
+      ]
+    ],
+    "archiveImage": "time-nagasaki-archive",
+    "archivePath": "/images/connections/time-nagasaki-archive.jpg",
+    "modernImage": "time-nagasaki-modern",
+    "modernCredit": "time-nagasaki-modern",
+    "modernPath": "/images/connections/time-nagasaki-modern.jpg"
+  },
+  {
+    "id": "gdansk",
+    "name": "Gdańsk",
+    "country": "Poland",
+    "title": "A warehouse island rebuilt.",
+    "deck": "A photograph of wartime ruins and a later view trace the return of building to Granary Island.",
+    "archiveDate": "1945",
+    "archiveTitle": "Ruins of Granary Island across the Motława",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Granary Island on the Motława",
+    "changed": "Wartime destruction left much of the island in ruins. Later development returned buildings and public activity to the waterfront.",
+    "persisted": "The water and narrow waterfront plots still recall its role in trade.",
+    "notice": "Look across the river toward the island in both views.",
+    "sources": [
+      {
+        "name": "Gdańsk · historical context",
+        "url": "https://gdansk.travel/en/attraction/granary-island-in-gdansk-532"
+      }
+    ],
+    "eras": [
+      [
+        "Trading era",
+        "Warehouses on the water",
+        "Granaries stored goods near ships and the merchant city."
+      ],
+      [
+        "1945",
+        "The waterfront in ruins",
+        "The archive shows damaged buildings after the war."
+      ],
+      [
+        "Later decades",
+        "An uneven recovery",
+        "Ruins remained visible long after rebuilding began elsewhere."
+      ],
+      [
+        "Present day",
+        "The island takes on new uses",
+        "New buildings and public spaces occupy land once used for storage."
+      ]
+    ],
+    "archiveImage": "time-gdansk-archive",
+    "archivePath": "/images/connections/time-gdansk-archive.jpg",
+    "modernImage": "time-gdansk-modern",
+    "modernCredit": "time-gdansk-modern",
+    "modernPath": "/images/connections/time-gdansk-modern.jpg"
+  },
+  {
+    "id": "montreal",
+    "name": "Montréal",
+    "country": "Canada",
+    "title": "The port moves, the waterfront opens.",
+    "deck": "Two waterfront views show how a working harbor became a place people visit on foot.",
+    "archiveDate": "1906",
+    "archiveTitle": "Montréal harbor seen from the Grand Trunk Railway elevator",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Old Port of Montréal",
+    "changed": "Port operations moved away from the old central quays as shipping needs changed. The quays gained public uses.",
+    "persisted": "The river and the line of the old port still shape Old Montréal.",
+    "notice": "Look for the relationship between the older city and its quays.",
+    "sources": [
+      {
+        "name": "Montréal · historical context",
+        "url": "https://www.oldportofmontreal.com/history-old-port"
+      }
+    ],
+    "eras": [
+      [
+        "Historic Montréal",
+        "A city beside the St. Lawrence",
+        "River trade helped make the waterfront an economic centre."
+      ],
+      [
+        "1906",
+        "A busy working harbor",
+        "The archive shows a port built around freight and ships."
+      ],
+      [
+        "Twentieth century",
+        "Shipping changes",
+        "Larger facilities elsewhere took on work once handled at the old quays."
+      ],
+      [
+        "Present day",
+        "Quays open to the public",
+        "Paths and public activities now occupy much of the former working waterfront."
+      ]
+    ],
+    "archiveImage": "time-montreal-archive",
+    "archivePath": "/images/connections/time-montreal-archive.jpg",
+    "modernImage": "time-montreal-modern",
+    "modernCredit": "time-montreal-modern",
+    "modernPath": "/images/connections/time-montreal-modern.jpg"
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "country": "Canada",
+    "title": "A city photographed before the fire.",
+    "deck": "An 1886 panorama and a later Gastown view trace the recovery of Vancouver’s early centre.",
+    "archiveDate": "1886",
+    "archiveTitle": "Vancouver before the Great Fire",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Gastown in modern Vancouver",
+    "changed": "The 1886 fire destroyed much of the young city. Rebuilding brought a new generation of buildings.",
+    "persisted": "Gastown still marks a part of the early commercial centre.",
+    "notice": "The views show different scales. The panorama records a young settlement, while the later photograph focuses on a street.",
+    "sources": [
+      {
+        "name": "Vancouver · historical context",
+        "url": "https://archives.vancouver.ca/projects/EarlyVan/SearchEarlyVan/Vol2pdf/MatthewsEarlyVancouverVol2_TheGreatFire13June1886.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "Before incorporation",
+        "A settlement by the inlet",
+        "The commercial settlement grew on lands long inhabited by Indigenous peoples."
+      ],
+      [
+        "1886",
+        "The early city photographed",
+        "The archive records the city shortly before the fire."
+      ],
+      [
+        "13 June 1886",
+        "Fire sweeps through",
+        "Much of the built settlement was destroyed."
+      ],
+      [
+        "Present day",
+        "The rebuilt city in layers",
+        "Gastown retains streets and buildings from later phases of the commercial centre."
+      ]
+    ],
+    "archiveImage": "time-vancouver-archive",
+    "archivePath": "/images/connections/time-vancouver-archive.jpg",
+    "modernImage": "time-vancouver-modern",
+    "modernCredit": "time-vancouver-modern",
+    "modernPath": "/images/connections/time-vancouver-modern.jpg"
+  },
+  {
+    "id": "auckland",
+    "name": "Auckland",
+    "country": "New Zealand",
+    "title": "The shoreline beneath downtown.",
+    "deck": "An early harbor map and a later waterfront view show a city that extended its shore.",
+    "archiveDate": "1841",
+    "archiveTitle": "Map of Auckland’s harbor and early streets",
+    "archiveType": "Historical map",
+    "modernTitle": "Auckland’s modern waterfront",
+    "changed": "Reclamation pushed parts of the waterfront beyond the original shoreline.",
+    "persisted": "The Waitematā Harbour still frames the city.",
+    "notice": "Read the old shore as a clue to why some downtown streets lie inland from today’s wharves.",
+    "sources": [
+      {
+        "name": "Auckland · historical context",
+        "url": "https://www.aucklandcouncil.govt.nz/arts-culture-heritage/heritage-walks-places/Documents/auckland-city-heritage-walks-original-shoreline.pdf"
+      }
+    ],
+    "eras": [
+      [
+        "Before the colonial town",
+        "A Māori harbor landscape",
+        "The harbor and surrounding land were already places of settlement and movement."
+      ],
+      [
+        "1841",
+        "An early colonial view",
+        "The map shows the relationship between the young town and the harbor."
+      ],
+      [
+        "Later nineteenth century",
+        "Land built outward",
+        "Reclamation added space for streets, wharves, and commerce."
+      ],
+      [
+        "Present day",
+        "The earlier coast in the street plan",
+        "Part of the former shoreline can be traced through the modern centre."
+      ]
+    ],
+    "archiveImage": "time-auckland-archive",
+    "archivePath": "/images/connections/time-auckland-archive.jpg",
+    "modernImage": "time-auckland-modern",
+    "modernCredit": "time-auckland-modern",
+    "modernPath": "/images/connections/time-auckland-modern.jpg"
+  },
+  {
+    "id": "osaka",
+    "name": "Osaka",
+    "country": "Japan",
+    "title": "A castle keep built again.",
+    "deck": "A construction photograph and a later view distinguish the modern tower from the older fortifications around it.",
+    "archiveDate": "1931",
+    "archiveTitle": "Osaka Castle keep under reconstruction",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The reconstructed keep of Osaka Castle",
+    "changed": "The current keep was built in 1931 on a site with several earlier castle phases.",
+    "persisted": "Moats and stone walls still show the scale of the fortified complex.",
+    "notice": "Look at the tower in both views. The surrounding stonework belongs to a longer building history.",
+    "sources": [
+      {
+        "name": "Osaka · historical context",
+        "url": "https://www.osaka-info.jp/en/spot/osaka-castle-main-keep/"
+      }
+    ],
+    "eras": [
+      [
+        "Late sixteenth century",
+        "A castle for Hideyoshi",
+        "Toyotomi Hideyoshi began building a major stronghold at Osaka."
+      ],
+      [
+        "Seventeenth century",
+        "A different castle phase",
+        "The Tokugawa rebuilt the complex after the fall of the Toyotomi."
+      ],
+      [
+        "1931",
+        "A keep reconstructed",
+        "The modern tower recreated the visual role of a keep within the older enclosure."
+      ],
+      [
+        "Present day",
+        "A museum above the walls",
+        "The tower interprets the castle’s history within a public park."
+      ]
+    ],
+    "archiveImage": "time-osaka-archive",
+    "archivePath": "/images/connections/time-osaka-archive.jpg",
+    "modernImage": "time-osaka-modern",
+    "modernCredit": "time-osaka-modern",
+    "modernPath": "/images/connections/time-osaka-modern.jpg"
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna",
+    "country": "Austria",
+    "title": "An opera house rises on the Ring.",
+    "deck": "A construction photograph and a later street view trace Vienna’s transformation from a walled city to a capital with a monumental boulevard.",
+    "archiveDate": "1865",
+    "archiveTitle": "Vienna State Opera under construction",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Vienna State Opera on the Ringstrasse",
+    "changed": "A boulevard and public buildings took the place of former defensive works and open ground around the centre.",
+    "persisted": "The Ringstrasse still marks the edge of the older core.",
+    "notice": "Compare the building under construction with the completed façade.",
+    "sources": [
+      {
+        "name": "Vienna · historical context",
+        "url": "https://www.wien.info/en/art-culture/architecture/ringstrasse-356762"
+      }
+    ],
+    "eras": [
+      [
+        "Before the Ring",
+        "A fortified centre",
+        "Walls and open land separated the old city from its suburbs."
+      ],
+      [
+        "1857",
+        "The boulevard authorized",
+        "Emperor Franz Joseph ordered the removal of the fortifications and the development of the ring."
+      ],
+      [
+        "1865–1869",
+        "The opera takes shape",
+        "The archive shows work on the opera house, which opened in 1869."
+      ],
+      [
+        "Present day",
+        "A civic route remains",
+        "The opera and other public buildings continue to define the boulevard."
+      ]
+    ],
+    "archiveImage": "time-vienna-archive",
+    "archivePath": "/images/connections/time-vienna-archive.jpg",
+    "modernImage": "time-vienna-modern",
+    "modernCredit": "time-vienna-modern",
+    "modernPath": "/images/connections/time-vienna-modern.jpg"
+  },
+  {
+    "id": "san-juan",
+    "name": "San Juan",
+    "country": "Puerto Rico",
+    "title": "A harbor behind walls.",
+    "deck": "A nineteenth-century harbor plan and a later view show the defenses that shaped Old San Juan.",
+    "archiveDate": "1894",
+    "archiveTitle": "Plan of San Juan harbor and its works",
+    "archiveType": "Historical map",
+    "modernTitle": "Old San Juan and its fortifications",
+    "changed": "The port and military works evolved as shipping, defense, and political control changed.",
+    "persisted": "The walls, headlands, and harbor entrance still explain why the city was fortified.",
+    "notice": "Use the map to locate the harbor entrance, then look for the relationship between defenses and water.",
+    "sources": [
+      {
+        "name": "San Juan · historical context",
+        "url": "https://whc.unesco.org/en/list/266/"
+      }
+    ],
+    "eras": [
+      [
+        "Spanish colonial era",
+        "A strategic port",
+        "San Juan developed around a harbor important to Atlantic navigation."
+      ],
+      [
+        "Fortification",
+        "Defending the approaches",
+        "Forts and walls guarded the harbor and the city."
+      ],
+      [
+        "1894",
+        "Harbor works mapped",
+        "The plan records a late nineteenth-century stage in the development of the port."
+      ],
+      [
+        "Present day",
+        "The defenses in the cityscape",
+        "Surviving works make the relationship between harbor and settlement visible."
+      ]
+    ],
+    "archiveImage": "time-san-juan-archive",
+    "archivePath": "/images/connections/time-san-juan-archive.jpg",
+    "modernImage": "why-san-juan",
+    "modernCredit": "why-san-juan",
+    "modernPath": "/images/connections/why-san-juan.jpg"
+  },
+  {
+    "id": "bath",
+    "name": "Bath",
+    "country": "United Kingdom",
+    "title": "A crescent frames the landscape.",
+    "deck": "An eighteenth-century print and a modern photograph show how Bath’s Georgian expansion used architecture to shape views.",
+    "archiveDate": "1780",
+    "archiveTitle": "Thomas Malton’s view of the Royal Crescent",
+    "archiveType": "Historical print",
+    "modernTitle": "The Royal Crescent in Bath",
+    "changed": "Georgian development extended Bath with planned terraces, squares, and crescents.",
+    "persisted": "The curve and open lawn still connect the buildings with their setting.",
+    "notice": "Follow the long curve in the print and look at how the façade meets the open lawn in the photograph.",
+    "sources": [
+      {
+        "name": "Bath · historical context",
+        "url": "https://whc.unesco.org/en/list/428/"
+      }
+    ],
+    "eras": [
+      [
+        "Before Georgian expansion",
+        "A town around hot springs",
+        "Bath’s springs shaped its long history as a place for bathing."
+      ],
+      [
+        "Eighteenth century",
+        "A spa town expands",
+        "Builders laid out new streets and terraces as the city grew."
+      ],
+      [
+        "1780",
+        "The crescent pictured",
+        "The print shows how a long curved façade frames open land."
+      ],
+      [
+        "Present day",
+        "The relationship survives",
+        "The buildings and lawn still make that design visible."
+      ]
+    ],
+    "archiveImage": "time-bath-archive",
+    "archivePath": "/images/connections/time-bath-archive.jpg",
+    "modernImage": "time-bath-modern",
+    "modernCredit": "time-bath-modern",
+    "modernPath": "/images/connections/time-bath-modern.jpg"
   }
 ]
