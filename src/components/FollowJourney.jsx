@@ -12,24 +12,27 @@ const landPath = land.features.flatMap(({ geometry }) =>
 )).join(' ');
 
 function RouteMap({ stops, active }) {
-  const xs = stops.map(([, lon]) => lon);
+  const longitudes = stops.map(([, lon]) => lon);
+  const crossesDateLine = Math.max(...longitudes) - Math.min(...longitudes) > 180;
+  const xs = longitudes.map(lon => crossesDateLine && lon < 0 ? lon + 360 : lon);
   const ys = stops.map(([, , lat]) => -lat);
   const left = Math.min(...xs), right = Math.max(...xs);
   const top = Math.min(...ys), bottom = Math.max(...ys);
   const width = Math.max(right - left, (bottom - top) * 1.7, 0.35) * 1.35;
   const height = width / 1.7;
   const viewBox = [((left + right) - width) / 2, ((top + bottom) - height) / 2, width, height];
-  const points = stops.map(([, lon, lat]) => `${lon},${-lat}`);
+  const points = stops.map(([, , lat], index) => `${xs[index]},${-lat}`);
   const radius = width / 55;
 
   return <figure className="fj-map">
     <svg viewBox={viewBox.join(' ')} role="img" aria-label={`Schematic route through ${stops.map(([place]) => place).join(', ')}`}>
       <path d={landPath} fill="#456153" fillRule="evenodd"/>
+      {crossesDateLine && <path d={landPath} transform="translate(360 0)" fill="#456153" fillRule="evenodd"/>}
       <polyline points={points.join(' ')} fill="none" stroke="#a2af93" strokeDasharray="4 5" strokeWidth="1.5" vectorEffect="non-scaling-stroke"/>
       <polyline points={points.slice(0, active + 1).join(' ')} fill="none" stroke="#dfeb99" strokeWidth="2" vectorEffect="non-scaling-stroke"/>
-      {stops.map(([place, lon, lat], index) => <g key={place}>
-        <circle cx={lon} cy={-lat} r={radius} fill={index === active ? '#dfeb99' : '#223a31'} stroke="#dfeb99" strokeWidth="1" vectorEffect="non-scaling-stroke"/>
-        <text x={lon} y={-lat} dy=".35em" textAnchor="middle" fontSize={radius * 1.2} fill={index === active ? '#223a31' : '#fff'}>{index + 1}</text>
+      {stops.map(([place, , lat], index) => <g key={place}>
+        <circle cx={xs[index]} cy={-lat} r={radius} fill={index === active ? '#dfeb99' : '#223a31'} stroke="#dfeb99" strokeWidth="1" vectorEffect="non-scaling-stroke"/>
+        <text x={xs[index]} y={-lat} dy=".35em" textAnchor="middle" fontSize={radius * 1.2} fill={index === active ? '#223a31' : '#fff'}>{index + 1}</text>
       </g>)}
     </svg>
     <figcaption>Selected stops · Schematic route · <a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a></figcaption>
