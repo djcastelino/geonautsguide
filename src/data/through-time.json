@@ -3420,5 +3420,479 @@
     "modernImage": "time-udaipur-modern",
     "modernCredit": "time-udaipur-modern",
     "modernPath": "/images/connections/time-udaipur-modern.jpg"
+  },
+  {
+    "id": "bucharest",
+    "name": "Bucharest",
+    "country": "Romania",
+    "title": "A neighborhood erased from the map.",
+    "deck": "An interwar map records the Uranus neighborhood before clearance for Bucharest’s civic centre.",
+    "archiveDate": "Interwar period",
+    "archiveTitle": "The Uranus street network on an interwar map",
+    "archiveType": "Historical map detail",
+    "modernTitle": "Central Bucharest in a later panorama",
+    "changed": "Large-scale demolition made way for a monumental civic centre in the 1980s.",
+    "persisted": "The old map preserves the street pattern of the displaced neighborhood.",
+    "notice": "The map shows streets that were cleared. The photograph shows a different part of central Bucharest.",
+    "sources": [
+      {
+        "name": "Romanian Chamber of Deputies · Uranus and Spirea Hill",
+        "url": "https://cic.cdep.ro/en/prezentare/istoric"
+      }
+    ],
+    "eras": [
+      [
+        "Interwar years",
+        "A neighborhood on paper",
+        "The map records streets and blocks in the Uranus area."
+      ],
+      [
+        "1980s",
+        "Demolition reshapes the centre",
+        "Many streets disappeared as the civic centre project cleared land."
+      ],
+      [
+        "Late twentieth century",
+        "A new centre of power",
+        "The massive palace and its approaches replaced part of the former neighborhood."
+      ],
+      [
+        "Present day",
+        "An older city in the archive",
+        "The map makes the scale of the change visible."
+      ]
+    ],
+    "archiveImage": "time-bucharest-archive",
+    "archivePath": "/images/connections/time-bucharest-archive.jpg",
+    "modernImage": "time-bucharest-modern",
+    "modernCredit": "time-bucharest-modern",
+    "modernPath": "/images/connections/time-bucharest-modern.jpg"
+  },
+  {
+    "id": "dubrovnik",
+    "name": "Dubrovnik",
+    "country": "Croatia",
+    "title": "A walled city repaired.",
+    "deck": "An early image and a later view trace the survival of a fortified Adriatic city through war and restoration.",
+    "archiveDate": "1904",
+    "archiveTitle": "Dubrovnik on a postcard from 1904",
+    "archiveType": "Historical postcard",
+    "modernTitle": "The walled old town of Dubrovnik",
+    "changed": "Shelling damaged buildings and roofs in the 1990s. Restoration followed.",
+    "persisted": "The walls and tightly packed streets still define the old town.",
+    "notice": "The postcard shows a street inside the walls. The later aerial view shows the old town’s enclosure and dense rooftops.",
+    "sources": [
+      {
+        "name": "Dubrovnik · historical context",
+        "url": "https://whc.unesco.org/en/list/95/"
+      }
+    ],
+    "eras": [
+      [
+        "Historic Ragusa",
+        "A maritime city",
+        "Trade shaped the port and its fortified urban centre."
+      ],
+      [
+        "1904",
+        "The city pictured",
+        "The historical image records Dubrovnik before the conflicts of the twentieth century."
+      ],
+      [
+        "1990s",
+        "Damage to the old town",
+        "Shelling during the war damaged the historic fabric."
+      ],
+      [
+        "Present day",
+        "Repair within the walls",
+        "Restoration returned damaged structures to use within the older street pattern."
+      ]
+    ],
+    "archiveImage": "time-dubrovnik-archive",
+    "archivePath": "/images/connections/time-dubrovnik-archive.jpg",
+    "modernImage": "why-dubrovnik",
+    "modernCredit": "why-dubrovnik",
+    "modernPath": "/images/connections/why-dubrovnik.jpg"
+  },
+  {
+    "id": "agadez",
+    "name": "Agadez",
+    "country": "Niger",
+    "title": "A caravan city built of earth.",
+    "deck": "Two views of the historic town show how earthen architecture marks a crossroads of Saharan trade.",
+    "archiveDate": "1996–1997",
+    "archiveTitle": "The Great Mosque from a street in Agadez",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Agadez’s historic centre",
+    "changed": "The city’s role evolved as trade and transport changed.",
+    "persisted": "Earthen buildings and the mosque tower still anchor the townscape.",
+    "notice": "Look for the projecting timbers and the contrast between the tower and low buildings.",
+    "sources": [
+      {
+        "name": "Agadez · historical context",
+        "url": "https://whc.unesco.org/en/list/1268/"
+      }
+    ],
+    "eras": [
+      [
+        "Historic crossroads",
+        "A city on caravan routes",
+        "Agadez developed at a meeting point for trade across the Sahara."
+      ],
+      [
+        "Earthen building",
+        "A distinctive urban fabric",
+        "Builders used earth for houses and religious buildings."
+      ],
+      [
+        "1996–1997",
+        "A street view preserved",
+        "The archive shows the mosque from within the surrounding town."
+      ],
+      [
+        "Present day",
+        "A living building tradition",
+        "Earthen architecture depends on continued maintenance and local knowledge."
+      ]
+    ],
+    "archiveImage": "time-agadez-archive",
+    "archivePath": "/images/connections/time-agadez-archive.jpg",
+    "modernImage": "why-agadez",
+    "modernCredit": "why-agadez",
+    "modernPath": "/images/connections/why-agadez.jpg"
+  },
+  {
+    "id": "harar",
+    "name": "Harar",
+    "country": "Ethiopia",
+    "title": "The streets behind the gates.",
+    "deck": "An old market street photograph and a later city view trace the life of Harar Jugol.",
+    "archiveDate": "c. 1900",
+    "archiveTitle": "A street leading to the market in Harar",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The historic city of Harar",
+    "changed": "Trade and political change altered the city’s role within the region.",
+    "persisted": "Walls, gates, and narrow lanes still shape movement through the historic core.",
+    "notice": "The archive shows people moving through a trading street. The later view records a different part of the town.",
+    "sources": [
+      {
+        "name": "Harar · historical context",
+        "url": "https://whc.unesco.org/en/list/1189/"
+      }
+    ],
+    "eras": [
+      [
+        "Historic Harar",
+        "A centre of trade and learning",
+        "Commerce and religious life shaped the town."
+      ],
+      [
+        "Walled city",
+        "Entrances organize movement",
+        "The gates connected lanes inside the enclosure to routes outside it."
+      ],
+      [
+        "Early twentieth century",
+        "A market street photographed",
+        "The archive captures everyday movement toward a market."
+      ],
+      [
+        "Present day",
+        "The older pattern remains",
+        "The walled centre preserves a dense network of streets and buildings."
+      ]
+    ],
+    "archiveImage": "time-harar-archive",
+    "archivePath": "/images/connections/time-harar-archive.jpg",
+    "modernImage": "why-harar",
+    "modernCredit": "why-harar",
+    "modernPath": "/images/connections/why-harar.jpg"
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "country": "Czechia",
+    "title": "When the river broke the bridge.",
+    "deck": "A photograph from the 1890 flood and a later view show the vulnerability of a crossing that has lasted for centuries.",
+    "archiveDate": "1890",
+    "archiveTitle": "Damage to Charles Bridge during the flood",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Charles Bridge over the Vltava",
+    "changed": "The flood destroyed sections of the bridge. Repairs restored the crossing.",
+    "persisted": "The bridge still links the old town to the opposite bank.",
+    "notice": "Look for the missing spans in the archive and the continuous row of arches in the later view.",
+    "sources": [
+      {
+        "name": "Prague · historical context",
+        "url": "https://whc.unesco.org/en/list/616/"
+      },
+      {
+        "name": "Prague City Tourism · Charles Bridge",
+        "url": "https://prague.eu/en/objevujte/charles-bridge-karluv-most/"
+      }
+    ],
+    "eras": [
+      [
+        "Medieval Prague",
+        "A stone crossing",
+        "Charles Bridge linked districts on either side of the Vltava."
+      ],
+      [
+        "September 1890",
+        "The flood breaks spans",
+        "Floodwater and debris damaged piers and brought down arches."
+      ],
+      [
+        "After the flood",
+        "A crossing rebuilt",
+        "Repairs restored the route across the river."
+      ],
+      [
+        "Present day",
+        "A bridge still in use",
+        "Pedestrians cross between historic districts along the restored structure."
+      ]
+    ],
+    "archiveImage": "time-prague-archive",
+    "archivePath": "/images/connections/time-prague-archive.jpg",
+    "modernImage": "why-prague",
+    "modernCredit": "why-prague",
+    "modernPath": "/images/connections/why-prague.jpg"
+  },
+  {
+    "id": "pompeii",
+    "name": "Pompeii",
+    "country": "Italy",
+    "title": "The city uncovered street by street.",
+    "deck": "An 1820 excavation plan and a later photograph show how a buried city became readable again.",
+    "archiveDate": "1820",
+    "archiveTitle": "Plan of excavations at Pompeii",
+    "archiveType": "Historical map",
+    "modernTitle": "Excavated Pompeii",
+    "changed": "Excavations progressively exposed buildings and streets buried in the eruption of 79 CE.",
+    "persisted": "The street network and structures still show how the Roman city was organized.",
+    "notice": "The plan records what excavators had uncovered by a particular stage.",
+    "sources": [
+      {
+        "name": "Pompeii · historical context",
+        "url": "https://whc.unesco.org/en/list/829/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 79 CE",
+        "A Roman city in use",
+        "Streets connected homes, shops, and public buildings."
+      ],
+      [
+        "79 CE",
+        "The eruption",
+        "Vesuvius buried Pompeii in volcanic material."
+      ],
+      [
+        "1820",
+        "Excavation mapped",
+        "The plan shows how much of the city had come back into view."
+      ],
+      [
+        "Present day",
+        "A city under conservation",
+        "Archaeology and conservation continue alongside public access."
+      ]
+    ],
+    "archiveImage": "time-pompeii-archive",
+    "archivePath": "/images/connections/time-pompeii-archive.jpg",
+    "modernImage": "time-pompeii-modern",
+    "modernCredit": "time-pompeii-modern",
+    "modernPath": "/images/connections/time-pompeii-modern.jpg"
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "country": "Greece",
+    "title": "The hill above a changing capital.",
+    "deck": "A nineteenth-century view and a modern photograph show the Acropolis in different phases of the city’s growth.",
+    "archiveDate": "1868–1875",
+    "archiveTitle": "The Acropolis photographed by Félix Bonfils",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Acropolis of Athens",
+    "changed": "Excavation and conservation changed how the monuments are presented as Athens grew around the hill.",
+    "persisted": "The rocky hill and its monuments still define the skyline.",
+    "notice": "Compare the silhouette and how buildings gather around the foot of the hill.",
+    "sources": [
+      {
+        "name": "Athens · historical context",
+        "url": "https://whc.unesco.org/en/list/404/"
+      }
+    ],
+    "eras": [
+      [
+        "Classical Athens",
+        "Monuments on a rocky hill",
+        "The sanctuary took on its best-known architectural form in the fifth century BCE."
+      ],
+      [
+        "Later centuries",
+        "Buildings change use",
+        "Successive communities adapted the site and its structures."
+      ],
+      [
+        "Nineteenth century",
+        "The hill photographed",
+        "The archive records the Acropolis during a period of archaeological work and urban growth."
+      ],
+      [
+        "Present day",
+        "A landmark under care",
+        "Conservation keeps the monuments legible within the modern city."
+      ]
+    ],
+    "archiveImage": "time-athens-archive",
+    "archivePath": "/images/connections/time-athens-archive.jpg",
+    "modernImage": "time-athens-modern",
+    "modernCredit": "time-athens-modern",
+    "modernPath": "/images/connections/time-athens-modern.jpg"
+  },
+  {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "country": "United Kingdom",
+    "title": "A new town drawn beside the old one.",
+    "deck": "A plan and a later street view show the order of Edinburgh’s planned extension.",
+    "archiveDate": "1767",
+    "archiveTitle": "James Craig’s plan for Edinburgh’s New Town",
+    "archiveType": "Reproduction of a historical plan",
+    "modernTitle": "Edinburgh viewed from Calton Hill",
+    "changed": "The planned extension created a regular network of streets and squares north of the Old Town.",
+    "persisted": "The contrast between the two urban patterns remains visible.",
+    "notice": "The plan shows the New Town’s regular blocks. The photograph places the planned district within the wider city.",
+    "sources": [
+      {
+        "name": "Edinburgh · historical context",
+        "url": "https://whc.unesco.org/en/list/728/"
+      }
+    ],
+    "eras": [
+      [
+        "Before expansion",
+        "A dense old town",
+        "The older city occupied a ridge, with narrow lanes leading off its main street."
+      ],
+      [
+        "1767",
+        "A new layout proposed",
+        "James Craig’s design set out regular streets and squares."
+      ],
+      [
+        "Georgian era",
+        "The plan takes shape",
+        "Construction extended the city northward over several decades."
+      ],
+      [
+        "Present day",
+        "Two patterns side by side",
+        "The Old and New Towns preserve different approaches to urban growth."
+      ]
+    ],
+    "archiveImage": "time-edinburgh-archive",
+    "archivePath": "/images/connections/time-edinburgh-archive.jpg",
+    "modernImage": "why-edinburgh",
+    "modernCredit": "why-edinburgh",
+    "modernPath": "/images/connections/why-edinburgh.jpg"
+  },
+  {
+    "id": "halifax",
+    "name": "Halifax",
+    "country": "Canada",
+    "title": "A harbor disaster reshapes a neighborhood.",
+    "deck": "An image of the 1917 explosion’s aftermath and a later harbor view show the waterway that links Halifax and Dartmouth.",
+    "archiveDate": "1917",
+    "archiveTitle": "Explosion damage looking toward Dartmouth",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Halifax Harbour",
+    "changed": "The explosion devastated parts of Halifax and Dartmouth. Reconstruction reshaped damaged neighborhoods.",
+    "persisted": "The harbor remains the defining geographical connection between the communities.",
+    "notice": "The archival photograph records damage on land. The later view looks at the harbor as a whole.",
+    "sources": [
+      {
+        "name": "Halifax · historical context",
+        "url": "https://archives.novascotia.ca/explosion/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1917",
+        "A working harbor",
+        "Ships moved through the Narrows between Halifax and Dartmouth."
+      ],
+      [
+        "6 December 1917",
+        "Collision and explosion",
+        "A collision involving a munitions ship led to a devastating explosion."
+      ],
+      [
+        "Reconstruction",
+        "Homes and streets rebuilt",
+        "Recovery required rehousing and rebuilding in the most heavily damaged areas."
+      ],
+      [
+        "Present day",
+        "Memory around the water",
+        "The harbor remains a working landscape with a history of disaster and recovery."
+      ]
+    ],
+    "archiveImage": "time-halifax-archive",
+    "archivePath": "/images/connections/time-halifax-archive.jpg",
+    "modernImage": "time-halifax-modern",
+    "modernCredit": "time-halifax-modern",
+    "modernPath": "/images/connections/time-halifax-modern.jpg"
+  },
+  {
+    "id": "chicago",
+    "name": "Chicago",
+    "country": "United States",
+    "title": "A city rebuilds beside its river.",
+    "deck": "A view of temporary Chicago after the 1871 fire and a modern river photograph connect recovery with later growth.",
+    "archiveDate": "1871",
+    "archiveTitle": "Temporary buildings after the Great Chicago Fire",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The Chicago River in the modern city",
+    "changed": "The fire devastated much of the city and prompted rebuilding and changes in construction rules.",
+    "persisted": "The river remained a commercial and geographic spine.",
+    "notice": "The archive records temporary structures. The later photograph shows a city rebuilt and developed over generations.",
+    "sources": [
+      {
+        "name": "Chicago · historical context",
+        "url": "https://www.chicagohistory.org/great-chicago-fire/"
+      }
+    ],
+    "eras": [
+      [
+        "Before 1871",
+        "A growing commercial city",
+        "Rail and water transport supported rapid growth."
+      ],
+      [
+        "October 1871",
+        "A destructive fire",
+        "The fire burned through large parts of the built city."
+      ],
+      [
+        "After the fire",
+        "Temporary buildings and rebuilding",
+        "Residents and businesses began rebuilding as the city adapted its construction rules."
+      ],
+      [
+        "Present day",
+        "The river framed by later growth",
+        "The skyline reflects many decades of development after the fire."
+      ]
+    ],
+    "archiveImage": "time-chicago-archive",
+    "archivePath": "/images/connections/time-chicago-archive.jpg",
+    "modernImage": "time-chicago-modern",
+    "modernCredit": "time-chicago-modern",
+    "modernPath": "/images/connections/time-chicago-modern.jpg"
   }
 ]
