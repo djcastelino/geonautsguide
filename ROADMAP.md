@@ -24,7 +24,7 @@ This is a hobby project. Grow in manageable batches, reuse the established cinem
 | --- | --- | --- | --- |
 | 1 | Planet Connections | Two places, a mystery to guess, an animated connection map, and a short story with optional audio. | 100 stories in the production collection after the November 5 expansion. |
 | 2 | Why Here? | Explain why a city developed where it did: rivers, harbours, terrain, resources, or trade. | 100-city collection completed November 6. Includes location quizzes, written landscape stories, narration and post-quiz links. |
-| 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Thirty-five-city collection published: Rome, Istanbul, London, Cairo, Kyoto, Berlin, Singapore, Venice, New York City, Hiroshima, Seoul, Hong Kong, Warsaw, San Francisco, Dubai, Canberra, Brasília, Mostar, Rotterdam, Valletta, Mexico City, Cape Town, Bilbao, Boston, Zanzibar City, Aswan and Abu Simbel, Paris, Medellín, Detroit, Wellington, Panama City, Barcelona, Seattle, Napier and Chandigarh. Archive/present views, sourced timeline chapters and optional narration. |
+| 3 | A Place Through Time | Follow one location through different eras using historical images, maps, and short accounts. | Forty-city collection published: Rome, Istanbul, London, Cairo, Kyoto, Berlin, Singapore, Venice, New York City, Hiroshima, Seoul, Hong Kong, Warsaw, San Francisco, Dubai, Canberra, Brasília, Mostar, Rotterdam, Valletta, Mexico City, Cape Town, Bilbao, Boston, Zanzibar City, Aswan and Abu Simbel, Paris, Medellín, Detroit, Wellington, Panama City, Barcelona, Seattle, Napier, Chandigarh, Suwon, Timbuktu, Baku, Liverpool and Lowell. Archive/present views, sourced timeline chapters and optional narration. |
 | 4 | Follow the Journey | Trace coffee, spices, ideas, or historic expeditions between places. | Future idea. |
 | 5 | Earth or Another World? | Guess whether a landscape is on Earth or another world, then discover the scientific connection. | Future idea. |
 
@@ -180,3 +180,6 @@ Added Aswan and Abu Simbel, Paris, Medellín, Detroit, and Wellington.
 
 ### Through Time expansion — 35 cities
 Added Panama City, Barcelona, Seattle, Napier, and Chandigarh.
+
+### Through Time expansion — 40 cities
+Added Suwon, Timbuktu, Baku, Liverpool, and Lowell.
