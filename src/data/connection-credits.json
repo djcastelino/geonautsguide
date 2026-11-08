@@ -3579,5 +3579,161 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Auckland_CBD_skyline_and_harbour.jpg",
     "description": "File:Auckland CBD skyline and harbour.jpg"
+  },
+  "time-christchurch-archive": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/31190896@N08\">eGuide Travel</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Christchurch_Cathedral_before_earthquake.jpg",
+    "description": "File:Christchurch Cathedral before earthquake.jpg",
+    "archiveDate": "Before 2011",
+    "archiveTitle": "File:Christchurch Cathedral before earthquake.jpg"
+  },
+  "time-christchurch-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/56631565@N06\">New Zealand Defence Force</a>",
+    "LicenseShortName": "CC BY 2.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Christ_Church_Cathedral_-_2011_earthquake_damage.jpg",
+    "description": "File:Christ Church Cathedral - 2011 earthquake damage.jpg"
+  },
+  "time-havana-archive": {
+    "Artist": "Detroit Publishing Co.",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Havana_-_Entrance_to_the_port_(1900).jpg",
+    "description": "File:Havana - Entrance to the port (1900).jpg",
+    "archiveDate": "1900",
+    "archiveTitle": "File:Havana - Entrance to the port (1900).jpg"
+  },
+  "time-stockholm-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:S%C3%B6dermalm_1642.jpg",
+    "description": "File:Södermalm 1642.jpg",
+    "archiveDate": "1642",
+    "archiveTitle": "File:Södermalm 1642.jpg"
+  },
+  "time-stockholm-modern": {
+    "Artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/155335734@N04\">Brian Dooley</a>",
+    "LicenseShortName": "CC0",
+    "LicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:S%C3%B6dermalm_(40204671182).jpg",
+    "description": "Södermalm"
+  },
+  "time-cologne-archive": {
+    "Artist": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Cologne_Cathedral_stands_undamaged_while_entire_area_surrounding_it_is_completely_devastated._Railroad_station_and_Hohenzollern_Bridge_lie_damaged_to_the_north_and_east_of_the_cathedral._Germany,_April_24,_1945._-_NARA_-_531287.gif",
+    "description": "File:Cologne Cathedral stands undamaged while entire area surrounding it is completely devastated. Railroad station and Hohenzollern Bridge lie damaged to the north and east of the cathedral. Germany, April 24, 1945. - NARA - 531287.gif",
+    "archiveDate": "1945",
+    "archiveTitle": "File:Cologne Cathedral stands undamaged while entire area surrounding it is completely devastated. Railroad station and Hohenzollern Bridge lie damaged to the north and east of the cathedral. Germany, April 24, 1945. - NARA - 531287.gif"
+  },
+  "time-cologne-modern": {
+    "Artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q108103612\" class=\"extiw\" title=\"d:Q108103612\"><span title=\"Wikipedian and OpenStreetMap mapper from Cologne, Open Data activist\">Raimond Spekking</span></a></bdi>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg",
+    "description": "Cologne Cathedral"
+  },
+  "time-manila-archive": {
+    "Artist": "Unknown photographer",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Manila_Walled_City_Destruction_May_1945.jpg",
+    "description": "File:Manila Walled City Destruction May 1945.jpg",
+    "archiveDate": "May 1945",
+    "archiveTitle": "File:Manila Walled City Destruction May 1945.jpg"
+  },
+  "time-marseille-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Vieux-Port,_Marseille,_France,_ca._1895.jpg",
+    "description": "File:Entrance to the Vieux-Port, Marseille, France, ca. 1895.jpg",
+    "archiveDate": "c. 1895",
+    "archiveTitle": "File:Entrance to the Vieux-Port, Marseille, France, ca. 1895.jpg"
+  },
+  "time-marseille-modern": {
+    "Artist": "Ingo Mehling",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg",
+    "description": "Old Port of Marseille"
+  },
+  "time-machu-picchu-archive": {
+    "Artist": "<div class=\"fn value\">\nH. L. Tucker</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Partial_view_of_Machu_Picchu_in_1911.jpg",
+    "description": "File:Partial view of Machu Picchu in 1911.jpg",
+    "archiveDate": "1911",
+    "archiveTitle": "File:Partial view of Machu Picchu in 1911.jpg"
+  },
+  "time-angkor-archive": {
+    "Artist": "",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Nakhon_Thom,_Cambodia_by_John_Thomson,_1866._Wellcome_L0056145.jpg",
+    "description": "File:Nakhon Thom, Cambodia by John Thomson, 1866. Wellcome L0056145.jpg",
+    "archiveDate": "1866",
+    "archiveTitle": "File:Nakhon Thom, Cambodia by John Thomson, 1866. Wellcome L0056145.jpg"
+  },
+  "time-angkor-modern": {
+    "Artist": "<table class=\"toccolours\" style=\"width:100%; margin-top:10px;\" cellpadding=\"2\">\n\n<tbody><tr class=\"plainlinks\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Flag_of_Thailand.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/60px-Flag_of_Thailand.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"50\" height=\"33\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/120px-Flag_of_Thailand.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"900\" data-file-height=\"600\"></a></span> This Photo was taken by <i><b><a href=\"//commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\" title=\"User:Supanut Arunoprayote\">Supanut Arunoprayote</a></b></i>.\n</td>\n<td align=\"right\">Feel free to use any of my images, but please mention me as the author and may send me a <a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\">message.</a> <br> (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่ง<a class=\"external text\" href=\"https://commons.wikimedia.org/wiki/User:Supanut_Arunoprayote\">ข้อความบอกกล่าวด้วย</a>) <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Contact_vmc2015.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/40px-Contact_vmc2015.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"40\" height=\"40\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Contact_vmc2015.png/120px-Contact_vmc2015.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"940\" data-file-height=\"940\"></a></span>\n</td></tr></tbody></table>\n<div style=\"clear:both; border:2px solid #00cc00; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Upload-problem2.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/120px-Upload-problem2.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"57\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/250px-Upload-problem2.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"159\" data-file-height=\"142\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.<br>Please if you think that any changes should be required, please inform the author.<br>Otherwise you can upload a new image with a new name. Please use one of the templates <a href=\"//commons.wikimedia.org/wiki/Template:Derived_from\" title=\"Template:Derived from\">derivative</a> or <a href=\"//commons.wikimedia.org/wiki/Template:Extracted_from\" title=\"Template:Extracted from\">extract</a>.</div>\n</td></tr></tbody></table></div>",
+    "LicenseShortName": "CC BY 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_(II).jpg",
+    "description": "Angkor Thom"
+  },
+  "time-cusco-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Max_Uhle\" class=\"extiw\" title=\"w:en:Max Uhle\"><span title=\"German archaeologist (1856-1944)\">Max Uhle</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Historical_panorama_of_Cuzco_in_the_1900s_(Part_1).jpg",
+    "description": "File:Historical panorama of Cuzco in the 1900s (Part 1).jpg",
+    "archiveDate": "Early twentieth century",
+    "archiveTitle": "File:Historical panorama of Cuzco in the 1900s (Part 1).jpg"
+  },
+  "time-machu-picchu-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Draceane\" title=\"User:Draceane\">Draceane</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg",
+    "description": "File:Machu Picchu, 2023 (012).jpg"
+  },
+  "time-petra-archive": {
+    "Artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Frederic_Edwin_Church\" class=\"extiw\" title=\"w:en:Frederic Edwin Church\"><span title=\"American landscape painter (1826–1900)\">Frederic Edwin Church</span></a></bdi>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:El_Khasne_Petra.jpg",
+    "description": "File:El Khasne Petra.jpg",
+    "archiveDate": "1874",
+    "archiveTitle": "File:El Khasne Petra.jpg"
+  },
+  "time-petra-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dudva\" title=\"User:Dudva\">Dudva</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_(The_Treasury)_in_Petra.jpg",
+    "description": "File:Al Khazneh (The Treasury) in Petra.jpg"
   }
 }

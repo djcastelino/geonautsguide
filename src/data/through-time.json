@@ -4364,5 +4364,476 @@
     "modernImage": "time-bath-modern",
     "modernCredit": "time-bath-modern",
     "modernPath": "/images/connections/time-bath-modern.jpg"
+  },
+  {
+    "id": "christchurch",
+    "name": "Christchurch",
+    "country": "New Zealand",
+    "title": "The square after the spire fell.",
+    "deck": "Two views of Christ Church Cathedral show what the 2011 earthquake changed at the city’s civic centre.",
+    "archiveDate": "Before February 2011",
+    "archiveTitle": "Christ Church Cathedral before the earthquake",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Christ Church Cathedral after the earthquake",
+    "changed": "The 2011 earthquake brought down the spire and severely damaged the cathedral.",
+    "persisted": "Cathedral Square remains a reference point in the city’s plan.",
+    "notice": "Compare the tower across the two photographs. The later image documents damage from a specific period.",
+    "sources": [
+      {
+        "name": "Christchurch · historical context",
+        "url": "https://christchurchcathedral.org.nz/cathedral-history/"
+      }
+    ],
+    "eras": [
+      [
+        "Colonial era",
+        "A square at the centre",
+        "The city’s plan set aside a central square for the cathedral."
+      ],
+      [
+        "1881",
+        "The cathedral opens",
+        "The building became a prominent part of the city centre."
+      ],
+      [
+        "February 2011",
+        "The spire falls",
+        "The earthquake damaged the cathedral and transformed the square around it."
+      ],
+      [
+        "After the earthquake",
+        "A decision about repair",
+        "The damaged building became the focus of a long debate about reinstatement."
+      ]
+    ],
+    "archiveImage": "time-christchurch-archive",
+    "archivePath": "/images/connections/time-christchurch-archive.jpg",
+    "modernImage": "time-christchurch-modern",
+    "modernCredit": "time-christchurch-modern",
+    "modernPath": "/images/connections/time-christchurch-modern.jpg",
+    "modernDate": "23 February 2011"
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "country": "Cuba",
+    "title": "A city at the mouth of a harbor.",
+    "deck": "An early port view and a later look at Old Havana trace the relationship between trade and defense.",
+    "archiveDate": "c. 1900",
+    "archiveTitle": "Entrance to Havana’s port",
+    "archiveType": "Historical image",
+    "modernTitle": "Havana’s Malecón in a later view",
+    "changed": "Shipping and political change altered the port’s role over time.",
+    "persisted": "The harbor entrance and fortifications still reveal its strategic geography.",
+    "notice": "The images show different parts of Havana’s historic port city.",
+    "sources": [
+      {
+        "name": "Havana · historical context",
+        "url": "https://whc.unesco.org/en/list/204/"
+      }
+    ],
+    "eras": [
+      [
+        "Sixteenth century",
+        "A port grows on a sheltered bay",
+        "Havana developed around a harbor that connected it to Atlantic shipping."
+      ],
+      [
+        "Colonial era",
+        "A guarded entrance",
+        "Forts controlled access to the narrow channel."
+      ],
+      [
+        "Around 1900",
+        "The entrance pictured",
+        "The archive records the harbor gateway after centuries of development."
+      ],
+      [
+        "Present day",
+        "A port city still legible",
+        "The old centre and its defenses preserve evidence of the city’s maritime role."
+      ]
+    ],
+    "archiveImage": "time-havana-archive",
+    "archivePath": "/images/connections/time-havana-archive.jpg",
+    "modernImage": "why-havana",
+    "modernCredit": "why-havana",
+    "modernPath": "/images/connections/why-havana.jpg"
+  },
+  {
+    "id": "stockholm",
+    "name": "Stockholm",
+    "country": "Sweden",
+    "title": "A hillside district gets a street plan.",
+    "deck": "A 1642 map and a later view trace Södermalm’s growth across steep and uneven terrain.",
+    "archiveDate": "1642",
+    "archiveTitle": "Södermalm on a seventeenth-century map",
+    "archiveType": "Historical map",
+    "modernTitle": "Södermalm in modern Stockholm",
+    "changed": "Street regulation imposed a more regular pattern on parts of a growing district.",
+    "persisted": "The island and its steep slopes still shape the built city.",
+    "notice": "Compare the planned streets with the terrain visible in the later view.",
+    "sources": [
+      {
+        "name": "Stockholm · historical context",
+        "url": "https://stockholmskallan.stockholm.se/teman/staden-vaxer/stadsplaner/"
+      }
+    ],
+    "eras": [
+      [
+        "Before regulation",
+        "Settlement spreads beyond the core",
+        "Stockholm expanded beyond its oldest island centre."
+      ],
+      [
+        "1642",
+        "The district mapped",
+        "The plan shows how surveyors understood and organized Södermalm."
+      ],
+      [
+        "Later centuries",
+        "The streets fill in",
+        "Building followed the new street pattern while adapting to local terrain."
+      ],
+      [
+        "Present day",
+        "A plan shaped by hills",
+        "The district retains contrasts between regular streets and steep edges."
+      ]
+    ],
+    "archiveImage": "time-stockholm-archive",
+    "archivePath": "/images/connections/time-stockholm-archive.jpg",
+    "modernImage": "time-stockholm-modern",
+    "modernCredit": "time-stockholm-modern",
+    "modernPath": "/images/connections/time-stockholm-modern.jpg"
+  },
+  {
+    "id": "cologne",
+    "name": "Cologne",
+    "country": "Germany",
+    "title": "A cathedral above a city in ruins.",
+    "deck": "A 1945 aerial photograph and a later view show the cathedral’s place in the rebuilt city.",
+    "archiveDate": "24 April 1945",
+    "archiveTitle": "Cologne Cathedral and the surrounding destruction",
+    "archiveType": "Historical aerial photograph",
+    "modernTitle": "Cologne Cathedral in the rebuilt centre",
+    "changed": "Bombing destroyed much of central Cologne. The damaged cathedral survived and underwent repairs.",
+    "persisted": "The cathedral remains a major landmark beside the Rhine and railway.",
+    "notice": "The cathedral towers help orient the archive. The surrounding blocks and infrastructure show the scale of wartime damage.",
+    "sources": [
+      {
+        "name": "Cologne · historical context",
+        "url": "https://whc.unesco.org/en/list/292/"
+      }
+    ],
+    "eras": [
+      [
+        "1248",
+        "Construction begins",
+        "The Gothic cathedral began taking shape near the Rhine."
+      ],
+      [
+        "1880",
+        "The towers completed",
+        "The long building campaign ended with the completion of the cathedral."
+      ],
+      [
+        "1945",
+        "The city around it devastated",
+        "The archive records the surviving cathedral amid the damaged centre."
+      ],
+      [
+        "Postwar decades",
+        "Repair and rebuilding",
+        "The cathedral was repaired as the city around it took on a new built form."
+      ]
+    ],
+    "archiveImage": "time-cologne-archive",
+    "archivePath": "/images/connections/time-cologne-archive.jpg",
+    "modernImage": "time-cologne-modern",
+    "modernCredit": "time-cologne-modern",
+    "modernPath": "/images/connections/time-cologne-modern.jpg"
+  },
+  {
+    "id": "manila",
+    "name": "Manila",
+    "country": "Philippines",
+    "title": "The walls survived a devastated city.",
+    "deck": "A wartime aerial photograph and a later view trace the destruction and recovery of Intramuros.",
+    "archiveDate": "May 1945",
+    "archiveTitle": "The walled city after the Battle of Manila",
+    "archiveType": "Historical aerial photograph",
+    "modernTitle": "Intramuros in a later photograph",
+    "changed": "The battle destroyed much of Intramuros and killed civilians across Manila. Restoration later recovered parts of the walled district.",
+    "persisted": "The fortifications and street pattern still mark the historic core.",
+    "notice": "Use the walls to orient the archive. The later image shows one part of the district that survived or was restored.",
+    "sources": [
+      {
+        "name": "Manila · historical context",
+        "url": "https://intramuros.gov.ph/"
+      }
+    ],
+    "eras": [
+      [
+        "Spanish colonial era",
+        "A fortified administrative centre",
+        "The walled district concentrated government, religious, and military buildings."
+      ],
+      [
+        "1945",
+        "A city devastated",
+        "Fighting and atrocities caused widespread destruction and civilian deaths."
+      ],
+      [
+        "Later decades",
+        "Recovering the district",
+        "Conservation and reconstruction brought parts of the district back into use."
+      ],
+      [
+        "Present day",
+        "History inside the walls",
+        "The enclosure links surviving and restored structures to the city’s earlier geography."
+      ]
+    ],
+    "archiveImage": "time-manila-archive",
+    "archivePath": "/images/connections/time-manila-archive.jpg",
+    "modernImage": "manila",
+    "modernCredit": "manila",
+    "modernPath": "/images/connections/manila.jpg"
+  },
+  {
+    "id": "marseille",
+    "name": "Marseille",
+    "country": "France",
+    "title": "The old port stays at the centre.",
+    "deck": "Two views of the Vieux-Port show a harbor that retained its urban role as commercial shipping expanded elsewhere.",
+    "archiveDate": "c. 1895",
+    "archiveTitle": "Entrance to Marseille’s Old Port",
+    "archiveType": "Historical colour print",
+    "modernTitle": "Marseille’s Old Port",
+    "changed": "New port facilities took on much of the freight traffic. The old basin gained recreational and public uses.",
+    "persisted": "The basin and its narrow entrance remain central to Marseille’s identity.",
+    "notice": "Look for the opening between the harbor and the sea in both views.",
+    "sources": [
+      {
+        "name": "Marseille · historical context",
+        "url": "https://www.marseille-tourisme.com/en/discover-marseille/culture-heritage/discover-the-neighbourhoods/old-port/"
+      }
+    ],
+    "eras": [
+      [
+        "Ancient Marseille",
+        "A sheltered harbor",
+        "The inlet offered a protected setting for settlement and exchange."
+      ],
+      [
+        "Nineteenth century",
+        "A port extends outward",
+        "Trade and larger ships drove the development of new facilities beyond the old basin."
+      ],
+      [
+        "Around 1895",
+        "The gateway pictured",
+        "The archive records the entrance that linked the old basin to the sea."
+      ],
+      [
+        "Present day",
+        "An urban waterfront",
+        "The old port remains a place for boats, markets, and public gathering."
+      ]
+    ],
+    "archiveImage": "time-marseille-archive",
+    "archivePath": "/images/connections/time-marseille-archive.jpg",
+    "modernImage": "time-marseille-modern",
+    "modernCredit": "time-marseille-modern",
+    "modernPath": "/images/connections/time-marseille-modern.jpg"
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "title": "Reading an Inca settlement through its terraces.",
+    "deck": "A photograph from 1911 and a modern view show how documentation and conservation changed the appearance of the site.",
+    "archiveDate": "1911",
+    "archiveTitle": "A partial view of Machu Picchu in 1911",
+    "archiveType": "Historical photograph",
+    "modernTitle": "The terraces and stone buildings of Machu Picchu",
+    "changed": "Survey, excavation, and conservation made more of the settlement visible to visitors.",
+    "persisted": "Terraces and stonework still show how construction adapted to the ridge.",
+    "notice": "Compare what is visible through the vegetation with the larger settlement in the later view.",
+    "sources": [
+      {
+        "name": "Machu Picchu · historical context",
+        "url": "https://whc.unesco.org/en/list/274/"
+      }
+    ],
+    "eras": [
+      [
+        "Fifteenth century",
+        "Construction on a ridge",
+        "Inca builders adapted the steep setting with terraces and stone buildings."
+      ],
+      [
+        "Before 1911",
+        "Local knowledge of the site",
+        "People in the region knew the place before it became widely known overseas."
+      ],
+      [
+        "1911",
+        "A photographic record",
+        "The expedition’s photographs documented parts of the settlement."
+      ],
+      [
+        "Present day",
+        "A site under conservation",
+        "Archaeology and maintenance continue within a protected mountain landscape."
+      ]
+    ],
+    "archiveImage": "time-machu-picchu-archive",
+    "archivePath": "/images/connections/time-machu-picchu-archive.jpg",
+    "modernImage": "time-machu-picchu-modern",
+    "modernCredit": "time-machu-picchu-modern",
+    "modernPath": "/images/connections/time-machu-picchu-modern.jpg"
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "country": "Jordan",
+    "title": "A city carved along a route.",
+    "deck": "An early image of the Treasury and a later photograph show how an approach through rock becomes part of a city’s architecture.",
+    "archiveDate": "1874",
+    "archiveTitle": "The Treasury at Petra in a historical view",
+    "archiveType": "Historical illustration",
+    "modernTitle": "The Treasury at Petra",
+    "changed": "The Nabataean trading city became an archaeological site.",
+    "persisted": "The rock-cut façade and narrow approach still shape the experience of arrival.",
+    "notice": "Compare the proportions of the façade and the surrounding rock.",
+    "sources": [
+      {
+        "name": "Petra · historical context",
+        "url": "https://whc.unesco.org/en/list/326/"
+      }
+    ],
+    "eras": [
+      [
+        "Nabataean era",
+        "A city on trade routes",
+        "Petra grew within a network that carried goods across the region."
+      ],
+      [
+        "Building in rock",
+        "Architecture follows terrain",
+        "Builders cut monumental façades and developed systems for capturing and carrying water."
+      ],
+      [
+        "Nineteenth century",
+        "The Treasury pictured",
+        "Published illustrations brought the site to wider audiences."
+      ],
+      [
+        "Present day",
+        "Reading a larger city",
+        "The Treasury is one monument in a landscape of routes, tombs, and settlement."
+      ]
+    ],
+    "archiveImage": "time-petra-archive",
+    "archivePath": "/images/connections/time-petra-archive.jpg",
+    "modernImage": "time-petra-modern",
+    "modernCredit": "time-petra-modern",
+    "modernPath": "/images/connections/time-petra-modern.jpg"
+  },
+  {
+    "id": "angkor",
+    "name": "Angkor Thom",
+    "country": "Cambodia",
+    "title": "A capital entered through monumental gates.",
+    "deck": "A nineteenth-century photograph and a later view connect Khmer city planning with surviving temples and gateways.",
+    "archiveDate": "1866",
+    "archiveTitle": "Angkor Thom photographed by John Thomson",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Angkor Thom in a later view",
+    "changed": "The former royal capital became part of a protected archaeological landscape.",
+    "persisted": "The enclosure, gates, and stone monuments preserve the scale of the city.",
+    "notice": "The views show parts of a larger complex. Look for carved stonework and the relationship between structures and their setting.",
+    "sources": [
+      {
+        "name": "Angkor Thom · historical context",
+        "url": "https://whc.unesco.org/en/list/668/"
+      }
+    ],
+    "eras": [
+      [
+        "Late twelfth century",
+        "A royal capital takes shape",
+        "Angkor Thom developed under Jayavarman VII."
+      ],
+      [
+        "The built capital",
+        "Gates, walls, and temples",
+        "Monumental approaches connected the enclosure to the wider Angkor landscape."
+      ],
+      [
+        "1866",
+        "The monuments photographed",
+        "Thomson recorded a view of the site in the nineteenth century."
+      ],
+      [
+        "Present day",
+        "A landscape under care",
+        "Conservation protects the structures and their setting."
+      ]
+    ],
+    "archiveImage": "time-angkor-archive",
+    "archivePath": "/images/connections/time-angkor-archive.jpg",
+    "modernImage": "time-angkor-modern",
+    "modernCredit": "time-angkor-modern",
+    "modernPath": "/images/connections/time-angkor-modern.jpg"
+  },
+  {
+    "id": "cusco",
+    "name": "Cusco",
+    "country": "Peru",
+    "title": "Two building traditions in one city.",
+    "deck": "An early panorama and a later street view show how the former Inca capital grew through colonial rebuilding.",
+    "archiveDate": "Early twentieth century",
+    "archiveTitle": "Historical panorama of Cusco",
+    "archiveType": "Historical photograph",
+    "modernTitle": "Cusco in a later view",
+    "changed": "Spanish colonial buildings and institutions took shape within and over the Inca capital.",
+    "persisted": "Inca masonry and elements of the street pattern remain visible.",
+    "notice": "The panorama shows the city in its valley. The later view brings the street-level fabric into focus.",
+    "sources": [
+      {
+        "name": "Cusco · historical context",
+        "url": "https://whc.unesco.org/en/list/273/"
+      }
+    ],
+    "eras": [
+      [
+        "Inca era",
+        "An imperial capital",
+        "Cusco formed the political and ceremonial centre of the Inca state."
+      ],
+      [
+        "Sixteenth century",
+        "A colonial city takes shape",
+        "Spanish authorities and settlers adapted the existing city and added new buildings."
+      ],
+      [
+        "Early twentieth century",
+        "A layered city pictured",
+        "The panorama records buildings gathered across the valley."
+      ],
+      [
+        "Present day",
+        "Earlier fabric in daily use",
+        "Streets and walls preserve traces of both the Inca and colonial cities."
+      ]
+    ],
+    "archiveImage": "time-cusco-archive",
+    "archivePath": "/images/connections/time-cusco-archive.jpg",
+    "modernImage": "why-cusco",
+    "modernCredit": "why-cusco",
+    "modernPath": "/images/connections/why-cusco.jpg"
   }
 ]
