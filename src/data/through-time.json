@@ -2480,5 +2480,193 @@
     "modernImage": "time-valparaiso-modern",
     "modernCredit": "time-valparaiso-modern",
     "modernPath": "/images/connections/time-valparaiso-modern.jpg"
+  },
+  {
+    "id": "hoi-an",
+    "name": "Hoi An",
+    "country": "Vietnam",
+    "title": "The port that stayed in its streets.",
+    "deck": "An early published view of Faifo and a later photograph bring the trading town into focus.",
+    "archiveDate": "1806",
+    "archiveTitle": "Faifo in a published account of Cochinchina",
+    "archiveType": "Historical illustration",
+    "modernTitle": "The historic town of Hoi An",
+    "changed": "The port declined as shipping shifted elsewhere.",
+    "persisted": "The surviving street pattern and buildings still record its trading role.",
+    "notice": "The illustration was published in 1806 and reflects an earlier voyage.",
+    "sources": [
+      {
+        "name": "UNESCO · Hoi An Ancient Town",
+        "url": "https://whc.unesco.org/en/list/948/"
+      }
+    ],
+    "eras": [
+      [
+        "15th–19th centuries",
+        "An international port",
+        "Merchants used the river port to trade with markets across Asia and beyond."
+      ],
+      [
+        "1806",
+        "Faifo in print",
+        "A published voyage account introduced the place to readers overseas."
+      ],
+      [
+        "Later nineteenth century",
+        "Trade shifts",
+        "Hoi An declined as a major trading port, while much of its older built fabric survived."
+      ],
+      [
+        "Present day",
+        "A trading town preserved",
+        "The street plan and buildings show how local and overseas traditions met."
+      ]
+    ],
+    "archiveImage": "time-hoi-an-archive",
+    "archivePath": "/images/connections/time-hoi-an-archive.jpg",
+    "modernImage": "why-hoi-an",
+    "modernCredit": "why-hoi-an",
+    "modernPath": "/images/connections/why-hoi-an.jpg"
+  },
+  {
+    "id": "george-town",
+    "name": "George Town",
+    "country": "Malaysia",
+    "title": "A port grows into shophouse streets.",
+    "deck": "An early Penang map and a modern view trace the growth of a port town on the Strait of Malacca.",
+    "archiveDate": "1799",
+    "archiveTitle": "Popham’s map of early Penang",
+    "archiveType": "Historical map",
+    "modernTitle": "George Town’s modern skyline",
+    "changed": "Trade and migration expanded the early settlement into a multicultural port city.",
+    "persisted": "The street pattern and shophouses preserve evidence of commercial life.",
+    "notice": "The map records an early settlement. The modern photograph shows the wider skyline after centuries of growth.",
+    "sources": [
+      {
+        "name": "UNESCO · Melaka and George Town",
+        "url": "https://whc.unesco.org/en/list/1223/"
+      }
+    ],
+    "eras": [
+      [
+        "Late eighteenth century",
+        "A port takes shape",
+        "George Town developed as a British trading settlement in Penang."
+      ],
+      [
+        "1799",
+        "The early town mapped",
+        "The map documents the town centre and a Malay settlement to its south."
+      ],
+      [
+        "Nineteenth century",
+        "Commerce reshapes the town",
+        "Trade and migration contributed to neighborhoods with distinct religious and commercial institutions."
+      ],
+      [
+        "Present day",
+        "Trading history in the streets",
+        "Shophouses and places of worship help visitors read the port’s layered history."
+      ]
+    ],
+    "archiveImage": "time-george-town-archive",
+    "archivePath": "/images/connections/time-george-town-archive.jpg",
+    "modernImage": "time-george-town-modern",
+    "modernCredit": "time-george-town-modern",
+    "modernPath": "/images/connections/time-george-town-modern.jpg"
+  },
+  {
+    "id": "grand-bassam",
+    "name": "Grand-Bassam",
+    "country": "Côte d’Ivoire",
+    "title": "A capital moves on.",
+    "deck": "A lagoon postcard and a later view tell the story of a port whose political role changed.",
+    "archiveDate": "c. 1905",
+    "archiveTitle": "Grand-Bassam beside the lagoon",
+    "archiveType": "Historical postcard",
+    "modernTitle": "Grand-Bassam in a later photograph",
+    "changed": "The colonial capital moved elsewhere, and the town lost its former administrative role.",
+    "persisted": "The lagoon setting and historic buildings preserve evidence of the earlier town.",
+    "notice": "The postcard shows the lagoon edge. The later image records another view of the town.",
+    "sources": [
+      {
+        "name": "UNESCO · Historic Town of Grand-Bassam",
+        "url": "https://whc.unesco.org/en/list/1322/"
+      }
+    ],
+    "eras": [
+      [
+        "Before the colonial capital",
+        "A coastal settlement",
+        "The area was home to the N’zima community."
+      ],
+      [
+        "Late nineteenth century",
+        "A port and administrative centre",
+        "Grand-Bassam became the first capital of the French colony of Côte d’Ivoire."
+      ],
+      [
+        "After the capital moved",
+        "A town with changing functions",
+        "The town’s importance changed as government and commerce shifted elsewhere."
+      ],
+      [
+        "Present day",
+        "A historic district under care",
+        "The streets and buildings record both the colonial town plan and the local community."
+      ]
+    ],
+    "archiveImage": "time-grand-bassam-archive",
+    "archivePath": "/images/connections/time-grand-bassam-archive.jpg",
+    "modernImage": "time-grand-bassam-modern",
+    "modernCredit": "time-grand-bassam-modern",
+    "modernPath": "/images/connections/time-grand-bassam-modern.jpg"
+  },
+  {
+    "id": "cidade-velha",
+    "name": "Cidade Velha",
+    "country": "Cabo Verde",
+    "title": "An Atlantic crossroads and its fort.",
+    "deck": "An early plan and a later view trace Ribeira Grande’s growth and its place in Atlantic trade.",
+    "archiveDate": "1655",
+    "archiveTitle": "Plan of Ribeira Grande",
+    "archiveType": "Historical map",
+    "modernTitle": "Cidade Velha and its historic setting",
+    "changed": "The former port lost its role as the principal settlement of the islands.",
+    "persisted": "The fortifications and historic centre preserve evidence of its Atlantic connections.",
+    "notice": "The plan records a port and defenses. The later view places their surviving traces in the coastal landscape.",
+    "sources": [
+      {
+        "name": "UNESCO · Cidade Velha",
+        "url": "https://whc.unesco.org/en/list/1310/"
+      }
+    ],
+    "eras": [
+      [
+        "Fifteenth century",
+        "A settlement on Santiago",
+        "Portuguese settlement established Ribeira Grande on the island of Santiago."
+      ],
+      [
+        "Atlantic trade",
+        "A port built on unequal exchange",
+        "Ribeira Grande became a waypoint in Atlantic trade, including the trafficking of enslaved people."
+      ],
+      [
+        "Defending the port",
+        "Fortifications above the town",
+        "Defenses were built to protect the settlement and its harbor."
+      ],
+      [
+        "Present day",
+        "The older town survives",
+        "The fort, street pattern, and surviving buildings bear witness to the port’s history."
+      ]
+    ],
+    "archiveImage": "time-cidade-velha-archive",
+    "archivePath": "/images/connections/time-cidade-velha-archive.jpg",
+    "modernImage": "time-cidade-velha-modern",
+    "modernCredit": "time-cidade-velha-modern",
+    "modernPath": "/images/connections/time-cidade-velha-modern.jpg"
   }
 ]

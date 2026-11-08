@@ -2913,5 +2913,73 @@
     "AttributionRequired": "true",
     "source": "https://commons.wikimedia.org/wiki/File:Historic_Quarter_of_the_Seaport_City_of_Valpara%C3%ADso_04.jpg",
     "description": "Valparaíso"
+  },
+  "time-hoi-an-archive": {
+    "Artist": "John Barrow",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:A_voyage_to_Cochinchina_in_the_years_1792_and_1793_-_Faifo.jpg",
+    "description": "File:A voyage to Cochinchina in the years 1792 and 1793 - Faifo.jpg",
+    "archiveDate": "1806",
+    "archiveTitle": "File:A voyage to Cochinchina in the years 1792 and 1793 - Faifo.jpg",
+    "imageDescription": "A voyage to Cochinchina in the years 1792 and 1793: Faifo"
+  },
+  "time-george-town-archive": {
+    "Artist": "Sir Home Riggs Popham",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Map_of_Early_Penang_Showing_the_Malay_Town_on_the_South_of_the_Town_Center_by_Popham_1799.jpg",
+    "description": "File:The Map of Early Penang Showing the Malay Town on the South of the Town Center by Popham 1799.jpg",
+    "archiveDate": "1799",
+    "archiveTitle": "File:The Map of Early Penang Showing the Malay Town on the South of the Town Center by Popham 1799.jpg",
+    "imageDescription": "The Map of Early Penang Showing the Malay Town on the South of the Town Center by Popham 1799"
+  },
+  "time-george-town-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:HundenvonPenang&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:HundenvonPenang (page does not exist)\">HundenvonPenang</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_George_Town,_Penang_at_night_Nov2024-29-17.jpg",
+    "description": "George Town, Penang"
+  },
+  "time-grand-bassam-archive": {
+    "Artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Grand-Bassam-Au_bord_de_la_lagune.jpg",
+    "description": "File:Grand-Bassam-Au bord de la lagune.jpg",
+    "archiveDate": "circa 1905<div style=\"display: none;\">date QS:P,+1905-00-00T00:00:00Z/9,P1480,Q5727902</div>",
+    "archiveTitle": "File:Grand-Bassam-Au bord de la lagune.jpg",
+    "imageDescription": "*<i>Grand-Bassam. Au bord de la lagune</i>.\n<ul><li>Collection G. P.</li>\n<li>Colonies françaises. Côte d'Ivoire</li></ul>"
+  },
+  "time-grand-bassam-modern": {
+    "Artist": "Joker-x <a class=\"external free\" data-mw-original-href=\"http://fr.wikipedia.org/wiki/User:Joker-x\" href=\"https://fr.wikipedia.org/wiki/User:Joker-x\">http://fr.wikipedia.org/wiki/User:Joker-x</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:800px-Grand-Bassam.jpg",
+    "description": "Grand-Bassam"
+  },
+  "time-cidade-velha-archive": {
+    "Artist": "<div class=\"fn value\">\nLeonardo de Ferrari</div>",
+    "LicenseShortName": "Public domain",
+    "LicenseUrl": "",
+    "AttributionRequired": "false",
+    "source": "https://commons.wikimedia.org/wiki/File:Planta_de_la_Ciudade_Cabo_Verde.jpg",
+    "description": "File:Planta de la Ciudade Cabo Verde.jpg",
+    "archiveDate": "1655",
+    "archiveTitle": "File:Planta de la Ciudade Cabo Verde.jpg",
+    "imageDescription": "Planta de la Ciudade Cabo Verde\n<p>Antiga Ribeira Grande, Cidade Velha, ilha de Santiago, Cabo Verde.\nVista aguarelada.\nAtlas de Leonardo de Ferrari.\n</p>\nArquivo Militar de Estocolmo, Krigsarkivet, (Handritade Kartverk, cota 51-36 1655), Suécia."
+  },
+  "time-cidade-velha-modern": {
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cayambe\" title=\"User:Cayambe\">Cayambe</a>",
+    "LicenseShortName": "CC BY-SA 3.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "AttributionRequired": "true",
+    "source": "https://commons.wikimedia.org/wiki/File:Cidade_Velha_Pelourinho_square_b_2011.jpg",
+    "description": "Cidade Velha"
   }
 }
