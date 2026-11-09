@@ -82,6 +82,7 @@ export default function ThreePins({ onBack }) {
     <p>Find the mystery city in three guesses. Land within {tolerance} km to solve it.</p>
     <div className="tp-layout">
       <figure>
+        {!done && <p className="tp-map-instruction">Tap the map, then confirm your pin below.</p>}
         <svg viewBox={`0 0 ${width} ${height}`} role="group" aria-label="Guessing map. Use the arrow keys to move your pin, then confirm below."
           tabIndex={done ? -1 : 0} onClick={choose} onKeyDown={move}>
           <path d={coastline} fill="#577766" stroke="#acc1a5" strokeWidth="1" fillRule="evenodd"/>
@@ -104,6 +105,10 @@ export default function ThreePins({ onBack }) {
             <text x={project(target)[0] + 8} y={project(target)[1] - 8}>Valencia</text>
           </g>}
         </svg>
+        {!done && <div className="tp-pin-controls">
+          <button disabled={!candidate} onClick={confirm}><MapPin size={18}/> Place pin {pins.length + 1}</button>
+          <span role="status">{candidate ? 'Pin selected. Tap again to move it, or confirm.' : 'Choose a spot on the map to enable the button.'}</span>
+        </div>}
         <figcaption>Coastlines from <a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth</a> · Distances measured as the crow flies</figcaption>
       </figure>
       <section className="tp-panel">
@@ -119,10 +124,7 @@ export default function ThreePins({ onBack }) {
         {done ? <>
           <p><a href="https://blog.visitvalencia.com/en/erasmus-in-valencia">Explore the Turia Garden</a></p>
           <button onClick={() => { setPins([]); setCandidate(null); }}>Reset the map</button>
-        </> : <>
-          <p>{candidate ? `Selected: ${candidate[0].toFixed(2)}°, ${candidate[1].toFixed(2)}°` : 'Tap the map to choose your next pin.'}</p>
-          <button disabled={!candidate} onClick={confirm}><MapPin size={16}/> Place pin {pins.length + 1}</button>
-        </>}
+        </> : null}
       </section>
     </div>
   </section>;
