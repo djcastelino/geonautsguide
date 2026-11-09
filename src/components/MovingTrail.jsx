@@ -4,23 +4,23 @@ import './MovingTrail.css';
 
 const legs = [
   {
-    from: 'Istanbul', clue: 'The courier’s ticket was booked for an inland destination.',
-    witness: '“They said they were headed to the capital of Türkiye.”',
-    stops: [['Bursa', 'Coach', 170, 165], ['Ankara', 'Train', 425, 130], ['İzmir', 'Coach', 105, 235]],
-    origin: [125, 80], correct: 'Ankara',
-    reason: 'Ankara is Türkiye’s capital, and the case manifest shows a train from Istanbul.',
+    from: 'Istanbul', clue: 'The booking record shows a rail ticket.',
+    witness: '“Their destination was east of Istanbul.”',
+    stops: [['Kayseri', 'Coach', 465, 205], ['Ankara', 'Train', 360, 125], ['Edirne', 'Train', 80, 105]],
+    origin: [225, 80], correct: 'Ankara',
+    reason: 'Both Ankara and Kayseri are east of Istanbul. Ankara is the one reached by rail in the case manifest.',
   },
   {
-    from: 'Ankara', clue: '“The courier took a ferry to Konya.”',
-    witness: '“I saw a train ticket to Konya in their coat pocket.”',
+    from: 'Ankara', clue: '“The courier boarded a ferry out of Ankara.”',
+    witness: '“They boarded a train bound almost due south.”',
     stops: [['Eskişehir', 'Train', 150, 120], ['Kayseri', 'Coach', 450, 160], ['Konya', 'Train', 285, 235]],
     origin: [285, 75], correct: 'Konya',
-    reason: 'The ferry account conflicts with the manifest. The recorded connection to Konya is by train.',
+    reason: 'Two rail routes leave Ankara in the case manifest. Eskişehir lies mostly west, while Konya is almost due south.',
   },
   {
-    from: 'Konya', clue: 'The transfer slip names a railway stop northwest of Konya.',
+    from: 'Konya', clue: 'The transfer slip points northwest of Konya.',
     witness: '“The handoff is in a city on the Porsuk River.”',
-    stops: [['Ankara', 'Train', 430, 65], ['Eskişehir', 'Train', 180, 90, 'Porsuk River'], ['Karaman', 'Train', 390, 240]],
+    stops: [['Afyonkarahisar', 'Train', 108, 135], ['Eskişehir', 'Train', 195, 65, 'Porsuk River'], ['Karaman', 'Train', 390, 240]],
     origin: [300, 175], correct: 'Eskişehir',
     reason: 'Eskişehir is northwest of Konya, and the Porsuk runs through it.',
   },
@@ -37,7 +37,7 @@ export default function MovingTrail({ onBack }) {
   function travel(city) {
     const correct = city === leg.correct;
     setSolved(correct);
-    setMessage(correct ? leg.reason : `The courier wasn’t in ${city}. Check both clues against the map and try again.`);
+    setMessage(correct ? leg.reason : `The courier wasn’t in ${city}. Compare the direction and route details on the map, then try again.`);
   }
 
   function advance() {
@@ -103,8 +103,8 @@ export default function MovingTrail({ onBack }) {
             <button onClick={() => setEvidence('train')}>The train account</button>
           </div>}
           <div aria-live="polite">
-            {index === 1 && evidence === 'train' && <p>Check the route labels. Does the map show a train to Konya?</p>}
-            {index === 1 && evidence === 'ferry' && <p><strong>Bad lead caught.</strong> There’s no ferry to Konya in the case manifest.</p>}
+            {index === 1 && evidence === 'train' && <p>Compare the two accounts with the transport labels on the map.</p>}
+            {index === 1 && evidence === 'ferry' && <p><strong>Bad lead caught.</strong> The case manifest shows rail and coach departures from Ankara. Use the remaining account to choose a route.</p>}
             {message && <p>{message}</p>}
           </div>
           {solved ? <button onClick={advance}>{index === legs.length - 1 ? 'Recover the map' : 'Follow the trail'} <ArrowRight size={16}/></button>
