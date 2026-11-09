@@ -16,3 +16,24 @@
 .mt-actions p { width: 100%; }
 .mt-complete { margin: 24px 5%; }
 @media (max-width: 760px) { .mt-layout { grid-template-columns: minmax(0, 1fr); } }
+.mt-intro { min-height: clamp(300px, 43vw, 480px); display: grid; align-content: end; background: linear-gradient(0deg,#142a26 4%,#142a26b3 45%,#142a2633 100%), url('/images/connections/time-istanbul-modern.jpg') center 45% / cover; }
+.mt-intro p { max-width: 55ch; }
+.mt-proof { display: grid; gap: 10px; }
+.mt-proof label { display: grid; gap: 5px; font-size: 13px; }
+.mt-proof select { min-height: 44px; background: #fffdf4; color: #203831; border: 1px solid #758678; padding: 6px 10px; }
+.mt-proof button:disabled { opacity: .5; cursor: default; }
+.mt-evidence { margin: 0 5% 20px; border: 1px solid #c8cbbd; padding: 16px; background: #fffdf4; }
+.mt-evidence summary { cursor: pointer; font-weight: bold; }
+.mt-evidence > div { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }
+.mt-evidence article { flex: 1 1 210px; background: #efe8d2; padding: 12px 16px; }
+.mt-credit { margin: 0 5%; padding-bottom: 20px; font-size: 12px; }
+.mt-credit a { color: inherit; }
+.mt-lockers { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; max-width: 620px; margin-top: 20px; }
+.mt-lockers button { display: flex; flex-direction: column; justify-content: start; text-align: center; }
+.mt-lockers svg { width: 100%; max-width: 120px; fill: #324d43; stroke: #e8ef99; stroke-width: 2px; }
+.mt-lockers small { font-size: 11px; }
+.mt-travel { stroke-dasharray: 100; animation: mt-draw 850ms ease-out both; }
+.mt-recovered { background: #e9d9af; color: #263d33; padding: 24px; font-family: Georgia,serif; transform-origin: top; animation: mt-unfold 650ms ease-out both; }
+@keyframes mt-draw { from { stroke-dashoffset: 100; } to { stroke-dashoffset: 0; } }
+@keyframes mt-unfold { from { transform: scaleY(.15); opacity: .3; } to { transform: scaleY(1); opacity: 1; } }
+@media(prefers-reduced-motion: reduce) { .mt-travel,.mt-recovered { animation: none; } }

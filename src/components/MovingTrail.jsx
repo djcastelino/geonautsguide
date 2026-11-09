@@ -2,17 +2,23 @@ import { useState } from 'react';
 import { ArrowLeft, ArrowRight, Compass } from 'lucide-react';
 import './MovingTrail.css';
 
+const lockers = [
+  ['Swallow', 'A fork-tailed bird in flight'],
+  ['Heron', 'A long-legged bird waiting in shallow water'],
+  ['Owl', 'A round-eyed bird on a branch'],
+];
+
 const legs = [
   {
-    from: 'Istanbul', clue: 'The booking record shows a rail ticket.',
+    from: 'Istanbul', clue: 'The booking record shows a rail ticket. On the back, someone wrote: “If I’m delayed, leave it with the bird that fishes.”',
     witness: '“Their destination was east of Istanbul.”',
     stops: [['Kayseri', 'Coach', 465, 205], ['Ankara', 'Train', 360, 125], ['Edirne', 'Train', 80, 105]],
     origin: [225, 80], correct: 'Ankara',
     reason: 'Both Ankara and Kayseri are east of Istanbul. Ankara is the one reached by rail in the case manifest.',
   },
   {
-    from: 'Ankara', clue: '“The courier boarded a ferry out of Ankara.”',
-    witness: '“They boarded a train bound almost due south.”',
+    from: 'Ankara', clue: '“I watched the courier board from the east concourse at 20:20.”',
+    witness: '“The train was bound almost due south. I saw the courier from the main hall.”',
     stops: [['Eskişehir', 'Train', 150, 120], ['Kayseri', 'Coach', 450, 160], ['Konya', 'Train', 285, 235]],
     origin: [285, 75], correct: 'Konya',
     reason: 'Two rail routes leave Ankara in the case manifest. Eskişehir lies mostly west, while Konya is almost due south.',
@@ -31,6 +37,9 @@ export default function MovingTrail({ onBack }) {
   const [evidence, setEvidence] = useState('');
   const [message, setMessage] = useState('');
   const [solved, setSolved] = useState(false);
+  const [proof, setProof] = useState('');
+  const [proofMessage, setProofMessage] = useState('');
+  const [locker, setLocker] = useState(false);
   const [complete, setComplete] = useState(false);
   const leg = legs[index];
 
@@ -42,7 +51,8 @@ export default function MovingTrail({ onBack }) {
 
   function advance() {
     if (index === legs.length - 1) {
-      setComplete(true);
+      setLocker(true);
+      setMessage('');
       return;
     }
     setIndex(index + 1);
@@ -57,6 +67,9 @@ export default function MovingTrail({ onBack }) {
     setMessage('');
     setSolved(false);
     setComplete(false);
+    setLocker(false);
+    setProof('');
+    setProofMessage('');
   }
 
   return <div className="tt-page mt-page">
@@ -73,8 +86,18 @@ export default function MovingTrail({ onBack }) {
       {complete ? <section className="mt-panel mt-complete" aria-live="polite">
         <p className="tt-eyebrow">CASE CLOSED</p>
         <h2>Map recovered in Eskişehir.</h2>
-        <p>You traced the courier from Istanbul through Ankara and Konya, and caught a ferry story that didn’t fit the evidence.</p>
+        <div className="mt-recovered" aria-label="Recovered map">Istanbul → Ankara → Konya → Eskişehir</div>
+        <p>You traced the courier from Istanbul through Ankara and Konya, and proved a witness’s timeline couldn’t be right.</p>
         <button onClick={reset}>Reopen the case</button>
+      </section> : locker ? <section className="mt-panel mt-complete">
+        <p className="tt-eyebrow">ESKİŞEHİR · LEFT LUGGAGE</p>
+        <h2>Three lockers. One handoff.</h2>
+        <p>Each locker has a different emblem. The courier left instructions somewhere in the evidence.</p>
+        <div className="mt-lockers">{lockers.map(([name, detail], i) => <button key={name} onClick={() => {
+          if (name === 'Heron') setComplete(true);
+          else setMessage(`The ${name.toLowerCase()} locker is empty. Look back at the courier’s note.`);
+        }}><svg viewBox="0 0 120 110" aria-hidden="true"><rect x="18" y="8" width="84" height="94" rx="5"/><path d={['M32 51 Q50 27 60 48 Q71 27 88 49 L67 57 L61 69 L55 57 Z','M53 72 L53 55 Q46 50 57 45 Q69 39 62 31 L83 30 L67 36 Q75 48 62 53 L62 72 M35 78 H88','M39 38 L48 44 Q60 36 72 44 L81 38 V62 Q60 82 39 62 Z M46 53 H54 M66 53 H74'][i]}/><circle cx="91" cy="76" r="3"/></svg><strong>{name}</strong><small>{detail}</small></button>)}</div>
+        <p role="status">{message}</p>
       </section> : <div className="mt-layout">
         <figure className="mt-map">
           <figcaption>CASE ROUTE MAP · FROM {leg.from.toUpperCase()}</figcaption>
@@ -83,7 +106,7 @@ export default function MovingTrail({ onBack }) {
             <rect width="560" height="290" fill="url(#mt-grid)"/>
             <text x="520" y="32" textAnchor="middle">↑ N</text>
             {leg.stops.map(([city, mode, x, y, detail]) => <g key={city}>
-              <line x1={leg.origin[0]} y1={leg.origin[1]} x2={x} y2={y} stroke={solved && city === leg.correct ? '#e8ef99' : '#91b4a2'} strokeWidth="2" strokeDasharray={mode === 'Coach' ? '5 5' : undefined}/>
+              <line className={solved && city === leg.correct ? 'mt-travel' : undefined} pathLength="100" x1={leg.origin[0]} y1={leg.origin[1]} x2={x} y2={y} stroke={solved && city === leg.correct ? '#e8ef99' : '#91b4a2'} strokeWidth="2" strokeDasharray={mode === 'Coach' ? '5 5' : undefined}/>
               <circle cx={x} cy={y} r="6" fill="#e8ef99"/>
               <text x={x} y={y + 25} textAnchor="middle">{city} · {mode}</text>
               {detail && <text x={x} y={y + 45} textAnchor="middle">{detail}</text>}
@@ -97,20 +120,29 @@ export default function MovingTrail({ onBack }) {
           <p className="tt-eyebrow">LEG {index + 1} / {legs.length} · {leg.from}</p>
           <h2>{index === 1 ? 'Two witnesses disagree.' : 'Where did the courier go?'}</h2>
           <ol><li>{leg.clue}</li><li>{leg.witness}</li></ol>
-          {index === 1 && evidence !== 'ferry' && <div className="mt-actions">
-            <p>Which account conflicts with the map?</p>
-            <button onClick={() => setEvidence('ferry')}>The ferry account</button>
-            <button onClick={() => setEvidence('train')}>The train account</button>
+          {index === 1 && evidence !== 'proven' && <div className="mt-proof">
+            <p><strong>Station notice</strong> · East concourse closed from 20:00 to 22:00. Main hall open.</p>
+            <label>Challenge an account<select value={evidence} onChange={event => setEvidence(event.target.value)}><option value="">Choose a witness</option><option value="east">East concourse sighting</option><option value="south">Southbound train sighting</option></select></label>
+            <label>Choose your evidence<select value={proof} onChange={event => setProof(event.target.value)}><option value="">Choose a document</option><option value="notice">Station closure notice</option><option value="routes">Route manifest</option></select></label>
+            <button disabled={!evidence || !proof} onClick={() => {
+              if (evidence === 'east' && proof === 'notice') { setEvidence('proven'); setProofMessage(''); }
+              else setProofMessage('That pairing doesn’t prove a contradiction. Compare the time and place in each account.');
+            }}>Check the evidence</button>
           </div>}
           <div aria-live="polite">
-            {index === 1 && evidence === 'train' && <p>Compare the two accounts with the transport labels on the map.</p>}
-            {index === 1 && evidence === 'ferry' && <p><strong>Bad lead caught.</strong> The case manifest shows rail and coach departures from Ankara. Use the remaining account to choose a route.</p>}
+            {proofMessage && <p>{proofMessage}</p>}
+            {index === 1 && evidence === 'proven' && <p><strong>Bad lead caught.</strong> The east concourse was closed at 20:20. Follow the other account.</p>}
             {message && <p>{message}</p>}
           </div>
-          {solved ? <button onClick={advance}>{index === legs.length - 1 ? 'Recover the map' : 'Follow the trail'} <ArrowRight size={16}/></button>
-            : (index !== 1 || evidence === 'ferry') && <div className="mt-actions">{leg.stops.map(([city]) => <button key={city} onClick={() => travel(city)}>Travel to {city}</button>)}</div>}
+          {solved ? <button onClick={advance}>{index === legs.length - 1 ? 'Inspect the lockers' : 'Follow the trail'} <ArrowRight size={16}/></button>
+            : (index !== 1 || evidence === 'proven') && <div className="mt-actions">{leg.stops.map(([city]) => <button key={city} onClick={() => travel(city)}>Travel to {city}</button>)}</div>}
         </section>
       </div>}
+      <details className="mt-evidence">
+        <summary>Evidence file · {Math.min(index + 1, legs.length) * 2} clues</summary>
+        <div>{legs.slice(0, index + 1).map(item => <article key={item.from}><p className="tt-eyebrow">{item.from}</p><p>{item.clue}</p><p>{item.witness}</p></article>)}</div>
+      </details>
+      <p className="mt-credit">Istanbul photograph by <a href="https://commons.wikimedia.org/wiki/File:Galata_Bridge_from_Galata_Tower.JPG">Rrburke</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · Cropped and shaded for display.</p>
     </main>
   </div>;
 }
