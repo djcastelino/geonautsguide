@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Compass } from 'lucide-react';
-import IstanbulArrival from './IstanbulArrival';
 import { playArrivalSound } from './arrivalSound';
 import './MovingTrail.css';
 
@@ -51,7 +50,7 @@ export default function MovingTrail({ onBack }) {
   useEffect(() => {
     if (!opened) return;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const timer = window.setTimeout(() => caseHeading.current?.focus(), reduced ? 0 : 1550);
+    const timer = window.setTimeout(() => caseHeading.current?.focus(), reduced ? 0 : 1050);
     return () => window.clearTimeout(timer);
   }, [opened]);
 
@@ -93,7 +92,6 @@ export default function MovingTrail({ onBack }) {
       <section className={`mt-intro ${opened ? 'mt-arrived' : ''}`}>
         <div className="mt-city-scene" aria-hidden="true">
           <div className="mt-city-photo"/>
-          <IstanbulArrival opened={opened}/>
           <div className="mt-city-shade"/>
         </div>
         <div className="mt-opening-copy">
@@ -105,7 +103,7 @@ export default function MovingTrail({ onBack }) {
           if (sound) playArrivalSound();
         }}>Open the case <ArrowRight size={18}/></button>}
         {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => setSound(!sound)}>Sound {sound ? 'on' : 'off'}</button>}
-        <p className="mt-scene-label">Illustrated 3D waterfront · Istanbul</p>
+        <p className="mt-scene-label">Istanbul · AI-generated scene</p>
         </div>
       </section>
       {opened && <div className="mt-dossier">
@@ -170,7 +168,7 @@ export default function MovingTrail({ onBack }) {
         <div>{legs.slice(0, index + 1).map(item => <article key={item.from}><p className="tt-eyebrow">{item.from}</p><p>{item.clue}</p><p>{item.witness}</p></article>)}</div>
       </details>
       </div>}
-      <p className="mt-credit">Istanbul photograph by <a href="https://commons.wikimedia.org/wiki/File:Galata_Bridge_from_Galata_Tower.JPG">Rrburke</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · Fallback photograph cropped and shaded for display. The 3D waterfront is an illustration.</p>
+      <p className="mt-credit">Opening artwork is an AI-generated illustration of the fictional case.</p>
     </main>
   </div>;
 }

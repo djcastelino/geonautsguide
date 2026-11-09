@@ -39,27 +39,20 @@
 @media(prefers-reduced-motion: reduce) { .mt-travel,.mt-recovered { animation: none; } }
 
 .mt-intro { position: relative; isolation: isolate; overflow: hidden; min-height: clamp(420px, 68vh, 720px); background: #172d2d; }
-.mt-city-scene, .mt-city-photo, .mt-city-haze, .mt-city-shade { position: absolute; inset: 0; pointer-events: none; }
+.mt-city-scene, .mt-city-photo, .mt-city-shade { position: absolute; inset: 0; pointer-events: none; }
 .mt-city-scene { z-index: -1; }
-.mt-city-photo { background: url('/images/connections/time-istanbul-modern.jpg') center 48% / cover; filter: saturate(.7) brightness(.76); transform: scale(1.035); transform-origin: 62% 64%; }
-.mt-city-haze { background: linear-gradient(153deg,#d0a36b38, transparent 54%,#20404a46); mix-blend-mode: screen; }
-.mt-city-shade { background: linear-gradient(90deg,#112522e8, #1125227a 47%, transparent 85%),linear-gradient(0deg,#142a26 1%,transparent 42%); }
-.mt-ferry { position: absolute; width: clamp(210px, 40%, 620px); right: 1%; bottom: 9%; filter: drop-shadow(0 12px 10px #132a2c70); }
-.mt-wake { fill: none; stroke: #d9dbbe; stroke-width: 2; opacity: .55; }
+.mt-city-photo { background: url('/images/moving-trail/istanbul-opening.jpg') 66% center / cover; transform-origin: 72% 79%; }
+.mt-city-shade { background: linear-gradient(90deg,#08171866, transparent 65%),linear-gradient(0deg,#081718aa,transparent 48%); }
 .mt-arrived .mt-city-photo { animation: mt-camera 1050ms cubic-bezier(.2,.65,.2,1) both; }
-.mt-arrived .mt-ferry { animation: mt-foreground 1050ms cubic-bezier(.2,.65,.2,1) both; }
 .mt-opening-copy { max-width: 800px; padding-bottom: 18px; }
 .mt-open { display: inline-flex; align-items: center; gap: 14px; margin-top: 12px; padding: 14px 19px; min-height: 48px; border: 0; background: #e8ef99; color: #203831; }
 .mt-dossier { animation: mt-arrival 850ms ease-out both; }
 .mt-dossier-heading { padding: 24px 5% 0; margin: 0; font: 400 32px Georgia, serif; }
 .mt-dossier-heading span { margin-left: 10px; font: 600 11px Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
-@keyframes mt-camera { from { transform: scale(1.035); } to { transform: scale(1.22) translate(-1%,2%); } }
-@keyframes mt-foreground { from { transform: translate(0,0); } to { transform: translate(19%,11%) scale(1.2); } }
+@keyframes mt-camera { from { transform: scale(1); } to { transform: scale(1.12); } }
 @keyframes mt-arrival { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-@media (max-width: 760px) { .mt-city-shade { background: linear-gradient(0deg,#142a26 3%,#142a26b8 42%,transparent 83%); } .mt-ferry { bottom: 35%; } }
-@media (prefers-reduced-motion: reduce) { .mt-arrived .mt-city-photo,.mt-arrived .mt-ferry,.mt-dossier { animation: none; } }
-.mt-webgl { position: absolute; inset: 0; }
-.mt-webgl canvas { display: block; width: 100%; height: 100%; }
+@media (max-width: 760px) { .mt-city-shade { background: linear-gradient(0deg,#142a26 3%,#142a26b8 42%,transparent 83%); } }
+@media (prefers-reduced-motion: reduce) { .mt-arrived .mt-city-photo,.mt-dossier { animation: none; } }
 .mt-sound { min-height: 48px; margin-left: 12px; padding: 10px 14px; border: 1px solid #e8ef99; background: #172d2d; color: #fff; }
 .mt-scene-label { color: #e8e3cf; font-size: 12px; }
 .mt-dossier-heading { scroll-margin-top: 16px; }
