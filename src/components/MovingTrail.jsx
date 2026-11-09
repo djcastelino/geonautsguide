@@ -35,6 +35,12 @@ const legs = [
 
 export default function MovingTrail({ onBack }) {
   const [sound, setSound] = useState(false);
+  const [soundError, setSoundError] = useState('');
+
+  function previewSound() {
+    setSoundError('');
+    void playArrivalSound().catch(() => setSoundError('Sound could not play in this browser.'));
+  }
   const [opened, setOpened] = useState(false);
   const caseHeading = useRef(null);
   const [index, setIndex] = useState(0);
@@ -100,9 +106,10 @@ export default function MovingTrail({ onBack }) {
         <p>A rare map has vanished from an exhibition in Istanbul. Follow the courier and recover it before the handoff.</p>
         {!opened && <button className="mt-open" onClick={() => {
           setOpened(true);
-          if (sound) playArrivalSound();
+          if (sound) previewSound();
         }}>Open the case <ArrowRight size={18}/></button>}
-        {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => setSound(!sound)}>Sound {sound ? 'on' : 'off'}</button>}
+        {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (!sound) previewSound(); }}>Sound {sound ? 'on' : 'off'}</button>}
+        {soundError && <p role="status">{soundError}</p>}
         <p className="mt-scene-label">Istanbul · AI-generated scene</p>
         </div>
       </section>
