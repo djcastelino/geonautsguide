@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Compass } from 'lucide-react';
-import { playArrivalSound } from './arrivalSound';
 import './MovingTrail.css';
 
 const lockers = [
@@ -36,10 +35,14 @@ const legs = [
 export default function MovingTrail({ onBack }) {
   const [sound, setSound] = useState(false);
   const [soundError, setSoundError] = useState('');
+  const horn = useRef(null);
 
   function previewSound() {
     setSoundError('');
-    void playArrivalSound().catch(() => setSoundError('Sound could not play in this browser.'));
+    const player = horn.current;
+    if (!player) return;
+    player.currentTime = 0;
+    void player.play().catch(() => setSoundError('Use the audio player to play the horn directly.'));
   }
   const [opened, setOpened] = useState(false);
   const caseHeading = useRef(null);
@@ -108,7 +111,8 @@ export default function MovingTrail({ onBack }) {
           setOpened(true);
           if (sound) previewSound();
         }}>Open the case <ArrowRight size={18}/></button>}
-        {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (!sound) previewSound(); }}>Sound {sound ? 'on' : 'off'}</button>}
+        {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (!sound) previewSound(); else horn.current?.pause(); }}>Sound {sound ? 'on' : 'off'}</button>}
+        <audio ref={horn} controls hidden={!sound || opened} preload="auto" src="/audio/moving-trail-horn.wav" aria-label="Play ferry horn"/>
         {soundError && <p role="status">{soundError}</p>}
         <p className="mt-scene-label">Istanbul · AI-generated scene</p>
         </div>
