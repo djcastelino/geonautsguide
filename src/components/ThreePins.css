@@ -1,0 +1,20 @@
+.tp-page { padding: 32px 5% 56px; color: #f4f1e5; background: #203831; min-height: 75vh; }
+.tp-page h1 { font: 400 clamp(48px, 8vw, 92px)/1 Georgia, serif; margin: 12px 0; }
+.tp-page p { line-height: 1.6; }
+.tp-kicker { font-size: 11px; letter-spacing: .16em; font-weight: bold; }
+.tp-layout { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 20px; margin-top: 24px; }
+.tp-layout figure { margin: 0; min-width: 0; }
+.tp-layout svg { width: 100%; display: block; background: #152b37; cursor: crosshair; }
+.tp-layout svg text { fill: #fff; font: 12px Arial, sans-serif; paint-order: stroke; stroke: #172f2a; stroke-width: 2px; }
+.tp-layout figcaption { font-size: 12px; margin-top: 10px; }
+.tp-page a { color: inherit; text-decoration: underline; }
+.tp-panel { background: #f4f1e5; color: #203831; padding: 24px; }
+.tp-panel h2 { font: 400 34px/1.1 Georgia, serif; }
+.tp-panel ol { list-style: none; padding: 0; }
+.tp-panel button, .tp-back { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid currentColor; color: inherit; background: transparent; cursor: pointer; }
+.tp-panel button:disabled { opacity: .45; cursor: default; }
+.tp-back { margin-bottom: 20px; }
+.tp-page :focus-visible { outline: 3px solid #8da839; outline-offset: 3px; }
+@media (max-width: 760px) { .tp-layout { grid-template-columns: minmax(0, 1fr); } }
+
+.tp-entry { padding: 16px 5%; }

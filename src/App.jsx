@@ -11,13 +11,14 @@ import { JournalHeader, JournalFooter } from "./components/JournalShell";
 import LandmarkGrid from "./components/LandmarkGrid";
 import LandmarkDetail from "./components/LandmarkDetail";
 import TripPlanner from "./components/TripPlanner";
+import ThreePins from "./components/ThreePins";
 import CityGuess from "./components/CityGuess";
 import NotificationBanner from "./components/NotificationBanner";
 import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
-const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey", "worldquiz"].includes(value) ? value : "home"; };
+const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey", "worldquiz", "threepins"].includes(value) ? value : "home"; };
 
 function App() {
   const [view, setView] = useState(routeView);
@@ -137,7 +138,11 @@ function App() {
         )}
         {view === "about" && <About />}
         {view === "planner" && <TripPlanner />}
-        {view === "cityguess" && <CityGuess onWhyHere={(city) => onNavigate("whyhere", city)} />}
+        {view === "cityguess" && <>
+          <div className="tp-entry"><button className="journal-button" onClick={() => onNavigate("threepins")}>Try Three Pins</button></div>
+          <CityGuess onWhyHere={(city) => onNavigate("whyhere", city)} />
+        </>}
+        {view === "threepins" && <ThreePins onBack={() => onNavigate("cityguess")} />}
         {view === "detail" && selectedLandmark && narrationData && (
           <LandmarkDetail
             landmark={selectedLandmark}
