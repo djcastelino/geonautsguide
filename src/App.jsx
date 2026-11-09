@@ -11,13 +11,14 @@ import { JournalHeader, JournalFooter } from "./components/JournalShell";
 import LandmarkGrid from "./components/LandmarkGrid";
 import LandmarkDetail from "./components/LandmarkDetail";
 import TripPlanner from "./components/TripPlanner";
+import MovingTrail from "./components/MovingTrail";
 import CityGuess from "./components/CityGuess";
 import NotificationBanner from "./components/NotificationBanner";
 import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
 import "./components/Journal.css";
 
-const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey", "worldquiz"].includes(value) ? value : "home"; };
+const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey", "worldquiz", "movingtrail"].includes(value) ? value : "home"; };
 
 function App() {
   const [view, setView] = useState(routeView);
@@ -89,6 +90,7 @@ function App() {
       if (request === generation.current) setIsLoading(false);
     }
   };
+  if (view === "movingtrail") return <MovingTrail onBack={() => onNavigate("cityguess")} />;
   if (view === "worldquiz") return <WorldQuiz onHome={() => onNavigate("home")} />;
   if (view === "journey") return <FollowJourney onHome={() => onNavigate("home")} />;
   if (view === "throughtime") return <PlaceThroughTime key={whyCity} initialCity={whyCity} onHome={() => onNavigate("home")} onWhyHere={(city) => onNavigate("whyhere", city)} />;
@@ -137,7 +139,10 @@ function App() {
         )}
         {view === "about" && <About />}
         {view === "planner" && <TripPlanner />}
-        {view === "cityguess" && <CityGuess onWhyHere={(city) => onNavigate("whyhere", city)} />}
+        {view === "cityguess" && <>
+          <CityGuess onWhyHere={(city) => onNavigate("whyhere", city)} />
+          <div className="mt-complete"><button className="journal-button" onClick={() => onNavigate("movingtrail")}>Try The Moving Trail</button></div>
+        </>}
         {view === "detail" && selectedLandmark && narrationData && (
           <LandmarkDetail
             landmark={selectedLandmark}

@@ -1,0 +1,18 @@
+.mt-page { min-height: 100vh; }
+.mt-intro { padding: 32px 5%; background: #203831; color: #f5efdf; }
+.mt-intro h1 { font: 400 clamp(48px, 8vw, 96px)/1 Georgia, serif; margin: 12px 0; }
+.mt-intro em { color: #e8ef99; }
+.mt-layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; padding: 24px 5% 56px; }
+.mt-map { margin: 0; align-self: start; padding: 16px; background: #203831; color: #f5efdf; }
+.mt-map figcaption, .mt-map p { font-size: 13px; }
+.mt-map svg { display: block; width: 100%; margin-top: 12px; }
+.mt-map text { fill: #fff; font: 16px Arial, sans-serif; }
+.mt-panel { padding: 24px; background: #fffdf4; border: 1px solid #c8cbbd; }
+.mt-panel h2 { font: 400 30px/1.15 Georgia, serif; margin: 12px 0; }
+.mt-panel ol { padding-left: 22px; }
+.mt-panel li, .mt-panel p { margin: 8px 0; line-height: 1.55; }
+.mt-panel button { display: inline-flex; align-items: center; gap: 8px; padding: 10px 13px; min-height: 44px; background: #203831; color: #fff; border: 0; }
+.mt-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.mt-actions p { width: 100%; }
+.mt-complete { margin: 24px 5%; }
+@media (max-width: 760px) { .mt-layout { grid-template-columns: minmax(0, 1fr); } }
