@@ -1,5 +1,7 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Compass } from 'lucide-react';
+import IstanbulArrival from './IstanbulArrival';
+import { playArrivalSound } from './arrivalSound';
 import './MovingTrail.css';
 
 const lockers = [
@@ -33,6 +35,7 @@ const legs = [
 ];
 
 export default function MovingTrail({ onBack }) {
+  const [sound, setSound] = useState(false);
   const [opened, setOpened] = useState(false);
   const caseHeading = useRef(null);
   const [index, setIndex] = useState(0);
@@ -44,6 +47,13 @@ export default function MovingTrail({ onBack }) {
   const [locker, setLocker] = useState(false);
   const [complete, setComplete] = useState(false);
   const leg = legs[index];
+
+  useEffect(() => {
+    if (!opened) return;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const timer = window.setTimeout(() => caseHeading.current?.focus(), reduced ? 0 : 1550);
+    return () => window.clearTimeout(timer);
+  }, [opened]);
 
   function travel(city) {
     const correct = city === leg.correct;
@@ -83,14 +93,7 @@ export default function MovingTrail({ onBack }) {
       <section className={`mt-intro ${opened ? 'mt-arrived' : ''}`}>
         <div className="mt-city-scene" aria-hidden="true">
           <div className="mt-city-photo"/>
-          <div className="mt-city-haze"/>
-          <svg className="mt-ferry" viewBox="0 0 480 140">
-            <path className="mt-wake" d="M0 119 Q107 105 230 119 T480 120 M0 131 Q112 118 223 133 T480 132"/>
-            <path fill="#132a2c" d="M75 91 H405 L369 113 H114 Z"/>
-            <path fill="#d4c8a7" d="M113 90 V71 H142 V52 H319 L348 70 H373 V90 Z"/>
-            <path fill="#f6d793" d="M154 63 H181 V75 H154 Z M190 63 H217 V75 H190 Z M226 63 H253 V75 H226 Z M262 63 H289 V75 H262 Z M298 63 H319 V75 H298 Z"/>
-            <path fill="#233938" d="M220 52 L225 23 H230 L234 52 Z M135 48 H321 V52 H135 Z"/>
-          </svg>
+          <IstanbulArrival opened={opened}/>
           <div className="mt-city-shade"/>
         </div>
         <div className="mt-opening-copy">
@@ -99,8 +102,10 @@ export default function MovingTrail({ onBack }) {
         <p>A rare map has vanished from an exhibition in Istanbul. Follow the courier and recover it before the handoff.</p>
         {!opened && <button className="mt-open" onClick={() => {
           setOpened(true);
-          requestAnimationFrame(() => caseHeading.current?.focus({ preventScroll: true }));
+          if (sound) playArrivalSound();
         }}>Open the case <ArrowRight size={18}/></button>}
+        {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => setSound(!sound)}>Sound {sound ? 'on' : 'off'}</button>}
+        <p className="mt-scene-label">Illustrated 3D waterfront · Istanbul</p>
         </div>
       </section>
       {opened && <div className="mt-dossier">
@@ -165,7 +170,7 @@ export default function MovingTrail({ onBack }) {
         <div>{legs.slice(0, index + 1).map(item => <article key={item.from}><p className="tt-eyebrow">{item.from}</p><p>{item.clue}</p><p>{item.witness}</p></article>)}</div>
       </details>
       </div>}
-      <p className="mt-credit">Istanbul photograph by <a href="https://commons.wikimedia.org/wiki/File:Galata_Bridge_from_Galata_Tower.JPG">Rrburke</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · Cropped and shaded for display. Ferry foreground is an illustration.</p>
+      <p className="mt-credit">Istanbul photograph by <a href="https://commons.wikimedia.org/wiki/File:Galata_Bridge_from_Galata_Tower.JPG">Rrburke</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · Fallback photograph cropped and shaded for display. The 3D waterfront is an illustration.</p>
     </main>
   </div>;
 }

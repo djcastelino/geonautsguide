@@ -58,3 +58,8 @@
 @keyframes mt-arrival { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
 @media (max-width: 760px) { .mt-city-shade { background: linear-gradient(0deg,#142a26 3%,#142a26b8 42%,transparent 83%); } .mt-ferry { bottom: 35%; } }
 @media (prefers-reduced-motion: reduce) { .mt-arrived .mt-city-photo,.mt-arrived .mt-ferry,.mt-dossier { animation: none; } }
+.mt-webgl { position: absolute; inset: 0; }
+.mt-webgl canvas { display: block; width: 100%; height: 100%; }
+.mt-sound { min-height: 48px; margin-left: 12px; padding: 10px 14px; border: 1px solid #e8ef99; background: #172d2d; color: #fff; }
+.mt-scene-label { color: #e8e3cf; font-size: 12px; }
+.mt-dossier-heading { scroll-margin-top: 16px; }
