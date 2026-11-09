@@ -75,7 +75,7 @@ export default function ThreePins({ onBack }) {
     setCandidate(null);
   }
 
-  return <main className="tp-page">
+  return <section className="tp-page">
     <button className="tp-back" onClick={onBack}><ArrowLeft size={16}/> Daily City Guess</button>
     <p className="tp-kicker">MAP CHALLENGE · PREVIEW</p>
     <h1>Three Pins</h1>
@@ -117,7 +117,7 @@ export default function ThreePins({ onBack }) {
           {!done && pins.length > 0 && <p>{pins.length === 1 ? 'The city lies somewhere along the gold ring.' : 'Look where the rings meet. Which spot fits the clue?'}</p>}
         </div>
         {done ? <>
-          <p><a href="https://www.visitvalencia.com/en/what-to-do-valencia/nature-in-valencia/parks-and-gardens/turia-garden">Explore the Turia Garden</a></p>
+          <p><a href="https://blog.visitvalencia.com/en/erasmus-in-valencia">Explore the Turia Garden</a></p>
           <button onClick={() => { setPins([]); setCandidate(null); }}>Reset the map</button>
         </> : <>
           <p>{candidate ? `Selected: ${candidate[0].toFixed(2)}°, ${candidate[1].toFixed(2)}°` : 'Tap the map to choose your next pin.'}</p>
@@ -125,5 +125,5 @@ export default function ThreePins({ onBack }) {
         </>}
       </section>
     </div>
-  </main>;
+  </section>;
 }
