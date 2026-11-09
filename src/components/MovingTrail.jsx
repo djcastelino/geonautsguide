@@ -108,11 +108,11 @@ export default function MovingTrail({ onBack }) {
         <h1>The Missing <em>Map</em></h1>
         <p>A rare map has vanished from an exhibition in Istanbul. Follow the courier and recover it before the handoff.</p>
         {!opened && <button className="mt-open" onClick={() => {
-          setOpened(true);
           if (sound) previewSound();
+          setOpened(true);
         }}>Open the case <ArrowRight size={18}/></button>}
-        {!opened && <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (!sound) previewSound(); else horn.current?.pause(); }}>Sound {sound ? 'on' : 'off'}</button>}
-        <audio ref={horn} controls hidden={!sound || opened} preload="auto" src="/audio/moving-trail-horn.wav" aria-label="Play ferry horn"/>
+        <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (sound) horn.current?.pause(); }}>Sound {sound ? 'on' : 'off'}</button>
+        <audio ref={horn} controls hidden={!sound} preload="auto" src="/audio/moving-trail-horn.wav" aria-label="Play ferry horn"/>
         {soundError && <p role="status">{soundError}</p>}
         <p className="mt-scene-label">Istanbul · AI-generated scene</p>
         </div>
