@@ -44,6 +44,10 @@ export default function MovingTrail({ onBack }) {
     player.currentTime = 0;
     void player.play().catch(() => setSoundError('Use the audio player to play the horn directly.'));
   }
+  const [departing, setDeparting] = useState(false);
+  const [hint, setHint] = useState(false);
+  const chime = useRef(null);
+  const station = useRef(null);
   const [opened, setOpened] = useState(false);
   const caseHeading = useRef(null);
   const [index, setIndex] = useState(0);
@@ -63,6 +67,19 @@ export default function MovingTrail({ onBack }) {
     return () => window.clearTimeout(timer);
   }, [opened]);
 
+  useEffect(() => {
+    if (!departing) return;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const timer = window.setTimeout(() => {
+      setDeparting(false);
+      setSolved(false);
+      setMessage('');
+      setIndex(1);
+      requestAnimationFrame(() => station.current?.focus());
+    }, reduced ? 0 : 1600);
+    return () => window.clearTimeout(timer);
+  }, [departing]);
+
   function travel(city) {
     const correct = city === leg.correct;
     setSolved(correct);
@@ -70,6 +87,11 @@ export default function MovingTrail({ onBack }) {
   }
 
   function advance() {
+    if (index === 0) {
+      if (sound) void chime.current?.play().catch(() => {});
+      setDeparting(true);
+      return;
+    }
     if (index === legs.length - 1) {
       setLocker(true);
       setMessage('');
@@ -83,6 +105,7 @@ export default function MovingTrail({ onBack }) {
 
   function reset() {
     setIndex(0);
+    setHint(false);
     setEvidence('');
     setMessage('');
     setSolved(false);
@@ -118,7 +141,10 @@ export default function MovingTrail({ onBack }) {
         </div>
       </section>
       {opened && <div className="mt-dossier">
+      <audio ref={chime} preload="auto" src="/audio/moving-trail-departure.wav"/>
       <h2 className="mt-dossier-heading" tabIndex={-1} ref={caseHeading}>Case file <span>01 · Istanbul</span></h2>
+      {index === 0 && <aside className="mt-brief"><span>FROM THE EXHIBITION CURATOR</span><p><strong>Agent Meridian,</strong> a rare map has vanished from our exhibition. We found a rail ticket and a witness account at the waterfront. Put them together and find the courier.</p></aside>}
+      {index === 1 && <section className="mt-station" ref={station} tabIndex={-1}><span>ARRIVAL BOARD · ANKARA</span><h2>Ankara Station</h2><p>Two witnesses are waiting. A station closure notice may help you decide whose account holds up.</p></section>}
       {complete ? <section className="mt-panel mt-complete" aria-live="polite">
         <p className="tt-eyebrow">CASE CLOSED</p>
         <h2>Map recovered in Eskişehir.</h2>
@@ -147,6 +173,11 @@ export default function MovingTrail({ onBack }) {
               <text x={x} y={y + 25} textAnchor="middle">{city} · {mode}</text>
               {detail && <text x={x} y={y + 45} textAnchor="middle">{detail}</text>}
             </g>)}
+            {departing && <g className="mt-train" aria-hidden="true">
+              <animateMotion dur="1.5s" fill="freeze" path="M225 80 L360 125"/>
+              <rect x="-13" y="-9" width="26" height="17" rx="5" fill="#f9db87"/>
+              <path d="M-7 -4H7V0H-7Z M-7 9L-10 12 M7 9L10 12" fill="#213a31" stroke="#213a31" strokeWidth="2"/>
+            </g>}
             <circle cx={leg.origin[0]} cy={leg.origin[1]} r="8" fill="#fff"/>
             <text x={leg.origin[0]} y={leg.origin[1] - 17} textAnchor="middle">{leg.from}</text>
           </svg>
@@ -155,7 +186,12 @@ export default function MovingTrail({ onBack }) {
         <section className="mt-panel" aria-label="Case evidence">
           <p className="tt-eyebrow">LEG {index + 1} / {legs.length} · {leg.from}</p>
           <h2>{index === 1 ? 'Two witnesses disagree.' : 'Where did the courier go?'}</h2>
-          <ol><li>{leg.clue}</li><li>{leg.witness}</li></ol>
+          {index === 0 ? <div className="mt-documents">
+            <details><summary>Rail ticket</summary><p>{leg.clue}</p></details>
+            <details><summary>Witness note</summary><p>{leg.witness}</p></details>
+            <button onClick={() => setHint(!hint)} aria-expanded={hint}>{hint ? 'Hide hint' : 'Show hint'}</button>
+            {hint && <p>Find the routes east of Istanbul, then check which of those use rail.</p>}
+          </div> : <ol><li>{leg.clue}</li><li>{leg.witness}</li></ol>}
           {index === 1 && evidence !== 'proven' && <div className="mt-proof">
             <p><strong>Station notice</strong> · East concourse closed from 20:00 to 22:00. Main hall open.</p>
             <label>Challenge an account<select value={evidence} onChange={event => setEvidence(event.target.value)}><option value="">Choose a witness</option><option value="east">East concourse sighting</option><option value="south">Southbound train sighting</option></select></label>
@@ -170,7 +206,7 @@ export default function MovingTrail({ onBack }) {
             {index === 1 && evidence === 'proven' && <p><strong>Bad lead caught.</strong> The east concourse was closed at 20:20. Follow the other account.</p>}
             {message && <p>{message}</p>}
           </div>
-          {solved ? <button onClick={advance}>{index === legs.length - 1 ? 'Inspect the lockers' : 'Follow the trail'} <ArrowRight size={16}/></button>
+          {solved ? <button onClick={advance} disabled={departing}>{departing ? 'Train en route…' : index === 0 ? 'Board the train' : index === legs.length - 1 ? 'Inspect the lockers' : 'Follow the trail'} <ArrowRight size={16}/></button>
             : (index !== 1 || evidence === 'proven') && <div className="mt-actions">{leg.stops.map(([city]) => <button key={city} onClick={() => travel(city)}>Travel to {city}</button>)}</div>}
         </section>
       </div>}

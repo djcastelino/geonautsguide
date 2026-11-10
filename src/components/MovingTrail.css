@@ -56,3 +56,17 @@
 .mt-sound { min-height: 48px; margin-left: 12px; padding: 10px 14px; border: 1px solid #e8ef99; background: #172d2d; color: #fff; }
 .mt-scene-label { color: #e8e3cf; font-size: 12px; }
 .mt-dossier-heading { scroll-margin-top: 16px; }
+
+.mt-brief,.mt-station { margin: 20px 5% 0; padding: 20px 24px; }
+.mt-brief { background: #eae1c7; border-left: 3px solid #947745; }
+.mt-brief span,.mt-station span { font: 600 11px Arial,sans-serif; letter-spacing: .16em; }
+.mt-brief p,.mt-station p { margin: 8px 0 0; max-width: 65ch; }
+.mt-station { background: #203831; color: #f5efdf; }
+.mt-station span { color: #f9db87; }
+.mt-station h2 { font: 400 36px Georgia,serif; margin: 8px 0; }
+.mt-documents { display: grid; gap: 10px; margin: 16px 0; }
+.mt-documents details { padding: 12px; background: #efe8d2; border: 1px solid #d3c5a3; }
+.mt-documents summary { cursor: pointer; font-weight: bold; }
+.mt-documents button { justify-self: start; }
+.mt-train { filter: drop-shadow(0 0 6px #f9db87); }
+@media (prefers-reduced-motion: reduce) { .mt-train { display: none; } }
