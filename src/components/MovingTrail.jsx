@@ -37,16 +37,16 @@ export default function MovingTrail({ onBack }) {
   const [soundError, setSoundError] = useState('');
   const horn = useRef(null);
 
-  function previewSound() {
+  function playSound(player) {
     setSoundError('');
-    const player = horn.current;
     if (!player) return;
     player.currentTime = 0;
-    void player.play().catch(() => setSoundError('Use the audio player to play the horn directly.'));
+    void player.play().catch(() => setSoundError('Sound could not play.'));
   }
   const [departing, setDeparting] = useState(false);
   const [hint, setHint] = useState(false);
   const chime = useRef(null);
+  const victory = useRef(null);
   const station = useRef(null);
   const [opened, setOpened] = useState(false);
   const caseHeading = useRef(null);
@@ -88,7 +88,7 @@ export default function MovingTrail({ onBack }) {
 
   function advance() {
     if (index === 0) {
-      if (sound) void chime.current?.play().catch(() => {});
+      if (sound) playSound(chime.current);
       setDeparting(true);
       return;
     }
@@ -131,17 +131,18 @@ export default function MovingTrail({ onBack }) {
         <h1>The Missing <em>Map</em></h1>
         <p>A rare map has vanished from an exhibition in Istanbul. Follow the courier and recover it before the handoff.</p>
         {!opened && <button className="mt-open" onClick={() => {
-          if (sound) previewSound();
+          if (sound) playSound(horn.current);
           setOpened(true);
         }}>Open the case <ArrowRight size={18}/></button>}
-        <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (sound) horn.current?.pause(); }}>Sound {sound ? 'on' : 'off'}</button>
-        <audio ref={horn} controls hidden={!sound} preload="auto" src="/audio/moving-trail-horn.wav" aria-label="Play ferry horn"/>
+        <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (sound) [horn, chime, victory].forEach(clip => clip.current?.pause()); }}>Sound {sound ? 'on' : 'off'}</button>
+        <audio ref={horn} hidden preload="auto" src="/audio/moving-trail-horn.wav" aria-label="Play ferry horn"/>
         {soundError && <p role="status">{soundError}</p>}
         <p className="mt-scene-label">Istanbul · AI-generated scene</p>
         </div>
       </section>
       {opened && <div className="mt-dossier">
-      <audio ref={chime} preload="auto" src="/audio/moving-trail-departure.wav"/>
+      <audio ref={victory} hidden preload="auto" src="/audio/moving-trail-victory.wav"/>
+      <audio ref={chime} hidden preload="auto" src="/audio/moving-trail-departure.wav"/>
       <h2 className="mt-dossier-heading" tabIndex={-1} ref={caseHeading}>Case file <span>01 · Istanbul</span></h2>
       {index === 0 && <aside className="mt-brief"><span>FROM THE EXHIBITION CURATOR</span><p><strong>Agent Meridian,</strong> a rare map has vanished from our exhibition. We found a rail ticket and a witness account at the waterfront. Put them together and find the courier.</p></aside>}
       {index === 1 && <section className="mt-station" ref={station} tabIndex={-1}><span>ARRIVAL BOARD · ANKARA</span><h2>Ankara Station</h2><p>Two witnesses are waiting. A station closure notice may help you decide whose account holds up.</p></section>}
@@ -156,7 +157,10 @@ export default function MovingTrail({ onBack }) {
         <h2>Three lockers. One handoff.</h2>
         <p>Each locker has a different emblem. The courier left instructions somewhere in the evidence.</p>
         <div className="mt-lockers">{lockers.map(([name, detail], i) => <button key={name} onClick={() => {
-          if (name === 'Heron') setComplete(true);
+          if (name === 'Heron') {
+            if (sound) playSound(victory.current);
+            setComplete(true);
+          }
           else setMessage(`The ${name.toLowerCase()} locker is empty. Look back at the courier’s note.`);
         }}><svg viewBox="0 0 120 110" aria-hidden="true"><rect x="18" y="8" width="84" height="94" rx="5"/><path d={['M32 51 Q50 27 60 48 Q71 27 88 49 L67 57 L61 69 L55 57 Z','M53 72 L53 55 Q46 50 57 45 Q69 39 62 31 L83 30 L67 36 Q75 48 62 53 L62 72 M35 78 H88','M39 38 L48 44 Q60 36 72 44 L81 38 V62 Q60 82 39 62 Z M46 53 H54 M66 53 H74'][i]}/><circle cx="91" cy="76" r="3"/></svg><strong>{name}</strong><small>{detail}</small></button>)}</div>
         <p role="status">{message}</p>
