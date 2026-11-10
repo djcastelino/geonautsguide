@@ -33,7 +33,10 @@ const legs = [
 ];
 
 export default function MovingTrail({ onBack }) {
-  const [sound, setSound] = useState(false);
+  const [sound, setSound] = useState(() => {
+    try { return window.localStorage.getItem('moving-trail-sound') !== 'muted'; }
+    catch { return true; }
+  });
   const [soundError, setSoundError] = useState('');
   const horn = useRef(null);
 
@@ -134,7 +137,12 @@ export default function MovingTrail({ onBack }) {
           if (sound) playSound(horn.current);
           setOpened(true);
         }}>Open the case <ArrowRight size={18}/></button>}
-        <button className="mt-sound" aria-pressed={sound} onClick={() => { setSound(!sound); if (sound) [horn, chime, victory].forEach(clip => clip.current?.pause()); }}>Sound {sound ? 'on' : 'off'}</button>
+        <button className="mt-sound" aria-pressed={!sound} onClick={() => {
+          setSound(!sound);
+          try { window.localStorage.setItem('moving-trail-sound', sound ? 'muted' : 'enabled'); }
+          catch { /* The sound choice still applies to this visit. */ }
+          if (sound) [horn, chime, victory].forEach(clip => clip.current?.pause());
+        }}>{sound ? 'Mute' : 'Unmute'}</button>
         <audio ref={horn} hidden preload="auto" src="/audio/moving-trail-horn.wav" aria-label="Play ferry horn"/>
         {soundError && <p role="status">{soundError}</p>}
         <p className="mt-scene-label">Istanbul · AI-generated scene</p>
