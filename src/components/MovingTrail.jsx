@@ -19,9 +19,9 @@ const legs = [
   {
     from: 'Ankara', clue: '“I watched the courier board from the east concourse at 20:20.”',
     witness: '“The train was bound almost due south. I saw the courier from the main hall.”',
-    stops: [['Eskişehir', 'Train', 150, 120], ['Kayseri', 'Coach', 450, 160], ['Konya', 'Train', 285, 235]],
+    stops: [['Bilecik', 'Train', 150, 120], ['Kayseri', 'Coach', 450, 160], ['Konya', 'Train', 285, 235]],
     origin: [285, 75], correct: 'Konya',
-    reason: 'Two rail routes leave Ankara in the case manifest. Eskişehir lies mostly west, while Konya is almost due south.',
+    reason: 'Two rail routes leave Ankara in the case manifest. Bilecik lies mostly west, while Konya is almost due south.',
   },
   {
     from: 'Konya', clue: 'The transfer slip points northwest of Konya.',
