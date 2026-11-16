@@ -3,6 +3,10 @@
     {
       "source": "/.well-known/assetlinks.json",
       "destination": "/api/assetlinks"
+    },
+    {
+      "source": "/api/umami/api/send",
+      "destination": "/api/umami-send"
     }
   ],
   "headers": [
