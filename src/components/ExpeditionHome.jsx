@@ -1,3 +1,4 @@
+import GeonautsFieldLab from "./GeonautsFieldLab";
 import { useState } from 'react';
 import { ArrowDown, ArrowRight, ArrowUpRight, Compass, Globe2, Headphones, Map, Search } from 'lucide-react';
 import LandmarkImage from './LandmarkImage';
@@ -69,6 +70,7 @@ export default function ExpeditionHome({ landmarks, featured, onExplore, onPlan,
         <div className="expedition-daily-copy"><p className="expedition-eyebrow">01 / TODAY’S FIELD NOTE</p><h2 id="daily-title">One place.<br />A thousand<br /><em>new details.</em></h2><div className="expedition-daily-name"><span>{featured.city}, {featured.country}</span><h3>{featured.name}</h3><p>{featured.description.replace(/[.!?]$/, '')}. Discover the history, the people, and the details you might otherwise walk past.</p></div><button className="expedition-button expedition-button-lime" onClick={() => onLandmarkSelect(featured)} disabled={isLoading}><Headphones size={18} /> Open today’s audio guide <ArrowUpRight size={18} /></button><p className="expedition-fine-print">AI-powered storytelling. A little more context for your curiosity.</p></div>
       </section>
 
+      <GeonautsFieldLab onOpenConnections={onConnections} onOpenThroughTime={onThroughTime} onOpenChallenge={onChallenge} />
       <section className="expedition-discoveries expedition-section" id="discoveries" aria-labelledby="discoveries-title">
         <div className="expedition-section-top"><p className="expedition-eyebrow dark-eyebrow">02 / FOLLOW YOUR CURIOSITY</p><span className="expedition-mono">{countries} COUNTRIES · ONE SHARED WORLD</span></div>
         <div className="expedition-section-heading"><h2 id="discoveries-title">Some places stay<br />with you <em>forever.</em></h2><div><p>Ancient footsteps. Impossible landscapes.<br />Ordinary moments in extraordinary places.<br />There’s a story waiting for you.</p><button className="expedition-text-link" onClick={onExplore}>Explore all {landmarks.length} places <ArrowUpRight size={17} /></button></div></div>
