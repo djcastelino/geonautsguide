@@ -15,6 +15,7 @@ import CityGuess from "./components/CityGuess";
 import NotificationBanner from "./components/NotificationBanner";
 import { fetchWikipediaSummary, generateNarration } from "./services/api";
 import landmarksData from "./data/landmarks.json";
+import { trackUmami } from "./utils/analytics";
 import "./components/Journal.css";
 
 const routeView = () => { const value = new URLSearchParams(window.location.search).get("view"); return ["connections", "whyhere", "cityguess", "planner", "grid", "about", "throughtime", "journey", "worldquiz"].includes(value) ? value : "home"; };
@@ -37,6 +38,7 @@ function App() {
     if (next === "home") url.searchParams.delete("view"); else url.searchParams.set("view", next);
     if (["whyhere", "throughtime"].includes(next) && city) url.searchParams.set("city", city); else url.searchParams.delete("city");
     window.history.pushState({}, "", url);
+    trackUmami("view_opened", city ? { view: next, city } : { view: next });
     setWhyCity(city);
     generation.current++;
     setView(next);
@@ -52,6 +54,7 @@ function App() {
     return () => window.removeEventListener("popstate", restore);
   }, []);
   const onLandmarkSelect = async (landmark) => {
+    trackUmami("landmark_opened", { landmark: landmark.name, country: landmark.country || "" });
     const request = ++generation.current;
     setIsLoading(true);
     setError(null);

@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Compass, Globe2, Sparkles, ArrowUpRight, CheckCircle2, XCircle, Layers, Orbit } from 'lucide-react';
 import './GeonautsFieldLab.css';
+import { trackUmami } from '../utils/analytics';
 
 const LATITUDE_TWINS = [
   {
@@ -152,7 +153,7 @@ export default function GeonautsFieldLab({ onOpenConnections, onOpenThroughTime,
             role="tab"
             aria-selected={activeTab === 'twins'}
             className={'fieldlab-tab ' + (activeTab === 'twins' ? 'active' : '')}
-            onClick={() => setActiveTab('twins')}
+            onClick={() => { setActiveTab('twins'); trackUmami('field_lab_tab', { tab: 'latitude_twins' }); }}
           >
             <span className="fieldlab-tab-num">01</span>
             <div>
@@ -165,7 +166,7 @@ export default function GeonautsFieldLab({ onOpenConnections, onOpenThroughTime,
             role="tab"
             aria-selected={activeTab === 'paradox'}
             className={'fieldlab-tab ' + (activeTab === 'paradox' ? 'active' : '')}
-            onClick={() => setActiveTab('paradox')}
+            onClick={() => { setActiveTab('paradox'); trackUmami('field_lab_tab', { tab: 'spatial_paradox' }); }}
           >
             <span className="fieldlab-tab-num">02</span>
             <div>
@@ -214,7 +215,7 @@ export default function GeonautsFieldLab({ onOpenConnections, onOpenThroughTime,
                     What happens if you drill a straight tunnel 12,742 km through the Earth’s core from {currentTwin.anchorCity.split(',')[0]}?
                   </p>
                   {!showDrill ? (
-                    <button className="fieldlab-drill-btn" onClick={() => setShowDrill(true)}>
+                    <button className="fieldlab-drill-btn" onClick={() => { setShowDrill(true); trackUmami('antipode_drill', { city: currentTwin.anchorCity }); }}>
                       Simulate Core Drill from {currentTwin.anchorCity.split(',')[0]} <ArrowUpRight size={15} />
                     </button>
                   ) : (
@@ -241,7 +242,7 @@ export default function GeonautsFieldLab({ onOpenConnections, onOpenThroughTime,
                       <button
                         key={opt.id}
                         className={'fieldlab-option ' + stateClass}
-                        onClick={() => setTwinChoice(opt.id)}
+                        onClick={() => { setTwinChoice(opt.id); trackUmami('field_lab_answered', { mode: 'latitude_twins', id: currentTwin.id, correct: Boolean(opt.isCorrect) }); }}
                       >
                         <div className="fieldlab-option-main">
                           <span>{opt.label}</span>
@@ -331,7 +332,7 @@ export default function GeonautsFieldLab({ onOpenConnections, onOpenThroughTime,
                     <button
                       key={opt.id}
                       className={'fieldlab-option ' + stateClass}
-                      onClick={() => setParadoxChoice(opt.id)}
+                      onClick={() => { setParadoxChoice(opt.id); trackUmami('field_lab_answered', { mode: 'spatial_paradox', id: currentParadox.id, correct: Boolean(opt.isCorrect) }); }}
                     >
                       <span>{opt.label}</span>
                       {showState && opt.isCorrect && <CheckCircle2 size={18} />}
